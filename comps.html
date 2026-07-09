@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fleeting - How food &amp; event newsletters look</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0e0d10;--panel:#17161b;--panel2:#1f1d24;--cream:#f6f1e7;--accent:#E64535;--gold:#f0b429;--muted:#9b958a;--line:rgba(246,241,231,.12);}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--cream);font-family:'Inter',sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.18),transparent 60%);min-height:100vh;}
+  .wrap{max-width:1040px;margin:0 auto;padding:30px 22px 64px;}
+  .top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:23px;}
+  .logo .dot{color:var(--accent);}
+  .stars{color:var(--accent);letter-spacing:.3em;font-size:11px;}
+  .top .sub{color:var(--muted);font-size:14px;}
+  .intro{color:var(--muted);font-size:14.5px;margin:16px 0 8px;max-width:760px;}
+  .intro b{color:var(--cream);}
+
+  .lesson{background:linear-gradient(135deg,rgba(230,69,53,.14),rgba(240,180,41,.07));border:1px solid rgba(240,180,41,.35);border-radius:14px;padding:16px 18px;margin:18px 0 28px;}
+  .lesson h3{font-family:'Archivo';font-weight:700;font-size:14px;color:var(--gold);letter-spacing:.02em;}
+  .lesson p{font-size:13.5px;color:var(--cream);margin-top:6px;}
+  .lesson p span{color:var(--muted);}
+
+  h2.sec{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.04em;text-transform:uppercase;margin:30px 0 4px;color:var(--cream);}
+  h2.sec .tag{font-size:11px;font-weight:500;color:var(--muted);font-family:'Inter';letter-spacing:0;text-transform:none;margin-left:8px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:10px;}
+  .card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px;text-decoration:none;color:inherit;transition:transform .14s,border-color .14s,background .14s;}
+  .card:hover{transform:translateY(-2px);border-color:rgba(230,69,53,.55);background:var(--panel2);}
+  .card .name{font-family:'Archivo';font-weight:700;font-size:15px;color:var(--cream);}
+  .card .name .arrow{color:var(--accent);float:right;font-weight:700;}
+  .card .look{font-size:13px;color:var(--muted);margin-top:6px;}
+  .card .url{font-size:11px;color:var(--accent);margin-top:8px;word-break:break-all;opacity:.85;}
+  .pill{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:999px;margin-left:6px;vertical-align:middle;}
+  .pill.local{background:var(--accent);color:#fff;}
+  .pill.tool{background:var(--gold);color:#241c00;}
+  .foot{color:var(--muted);font-size:12.5px;margin-top:34px;border-top:1px solid var(--line);padding-top:16px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="../index.html" style="display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:#9b958a;text-decoration:none;letter-spacing:.02em;">&#8592; Fleeting HQ</a>
+  <div class="top">
+    <span class="logo">FLEETING<span class="dot">.</span></span>
+    <span class="stars">&#9733;&#9733;&#9733;</span>
+    <span class="sub">How food &amp; event newsletters actually look &mdash; click any card to see the real thing</span>
+  </div>
+  <p class="intro">A board of real comps, weighted to your lane. <b>Milled</b> and <b>Really Good Emails</b> render the actual sent emails; the rest link to each publication's own newsletter. Verified live 2026-06-26.</p>
+
+  <div class="lesson">
+    <h3>The one pattern to notice</h3>
+    <p>They split into two camps and <b>both win</b>: <b>photo-forward editorial</b> (Time Out, Eater, Goldbelly - big images, magazine energy) and <b>radical-minimal curation</b> (The Skint - no photos, no capital letters, just Event / date / where / cost / one line). <span>What every strong one shares: the date, price, and location sit on every single item. Fleeting's countdown chip is already that instinct - the question is just how much photography you want around it.</span></p>
+  </div>
+
+  <h2 class="sec">Food &mdash; editorial / curation <span class="tag">closest to Fleeting's voice</span></h2>
+  <div class="grid">
+    <a class="card" href="https://www.theinfatuation.com/newsletter" target="_blank" rel="noopener"><div class="name">The Infatuation<span class="arrow">&#8594;</span></div><div class="look">3 spots, one sharp sentence each. Clean, confident, image + verdict. The curation-voice gold standard.</div><div class="url">theinfatuation.com/newsletter</div></a>
+    <a class="card" href="https://resy.com/cities/nashville-tn/events" target="_blank" rel="noopener"><div class="name">Resy &mdash; Right This Way<span class="arrow">&#8594;</span></div><div class="look">Staff-pick city roundups and ticketed events. Editorial restaurant curation, reservation-led.</div><div class="url">resy.com/cities/nashville-tn/events</div></a>
+    <a class="card" href="https://www.eater.com/pages/newsletters" target="_blank" rel="noopener"><div class="name">Eater<span class="arrow">&#8594;</span></div><div class="look">City newsletters: news + heatmap lists, photo-led, authoritative. Mixes food news with where-to-go.</div><div class="url">eater.com/pages/newsletters</div></a>
+    <a class="card" href="https://punchdrink.com/" target="_blank" rel="noopener"><div class="name">Punch<span class="arrow">&#8594;</span></div><div class="look">Drinks editorial. Moody photography, long-form feel - the bar-world equivalent of your beat.</div><div class="url">punchdrink.com</div></a>
+    <a class="card" href="https://www.vittlesmagazine.com/" target="_blank" rel="noopener"><div class="name">Vittles<span class="arrow">&#8594;</span></div><div class="look">Food-magazine writing, beautiful imagery, serif. The aesthetic leader in the category (Substack).</div><div class="url">vittlesmagazine.com</div></a>
+  </div>
+
+  <h2 class="sec">Food &mdash; photo-forward / commerce <span class="tag">how image-heavy reads</span></h2>
+  <div class="grid">
+    <a class="card" href="https://milled.com/goldbelly" target="_blank" rel="noopener"><div class="name">Goldbelly <span class="pill tool">real emails</span><span class="arrow">&#8594;</span></div><div class="look">Big appetizing product photos, bold CTAs, deal-driven. Commerce not curation - but the photo-forward extreme.</div><div class="url">milled.com/goldbelly</div></a>
+    <a class="card" href="https://emaillove.com/authors/gold-belly" target="_blank" rel="noopener"><div class="name">EmailLove &mdash; food archive <span class="pill tool">gallery</span><span class="arrow">&#8594;</span></div><div class="look">Curated archive of real food-brand emails, page after page, for scanning design trends.</div><div class="url">emaillove.com/authors/gold-belly</div></a>
+  </div>
+
+  <h2 class="sec">Event &amp; city &mdash; "what's on" <span class="tag">your event side</span></h2>
+  <div class="grid">
+    <a class="card" href="https://www.timeout.com/newyork/newsletter" target="_blank" rel="noopener"><div class="name">Time Out<span class="arrow">&#8594;</span></div><div class="look">Bold magazine, photo-led, branded pink/black. "Best things to do" + openings, single column. The biggest city-events comp.</div><div class="url">timeout.com/newyork/newsletter</div></a>
+    <a class="card" href="https://www.theskint.com/" target="_blank" rel="noopener"><div class="name">The Skint<span class="arrow">&#8594;</span></div><div class="look">Radical minimalist: no photos, no caps. Event / date / location / cost / one line. Proof a list wins on pure curation.</div><div class="url">theskint.com</div></a>
+    <a class="card" href="https://dice.fm/" target="_blank" rel="noopener"><div class="name">DICE<span class="arrow">&#8594;</span></div><div class="look">Sleek, dark, music-event recommendations. Mobile-first, image tiles, "you'll want this" tone.</div><div class="url">dice.fm</div></a>
+    <a class="card" href="https://ra.co/" target="_blank" rel="noopener"><div class="name">Resident Advisor<span class="arrow">&#8594;</span></div><div class="look">Electronic-music events. Stark, editorial, confident typography - design-forward event listings.</div><div class="url">ra.co</div></a>
+    <a class="card" href="https://www.thrillist.com/" target="_blank" rel="noopener"><div class="name">Thrillist<span class="arrow">&#8594;</span></div><div class="look">Punchy, listicle, photo-forward city + food + things-to-do. Loud, casual, high-volume.</div><div class="url">thrillist.com</div></a>
+  </div>
+
+  <h2 class="sec">Local Nashville <span class="tag">your direct comps</span></h2>
+  <div class="grid">
+    <a class="card" href="https://nashtoday.6amcity.com/newsletter-archive" target="_blank" rel="noopener"><div class="name">NASHtoday (6AM City) <span class="pill local">local</span><span class="arrow">&#8594;</span></div><div class="look">Your category model. Daily local: weather block, curated items, inline native ads. Live archive of real issues.</div><div class="url">nashtoday.6amcity.com/newsletter-archive</div></a>
+    <a class="card" href="https://do615.com/p/newsletter" target="_blank" rel="noopener"><div class="name">Do615 <span class="pill local">local</span><span class="arrow">&#8594;</span></div><div class="look">Daily Nashville events &amp; concerts. Listing-driven, high-volume - the local event-side incumbent.</div><div class="url">do615.com/p/newsletter</div></a>
+  </div>
+
+  <h2 class="sec">Browse the real ones <span class="tag">see emails as sent</span></h2>
+  <div class="grid">
+    <a class="card" href="https://milled.com/" target="_blank" rel="noopener"><div class="name">Milled <span class="pill tool">tool</span><span class="arrow">&#8594;</span></div><div class="look">Search engine for 46M+ real sent emails. Type any brand - Eater, Resy, Tock, Eventbrite - and see exactly how it looked in the inbox.</div><div class="url">milled.com</div></a>
+    <a class="card" href="https://reallygoodemails.com/categories/food" target="_blank" rel="noopener"><div class="name">Really Good Emails <span class="pill tool">tool</span><span class="arrow">&#8594;</span></div><div class="look">Designer-curated galleries. Filter to food + newsletter for the best-built examples.</div><div class="url">reallygoodemails.com/categories/food</div></a>
+    <a class="card" href="https://inboxcollective.com/what-you-can-learn-about-running-a-local-events-newsletter-from-three-publishers-who-do-it/" target="_blank" rel="noopener"><div class="name">Inbox Collective <span class="pill tool">read</span><span class="arrow">&#8594;</span></div><div class="look">How three local-events newsletters (incl. The Skint) grow and monetize. Strategy, not just looks.</div><div class="url">inboxcollective.com</div></a>
+  </div>
+
+  <div class="foot">Tip: on Milled, search any brand above to compare 6-12 of their real sends side by side. The publication links open each newsletter's own signup/archive.</div>
+</div>
+</body>
+</html>

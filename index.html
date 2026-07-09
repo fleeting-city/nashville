@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fleeting — Nashville's here-then-gone, before you miss it</title>
+<meta name="description" content="Fleeting is the weekly heads-up on Nashville's time-limited everything — pop-ups, one-night menus, secret shows, limited runs, rooftop seasons. The stuff you'd miss if you weren't paying attention.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+  .display{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.03em;line-height:.92;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  a{color:inherit;}
+  .stars{color:var(--accent);letter-spacing:.35em;font-size:.7em;vertical-align:middle;}
+
+  nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);background:rgba(14,13,16,.74);border-bottom:1px solid var(--line);}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;height:64px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;text-shadow:0 0 16px rgba(230,69,53,.45);}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .nav-cta{font-weight:600;font-size:14px;background:var(--accent);color:#fff;padding:9px 18px;border-radius:999px;text-decoration:none;transition:transform .15s,box-shadow .2s;}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(230,69,53,.45);}
+
+  .hero{position:relative;padding:92px 0 0;overflow:hidden;}
+  .hero::before{content:"";position:absolute;inset:0;background:
+     radial-gradient(55% 45% at 82% -5%, rgba(230,69,53,.26), transparent 60%),
+     radial-gradient(45% 38% at 0% 70%, rgba(240,180,41,.10), transparent 60%);z-index:0;}
+  .hero .wrap{position:relative;z-index:2;}
+  .kicker{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid var(--line);padding:7px 14px;border-radius:999px;}
+  .hourglass{display:inline-block;animation:tick 3s ease-in-out infinite;}
+  @keyframes tick{0%,44%{transform:rotate(0)}56%,100%{transform:rotate(180deg)}}
+  h1{font-size:clamp(48px,9.5vw,116px);margin:22px 0 0;}
+  h1 .hl{color:var(--accent);text-shadow:0 0 28px rgba(230,69,53,.6);}
+  .sub{font-size:clamp(17px,2.2vw,22px);color:var(--muted);max-width:660px;margin:22px 0 26px;}
+  .sub b{color:var(--cream);font-weight:600;}
+  .value{font-size:clamp(15px,1.9vw,18px);font-weight:600;color:var(--cream);margin:0 0 18px;}
+  .value .g{color:var(--gold);}
+  .proof{margin-top:16px;font-size:13.5px;color:var(--muted);max-width:600px;}
+  .proof b{color:var(--cream);}
+
+  .form{display:flex;gap:10px;max-width:520px;flex-wrap:wrap;}
+  .form input{flex:1 1 240px;background:#fff;border:none;border-radius:12px;padding:16px 18px;font-size:16px;font-family:inherit;}
+  .btn{background:var(--accent);color:#fff;border:none;border-radius:12px;padding:16px 26px;font-size:16px;font-weight:700;font-family:inherit;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:transform .15s,box-shadow .2s;}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(230,69,53,.45);}
+  .trust{margin-top:14px;font-size:13px;color:var(--muted);} .trust b{color:var(--cream);}
+
+  .skyline{position:relative;z-index:1;display:block;width:100%;height:130px;color:#1c1b21;margin-top:48px;}
+  .skyline .lit{fill:rgba(230,69,53,.16);}
+
+  .marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;white-space:nowrap;overflow:hidden;background:var(--ink2);-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);}
+  .marquee .track{display:inline-block;animation:scroll 30s linear infinite;}
+  .marquee span{font-family:'Archivo';font-weight:700;font-size:21px;color:var(--cream);margin:0 24px;opacity:.85;}
+  .marquee span .s{color:var(--gold);font-weight:500;}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  section{padding:84px 0;}
+  .eyebrow{color:var(--gold);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;}
+  h2{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;font-size:clamp(30px,4.5vw,48px);margin:12px 0 8px;line-height:1.02;}
+  .lead{color:var(--muted);font-size:18px;max-width:660px;}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:40px;}
+  .card{background:var(--ink2);border:1px solid var(--line);border-radius:18px;padding:26px;transition:transform .2s,border-color .2s;}
+  .card:hover{transform:translateY(-4px);border-color:rgba(230,69,53,.5);}
+  .card .ic{font-size:30px;}
+  .card h3{font-family:'Archivo';font-weight:700;font-size:20px;margin:14px 0 8px;}
+  .card p{color:var(--muted);font-size:15px;}
+
+  .preview{background:var(--cream);color:var(--ink);border-radius:22px;padding:36px;max-width:600px;margin:40px auto 0;box-shadow:0 40px 80px rgba(0,0,0,.45);}
+  .preview .tag{color:var(--accent);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;}
+  .preview .it{padding:16px 0;border-bottom:1px solid rgba(15,15,16,.1);}
+  .preview .it:last-child{border:none;}
+  .preview .it b{font-size:16px;}
+  .preview .it .d{color:#555;font-size:14px;margin-top:3px;}
+  .pill{display:inline-block;background:var(--ink);color:#fff;font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px;margin-left:6px;}
+  .pill.hood{background:var(--gold);color:#1a1a1a;}
+  .pill.cat{background:var(--accent);color:#fff;}
+
+  .raffle{max-width:600px;margin:36px auto 0;background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.10));border:1px solid rgba(240,180,41,.38);border-radius:20px;padding:32px;text-align:center;}
+  .raffle .prize{font-family:'Archivo';font-weight:900;font-size:clamp(22px,3.5vw,30px);margin:8px 0;}
+  .raffle .how{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:18px;color:var(--muted);font-size:14px;}
+  .raffle .how b{color:var(--gold);}
+  .tip{max-width:560px;margin:34px auto 0;display:grid;gap:12px;text-align:left;}
+  .tip input,.tip textarea{width:100%;background:var(--ink2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--cream);font:inherit;font-size:15px;}
+  .tip textarea{min-height:96px;resize:vertical;}
+  .tip input::placeholder,.tip textarea::placeholder{color:var(--muted);}
+  .tip .btn{justify-content:center;}
+
+  .band{position:relative;background:linear-gradient(135deg,var(--accent),var(--neon));color:#fff;border-radius:24px;padding:54px 40px;text-align:center;overflow:hidden;}
+  .band h2{color:#fff;} .band p{max-width:560px;margin:10px auto 26px;opacity:.95;}
+  .band .btn{background:#0e0d10;} .band .btn:hover{box-shadow:0 12px 30px rgba(0,0,0,.4);}
+  .band.dark{background:var(--ink2);border:1px solid var(--line);}
+  .band.dark h2{color:var(--cream);} .band.dark p{color:var(--muted);}
+
+  footer{border-top:1px solid var(--line);padding:44px 0;color:var(--muted);font-size:14px;}
+  .foot-in{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:flex-end;}
+
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease;}
+  .reveal.in{opacity:1;transform:none;}
+  @media(max-width:600px){section{padding:58px 0;}.hero{padding:60px 0 0;}.skyline{height:90px;margin-top:36px;}}
+</style>
+</head>
+<body>
+
+  <nav><div class="wrap nav-in">
+    <div class="logo">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></div>
+    <a class="nav-cta" href="#subscribe">Subscribe free</a>
+  </div></nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <span class="kicker"><span class="hourglass">⏳</span> <span class="stars">★★★</span> Nashville · weekly · free</span>
+      <h1 class="display">Here for<br><span class="hl">a moment.</span></h1>
+      <p class="sub">Pop-ups, one-night menus, secret shows, limited runs, the rooftop that closes when summer ends — <b>the Nashville things you'd kick yourself for missing.</b> One timely heads-up a week, plus same-day alerts the second something drops.</p>
+      <p class="value">📬 One email a week · ⚡ same-day alerts for the urgent stuff · <span class="g">always free.</span></p>
+      <form class="form" id="subscribe" onsubmit="return go(event)">
+        <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
+        <button class="btn" type="submit">Don't miss out →</button>
+      </form>
+      <p class="trust">⭐ <b>Be a founding reader.</b> The list for people who hate finding out *after* it's over. Unsubscribe anytime.</p>
+      <p class="proof">Already tracking <b>pop-ups, chef collabs, gallery nights, rooftop seasons, one-night shows, limited menus</b> — everything Nashville that's here, then gone.</p>
+    </div>
+
+    <svg class="skyline" viewBox="0 0 1200 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <!-- The real line, west to east: Pinnacle (slant crown), 505 (fin), L&C (step),
+           Fifth+Broadway, the AT&T Batman Building (concave crown, twin masts),
+           Bridgestone dome + mast, the Ryman gable, the Seigenthaler bridge arches. -->
+      <g fill="currentColor">
+        <rect x="0" y="100" width="54" height="40"/><rect x="60" y="82" width="40" height="58"/>
+        <rect x="106" y="94" width="62" height="46"/>
+        <path d="M180 140 L180 62 L262 50 L262 140 Z"/>
+        <rect x="276" y="88" width="44" height="52"/><rect x="328" y="72" width="34" height="68"/>
+        <rect x="376" y="38" width="66" height="102"/><rect x="420" y="28" width="8" height="10"/>
+        <rect x="458" y="66" width="52" height="74"/><rect x="466" y="58" width="36" height="8"/>
+        <rect x="524" y="84" width="76" height="56"/>
+        <path d="M622 140 L622 52 Q673 70 724 52 L724 140 Z"/>
+        <rect x="634" y="8" width="6" height="48"/><rect x="706" y="8" width="6" height="48"/>
+        <rect x="738" y="92" width="40" height="48"/><rect x="786" y="76" width="52" height="64"/>
+        <path d="M852 140 Q902 84 952 140 Z"/><rect x="899" y="62" width="4" height="34"/>
+        <path d="M966 140 L966 102 L992 84 L1018 102 L1018 140 Z"/>
+        <path d="M1032 136 Q1072 98 1112 136" fill="none" stroke="currentColor" stroke-width="5"/>
+        <rect x="1038" y="120" width="4" height="16"/><rect x="1070" y="106" width="4" height="30"/><rect x="1102" y="120" width="4" height="16"/>
+        <rect x="1124" y="100" width="44" height="40"/><rect x="1176" y="110" width="24" height="30"/>
+        <rect class="lit" x="650" y="72" width="8" height="10"/><rect class="lit" x="684" y="90" width="8" height="10"/>
+        <rect class="lit" x="396" y="54" width="7" height="9"/><rect class="lit" x="212" y="78" width="7" height="9"/>
+      </g>
+    </svg>
+  </header>
+
+  <div class="marquee"><div class="track" id="mq">
+    <span>Pizza Lolo<span class="s"> · East Nash</span></span><span>Rooftop season<span class="s"> · Downtown</span></span><span>Gallery night<span class="s"> · WeHo</span></span><span>Fox Den Izakaya<span class="s"> · East Nash</span></span><span>One-night collab</span><span>Lost &amp; Found<span class="s"> · East Nash</span></span><span>Secret supper</span><span>Limited menu<span class="s"> · Germantown</span></span><span>Pop-up market</span>
+  </div></div>
+
+  <section>
+    <div class="wrap">
+      <div class="eyebrow reveal">What lands in your inbox</div>
+      <h2 class="reveal">Three ways you stop missing out.</h2>
+      <div class="cards">
+        <div class="card reveal"><div class="ic">⏳</div><h3>The Weekly</h3><p>Every Thursday: the pop-ups, one-night events, shows, and limited-time things across Nashville worth rearranging your week for.</p></div>
+        <div class="card reveal"><div class="ic">⚡</div><h3>Just Dropped</h3><p>Same-day alerts for the one-or-two-day stuff that can't wait for Thursday. The thing you'd have found out about Monday — you hear today.</p></div>
+        <div class="card reveal"><div class="ic">📍</div><h3>The Insider Map</h3><p>Refer a friend and unlock the map of Nashville's recurring pop-ups, residencies, and where the fleeting stuff tends to hide.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="eyebrow reveal">Two cities, one list</div>
+      <h2 class="reveal">From East Nashville to Brentwood.</h2>
+      <p class="lead reveal">Fleeting covers the whole metro — including Williamson County, where some of the best (and most exclusive) things quietly sell out before anyone hears about them.</p>
+      <div class="cards">
+        <div class="card reveal"><div class="ic">🎸</div><h3>Nashville</h3><p>East Nash pop-ups, Gulch rooftops, Germantown collabs, downtown one-offs and one-night shows.</p></div>
+        <div class="card reveal"><div class="ic">🥂</div><h3>Franklin &amp; Brentwood</h3><p>Winery dinners, fine-dining tastings, private events, luxury openings, charity galas — Williamson's fleeting best.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="eyebrow reveal" style="text-align:center;">A taste of this week</div>
+      <h2 class="reveal" style="text-align:center;">This is what you'd have gotten.</h2>
+      <div class="preview reveal">
+        <div class="tag">⏳ This week — catch it before it's gone</div>
+        <div class="it"><b>🍕 Pizza Lolo</b><span class="pill cat">FOOD</span><span class="pill hood">East Nash</span><div class="d">Cold-fermented Neapolitan pies, Wednesdays only at Coral Club. Dough runs out before the night does.</div></div>
+        <div class="it"><b>🥂 Fairlane Rooftop — Capri spritz bar</b><span class="pill cat">DRINK</span><span class="pill hood">Downtown</span><div class="d">The downtown rooftop went full Amalfi for the season. Gone when summer is.</div></div>
+        <div class="it"><b>🎟️ One-night chef collab &amp; gallery nights</b><span class="pill cat">EVENTS</span><div class="d">The ticketed dinners, openings, and one-off shows that sell out the hour they're posted — we flag them while you can still get in.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="text-align:center;">
+      <div class="eyebrow reveal">Fleeting+</div>
+      <h2 class="reveal">For people who refuse to miss anything.</h2>
+      <p class="lead reveal" style="margin:0 auto;">The free list is the highlights. <b style="color:var(--cream)">Fleeting+</b> is everything — and early.</p>
+      <div class="raffle reveal" style="text-align:left;">
+        <div style="text-align:center;color:var(--gold);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px;">⭐ Fleeting+</div>
+        <div class="prize" style="text-align:center;">$7<span style="font-size:15px;color:var(--muted);font-weight:500;"> / month</span></div>
+        <ul style="list-style:none;padding:0;margin:14px 0 0;display:grid;gap:10px;font-size:15px;">
+          <li>✓ The <b>full calendar</b> — everything we find, not just the curated top</li>
+          <li>✓ <b>Early alerts</b> — reservations &amp; RSVPs before the free list gets them</li>
+          <li>✓ <b>Member perks</b> — reserved spots &amp; discounts we negotiate with venues</li>
+          <li>✓ The <b>Williamson premium edition</b>, in full</li>
+        </ul>
+        <a class="btn" href="https://fleeting.beehiiv.com/subscribe" style="margin-top:20px;justify-content:center;display:flex;">Go Fleeting+ →</a>
+        <p style="text-align:center;color:var(--muted);font-size:13px;margin-top:12px;">The free weekly list is always free. This is for the superfans.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="text-align:center;">
+      <div class="eyebrow reveal">Raffles &amp; Giveaways</div>
+      <h2 class="reveal">Win your way into Nashville.</h2>
+      <p class="lead reveal" style="margin:0 auto;">Every subscriber is automatically entered in the weekly giveaway — dinners, tickets, a night out. Refer a friend and you stack entries. Winners announced Thursday.</p>
+      <div class="raffle reveal">
+        <div class="stars">★★★</div>
+        <div style="color:var(--gold);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px;margin-top:8px;">🎟️ This week's prize</div>
+        <div class="prize">A night out, on us</div>
+        <p style="color:var(--muted);margin-top:4px;">Free to enter — you're in the moment you subscribe.</p>
+        <div class="how">
+          <span><b>1.</b> Subscribe = 1 entry</span>
+          <span><b>2.</b> Each referral = +5 entries</span>
+          <span><b>3.</b> Winner drawn Thursday</span>
+        </div>
+        <a class="btn" href="#subscribe" style="margin-top:22px;">Enter free — subscribe →</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap" style="text-align:center;">
+      <div class="eyebrow reveal">Got a tip?</div>
+      <h2 class="reveal">Know something fleeting we should chase?</h2>
+      <p class="lead reveal" style="margin:0 auto;">A pop-up, a show, a one-night menu, a closing-soon spot — you're our eyes on the ground. Best tip each week gets a shout-out.</p>
+      <form class="tip reveal" onsubmit="return tip(event)">
+        <input id="t-name" type="text" placeholder="Name of the pop-up / event / spot" required>
+        <textarea id="t-what" placeholder="What's happening? (and when — dates matter for the fleeting stuff)" required></textarea>
+        <input id="t-link" type="text" placeholder="Link (Instagram, tickets, website) — optional">
+        <input id="t-email" type="email" placeholder="Your email — optional, so we can credit you">
+        <button class="btn" type="submit">Send the tip →</button>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="band reveal">
+        <div class="stars" style="color:#fff;opacity:.8;font-size:16px;">★ ★ ★</div>
+        <h2 style="margin-top:10px;">Stop finding out too late.</h2>
+        <p>Free, weekly, and the only list built for the Nashville things that disappear — food, drink, and everything else worth catching.</p>
+        <a class="btn" href="#subscribe">Subscribe free →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Pledge (canon fact 6) -->
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="band reveal">
+        <div class="eyebrow">The Pledge</div>
+        <h2>Fleeting moments build a legacy.</h2>
+        <p>Ten percent of every subscription goes to feeding Nashville. A different local organization every month &mdash; readers choose who. Published every issue, counted in meals.</p>
+        <img src="https://fleeting-cd.netlify.app/cd/pledge.png" alt="Fleeting pledge counter — meals funded across Nashville" style="max-width:560px;width:100%;margin-top:18px;">
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="band dark reveal">
+        <div class="eyebrow">For restaurants, bars, venues &amp; promoters</div>
+        <h2>Running something time-limited?</h2>
+        <p>Pop-up, one-night event, limited menu, a show — get it in front of the Nashville crowd actively deciding where to go this week. Features start at $250.</p>
+        <a class="btn" href="advertise.html">Advertise on Fleeting →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer><div class="wrap foot-in">
+    <div><b style="color:var(--cream);font-family:'Archivo';">FLEETING</b> <span class="stars">★★★</span> <span style="color:var(--muted)">Nashville</span><br>The Nashville things that are here for a moment.</div>
+    <div>team@horaceforests.com<br>[mailing address — CAN-SPAM] · Nashville, TN</div>
+  </div></footer>
+
+<script>
+  function go(e){
+    e.preventDefault();
+    var em = encodeURIComponent(document.getElementById('email').value);
+    window.location.href = 'https://fleeting.beehiiv.com/subscribe?email=' + em;
+    return false;
+  }
+  function tip(e){
+    e.preventDefault();
+    var n=document.getElementById('t-name').value, w=document.getElementById('t-what').value,
+        l=document.getElementById('t-link').value, em=document.getElementById('t-email').value;
+    var body='What: '+n+'\n\nDetails: '+w+'\n\nLink: '+(l||'-')+'\n\nFrom: '+(em||'-');
+    window.location.href='mailto:team@horaceforests.com?subject='+encodeURIComponent('Fleeting tip: '+n)+'&body='+encodeURIComponent(body);
+    return false;
+  }
+  var mq = document.getElementById('mq'); if(mq) mq.innerHTML += mq.innerHTML;
+  var io = new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting)x.target.classList.add('in');});},{threshold:.15});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+</script>
+</body>
+</html>

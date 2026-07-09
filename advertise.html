@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advertise — Fleeting - Nashville</title>
+<!--
+  Self-serve storefront front-end (Track A). Host on Heimdall (Tailscale Funnel / nginx)
+  at advertise.fleetingnashville... or as a beehiiv custom page. Replace the three
+  STRIPE_LINK placeholders with Stripe Payment Links once the Stripe account exists.
+  A restaurant picks a tier, pays via Stripe, and a webhook drops them into the next
+  issue's queue — no sales rep, no call. This is 6AM City's self-service ad portal, scaled to one.
+-->
+<style>
+  :root{--ink:#161616;--accent:#E2483D;--muted:#6b6b6b;--card:#faf7f2;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.55;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px;}
+  .hero{background:var(--ink);color:#fff;padding:48px 0;}
+  .kicker{color:var(--accent);font-size:13px;letter-spacing:2px;font-weight:700;text-transform:uppercase;}
+  h1{font-size:34px;line-height:1.15;margin:10px 0 8px;letter-spacing:-0.5px;}
+  .sub{color:#b9b3aa;font-size:17px;}
+  h2{font-size:22px;border-bottom:2px solid var(--ink);padding-bottom:6px;margin-top:40px;}
+  .tiers{display:flex;flex-wrap:wrap;gap:16px;margin-top:20px;}
+  .tier{flex:1 1 200px;background:var(--card);border:1px solid #eee;border-radius:10px;padding:20px;}
+  .tier h3{margin:0 0 4px;font-size:18px;}
+  .price{font-size:28px;font-weight:800;color:var(--accent);}
+  .tier ul{padding-left:18px;margin:10px 0 16px;font-size:14px;color:#444;}
+  .btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:12px;border-radius:8px;}
+  .btn.secondary{background:var(--ink);}
+  .steps{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px;}
+  .step{flex:1 1 150px;background:#fff;border:1px solid #eee;border-radius:8px;padding:14px;}
+  .step b{color:var(--accent);}
+  .faq{margin-top:14px;}
+  .faq dt{font-weight:700;margin-top:12px;}
+  .faq dd{margin:4px 0 0;color:#444;}
+  footer{background:var(--ink);color:#8a847b;font-size:13px;padding:24px 0;margin-top:48px;}
+  footer a{color:#b9b3aa;}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="wrap">
+      <div class="kicker">⏳ Advertise</div>
+      <h1>Get your pop-up in front of the Nashville crowd deciding where to go this week.</h1>
+      <p class="sub">Fleeting is the weekly newsletter for time-limited food &amp; drink — pop-ups, chef collabs, one-night menus, seasonal concepts. Our readers open it <em>to decide where to spend money</em>. Put your thing in front of them.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <h2>Why it works</h2>
+    <p>Other Nashville outlets cover what's <em>new</em>. We cover what's <em>fleeting</em> — the difference between a reader who bookmarks and a reader who <strong>shows up tonight</strong>. If your business runs anything time-limited, this is the most urgent, most qualified local audience you can buy.</p>
+
+    <h2>Book a slot</h2>
+    <div class="tiers">
+      <div class="tier" style="border-color:#E2483D;border-width:2px;">
+        <h3>Spotlight ⭐</h3>
+        <div class="price">$750</div>
+        <ul>
+          <li>The week's <b>lead story</b> — a full deep-dive on your pop-up</li>
+          <li>Multiple photos, the story, your booking link</li>
+          <li>Social shout-out + performance report included</li>
+        </ul>
+        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Spotlight">Book a Spotlight →</a>
+      </div>
+      <div class="tier">
+        <h3>Feature</h3>
+        <div class="price">$250</div>
+        <ul>
+          <li>Top-of-section write-up in our voice</li>
+          <li>Photo + link + a clear "Book it →" CTA</li>
+          <li>Open &amp; click numbers reported to you</li>
+        </ul>
+        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature">Book a Feature →</a>
+      </div>
+      <div class="tier">
+        <h3>Feature 4-Pack</h3>
+        <div class="price">$900</div>
+        <ul>
+          <li>Four Features (save $100)</li>
+          <li>Best for a run or a recurring pop-up</li>
+          <li>Performance report after each</li>
+        </ul>
+        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%204-Pack">Book the 4-Pack →</a>
+      </div>
+      <div class="tier">
+        <h3>Listing</h3>
+        <div class="price">$75</div>
+        <ul>
+          <li>One-line mention + link in the roundup</li>
+          <li>Great for events &amp; one-offs</li>
+        </ul>
+        <a class="btn secondary" href="mailto:advertise@fleeting.city?subject=Fleeting%20Listing">Book a Listing →</a>
+      </div>
+    </div>
+    <p style="font-size:13px;color:#6b6b6b;margin-top:12px;">Want to be the <strong>presenting sponsor</strong> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:team@horaceforests.com?subject=Last%20Call%20presenting%20sponsor">email us</a>.</p>
+
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><b>1.</b> Pick a slot &amp; pay (Stripe, 30 sec).</div>
+      <div class="step"><b>2.</b> We email you for a photo + link (or we pull it).</div>
+      <div class="step"><b>3.</b> It runs in the next Thursday issue.</div>
+      <div class="step"><b>4.</b> You get the open &amp; click numbers.</div>
+    </div>
+
+    <h2>FAQ</h2>
+    <dl class="faq">
+      <dt>How big is the list?</dt>
+      <dd>Growing fast in a defined geography (Nashville food &amp; drink). You're buying relevance and intent, not a vanity number — and a founding rate before it goes up.</dd>
+      <dt>Can I pick which week?</dt>
+      <dd>Yes — tell us when your pop-up runs and we slot it so it lands before the doors open.</dd>
+      <dt>What do you need from me?</dt>
+      <dd>A photo, a link, and one line about what's happening. We write the rest in our voice.</dd>
+    </dl>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <strong>Fleeting</strong> — the Nashville food that's here for a moment.<br>
+      Questions? <a href="mailto:team@horaceforests.com">team@horaceforests.com</a> · [mailing address — CAN-SPAM]
+    </div>
+  </footer>
+</body>
+</html>
