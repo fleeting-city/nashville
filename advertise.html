@@ -8,13 +8,14 @@
 <link rel="apple-touch-icon" href="/favicon_180.png">
 <meta name="theme-color" content="#0e0d10">
 <title>Advertise — Fleeting - Nashville</title>
-<meta name="description" content="Put your Nashville pop-up, one-night event, limited menu, or show in front of the readers deciding where to go this week. Sponsorship is booked by email.">
+<meta name="description" content="Put your Nashville pop-up, one-night event, limited menu, or show in front of the readers deciding where to go this week. Pick a tier and book in a minute.">
 <meta name="theme-color" content="#0e0d10">
 <!--
   Advertise page (relationship-closed sponsorship). Host on Heimdall (Tailscale Funnel / nginx)
-  or as a beehiiv custom page. Sponsorship is booked by email for now: a business picks a
-  tier and emails advertise@fleeting.city, and we slot them into the next issue's queue.
-  Stripe self-serve storefront is DEFERRED (LAS-29); beehiiv handles subscriptions.
+  or as a beehiiv custom page. Self-serve sponsorship is LIVE: each tier CTA carries a
+  Stripe-link placeholder that fleeting_github_deploy.sh injects with the live Stripe
+  Payment Link (created 2026-07-10; per-tier metadata + custom fields businessName/runWindow/
+  bookingLink drive fulfillment). Presenting-sponsor CTA stays email (founding-rate convo).
   Brand: dark mission-control canon (fleeting_canon fact 5) - Archivo/Inter, near-black
   ground, cream type, landmark skyline as the Nashville device (skyline is the sanctioned
   fallback; a licensed duotone Nashville photo is the preferred device when one exists).
@@ -129,7 +130,7 @@
   <section style="padding-top:0;">
     <div class="wrap">
       <div class="eyebrow">Book a slot</div>
-      <h2>Pick a tier, email us, run in the next issue.</h2>
+      <h2>Pick a tier, check out, run in the next issue.</h2>
       <div class="tiers">
         <div class="tier lead-tier">
           <h3>Spotlight ⭐</h3>
@@ -139,7 +140,7 @@
             <li>Multiple photos, the story, your booking link</li>
             <li>Social shout-out + performance report included</li>
           </ul>
-          <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Spotlight%20sponsorship">Email to book a Spotlight -&gt;</a>
+          <a class="btn" href="https://buy.stripe.com/cNi4gzaU56JUfV3fMJ1gs00" target="_blank" rel="noopener">Book a Spotlight -&gt;</a>
         </div>
         <div class="tier">
           <h3>Feature</h3>
@@ -149,7 +150,7 @@
             <li>Photo + link + a clear "Book it" CTA</li>
             <li>Open &amp; click numbers reported to you</li>
           </ul>
-          <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%20sponsorship">Email to book a Feature -&gt;</a>
+          <a class="btn" href="https://buy.stripe.com/14A3cv9Q14BMcIRbwt1gs01" target="_blank" rel="noopener">Book a Feature -&gt;</a>
         </div>
         <div class="tier">
           <h3>Feature 4-Pack</h3>
@@ -159,7 +160,7 @@
             <li>Best for a run or a recurring pop-up</li>
             <li>Performance report after each</li>
           </ul>
-          <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%204-Pack%20sponsorship">Email to book the 4-Pack -&gt;</a>
+          <a class="btn" href="https://buy.stripe.com/bJe8wP2nzd8i7ox6c91gs02" target="_blank" rel="noopener">Book the 4-Pack -&gt;</a>
         </div>
         <div class="tier">
           <h3>Listing</h3>
@@ -168,7 +169,7 @@
             <li>One-line mention + link in the roundup</li>
             <li>Great for events &amp; one-offs</li>
           </ul>
-          <a class="btn secondary" href="mailto:advertise@fleeting.city?subject=Fleeting%20Listing%20sponsorship">Email to book a Listing -&gt;</a>
+          <a class="btn secondary" href="https://buy.stripe.com/bJe4gzgep2tE38hfMJ1gs03" target="_blank" rel="noopener">Book a Listing -&gt;</a>
         </div>
       </div>
       <p class="note">Want to be the <b style="color:var(--cream);">presenting sponsor</b> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:advertise@fleeting.city?subject=Fleeting%20presenting%20sponsor">email us</a>.</p>
@@ -180,7 +181,7 @@
       <div class="eyebrow">How it works</div>
       <h2>Four steps, no dashboard to learn.</h2>
       <div class="steps">
-        <div class="step"><b>1.</b> Pick a slot &amp; email advertise@fleeting.city.</div>
+        <div class="step"><b>1.</b> Pick a tier and check out (about a minute).</div>
         <div class="step"><b>2.</b> We email you for a photo + link (or we pull it).</div>
         <div class="step"><b>3.</b> It runs in the next Thursday issue.</div>
         <div class="step"><b>4.</b> You get the open &amp; click numbers.</div>
@@ -207,7 +208,7 @@
     <div class="wrap">
       <b>FLEETING</b> <span class="stars">★★★</span> <span style="color:var(--muted)">Nashville</span><br>
       The Nashville things that are here for a moment.<br>
-      Questions? <a href="mailto:advertise@fleeting.city">advertise@fleeting.city</a> · [mailing address - CAN-SPAM]
+      Questions? <a href="mailto:advertise@fleeting.city">advertise@fleeting.city</a> · 117 30th Ave N, Nashville, TN 37203
     </div>
   </footer>
 </body>
