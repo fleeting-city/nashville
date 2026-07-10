@@ -236,12 +236,15 @@
       <div class="eyebrow reveal">Got a tip?</div>
       <h2 class="reveal">Know something fleeting we should chase?</h2>
       <p class="lead reveal" style="margin:0 auto;">A pop-up, a show, a one-night menu, a closing-soon spot — you're our eyes on the ground. Best tip each week gets a shout-out.</p>
-      <form class="tip reveal" onsubmit="return tip(event)">
+      <form class="tip reveal" id="tipForm" onsubmit="return tip(event)">
         <input id="t-name" type="text" placeholder="Name of the pop-up / event / spot" required>
         <textarea id="t-what" placeholder="What's happening? (and when — dates matter for the fleeting stuff)" required></textarea>
         <input id="t-link" type="text" placeholder="Link (Instagram, tickets, website) — optional">
         <input id="t-email" type="email" placeholder="Your email — optional, so we can credit you">
+        <input id="t-hp" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;">
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAADzZb--bcMyNrjXz" data-theme="dark" data-size="flexible"></div>
         <button class="btn" type="submit">Send the tip →</button>
+        <p id="t-status" role="status" aria-live="polite" style="margin:2px;font-size:14px;color:var(--muted);min-height:1em;"></p>
       </form>
     </div>
   </section>
@@ -286,18 +289,63 @@
   </div></footer>
 
 <script>
+  // Turnstile renders the .cf-turnstile div and injects the token input.
+  (function(){var s=document.createElement('script');
+   s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';
+   s.async=true;s.defer=true;document.head.appendChild(s);})();
   function go(e){
     e.preventDefault();
     var em = encodeURIComponent(document.getElementById('email').value);
     window.location.href = 'https://fleeting.beehiiv.com/subscribe?email=' + em;
     return false;
   }
+  var TIP_ENDPOINT='https://tips.fleeting.city/tip';
   function tip(e){
     e.preventDefault();
-    var n=document.getElementById('t-name').value, w=document.getElementById('t-what').value,
-        l=document.getElementById('t-link').value, em=document.getElementById('t-email').value;
-    var body='What: '+n+'\n\nDetails: '+w+'\n\nLink: '+(l||'-')+'\n\nFrom: '+(em||'-');
-    window.location.href='mailto:team@horaceforests.com?subject='+encodeURIComponent('Fleeting tip: '+n)+'&body='+encodeURIComponent(body);
+    var form=document.getElementById('tipForm');
+    var btn=form.querySelector('button[type=submit]');
+    var status=document.getElementById('t-status');
+    var tok=form.querySelector('[name="cf-turnstile-response"]');
+    var t={
+      name:document.getElementById('t-name').value.trim(),
+      what:document.getElementById('t-what').value.trim(),
+      link:document.getElementById('t-link').value.trim(),
+      email:document.getElementById('t-email').value.trim(),
+      city:'nashville',
+      website:document.getElementById('t-hp').value,  // honeypot
+      token:tok?tok.value:''                          // Turnstile
+    };
+    if(!t.name||!t.what){ status.style.color='#e64535'; status.textContent="Add the name and what's happening."; return false; }
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Sending…';
+    status.style.color=''; status.textContent='';
+    function fail(msg){
+      // Never drop a tip: if the endpoint rejects or is unreachable, hand it to email.
+      status.style.color='#e64535';
+      status.innerHTML=msg+' <a href="#" id="t-mail" style="color:var(--cream);text-decoration:underline;">Email it instead →</a>';
+      btn.disabled=false; btn.textContent=label;
+      // Wire the fallback BEFORE touching turnstile: reset() throws when the
+      // widget never rendered (script blocked, offline), and that would abort
+      // this handler and leave the escape hatch dead.
+      var ml=document.getElementById('t-mail');
+      if(ml) ml.onclick=function(ev){ ev.preventDefault();
+        var body='What: '+t.name+'\n\nDetails: '+t.what+'\n\nLink: '+(t.link||'-')+'\n\nFrom: '+(t.email||'-');
+        window.location.href='mailto:hello@fleeting.city?subject='+encodeURIComponent('Fleeting tip: '+t.name)+'&body='+encodeURIComponent(body);
+      };
+      try{ if(window.turnstile) turnstile.reset(); }catch(_){}  // tokens are single-use; best-effort
+    }
+    // text/plain keeps this a CORS "simple request" (no preflight round-trip).
+    fetch(TIP_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(t)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false,error:'bad response'}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">Got it. ★</div><p style="color:var(--muted);margin:8px 0 0;">Thanks for the tip — we chase these down every week. Leave your email and if we run it, you get the credit.</p></div>';
+        } else if(d&&d.error==='too many tips, try later'){
+          fail('That\'s a lot of tips from one spot — give it an hour.');
+        } else if(d&&d.error==='failed the bot check'){
+          fail('That bot check didn\'t take. Try once more, or');
+        } else { fail('Couldn\'t send that just now.'); }
+      })
+      .catch(function(){ fail('Couldn\'t send that just now.'); });
     return false;
   }
   var mq = document.getElementById('mq'); if(mq) mq.innerHTML += mq.innerHTML;
