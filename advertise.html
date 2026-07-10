@@ -9,11 +9,10 @@
 <meta name="theme-color" content="#0e0d10">
 <title>Advertise — Fleeting - Nashville</title>
 <!--
-  Self-serve storefront front-end (Track A). Host on Heimdall (Tailscale Funnel / nginx)
-  at advertise.fleetingnashville... or as a beehiiv custom page. Replace the three
-  STRIPE_LINK placeholders with Stripe Payment Links once the Stripe account exists.
-  A restaurant picks a tier, pays via Stripe, and a webhook drops them into the next
-  issue's queue — no sales rep, no call. This is 6AM City's self-service ad portal, scaled to one.
+  Advertise page (relationship-closed sponsorship). Host on Heimdall (Tailscale Funnel / nginx)
+  or as a beehiiv custom page. Sponsorship is booked by email for now: a restaurant picks a
+  tier and emails advertise@fleeting.city, and we slot them into the next issue's queue.
+  Stripe self-serve storefront is DEFERRED (LAS-29); beehiiv handles subscriptions.
 -->
 <style>
   :root{--ink:#161616;--accent:#E2483D;--muted:#6b6b6b;--card:#faf7f2;}
@@ -65,7 +64,7 @@
           <li>Multiple photos, the story, your booking link</li>
           <li>Social shout-out + performance report included</li>
         </ul>
-        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Spotlight">Book a Spotlight →</a>
+        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Spotlight%20sponsorship">Email to book a Spotlight -&gt;</a>
       </div>
       <div class="tier">
         <h3>Feature</h3>
@@ -75,7 +74,7 @@
           <li>Photo + link + a clear "Book it →" CTA</li>
           <li>Open &amp; click numbers reported to you</li>
         </ul>
-        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature">Book a Feature →</a>
+        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%20sponsorship">Email to book a Feature -&gt;</a>
       </div>
       <div class="tier">
         <h3>Feature 4-Pack</h3>
@@ -85,7 +84,7 @@
           <li>Best for a run or a recurring pop-up</li>
           <li>Performance report after each</li>
         </ul>
-        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%204-Pack">Book the 4-Pack →</a>
+        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%204-Pack%20sponsorship">Email to book the 4-Pack -&gt;</a>
       </div>
       <div class="tier">
         <h3>Listing</h3>
@@ -94,14 +93,14 @@
           <li>One-line mention + link in the roundup</li>
           <li>Great for events &amp; one-offs</li>
         </ul>
-        <a class="btn secondary" href="mailto:advertise@fleeting.city?subject=Fleeting%20Listing">Book a Listing →</a>
+        <a class="btn secondary" href="mailto:advertise@fleeting.city?subject=Fleeting%20Listing%20sponsorship">Email to book a Listing -&gt;</a>
       </div>
     </div>
-    <p style="font-size:13px;color:#6b6b6b;margin-top:12px;">Want to be the <strong>presenting sponsor</strong> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:team@horaceforests.com?subject=Last%20Call%20presenting%20sponsor">email us</a>.</p>
+    <p style="font-size:13px;color:#6b6b6b;margin-top:12px;">Want to be the <strong>presenting sponsor</strong> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:advertise@fleeting.city?subject=Fleeting%20presenting%20sponsor">email us</a>.</p>
 
     <h2>How it works</h2>
     <div class="steps">
-      <div class="step"><b>1.</b> Pick a slot &amp; pay (Stripe, 30 sec).</div>
+      <div class="step"><b>1.</b> Pick a slot &amp; email advertise@fleeting.city.</div>
       <div class="step"><b>2.</b> We email you for a photo + link (or we pull it).</div>
       <div class="step"><b>3.</b> It runs in the next Thursday issue.</div>
       <div class="step"><b>4.</b> You get the open &amp; click numbers.</div>
@@ -121,7 +120,7 @@
   <footer>
     <div class="wrap">
       <strong>Fleeting</strong> — the Nashville food that's here for a moment.<br>
-      Questions? <a href="mailto:team@horaceforests.com">team@horaceforests.com</a> · [mailing address — CAN-SPAM]
+      Questions? <a href="mailto:advertise@fleeting.city">advertise@fleeting.city</a> · [mailing address - CAN-SPAM]
     </div>
   </footer>
 </body>
