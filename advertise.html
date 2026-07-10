@@ -8,118 +8,205 @@
 <link rel="apple-touch-icon" href="/favicon_180.png">
 <meta name="theme-color" content="#0e0d10">
 <title>Advertise — Fleeting - Nashville</title>
+<meta name="description" content="Put your Nashville pop-up, one-night event, limited menu, or show in front of the readers deciding where to go this week. Sponsorship is booked by email.">
+<meta name="theme-color" content="#0e0d10">
 <!--
   Advertise page (relationship-closed sponsorship). Host on Heimdall (Tailscale Funnel / nginx)
-  or as a beehiiv custom page. Sponsorship is booked by email for now: a restaurant picks a
+  or as a beehiiv custom page. Sponsorship is booked by email for now: a business picks a
   tier and emails advertise@fleeting.city, and we slot them into the next issue's queue.
   Stripe self-serve storefront is DEFERRED (LAS-29); beehiiv handles subscriptions.
+  Brand: dark mission-control canon (fleeting_canon fact 5) - Archivo/Inter, near-black
+  ground, cream type, landmark skyline as the Nashville device (skyline is the sanctioned
+  fallback; a licensed duotone Nashville photo is the preferred device when one exists).
 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root{--ink:#161616;--accent:#E2483D;--muted:#6b6b6b;--card:#faf7f2;}
-  *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.55;}
-  .wrap{max-width:720px;margin:0 auto;padding:0 20px;}
-  .hero{background:var(--ink);color:#fff;padding:48px 0;}
-  .kicker{color:var(--accent);font-size:13px;letter-spacing:2px;font-weight:700;text-transform:uppercase;}
-  h1{font-size:34px;line-height:1.15;margin:10px 0 8px;letter-spacing:-0.5px;}
-  .sub{color:#b9b3aa;font-size:17px;}
-  h2{font-size:22px;border-bottom:2px solid var(--ink);padding-bottom:6px;margin-top:40px;}
-  .tiers{display:flex;flex-wrap:wrap;gap:16px;margin-top:20px;}
-  .tier{flex:1 1 200px;background:var(--card);border:1px solid #eee;border-radius:10px;padding:20px;}
-  .tier h3{margin:0 0 4px;font-size:18px;}
-  .price{font-size:28px;font-weight:800;color:var(--accent);}
-  .tier ul{padding-left:18px;margin:10px 0 16px;font-size:14px;color:#444;}
-  .btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:12px;border-radius:8px;}
-  .btn.secondary{background:var(--ink);}
-  .steps{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px;}
-  .step{flex:1 1 150px;background:#fff;border:1px solid #eee;border-radius:8px;padding:14px;}
-  .step b{color:var(--accent);}
-  .faq{margin-top:14px;}
-  .faq dt{font-weight:700;margin-top:12px;}
-  .faq dd{margin:4px 0 0;color:#444;}
-  footer{background:var(--ink);color:#8a847b;font-size:13px;padding:24px 0;margin-top:48px;}
-  footer a{color:#b9b3aa;}
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  .stars{color:var(--accent);letter-spacing:.35em;font-size:.7em;vertical-align:middle;}
+
+  .hero{position:relative;padding:80px 0 0;overflow:hidden;}
+  .hero::before{content:"";position:absolute;inset:0;background:
+     radial-gradient(55% 45% at 82% -5%, rgba(230,69,53,.26), transparent 60%),
+     radial-gradient(45% 38% at 0% 70%, rgba(240,180,41,.10), transparent 60%);z-index:0;}
+  .hero .wrap{position:relative;z-index:2;}
+  .kicker{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid var(--line);padding:7px 14px;border-radius:999px;}
+  .hourglass{display:inline-block;animation:tick 3s ease-in-out infinite;}
+  @keyframes tick{0%,44%{transform:rotate(0)}56%,100%{transform:rotate(180deg)}}
+  h1{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.03em;line-height:.96;font-size:clamp(34px,6.5vw,60px);margin:20px 0 0;}
+  h1 .hl{color:var(--accent);text-shadow:0 0 28px rgba(230,69,53,.6);}
+  .sub{font-size:clamp(16px,2.2vw,19px);color:var(--muted);max-width:640px;margin:20px 0 6px;}
+  .sub b{color:var(--cream);font-weight:600;}
+
+  .skyline{position:relative;z-index:1;display:block;width:100%;height:120px;color:#1c1b21;margin-top:40px;}
+  .skyline .lit{fill:rgba(230,69,53,.16);}
+
+  section{padding:52px 0;}
+  h2{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.02em;font-size:clamp(24px,4vw,34px);line-height:1.05;margin:0 0 14px;}
+  .eyebrow{color:var(--gold);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;margin-bottom:8px;}
+  p{color:var(--cream);}
+  .lead{color:var(--muted);font-size:17px;}
+  .lead b,.sub em{color:var(--cream);font-style:normal;font-weight:600;}
+
+  .tiers{display:flex;flex-wrap:wrap;gap:16px;margin-top:24px;}
+  .tier{flex:1 1 220px;background:var(--ink2);border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .2s,border-color .2s;}
+  .tier:hover{transform:translateY(-4px);border-color:rgba(230,69,53,.5);}
+  .tier.lead-tier{border-color:rgba(230,69,53,.55);}
+  .tier h3{font-family:'Archivo',sans-serif;font-weight:700;font-size:19px;margin:0 0 4px;}
+  .price{font-family:'Archivo',sans-serif;font-size:30px;font-weight:900;color:var(--accent);}
+  .tier ul{padding-left:18px;margin:12px 0 18px;font-size:14px;color:var(--muted);}
+  .tier ul b{color:var(--cream);}
+  .btn{display:inline-flex;justify-content:center;align-items:center;width:100%;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:13px;border-radius:12px;transition:transform .15s,box-shadow .2s;}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(230,69,53,.45);}
+  .btn.secondary{background:var(--ink2);border:1px solid var(--line);}
+  .note{font-size:13px;color:var(--muted);margin-top:14px;}
+  .note a{color:var(--gold);}
+
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:8px;}
+  .step{background:var(--ink2);border:1px solid var(--line);border-radius:14px;padding:16px;font-size:14px;color:var(--muted);}
+  .step b{color:var(--accent);font-family:'Archivo',sans-serif;}
+
+  .faq{margin-top:8px;}
+  .faq dt{font-weight:600;color:var(--cream);margin-top:16px;}
+  .faq dd{margin:5px 0 0;color:var(--muted);}
+
+  footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-size:14px;margin-top:20px;}
+  footer a{color:var(--gold);}
+  footer b{color:var(--cream);font-family:'Archivo',sans-serif;}
+  @media(max-width:600px){section{padding:40px 0;}.hero{padding:56px 0 0;}.skyline{height:88px;margin-top:30px;}}
 </style>
 </head>
 <body>
-  <div class="hero">
+  <header class="hero">
     <div class="wrap">
-      <div class="kicker">⏳ Advertise</div>
-      <h1>Get your pop-up in front of the Nashville crowd deciding where to go this week.</h1>
-      <p class="sub">Fleeting is the weekly newsletter for time-limited food &amp; drink — pop-ups, chef collabs, one-night menus, seasonal concepts. Our readers open it <em>to decide where to spend money</em>. Put your thing in front of them.</p>
-    </div>
-  </div>
-
-  <div class="wrap">
-    <h2>Why it works</h2>
-    <p>Other Nashville outlets cover what's <em>new</em>. We cover what's <em>fleeting</em> — the difference between a reader who bookmarks and a reader who <strong>shows up tonight</strong>. If your business runs anything time-limited, this is the most urgent, most qualified local audience you can buy.</p>
-
-    <h2>Book a slot</h2>
-    <div class="tiers">
-      <div class="tier" style="border-color:#E2483D;border-width:2px;">
-        <h3>Spotlight ⭐</h3>
-        <div class="price">$750</div>
-        <ul>
-          <li>The week's <b>lead story</b> — a full deep-dive on your pop-up</li>
-          <li>Multiple photos, the story, your booking link</li>
-          <li>Social shout-out + performance report included</li>
-        </ul>
-        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Spotlight%20sponsorship">Email to book a Spotlight -&gt;</a>
-      </div>
-      <div class="tier">
-        <h3>Feature</h3>
-        <div class="price">$250</div>
-        <ul>
-          <li>Top-of-section write-up in our voice</li>
-          <li>Photo + link + a clear "Book it →" CTA</li>
-          <li>Open &amp; click numbers reported to you</li>
-        </ul>
-        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%20sponsorship">Email to book a Feature -&gt;</a>
-      </div>
-      <div class="tier">
-        <h3>Feature 4-Pack</h3>
-        <div class="price">$900</div>
-        <ul>
-          <li>Four Features (save $100)</li>
-          <li>Best for a run or a recurring pop-up</li>
-          <li>Performance report after each</li>
-        </ul>
-        <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%204-Pack%20sponsorship">Email to book the 4-Pack -&gt;</a>
-      </div>
-      <div class="tier">
-        <h3>Listing</h3>
-        <div class="price">$75</div>
-        <ul>
-          <li>One-line mention + link in the roundup</li>
-          <li>Great for events &amp; one-offs</li>
-        </ul>
-        <a class="btn secondary" href="mailto:advertise@fleeting.city?subject=Fleeting%20Listing%20sponsorship">Email to book a Listing -&gt;</a>
-      </div>
-    </div>
-    <p style="font-size:13px;color:#6b6b6b;margin-top:12px;">Want to be the <strong>presenting sponsor</strong> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:advertise@fleeting.city?subject=Fleeting%20presenting%20sponsor">email us</a>.</p>
-
-    <h2>How it works</h2>
-    <div class="steps">
-      <div class="step"><b>1.</b> Pick a slot &amp; email advertise@fleeting.city.</div>
-      <div class="step"><b>2.</b> We email you for a photo + link (or we pull it).</div>
-      <div class="step"><b>3.</b> It runs in the next Thursday issue.</div>
-      <div class="step"><b>4.</b> You get the open &amp; click numbers.</div>
+      <span class="kicker"><svg class="hourglass" viewBox="0 0 24 28" width="15" height="17" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M3 2 L21 2 L12 14 Z" fill="var(--cream)" fill-opacity=".06"/><path d="M12 14 L21 26 L3 26 Z" fill="var(--cream)" fill-opacity=".06"/><path d="M7.86 8.48 L16.14 8.48 L12 14 Z" fill="var(--accent)"/><rect x="11.75" y="14" width=".5" height="7.92" fill="var(--accent)"/><path d="M4.98 26 L19.02 26 L12 18.08 Z" fill="var(--accent)"/><path d="M3 2 L21 2 L3 26 L21 26 Z" fill="none" stroke="var(--cream)" stroke-width=".9" stroke-linejoin="round" stroke-linecap="round"/><rect x="1.74" y="1.1" width="20.52" height="1.8" rx=".9" fill="var(--cream)"/><rect x="1.74" y="25.1" width="20.52" height="1.8" rx=".9" fill="var(--cream)"/></svg> <span class="stars">★★★</span> Advertise · Nashville</span>
+      <h1>Get your pop-up, show, or event in front of the Nashville crowd <span class="hl">deciding where to go this week.</span></h1>
+      <p class="sub">Fleeting is the weekly newsletter for Nashville's time-limited everything — pop-ups, chef collabs, one-night menus, secret shows, limited runs, and one-night events. Readers open it <em>to decide where to spend their week</em>. Put your thing in front of them.</p>
     </div>
 
-    <h2>FAQ</h2>
-    <dl class="faq">
-      <dt>How big is the list?</dt>
-      <dd>Growing fast in a defined geography (Nashville food &amp; drink). You're buying relevance and intent, not a vanity number — and a founding rate before it goes up.</dd>
-      <dt>Can I pick which week?</dt>
-      <dd>Yes — tell us when your pop-up runs and we slot it so it lands before the doors open.</dd>
-      <dt>What do you need from me?</dt>
-      <dd>A photo, a link, and one line about what's happening. We write the rest in our voice.</dd>
-    </dl>
-  </div>
+    <svg class="skyline" viewBox="0 0 1200 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <!-- The real line, west to east: Pinnacle (slant crown), 505 (fin), L&C (step),
+           Fifth+Broadway, the AT&T Batman Building (concave crown, twin masts),
+           Bridgestone dome + mast, the Ryman gable, the Seigenthaler bridge arches. -->
+      <g fill="currentColor">
+        <rect x="0" y="100" width="54" height="40"/><rect x="60" y="82" width="40" height="58"/>
+        <rect x="106" y="94" width="62" height="46"/>
+        <path d="M180 140 L180 62 L262 50 L262 140 Z"/>
+        <rect x="276" y="88" width="44" height="52"/><rect x="328" y="72" width="34" height="68"/>
+        <rect x="376" y="38" width="66" height="102"/><rect x="420" y="28" width="8" height="10"/>
+        <rect x="458" y="66" width="52" height="74"/><rect x="466" y="58" width="36" height="8"/>
+        <rect x="524" y="84" width="76" height="56"/>
+        <path d="M622 140 L622 52 Q673 70 724 52 L724 140 Z"/>
+        <rect x="634" y="8" width="6" height="48"/><rect x="706" y="8" width="6" height="48"/>
+        <rect x="738" y="92" width="40" height="48"/><rect x="786" y="76" width="52" height="64"/>
+        <path d="M852 140 Q902 84 952 140 Z"/><rect x="899" y="62" width="4" height="34"/>
+        <path d="M966 140 L966 102 L992 84 L1018 102 L1018 140 Z"/>
+        <path d="M1032 136 Q1072 98 1112 136" fill="none" stroke="currentColor" stroke-width="5"/>
+        <rect x="1038" y="120" width="4" height="16"/><rect x="1070" y="106" width="4" height="30"/><rect x="1102" y="120" width="4" height="16"/>
+        <rect x="1124" y="100" width="44" height="40"/><rect x="1176" y="110" width="24" height="30"/>
+        <rect class="lit" x="650" y="72" width="8" height="10"/><rect class="lit" x="684" y="90" width="8" height="10"/>
+        <rect class="lit" x="396" y="54" width="7" height="9"/><rect class="lit" x="212" y="78" width="7" height="9"/>
+      </g>
+    </svg>
+  </header>
+
+  <section style="padding-top:8px;">
+    <div class="wrap">
+      <div class="eyebrow">Why it works</div>
+      <h2>The most urgent, most qualified local audience you can buy.</h2>
+      <p class="lead">Other Nashville outlets cover what's <b>new</b>. We cover what's <b>fleeting</b> — the difference between a reader who bookmarks and a reader who <b>shows up tonight</b>. If your business runs anything time-limited — a menu, a rooftop season, a one-night show, a ticketed event — this is the crowd already deciding where their week goes.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="eyebrow">Book a slot</div>
+      <h2>Pick a tier, email us, run in the next issue.</h2>
+      <div class="tiers">
+        <div class="tier lead-tier">
+          <h3>Spotlight ⭐</h3>
+          <div class="price">$750</div>
+          <ul>
+            <li>The week's <b>lead story</b> — a full deep-dive on your pop-up, show, or event</li>
+            <li>Multiple photos, the story, your booking link</li>
+            <li>Social shout-out + performance report included</li>
+          </ul>
+          <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Spotlight%20sponsorship">Email to book a Spotlight -&gt;</a>
+        </div>
+        <div class="tier">
+          <h3>Feature</h3>
+          <div class="price">$250</div>
+          <ul>
+            <li>Top-of-section write-up in our voice</li>
+            <li>Photo + link + a clear "Book it" CTA</li>
+            <li>Open &amp; click numbers reported to you</li>
+          </ul>
+          <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%20sponsorship">Email to book a Feature -&gt;</a>
+        </div>
+        <div class="tier">
+          <h3>Feature 4-Pack</h3>
+          <div class="price">$900</div>
+          <ul>
+            <li>Four Features (save $100)</li>
+            <li>Best for a run or a recurring pop-up</li>
+            <li>Performance report after each</li>
+          </ul>
+          <a class="btn" href="mailto:advertise@fleeting.city?subject=Fleeting%20Feature%204-Pack%20sponsorship">Email to book the 4-Pack -&gt;</a>
+        </div>
+        <div class="tier">
+          <h3>Listing</h3>
+          <div class="price">$75</div>
+          <ul>
+            <li>One-line mention + link in the roundup</li>
+            <li>Great for events &amp; one-offs</li>
+          </ul>
+          <a class="btn secondary" href="mailto:advertise@fleeting.city?subject=Fleeting%20Listing%20sponsorship">Email to book a Listing -&gt;</a>
+        </div>
+      </div>
+      <p class="note">Want to be the <b style="color:var(--cream);">presenting sponsor</b> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:advertise@fleeting.city?subject=Fleeting%20presenting%20sponsor">email us</a>.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="eyebrow">How it works</div>
+      <h2>Four steps, no dashboard to learn.</h2>
+      <div class="steps">
+        <div class="step"><b>1.</b> Pick a slot &amp; email advertise@fleeting.city.</div>
+        <div class="step"><b>2.</b> We email you for a photo + link (or we pull it).</div>
+        <div class="step"><b>3.</b> It runs in the next Thursday issue.</div>
+        <div class="step"><b>4.</b> You get the open &amp; click numbers.</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="eyebrow">FAQ</div>
+      <h2>The quick answers.</h2>
+      <dl class="faq">
+        <dt>How big is the list?</dt>
+        <dd>Growing fast in a defined geography (Nashville's time-limited food, drink &amp; events). You're buying relevance and intent, not a vanity number — and a founding rate before it goes up.</dd>
+        <dt>Can I pick which week?</dt>
+        <dd>Yes — tell us when your pop-up or event runs and we slot it so it lands before the doors open.</dd>
+        <dt>What do you need from me?</dt>
+        <dd>A photo, a link, and one line about what's happening. We write the rest in our voice.</dd>
+      </dl>
+    </div>
+  </section>
 
   <footer>
     <div class="wrap">
-      <strong>Fleeting</strong> — the Nashville food that's here for a moment.<br>
+      <b>FLEETING</b> <span class="stars">★★★</span> <span style="color:var(--muted)">Nashville</span><br>
+      The Nashville things that are here for a moment.<br>
       Questions? <a href="mailto:advertise@fleeting.city">advertise@fleeting.city</a> · [mailing address - CAN-SPAM]
     </div>
   </footer>
