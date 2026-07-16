@@ -11,11 +11,18 @@
 <meta name="description" content="Put your Nashville pop-up, one-night event, limited menu, or show in front of the readers deciding where to go this week. Pick a tier and book in a minute.">
 <meta name="theme-color" content="#0e0d10">
 <!--
-  Advertise page (relationship-closed sponsorship). Host on Heimdall (Tailscale Funnel / nginx)
-  or as a beehiiv custom page. Self-serve sponsorship is LIVE: each tier CTA carries a
-  Stripe-link placeholder that fleeting_github_deploy.sh injects with the live Stripe
-  Payment Link (created 2026-07-10; per-tier metadata + custom fields businessName/runWindow/
-  bookingLink drive fulfillment). Presenting-sponsor CTA stays email (founding-rate convo).
+  Advertise page (self-serve booking route). Host on Heimdall (Tailscale Funnel / nginx)
+  or as a beehiiv custom page, with storefront.py --serve reachable at a same-origin /api/*.
+  Each tier CTA is a Book button wired to storefront.py (LAS-54), two modes, one page:
+    BOOKING mode (default, no Stripe): the button opens a short form; POST /api/book
+      files a [BOOKING] prospect card on the Fleeting Paperclip board and queues an
+      advertise@ notification (send stays gated). A business books without a sales call.
+    INSTANT-PAY mode (only when GET /api/config reports instant_pay=true, i.e. the charge
+      gate is ON with a Stripe key): the same button POSTs /api/checkout and redirects to
+      Stripe to pay; the signed webhook fulfills the booking.
+  The page picks its mode at load from /api/config; with the API unreachable it falls back
+  to the booking form (never a dead Stripe link -- no {{STRIPE_LINK_*}} placeholders remain).
+  Presenting-sponsor CTA stays email (founding-rate convo).
   Brand: dark mission-control canon (fleeting_canon fact 5) - Archivo/Inter, near-black
   ground, cream type, landmark skyline as the Nashville device (skyline is the sanctioned
   fallback; a licensed duotone Nashville photo is the preferred device when one exists).
@@ -65,9 +72,32 @@
   .price{font-family:'Archivo',sans-serif;font-size:30px;font-weight:900;color:var(--accent);}
   .tier ul{padding-left:18px;margin:12px 0 18px;font-size:14px;color:var(--muted);}
   .tier ul b{color:var(--cream);}
-  .btn{display:inline-flex;justify-content:center;align-items:center;width:100%;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:13px;border-radius:12px;transition:transform .15s,box-shadow .2s;}
+  .btn{display:inline-flex;justify-content:center;align-items:center;width:100%;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:16px;font-family:inherit;line-height:1;border:none;cursor:pointer;padding:13px;border-radius:12px;transition:transform .15s,box-shadow .2s;}
   .btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(230,69,53,.45);}
   .btn.secondary{background:var(--ink2);border:1px solid var(--line);}
+  .btn[disabled]{opacity:.6;cursor:progress;transform:none;box-shadow:none;}
+
+  /* Booking modal -- dark canon (fleeting_canon fact 5) */
+  .modal{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(8,7,10,.72);backdrop-filter:blur(3px);}
+  .modal.open{display:flex;}
+  .modal-card{position:relative;width:100%;max-width:460px;background:var(--ink2);border:1px solid var(--line);border-radius:18px;padding:26px 24px 24px;max-height:92vh;overflow:auto;box-shadow:0 24px 70px rgba(0,0,0,.55);}
+  .modal-card h3{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.01em;font-size:22px;margin:0 0 4px;}
+  .modal-card .m-sub{color:var(--muted);font-size:14px;margin:0 0 18px;}
+  .modal-card .m-sub b{color:var(--accent);}
+  .modal-close{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--muted);font-size:22px;line-height:1;cursor:pointer;padding:4px;}
+  .modal-close:hover{color:var(--cream);}
+  .field{display:block;margin:0 0 14px;}
+  .field span{display:block;font-size:13px;font-weight:600;color:var(--cream);margin-bottom:6px;}
+  .field span i{color:var(--accent);font-style:normal;}
+  .field input,.field textarea{width:100%;background:var(--ink);border:1px solid var(--line);border-radius:10px;color:var(--cream);font-family:inherit;font-size:15px;padding:11px 12px;}
+  .field input:focus,.field textarea:focus{outline:none;border-color:rgba(230,69,53,.6);}
+  .field textarea{resize:vertical;min-height:70px;}
+  .form-err{color:var(--neon);font-size:13px;min-height:18px;margin:0 0 10px;}
+  .form-note{color:var(--muted);font-size:12px;margin-top:12px;}
+  .confirm{text-align:center;padding:8px 0 4px;}
+  .confirm .tick{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:50%;background:rgba(230,69,53,.15);color:var(--accent);font-size:26px;margin:0 auto 14px;}
+  .confirm p{color:var(--muted);font-size:15px;}
+  .confirm b{color:var(--cream);}
   .note{font-size:13px;color:var(--muted);margin-top:14px;}
   .note a{color:var(--gold);}
 
@@ -140,7 +170,7 @@
             <li>Multiple photos, the story, your booking link</li>
             <li>Social shout-out + performance report included</li>
           </ul>
-          <a class="btn" href="https://buy.stripe.com/cNi4gzaU56JUfV3fMJ1gs00" target="_blank" rel="noopener">Book a Spotlight -&gt;</a>
+          <button class="btn" type="button" data-tier="spotlight" data-label="Spotlight" data-price="$750">Book a Spotlight -&gt;</button>
         </div>
         <div class="tier">
           <h3>Feature</h3>
@@ -150,7 +180,7 @@
             <li>Photo + link + a clear "Book it" CTA</li>
             <li>Open &amp; click numbers reported to you</li>
           </ul>
-          <a class="btn" href="https://buy.stripe.com/14A3cv9Q14BMcIRbwt1gs01" target="_blank" rel="noopener">Book a Feature -&gt;</a>
+          <button class="btn" type="button" data-tier="feature" data-label="Feature" data-price="$250">Book a Feature -&gt;</button>
         </div>
         <div class="tier">
           <h3>Feature 4-Pack</h3>
@@ -160,7 +190,7 @@
             <li>Best for a run or a recurring pop-up</li>
             <li>Performance report after each</li>
           </ul>
-          <a class="btn" href="https://buy.stripe.com/bJe8wP2nzd8i7ox6c91gs02" target="_blank" rel="noopener">Book the 4-Pack -&gt;</a>
+          <button class="btn" type="button" data-tier="feature_4pack" data-label="Feature 4-Pack" data-price="$900">Book the 4-Pack -&gt;</button>
         </div>
         <div class="tier">
           <h3>Listing</h3>
@@ -169,7 +199,7 @@
             <li>One-line mention + link in the roundup</li>
             <li>Great for events &amp; one-offs</li>
           </ul>
-          <a class="btn secondary" href="https://buy.stripe.com/bJe4gzgep2tE38hfMJ1gs03" target="_blank" rel="noopener">Book a Listing -&gt;</a>
+          <button class="btn secondary" type="button" data-tier="listing" data-label="Listing" data-price="$75">Book a Listing -&gt;</button>
         </div>
       </div>
       <p class="note">Want to be the <b style="color:var(--cream);">presenting sponsor</b> (your name on every issue)? That's a founding-rate conversation — <a href="mailto:advertise@fleeting.city?subject=Fleeting%20presenting%20sponsor">email us</a>.</p>
@@ -211,5 +241,133 @@
       Questions? <a href="mailto:advertise@fleeting.city">advertise@fleeting.city</a> · 117 30th Ave N, Nashville, TN 37203
     </div>
   </footer>
+
+  <!-- Booking modal (BOOKING mode). Instant-pay mode skips this and redirects to Stripe. -->
+  <div class="modal" id="bookModal" role="dialog" aria-modal="true" aria-labelledby="bookTitle">
+    <div class="modal-card">
+      <button class="modal-close" type="button" id="bookClose" aria-label="Close">&times;</button>
+      <div id="bookFormWrap">
+        <h3 id="bookTitle">Book a slot</h3>
+        <p class="m-sub">Tier: <b id="bookTier">Feature</b></p>
+        <p class="form-err" id="bookErr" role="alert"></p>
+        <form id="bookForm" novalidate>
+          <label class="field"><span>Business name <i>*</i></span>
+            <input type="text" name="business" maxlength="120" autocomplete="organization" required></label>
+          <label class="field"><span>Contact email <i>*</i></span>
+            <input type="email" name="email" maxlength="160" autocomplete="email" required></label>
+          <label class="field"><span>Desired issue date</span>
+            <input type="text" name="issue_date" maxlength="60" placeholder="e.g. Thursday July 16, or a run of dates"></label>
+          <label class="field"><span>Notes</span>
+            <textarea name="notes" maxlength="600" placeholder="What is running, links, anything we should know."></textarea></label>
+          <button class="btn" type="submit" id="bookSubmit">Send booking request</button>
+          <p class="form-note">No payment now. We confirm the date and send an invoice. We never charge you here.</p>
+        </form>
+      </div>
+      <div id="bookConfirm" class="confirm" style="display:none;">
+        <div class="tick">&#10003;</div>
+        <h3>Booking received</h3>
+        <p id="bookConfirmMsg">Thanks -- we will be in touch.</p>
+        <p style="margin-top:18px;"><button class="btn secondary" type="button" id="bookDone">Done</button></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function(){
+    // API base: same-origin by default (reverse-proxied /api/*). Override for local QA
+    // by setting window.FLEETING_API_BASE before this script runs.
+    var API = (window.FLEETING_API_BASE || "").replace(/\/$/, "");
+    var CONFIG = {instant_pay:false};
+
+    var modal    = document.getElementById("bookModal");
+    var formWrap = document.getElementById("bookFormWrap");
+    var confirm  = document.getElementById("bookConfirm");
+    var form     = document.getElementById("bookForm");
+    var errEl    = document.getElementById("bookErr");
+    var tierEl   = document.getElementById("bookTier");
+    var submit   = document.getElementById("bookSubmit");
+    var current  = {tier:"feature", label:"Feature"};
+
+    // Load config to decide BOOKING vs INSTANT-PAY. Unreachable API => booking form.
+    fetch(API + "/api/config").then(function(r){return r.json();})
+      .then(function(c){ if(c && typeof c.instant_pay==="boolean") CONFIG = c; })
+      .catch(function(){ /* stay in booking mode */ });
+
+    function openModal(){
+      formWrap.style.display=""; confirm.style.display="none";
+      errEl.textContent=""; form.reset();
+      tierEl.textContent = current.label;
+      modal.classList.add("open");
+      var f = form.querySelector("input[name=business]"); if(f) f.focus();
+    }
+    function closeModal(){ modal.classList.remove("open"); }
+
+    document.getElementById("bookClose").addEventListener("click", closeModal);
+    document.getElementById("bookDone").addEventListener("click", closeModal);
+    modal.addEventListener("click", function(e){ if(e.target===modal) closeModal(); });
+    document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeModal(); });
+
+    // Wire every tier Book button.
+    var btns = document.querySelectorAll(".tier .btn[data-tier]");
+    Array.prototype.forEach.call(btns, function(btn){
+      btn.addEventListener("click", function(){
+        current = {tier: btn.getAttribute("data-tier"),
+                   label: btn.getAttribute("data-label") || "slot"};
+        if (CONFIG.instant_pay) return startCheckout(btn);
+        openModal();
+      });
+    });
+
+    // INSTANT-PAY: create a Stripe Checkout session and redirect to pay.
+    function startCheckout(btn){
+      var orig = btn.textContent; btn.disabled = true; btn.textContent = "Opening checkout...";
+      fetch(API + "/api/checkout", {method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({tier: current.tier})})
+        .then(function(r){return r.json();})
+        .then(function(d){
+          if (d && d.url){ window.location.href = d.url; return; }
+          throw new Error((d && d.error) || "checkout unavailable");
+        })
+        .catch(function(){
+          btn.disabled=false; btn.textContent=orig;
+          openModal();  // fall back to booking capture if checkout fails
+        });
+    }
+
+    // BOOKING: capture the form and file a prospect card.
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      errEl.textContent = "";
+      var fd = new FormData(form);
+      var business = (fd.get("business")||"").trim();
+      var email = (fd.get("email")||"").trim();
+      if (!business){ errEl.textContent="Please add your business name."; return; }
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ errEl.textContent="Please add a valid email."; return; }
+      var payload = {tier: current.tier, business: business, email: email,
+                     issue_date: (fd.get("issue_date")||"").trim(),
+                     notes: (fd.get("notes")||"").trim()};
+      submit.disabled = true; submit.textContent = "Sending...";
+      fetch(API + "/api/book", {method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body: JSON.stringify(payload)})
+        .then(function(r){return r.json().then(function(d){return {ok:r.ok, d:d};});})
+        .then(function(res){
+          if (res.d && res.d.ok){
+            document.getElementById("bookConfirmMsg").textContent =
+              res.d.confirmation || "Thanks -- we will email you to confirm and invoice.";
+            formWrap.style.display="none"; confirm.style.display="";
+          } else {
+            errEl.textContent = (res.d && res.d.error) ||
+              "Something went wrong. Email advertise@fleeting.city and we will sort it.";
+          }
+        })
+        .catch(function(){
+          errEl.textContent = "Could not reach the booking service. Email advertise@fleeting.city.";
+        })
+        .then(function(){ submit.disabled=false; submit.textContent="Send booking request"; });
+    });
+  })();
+  </script>
 </body>
 </html>
