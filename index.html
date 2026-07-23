@@ -330,8 +330,8 @@
         form.style.display='none';
         var s=document.createElement('div');
         s.setAttribute('role','status'); s.style.cssText='max-width:520px;';
-        s.innerHTML='<p class="value" style="margin:0 0 6px;"><span style="color:var(--accent)">✓</span> You\'re in — check your inbox to confirm.</p>'+
-                    '<p class="trust" style="margin:0;">Then you\'ll never find out too late again — same-day alerts start the moment something drops.</p>';
+        s.innerHTML='<p class="value" style="margin:0 0 6px;"><span style="color:var(--accent)">✓</span> You\'re in.</p>'+
+                    '<p class="trust" style="margin:0;">Your first heads-up is on its way — plus same-day alerts the moment something drops.</p>';
         form.parentNode.insertBefore(s, form.nextSibling);
       })
       .catch(fallback);
