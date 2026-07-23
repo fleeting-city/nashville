@@ -139,10 +139,8 @@
       <h1 class="display">Here for<br><span class="hl">a moment.</span></h1>
       <p class="sub">Pop-ups, one-night menus, secret shows, limited runs, the rooftop that closes when summer ends — <b>the Nashville things you'd kick yourself for missing.</b> One timely heads-up a week, plus same-day alerts the second something drops.</p>
       <p class="value">📬 One email a week · ⚡ same-day alerts for the urgent stuff · <span class="g">always free.</span></p>
-      <!-- edit by Thomas — 2026-07-23: subscribe in place via subscribe.fleeting.city (beehiiv API); no bounce to beehiiv's form -->
       <form class="form" id="subscribe" onsubmit="return go(event)">
         <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
-        <input type="text" id="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0">
         <button class="btn" type="submit">Don't miss out →</button>
       </form>
       <p class="trust">⭐ <b>Be a founding reader.</b> The list for people who hate finding out *after* it's over. Unsubscribe anytime.</p>
@@ -288,7 +286,8 @@
 
   <footer><div class="wrap foot-in">
     <div><b style="color:var(--cream);font-family:'Archivo';">FLEETING</b> <span class="stars">★★★</span> <span style="color:var(--muted)">Nashville</span><br>The Nashville things that are here for a moment.</div>
-    <div>team@horaceforests.com<br>117 30th Ave N, Nashville, TN 37203</div>
+    <!-- edit by Thomas — 2026-07-17: canon fact 7 (entity separation) — HF address off public surfaces -->
+    <div>hello@fleeting.city<br>117 30th Ave N, Nashville, TN 37203</div>
   </div></footer>
 
 <script>
@@ -296,45 +295,10 @@
   (function(){var s=document.createElement('script');
    s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';
    s.async=true;s.defer=true;document.head.appendChild(s);})();
-  // edit by Thomas — 2026-07-23: subscribe in place through our own Worker
-  // (subscribe.fleeting.city -> beehiiv API). The reader never leaves the page.
-  // Any failure falls back to beehiiv's hosted form so a signup is never lost.
-  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
   function go(e){
     e.preventDefault();
-    var input=document.getElementById('email');
-    var em=(input.value||'').trim();
-    if(!em){ input.focus(); return false; }
-    var form=document.getElementById('subscribe');
-    var btn=form.querySelector('button[type=submit]');
-    btn.disabled=true; btn.textContent='Subscribing…';
-    var qs=new URLSearchParams(location.search);
-    var payload={
-      email:em,
-      website:(document.getElementById('hp')||{}).value||'',   // honeypot
-      referrer:document.referrer||location.href,
-      utm_source:qs.get('utm_source')||'',
-      utm_medium:qs.get('utm_medium')||'',
-      utm_campaign:qs.get('utm_campaign')||''
-    };
-    function fallback(){
-      // Never lose a signup: hand off to beehiiv's hosted page, email prefilled.
-      window.location.href='https://fleeting.beehiiv.com/subscribe?email='+encodeURIComponent(em);
-    }
-    // text/plain keeps this a CORS "simple request" (no preflight) -- same trick as the tip form.
-    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
-      .then(function(r){ return r.json().catch(function(){return {};}).then(function(d){ return r.ok&&d.ok; }); })
-      .then(function(ok){
-        if(!ok){ fallback(); return; }
-        // Subscribed. Replace the form with an inline, on-brand confirmation.
-        form.style.display='none';
-        var s=document.createElement('div');
-        s.setAttribute('role','status'); s.style.cssText='max-width:520px;';
-        s.innerHTML='<p class="value" style="margin:0 0 6px;"><span style="color:var(--accent)">✓</span> You\'re in.</p>'+
-                    '<p class="trust" style="margin:0;">Your first heads-up is on its way — plus same-day alerts the moment something drops.</p>';
-        form.parentNode.insertBefore(s, form.nextSibling);
-      })
-      .catch(fallback);
+    var em = encodeURIComponent(document.getElementById('email').value);
+    window.location.href = 'https://fleeting.beehiiv.com/subscribe?email=' + em;
     return false;
   }
   var TIP_ENDPOINT='https://tips.fleeting.city/tip';
