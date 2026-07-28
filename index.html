@@ -63,6 +63,13 @@
   .proof{margin-top:16px;font-size:13.5px;color:var(--muted);max-width:600px;}
   .proof b{color:var(--cream);}
 
+  .regret{display:flex;align-items:center;gap:18px;flex-wrap:wrap;max-width:600px;margin:24px 0 4px;padding:18px 20px;background:rgba(230,69,53,.09);border:1px solid rgba(230,69,53,.34);border-radius:16px;}
+  .regret-n{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.03em;line-height:.9;font-size:clamp(46px,8vw,68px);color:var(--accent);text-shadow:0 0 24px rgba(230,69,53,.55);}
+  .regret-cap{flex:1 1 260px;font-size:14.5px;color:var(--muted);}
+  .regret-cap b{color:var(--cream);font-weight:600;}
+  .regret-cta{display:inline-block;margin-top:6px;color:var(--gold);font-weight:600;text-decoration:none;white-space:nowrap;}
+  .regret-cta:hover{text-decoration:underline;}
+
   .form{display:flex;gap:10px;max-width:520px;flex-wrap:wrap;}
   .form input{flex:1 1 240px;background:#fff;border:none;border-radius:12px;padding:16px 18px;font-size:16px;font-family:inherit;}
   .btn{background:var(--accent);color:#fff;border:none;border-radius:12px;padding:16px 26px;font-size:16px;font-weight:700;font-family:inherit;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:transform .15s,box-shadow .2s;}
@@ -139,6 +146,12 @@
       <h1 class="display">Here for<br><span class="hl">a moment.</span></h1>
       <p class="sub">Pop-ups, one-night menus, secret shows, limited runs, the rooftop that closes when summer ends — <b>the Nashville things you'd kick yourself for missing.</b> One timely heads-up a week, plus same-day alerts the second something drops.</p>
       <p class="value">📬 One email a week · ⚡ same-day alerts for the urgent stuff · <span class="g">always free.</span></p>
+      <!-- REGRET_INDEX:START -->
+      <div class="regret" role="note" aria-label="Nashville windows closed this week">
+        <span class="regret-n">3</span>
+        <span class="regret-cap"><b>Nashville windows closed this week.</b> Pop-ups, one-night menus, limited runs whose doors shut in the last 7 days. Counted straight from what we track. <a class="regret-cta" href="#subscribe">Catch the next one &rarr;</a></span>
+      </div>
+      <!-- REGRET_INDEX:END -->
       <form class="form" id="subscribe" onsubmit="return go(event)">
         <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
         <button class="btn" type="submit">Don't miss out →</button>
@@ -295,10 +308,38 @@
   (function(){var s=document.createElement('script');
    s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';
    s.async=true;s.defer=true;document.head.appendChild(s);})();
+  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
   function go(e){
     e.preventDefault();
-    var em = encodeURIComponent(document.getElementById('email').value);
-    window.location.href = 'https://fleeting.beehiiv.com/subscribe?email=' + em;
+    var form=document.getElementById('subscribe');
+    var input=document.getElementById('email');
+    var btn=form.querySelector('button[type=submit]');
+    var em=input.value.trim();
+    if(!em){ return false; }
+    // Never lose a signup: any non-ok / unreachable worker response falls back to
+    // beehiiv's hosted form (today's behavior), so the worker can fail open.
+    function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
+    var qs=new URLSearchParams(window.location.search);
+    var payload={
+      email:em,
+      referrer:document.referrer||'',
+      utm_source:qs.get('utm_source')||'',
+      utm_medium:qs.get('utm_medium')||'',
+      utm_campaign:qs.get('utm_campaign')||''
+    };
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Joining...';
+    // text/plain keeps this a CORS "simple request" (no preflight round-trip) --
+    // same trick as the tip form; the Worker completes the beehiiv signup server-side.
+    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">You are in.</div><p style="color:var(--muted);margin:8px 0 0;">Check your inbox to confirm. The first heads-up lands Thursday.</p></div>';
+        } else {
+          btn.disabled=false; btn.textContent=label; fallback();
+        }
+      })
+      .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
     return false;
   }
   var TIP_ENDPOINT='https://tips.fleeting.city/tip';
