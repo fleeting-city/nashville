@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Did You Catch It? Last Week in Nashville - Fleeting - Nashville</title>
+<meta name="description" content="A 30-second quiz. Five real Nashville pop-ups, one-night dinners and limited runs that closed last week. Tap the ones you caught. See how much you missed.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<meta name="theme-color" content="#0e0d10">
+<link rel="canonical" href="https://nashville.fleeting.city/caught/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Did you catch it? Last week in Nashville.">
+<meta property="og:description" content="Five real Nashville windows closed last week - pop-ups, one-night dinners, limited runs. How many did you catch before they were gone? Take the 30-second quiz.">
+<meta property="og:url" content="https://nashville.fleeting.city/caught/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Did you catch it? Last week in Nashville.">
+<meta name="twitter:description" content="Five real Nashville windows closed last week. How many did you catch before they were gone?">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : "Did you catch it?" FOMO quiz (growth / acquisition toy, EXP-0015 / LAS-141).
+  A shareable interactive recap. Lists five REAL closed windows from the discovery feed - events that
+  ran and ended the week of Jul 21-27, 2026, carried verbatim from the sent issue
+  (scripts/out/2026-07-23/issue.md, the Thursday Jul 23 send). No fabricated windows. User taps
+  caught / missed on each; the score IS the pitch ("You missed 4 of 5. That is why Fleeting exists.")
+  with a subscribe CTA and native share. Static single file, dark mission-control theme, pure-ASCII
+  copy (HTML entities). Nashville device: the current night skyline, referenced (not pasted) from
+  skyline.svg - generated via brand/marks.resolve("skyline") and stamped (rules 11/14). Palette and
+  :root tokens copied EXACTLY from site/index.html - do not add or re-value tokens (rule 10 drift).
+  Red is reserved as the event (the miss, the deadline, the CTA); gold carries the positive state.
+  To recap a new week: regenerate skyline.svg from marks, and refresh the WINDOWS array + the
+  "week of" lines from the newest sent issue.md.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .display{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.02em;}
+  .wrap{max-width:660px;margin:0 auto;padding:26px 22px 72px;}
+
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.03;
+    font-size:clamp(30px,7vw,46px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:56ch;}
+  .lede b{color:var(--cream);}
+  .progress{margin:18px 0 4px;font-size:12.5px;font-weight:700;letter-spacing:.04em;color:var(--muted);
+    display:flex;align-items:center;gap:9px;}
+  .pips{display:inline-flex;gap:6px;}
+  .pip{width:9px;height:9px;border-radius:50%;background:var(--ink2);border:1px solid var(--line);transition:.18s;}
+  .pip.caught{background:var(--gold);border-color:var(--gold);}
+  .pip.missed{background:var(--accent);border-color:var(--accent);}
+
+  /* ---- quiz cards ---- */
+  .cards{margin:14px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-radius:14px;padding:15px 16px 14px;margin:12px 0;transition:.18s;}
+  .card.answered{opacity:.6;}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);
+    border-radius:999px;padding:2px 9px;margin-bottom:8px;}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:18px;letter-spacing:-.01em;line-height:1.14;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .choices{display:flex;gap:9px;margin-top:12px;}
+  .choice{flex:1;background:#0d0c10;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;
+    color:var(--cream);font-family:'Inter';font-size:13.5px;font-weight:700;transition:.14s;
+    display:inline-flex;align-items:center;justify-content:center;gap:7px;}
+  .choice:hover{border-color:var(--muted);}
+  .choice.on-caught{border-color:var(--gold);background:rgba(240,180,41,.14);color:var(--gold);}
+  .choice.on-missed{border-color:var(--accent);background:rgba(230,69,53,.16);color:#ffb3aa;}
+  .choice .k{font-size:15px;line-height:1;}
+
+  /* ---- result ---- */
+  .result{margin-top:22px;border-top:1px solid var(--line);padding-top:24px;display:none;}
+  .result.show{display:block;animation:rise .4s ease;}
+  @keyframes rise{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+  .score-eyebrow{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);}
+  .score-big{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1;margin:8px 0 6px;
+    font-size:clamp(36px,9vw,60px);}
+  .score-big .n{color:var(--gold);}
+  .missline{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.01em;color:var(--accent);margin:0 0 8px;}
+  .verdict{font-size:15px;color:#e6e0d4;line-height:1.5;max-width:52ch;}
+  .verdict b{color:var(--cream);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:20px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .share-row{display:flex;gap:9px;flex-wrap:wrap;margin-top:6px;}
+  .btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--cream);}
+  .btn.ghost:hover{border-color:var(--muted);background:var(--ink2);}
+  .toast{font-size:12.5px;color:var(--gold);font-weight:600;margin-top:10px;min-height:16px;}
+
+  .see-btn{width:100%;margin:6px 0 0;background:var(--ink2);border:1.5px solid var(--line);border-radius:12px;
+    padding:14px;cursor:pointer;color:var(--muted);font-family:'Archivo';font-weight:700;font-size:14px;transition:.16s;}
+  .see-btn.ready{color:#fff;background:linear-gradient(180deg,rgba(230,69,53,.2),rgba(230,69,53,.08));border-color:rgba(230,69,53,.5);}
+  .see-btn:disabled{cursor:not-allowed;}
+
+  .foot{margin-top:26px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+
+    <div class="kicker">The FOMO quiz</div>
+    <h1>Did you catch it<span class="dot">?</span></h1>
+    <p class="lede">Five real Nashville windows opened and closed <b>last week</b> (Jul 21 - 27). Pop-ups, one-night dinners, limited runs. Tap the ones you actually caught. Be honest.</p>
+
+    <div class="progress"><span id="pcount">0 of 5 answered</span>
+      <span class="pips" id="pips"></span></div>
+
+    <div class="cards" id="cards"></div>
+
+    <button class="see-btn" id="seeBtn" disabled>Answer all five to see your score</button>
+
+    <section class="result" id="result">
+      <div class="score-eyebrow">Your Nashville FOMO score</div>
+      <div class="score-big" id="scoreBig"></div>
+      <p class="missline" id="missLine"></p>
+      <p class="verdict" id="verdict"></p>
+
+      <div class="cta">
+        <p id="ctaLine"></p>
+        <a class="btn" id="subBtn" href="/?utm_source=caught&amp;utm_medium=quiz&amp;utm_campaign=fomo#subscribe">Never miss again - subscribe free &#8594;</a>
+      </div>
+
+      <div class="share-row">
+        <button class="btn ghost" id="shareBtn">Share my score</button>
+        <button class="btn ghost" id="retryBtn">Take it again</button>
+      </div>
+      <div class="toast" id="toast"></div>
+    </section>
+
+    <p class="foot">Every window here really happened, and really ended. Pulled from the
+      <span class="fmark">Fleeting<span class="dot">.</span></span> discovery feed for the week of July 21, 2026.
+      <span class="fmark">Fleeting<span class="dot">.</span></span> sends the next week's list every Thursday, before it is gone.</p>
+  </div>
+
+<script>
+/* ---- the five real closed windows (from scripts/out/2026-07-23/issue.md, sent Thu Jul 23) ---- */
+var WINDOWS = [
+  { when:'SUN JUL 26 - ONE SEATING',
+    name:'Under the Stars: A San Sebastian Wine Dinner',
+    where:'The Fairlane rooftop, Downtown',
+    blurb:'A sommelier-guided five-course Basque coastal dinner on the rooftop, wines poured to match. One Sunday seating, then gone.' },
+  { when:'JUL 24 - 25 ONLY',
+    name:'Edgar Allan Poe Speakeasy: Chapter Two',
+    where:'The Franklin Theatre',
+    blurb:'Two nights of immersive speakeasy theater. Poe meets prohibition, and then the room went dark.' },
+  { when:'FRI JUL 24 - ONE NIGHT',
+    name:"Full Moon Pickin' Party",
+    where:'Percy Warner Equestrian Barn, Belle Meade',
+    blurb:'The monthly full-moon bluegrass gathering in the barn. Tied to the lunar calendar, so it is gone for another month.' },
+  { when:'SAT JUL 26 - FREE',
+    name:'Saint Heck NA Fernet Tasting',
+    where:'Killjoy Booze-free Beverage Shop',
+    blurb:'A free pour of Saint Heck non-alcoholic fernet at both Killjoy shops. A no-commitment look at where the NA scene is landing.' },
+  { when:'FRI JUL 25 - SOLD OUT',
+    name:'Shrek Rave',
+    where:'Brooklyn Bowl, Germantown',
+    blurb:'The touring Shrek Rave is a genuine phenomenon. Absurd on paper, sold out in practice, one night in town.' }
+];
+var SHARE_URL = 'https://nashville.fleeting.city/caught/';
+
+/* ---- state ---- */
+var answers = new Array(WINDOWS.length).fill(null); // true = caught, false = missed
+
+/* ---- build cards ---- */
+var esc = function(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); };
+var cardsEl = document.getElementById('cards');
+WINDOWS.forEach(function(w,i){
+  var c = document.createElement('div');
+  c.className = 'card'; c.setAttribute('data-i', i);
+  c.innerHTML =
+    '<span class="when">' + esc(w.when) + '</span>'
+    + '<h3>' + esc(w.name) + '</h3>'
+    + '<div class="where">' + esc(w.where) + '</div>'
+    + '<div class="blurb">' + esc(w.blurb) + '</div>'
+    + '<div class="choices">'
+    +   '<button class="choice" data-v="1"><span class="k">&#10003;</span> Caught it</button>'
+    +   '<button class="choice" data-v="0"><span class="k">&#10005;</span> Missed it</button>'
+    + '</div>';
+  cardsEl.appendChild(c);
+});
+
+/* ---- pips ---- */
+var pipsEl = document.getElementById('pips');
+WINDOWS.forEach(function(){ var p=document.createElement('span'); p.className='pip'; pipsEl.appendChild(p); });
+var pips = pipsEl.querySelectorAll('.pip');
+
+/* ---- answering ---- */
+cardsEl.querySelectorAll('.choice').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var card = btn.closest('.card');
+    var i = parseInt(card.getAttribute('data-i'), 10);
+    var caught = btn.getAttribute('data-v') === '1';
+    answers[i] = caught;
+    card.querySelectorAll('.choice').forEach(function(b){ b.classList.remove('on-caught','on-missed'); });
+    btn.classList.add(caught ? 'on-caught' : 'on-missed');
+    card.classList.add('answered');
+    pips[i].className = 'pip ' + (caught ? 'caught' : 'missed');
+    updateProgress();
+  });
+});
+
+function answeredCount(){ return answers.filter(function(a){ return a !== null; }).length; }
+
+function updateProgress(){
+  var n = answeredCount();
+  document.getElementById('pcount').textContent = n + ' of ' + WINDOWS.length + ' answered';
+  var see = document.getElementById('seeBtn');
+  if(n === WINDOWS.length){
+    see.disabled = false; see.classList.add('ready'); see.innerHTML = 'See my FOMO score &#8594;';
+  } else {
+    see.disabled = true; see.classList.remove('ready');
+    see.textContent = 'Answer all five to see your score';
+  }
+}
+
+/* ---- scoring + result copy ---- */
+function missedCount(){ return answers.filter(function(a){ return a === false; }).length; }
+
+function verdictCopy(missed){
+  var total = WINDOWS.length;
+  if(missed === 0)  return { v:'You caught all five. Either you are plugged into Nashville like few people are, or you got lucky last week. Fleeting is how you keep the streak going without the work.', cta:'<b>Stay ahead of it.</b> Get next week\'s here-then-gone list every Thursday, before it sells out.' };
+  if(missed <= 2)   return { v:'Not bad. But those still slipped past you, and they are the ones you would have wanted to know about.', cta:'<b>Close the gap.</b> Fleeting sends the week\'s pop-ups and one-night things every Thursday, before they are gone.' };
+  if(missed <= 4)   return { v:'That is a whole weekend of Nashville that happened without you. This is exactly the thing Fleeting fixes.', cta:'<b>This is why Fleeting exists.</b> The week\'s time-limited stuff, in your inbox every Thursday, before it is gone.' };
+  return { v:'Five for five, all missed. Last week in Nashville happened entirely without you. The good news: this is a solved problem.', cta:'<b>You clearly need this.</b> Fleeting sends the whole here-then-gone list every Thursday. Never find out a day too late again.' };
+}
+
+function shareText(missed){
+  var total = WINDOWS.length;
+  if(missed === 0) return 'I caught all ' + total + ' of last week\'s Nashville windows. I did not need Fleeting... this week. Can you? ' + SHARE_URL;
+  return 'I missed ' + missed + ' of ' + total + ' of last week\'s Nashville pop-ups and one-night things. I need Fleeting. How many did YOU catch? ' + SHARE_URL;
+}
+
+function showResult(){
+  var missed = missedCount();
+  var caught = WINDOWS.length - missed;
+  document.getElementById('scoreBig').innerHTML = 'You caught <span class="n">' + caught + '</span> of ' + WINDOWS.length;
+  var ml = document.getElementById('missLine');
+  ml.textContent = missed === 0 ? '' : missed + (missed === 1 ? ' window slipped past you.' : ' windows slipped past you.');
+  ml.style.display = missed === 0 ? 'none' : 'block';
+  var copy = verdictCopy(missed);
+  document.getElementById('verdict').textContent = copy.v;
+  document.getElementById('ctaLine').innerHTML = copy.cta;
+  var res = document.getElementById('result');
+  res.classList.add('show');
+  res.scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+document.getElementById('seeBtn').addEventListener('click', function(){
+  if(answeredCount() === WINDOWS.length) showResult();
+});
+
+/* ---- share ---- */
+document.getElementById('shareBtn').addEventListener('click', function(){
+  var txt = shareText(missedCount());
+  var toast = document.getElementById('toast');
+  if(navigator.share){
+    navigator.share({ title:'Did you catch it? Last week in Nashville.', text:txt, url:SHARE_URL })
+      .then(function(){ toast.textContent = 'Thanks for sharing.'; })
+      .catch(function(){ /* user dismissed - no-op */ });
+    return;
+  }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){
+      toast.textContent = 'Result copied. Paste it anywhere.';
+    }).catch(function(){ toast.textContent = txt; });
+  } else {
+    toast.textContent = txt;
+  }
+});
+
+/* ---- retry ---- */
+document.getElementById('retryBtn').addEventListener('click', function(){
+  answers = new Array(WINDOWS.length).fill(null);
+  document.getElementById('result').classList.remove('show');
+  document.getElementById('toast').textContent = '';
+  cardsEl.querySelectorAll('.card').forEach(function(card){
+    card.classList.remove('answered');
+    card.querySelectorAll('.choice').forEach(function(b){ b.classList.remove('on-caught','on-missed'); });
+  });
+  pips.forEach(function(p){ p.className = 'pip'; });
+  updateProgress();
+  document.querySelector('.wrap').scrollIntoView({ behavior:'smooth', block:'start' });
+});
+
+updateProgress();
+</script>
+</body>
+</html>
