@@ -3,8 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Nashville Insider Map — Fleeting</title>
-<meta name="description" content="A live map of Nashville's under-the-radar pop-ups, supper clubs, rooftop residencies and marquee dates — by neighborhood. Tap where you are to see what's on the clock nearby.">
+<title>The Nashville Insider Map: what's fleeting right now | Fleeting</title>
+<meta name="description" content="A live map of Nashville's under-the-radar pop-ups, supper clubs, rooftop residencies and marquee dates, by neighborhood. Tap where you are to see what is open and on the clock near you right now.">
+<link rel="canonical" href="https://nashville.fleeting.city/insider-map/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="The Nashville Insider Map: what's fleeting right now">
+<meta property="og:description" content="A live, tap-your-neighborhood map of Nashville's pop-ups, supper clubs, rooftop residencies and marquee dates that are here for a moment. See what is on the clock near you.">
+<meta property="og:url" content="https://nashville.fleeting.city/insider-map/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Nashville Insider Map: what's fleeting right now">
+<meta name="twitter:description" content="Tap your neighborhood to see Nashville's pop-ups, supper clubs and rooftop residencies that are here for a moment.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
 <!--
   Fleeting - Nashville : Referral reward / lead magnet (growth layer). Delivered at 1 referral
   (per beehiiv playbook: one great digital reward beats a t-shirt gated at 25). Host on
@@ -63,6 +80,16 @@
   .howto b{color:var(--cream);font-weight:600;}
   .tapchip{display:inline-flex;align-items:center;gap:6px;background:var(--ink2);border:1px solid var(--line);
     border-radius:999px;padding:4px 11px;color:var(--cream);font-size:12px;font-weight:600;}
+  .actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:16px;}
+  .cta-btn{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#fff;font-weight:700;
+    font-size:14px;padding:11px 20px;border-radius:999px;text-decoration:none;transition:transform .15s,box-shadow .2s;}
+  .cta-btn:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(230,69,53,.45);text-decoration:none;}
+  .share-btn{display:inline-flex;align-items:center;gap:7px;background:var(--ink2);color:var(--cream);
+    font-family:var(--sans);font-weight:600;font-size:14px;padding:11px 18px;border-radius:999px;
+    border:1px solid var(--line2);cursor:pointer;transition:border-color .15s,background .15s;}
+  .share-btn:hover{border-color:var(--accent);background:var(--ink3);}
+  .plusline{margin-top:11px;font-size:12.5px;color:var(--muted);}
+  .plusline a{color:var(--gold);font-weight:600;}
 
   /* ---- app layout ---- */
   .app{display:grid;grid-template-columns:1.45fr 1fr;gap:20px;margin:20px 0 8px;align-items:start;}
@@ -216,11 +243,16 @@
   <div class="wrap hero">
     <div class="kicker"><span class="pin"></span><svg class="hourglass" viewBox="0 0 24 28" width="15" height="17" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M3 2 L21 2 L12 14 Z" fill="var(--cream)" fill-opacity=".06"/><path d="M12 14 L21 26 L3 26 Z" fill="var(--cream)" fill-opacity=".06"/><path d="M7.86 8.48 L16.14 8.48 L12 14 Z" fill="var(--accent)"/><rect x="11.75" y="14" width=".5" height="7.92" fill="var(--accent)"/><path d="M4.98 26 L19.02 26 L12 18.08 Z" fill="var(--accent)"/><path d="M3 2 L21 2 L3 26 L21 26 Z" fill="none" stroke="var(--cream)" stroke-width=".9" stroke-linejoin="round" stroke-linecap="round"/><rect x="1.74" y="1.1" width="20.52" height="1.8" rx=".9" fill="var(--cream)"/><rect x="1.74" y="25.1" width="20.52" height="1.8" rx=".9" fill="var(--cream)"/></svg> The Insider Map</div>
     <h1>The Nashville Insider Map<span class="dot">.</span></h1>
-    <p class="sub">The pop-ups, supper clubs, rooftop residencies and marquee dates that are here for a moment — laid over the city, by neighborhood. Your head start on the Nashville stuff that's on a clock.</p>
+    <p class="sub">The pop-ups, supper clubs, rooftop residencies and marquee dates that are here for a moment, laid over the city, by neighborhood. Your head start on the Nashville stuff that's on a clock.</p>
     <div class="howto">
       <span class="tapchip">👆 Tap a neighborhood</span>
       <span>to see what's <b>on the clock near you</b> this week.</span>
     </div>
+    <div class="actions">
+      <a class="cta-btn" href="https://nashville.fleeting.city/#subscribe">Get the free weekly heads-up &rarr;</a>
+      <button class="share-btn" id="shareBtn" type="button">Share this map</button>
+    </div>
+    <p class="plusline">Want the full board plus same-day alerts the second something drops? <a href="https://fleeting-plus-gate.brady-k-rowe.workers.dev">That's Fleeting+ &rarr;</a></p>
   </div>
 
   <div class="wrap">
@@ -320,8 +352,12 @@
 
       <div class="cta">
         <b>Or just let us watch for you.</b> Every Thursday, <span class="fmark">Fleeting<span class="dot">.</span></span>
-        sends you the week's pop-ups, collabs and one-night menus before they sell out.
-        You're already on the list, so keep an eye on your inbox Thursday morning. 🍸
+        sends you the week's pop-ups, collabs and one-night menus before they sell out, free. 🍸
+        <div class="actions" style="margin-top:14px;">
+          <a class="cta-btn" href="https://nashville.fleeting.city/#subscribe">Get the free weekly heads-up &rarr;</a>
+          <button class="share-btn" id="shareBtn2" type="button">Share this map</button>
+        </div>
+        <p class="plusline">The full members' board plus same-day alerts is <a href="https://fleeting-plus-gate.brady-k-rowe.workers.dev">Fleeting+ &rarr;</a></p>
       </div>
       <p class="updated">Last refreshed July 6, 2026 · <span class="fmark">Fleeting<span class="dot">.</span></span> — Nashville · Schedules change — confirm before you go.</p>
     </section>
@@ -568,6 +604,28 @@ function select(id){
 }
 
 renderDefault();
+
+/* ---------------- share ---------------- */
+const SHARE_URL = 'https://nashville.fleeting.city/insider-map/';
+async function shareMap(btn){
+  const data = { title:'The Nashville Insider Map',
+    text:"What's fleeting in Nashville right now, by neighborhood.", url:SHARE_URL };
+  try{ if(navigator.share){ await navigator.share(data); return; } }
+  catch(e){ return; } /* user dismissed the native sheet */
+  const label = btn.textContent;
+  try{
+    await navigator.clipboard.writeText(SHARE_URL);
+    btn.textContent = 'Link copied';
+  }catch(e){
+    window.prompt('Copy this link:', SHARE_URL);
+    return;
+  }
+  setTimeout(()=>{ btn.textContent = label; }, 1800);
+}
+['shareBtn','shareBtn2'].forEach(id=>{
+  const b = document.getElementById(id);
+  if(b) b.addEventListener('click', ()=>shareMap(b));
+});
 </script>
 </body>
 </html>
