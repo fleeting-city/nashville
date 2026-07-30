@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nashville Conditions: what's open, closing, and just gone | Fleeting</title>
+<meta name="description" content="Nashville's daily conditions board for time-limited food, drink and events. What is open now, what closes inside 72 hours, and what just slipped away. Read the report, bookmark it, check it every morning.">
+<link rel="canonical" href="https://nashville.fleeting.city/conditions/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Nashville Conditions: open, closing, and just gone">
+<meta property="og:description" content="The daily conditions board for Nashville's time-limited windows. Open now, closing inside 72 hours, and just closed. Check it every morning.">
+<meta property="og:url" content="https://nashville.fleeting.city/conditions/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nashville Conditions: open, closing, and just gone">
+<meta name="twitter:description" content="Nashville's daily conditions board for time-limited food and events. Open, closing soon, just gone.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Conditions board (EXP-0017 / LAS-149). The ski-resort
+  snow-report MECHANIC ported to time-limited food/experience windows: a daily-check
+  status surface in three buckets (OPEN NOW / CLOSING SOON / JUST CLOSED), built by
+  scripts/build_conditions_board.py from the live discovery feed (candidates_today.json)
+  and keyed off each window's parseable close date. Regenerated on every publish -- do
+  not hand-edit; edit the builder. Pull surface only: NO alert promise (F-0009). Dark
+  mission-control theme, tokens from site/index.html; skyline resolved via brand/marks.py
+  and referenced (not pasted) from skyline.svg (rules 11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .board{margin:26px 0 4px;}
+  .bhead{display:flex;align-items:center;gap:10px;}
+  .bhead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;}
+  .bhead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.03em;}
+  .bhead .count{margin-left:auto;font-family:'Archivo';font-weight:900;font-size:15px;color:var(--muted);}
+  .bsub{font-size:12.5px;color:var(--muted);margin:5px 0 4px;letter-spacing:.01em;}
+  .board.soon .bhead .dot{background:var(--accent);box-shadow:0 0 12px rgba(230,69,53,.7);}
+  .board.soon .bhead h2{color:#ffb3aa;}
+  .board.open .bhead .dot{background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .board.open .bhead h2{color:var(--gold);}
+  .board.closed .bhead .dot{background:#6a6458;}
+  .board.closed .bhead h2{color:var(--muted);}
+
+  .cards{margin:12px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--line);border-radius:12px;padding:14px 16px 13px;margin:11px 0;}
+  .card.soon{border-left-color:var(--accent);}
+  .card.open{border-left-color:var(--gold);}
+  .card.closed{border-left-color:#6a6458;opacity:.72;}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-bottom:8px;}
+  .card.soon .when{color:#ffb3aa;background:rgba(230,69,53,.16);border:1px solid rgba(230,69,53,.4);}
+  .card.open .when{color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);}
+  .card.closed .when{color:var(--muted);background:rgba(246,241,231,.06);border:1px solid var(--line);}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .card .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px;}
+  .card .det{font-size:12.5px;font-weight:700;}
+  .card .confirm{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);}
+  .empty{font-size:13px;color:var(--muted);font-style:italic;background:rgba(246,241,231,.03);
+    border:1px dashed var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:28px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Nashville conditions report</div>
+    <h1>What's open<span class="dot">.</span> What's closing<span class="dot">.</span> What's gone<span class="dot">.</span></h1>
+    <p class="lede">The scene here runs on a clock. This is the morning read: the time-limited food, drink and one-night things that are <b>open right now</b>, the ones <b>closing inside 72 hours</b>, and the ones that <b>just slipped away</b>. Pulled straight from what the machine tracks. Bookmark it and check it like a local checks the weather.</p>
+    <div class="asof">Report for <b>Thursday, July 30</b> &middot; 12 open &middot; 12 closing soon &middot; 1 just closed</div>
+    <section class="board soon"><div class="bhead"><span class="dot"></span><h2>CLOSING SOON</h2><span class="count">12</span></div><p class="bsub">Doors shut inside the next 72 hours. Move on these.</p><div class="cards"><article class="card soon"><span class="when">Closes today</span><h3>Thursday Night Out</h3><div class="where">Cheekwood Botanical Gardens &amp; Estate</div><p class="blurb">Cheekwood after dark - gardens, drinks, and summer vibes for one night only.</p><div class="meta"><a class="det" href="https://cheekwood.org/calendar-events/thursday-night-out-260730/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>Early 2000s Back-to-School Marathon</h3><div class="where">Franklin Theatre, Franklin</div><p class="blurb">One-day nostalgia triple-feature at the Franklin Theatre - Holes at 7 PM is the obvious anchor.</p><div class="meta"><a class="det" href="https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=566338~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&amp;" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>Dom Flemons: The Bronze Buckaroo Film &amp; Songster Show</h3><div class="where">Franklin Theatre, Franklin</div><p class="blurb">One-night-only screening plus live performance from the Grammy-winning Black Opry pioneer - genuinely rare.</p><div class="meta"><a class="det" href="https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=533194~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&amp;" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>Greys Fine Cheeses - 30% Off Wine Bottles</h3><div class="where">The Factory at Franklin, Franklin</div><p class="blurb">One-day wine discount at Greys inside the Factory - grab a bottle while you&#x27;re browsing Franklin.</p><div class="meta"><a class="det" href="https://factoryatfranklin.com/event/greys-fine-cheeses-30-off-wine-bottles/2026-07-30/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>27Live: Priscilla Block with Highway Home</h3><div class="where">L27 Rooftop Lounge, Downtown</div><p class="blurb">Rooftop live show with Priscilla Block - the L27 format keeps it intimate in a way Ascend never will.</p><div class="meta"><a class="det" href="https://073026-27live-priscillablock.eventbrite.com/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>Art Between the Avenues</h3><div class="where">The Arcade, Downtown</div><p class="blurb">Local art pop-up running through the historic Arcade today only - free to browse, today&#x27;s the day.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do/art-between-the-avenues-1" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>An Evening in River North Block Party</h3><div class="where">Oxbow + The Wayward, River North</div><p class="blurb">Free block party co-hosted by Oxbow and The Wayward in River North - tonight only, no excuse needed.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Evening-River-North/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes today</span><h3>l&#x27;Et du Vin Vintners Tasting - Opening Night</h3><p class="blurb">Opening night of Nashville Wine Auction&#x27;s 47th annual l&#x27;Et du Vin weekend - serious wine, serious room.</p><div class="meta"><a class="det" href="https://nashvillelife.com/lEt%C3%A9-du-Vin-Vintners-Tasting/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes tomorrow</span><h3>Murder with a Side of Meatballs</h3><div class="where">The Escape Game - Berry Hill, Berry Hill</div><p class="blurb">Murder mystery escape room with an Italian-dinner twist - closes tomorrow, so tonight might literally be your last chance.</p><div class="meta"><a class="det" href="https://do615.com/events/2026/7/2/murder-with-a-side-of-meatballs-tickets" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes tomorrow</span><h3>DroneArt Show: Harry Potter at Nissan Stadium</h3><div class="where">Nissan Stadium, East Bank</div><p class="blurb">Drone light show painting Harry Potter scenes over the stadium - one night only, tomorrow, and already discounted 20%.</p><div class="meta"><a class="det" href="https://feverup.com/m/652385" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes tomorrow</span><h3>Dolly Parton&#x27;s Threads: My Songs in Symphony</h3><div class="where">Schermerhorn Symphony Center, Downtown</div><p class="blurb">Two-day symphonic run celebrating Dolly&#x27;s catalog - matinee and evening shows both days, then it&#x27;s done.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do/dolly-partons-threads-my-songs-in-symphony-2" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card soon"><span class="when">Closes tomorrow</span><h3>Play Like a Girl Pop Up</h3><div class="where">Gigi Pip | Two Roads Hat Bar</div><p class="blurb">A Friday afternoon pop-up at Gigi Pip&#x27;s hat bar - limited window, women-in-sport energy, worth the detour if you&#x27;re downtown anyway.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do/play-like-a-girl-pop-up" target="_blank" rel="noopener">Details &#8594;</a></div></article></div></section>
+    <section class="board open"><div class="bhead"><span class="dot"></span><h2>OPEN NOW</h2><span class="count">12</span></div><p class="bsub">Windows you can still catch, soonest deadline first.</p><div class="cards"><article class="card open"><span class="when">4 days left</span><h3>3rd Annual Robert&#x27;s Western World Fan Fair</h3><div class="where">Robert&#x27;s Western World / Lower Broadway, Downtown</div><p class="blurb">Lower Broadway goes car-free for a day of traditional country royalty on a street stage - free, loud, and exactly what the tourists accidentally stumble into and can&#x27;t believe is real.</p><div class="meta"><a class="det" href="https://www.robertswesternworld.com/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">4 days left</span><h3>Puppeteers for Fears Presents: Robopocalypse: The Musical!</h3><div class="where">City Winery, Germantown</div><p class="blurb">Puppet musical about robot apocalypse at City Winery - weird, one-night, and absolutely worth it.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">4 days left</span><h3>Robert&#x27;s Western World 3rd Annual Fan Fair Block Party</h3><div class="where">Roberts Western World, Lower Broadway</div><p class="blurb">Lower Broadway&#x27;s honky-tonk institution throws its free Fan Fair block party for the third year - old Nashville at its best.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Roberts-Western-World-Fan-Fair/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">5 days left</span><h3>All The Feelings Tour: Metric, Broken Social Scene &amp; Stars</h3><div class="where">Ryman Auditorium, Downtown</div><p class="blurb">Three Canadian indie heavyweights on one Ryman bill - this is the kind of stacked triple that lands in Nashville once.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">5 days left</span><h3>Stewart Copeland</h3><div class="where">City Winery, Germantown</div><p class="blurb">The Police&#x27;s drummer in an intimate City Winery set - small room, single night, genuinely rare.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">6 days left</span><h3>Wine Dinner</h3><div class="where">The Mockingbird</div><p class="blurb">A one-off wine dinner at The Mockingbird - tight window mid-week, worth checking if the pairing format is your thing.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do/wine-dinner" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">6 days left</span><h3>Tame Impala</h3><div class="where">Bridgestone Arena, Downtown</div><p class="blurb">Two-night Bridgestone run from one of the best live psychedelic acts working - rare for a band this size to double Nashville.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">6 days left</span><h3>Dogstar</h3><div class="where">Ryman Auditorium, Downtown</div><p class="blurb">Keanu Reeves&#x27; 90s alt-rock band back on a real stage at the Ryman - yes, that Keanu.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">Open through Aug 7</span><h3>The Black Keys</h3><div class="where">The Pinnacle</div><p class="blurb">Two-night stand from one of the last great guitar-rock duos - The Pinnacle is a proper room for them.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">Open through Aug 7</span><h3>WeTouchGrass Presents: Anime Rave</h3><div class="where">The Basement East, East Nashville</div><p class="blurb">Anime-themed rave at Bas East - niche, one-night, sells out faster than you&#x27;d expect.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">Open through Aug 7</span><h3>Pasta alla Norma Class &amp; Lunch at Yolan</h3><div class="where">Yolan</div><p class="blurb">Hands-on Sicilian pasta class inside Yolan&#x27;s kitchen - one of the more intimate culinary experiences Nashville offers.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Pasta-alla-Norma-Pasta-Class-Lunch/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card open"><span class="when">Open through Aug 8</span><h3>Vince Gill Residency</h3><div class="where">Ryman Auditorium, Downtown</div><p class="blurb">Six nights at the Mother Church across two weekends - no two setlists the same, spanning country, bluegrass, jazz, and Americana from one of Nashville&#x27;s genuine legends.</p><div class="meta"><a class="det" href="https://www.ryman.com/event/2026-alison-krauss-union-station" target="_blank" rel="noopener">Details &#8594;</a></div></article></div></section>
+    <section class="board closed"><div class="bhead"><span class="dot"></span><h2>JUST CLOSED</h2><span class="count">1</span></div><p class="bsub">Gone in the last few days. The ache. This is what a day too late looks like.</p><div class="cards"><article class="card closed"><span class="when">Closed yesterday</span><h3>Menna - Album Release Show</h3><div class="where">The Basement, Melrose</div><p class="blurb">Menna&#x27;s album release night at The Basement - one-night debut of a new record, always a different energy.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a><span class="confirm">confirm before you go</span></div></article></div></section>
+    <section class="cta">
+      <p><b>This board does not ping you.</b> It is a pull surface on purpose -- no alerts, no notifications, nothing in your pocket buzzing. The way to never find out a day too late is the Thursday list: the week's here-then-gone Nashville windows, in your inbox before they close.</p>
+      <a class="btn" href="/?utm_source=conditions&amp;utm_medium=board&amp;utm_campaign=daily_check#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Every window here is real and every date is its own stated close date, read from the <span class="fmark">Fleeting<span class="dot">.</span></span> discovery feed. Windows without a firm date are held back rather than guessed. Want the full closed list or a map? See <a href="/archive/">the archive</a> and <a href="/insider-map/">the insider map</a>.</p>
+  </div>
+</body>
+</html>
