@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Founding era: get in before Fleeting scales | Fleeting - Nashville</title>
+<meta name="description" content="Fleeting just launched in Nashville. Being early is the whole point: found a weekly list of the city's here-then-gone food, drink and events while it is still small enough for your voice to shape it. Get in on the ground floor, free.">
+<link rel="canonical" href="https://nashville.fleeting.city/founding/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Founding era: get in before Fleeting scales">
+<meta property="og:description" content="We just launched. Being early is the point -- found the weekly list of Nashville's here-then-gone windows while it is still small enough for your voice to shape it.">
+<meta property="og:url" content="https://nashville.fleeting.city/founding/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Founding era: get in before Fleeting scales">
+<meta name="twitter:description" content="We just launched in Nashville. Being early is the whole point. Found the weekly here-then-gone list, free.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Founding Era front door (EXP-0019 / LAS-164). Lens L05 --
+  the constraint IS the feature: our smallness (tiny list, no brand, just launched)
+  is reframed as the ground-floor pitch. Built by scripts/build_founding_page.py.
+  Pull / subscribe surface only: NO alert promise (F-0009). Dark mission-control
+  theme, tokens shared with the conditions board; skyline resolved via brand/marks.py
+  and referenced (not pasted) from skyline.svg (rules 11/14). Pure-ASCII copy.
+  The literal subscriber count is a Brady positioning decision and defaults OFF --
+  the live-progress element renders only when a human passes --live-count N.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+
+  .progress{margin:24px 0 6px;background:linear-gradient(180deg,#141318,#100f13);
+    border:1px solid var(--line);border-radius:14px;padding:16px 18px;}
+  .prow{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+  .plabel{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+  .pnum{font-family:'Archivo';font-weight:900;font-size:20px;color:var(--gold);}
+  .pnum .pof{font-family:'Inter';font-weight:600;font-size:12px;color:var(--muted);letter-spacing:.02em;}
+  .ptrack{margin:11px 0 4px;height:8px;border-radius:999px;background:rgba(246,241,231,.08);overflow:hidden;}
+  .pfill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--gold));
+    box-shadow:0 0 12px rgba(230,69,53,.5);}
+  .pnote{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5;}
+
+  .why{margin:30px 0 4px;}
+  .whead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .whead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .whead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;color:var(--cream);}
+  .reason{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--accent);border-radius:12px;padding:15px 17px;margin:13px 0;}
+  .reason h3{font-family:'Archivo';font-weight:900;font-size:16.5px;letter-spacing:-.01em;line-height:1.2;color:var(--gold);margin-bottom:6px;}
+  .reason p{font-size:13.5px;color:#d8d3c8;line-height:1.55;}
+  .reason p b{color:var(--cream);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:22px 20px 18px;margin:30px 0 10px;}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4.4vw,24px);letter-spacing:-.01em;color:var(--cream);margin-bottom:8px;}
+  .ctap{font-size:14px;color:#e7e1d5;margin:0 0 14px;line-height:1.5;}
+  .ctap b{color:#fff;}
+  .form{display:flex;gap:9px;flex-wrap:wrap;}
+  .form input{flex:1 1 200px;min-width:0;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:12px 14px;font-family:'Inter';}
+  .form input:focus{outline:none;border-color:var(--accent);}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn:disabled{opacity:.6;cursor:default;}
+  .fine{font-size:11.5px;color:var(--muted);margin-top:11px;letter-spacing:.01em;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The founding era</div>
+    <h1>You're early<span class="dot">.</span> That's the whole point<span class="dot">.</span></h1>
+    <p class="lede">Fleeting just launched in Nashville. No big list yet, no brand you have heard of -- just a weekly heads-up on the city's <b>here-then-gone</b> food, drink and one-night things, and a handful of people who found it first. That handful is the opportunity. Get in on the ground floor while the ground floor is still open.</p>
+    <section class="why">
+      <div class="whead"><span class="dot"></span><h2>Why being early actually matters here</h2></div>
+      <article class="reason"><h3>Your voice still moves the room</h3><p>Reply to an issue right now and a human reads it and changes the next one. Tell us the neighborhood we are sleeping on, the pop-up we missed -- founding readers shape what Fleeting becomes. That access is a small-list luxury; it does not survive a big list.</p></article>
+      <article class="reason"><h3>Founding status, locked in</h3><p>Join now and you are a <b>Founding Reader of Fleeting - Nashville</b> -- one of the first 500, a spot later readers cannot buy their way back into. It comes with a founding-reader badge you can actually show, and it feeds straight into the <a href="/#subscribe">referral ladder</a>: your link, your rewards, your name on the masthead if you bring the room.</p></article>
+      <article class="reason"><h3>It stops working at scale -- so this window closes</h3><p>The honest part: this pitch only works because we are small. Once Fleeting is the list everyone in Nashville already has, "get in early" is off the table for good. There is exactly one founding era, and you are standing in it.</p></article>
+    </section>
+    <section class="cta" id="join">
+      <p class="ctah">Found it before your city did.</p>
+      <p class="ctap">One email a week: the Nashville windows that are about to close, before they do. Always free. <b>This list does not ping you</b> -- no alerts, no notifications, just the Thursday heads-up in your inbox.</p>
+      <form class="form" id="subscribe" onsubmit="return go(event)">
+        <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
+        <button class="btn" type="submit">Claim my founding spot &#8594;</button>
+      </form>
+      <p class="fine">Unsubscribe anytime. We never share your email.</p>
+    </section>
+    <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
+  </div>
+  <script>
+  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
+  function go(e){
+    e.preventDefault();
+    var form=document.getElementById('subscribe');
+    var input=document.getElementById('email');
+    var btn=form.querySelector('button[type=submit]');
+    var em=input.value.trim();
+    if(!em){ return false; }
+    function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
+    var qs=new URLSearchParams(window.location.search);
+    var payload={
+      email:em,
+      referrer:document.referrer||'',
+      utm_source:qs.get('utm_source')||'founding',
+      utm_medium:qs.get('utm_medium')||'front_door',
+      utm_campaign:qs.get('utm_campaign')||'founding_era'
+    };
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Joining...';
+    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">You are in. Founding reader.</div><p style="color:var(--muted);margin:8px 0 0;">Check your inbox to confirm. The first heads-up lands Thursday.</p></div>';
+        } else {
+          btn.disabled=false; btn.textContent=label; fallback();
+        }
+      })
+      .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
+    return false;
+  }
+  </script>
+</body>
+</html>
