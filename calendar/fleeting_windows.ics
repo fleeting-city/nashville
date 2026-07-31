@@ -1,0 +1,394 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gigi_pip_two_roads_hat_bar-20260731@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260731T233000Z
+DTEND:20260801T013000Z
+SUMMARY:Fleeting: Play Like a Girl Pop Up (one night)
+LOCATION:Gigi Pip | Two Roads Hat Bar
+DESCRIPTION:A women's pop-up event at Nashville's hat bar - two hours\, dro
+ p in.\nDetails and tickets: https://nashvilledowntown.com/do/play-like-a-g
+ irl-pop-up\nWindows drift - confirm with the venue before you go.\nFleetin
+ g - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/do/play-like-a-girl-pop-up
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tennessee_farmers_market_trail-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Last day: Tennessee Farmers Market Trail
+LOCATION:Williamson County
+DESCRIPTION:The summer farmers market trail closes out Aug 1 - three weeken
+ ds left to hit the local producers before it wraps.\nDetails and tickets: 
+ https://visitfranklin.com/events/tennessee-farmers-market-trail/\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://visitfranklin.com/events/tennessee-farmers-market-trail/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:marquee_nashville-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260802T043000Z
+DTEND:20260802T063000Z
+SUMMARY:Fleeting: Murder Mystery Burlesque (one night)
+LOCATION:Marquee Nashville\, Downtown
+DESCRIPTION:Whodunit meets rhinestones - a late-night murder mystery wrappe
+ d in burlesque that's not your typical Saturday.\nDetails and tickets: htt
+ ps://nashvilledowntown.com/do/murder-mystery-burlesque\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://nashvilledowntown.com/do/murder-mystery-burlesque
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:440_welshwood_dr-20260804@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260804T213000Z
+DTEND:20260804T233000Z
+SUMMARY:Fleeting: Cookies for a Cause (one night)
+LOCATION:440 Welshwood Dr
+DESCRIPTION:One-afternoon charitable cookie pop-up - sugar with a side of g
+ ood karma.\nDetails and tickets: https://www.eventbrite.com/e/cookies-for-
+ a-cause-tickets-1993475729570?aff=ebdssbdestsearch\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://www.eventbrite.com/e/cookies-for-a-cause-tickets-1993475729570?
+ aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5_point_6_studio-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260802T000000Z
+DTEND:20260802T020000Z
+SUMMARY:Fleeting: PORTRAIT PARTY: Double Exposure (one night)
+LOCATION:5 point 6 Studio
+DESCRIPTION:One-night portrait show at a local studio doing double-exposure
+  work - small-room gallery energy before Nashville's art scene fully wakes
+  up for fall.\nDetails and tickets: https://www.eventbrite.com/e/portrait-
+ party-double-exposure-tickets-1990839903744?aff=ebdssbdestsearch\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://www.eventbrite.com/e/portrait-party-double-exposure-tickets-199
+ 0839903744?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:burger_up-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Last day: Burger Up 12South - Final Days Before Permanent Closure
+LOCATION:Burger Up\, 12South
+DESCRIPTION:Sixteen years in 12South ends August 1 - your last window to hi
+ t one of Nashville's original craft-burger anchors before the doors shut f
+ or good.\nDetails and tickets: https://www.nashvillescene.com/food_drink/b
+ ites/12south-burger-up-closes/article_0ef251aa-a276-5a77-a98a-225df9540384
+ .html\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.nashvillescene.com/food_drink/bites/12south-burger-up-close
+ s/article_0ef251aa-a276-5a77-a98a-225df9540384.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cannery_hall-20260731@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260801T020000Z
+DTEND:20260801T040000Z
+SUMMARY:Fleeting: Heated Twilight - A Heated Rivalry + Twilight Dance Party
+  (one night)
+LOCATION:Cannery Hall\, Wedgewood-Houston
+DESCRIPTION:One-night themed dance party mashing up Heated Rivalry with ful
+ l Twilight energy - niche\, unhinged\, probably packed.\nDetails and ticke
+ ts: https://nashvillego.com/calendar\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:robert_s_western_world-20260803@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Fleeting: 3rd Annual Robert's Western World Fan Fair (one night)
+LOCATION:Robert's Western World\, Lower Broadway
+DESCRIPTION:Lower Broadway goes car-free for a free block party celebrating
+  traditional country - the anti-bachelorette-party version of Broadway.\nD
+ etails and tickets: https://www.robertswesternworld.com/\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://www.robertswesternworld.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nissan_stadium-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Last day: DroneArt Show: Harry Potter
+LOCATION:Nissan Stadium\, SoBro
+DESCRIPTION:Hundreds of drones painting Harry Potter scenes over the stadiu
+ m sky - two nights only\, no seats required.\nDetails and tickets: https:/
+ /nashvillego.com/calendar\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_escape_game_berry_hill-20260731@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Last day: Murder with a Side of Meatballs
+LOCATION:The Escape Game - Berry Hill\, Berry Hill
+DESCRIPTION:A limited-run murder mystery dining experience at The Escape Ga
+ me - tonight is the last day.\nDetails and tickets: https://do615.com/even
+ ts/2026/7/2/murder-with-a-side-of-meatballs-tickets\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://do615.com/events/2026/7/2/murder-with-a-side-of-meatballs-ticke
+ ts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:third_coast_comedy_club-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260802T000000Z
+DTEND:20260802T020000Z
+SUMMARY:Fleeting: The Tenth Annual Third Coast Comedy Anniversary Show (one
+  night)
+LOCATION:Third Coast Comedy Club\, East Nashville
+DESCRIPTION:Third Coast turns 10 - a milestone anniversary show from Nashvi
+ lle's scrappiest comedy room.\nDetails and tickets: https://nashvillego.co
+ m/calendar\nWindows drift - confirm with the venue before you go.\nFleetin
+ g - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20260731@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Fleeting: Full Moon Hike - Buck Moon (one night)
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:July's Buck Moon hike at Owl's Hill - next one isn't until Augu
+ st 28\, so this is your summer-night sweet spot.\nDetails and tickets: htt
+ ps://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar\nWindows drift -
+  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
+ at-closes-first list.
+URL:https://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:roberts_western_world-20260803@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Fleeting: Robert's Western World 3rd Annual Fan Fair Block Party (o
+ ne night)
+LOCATION:Roberts Western World\, Lower Broadway
+DESCRIPTION:Robert's throws its annual Fan Fair block party on Lower Broadw
+ ay - free\, rowdy\, and the most Nashville thing happening that Monday.\nD
+ etails and tickets: https://nashvillelife.com/Roberts-Western-World-Fan-Fa
+ ir/Nashville-Calendar\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Roberts-Western-World-Fan-Fair/Nashville-Cale
+ ndar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:woolworth_theatre-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Last day: Shiners Stage Show
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:A three-night run at Woolworth Theatre from the Shiners - limit
+ ed-run stage production worth catching before it closes.\nDetails and tick
+ ets: https://nashvillego.com/calendar\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cheekwood-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Fleeting: Maura Wright - Martin Shallenberger Artist-in-Residence (
+ one night)
+LOCATION:Cheekwood\, Belle Meade
+DESCRIPTION:Cheekwood names its 2026 artist-in-residence - Maura Wright's w
+ ork lands in one of Nashville's most beautiful garden settings.\nDetails a
+ nd tickets: https://nashvillelife.com/2026-Martin-Shallenberger-Artist-Res
+ idence-Maura-Wright/Nashville-Calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillelife.com/2026-Martin-Shallenberger-Artist-Residence-Ma
+ ura-Wright/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ryman_auditorium-20260805@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260806T003000Z
+DTEND:20260806T023000Z
+SUMMARY:Fleeting: Dogstar (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Keanu Reeves' actual band playing the actual Ryman - one night\
+ , and yes it counts.\nDetails and tickets: https://nashvillego.com/calenda
+ r\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tomato_art_fest-20260808@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Last day: Tomato Art Fest
+LOCATION:Tomato Art Fest\, Five Points / East Nashville
+DESCRIPTION:East Nashville's beloved annual absurdist celebration of the to
+ mato returns - street art\, tomato-themed food\, and pure neighborhood ene
+ rgy.\nDetails and tickets: https://nashvillelife.com/Tomato-Art-Fest/Nashv
+ ille-Calendar\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Tomato-Art-Fest/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3955_nolensville_pk-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260801T160000Z
+DTEND:20260801T180000Z
+SUMMARY:Fleeting: Taste of Korea (one night)
+LOCATION:3955 Nolensville Pk
+DESCRIPTION:Free Korean food festival on Nolensville Pike - the corridor do
+ ing the most interesting eating in Nashville right now.\nDetails and ticke
+ ts: https://www.eventbrite.com/e/taste-of-korea-is-finally-here-tickets-19
+ 94310177426?aff=ebdssbdestsearch\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/taste-of-korea-is-finally-here-tickets-199
+ 4310177426?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:williamson_county_fair-20260815@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Last day: Williamson County Fair
+LOCATION:Williamson County
+DESCRIPTION:Nine days of classic county fair in Williamson County - livesto
+ ck\, rides\, fried everything\, and the kind of summer that still exists o
+ utside the city.\nDetails and tickets: https://nashvillelife.com/Williamso
+ n-County-Fair/Nashville-Calendar\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Williamson-County-Fair/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:james_e_ward_agricultural_center-20260822@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:Last day: Tennessee State Fair
+LOCATION:James E. Ward Agricultural Center\, Lebanon\, TN
+DESCRIPTION:Ten days\, the whole state - livestock competitions\, midway\, 
+ fair food\, and the annual reminder that Tennessee is still deeply agricul
+ tural.\nDetails and tickets: https://nashvillelife.com/Tennessee-State-Fai
+ r/Nashville-Calendar\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Tennessee-State-Fair/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20260822@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260822T150000Z
+DTEND:20260822T170000Z
+SUMMARY:Fleeting: Wild About Mushrooms (one night)
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:Two-hour guided foraging-adjacent program at Owl's Hill for $40
+  - fungus season intel from people who actually know what they're looking 
+ at.\nDetails and tickets: https://nashvillelife.com/Wild-About-Mushrooms/N
+ ashville-Calendar\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Wild-About-Mushrooms/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1316_antioch_pike-20260802@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Last day: Nashvilles 13th Annual Jamaica Independence 2 Day Weekend
+  Celebration
+LOCATION:1316 Antioch Pike
+DESCRIPTION:Nashville's long-running Jamaica Independence party returns for
+  a two-night Caribbean blowout on the south side.\nDetails and tickets: ht
+ tps://www.eventbrite.com/e/nashvilles-13th-annual-jamaica-independence-2-d
+ ay-wknd-celebration-tickets-1991952089321?aff=ebdssbdestsearch\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://www.eventbrite.com/e/nashvilles-13th-annual-jamaica-independenc
+ e-2-day-wknd-celebration-tickets-1991952089321?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_escape_game_berry_hill-20260731@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Last day: Murder with a Side of Meatballs
+LOCATION:The Escape Game - Berry Hill\, Berry Hill
+DESCRIPTION:Themed escape room with a meatball hook - two days left before 
+ this one closes out permanently.\nDetails and tickets: https://do615.com/e
+ vents/2026/7/2/murder-with-a-side-of-meatballs-tickets\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://do615.com/events/2026/7/2/murder-with-a-side-of-meatballs-ticke
+ ts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_basement_east-20260807@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260808T020000Z
+DTEND:20260808T040000Z
+SUMMARY:Fleeting: WeTouchGrass Presents: Anime Rave (one night)
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:Anime-themed rave at Basement East - one night\, cosplay encour
+ aged\, and the crowd will be unhinged in the best way.\nDetails and ticket
+ s: https://nashvillego.com/calendar\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:308_rep_john_lewis_way_s-20260815@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Last day: Beer\, Bourbon & BBQ: Nashville Adventure
+LOCATION:308 Rep. John Lewis Way S\, Downtown
+DESCRIPTION:A guided crawl through Nashville's BBQ and bourbon scene with a
+  hard close date mid-August - peak summer\, limited slots.\nDetails and ti
+ ckets: https://feverup.com/m/167311\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/167311
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

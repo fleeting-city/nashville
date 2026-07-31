@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Fleeting: Maura Wright - Martin Shallenberger Artist-in-Residence (
+ one night)
+LOCATION:Cheekwood\, Belle Meade
+DESCRIPTION:Cheekwood names its 2026 artist-in-residence - Maura Wright's w
+ ork lands in one of Nashville's most beautiful garden settings.\nDetails a
+ nd tickets: https://nashvillelife.com/2026-Martin-Shallenberger-Artist-Res
+ idence-Maura-Wright/Nashville-Calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillelife.com/2026-Martin-Shallenberger-Artist-Residence-Ma
+ ura-Wright/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

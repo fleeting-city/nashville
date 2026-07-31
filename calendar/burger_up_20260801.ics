@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:burger_up-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Last day: Burger Up 12South - Final Days Before Permanent Closure
+LOCATION:Burger Up\, 12South
+DESCRIPTION:Sixteen years in 12South ends August 1 - your last window to hi
+ t one of Nashville's original craft-burger anchors before the doors shut f
+ or good.\nDetails and tickets: https://www.nashvillescene.com/food_drink/b
+ ites/12south-burger-up-closes/article_0ef251aa-a276-5a77-a98a-225df9540384
+ .html\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.nashvillescene.com/food_drink/bites/12south-burger-up-close
+ s/article_0ef251aa-a276-5a77-a98a-225df9540384.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

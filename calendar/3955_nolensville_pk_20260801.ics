@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3955_nolensville_pk-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260801T160000Z
+DTEND:20260801T180000Z
+SUMMARY:Fleeting: Taste of Korea (one night)
+LOCATION:3955 Nolensville Pk
+DESCRIPTION:Free Korean food festival on Nolensville Pike - the corridor do
+ ing the most interesting eating in Nashville right now.\nDetails and ticke
+ ts: https://www.eventbrite.com/e/taste-of-korea-is-finally-here-tickets-19
+ 94310177426?aff=ebdssbdestsearch\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/taste-of-korea-is-finally-here-tickets-199
+ 4310177426?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

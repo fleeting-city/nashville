@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:james_e_ward_agricultural_center-20260822@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:Last day: Tennessee State Fair
+LOCATION:James E. Ward Agricultural Center\, Lebanon\, TN
+DESCRIPTION:Ten days\, the whole state - livestock competitions\, midway\, 
+ fair food\, and the annual reminder that Tennessee is still deeply agricul
+ tural.\nDetails and tickets: https://nashvillelife.com/Tennessee-State-Fai
+ r/Nashville-Calendar\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Tennessee-State-Fair/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

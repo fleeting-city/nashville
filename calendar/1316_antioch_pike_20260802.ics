@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:1316_antioch_pike-20260802@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Last day: Nashvilles 13th Annual Jamaica Independence 2 Day Weekend
+  Celebration
+LOCATION:1316 Antioch Pike
+DESCRIPTION:Nashville's long-running Jamaica Independence party returns for
+  a two-night Caribbean blowout on the south side.\nDetails and tickets: ht
+ tps://www.eventbrite.com/e/nashvilles-13th-annual-jamaica-independence-2-d
+ ay-wknd-celebration-tickets-1991952089321?aff=ebdssbdestsearch\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://www.eventbrite.com/e/nashvilles-13th-annual-jamaica-independenc
+ e-2-day-wknd-celebration-tickets-1991952089321?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

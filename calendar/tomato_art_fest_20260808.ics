@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tomato_art_fest-20260808@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Last day: Tomato Art Fest
+LOCATION:Tomato Art Fest\, Five Points / East Nashville
+DESCRIPTION:East Nashville's beloved annual absurdist celebration of the to
+ mato returns - street art\, tomato-themed food\, and pure neighborhood ene
+ rgy.\nDetails and tickets: https://nashvillelife.com/Tomato-Art-Fest/Nashv
+ ille-Calendar\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Tomato-Art-Fest/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

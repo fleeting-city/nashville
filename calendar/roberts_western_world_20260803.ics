@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:roberts_western_world-20260803@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Fleeting: Robert's Western World 3rd Annual Fan Fair Block Party (o
+ ne night)
+LOCATION:Roberts Western World\, Lower Broadway
+DESCRIPTION:Robert's throws its annual Fan Fair block party on Lower Broadw
+ ay - free\, rowdy\, and the most Nashville thing happening that Monday.\nD
+ etails and tickets: https://nashvillelife.com/Roberts-Western-World-Fan-Fa
+ ir/Nashville-Calendar\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Roberts-Western-World-Fan-Fair/Nashville-Cale
+ ndar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

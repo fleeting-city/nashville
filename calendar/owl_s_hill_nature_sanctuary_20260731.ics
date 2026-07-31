@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20260731@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Fleeting: Full Moon Hike - Buck Moon (one night)
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:July's Buck Moon hike at Owl's Hill - next one isn't until Augu
+ st 28\, so this is your summer-night sweet spot.\nDetails and tickets: htt
+ ps://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar\nWindows drift -
+  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
+ at-closes-first list.
+URL:https://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

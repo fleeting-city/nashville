@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:robert_s_western_world-20260803@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Fleeting: 3rd Annual Robert's Western World Fan Fair (one night)
+LOCATION:Robert's Western World\, Lower Broadway
+DESCRIPTION:Lower Broadway goes car-free for a free block party celebrating
+  traditional country - the anti-bachelorette-party version of Broadway.\nD
+ etails and tickets: https://www.robertswesternworld.com/\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://www.robertswesternworld.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

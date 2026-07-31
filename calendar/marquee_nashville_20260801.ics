@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marquee_nashville-20260801@nashville.fleeting.city
+DTSTAMP:20260731T124732Z
+DTSTART:20260802T043000Z
+DTEND:20260802T063000Z
+SUMMARY:Fleeting: Murder Mystery Burlesque (one night)
+LOCATION:Marquee Nashville\, Downtown
+DESCRIPTION:Whodunit meets rhinestones - a late-night murder mystery wrappe
+ d in burlesque that's not your typical Saturday.\nDetails and tickets: htt
+ ps://nashvilledowntown.com/do/murder-mystery-burlesque\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://nashvilledowntown.com/do/murder-mystery-burlesque
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
