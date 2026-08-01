@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fleeting Table: get paired to catch a window together | Fleeting - Nashville</title>
+<meta name="description" content="Want in on a Fleeting Table? Pick a vibe, your rough availability and party size, and we pair you into a small group to go catch one of Nashville's here-then-gone windows together. Opting in is how you get in.">
+<link rel="canonical" href="https://nashville.fleeting.city/table/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Fleeting Table: catch a window together">
+<meta property="og:description" content="Pick a vibe and your availability -- we pair you into a small group to go catch a here-then-gone Nashville window together. Opting in is how you get in.">
+<meta property="og:url" content="https://nashville.fleeting.city/table/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fleeting Table: catch a window together">
+<meta name="twitter:description" content="Get paired into a small group to catch a here-then-gone Nashville window. Opting in is how you get in.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Fleeting Table opt-in (EXP-0023 / LAS-174). Lens L06 --
+  reverse the funnel: the social experience is the top of funnel and subscribing is
+  how you get in. Built by scripts/build_table_page.py. PULL / opt-in surface only:
+  NO alert promise, NO auto-message (F-0009 / floor rules 1-2). The operator
+  hand-matches with fleeting_table.py and does the pairing outreach; this page and
+  its builder perform NO external action. Group-DISCOUNT / pricing is OUT OF SCOPE
+  here -- a downstream [YOU]/Brady pricing decision (needs Stripe/LAS-5). Dark
+  mission-control theme; skyline resolved via brand/marks.py and referenced (not
+  pasted) from skyline.svg (rules 11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+
+  .why{margin:30px 0 4px;}
+  .whead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .whead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .whead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;color:var(--cream);}
+  .reason{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--accent);border-radius:12px;padding:15px 17px;margin:13px 0;}
+  .reason h3{font-family:'Archivo';font-weight:900;font-size:16.5px;letter-spacing:-.01em;line-height:1.2;color:var(--gold);margin-bottom:6px;}
+  .reason p{font-size:13.5px;color:#d8d3c8;line-height:1.55;}
+  .reason p b{color:var(--cream);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:22px 20px 18px;margin:30px 0 10px;}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4.4vw,24px);letter-spacing:-.01em;color:var(--cream);margin-bottom:8px;}
+  .ctap{font-size:14px;color:#e7e1d5;margin:0 0 16px;line-height:1.5;}
+  .ctap b{color:#fff;}
+  .form{display:flex;flex-direction:column;gap:16px;}
+  .field{display:flex;flex-direction:column;gap:8px;}
+  .flabel{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+  .opts{display:grid;gap:8px;}
+  .opt{display:flex;align-items:flex-start;gap:11px;background:#0c0b0f;border:1px solid var(--line);
+    border-radius:10px;padding:11px 13px;cursor:pointer;transition:.14s;}
+  .opt:hover{border-color:rgba(230,69,53,.5);}
+  .opt input{margin-top:3px;accent-color:var(--accent);flex:0 0 auto;}
+  .opt input:checked ~ .optbody .optlabel{color:var(--cream);}
+  .optbody{display:flex;flex-direction:column;gap:2px;}
+  .optlabel{font-family:'Archivo';font-weight:700;font-size:14.5px;color:#e7e1d5;}
+  .optblurb{font-size:12.5px;color:var(--muted);line-height:1.4;}
+  .chips{display:flex;gap:9px;flex-wrap:wrap;}
+  .chip{display:inline-flex;align-items:center;gap:8px;background:#0c0b0f;border:1px solid var(--line);
+    border-radius:999px;padding:9px 15px;cursor:pointer;font-size:13.5px;font-weight:600;color:#e7e1d5;transition:.14s;}
+  .chip:hover{border-color:rgba(230,69,53,.5);}
+  .chip input{accent-color:var(--accent);}
+  .row2{display:flex;gap:12px;flex-wrap:wrap;}
+  .row2 .field{flex:1 1 130px;min-width:0;}
+  .row2 .grow{flex:2 1 200px;}
+  select,.form input{background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:12px 14px;font-family:'Inter';width:100%;}
+  select:focus,.form input:focus{outline:none;border-color:var(--accent);}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:13px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;align-self:flex-start;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn:disabled{opacity:.6;cursor:default;}
+  .fine{font-size:11.5px;color:var(--muted);margin-top:13px;letter-spacing:.01em;line-height:1.5;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Fleeting Table</div>
+    <h1>Catch a window<span class="dot">.</span> Together<span class="dot">.</span></h1>
+    <p class="lede">Some of the best Nashville windows are better with a few people. So here is the deal: tell us your <b>vibe</b>, roughly <b>when you are free</b>, and how many you are bringing -- and we pair you into a small group to go catch an upcoming <b>here-then-gone</b> window together. A real person does the matching. Opting in is how you get in.</p>
+    <section class="why">
+      <div class="whead"><span class="dot"></span><h2>How a Fleeting Table works</h2></div>
+      <article class="reason"><h3>1. You opt in</h3><p>Pick a vibe and your rough availability below. That is the whole ask. No profile, no swiping, no app.</p></article>
+      <article class="reason"><h3>2. A human pairs you</h3><p>At our size, matching is done by hand -- which is the good version, not the cheap one. You get placed into a small group whose vibe and timing line up with yours, around one specific window that is about to close.</p></article>
+      <article class="reason"><h3>3. You go catch it</h3><p>We suggest the window and a night. You and your table decide the rest. The weekly list keeps landing in your inbox either way -- the Table is the fun part on top.</p></article>
+    </section>
+    <section class="cta" id="join">
+      <p class="ctah">Want in on a Fleeting Table?</p>
+      <p class="ctap">Pick your vibe, when you are free, and party size. We pair you for an upcoming window. <b>This is opt-in only</b> -- no alerts, no auto-messages; a person reaches out to place you.</p>
+      <form class="form" id="tableform" onsubmit="return go(event)">
+        <div class="field"><span class="flabel">Your vibe</span>
+        <div class="opts" role="radiogroup" aria-label="Vibe"><label class="opt"><input type="radio" name="vibe" value="date-night" checked><span class="optbody"><span class="optlabel">Date night</span><span class="optblurb">just the two of us, somewhere with a story</span></span></label><label class="opt"><input type="radio" name="vibe" value="friends"><span class="optbody"><span class="optlabel">Friends</span><span class="optblurb">roll with a small crew, easy and social</span></span></label><label class="opt"><input type="radio" name="vibe" value="adventurous"><span class="optbody"><span class="optlabel">Adventurous</span><span class="optblurb">surprise me -- the weirder the window, the better</span></span></label><label class="opt"><input type="radio" name="vibe" value="low-key"><span class="optbody"><span class="optlabel">Low-key</span><span class="optblurb">quiet, unhurried, no big production</span></span></label></div>
+        </div>
+        <div class="field"><span class="flabel">Roughly when are you free?</span>
+        <div class="chips" aria-label="Rough availability"><label class="chip"><input type="checkbox" name="avail" value="weeknights"><span>Weeknights</span></label><label class="chip"><input type="checkbox" name="avail" value="weekends"><span>Weekends</span></label><label class="chip"><input type="checkbox" name="avail" value="daytime"><span>Daytime</span></label></div>
+        </div>
+        <div class="row2">
+          <div class="field"><span class="flabel">Party size</span>
+          <select id="size" name="size" aria-label="Party size"><option value="1">Just me</option><option value="2">2 of us</option><option value="3">3 of us</option><option value="4">4 of us</option><option value="5">5 of us</option><option value="6">6 of us</option></select>
+          </div>
+          <div class="field grow"><span class="flabel">Email</span>
+          <input type="email" id="email" name="email" placeholder="you@email.com" required aria-label="Email">
+          </div>
+        </div>
+        <button class="btn" type="submit">Save me a seat &#8594;</button>
+      </form>
+      <p class="fine">Opting in subscribes you to the free weekly Fleeting list so we can reach you about your table. Unsubscribe anytime. We never share your email.</p>
+    </section>
+    <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
+  </div>
+  <script>
+  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
+  function go(e){
+    e.preventDefault();
+    var form=document.getElementById('tableform');
+    var input=document.getElementById('email');
+    var btn=form.querySelector('button[type=submit]');
+    var em=input.value.trim();
+    if(!em){ return false; }
+    var vibeEl=form.querySelector('input[name=vibe]:checked');
+    var vibe=vibeEl?vibeEl.value:'';
+    var avail=[];
+    var boxes=form.querySelectorAll('input[name=avail]:checked');
+    for(var i=0;i<boxes.length;i++){ avail.push(boxes[i].value); }
+    var size=(document.getElementById('size')||{}).value||'';
+    var camp='table_'+(vibe||'any')+'_'+(avail.join('-')||'any')+'_'+(size||'x');
+    function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
+    var qs=new URLSearchParams(window.location.search);
+    var payload={
+      email:em,
+      table_vibe:vibe,
+      table_avail:avail.join(','),
+      table_size:size,
+      referrer:document.referrer||'',
+      utm_source:qs.get('utm_source')||'table',
+      utm_medium:qs.get('utm_medium')||'opt_in',
+      utm_campaign:qs.get('utm_campaign')||camp
+    };
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Saving...';
+    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">Seat saved. Welcome to the Table.</div><p style="color:var(--muted);margin:8px 0 0;">A real person will reach out to place you in a group for an upcoming window. Your first weekly heads-up lands Thursday.</p></div>';
+        } else {
+          btn.disabled=false; btn.textContent=label; fallback();
+        }
+      })
+      .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
+    return false;
+  }
+  </script>
+</body>
+</html>

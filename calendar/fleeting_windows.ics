@@ -6,22 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:gigi_pip_two_roads_hat_bar-20260731@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
-DTSTART:20260731T233000Z
-DTEND:20260801T013000Z
-SUMMARY:Fleeting: Play Like a Girl Pop Up (one night)
-LOCATION:Gigi Pip | Two Roads Hat Bar
-DESCRIPTION:A women's pop-up event at Nashville's hat bar - two hours\, dro
- p in.\nDetails and tickets: https://nashvilledowntown.com/do/play-like-a-g
- irl-pop-up\nWindows drift - confirm with the venue before you go.\nFleetin
- g - the weekly Nashville what-closes-first list.
-URL:https://nashvilledowntown.com/do/play-like-a-girl-pop-up
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:tennessee_farmers_market_trail-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Last day: Tennessee Farmers Market Trail
@@ -36,7 +22,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:marquee_nashville-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260802T043000Z
 DTEND:20260802T063000Z
 SUMMARY:Fleeting: Murder Mystery Burlesque (one night)
@@ -51,7 +37,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:440_welshwood_dr-20260804@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260804T213000Z
 DTEND:20260804T233000Z
 SUMMARY:Fleeting: Cookies for a Cause (one night)
@@ -67,7 +53,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5_point_6_studio-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260802T000000Z
 DTEND:20260802T020000Z
 SUMMARY:Fleeting: PORTRAIT PARTY: Double Exposure (one night)
@@ -84,7 +70,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:burger_up-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Last day: Burger Up 12South - Final Days Before Permanent Closure
@@ -100,23 +86,8 @@ URL:https://www.nashvillescene.com/food_drink/bites/12south-burger-up-close
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:cannery_hall-20260731@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
-DTSTART:20260801T020000Z
-DTEND:20260801T040000Z
-SUMMARY:Fleeting: Heated Twilight - A Heated Rivalry + Twilight Dance Party
-  (one night)
-LOCATION:Cannery Hall\, Wedgewood-Houston
-DESCRIPTION:One-night themed dance party mashing up Heated Rivalry with ful
- l Twilight energy - niche\, unhinged\, probably packed.\nDetails and ticke
- ts: https://nashvillego.com/calendar\nWindows drift - confirm with the ven
- ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://nashvillego.com/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:robert_s_western_world-20260803@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Fleeting: 3rd Annual Robert's Western World Fan Fair (one night)
@@ -131,7 +102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nissan_stadium-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Last day: DroneArt Show: Harry Potter
@@ -144,24 +115,8 @@ URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:the_escape_game_berry_hill-20260731@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SUMMARY:Last day: Murder with a Side of Meatballs
-LOCATION:The Escape Game - Berry Hill\, Berry Hill
-DESCRIPTION:A limited-run murder mystery dining experience at The Escape Ga
- me - tonight is the last day.\nDetails and tickets: https://do615.com/even
- ts/2026/7/2/murder-with-a-side-of-meatballs-tickets\nWindows drift - confi
- rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
- ses-first list.
-URL:https://do615.com/events/2026/7/2/murder-with-a-side-of-meatballs-ticke
- ts
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:third_coast_comedy_club-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260802T000000Z
 DTEND:20260802T020000Z
 SUMMARY:Fleeting: The Tenth Annual Third Coast Comedy Anniversary Show (one
@@ -175,23 +130,8 @@ URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:owl_s_hill_nature_sanctuary-20260731@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SUMMARY:Fleeting: Full Moon Hike - Buck Moon (one night)
-LOCATION:Owl's Hill Nature Sanctuary
-DESCRIPTION:July's Buck Moon hike at Owl's Hill - next one isn't until Augu
- st 28\, so this is your summer-night sweet spot.\nDetails and tickets: htt
- ps://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar\nWindows drift -
-  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
- at-closes-first list.
-URL:https://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:roberts_western_world-20260803@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Fleeting: Robert's Western World 3rd Annual Fan Fair Block Party (o
@@ -208,7 +148,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woolworth_theatre-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Last day: Shiners Stage Show
@@ -223,7 +163,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cheekwood-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Fleeting: Maura Wright - Martin Shallenberger Artist-in-Residence (
@@ -241,7 +181,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ryman_auditorium-20260805@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260806T003000Z
 DTEND:20260806T023000Z
 SUMMARY:Fleeting: Dogstar (one night)
@@ -255,7 +195,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tomato_art_fest-20260808@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Last day: Tomato Art Fest
@@ -270,7 +210,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3955_nolensville_pk-20260801@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260801T160000Z
 DTEND:20260801T180000Z
 SUMMARY:Fleeting: Taste of Korea (one night)
@@ -286,7 +226,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:williamson_county_fair-20260815@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Last day: Williamson County Fair
@@ -301,7 +241,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:james_e_ward_agricultural_center-20260822@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
 SUMMARY:Last day: Tennessee State Fair
@@ -316,7 +256,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:owl_s_hill_nature_sanctuary-20260822@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260822T150000Z
 DTEND:20260822T170000Z
 SUMMARY:Fleeting: Wild About Mushrooms (one night)
@@ -331,7 +271,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1316_antioch_pike-20260802@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Last day: Nashvilles 13th Annual Jamaica Independence 2 Day Weekend
@@ -348,24 +288,8 @@ URL:https://www.eventbrite.com/e/nashvilles-13th-annual-jamaica-independenc
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:the_escape_game_berry_hill-20260731@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SUMMARY:Last day: Murder with a Side of Meatballs
-LOCATION:The Escape Game - Berry Hill\, Berry Hill
-DESCRIPTION:Themed escape room with a meatball hook - two days left before 
- this one closes out permanently.\nDetails and tickets: https://do615.com/e
- vents/2026/7/2/murder-with-a-side-of-meatballs-tickets\nWindows drift - co
- nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
- closes-first list.
-URL:https://do615.com/events/2026/7/2/murder-with-a-side-of-meatballs-ticke
- ts
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:the_basement_east-20260807@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART:20260808T020000Z
 DTEND:20260808T040000Z
 SUMMARY:Fleeting: WeTouchGrass Presents: Anime Rave (one night)
@@ -379,7 +303,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:308_rep_john_lewis_way_s-20260815@nashville.fleeting.city
-DTSTAMP:20260731T124732Z
+DTSTAMP:20260801T122645Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Last day: Beer\, Bourbon & BBQ: Nashville Adventure
