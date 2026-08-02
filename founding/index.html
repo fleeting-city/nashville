@@ -100,6 +100,19 @@
   .btn:hover{background:#d13a2b;text-decoration:none;}
   .btn:disabled{opacity:.6;cursor:default;}
   .fine{font-size:11.5px;color:var(--muted);margin-top:11px;letter-spacing:.01em;}
+
+  .share{margin-top:18px;padding-top:16px;border-top:1px solid rgba(230,69,53,.28);}
+  .shareh{font-family:'Archivo';font-weight:900;font-size:clamp(17px,3.8vw,21px);letter-spacing:-.01em;color:var(--cream);margin-bottom:6px;}
+  .shareh .dot{color:var(--accent);}
+  .sharep{font-size:13px;color:#e7e1d5;line-height:1.5;margin-bottom:12px;}
+  .sharebtns{display:flex;gap:8px;flex-wrap:wrap;}
+  .sbtn{display:inline-block;background:#0c0b0f;border:1px solid var(--line);border-radius:9px;
+    color:var(--cream);font-family:'Inter';font-weight:600;font-size:13px;padding:9px 14px;
+    cursor:pointer;transition:.14s;}
+  .sbtn:hover{border-color:var(--accent);color:var(--cream);text-decoration:none;}
+  .sbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;}
+  .sbtn.primary:hover{background:#d13a2b;}
+  .sharefine{font-size:11px;color:var(--muted);margin-top:11px;letter-spacing:.01em;}
   .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
   .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
   .foot .fmark .dot{color:var(--accent);}
@@ -129,6 +142,19 @@
         <button class="btn" type="submit">Claim my founding spot &#8594;</button>
       </form>
       <p class="fine">Unsubscribe anytime. We never share your email.</p>
+      <div class="share" id="share" hidden>
+        <p class="shareh">Now hold the door<span class="dot">.</span></p>
+        <p class="sharep">Founding seats close at the first 500, and the earlier the number the more of Fleeting you were here to shape. Know someone who belongs in the founding era with you? Hand them your line:</p>
+        <div class="sharebtns">
+          <button class="sbtn primary" type="button" onclick="shareNative()">Share my founding status &#8594;</button>
+          <button class="sbtn" type="button" onclick="copyLink(this)">Copy link</button>
+          <a class="sbtn" id="sx" target="_blank" rel="noopener noreferrer">Post to X</a>
+          <a class="sbtn" id="sthreads" target="_blank" rel="noopener noreferrer">Threads</a>
+          <a class="sbtn" id="ssms">Text it</a>
+          <a class="sbtn" id="semail">Email</a>
+        </div>
+        <p class="sharefine">You send it, not us. Nothing posts on your behalf.</p>
+      </div>
     </section>
     <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
   </div>
@@ -155,13 +181,60 @@
       .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
       .then(function(d){
         if(d&&d.ok){
+          if(d.number||d.position){ window.__fn=parseInt(d.number||d.position,10)||0; }
           form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">You are in. Founding reader.</div><p style="color:var(--muted);margin:8px 0 0;">Check your inbox to confirm. The first heads-up lands Thursday.</p></div>';
+          revealShare();
         } else {
           btn.disabled=false; btn.textContent=label; fallback();
         }
       })
       .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
     return false;
+  }
+
+  // --- Founding-era share loop (EXP-0027 / LAS-182). Reader-initiated only: every
+  // button opens a share intent the reader completes, or copies to their clipboard.
+  // Nothing posts on anyone's behalf; no external action runs from this page.
+  // The share link is UTM-tagged so a share->visit->subscribe carries founder_share
+  // attribution straight into the existing go() payload above. The founding NUMBER is
+  // vanity-only and OPTIONAL: shown when the worker hands one back (d.number) or a human
+  // passes ?n=, never a raw total (the total stays behind Brady's --live-count, LAS-164).
+  function founderNumber(){
+    var q=new URLSearchParams(window.location.search);
+    var n=parseInt(q.get('n')||'0',10);
+    if(window.__fn && window.__fn>0){ n=window.__fn; }
+    return (n>0 && n<100000) ? n : 0;
+  }
+  function shareInfo(){
+    var n=founderNumber();
+    var url='https://nashville.fleeting.city/founding/?utm_source=founder_share&utm_medium=referral&utm_campaign=founding_loop';
+    var who=n>0 ? ('founding member No.'+n) : 'a founding reader';
+    var text="I'm "+who+" of Fleeting - Nashville, the weekly list of the city's here-then-gone food, drink and one-night things. Get in before Fleeting scales:";
+    return {url:url, text:text, full:text+' '+url};
+  }
+  function revealShare(){
+    var s=shareInfo();
+    var sx=document.getElementById('sx');
+    var st=document.getElementById('sthreads');
+    var sm=document.getElementById('ssms');
+    var se=document.getElementById('semail');
+    if(sx){ sx.href='https://twitter.com/intent/tweet?text='+encodeURIComponent(s.text)+'&url='+encodeURIComponent(s.url); }
+    if(st){ st.href='https://www.threads.net/intent/post?text='+encodeURIComponent(s.full); }
+    if(sm){ sm.href='sms:?&body='+encodeURIComponent(s.full); }
+    if(se){ se.href='mailto:?subject='+encodeURIComponent('Get in on the Fleeting founding era')+'&body='+encodeURIComponent(s.full); }
+    var box=document.getElementById('share');
+    if(box){ box.hidden=false; }
+  }
+  function shareNative(){
+    var s=shareInfo();
+    if(navigator.share){ navigator.share({text:s.text, url:s.url}).catch(function(){}); }
+    else { copyLink(); }
+  }
+  function copyLink(btn){
+    var s=shareInfo();
+    function done(){ if(btn){ var t=btn.textContent; btn.textContent='Copied'; setTimeout(function(){ btn.textContent=t; },1600); } }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(s.full).then(done).catch(function(){}); }
+    else { window.prompt('Copy your founding link:', s.full); }
   }
   </script>
 </body>
