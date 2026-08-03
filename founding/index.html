@@ -117,6 +117,25 @@
   .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
   .foot .fmark .dot{color:var(--accent);}
 </style>
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'founding'),
+      m:(q.get('utm_medium')||'front_door'),
+      c:(q.get('utm_campaign')||'founding_era'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
 </head>
 <body>
   <div class="wrap">
@@ -159,6 +178,23 @@
     <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
   </div>
   <script>
+  function flFirstTouch(){
+    var d={utm_source:'',utm_medium:'',utm_campaign:'',
+           referrer:'',first_touch_at:'',landing_path:''};
+    try{
+      var raw=localStorage.getItem('fl_ft');
+      if(raw){var o=JSON.parse(raw);
+        d.utm_source=o.s||'';d.utm_medium=o.m||'';d.utm_campaign=o.c||'';
+        d.referrer=o.r||'';d.first_touch_at=o.t||'';d.landing_path=o.p||'';}
+    }catch(e){}
+    try{var q=new URLSearchParams(location.search);
+      if(!d.utm_source){d.utm_source=q.get('utm_source')||'';}
+      if(!d.utm_medium){d.utm_medium=q.get('utm_medium')||'';}
+      if(!d.utm_campaign){d.utm_campaign=q.get('utm_campaign')||'';}
+    }catch(e){}
+    if(!d.referrer){try{d.referrer=document.referrer||'';}catch(e){}}
+    return d;
+  }
   var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
   function go(e){
     e.preventDefault();
@@ -168,13 +204,13 @@
     var em=input.value.trim();
     if(!em){ return false; }
     function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
-    var qs=new URLSearchParams(window.location.search);
+    var ft=flFirstTouch();
     var payload={
       email:em,
-      referrer:document.referrer||'',
-      utm_source:qs.get('utm_source')||'founding',
-      utm_medium:qs.get('utm_medium')||'front_door',
-      utm_campaign:qs.get('utm_campaign')||'founding_era'
+      referrer:ft.referrer,
+      utm_source:ft.utm_source||'founding',
+      utm_medium:ft.utm_medium||'front_door',
+      utm_campaign:ft.utm_campaign||'founding_era'
     };
     var label=btn.textContent; btn.disabled=true; btn.textContent='Joining...';
     fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
