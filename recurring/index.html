@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Nashville windows that keep coming back | Fleeting</title>
+<meta name="description" content="An always-current index of Nashville's recurring time-limited windows -- weekly residencies, monthly markets, seasonal pop-ups. What is open Wednesday nights, which pop-ups come back each month, and which patio-season things return. Grouped by cadence and day.">
+<link rel="canonical" href="https://nashville.fleeting.city/recurring/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="The Nashville windows that keep coming back">
+<meta property="og:description" content="An always-current index of Nashville's recurring windows -- weekly, monthly, seasonal. What is open Wednesday nights, what comes back each month.">
+<meta property="og:url" content="https://nashville.fleeting.city/recurring/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Nashville windows that keep coming back">
+<meta name="twitter:description" content="Nashville's recurring time-limited windows, grouped by cadence and day. Weekly, monthly, seasonal.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Recurring board (EXP-0037 / LAS-217). The evergreen archive
+  index -- the Nashville windows that keep coming back, grouped by cadence (weekly by
+  day / monthly / seasonal). Built by scripts/build_recurring_board.py from the live
+  discovery feed (candidates_today.json) cross-referenced against weekly snapshots under
+  scripts/out/<date>/. A row shows ONLY on confirmed current recurrence: present now AND
+  either stating a hard cadence or observed recurring across >= 2 weeks (seasonal REQUIRES
+  observed). Regenerated on every publish and self-updating -- do not hand-edit; edit the
+  builder. Pull surface only: NO alert promise (F-0009). Dark mission-control theme,
+  tokens from site/index.html; skyline resolved via brand/marks.py and referenced (not
+  pasted) from skyline.svg (rules 11/14). First-touch attribution to surface 'recurring'
+  (EXP-0030). Pure-ASCII copy.
+-->
+  <script>  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'recurring'),
+      m:(q.get('utm_medium')||'board'),
+      c:(q.get('utm_campaign')||'evergreen'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .board{margin:28px 0 4px;}
+  .bhead{display:flex;align-items:center;gap:10px;}
+  .bhead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;}
+  .bhead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.03em;}
+  .bhead .count{margin-left:auto;font-family:'Archivo';font-weight:900;font-size:15px;color:var(--muted);}
+  .bsub{font-size:12.5px;color:var(--muted);margin:5px 0 4px;letter-spacing:.01em;}
+  .board.weekly .bhead .dot{background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .board.weekly .bhead h2{color:var(--gold);}
+  .board.monthly .bhead .dot{background:var(--accent);box-shadow:0 0 12px rgba(230,69,53,.7);}
+  .board.monthly .bhead h2{color:#ffb3aa;}
+  .board.seasonal .bhead .dot{background:#5aa0ff;box-shadow:0 0 12px rgba(90,160,255,.5);}
+  .board.seasonal .bhead h2{color:#a9cbff;}
+
+  .daygroup{margin:16px 0 6px;}
+  .dhead{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line);padding-bottom:5px;}
+  .dhead h3{font-family:'Archivo';font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream);}
+  .dhead .dcount{margin-left:auto;font-size:11px;font-weight:700;color:var(--muted);}
+
+  .cards{margin:11px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--line);border-radius:12px;padding:14px 16px 13px;margin:11px 0;}
+  .card.obs{border-left-color:var(--gold);}
+  .card.stated{border-left-color:#4a4740;}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-bottom:8px;
+    color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);}
+  .card .prov{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .card.obs .prov{color:#e8c65a;}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .card .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px;}
+  .card .det{font-size:12.5px;font-weight:700;}
+  .card .confirm{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);}
+  .empty{font-size:13px;color:var(--muted);font-style:italic;background:rgba(246,241,231,.03);
+    border:1px dashed var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:30px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The recurring board</div>
+    <h1>The Nashville windows<br>that keep coming back<span class="dot">.</span></h1>
+    <p class="lede">Most of what we track is here then gone. But some windows have a <b>rhythm</b> -- the Wednesday residency, the first-Friday crawl, the pop-up that returns every patio season. This is the standing index of those, <b>grouped by when they come around</b>. It rebuilds itself from what the machine actually sees, so a window that stops showing up drops off, and a new rhythm appears the week it settles in.</p>
+    <div class="asof">Current as of <b>August 7, 2026</b> &middot; 7 recurring windows tracked</div>
+    <section class="board weekly"><div class="bhead"><span class="dot"></span><h2>EVERY WEEK</h2><span class="count">2</span></div><p class="bsub">Standing weekly windows -- the residencies, weeknight pop-ups and recurring nights you can plan your week around.</p><div class="daygroup"><div class="dhead"><h3>Thursday</h3><span class="dcount">2</span></div><div class="cards"><article class="card obs"><span class="when">Every Thursday</span><span class="prov">Seen 4 weeks running</span><h3>Shakespeare in the Park: A Midsummer Night&#x27;s Dream</h3><div class="where">Centennial Park, Midtown</div><p class="blurb">Nashville Shakes does inventive Shakespeare under the sky - free, BYOB blanket, and runs five weekends.</p><div class="meta"><a class="det" href="https://www.nashvilleshakes.org/shakespeare-in-the-park-1" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card obs"><span class="when">Every Thursday</span><span class="prov">Seen 4 weeks running</span><h3>Thursday Night Out</h3><div class="where">Cheekwood, Belle Meade</div><p class="blurb">Cheekwood&#x27;s summer evening series - botanical gardens after dark with food, drinks, and music while the season lasts.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article></div></div></section>
+    <section class="board monthly"><div class="bhead"><span class="dot"></span><h2>EVERY MONTH</h2><span class="count">1</span></div><p class="bsub">Monthly markets, first-Friday crawls, full-moon parties -- the ones that come around once a month.</p><div class="cards"><article class="card obs"><span class="when">Monthly</span><span class="prov">Seen 3 weeks running</span><h3>Full Moon Pickin&#x27; Party</h3><div class="where">Percy Warner Equestrian Barn, Belle Meade</div><p class="blurb">Monthly acoustic bluegrass jam under the full moon at an actual equestrian barn - bring a blanket, BYOB, pick or just listen.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article></div></section>
+    <section class="board seasonal"><div class="bhead"><span class="dot"></span><h2>EACH SEASON</h2><span class="count">4</span></div><p class="bsub">Patio-season pop-ups, summer series and holiday bars we have watched return -- only ones we have actually seen recur are listed here.</p><div class="cards"><article class="card obs"><span class="when">This season</span><span class="prov">Seen 4 weeks running</span><h3>Side B Summer: A Throwback Summer Pop-Up At Sidebar</h3><div class="where">Sidebar</div><p class="blurb">A limited-run throwback summer pop-up at Sidebar running through multiple dates - catch it before the season&#x27;s out.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/side-b-summer-a-throwback-summer-pop-up-at-sidebar-tickets-1991245501899?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card obs"><span class="when">This season</span><span class="prov">Seen 3 weeks running</span><h3>Holly Jolly Christmas Bar at Sonny&#x27;s Patio Pub Clubhouse</h3><div class="where">Sonny&#x27;s Patio Pub Clubhouse</div><p class="blurb">Seasonal holiday pop-up bar in the works at Sonny&#x27;s - add to bucket list before it sells out in November.</p><div class="meta"><a class="det" href="https://bucketlisters.com/explore/city/NSH" target="_blank" rel="noopener">Details &#8594;</a><span class="confirm">confirm before you go</span></div></article><article class="card obs"><span class="when">This season</span><span class="prov">Seen 3 weeks running</span><h3>The Jazz Room: A Journey to the Heart of New Orleans</h3><div class="where">Hutton Hotel, West End</div><p class="blurb">New Orleans-themed jazz dinner series launching at the Hutton - ticketed, seasonal, and the closest thing to a Crescent City night out without leaving Nashville.</p><div class="meta"><a class="det" href="https://feverup.com/m/618711" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card obs"><span class="when">This season</span><span class="prov">Seen 2 weeks running</span><h3>Southall Farm &amp; Inn Experiences</h3><div class="where">Southall Farm &amp; Inn</div><p class="blurb">Seasonal farm-tied experiences at Southall timed to long weekends and holidays - the kind of curated land-and-table programming that books fast.</p><div class="meta"><a class="det" href="https://www.exploretock.com/southall-experiences-franklin?tock_source=tock&amp;tock_medium=city_page&amp;tock_content=carousel-Southall%20Farm%20%26%20Inn%20-%20Experiences" target="_blank" rel="noopener">Details &#8594;</a><span class="confirm">confirm before you go</span></div></article></div></section>
+    <section class="cta">
+      <p><b>This board does not ping you.</b> It is a pull surface on purpose -- no alerts, no notifications. It just sits here, current, for when you want to know what keeps coming back. The way to catch the one-time windows too -- the here-then-gone things that never repeat -- is the Thursday list: the week's time-limited Nashville windows, in your inbox before they close.</p>
+      <a class="btn" href="/?utm_source=recurring&amp;utm_medium=board&amp;utm_campaign=evergreen#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Every window here is confirmed current: it is in the live discovery feed right now, and either states its own recurring cadence or has been seen to recur across multiple weeks. Windows we have only seen once, or that name no cadence, are held back rather than guessed. Looking for what is open or closing this week? See <a href="/conditions/">the conditions board</a>. The full record is in <a href="/archive/">the archive</a>.</p>
+  </div>
+</body>
+</html>
