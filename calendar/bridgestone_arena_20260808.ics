@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20260808@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART:20260808T234500Z
+DTEND:20260809T014500Z
+SUMMARY:Fleeting: Koe Wetzel: The Night Champion World Tour (one night)
+LOCATION:Bridgestone Arena\, Downtown
+DESCRIPTION:Koe Wetzel takes Bridgestone with Shane Smith & The Saints\, Ba
+ yker Blankenship and Logan Jahnke opening - four deep for one Saturday.\nD
+ etails and tickets: https://www.bridgestonearena.com/events/detail/koe-wet
+ zel-the-night-champion-world-tour\nWindows drift - confirm with the venue 
+ before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.bridgestonearena.com/events/detail/koe-wetzel-the-night-cha
+ mpion-world-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

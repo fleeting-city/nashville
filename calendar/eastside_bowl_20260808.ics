@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20260808@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Fleeting: Pro Wrestling Symphony: No Remorse (one night)
+LOCATION:Eastside Bowl\, Madison
+DESCRIPTION:Nashville's own wrestling promotion closes out its Summer of Sy
+ mphony run at Eastside Bowl - all ages\, real seats\, and grudges that hav
+ e been building since May.\nDetails and tickets: https://www.pwsymphony.co
+ m/event-details-registration/no-remorse\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://www.pwsymphony.com/event-details-registration/no-remorse
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

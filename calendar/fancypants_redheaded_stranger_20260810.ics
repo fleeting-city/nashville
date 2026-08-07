@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fancypants_redheaded_stranger-20260810@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:Fleeting: Fancypants BBQ & Bourbon Dinner with Redheaded Stranger (
+ one night)
+LOCATION:Fancypants / Redheaded Stranger\, East Nashville
+DESCRIPTION:Two of Nashville's most interesting spots join forces for a bar
+ becue and bourbon collab dinner - exactly the kind of one-night thing that
+  disappears before you book it.\nDetails and tickets: https://resy.com/cit
+ ies/nashville-tn/venues/fancypants\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://resy.com/cities/nashville-tn/venues/fancypants
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

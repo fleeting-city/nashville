@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:breeden_s_orchard-20260820@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:Fleeting: Writers Round at Breeden's Orchard (one night)
+LOCATION:Breeden's Orchard\, Mt. Juliet
+DESCRIPTION:Nashville-style writers round set in an actual orchard - the ki
+ nd of venue that makes the format feel like it was invented for it.\nDetai
+ ls and tickets: https://breedensorchard.ticketspice.com/writers-round\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://breedensorchard.ticketspice.com/writers-round
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

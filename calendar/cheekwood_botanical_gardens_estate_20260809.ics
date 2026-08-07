@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_botanical_gardens_estate-20260809@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:Last day: Fleurs de Villes: The Gilded Age
+LOCATION:Cheekwood Botanical Gardens & Estate\, Belle Meade
+DESCRIPTION:Gilded Age-themed floral installations take over Cheekwood's gr
+ ounds for one more week - closing fast at just $2-$5 add-on admission.\nDe
+ tails and tickets: https://cheekwood.org/calendar-events/fleurs-de-villes-
+ the-gilded-age/\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://cheekwood.org/calendar-events/fleurs-de-villes-the-gilded-age/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

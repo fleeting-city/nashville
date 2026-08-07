@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:whitt_s_barbecue-20260815@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Last day: Whitt's Barbecue Springfield - Final Service
+LOCATION:Whitt's Barbecue\, Springfield
+DESCRIPTION:Twenty-five years of smoke ends August 15 - lease issues are pu
+ lling the plug on this Tennessee BBQ institution\, so get one last plate b
+ efore it's gone.\nDetails and tickets: https://www.whittsbarbecue.com/loca
+ tions/springfield\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://www.whittsbarbecue.com/locations/springfield
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

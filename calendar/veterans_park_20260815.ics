@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:veterans_park-20260815@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART:20260815T210000Z
+DTEND:20260815T230000Z
+SUMMARY:Fleeting: The Middle Tennessee Food Truck Festival 2026 (one night)
+LOCATION:Veterans Park
+DESCRIPTION:Metro-area food truck roundup in Hendersonville - one afternoon
+ \, multiple trucks\, family-friendly.\nDetails and tickets: https://www.ev
+ entbrite.com/e/the-middle-tennessee-food-truck-festival-2026-tickets-19963
+ 74806788?aff=ebdssbdestsearch\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/the-middle-tennessee-food-truck-festival-2
+ 026-tickets-1996374806788?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

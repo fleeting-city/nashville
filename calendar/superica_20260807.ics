@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:superica-20260807@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Fleeting: Watermelon Week - Closing Day (one night)
+LOCATION:Superica
+DESCRIPTION:Superica's Watermelon Week wraps Friday - last call for whateve
+ r watermelon-forward Tex-Mex they've been running all week.\nDetails and t
+ ickets: https://www.superica.com/locations/nashville\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://www.superica.com/locations/nashville
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

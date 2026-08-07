@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:january_at_southall-20260820@nashville.fleeting.city
+DTSTAMP:20260807T031534Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:Fleeting: January at Southall  The Chastain - Sustainable Seven-Cou
+ rse Dinner (one night)
+LOCATION:January at Southall\, Southall
+DESCRIPTION:Two Green Star restaurants share one kitchen for a seven-course
+  sustainable menu - the kind of collab dinner you regret skipping.\nDetail
+ s and tickets: https://www.exploretock.com/january/experience/615987/janua
+ ry-x-the-chastain-a-michelin-green-star-collaboration\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://www.exploretock.com/january/experience/615987/january-x-the-cha
+ stain-a-michelin-green-star-collaboration
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
