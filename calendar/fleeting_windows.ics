@@ -7,7 +7,7 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:yolan-20260807@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260807T190000Z
 DTEND:20260807T210000Z
 SUMMARY:Fleeting: Pasta alla Norma Class + Lunch (one night)
@@ -22,7 +22,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:marquee_nashville-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260809T030000Z
 DTEND:20260809T050000Z
 SUMMARY:Fleeting: Murder Mystery Burlesque (one night)
@@ -36,7 +36,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:breeden_s_orchard-20260820@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Fleeting: Writers Round at Breeden's Orchard (one night)
@@ -51,7 +51,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:virgin_hotels_nashville-20260807@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260807T230000Z
 DTEND:20260808T010000Z
 SUMMARY:Fleeting: Queens Who Lift (one night)
@@ -68,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:east_nashville_streets-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Fleeting: Tomato Arts Festival (one night)
@@ -83,7 +83,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:superica-20260807@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Fleeting: Watermelon Week - Closing Day (one night)
@@ -98,24 +98,23 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ascension_saint_thomas_landing-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260809T000000Z
 DTEND:20260809T020000Z
 SUMMARY:Fleeting: Xfinity Movie Night - Jumanji: Welcome to the Jungle (one
   night)
-LOCATION:Ascension Saint Thomas Landing
-DESCRIPTION:Free outdoor movie on the riverfront - Jumanji\, summer air\, n
- o ticket required.\nDetails and tickets: https://nashvilledowntown.com/do/
- xfinity-movie-night-jumanji-welcome-to-the-jungle\nWindows drift - confirm
-  with the venue before you go.\nFleeting - the weekly Nashville what-close
- s-first list.
-URL:https://nashvilledowntown.com/do/xfinity-movie-night-jumanji-welcome-to
- -the-jungle
+LOCATION:Ascension Saint Thomas Landing\, Downtown
+DESCRIPTION:Nashville Yards puts Jumanji on a screen outdoors with popcorn 
+ and bites - free\, open to anyone\, and pet-friendly. Bring a blanket.\nDe
+ tails and tickets: https://www.nashvilleyards.com/events\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://www.nashvilleyards.com/events
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fancypants_redheaded_stranger-20260810@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Fleeting: Fancypants BBQ & Bourbon Dinner with Redheaded Stranger (
@@ -131,7 +130,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:the_adventure_park_at_nashville-20260828@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:Fleeting: Adults Only Night at The Adventure Park (one night)
@@ -147,7 +146,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:veterans_park-20260815@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260815T210000Z
 DTEND:20260815T230000Z
 SUMMARY:Fleeting: The Middle Tennessee Food Truck Festival 2026 (one night)
@@ -163,7 +162,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:january_at_southall-20260820@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Fleeting: January at Southall  The Chastain - Sustainable Seven-Cou
@@ -181,7 +180,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:whitt_s_barbecue-20260815@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Last day: Whitt's Barbecue Springfield - Final Service
@@ -196,7 +195,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cheekwood_estate_gardens-20260815@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Fleeting: 6th Annual Black Arts Bash (one night)
@@ -211,7 +210,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cheekwood_botanical_gardens_estate-20260809@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 SUMMARY:Last day: Fleurs de Villes: The Gilded Age
@@ -226,7 +225,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:williamson_county_fairgrounds-20260815@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Last day: Williamson County Fair 2026
@@ -240,7 +239,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:franklin_marriott_cool_springs-20260824@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:Fleeting: Big Table: Eats Around the World Fundraiser Dinner (one n
@@ -256,7 +255,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ryman_auditorium-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Last day: An Evening with Vince Gill
@@ -271,7 +270,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eastside_bowl-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Fleeting: Pro Wrestling Symphony: No Remorse (one night)
@@ -287,7 +286,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bridgestone_arena-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260808T234500Z
 DTEND:20260809T014500Z
 SUMMARY:Fleeting: Koe Wetzel: The Night Champion World Tour (one night)
@@ -303,7 +302,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ryman_auditorium-20260809@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260809T233000Z
 DTEND:20260810T013000Z
 SUMMARY:Fleeting: Howard Jones with Wang Chung\, The English Beat\, Modern 
@@ -319,7 +318,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ellington_s_at_the_fairlane_hotel-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260809T023000Z
 DTEND:20260809T043000Z
 SUMMARY:Fleeting: 7 Paintings Immersive Dinner (one night)

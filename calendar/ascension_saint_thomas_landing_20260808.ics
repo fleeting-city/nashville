@@ -7,19 +7,18 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:ascension_saint_thomas_landing-20260808@nashville.fleeting.city
-DTSTAMP:20260807T031534Z
+DTSTAMP:20260807T033018Z
 DTSTART:20260809T000000Z
 DTEND:20260809T020000Z
 SUMMARY:Fleeting: Xfinity Movie Night - Jumanji: Welcome to the Jungle (one
   night)
-LOCATION:Ascension Saint Thomas Landing
-DESCRIPTION:Free outdoor movie on the riverfront - Jumanji\, summer air\, n
- o ticket required.\nDetails and tickets: https://nashvilledowntown.com/do/
- xfinity-movie-night-jumanji-welcome-to-the-jungle\nWindows drift - confirm
-  with the venue before you go.\nFleeting - the weekly Nashville what-close
- s-first list.
-URL:https://nashvilledowntown.com/do/xfinity-movie-night-jumanji-welcome-to
- -the-jungle
+LOCATION:Ascension Saint Thomas Landing\, Downtown
+DESCRIPTION:Nashville Yards puts Jumanji on a screen outdoors with popcorn 
+ and bites - free\, open to anyone\, and pet-friendly. Bring a blanket.\nDe
+ tails and tickets: https://www.nashvilleyards.com/events\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://www.nashvilleyards.com/events
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
