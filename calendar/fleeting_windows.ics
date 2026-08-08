@@ -6,23 +6,24 @@ METHOD:PUBLISH
 X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:yolan-20260807@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
-DTSTART:20260807T190000Z
-DTEND:20260807T210000Z
-SUMMARY:Fleeting: Pasta alla Norma Class + Lunch (one night)
-LOCATION:Yolan
-DESCRIPTION:Make and eat Pasta alla Norma at Yolan - hands-on class with lu
- nch included at one of Nashville's better Italian rooms.\nDetails and tick
- ets: https://www.yolannashville.com/events/pastaallanorma-pastaclass-aug26
- \nWindows drift - confirm with the venue before you go.\nFleeting - the we
- ekly Nashville what-closes-first list.
-URL:https://www.yolannashville.com/events/pastaallanorma-pastaclass-aug26
+UID:fleeting-join-the-free-list@nashville.fleeting.city
+DTSTAMP:20260808T123034Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+RRULE:FREQ=WEEKLY
+SUMMARY:Fleeting: this week's Nashville picks - join the free list
+DESCRIPTION:Fleeting finds Nashville's here-then-gone food\, drink and one-
+ night windows and drops each deadline onto this calendar as it is discover
+ ed.\nJoin the free weekly list: https://nashville.fleeting.city/?utm_sourc
+ e=calendar&utm_medium=ics&utm_campaign=feed#subscribe\nThis calendar refre
+ shes on its own. Nothing is ever sent to you - you look when you look.
+URL:https://nashville.fleeting.city/?utm_source=calendar&utm_medium=ics&utm
+ _campaign=feed#subscribe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:marquee_nashville-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART:20260809T030000Z
 DTEND:20260809T050000Z
 SUMMARY:Fleeting: Murder Mystery Burlesque (one night)
@@ -36,7 +37,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:breeden_s_orchard-20260820@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Fleeting: Writers Round at Breeden's Orchard (one night)
@@ -50,25 +51,8 @@ URL:https://breedensorchard.ticketspice.com/writers-round
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:virgin_hotels_nashville-20260807@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
-DTSTART:20260807T230000Z
-DTEND:20260808T010000Z
-SUMMARY:Fleeting: Queens Who Lift (one night)
-LOCATION:Virgin Hotels Nashville
-DESCRIPTION:One-night fitness-meets-party at Virgin Hotels - drag queens\, 
- weights\, and whatever comes after at one of Nashville's slickest properti
- es.\nDetails and tickets: https://www.eventbrite.com/e/queens-who-lift-tic
- kets-1995146548033?aff=ebdssbdestsearch\nWindows drift - confirm with the 
- venue before you go.\nFleeting - the weekly Nashville what-closes-first li
- st.
-URL:https://www.eventbrite.com/e/queens-who-lift-tickets-1995146548033?aff=
- ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:east_nashville_streets-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Fleeting: Tomato Arts Festival (one night)
@@ -82,23 +66,8 @@ URL:https://www.tomatoartfest.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:superica-20260807@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-SUMMARY:Fleeting: Watermelon Week - Closing Day (one night)
-LOCATION:Superica
-DESCRIPTION:Superica's Watermelon Week wraps Friday - last call for whateve
- r watermelon-forward Tex-Mex they've been running all week.\nDetails and t
- ickets: https://www.superica.com/locations/nashville\nWindows drift - conf
- irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
- oses-first list.
-URL:https://www.superica.com/locations/nashville
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ascension_saint_thomas_landing-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART:20260809T000000Z
 DTEND:20260809T020000Z
 SUMMARY:Fleeting: Xfinity Movie Night - Jumanji: Welcome to the Jungle (one
@@ -114,7 +83,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fancypants_redheaded_stranger-20260810@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Fleeting: Fancypants BBQ & Bourbon Dinner with Redheaded Stranger (
@@ -130,7 +99,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:the_adventure_park_at_nashville-20260828@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:Fleeting: Adults Only Night at The Adventure Park (one night)
@@ -146,7 +115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:veterans_park-20260815@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART:20260815T210000Z
 DTEND:20260815T230000Z
 SUMMARY:Fleeting: The Middle Tennessee Food Truck Festival 2026 (one night)
@@ -162,7 +131,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:january_at_southall-20260820@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Fleeting: January at Southall  The Chastain - Sustainable Seven-Cou
@@ -180,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:whitt_s_barbecue-20260815@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Last day: Whitt's Barbecue Springfield - Final Service
@@ -195,7 +164,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cheekwood_estate_gardens-20260815@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Fleeting: 6th Annual Black Arts Bash (one night)
@@ -210,7 +179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cheekwood_botanical_gardens_estate-20260809@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 SUMMARY:Last day: Fleurs de Villes: The Gilded Age
@@ -225,7 +194,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:williamson_county_fairgrounds-20260815@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Last day: Williamson County Fair 2026
@@ -239,7 +208,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:franklin_marriott_cool_springs-20260824@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:Fleeting: Big Table: Eats Around the World Fundraiser Dinner (one n
@@ -255,7 +224,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ryman_auditorium-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Last day: An Evening with Vince Gill
@@ -270,7 +239,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eastside_bowl-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Fleeting: Pro Wrestling Symphony: No Remorse (one night)
@@ -286,7 +255,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bridgestone_arena-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART:20260808T234500Z
 DTEND:20260809T014500Z
 SUMMARY:Fleeting: Koe Wetzel: The Night Champion World Tour (one night)
@@ -302,7 +271,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ryman_auditorium-20260809@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART:20260809T233000Z
 DTEND:20260810T013000Z
 SUMMARY:Fleeting: Howard Jones with Wang Chung\, The English Beat\, Modern 
@@ -318,7 +287,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ellington_s_at_the_fairlane_hotel-20260808@nashville.fleeting.city
-DTSTAMP:20260807T033018Z
+DTSTAMP:20260808T123034Z
 DTSTART:20260809T023000Z
 DTEND:20260809T043000Z
 SUMMARY:Fleeting: 7 Paintings Immersive Dinner (one night)
