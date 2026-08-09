@@ -76,6 +76,19 @@
     box-shadow:0 0 12px rgba(230,69,53,.5);}
   .pnote{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5;}
 
+  .seats{margin:24px 0 6px;background:linear-gradient(180deg,#141318,#100f13);
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:16px 18px;}
+  .srow{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+  .slabel{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+  .snum{font-family:'Archivo';font-weight:900;font-size:22px;color:var(--gold);}
+  .snum .sof{font-family:'Inter';font-weight:600;font-size:12px;color:var(--muted);letter-spacing:.02em;}
+  .sstate{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.14em;color:var(--accent);}
+  .strack{margin:11px 0 4px;height:9px;border-radius:999px;background:rgba(246,241,231,.08);overflow:hidden;}
+  .sfill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--gold));
+    box-shadow:0 0 12px rgba(230,69,53,.5);}
+  .snote{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5;}
+  .seats.closed .sfill{background:linear-gradient(90deg,#5a5550,#7a746c);box-shadow:none;}
+
   .why{margin:30px 0 4px;}
   .whead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
   .whead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
@@ -147,6 +160,7 @@
     <div class="kicker">The founding era</div>
     <h1>You're early<span class="dot">.</span> That's the whole point<span class="dot">.</span></h1>
     <p class="lede">Fleeting just launched in Nashville. No big list yet, no brand you have heard of -- just a weekly heads-up on the city's <b>here-then-gone</b> food, drink and one-night things, and a handful of people who found it first. That handful is the opportunity. Get in on the ground floor while the ground floor is still open.</p>
+    <div class="seats" role="group" aria-label="Founding seats claimed"><div class="srow"><span class="slabel">Founding seats claimed</span><span class="snum">9 <span class="sof">of 100</span></span></div><div class="strack"><div class="sfill" style="width:9.0%"></div></div><p class="snote">Only 91 founding seats left before the door closes for good. Founding status closes permanently at the 100th subscriber -- a spot later readers cannot buy their way back into.</p></div>
     <section class="why">
       <div class="whead"><span class="dot"></span><h2>Why being early actually matters here</h2></div>
       <article class="reason"><h3>Your voice still moves the room</h3><p>Reply to an issue right now and a human reads it and changes the next one. Tell us the neighborhood we are sleeping on, the pop-up we missed -- founding readers shape what Fleeting becomes. That access is a small-list luxury; it does not survive a big list.</p></article>
