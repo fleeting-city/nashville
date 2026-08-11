@@ -180,6 +180,19 @@
   .kind{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
     color:var(--muted);margin-top:7px;}
 
+  /* per-window share (EXP-0050 / LAS-255): text a friend a single closing window */
+  .wshare{display:inline-flex;align-items:center;gap:6px;margin-top:9px;background:transparent;
+    border:1px solid var(--line2);border-radius:999px;padding:6px 12px;cursor:pointer;color:var(--cream);
+    font-family:var(--sans);font-size:12px;font-weight:600;transition:border-color .15s,background .15s;}
+  .wshare:hover{border-color:var(--accent);background:var(--ink3);}
+  .drop.shared{border-left-color:var(--neon);box-shadow:0 0 0 1px rgba(255,90,60,.35),0 0 14px rgba(255,90,60,.22);}
+  /* deep-link arrival banner: a friend flagged this one; subscribe is the secondary ask */
+  .arrivebar{background:linear-gradient(180deg,rgba(230,69,53,.14),rgba(230,69,53,.05));
+    border:1px solid rgba(230,69,53,.4);border-radius:12px;padding:11px 13px;margin-bottom:12px;}
+  .arrivebar .ab-h{font-size:12.5px;color:var(--cream);font-weight:600;line-height:1.45;}
+  .arrivebar .ab-sub{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:var(--gold);}
+  .arrivebar .ab-sub:hover{text-decoration:underline;}
+
   .near{margin-top:6px;}
   .near-lbl{font-size:12px;color:#d8d3c8;margin-bottom:8px;}
   .nearbtn{display:inline-flex;align-items:center;gap:7px;background:#100f14;border:1px solid var(--line2);
@@ -458,6 +471,25 @@ const byId = id => HOODS.find(h => h.id === id) || (id==='drive'?DRIVE:null);
 const SVGNS = 'http://www.w3.org/2000/svg';
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
+/* ---------------- per-window deep links (EXP-0050 / LAS-255) ----------------
+   The map, not the inbox, is the container for "what's closing near me". Each
+   drop gets a stable id so a single window can be deep-linked, texted to a
+   friend, and land on its own pin. Outbound share text is scrubbed to pure
+   ASCII (canon rule 6) before it can leave the browser. */
+const ascii = s => String(s)
+  .replace(/[\u2018\u2019\u201A\u2032]/g, "'")
+  .replace(/[\u201C\u201D\u201E\u2033]/g, '"')
+  .replace(/[\u2013\u2014\u2212]/g, '-')
+  .replace(/\u2026/g, '...')
+  .normalize('NFKD').replace(/[^\x00-\x7F]/g, '').replace(/\s+/g, ' ').trim();
+const slug = s => ascii(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+/* wid -> { hoodId, drop }. Built once from the same data the map renders. */
+const WINDOW_INDEX = {};
+[...HOODS, DRIVE].forEach(h => (h.drops||[]).forEach(d => {
+  d.wid = h.id + '-' + slug(d.name);
+  WINDOW_INDEX[d.wid] = { hoodId: h.id, drop: d };
+}));
+
 /* ---------------- build the map ---------------- */
 const layer = document.getElementById('hoodLayer');
 HOODS.forEach(h => {
@@ -532,11 +564,14 @@ const panel = document.getElementById('panel');
 function whenClass(kind){ return kind==='seasonal'?'when gold':(kind==='marquee'?'when red':'when'); }
 
 function dropHTML(d){
-  return '<div class="drop k-'+d.kind+'">'
+  const shared = d.wid===arrivedWid ? ' shared' : '';
+  return '<div class="drop k-'+d.kind+shared+'">'
     +'<div class="drop-h"><b>'+esc(d.name)+'</b><span class="'+whenClass(d.kind)+'">'+esc(d.when)+'</span></div>'
     +'<div class="where">'+esc(d.where)+'</div>'
     +'<div class="blurb">'+esc(d.blurb)+'</div>'
-    +'<span class="kind">'+ (KIND_LABEL[d.kind]||'') +'</span></div>';
+    +'<span class="kind">'+ (KIND_LABEL[d.kind]||'') +'</span>'
+    +'<button class="wshare" type="button" data-share="'+esc(d.wid)+'">&#128241; Text this to a friend</button>'
+    +'</div>';
 }
 
 function renderDefault(){
@@ -562,7 +597,17 @@ function renderDefault(){
 function renderHood(id){
   const h = byId(id);
   const drops = h.drops||[];
-  let html = '<div class="p-eyebrow">'+(id==='drive'?'Off the map':'Neighborhood')+'</div>'
+  let html = '';
+  // Deep-link arrival: a friend flagged one window in this hood. Lead with it;
+  // subscribe is the secondary ask (email follows the map).
+  const arrived = arrivedWid && WINDOW_INDEX[arrivedWid] && WINDOW_INDEX[arrivedWid].hoodId===id
+    ? WINDOW_INDEX[arrivedWid].drop : null;
+  if(arrived){
+    html += '<div class="arrivebar"><div class="ab-h">&#128073; A friend flagged <b>'+esc(arrived.name)
+      +'</b> ('+esc(arrived.when)+') for you. Confirm the night on the venue Instagram before you go.</div>'
+      +'<a class="ab-sub" href="'+subscribeHref()+'">Get the free weekly heads-up so you never miss the next one &rarr;</a></div>';
+  }
+  html += '<div class="p-eyebrow">'+(id==='drive'?'Off the map':'Neighborhood')+'</div>'
     +'<div class="p-title">'+esc(h.name)+'</div>'
     +'<div class="p-tag">'+esc(h.tag||'')+'</div>';
 
@@ -587,10 +632,13 @@ function renderHood(id){
 
   panel.querySelectorAll('[data-go]').forEach(b=>
     b.addEventListener('click',()=>select(b.getAttribute('data-go'))));
+  panel.querySelectorAll('[data-share]').forEach(b=>
+    b.addEventListener('click',()=>shareWindow(b.getAttribute('data-share'), b)));
 }
 
 /* ---------------- selection ---------------- */
 let selId = null;
+let arrivedWid = null;   /* set when a per-window deep link opens the map */
 function select(id){
   selId = id;
   document.querySelectorAll('.hood').forEach(g=>
@@ -626,6 +674,60 @@ async function shareMap(btn){
   const b = document.getElementById(id);
   if(b) b.addEventListener('click', ()=>shareMap(b));
 });
+
+/* ---------------- per-window share + deep link (EXP-0050 / LAS-255) ----------------
+   Text a friend ONE closing window; the link opens the map on that window's pin
+   with its last day. utm_source=map_pin, utm_medium=share so the subscribe that
+   follows is attributable. No external action -- native share sheet / clipboard
+   only, and the shared text is scrubbed to pure ASCII before it can leave. */
+
+/* Homepage subscribe URL that carries this arrival's utm forward, so first-touch
+   attribution (attribution.py on the homepage) records map_pin instead of losing
+   it on the click. */
+function subscribeHref(){
+  const q = new URLSearchParams(location.search);
+  const p = new URLSearchParams();
+  ['utm_source','utm_medium','utm_campaign'].forEach(k=>{ const v=q.get(k); if(v) p.set(k,v); });
+  const qs = p.toString();
+  return 'https://nashville.fleeting.city/' + (qs ? ('?'+qs) : '') + '#subscribe';
+}
+
+/* Rewrite the static subscribe CTAs so an arriving utm rides to the homepage. */
+function forwardUTM(){
+  if(!new URLSearchParams(location.search).get('utm_source')) return;
+  const href = subscribeHref();
+  document.querySelectorAll('a[href*="nashville.fleeting.city/#subscribe"]')
+    .forEach(a=>{ a.href = href; });
+}
+
+function shareWindow(wid, btn){
+  const rec = WINDOW_INDEX[wid]; if(!rec) return;
+  const h = byId(rec.hoodId), d = rec.drop;
+  const url = SHARE_URL + '?w=' + encodeURIComponent(wid) + '&utm_source=map_pin&utm_medium=share';
+  const where = ascii(rec.hoodId==='drive' ? 'Nashville (worth the drive)' : h.name);
+  const text = ascii(d.name) + ' -- ' + ascii(d.when) + ', in ' + where + '. Here then gone.';
+  const data = { title:'Fleeting - Nashville', text:text, url:url };
+  (async ()=>{
+    try{ if(navigator.share){ await navigator.share(data); return; } }
+    catch(e){ return; } /* user dismissed the native sheet */
+    const combined = text + ' ' + url;
+    const label = btn ? btn.innerHTML : '';
+    try{
+      await navigator.clipboard.writeText(combined);
+      if(btn){ btn.innerHTML = 'Copied &#10003;'; setTimeout(()=>{ btn.innerHTML = label; }, 1800); }
+    }catch(e){ window.prompt('Copy this to text a friend:', combined); }
+  })();
+}
+
+/* On load: forward utm, and if a ?w= window is named, open the map on its pin. */
+function applyDeepLink(){
+  forwardUTM();
+  const w = new URLSearchParams(location.search).get('w');
+  if(!w || !WINDOW_INDEX[w]) return;
+  arrivedWid = w;
+  select(WINDOW_INDEX[w].hoodId);   /* select() -> renderHood() shows the flagged window + banner */
+}
+applyDeepLink();
 </script>
 </body>
 </html>
