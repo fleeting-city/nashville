@@ -7,7 +7,7 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:acme_feed_seed-20260815@nashville.fleeting.city
-DTSTAMP:20260814T024158Z
+DTSTAMP:20260814T030742Z
 DTSTART:20260815T224500Z
 DTEND:20260816T004500Z
 SUMMARY:Fleeting: Foo Fighters Pre-Party ft. Scotty Chapman (one night)
