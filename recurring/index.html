@@ -4,59 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Nashville windows that keep coming back | Fleeting</title>
-<meta name="description" content="An always-current index of Nashville's recurring time-limited windows -- weekly residencies, monthly markets, seasonal pop-ups. What is open Wednesday nights, which pop-ups come back each month, and which patio-season things return. Grouped by cadence and day.">
+<meta name="description" content="An always-current index of Nashville's recurring time-limited windows -- weekly, monthly, seasonal.">
 <link rel="canonical" href="https://nashville.fleeting.city/recurring/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="/favicon_180.png">
 <meta name="theme-color" content="#0e0d10">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Fleeting - Nashville">
-<meta property="og:title" content="The Nashville windows that keep coming back">
-<meta property="og:description" content="An always-current index of Nashville's recurring windows -- weekly, monthly, seasonal. What is open Wednesday nights, what comes back each month.">
-<meta property="og:url" content="https://nashville.fleeting.city/recurring/">
-<meta property="og:image" content="https://nashville.fleeting.city/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="The Nashville windows that keep coming back">
-<meta name="twitter:description" content="Nashville's recurring time-limited windows, grouped by cadence and day. Weekly, monthly, seasonal.">
-<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
-<!--
-  Fleeting - Nashville : Recurring board (EXP-0037 / LAS-217). The evergreen archive
-  index -- the Nashville windows that keep coming back, grouped by cadence (weekly by
-  day / monthly / seasonal). Built by scripts/build_recurring_board.py from the live
-  discovery feed (candidates_today.json) cross-referenced against weekly snapshots under
-  scripts/out/<date>/. A row shows ONLY on confirmed current recurrence: present now AND
-  either stating a hard cadence or observed recurring across >= 2 weeks (seasonal REQUIRES
-  observed). Regenerated on every publish and self-updating -- do not hand-edit; edit the
-  builder. Pull surface only: NO alert promise (F-0009). Dark mission-control theme,
-  tokens from site/index.html; skyline resolved via brand/marks.py and referenced (not
-  pasted) from skyline.svg (rules 11/14). First-touch attribution to surface 'recurring'
-  (EXP-0030). Pure-ASCII copy.
--->
-  <script>  <script>
-  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
-     context ONCE, in their own browser, so it survives navigation to the
-     subscribe form. No network call, no external action. */
-  (function(){try{
-    var K='fl_ft';
-    if(localStorage.getItem(K)){return;}
-    var q=new URLSearchParams(location.search);
-    var ft={
-      s:(q.get('utm_source')||'recurring'),
-      m:(q.get('utm_medium')||'board'),
-      c:(q.get('utm_campaign')||'evergreen'),
-      r:(document.referrer||''),
-      p:location.pathname,
-      t:new Date().toISOString()
-    };
-    localStorage.setItem(K,JSON.stringify(ft));
-  }catch(e){}})();
-  </script>
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -120,6 +70,11 @@
   .card .prov{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
     color:var(--muted);margin-left:8px;vertical-align:middle;}
   .card.obs .prov{color:#e8c65a;}
+  .card .runlbl{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    border-radius:999px;padding:2px 9px;margin:0 0 8px 6px;vertical-align:middle;
+    color:var(--muted);border:1px solid var(--line);}
+  .card .runlbl.limited{color:#ffb3aa;border-color:rgba(230,69,53,.4);background:rgba(230,69,53,.10);}
+  .card .runlbl.upcoming{color:#a9cbff;border-color:rgba(90,160,255,.35);background:rgba(90,160,255,.08);}
   .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
   .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
   .card .where::before{content:"\25CD  ";color:var(--gold);}
@@ -143,22 +98,13 @@
 <body>
   <div class="wrap">
     <a class="back" href="/">&#8592; Fleeting HQ</a>
-    <div class="top">
-      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
-    </div>
-    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="top"><a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a></div>
     <div class="kicker">The recurring board</div>
-    <h1>The Nashville windows<br>that keep coming back<span class="dot">.</span></h1>
-    <p class="lede">Most of what we track is here then gone. But some windows have a <b>rhythm</b> -- the Wednesday residency, the first-Friday crawl, the pop-up that returns every patio season. This is the standing index of those, <b>grouped by when they come around</b>. It rebuilds itself from what the machine actually sees, so a window that stops showing up drops off, and a new rhythm appears the week it settles in.</p>
-    <div class="asof">Current as of <b>August 7, 2026</b> &middot; 7 recurring windows tracked</div>
-    <section class="board weekly"><div class="bhead"><span class="dot"></span><h2>EVERY WEEK</h2><span class="count">2</span></div><p class="bsub">Standing weekly windows -- the residencies, weeknight pop-ups and recurring nights you can plan your week around.</p><div class="daygroup"><div class="dhead"><h3>Thursday</h3><span class="dcount">2</span></div><div class="cards"><article class="card obs"><span class="when">Every Thursday</span><span class="prov">Seen 4 weeks running</span><h3>Shakespeare in the Park: A Midsummer Night&#x27;s Dream</h3><div class="where">Centennial Park, Midtown</div><p class="blurb">Nashville Shakes does inventive Shakespeare under the sky - free, BYOB blanket, and runs five weekends.</p><div class="meta"><a class="det" href="https://www.nashvilleshakes.org/shakespeare-in-the-park-1" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card obs"><span class="when">Every Thursday</span><span class="prov">Seen 4 weeks running</span><h3>Thursday Night Out</h3><div class="where">Cheekwood, Belle Meade</div><p class="blurb">Cheekwood&#x27;s summer evening series - botanical gardens after dark with food, drinks, and music while the season lasts.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article></div></div></section>
-    <section class="board monthly"><div class="bhead"><span class="dot"></span><h2>EVERY MONTH</h2><span class="count">1</span></div><p class="bsub">Monthly markets, first-Friday crawls, full-moon parties -- the ones that come around once a month.</p><div class="cards"><article class="card obs"><span class="when">Monthly</span><span class="prov">Seen 3 weeks running</span><h3>Full Moon Pickin&#x27; Party</h3><div class="where">Percy Warner Equestrian Barn, Belle Meade</div><p class="blurb">Monthly acoustic bluegrass jam under the full moon at an actual equestrian barn - bring a blanket, BYOB, pick or just listen.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article></div></section>
-    <section class="board seasonal"><div class="bhead"><span class="dot"></span><h2>EACH SEASON</h2><span class="count">4</span></div><p class="bsub">Patio-season pop-ups, summer series and holiday bars we have watched return -- only ones we have actually seen recur are listed here.</p><div class="cards"><article class="card obs"><span class="when">This season</span><span class="prov">Seen 4 weeks running</span><h3>Side B Summer: A Throwback Summer Pop-Up At Sidebar</h3><div class="where">Sidebar</div><p class="blurb">A limited-run throwback summer pop-up at Sidebar running through multiple dates - catch it before the season&#x27;s out.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/side-b-summer-a-throwback-summer-pop-up-at-sidebar-tickets-1991245501899?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card obs"><span class="when">This season</span><span class="prov">Seen 3 weeks running</span><h3>Holly Jolly Christmas Bar at Sonny&#x27;s Patio Pub Clubhouse</h3><div class="where">Sonny&#x27;s Patio Pub Clubhouse</div><p class="blurb">Seasonal holiday pop-up bar in the works at Sonny&#x27;s - add to bucket list before it sells out in November.</p><div class="meta"><a class="det" href="https://bucketlisters.com/explore/city/NSH" target="_blank" rel="noopener">Details &#8594;</a><span class="confirm">confirm before you go</span></div></article><article class="card obs"><span class="when">This season</span><span class="prov">Seen 3 weeks running</span><h3>The Jazz Room: A Journey to the Heart of New Orleans</h3><div class="where">Hutton Hotel, West End</div><p class="blurb">New Orleans-themed jazz dinner series launching at the Hutton - ticketed, seasonal, and the closest thing to a Crescent City night out without leaving Nashville.</p><div class="meta"><a class="det" href="https://feverup.com/m/618711" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card obs"><span class="when">This season</span><span class="prov">Seen 2 weeks running</span><h3>Southall Farm &amp; Inn Experiences</h3><div class="where">Southall Farm &amp; Inn</div><p class="blurb">Seasonal farm-tied experiences at Southall timed to long weekends and holidays - the kind of curated land-and-table programming that books fast.</p><div class="meta"><a class="det" href="https://www.exploretock.com/southall-experiences-franklin?tock_source=tock&amp;tock_medium=city_page&amp;tock_content=carousel-Southall%20Farm%20%26%20Inn%20-%20Experiences" target="_blank" rel="noopener">Details &#8594;</a><span class="confirm">confirm before you go</span></div></article></div></section>
-    <section class="cta">
-      <p><b>This board does not ping you.</b> It is a pull surface on purpose -- no alerts, no notifications. It just sits here, current, for when you want to know what keeps coming back. The way to catch the one-time windows too -- the here-then-gone things that never repeat -- is the Thursday list: the week's time-limited Nashville windows, in your inbox before they close.</p>
-      <a class="btn" href="/?utm_source=recurring&amp;utm_medium=board&amp;utm_campaign=evergreen#subscribe">Get the Thursday list, free &#8594;</a>
-    </section>
-    <p class="foot">Every window here is confirmed current: it is in the live discovery feed right now, and either states its own recurring cadence or has been seen to recur across multiple weeks. Windows we have only seen once, or that name no cadence, are held back rather than guessed. Looking for what is open or closing this week? See <a href="/conditions/">the conditions board</a>. The full record is in <a href="/archive/">the archive</a>.</p>
+    <h1>Still finding the rhythm<span class="dot">.</span></h1>
+    <p class="lede">This is the standing index of Nashville windows that keep coming back -- weekly residencies, monthly markets, seasonal pop-ups. Right now the machine has confirmed 0 of them, which is under the floor we will publish a full board on. We would rather show you nothing than pad it. It fills in as more patterns confirm.</p>
+    <div class="asof">Current as of <b>August 14, 2026</b></div>
+    <section class="cta"><p><b>Want the here-then-gone windows in the meantime?</b> The Thursday list is the week's time-limited Nashville windows, in your inbox before they close.</p>
+      <a class="btn" href="/?utm_source=recurring&amp;utm_medium=board&amp;utm_campaign=evergreen#subscribe">Get the Thursday list, free &#8594;</a></section>
   </div>
 </body>
 </html>

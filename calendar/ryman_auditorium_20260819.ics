@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20260819@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART:20260820T003000Z
+DTEND:20260820T023000Z
+SUMMARY:Fleeting: Buddy Guy 90 (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Buddy Guy turns ninety and plays the Ryman with Christone "King
+ fish" Ingram - one of the last architects of electric blues\, on a birthda
+ y tour that is exactly what it sounds like.\nDetails and tickets: https://
+ www.ryman.com/event/2026-08-19-buddy-guy-90-at-7-30-pm\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://www.ryman.com/event/2026-08-19-buddy-guy-90-at-7-30-pm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

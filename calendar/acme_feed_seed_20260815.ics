@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:acme_feed_seed-20260815@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART:20260815T224500Z
+DTEND:20260816T004500Z
+SUMMARY:Fleeting: Foo Fighters Pre-Party ft. Scotty Chapman (one night)
+LOCATION:Acme Feed & Seed\, Downtown
+DESCRIPTION:Acme's pre-party for the Take Cover Tour stadium show that nigh
+ t - it exists because the Foos do\, and only for these three hours.\nDetai
+ ls and tickets: https://www.acmefeedandseed.com/calendar\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://www.acmefeedandseed.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:various_williamson_county-20260815@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Last day: Williamson County Fair
+LOCATION:Various (Williamson County)\, Franklin
+DESCRIPTION:Nine days of classic county-fair chaos right outside the city -
+  rides\, livestock\, fried everything\, and it closes Saturday.\nDetails a
+ nd tickets: https://www.williamsoncountyfair.org/\nWindows drift - confirm
+  with the venue before you go.\nFleeting - the weekly Nashville what-close
+ s-first list.
+URL:https://www.williamsoncountyfair.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

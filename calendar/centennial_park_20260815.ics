@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20260815@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Last day: Big Band Dances
+LOCATION:Centennial Park
+DESCRIPTION:Free big band dancing in Centennial Park wraps Saturday - last 
+ call for the summer series.\nDetails and tickets: https://www.nashville.go
+ v/departments/parks/news/2026-big-band-dances\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://www.nashville.gov/departments/parks/news/2026-big-band-dances
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

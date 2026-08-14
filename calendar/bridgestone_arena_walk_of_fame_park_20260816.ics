@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena_walk_of_fame_park-20260816@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:Last day: PBR Nashville Stampede Days
+LOCATION:Bridgestone Arena / Walk of Fame Park
+DESCRIPTION:Professional bull riding takes over Bridgestone for a full week
+ end with free street parties on Walk of Fame Park bookending the arena act
+ ion.\nDetails and tickets: https://nashvilledowntown.com/do/pbr-nashville-
+ stampede-days\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/do/pbr-nashville-stampede-days
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

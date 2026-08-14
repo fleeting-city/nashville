@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:butterfly-20260815@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART:20260816T000000Z
+DTEND:20260816T020000Z
+SUMMARY:Fleeting: Sonrisa Rum National Rum Day Celebration (one night)
+LOCATION:Butterfly\, Downtown
+DESCRIPTION:National Rum Day lands on a Saturday and Butterfly marks it wit
+ h Sonrisa pours - two hours of a reason to show up early.\nDetails and tic
+ kets: https://nashvilledowntown.com/do/sonrisa-rum-national-rum-day-celebr
+ ation\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/do/sonrisa-rum-national-rum-day-celebrati
+ on
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

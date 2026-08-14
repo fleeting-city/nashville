@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20260816@nashville.fleeting.city
+DTSTAMP:20260814T022914Z
+DTSTART:20260817T010000Z
+DTEND:20260817T030000Z
+SUMMARY:Fleeting: Squeeze with Adam Ant (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Squeeze at the Ryman with Adam Ant and Leon Tilbrook - two new-
+ wave catalogues on one stage for a single night.\nDetails and tickets: htt
+ ps://www.ryman.com/event/2026-08-16-squeeze-at-8-pm\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://www.ryman.com/event/2026-08-16-squeeze-at-8-pm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
