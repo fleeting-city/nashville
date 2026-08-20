@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20260823@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:Last day: Big Thief
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Adrianne Lenker and Big Thief get two nights at the Ryman - the
+  indie-folk act that makes even the rafters feel something.\nDetails and t
+ ickets: https://nashvilledowntown.com/event/big-thief\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://nashvilledowntown.com/event/big-thief
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

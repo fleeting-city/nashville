@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:wilson_county_fairgrounds-20260822@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:Last day: Wilson County - Tennessee State Fair
+LOCATION:Wilson County Fairgrounds
+DESCRIPTION:The region's biggest late-summer blowout kicks off tomorrow - 1
+ 0 days of rides\, livestock\, and fried everything.\nDetails and tickets: 
+ https://williamsonsource.com/10-days-one-big-party-wilson-county-tennessee
+ -state-fair-kicks-off-aug-13/\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/10-days-one-big-party-wilson-county-tennes
+ see-state-fair-kicks-off-aug-13/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

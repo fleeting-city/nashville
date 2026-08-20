@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20260822@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260822T150000Z
+DTEND:20260822T170000Z
+SUMMARY:Fleeting: Wild About Mushrooms (one night)
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:Two-hour deep dive into wild mushroom ID at Owl's Hill - $40\, 
+ limited to the program time\, and exactly the kind of Saturday morning tha
+ t pays off in the kitchen.\nDetails and tickets: https://nashvillelife.com
+ /Wild-About-Mushrooms/Nashville-Calendar\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://nashvillelife.com/Wild-About-Mushrooms/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

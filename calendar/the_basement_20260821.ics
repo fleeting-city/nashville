@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement-20260821@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260822T000000Z
+DTEND:20260822T020000Z
+SUMMARY:Fleeting: Dan Wilson - EP Release Show (one night)
+LOCATION:The Basement\, Melrose
+DESCRIPTION:Catch Dan Wilson celebrating new music at The Basement before h
+ e's playing bigger rooms.\nDetails and tickets: https://nashvillego.com/ca
+ lendar\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

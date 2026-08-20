@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20261012@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Last day: Cheekwood Harvest
+LOCATION:Cheekwood Estate & Gardens\, Belle Meade
+DESCRIPTION:Cheekwood's annual fall harvest takeover returns with six weeks
+  of seasonal programming across the estate grounds.\nDetails and tickets: 
+ https://nashvillelifestyles.com/nashville-calendar/things-to-do/cheekwood-
+ harvest-returns-this-september-with-six-weeks-of-f/\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/cheekwo
+ od-harvest-returns-this-september-with-six-weeks-of-f/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

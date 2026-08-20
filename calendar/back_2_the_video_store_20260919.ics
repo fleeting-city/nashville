@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:back_2_the_video_store-20260919@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Last day: Back 2 The Video Store: A 90s Speakeasy Bar - Nashville
+LOCATION:Back 2 The Video Store
+DESCRIPTION:A 90s-themed speakeasy pop-up with a video store concept - clos
+ es Sep 19\, so the rewind window is nearly shut.\nDetails and tickets: htt
+ ps://bucketlisters.com/explore/city/NSH\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20260828@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260829T020000Z
+DTEND:20260829T040000Z
+SUMMARY:Fleeting: Blisspop: Can't Feel My Face - 2010s Dance Party (one nig
+ ht)
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:One-night 2010s dance party in East Nashville - The Weeknd\, Dr
+ ake\, and every banger you pretended not to love.\nDetails and tickets: ht
+ tps://nashvillego.com/calendar\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

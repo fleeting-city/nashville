@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:skydeck_on_broadway-20260824@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260825T000000Z
+DTEND:20260825T020000Z
+SUMMARY:Fleeting: Legally Blonde - Monday Movie Nights on Skydeck (one nigh
+ t)
+LOCATION:Skydeck on Broadway\, Downtown
+DESCRIPTION:Legally Blonde on the Skydeck rooftop overlooking Broadway - El
+ le Woods deserves better than a living room.\nDetails and tickets: https:/
+ /nashvilledowntown.com/event/legally-blonde-monday-movie-nights-on-skydeck
+ \nWindows drift - confirm with the venue before you go.\nFleeting - the we
+ ekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/legally-blonde-monday-movie-nights-
+ on-skydeck
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

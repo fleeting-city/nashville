@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nissan_stadium-20260823@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260824T000000Z
+DTEND:20260824T020000Z
+SUMMARY:Fleeting: Titans vs Seahawks (Preseason) (one night)
+LOCATION:Nissan Stadium\, East Bank
+DESCRIPTION:Preseason\, sure\, but a first look at the new-era Titans - and
+  a chance to actually get a seat at Nissan.\nDetails and tickets: https://
+ nashvillego.com/calendar\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

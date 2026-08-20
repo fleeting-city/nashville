@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tempo_by_hilton_nashville_downtown-20260820@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260821T000000Z
+DTEND:20260821T020000Z
+SUMMARY:Fleeting: Floating Frequencies: A Poolside Sound Bath Series (one n
+ ight)
+LOCATION:Tempo by Hilton Nashville Downtown
+DESCRIPTION:Sound bath poolside at a downtown hotel - a recurring series me
+ ans seats are limited each round.\nDetails and tickets: https://nashvilled
+ owntown.com/do/floating-frequencies-a-poolside-sound-bath-series\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://nashvilledowntown.com/do/floating-frequencies-a-poolside-sound-
+ bath-series
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:riverfront_park-20260912@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260912T200000Z
+DTEND:20260912T220000Z
+SUMMARY:Fleeting: 2026 Wine on the River Nashville (one night)
+LOCATION:Riverfront Park\, Capitol Hill Area
+DESCRIPTION:Wine pours meet the Cumberland waterfront for an afternoon fest
+ ival that reliably draws a crowd - book before the river fills up.\nDetail
+ s and tickets: https://www.eventbrite.com/e/2026-wine-on-the-river-nashvil
+ le-tickets-1977301608338?aff=ebdssbdestsearch\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://www.eventbrite.com/e/2026-wine-on-the-river-nashville-tickets-1
+ 977301608338?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

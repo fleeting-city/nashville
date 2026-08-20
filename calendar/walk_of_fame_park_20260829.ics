@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:walk_of_fame_park-20260829@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Last day: Artville
+LOCATION:Walk of Fame Park\, Downtown
+DESCRIPTION:75 visual artists pop up across from the Country Music Hall of 
+ Fame - free outdoor art fair with live music and food vendors for five day
+ s.\nDetails and tickets: https://artville.org/\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://artville.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

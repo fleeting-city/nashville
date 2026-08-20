@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_bowery_vault-20260823@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260824T000000Z
+DTEND:20260824T020000Z
+SUMMARY:Fleeting: Fall in Full - A Night of ALTernative with Aaron Friend &
+  Jonny Lucas (one night)
+LOCATION:The Bowery Vault\, East Nashville
+DESCRIPTION:One-night alt-rock throwback show at the Bowery Vault - sales e
+ nding soon means the room is filling.\nDetails and tickets: https://www.ev
+ entbrite.com/e/fall-in-full-a-night-of-alternative-with-aaron-friend-jonny
+ -lucas-tickets-1995123787957?aff=ebdssbdestsearch\nWindows drift - confirm
+  with the venue before you go.\nFleeting - the weekly Nashville what-close
+ s-first list.
+URL:https://www.eventbrite.com/e/fall-in-full-a-night-of-alternative-with-a
+ aron-friend-jonny-lucas-tickets-1995123787957?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

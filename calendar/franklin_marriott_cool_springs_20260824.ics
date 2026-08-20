@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:franklin_marriott_cool_springs-20260824@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:Fleeting: Eats Around the World - Big Table Fundraiser Dinner (one 
+ night)
+LOCATION:Franklin Marriott Cool Springs\, Cool Springs
+DESCRIPTION:Big Table's international fundraiser dinner returns to Cool Spr
+ ings - eat well\, do good\, five days out.\nDetails and tickets: https://w
+ ww.nashvillescene.com/food_drink\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvillescene.com/food_drink
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

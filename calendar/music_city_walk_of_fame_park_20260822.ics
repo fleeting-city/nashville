@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:music_city_walk_of_fame_park-20260822@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260822T210000Z
+DTEND:20260822T230000Z
+SUMMARY:Fleeting: 25th Annual Music City Brewers Fest 2026 (one night)
+LOCATION:Music City Walk of Fame Park\, Downtown
+DESCRIPTION:Twenty-five years of local craft poured in one afternoon at the
+  Walk of Fame - and tickets are closing out.\nDetails and tickets: https:/
+ /www.eventbrite.com/e/25th-annual-music-city-brewers-fest-2026-tickets-197
+ 7301453876?aff=ebdssbdestsearch\nWindows drift - confirm with the venue be
+ fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/25th-annual-music-city-brewers-fest-2026-t
+ ickets-1977301453876?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:zanies_comedy_club-20260828@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Last day: James Austin Johnson
+LOCATION:Zanies Comedy Club\, Madison
+DESCRIPTION:SNL's most unhinged impressionist and a genuinely sharp stand-u
+ p does two nights at Zanies.\nDetails and tickets: https://nashvillego.com
+ /calendar\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

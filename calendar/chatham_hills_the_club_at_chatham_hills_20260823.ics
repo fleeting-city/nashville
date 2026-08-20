@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:chatham_hills_the_club_at_chatham_hills-20260823@nashville.fleeting.cit
+ y
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:Last day: LIV Golf Indianapolis 2026 - Hospitality
+LOCATION:Chatham Hills (The Club at Chatham Hills)
+DESCRIPTION:Four-day hospitality package for LIV Golf Indianapolis - if you
+ 're going\, tomorrow is the first day.\nDetails and tickets: https://fever
+ up.com/m/418267\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/418267
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:necat_network-20260822@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260822T233000Z
+DTEND:20260823T013000Z
+SUMMARY:Fleeting: Live Studio Audience Taping of Stand Up & Laugh with Anna
+  Manis (one night)
+LOCATION:NECAT Network
+DESCRIPTION:Free live taping of a stand-up comedy show - the kind of one-ni
+ ght room energy you can't stream later.\nDetails and tickets: https://www.
+ eventbrite.com/e/live-studio-audience-taping-of-stand-up-laugh-with-anna-m
+ anis-tickets-1997921540109?aff=ebdssbdestsearch\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://www.eventbrite.com/e/live-studio-audience-taping-of-stand-up-la
+ ugh-with-anna-manis-tickets-1997921540109?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

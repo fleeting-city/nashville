@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_blue_room_at_third_man_records-20260820@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260821T030000Z
+DTEND:20260821T050000Z
+SUMMARY:Fleeting: Tipsy Teachings Lecture Series (one night)
+LOCATION:The Blue Room at Third Man Records\, Downtown
+DESCRIPTION:Drinks + lectures in Third Man's Blue Room - the kind of weird\
+ , smart evening Nashville doesn't do nearly enough.\nDetails and tickets: 
+ https://nashvilledowntown.com/event/tipsy-teachings-lecture-series\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvilledowntown.com/event/tipsy-teachings-lecture-series
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

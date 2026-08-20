@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:rudy_s_jazz_room-20260820@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260821T020000Z
+DTEND:20260821T040000Z
+SUMMARY:Fleeting: Rougarou 7-Piece New Orleans Brass Band (one night)
+LOCATION:Rudy's Jazz Room\, Downtown
+DESCRIPTION:A full NOLA brass band descends on Rudy's for a late-night seco
+ nd-line situation - bring your dancing shoes.\nDetails and tickets: https:
+ //nashvilledowntown.com/event/rougarou-7-piece-new-orleans-brass-band\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/rougarou-7-piece-new-orleans-brass-
+ band
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

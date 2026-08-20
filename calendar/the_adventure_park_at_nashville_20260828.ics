@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_adventure_park_at_nashville-20260828@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Fleeting: Adults Only Night at Adventure Park (one night)
+LOCATION:The Adventure Park at Nashville
+DESCRIPTION:No kids\, just grown-ups in the treetops after dark - Adventure
+  Park goes adults-only for one night.\nDetails and tickets: https://nashvi
+ llelife.com/Adults-Only-Night/Nashville-Calendar\nWindows drift - confirm 
+ with the venue before you go.\nFleeting - the weekly Nashville what-closes
+ -first list.
+URL:https://nashvillelife.com/Adults-Only-Night/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:yolan_at_the_joseph-20260828@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Fleeting: Cast Iron Master Class Lunch at Yolan - The Joseph's 6th 
+ Iron Anniversary (one night)
+LOCATION:Yolan at The Joseph\, Downtown
+DESCRIPTION:Yolan's Chef de Cuisine leads an immersive anniversary lunch bu
+ ilt around cast iron cookery - this is the kind of one-off culinary experi
+ ence the newsletter exists for.\nDetails and tickets: https://nashvillelif
+ e.com/Cast-Iron-Master-Class-Lunch/Nashville-Calendar\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://nashvillelife.com/Cast-Iron-Master-Class-Lunch/Nashville-Calend
+ ar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

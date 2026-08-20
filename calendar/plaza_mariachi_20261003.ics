@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:plaza_mariachi-20261003@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Fleeting: Raver Tots - The Ultimate Family Rave (one night)
+LOCATION:Plaza Mariachi
+DESCRIPTION:One-day all-ages rave at Plaza Mariachi - genuinely unhinged in
+  the best way\, free for kids.\nDetails and tickets: https://feverup.com/m
+ /706722\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/706722
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

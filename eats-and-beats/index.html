@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nashville Eats & Beats weekend: the other food worth chasing | Fleeting</title>
+<meta name="description" content="Headed to the Nashville Eats &amp; Beats Festival on August 28 at The Fairgrounds Nashville? Here is the OTHER here-then-gone Nashville food that same stretch: pop-ups, one-night dinners and limited menus with a real clock on them. Pulled live from the Fleeting discovery feed. Free Thursday email.">
+<link rel="canonical" href="https://nashville.fleeting.city/eats-and-beats/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Nashville Eats & Beats weekend: the other food worth chasing">
+<meta property="og:description" content="Pop-ups, one-night dinners and limited runs around Nashville the same weekend as Eats & Beats. The here-then-gone list.">
+<meta property="og:url" content="https://nashville.fleeting.city/eats-and-beats/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nashville Eats & Beats weekend: the other food worth chasing">
+<meta name="twitter:description" content="Pop-ups, one-night dinners and limited runs around Nashville the same weekend as Eats & Beats. The here-then-gone list.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : 'Eats & Beats' PULL/SEO satellite landing page
+  (EXP-0025 / LAS-180). Hijacks search around the Nashville Eats & Beats Festival
+  (Aug 28 @ The Fairgrounds Nashville) to surface the OTHER here-then-gone food in the
+  run-up, each a subscribe front door. Built by scripts/build_eats_and_beats_page.py
+  from the live discovery feed (candidates_today.json). Regenerated on every publish --
+  do not hand-edit; edit the builder. Ships only where genuine current inventory clears
+  the min-content floor (anti-doorway). Time-boxed: redirects to /this-week/ after the
+  festival date. Pull surface only: NO alert promise (F-0009). Not affiliated with the
+  festival. Skyline resolved via brand/marks.py and referenced (not pasted) from
+  /eats-and-beats/skyline.svg (rules 11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(26px,5.6vw,40px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .disclaimer{color:var(--muted);font-size:12px;margin:10px 0 0;max-width:60ch;font-style:italic;}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .cards{margin:16px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px 13px;margin:11px 0;}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-bottom:8px;
+    color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .card .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px;}
+  .card .det{font-size:12.5px;font-weight:700;}
+  .card .confirm{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="/eats-and-beats/skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Eats &amp; Beats weekend</div>
+    <h1>Going to Eats &amp; Beats<span class="dot">?</span> Here's the rest of the clock<span class="dot">.</span></h1>
+    <p class="lede">The <b>Nashville Eats &amp; Beats Festival</b> lands <b>August 28</b> at The Fairgrounds Nashville. Around it, the rest of the city keeps running on its own clock. These are the <b>live and coming-up</b> here-then-gone windows in Nashville through that weekend -- pop-ups, one-night dinners, limited menus. Pulled straight from what the machine tracks. Nothing undated, nothing already closed.</p>
+    <p class="disclaimer">Independent local list. Fleeting is not affiliated with, and does not run, the Nashville Eats &amp; Beats Festival; we just track the fleeting food around it.</p>
+    <div class="asof">Live for <b>Thursday, August 20</b> &middot; 24 windows through Eats &amp; Beats weekend</div>
+    <div class="cards"><article class="card"><span class="when">Ends today</span><h3>&#x27;On The Same Page: A Father &amp; Daughter&#x27;s Artistic Journey&#x27; - Michael Shane Neal &amp; Mattie Ree Neal</h3><div class="where">gallery opening</div><p class="blurb">A rare two-generation show pairing established portraitist Michael Shane Neal with daughter Mattie Ree Neal - one day only.</p><div class="meta"><a class="det" href="https://nashvillelifestyles.com/events/on-page-father-daughter-s-artistic-journey-featuring-michael-shane-neal-mattie-ree-neal/?occ_dtstart=2026-08-20T08:00" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Del McCoury Band &amp; The Travelin&#x27; McCourys</h3><div class="where">Ryman Auditorium &middot; Downtown &middot; concert</div><p class="blurb">As bluegrass-authentic as it gets - tonight only at the Mother Church.</p><div class="meta"><a class="det" href="https://www.ryman.com/event/2026-08-20-the-del-mccoury-band-and-the-travelin-mccourys-at-7-30-pm?utm_campaign=ryman_shows&amp;utm_medium=paidsocial&amp;utm_source=fb&amp;utm_audience=mofu_advantage&amp;utm_content=product_del_mccoury_082026_graphic&amp;utm_id=120245176298020679&amp;utm_term=120245176298010679&amp;fbclid=IwY2xjawTZX5lleHRuA2FlbQEwAGFkaWQBqzctooI-F3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7zHco66emS-UMJNkZF7qVE1ny9-rgP_E41gQfSNKi42G0DCPl6m7Gz4K5C6A_aem_SJ_0ZT7Y5BtbMuHHy61qTQ" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Gallery Talk: &quot;Beyond the Muse: The Women of Surrealism&quot;</h3><div class="where">Frist Art Museum &middot; Downtown &middot; arts</div><p class="blurb">A one-night curator talk on the women who made Surrealism and got credit for almost none of it - tonight at the Frist.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/gallery-talk-beyond-the-muse-the-women-of-surrealism" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Movies Under the Giant Guitar</h3><div class="where">Wedgewood Houston &middot; Wedgewood-Houston &middot; outdoor screening</div><p class="blurb">Outdoor movie series returns to Wedgewood Houston for another summer night under the Nashville sky - tonight&#x27;s your shot.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Movies-Under-Giant-Guitar-Dirty-Dancing/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Nashville Is A Comedy Town (Secret Show)</h3><div class="where">Undisclosed &middot; comedy</div><p class="blurb">Limited-seat secret comedy show happening tonight - the kind of thing you find out about and immediately text two friends.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Nashville-Comedy-Town/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Today at 4:00 PM + 4 more dates</span><h3>Side B Summer: A Throwback Summer Pop-Up At Sidebar</h3><div class="where">Sidebar &middot; Downtown &middot; pop-up</div><p class="blurb">Sidebar&#x27;s spinning up a limited throwback summer pop-up - catch it while the season still holds.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/side-b-summer-a-throwback-summer-pop-up-at-sidebar-tickets-1991245501899?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>The Del McCoury Band &amp; The Travelin&#x27; McCourys</h3><div class="where">Ryman Auditorium &middot; Downtown &middot; music</div><p class="blurb">Two generations of McCoury bluegrass on the Ryman stage for one night - this is the room these songs were built for.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/the-del-mccoury-band-and-the-travelin-mccourys-ryman-auditorium" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Tipsy Teachings Lecture Series</h3><div class="where">The Blue Room at Third Man Records &middot; Downtown &middot; entertainment</div><p class="blurb">Drinks plus a lecture inside Third Man&#x27;s Blue Room - the kind of Thursday night that beats your couch by a wide margin.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/tipsy-teachings-lecture-series" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Writers Round at Breeden&#x27;s Orchard</h3><div class="where">Breeden&#x27;s Orchard &middot; Mt. Juliet &middot; music</div><p class="blurb">Authentic Nashville-style writers round in an orchard setting - the format that made this city&#x27;s songwriting culture, in a spot that actually earns the backdrop.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Writers-Round/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Beyond the Counter Viewing</h3><div class="where">Woolworth Theatre &middot; Downtown &middot; arts</div><p class="blurb">A special viewing at the Woolworth - a building that carries real civil rights weight in Nashville.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/beyond-the-counter-viewing" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Rick Springfield</h3><div class="where">Ryman Auditorium &middot; Downtown &middot; music</div><p class="blurb">Jessie&#x27;s girl finally makes it to the Ryman - one night only.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/rick-springfield" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>25th Annual Music City Brewers Fest</h3><div class="where">Walk of Fame Park &middot; Downtown &middot; festival</div><p class="blurb">25 years of Nashville craft beer in one park on one Saturday afternoon - the milestone edition of the city&#x27;s longest-running brewers fest.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/25th-annual-music-city-brewers-fest" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Defy Film Festival</h3><div class="where">festival</div><p class="blurb">Two-day film festival with a name that promises something more interesting than the usual indie circuit fare.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Defy-Film-Festival/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Fall in Full - A Night of ALTernative with Aaron Friend &amp; Jonny Lucas</h3><div class="where">The Bowery Vault &middot; East Nashville &middot; special event</div><p class="blurb">One-night alt showcase at The Bowery Vault with a fall-season theme before the season actually turns.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/fall-in-full-a-night-of-alternative-with-aaron-friend-jonny-lucas-tickets-1995123787957?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Katie Lynne Sharbaugh at Analog at Hutton Hotel</h3><div class="where">Analog at Hutton Hotel &middot; Midtown &middot; concert</div><p class="blurb">Colt Classic and Analog present Katie Lynne Sharbaugh at one of Nashville&#x27;s better-curated intimate room setups.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Katie-Lynne-Sharbaugh-at-Analog-at-Hutton-Hotel/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Nashville Riverboat Docking</h3><div class="where">Riverfront Park &middot; Riverfront &middot; entertainment</div><p class="blurb">A riverboat pulls up to the Riverfront for a brief window Saturday evening - a genuinely rare downtown spectacle.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/nashville-riverboat-docking" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Pop-Up: On Cloud 9 at the Museum</h3><div class="where">Country Music Hall of Fame and Museum &middot; Downtown &middot; pop-up</div><p class="blurb">A two-day pop-up experience inside the Country Music Hall of Fame - catch it this weekend only before it&#x27;s gone.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/pop-up-on-cloud-9-at-the-museum" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>R&amp;B and Soul Showcase</h3><div class="where">Velvet Room &middot; special event</div><p class="blurb">Sales ending soon on this weekend R&amp;B and soul showcase - one night, live performances, limited tickets.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/rb-and-soul-showcase-tickets-1996565204272?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Shiners (Limited Run)</h3><div class="where">Woolworth Theatre &middot; Downtown &middot; entertainment</div><p class="blurb">Three-night limited run at Woolworth Theatre - whatever Shiners is, it&#x27;s gone by Saturday.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/shiners" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Songwriter Session: David Nail</h3><div class="where">Country Music Hall of Fame and Museum &middot; Downtown &middot; music</div><p class="blurb">David Nail in an intimate songwriter setting inside the Hall of Fame - free with museum admission and over before lunch.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/songwriter-session-david-nail" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Wild About Mushrooms</h3><div class="where">Owl&#x27;s Hill Nature Sanctuary &middot; Brentwood &middot; tasting / education</div><p class="blurb">Ticketed ($40) mushroom-focused program at Owl&#x27;s Hill - forager-adjacent content that&#x27;s genuinely hard to find in a city this size.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Wild-About-Mushrooms/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">3 days left</span><h3>ARTlab: Exploring Anila Quayyum Agha&#x27;s Interwoven Through Islamic Geometric Patterns</h3><div class="where">Frist Art Museum &middot; Downtown &middot; arts</div><p class="blurb">A hands-on art workshop digging into Islamic geometric pattern-making tied to Agha&#x27;s stunning installation at the Frist - one afternoon only.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/artlab-exploring-anila-quayyum-aghas-interwoven-through-islamic-geometric-patterns" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">3 days left</span><h3>Big Thief</h3><div class="where">Ryman Auditorium &middot; Downtown &middot; music</div><p class="blurb">Big Thief doing two nights at the Ryman is exactly as good as it sounds - one of indie rock&#x27;s best live bands in Nashville&#x27;s best room.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/big-thief" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">3 days left</span><h3>R&amp;B Bingo: Battle of Generations</h3><div class="where">National Museum of African American Music &middot; Downtown &middot; entertainment</div><p class="blurb">R&amp;B Bingo with a generational battle twist at NMAAM - two nights of late-night culture wars settled by bingo card.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/event/randb-bingo-battle-of-generations" target="_blank" rel="noopener">Details &#8594;</a></div></article></div>
+    <section class="cta">
+      <p><b>This page does not ping you.</b> It is a pull surface on purpose -- no alerts, no notifications, no same-day text. The way to never find out a day too late is the Thursday list: the week's here-then-gone Nashville windows, in your inbox before they close.</p>
+      <a class="btn" href="/?utm_source=eats_and_beats&amp;utm_medium=satellite&amp;utm_campaign=eats_beats_aug28#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Every window here is real and every date is its own stated date, read from the <span class="fmark">Fleeting<span class="dot">.</span></span> discovery feed; undated or already-closed windows are held back, not guessed. See <a href="/this-week/">this week by neighborhood</a> for the whole city, the <a href="/conditions/">conditions board</a> for what is closing, and the <a href="/archive/">archive</a> for what has already gone.</p>
+  </div>
+</body>
+</html>

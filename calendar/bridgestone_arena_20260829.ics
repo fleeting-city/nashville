@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20260829@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART:20260830T000000Z
+DTEND:20260830T020000Z
+SUMMARY:Fleeting: Brandi Carlile (one night)
+LOCATION:Bridgestone Arena\, Downtown
+DESCRIPTION:One of the best live acts in Americana scales up to arena level
+  - she earns every square foot of it.\nDetails and tickets: https://nashvi
+ llego.com/calendar\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

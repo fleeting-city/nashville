@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:studio_615-20260919@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Last day: Serial Killer Speakeasy - Nashville\, TN
+LOCATION:Studio 615
+DESCRIPTION:Three-night-only immersive speakeasy murder mystery - this is t
+ he city's top-ranked experience and it's gone after Sunday the 19th.\nDeta
+ ils and tickets: https://feverup.com/m/705252\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://feverup.com/m/705252
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

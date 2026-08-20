@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_botanical_gardens_estate-20260823@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:Last day: An American Story: Paintings from the Parthenon's Cowan C
+ ollection
+LOCATION:Cheekwood Botanical Gardens & Estate
+DESCRIPTION:Rare Parthenon loan show at Cheekwood closes Sunday - four days
+  left to see it.\nDetails and tickets: https://cheekwood.org/calendar-even
+ ts/an-american-story-paintings-from-the-parthenons-cowan-collection/\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://cheekwood.org/calendar-events/an-american-story-paintings-from-
+ the-parthenons-cowan-collection/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

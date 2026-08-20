@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bicentennial_mall_state_park-20260906@nashville.fleeting.city
+DTSTAMP:20260820T154542Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Last day: Music City Underground
+LOCATION:Bicentennial Mall State Park\, Downtown
+DESCRIPTION:Deep Tropics brings a curated global electronic lineup - house\
+ , techno\, bass - to the shadow of the Capitol for a weekend rave in the p
+ ark.\nDetails and tickets: https://www.deeptropics.org/\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://www.deeptropics.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
