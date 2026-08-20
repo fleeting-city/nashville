@@ -8,7 +8,7 @@ X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:sprouts_farmers_market_broadway_block_party-20260906@nashville.fleeting
  .city
-DTSTAMP:20260820T155052Z
+DTSTAMP:20260820T155501Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:Fleeting: Sprouts Farmers Market Broadway Block Party
