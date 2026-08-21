@@ -147,6 +147,7 @@
   <header class="hero">
     <div class="wrap">
       <span class="kicker"><svg class="hourglass" viewBox="0 0 24 28" width="15" height="17" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M3 2 L21 2 L12 14 Z" fill="var(--cream)" fill-opacity=".06"/><path d="M12 14 L21 26 L3 26 Z" fill="var(--cream)" fill-opacity=".06"/><path d="M7.86 8.48 L16.14 8.48 L12 14 Z" fill="var(--accent)"/><rect x="11.75" y="14" width=".5" height="7.92" fill="var(--accent)"/><path d="M4.98 26 L19.02 26 L12 18.08 Z" fill="var(--accent)"/><path d="M3 2 L21 2 L3 26 L21 26 Z" fill="none" stroke="var(--cream)" stroke-width=".9" stroke-linejoin="round" stroke-linecap="round"/><rect x="1.74" y="1.1" width="20.52" height="1.8" rx=".9" fill="var(--cream)"/><rect x="1.74" y="25.1" width="20.52" height="1.8" rx=".9" fill="var(--cream)"/></svg> <span class="stars">★★★</span> Nashville · weekly · free</span>
+      <p id="refhi" style="display:none;margin:14px 0 -4px;font-family:'Archivo';font-weight:700;font-size:16px;color:var(--gold);letter-spacing:.01em;"></p>
       <h1 class="display">Here for<br><span class="hl">a moment.</span></h1>
       <p class="sub">Pop-ups, one-night menus, secret shows, limited runs, the rooftop that closes when summer ends — <b>the Nashville things you'd kick yourself for missing.</b> One timely heads-up a week, plus same-day alerts the second something drops.</p>
       <p class="value">📬 One email a week · ⚡ same-day alerts for the urgent stuff · <span class="g">always free.</span></p>
@@ -390,6 +391,26 @@
       .catch(function(){ fail('Couldn\'t send that just now.'); });
     return false;
   }
+  // --- EXP-0065 personalized referral landing (LAS-296). A shared referral link
+  // may carry the referrer's first name in ?rf=; greet the friend with it. The
+  // value is untrusted boundary input: it must match a strict name shape or it is
+  // ignored (graceful default -> the generic hero stands), and it is written via
+  // textContent so it can never render as HTML (XSS-safe by construction). This
+  // does not touch utm_medium=referral -- the subscribe payload in go() still
+  // reads it straight from the URL.
+  (function(){
+    try{
+      var raw=new URLSearchParams(window.location.search).get('rf');
+      if(!raw) return;
+      var tok=raw.trim().split(/\s+/)[0];
+      if(!/^[A-Za-z][A-Za-z'-]{1,19}$/.test(tok)) return;
+      var name=tok.charAt(0).toUpperCase()+tok.slice(1).toLowerCase();
+      var el=document.getElementById('refhi');
+      if(!el) return;
+      el.textContent=name+" thought you'd want this.";
+      el.style.display='block';
+    }catch(e){}
+  })();
   var mq = document.getElementById('mq'); if(mq) mq.innerHTML += mq.innerHTML;
   var io = new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting)x.target.classList.add('in');});},{threshold:.15});
   document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
