@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>On Our Radar: Nashville windows we're watching this week | Fleeting</title>
+<meta name="description" content="A peek at the wider pool of time-limited Nashville food, drink and events on Fleeting's radar this week -- the windows we are watching before any of them makes Friday's list. Verified only; we never guess a date.">
+<link rel="canonical" href="https://nashville.fleeting.city/on-radar/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="On Our Radar: what Nashville windows we are watching this week">
+<meta property="og:description" content="The wider watch-list before it is featured: time-limited Nashville windows on Fleeting's radar this week. Verified only.">
+<meta property="og:url" content="https://nashville.fleeting.city/on-radar/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="On Our Radar: Nashville windows we are watching this week">
+<meta name="twitter:description" content="A peek at the wider pool of time-limited Nashville windows on Fleeting's radar, before any makes the Friday list.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : 'On Our Radar' front door (EXP-0068 / LAS-301). Lens L03 --
+  productize the discovery byproduct: the candidate pool the crawl considers each week
+  but that mostly never reaches the ~20-item newsletter. Renders a light, shareable
+  preview of the SAFE SUBSET (verified only: needs_confirm dropped, sponsored dropped,
+  real source link required, already-closed dropped, dates shown only when parseable --
+  never guessed). Earlier in the funnel than /conditions/, /still-on/, /insider-map/ and
+  the published-issues archive. Built by scripts/build_radar_page.py from the newest
+  scripts/out/<date>/candidates.json -- do not hand-edit; edit the builder. Pull surface
+  only: NO alert promise (F-0009). Subscribe CTA carries utm_source=on_radar &
+  utm_campaign=EXP-0068. Dark mission-control theme; skyline resolved via brand/marks.py
+  and referenced (not pasted) from skyline.svg (rules 11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .cards{margin:20px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px 13px;margin:11px 0;}
+  .card.watch{border-left-color:#5c7a8a;}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-bottom:8px;
+    color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);}
+  .card.watch .when{color:#a8c6d6;background:rgba(120,160,180,.12);border:1px solid rgba(120,160,180,.4);}
+  .card .cat{display:inline-block;font-family:'Inter';font-weight:700;font-size:10px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;
+    padding:2px 8px;margin:0 0 8px 6px;vertical-align:top;}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .card .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px;}
+  .card .det{font-size:12.5px;font-weight:700;}
+  .empty{font-size:13px;color:var(--muted);font-style:italic;background:rgba(246,241,231,.03);
+    border:1px dashed var(--line);border-radius:12px;padding:14px 16px;margin:16px 0;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:28px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .cta p.calnote{font-size:12.5px;color:var(--muted);margin:14px 0 0;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">On our radar this week</div>
+    <h1>Before it makes the list<span class="dot">,</span> it's on the radar<span class="dot">.</span></h1>
+    <p class="lede">Every week the machine watches far more of Nashville than lands in Friday's email. This is a peek at that wider pool: the time-limited windows <b>we are tracking right now</b>, before the week gets narrowed to the picks. Verified entries only -- if we cannot stand behind it, it is not here, and we never guess a close date.</p>
+    <div class="asof">Watching <b>149</b> verified windows &middot; 140 with a firm close date, 9 on watch &middot; showing the next <b>24</b> &middot; last crawled <b>August 20, 2026</b></div>
+    <div class="cards"><article class="card"><span class="when">Closes today</span><span class="cat">drink</span><h3>25th Annual Music City Brewers Fest</h3><div class="where">Walk of Fame Park, Downtown</div><p class="blurb">The quarter-century mark for Nashville&#x27;s biggest beer festival - 25 years of local and regional craft poured in one park.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>25th Annual Music City Brewers Fest 2026</h3><div class="where">Music City Walk of Fame Park, Downtown</div><p class="blurb">Twenty-five years of local craft poured in one afternoon at the Walk of Fame - and tickets are closing out.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/d/tn--nashville/food-and-drink/" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">tasting</span><h3>ALPFA Latin Food Competition</h3><div class="where">Plaza Mariachi, Paragon Mills</div><p class="blurb">Competitive Latin food showdown inside Nashville&#x27;s cultural market hub - Plaza Mariachi makes this one worth the south-side drive.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/d/tn--nashville/food-and-drink/" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>Defy Film Festival</h3><p class="blurb">Two-day indie film festival - the kind of thing you mean to go to and then it&#x27;s gone.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Nashville-Calendar-of-Events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>Defy Film Festival</h3><div class="where">Eastside Bowl, East Nashville</div><p class="blurb">A two-day indie film festival in a bowling alley - exactly as East Nashville as it sounds.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">special show</span><h3>Katie Lynne Sharbaugh at Analog</h3><div class="where">Analog at Hutton Hotel, Midtown</div><p class="blurb">Colt Classic brings Katie Lynne Sharbaugh to Analog - an intimate room that makes every bill feel like a secret worth keeping.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Nashville-Calendar-of-Events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">special event</span><h3>Katie Lynne Sharbaugh at Analog at Hutton Hotel</h3><div class="where">Analog at Hutton Hotel, Midtown</div><p class="blurb">Colt Classic presents Katie Lynne Sharbaugh at one of Nashville&#x27;s best small rooms - grab a ticket before it sells.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Nashville-Calendar-of-Events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">special show</span><h3>Live Studio Audience Taping of Stand Up &amp; Laugh with Anna Manis</h3><div class="where">NECAT Network</div><p class="blurb">Free live taping of a stand-up comedy show - the kind of one-night room energy you can&#x27;t stream later.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/d/tn--nashville/pop-up/" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">comedy</span><h3>Mark Normand</h3><div class="where">Zanies Comedy Club, Madison</div><p class="blurb">One of stand-up&#x27;s hardest-working comics does a three-night stand at Nashville&#x27;s home-base club.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">concert</span><h3>Megan Moroney</h3><div class="where">Bridgestone Arena, Downtown</div><p class="blurb">Nashville&#x27;s own country darling headlines two hometown nights at Bridgestone - the crowd will be loud.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">entertainment</span><h3>Nashville Riverboat Docking</h3><div class="where">Riverfront Park, Downtown</div><p class="blurb">A riverboat pulls up to the downtown riverfront for a brief window - a genuinely old-Nashville moment hiding in the calendar.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">special event</span><h3>Nashville SC vs Columbus Crew</h3><div class="where">Geodis Park, Wedgewood-Houston</div><p class="blurb">MLS home date at Geodis - the largest soccer-specific stadium in the country fills up fast for weekend matches.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">entertainment</span><h3>Shiners</h3><div class="where">Woolworth Theatre, Downtown</div><p class="blurb">A limited three-night theatrical run at Woolworth - catch it before it&#x27;s gone this weekend.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">special event</span><h3>Songwriters Under the Stars</h3><div class="where">Cheekwood, Belle Meade</div><p class="blurb">Outdoor songwriting showcase on Cheekwood&#x27;s grounds - seasonal while the weather cooperates.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>Tennessee State Fair</h3><div class="where">James E. Ward Agricultural Center, Lebanon</div><p class="blurb">Ten days of fair food, livestock, and rides outside Nashville - closes Aug 22, so don&#x27;t let it sneak past.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Nashville-Calendar-of-Events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">special event</span><h3>Wild About Mushrooms</h3><div class="where">Owl&#x27;s Hill Nature Sanctuary</div><p class="blurb">Two-hour deep dive into wild mushroom ID at Owl&#x27;s Hill - $40, limited to the program time, and exactly the kind of Saturday morning that pays off in...</p><div class="meta"><a class="det" href="https://nashvillelife.com/Nashville-Calendar-of-Events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>Wilson County Fair / Tennessee State Fair</h3><div class="where">Farm Bureau Expo Center</div><p class="blurb">The county fair closes Saturday - fried everything, livestock, and rides; last real shot is tomorrow.</p><div class="meta"><a class="det" href="https://do615.com/events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>Wilson County - Tennessee State Fair</h3><div class="where">Wilson County Fairgrounds</div><p class="blurb">The region&#x27;s biggest late-summer blowout kicks off tomorrow - 10 days of rides, livestock, and fried everything.</p><div class="meta"><a class="det" href="https://williamsonsource.com/events/" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes today</span><span class="cat">festival</span><h3>Wilson County-Tennessee State Fair</h3><div class="where">Tennessee State Fairgrounds</div><p class="blurb">Ten days of fair food, rides, and livestock - the Wilson County-Tennessee State Fair kicks off Thursday and runs through the 22nd.</p><div class="meta"><a class="det" href="https://williamsonsource.com/events/" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes tomorrow</span><span class="cat">exhibition</span><h3>An American Story: Paintings from the Parthenon&#x27;s Cowan Collection</h3><div class="where">Cheekwood Botanical Gardens &amp; Estate</div><p class="blurb">Rare Parthenon loan show at Cheekwood closes Sunday - four days left to see it.</p><div class="meta"><a class="det" href="https://do615.com/events" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes tomorrow</span><span class="cat">arts</span><h3>ARTlab: Exploring Anila Quayyum Agha&#x27;s Interwoven Through Islamic Geometric Patterns</h3><div class="where">Frist Art Museum, Downtown</div><p class="blurb">A hands-on studio session inside the Frist&#x27;s current Agha exhibition - three hours of making, not just looking.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes tomorrow</span><span class="cat">music</span><h3>Big Thief</h3><div class="where">Ryman Auditorium, Downtown</div><p class="blurb">Adrianne Lenker and Big Thief get two nights at the Ryman - the indie-folk act that makes even the rafters feel something.</p><div class="meta"><a class="det" href="https://nashvilledowntown.com/do" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes tomorrow</span><span class="cat">special show</span><h3>Fall in Full - A Night of ALTernative with Aaron Friend &amp; Jonny Lucas</h3><div class="where">The Bowery Vault, East Nashville</div><p class="blurb">One-night alt-rock throwback show at the Bowery Vault - sales ending soon means the room is filling.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/d/tn--nashville/pop-up/" target="_blank" rel="noopener">See the source &#8594;</a></div></article><article class="card"><span class="when">Closes tomorrow</span><span class="cat">ticketed experience</span><h3>LIV Golf Indianapolis 2026 - Hospitality</h3><div class="where">Chatham Hills (The Club at Chatham Hills)</div><p class="blurb">Four-day hospitality package for LIV Golf Indianapolis - if you&#x27;re going, tomorrow is the first day.</p><div class="meta"><a class="det" href="https://feverup.com/en/nashville" target="_blank" rel="noopener">See the source &#8594;</a></div></article></div>
+    <section class="cta" id="subscribe">
+      <p><b>This is the watch-list, not the newsletter.</b> Friday's email is the narrowed, curated read -- the week's here-then-gone Nashville windows worth your time, in your inbox before they close. Free.</p>
+      <a class="btn" href="/?utm_source=on_radar&amp;utm_medium=front_door&amp;utm_campaign=EXP-0068#subscribe">Get Friday's list, free &#8594;</a>
+      <p class="calnote">This page does not ping you and does not track what you click. It is a pull surface on purpose -- no alerts, no notifications. The way to stop finding out a day too late is the Thursday list.</p>
+    </section>
+    <p class="foot">Everything here is real and every close date is its own stated date, read from the <span class="fmark">Fleeting<span class="dot">.</span></span> discovery crawl and shown with its source link. Unconfirmed windows are held off the radar entirely, and dates that do not read cleanly are shown as "on watch" rather than guessed. Want the narrowed daily read instead? See <a href="/conditions/">the conditions board</a>, look one up on <a href="/still-on/">Still On?</a>, or place them on <a href="/insider-map/">the map</a>.</p>
+  </div>
+</body>
+</html>
