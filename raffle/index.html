@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Win this week's shortlist: subscribe to enter | Fleeting - Nashville</title>
+<meta name="description" content="Every week Fleeting draws one subscriber and hand-builds them a personal shortlist of the Nashville windows about to close on them. Subscribing is your entry. One winner, drawn in public, always free.">
+<link rel="canonical" href="https://nashville.fleeting.city/raffle/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Win this week's shortlist: subscribe to enter">
+<meta property="og:description" content="Every week we draw one subscriber and hand-build them a personal list of the Nashville windows about to close. Subscribing is your entry. One winner, drawn in public.">
+<meta property="og:url" content="https://nashville.fleeting.city/raffle/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Win this week's shortlist: subscribe to enter">
+<meta name="twitter:description" content="One subscriber wins a hand-built what's-closing-for-you shortlist every week. Subscribing is your entry. Drawn in public, always free.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Subscribe-to-enter raffle (EXP-0071 / LAS-313). Lens L04 --
+  steal the sneaker-drop raffle mechanic: subscribing IS the entry into a weekly
+  public raffle whose prize is a hand-built personal 'what's closing for you'
+  concierge shortlist (one winner, zero marginal cost, drawn publicly). Built by
+  scripts/build_raffle_page.py. Pull / subscribe surface only: NO alert promise
+  (F-0009) -- the prize is delivered as a one-off personal note, never via the
+  same-day alert stub. Dark mission-control theme; skyline resolved via
+  brand/marks.py and referenced (not pasted) from skyline.svg (rules 11/14).
+  Entries attributed utm_campaign=EXP-0071; draw is documented + executable
+  (raffle_concierge_kit.md, scripts/raffle_draw.py). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+
+  .why{margin:30px 0 4px;}
+  .whead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .whead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .whead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;color:var(--cream);}
+  .reason{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--accent);border-radius:12px;padding:15px 17px;margin:13px 0;}
+  .reason h3{font-family:'Archivo';font-weight:900;font-size:16.5px;letter-spacing:-.01em;line-height:1.2;color:var(--gold);margin-bottom:6px;}
+  .reason p{font-size:13.5px;color:#d8d3c8;line-height:1.55;}
+  .reason p b{color:var(--cream);}
+
+  .fair{margin:28px 0 4px;}
+  .fhead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .fhead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .fhead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;color:var(--cream);}
+  .fairp{font-size:13.5px;color:#d8d3c8;line-height:1.6;margin:14px 0 2px;max-width:64ch;}
+  .fairp b{color:var(--cream);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:22px 20px 18px;margin:30px 0 10px;}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4.4vw,24px);letter-spacing:-.01em;color:var(--cream);margin-bottom:8px;}
+  .ctap{font-size:14px;color:#e7e1d5;margin:0 0 14px;line-height:1.5;}
+  .ctap b{color:#fff;}
+  .form{display:flex;gap:9px;flex-wrap:wrap;}
+  .form input{flex:1 1 200px;min-width:0;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:12px 14px;font-family:'Inter';}
+  .form input:focus{outline:none;border-color:var(--accent);}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn:disabled{opacity:.6;cursor:default;}
+  .fine{font-size:11.5px;color:var(--muted);margin-top:11px;letter-spacing:.01em;line-height:1.5;}
+
+  .share{margin-top:18px;padding-top:16px;border-top:1px solid rgba(230,69,53,.28);}
+  .shareh{font-family:'Archivo';font-weight:900;font-size:clamp(17px,3.8vw,21px);letter-spacing:-.01em;color:var(--cream);margin-bottom:6px;}
+  .shareh .dot{color:var(--accent);}
+  .sharep{font-size:13px;color:#e7e1d5;line-height:1.5;margin-bottom:12px;}
+  .sharebtns{display:flex;gap:8px;flex-wrap:wrap;}
+  .sbtn{display:inline-block;background:#0c0b0f;border:1px solid var(--line);border-radius:9px;
+    color:var(--cream);font-family:'Inter';font-weight:600;font-size:13px;padding:9px 14px;
+    cursor:pointer;transition:.14s;}
+  .sbtn:hover{border-color:var(--accent);color:var(--cream);text-decoration:none;}
+  .sbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;}
+  .sbtn.primary:hover{background:#d13a2b;}
+  .sharefine{font-size:11px;color:var(--muted);margin-top:11px;letter-spacing:.01em;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'raffle'),
+      m:(q.get('utm_medium')||'raffle'),
+      c:(q.get('utm_campaign')||'EXP-0071'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The weekly drop</div>
+    <h1>One reader wins the shortlist<span class="dot">.</span> Every week<span class="dot">.</span></h1>
+    <p class="lede">Once a week we pull <b>one subscriber</b> and hand-build them a personal shortlist: the Nashville <b>here-then-gone</b> windows -- the pop-up, the last-weekend show, the dish that is about to vanish -- about to close on <i>them</i>, this week. Not a template. A human sits down and makes it for the winner. There is exactly one, every week, and <b>subscribing is your entry.</b></p>
+    <section class="why">
+      <div class="whead"><span class="dot"></span><h2>How the drop works</h2></div>
+      <article class="reason"><h3>The prize is built for one person -- you</h3><p>The winner does not get a gift card. They get a <b>concierge shortlist</b>: a human reads what is closing across the city this week and hand-picks the handful worth chasing for that one reader. It costs us nothing to make a second one, which is exactly why there is only ever <b>one winner</b> -- the prize is our attention, and attention does not scale.</p></article>
+      <article class="reason"><h3>One winner, drawn in the open</h3><p>Every week we freeze the entrant list, draw a single winner, and <b>publish the draw</b> so anyone can check it. No "trust us." The mechanism is fixed and public (see below), the winner is named, and the shortlist goes out. Then the next week's draw opens.</p></article>
+      <article class="reason"><h3>Entering is just subscribing</h3><p>There is no ticket, no purchase, no form beyond your email. <b>Subscribing to the free weekly list is your entry</b> -- and it stays your entry, every week, for as long as you are subscribed. That is the whole trick: the thing you would want anyway (the list) is the thing that enters you (the draw).</p></article>
+    </section>
+    <section class="fair">
+      <div class="fhead"><span class="dot"></span><h2>Why the draw is fair</h2></div>
+      <p class="fairp">At the weekly cutoff we take a snapshot of everyone entered and publish a fingerprint of that exact list (a one-way hash) -- so the list cannot be changed after the fact. The winning number then comes from a <b>public random beacon nobody controls</b> (a published, timestamped source), combined with that fingerprint. Same inputs, same winner, every time -- so you can re-run the math yourself and confirm we did not pick a friend. One entrant, one slot; the odds are simply one over the number of subscribers in the draw.</p>
+    </section>
+    <section class="cta" id="enter">
+      <p class="ctah">Enter this week's draw.</p>
+      <p class="ctap">Drop your email and you are in the raffle -- and on the free weekly list either way. <b>This list does not ping you</b>: no alerts, no notifications, just the Thursday heads-up in your inbox. Win, and your personal shortlist arrives as a one-off note, hand-built for you.</p>
+      <form class="form" id="subscribe" onsubmit="return go(event)">
+        <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
+        <button class="btn" type="submit">Enter the draw &#8594;</button>
+      </form>
+      <p class="fine">One entry per subscriber. Unsubscribe anytime -- but that takes you out of the draw. We never share your email. No purchase necessary; subscribing is free.</p>
+      <div class="share" id="share" hidden>
+        <p class="shareh">You are in<span class="dot">.</span> Now stack the room<span class="dot">.</span></p>
+        <p class="sharep">One winner a week means the odds are just the size of the room -- and the room is still small. Know someone who would want the shortlist too? Hand them the entry line:</p>
+        <div class="sharebtns">
+          <button class="sbtn primary" type="button" onclick="shareNative()">Share the draw &#8594;</button>
+          <button class="sbtn" type="button" onclick="copyLink(this)">Copy link</button>
+          <a class="sbtn" id="sx" target="_blank" rel="noopener noreferrer">Post to X</a>
+          <a class="sbtn" id="sthreads" target="_blank" rel="noopener noreferrer">Threads</a>
+          <a class="sbtn" id="ssms">Text it</a>
+          <a class="sbtn" id="semail">Email</a>
+        </div>
+        <p class="sharefine">You send it, not us. Nothing posts on your behalf.</p>
+      </div>
+    </section>
+    <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
+  </div>
+  <script>
+  function flFirstTouch(){
+    var d={utm_source:'',utm_medium:'',utm_campaign:'',
+           referrer:'',first_touch_at:'',landing_path:''};
+    try{
+      var raw=localStorage.getItem('fl_ft');
+      if(raw){var o=JSON.parse(raw);
+        d.utm_source=o.s||'';d.utm_medium=o.m||'';d.utm_campaign=o.c||'';
+        d.referrer=o.r||'';d.first_touch_at=o.t||'';d.landing_path=o.p||'';}
+    }catch(e){}
+    try{var q=new URLSearchParams(location.search);
+      if(!d.utm_source){d.utm_source=q.get('utm_source')||'';}
+      if(!d.utm_medium){d.utm_medium=q.get('utm_medium')||'';}
+      if(!d.utm_campaign){d.utm_campaign=q.get('utm_campaign')||'';}
+    }catch(e){}
+    if(!d.referrer){try{d.referrer=document.referrer||'';}catch(e){}}
+    return d;
+  }
+  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
+  function go(e){
+    e.preventDefault();
+    var form=document.getElementById('subscribe');
+    var input=document.getElementById('email');
+    var btn=form.querySelector('button[type=submit]');
+    var em=input.value.trim();
+    if(!em){ return false; }
+    function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
+    var ft=flFirstTouch();
+    var payload={
+      email:em,
+      referrer:ft.referrer,
+      utm_source:ft.utm_source||'raffle',
+      utm_medium:ft.utm_medium||'raffle',
+      utm_campaign:ft.utm_campaign||'EXP-0071'
+    };
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Entering...';
+    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">You are entered.</div><p style="color:var(--muted);margin:8px 0 0;">Check your inbox to confirm -- an unconfirmed email is not in the draw. The winner is drawn and announced each week.</p></div>';
+          revealShare();
+        } else {
+          btn.disabled=false; btn.textContent=label; fallback();
+        }
+      })
+      .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
+    return false;
+  }
+
+  // --- Raffle share loop (EXP-0071 / LAS-313). Reader-initiated only: every button opens a
+  // share intent the reader completes, or copies to their clipboard. Nothing posts on
+  // anyone's behalf; no external action runs from this page. The share link is UTM-tagged so
+  // a share->visit->subscribe carries raffle_share attribution straight into the go() payload.
+  function shareInfo(){
+    var url='https://nashville.fleeting.city/raffle/?utm_source=raffle_share&utm_medium=referral&utm_campaign=EXP-0071';
+    var text="Fleeting - Nashville draws one subscriber a week and hand-builds them a personal list of the city's here-then-gone spots about to close. Subscribing is your entry. Get in:";
+    return {url:url, text:text, full:text+' '+url};
+  }
+  function revealShare(){
+    var s=shareInfo();
+    var sx=document.getElementById('sx');
+    var st=document.getElementById('sthreads');
+    var sm=document.getElementById('ssms');
+    var se=document.getElementById('semail');
+    if(sx){ sx.href='https://twitter.com/intent/tweet?text='+encodeURIComponent(s.text)+'&url='+encodeURIComponent(s.url); }
+    if(st){ st.href='https://www.threads.net/intent/post?text='+encodeURIComponent(s.full); }
+    if(sm){ sm.href='sms:?&body='+encodeURIComponent(s.full); }
+    if(se){ se.href='mailto:?subject='+encodeURIComponent('The Fleeting weekly draw')+'&body='+encodeURIComponent(s.full); }
+    var box=document.getElementById('share');
+    if(box){ box.hidden=false; }
+  }
+  function shareNative(){
+    var s=shareInfo();
+    if(navigator.share){ navigator.share({text:s.text, url:s.url}).catch(function(){}); }
+    else { copyLink(); }
+  }
+  function copyLink(btn){
+    var s=shareInfo();
+    function done(){ if(btn){ var t=btn.textContent; btn.textContent='Copied'; setTimeout(function(){ btn.textContent=t; },1600); } }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(s.full).then(done).catch(function(){}); }
+    else { window.prompt('Copy your raffle link:', s.full); }
+  }
+  </script>
+</body>
+</html>
