@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:woolworth_theatre-20260828@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T220000Z
+DTEND:20260829T000000Z
+SUMMARY:Fleeting: Beyond the Counter Viewing (one night)
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:A one-hour viewing event at the Woolworth - the early-evening s
+ lot suggests something curated and worth the detour before dinner.\nDetail
+ s and tickets: https://nashvilledowntown.com/event/beyond-the-counter-view
+ ing\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/beyond-the-counter-viewing
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

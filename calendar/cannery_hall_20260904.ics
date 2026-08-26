@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cannery_hall-20260904@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260905T030000Z
+DTEND:20260905T050000Z
+SUMMARY:Fleeting: Club OVO (one night)
+LOCATION:Cannery Hall\, Wedgewood-Houston
+DESCRIPTION:Late-night OVO-branded club night at Cannery Hall - the Drake e
+ xtended universe comes to Nashville.\nDetails and tickets: https://nashvil
+ lego.com/calendar\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

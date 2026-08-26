@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ticketmaster_nashville_venue-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Last day: The R&B Tour - Starring Usher Raymond & Chris Brown
+LOCATION:Ticketmaster (Nashville venue)\, Downtown
+DESCRIPTION:Two nights\, two of the biggest names in R&B on the same stage 
+ - this one is going to be loud and the whole city will feel it.\nDetails a
+ nd tickets: https://nashvilledowntown.com/event/the-randb-tour-starring-us
+ her-raymond-and-chris-brown\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/the-randb-tour-starring-usher-raymo
+ nd-and-chris-brown
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tpac-20260901@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260901T230000Z
+DTEND:20260902T010000Z
+SUMMARY:Fleeting: The Whole - StreetSolid Fundraising Presentation (one nig
+ ht)
+LOCATION:TPAC\, Downtown
+DESCRIPTION:A one-night fundraising event for StreetSolid at TPAC - put you
+ r money where your city is.\nDetails and tickets: https://nashvillego.com/
+ calendar\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:grand_hyatt_nashville-20260901@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Last day: Book Your Rooftop Cabana
+LOCATION:Grand Hyatt Nashville\, Nashville Yards
+DESCRIPTION:Grand Hyatt's rooftop cabana season closes in one week - last w
+ indow to snag a private perch over the Yards.\nDetails and tickets: https:
+ //do615.com/events/2026/5/1/book-your-rooftop-cabana-tickets\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://do615.com/events/2026/5/1/book-your-rooftop-cabana-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

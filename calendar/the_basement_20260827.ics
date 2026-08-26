@@ -7,15 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:the_basement-20260827@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART:20260827T223000Z
 DTEND:20260828T003000Z
-SUMMARY:Fleeting: Trey Pendley - Album Release Show (one night)
-LOCATION:The Basement\, Melrose
-DESCRIPTION:Trey Pendley drops new music at The Basement - catch it early b
- efore the room gets bigger.\nDetails and tickets: https://nashvillego.com/
- calendar\nWindows drift - confirm with the venue before you go.\nFleeting 
- - the weekly Nashville what-closes-first list.
+SUMMARY:Fleeting: Trey Pendley Album Release Show (one night)
+LOCATION:The Basement
+DESCRIPTION:One night only to catch Trey Pendley debut new material where i
+ t was born.\nDetails and tickets: https://nashvillego.com/calendar\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
 URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT

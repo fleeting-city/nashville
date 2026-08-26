@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:skydeck_on_broadway-20260830@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260830T170000Z
+DTEND:20260830T190000Z
+SUMMARY:Fleeting: MarioKart Video Game Tournament (one night)
+LOCATION:Skydeck on Broadway\, Downtown
+DESCRIPTION:Competitive MarioKart on Skydeck - a rooftop Sunday tournament 
+ that's either your thing or it very much isn't.\nDetails and tickets: http
+ s://nashvilledowntown.com/event/mariokart-tournament\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://nashvilledowntown.com/event/mariokart-tournament
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

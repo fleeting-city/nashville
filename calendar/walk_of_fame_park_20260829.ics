@@ -7,17 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:walk_of_fame_park-20260829@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20260830
-SUMMARY:Last day: Artville
+DTSTAMP:20260826T111315Z
+DTSTART:20260830T003000Z
+DTEND:20260830T023000Z
+SUMMARY:Fleeting: Music City Jerk Festival (one night)
 LOCATION:Walk of Fame Park\, Downtown
-DESCRIPTION:75 visual artists pop up across from the Country Music Hall of 
- Fame - free outdoor art fair with live music and food vendors for five day
- s.\nDetails and tickets: https://artville.org/\nWindows drift - confirm wi
- th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
- irst list.
-URL:https://artville.org/
+DESCRIPTION:One afternoon of Caribbean jerk flavors\, live music\, and cult
+ ure right in the heart of downtown - don't sleep on it.\nDetails and ticke
+ ts: https://nashvilledowntown.com/event/music-city-jerk-festival\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://nashvilledowntown.com/event/music-city-jerk-festival
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

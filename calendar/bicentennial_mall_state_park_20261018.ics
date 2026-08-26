@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bicentennial_mall_state_park-20261018@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Last day: Southern Festival of Books
+LOCATION:Bicentennial Mall State Park\, Downtown/Capitol Hill
+DESCRIPTION:Author talks\, vendors\, and kids' programming spread across th
+ e Mall and Tennessee State Museum - the literary weekend for Nashville.\nD
+ etails and tickets: https://notesonnashville.com/things-to-do/nashville-ca
+ lendar\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://notesonnashville.com/things-to-do/nashville-calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

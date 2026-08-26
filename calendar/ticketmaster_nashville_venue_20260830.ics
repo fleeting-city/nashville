@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ticketmaster_nashville_venue-20260830@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:Last day: Hamilton
+LOCATION:Ticketmaster (Nashville venue)\, Downtown
+DESCRIPTION:The touring production of Hamilton is in Nashville for a short 
+ run - last chance this week before it moves on.\nDetails and tickets: http
+ s://nashvilledowntown.com/event/hamilton\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://nashvilledowntown.com/event/hamilton
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

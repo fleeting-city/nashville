@@ -7,17 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:owl_s_hill_nature_sanctuary-20260828@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-SUMMARY:Fleeting: Music Under the Stars (Final Night) (one night)
-LOCATION:Owl's Hill Nature Sanctuary
-DESCRIPTION:Last call for the summer Music Under the Stars series at Owl's 
- Hill - the season doesn't come back around until next year.\nDetails and t
- ickets: https://nashvillelife.com/Music-Under-Stars/Nashville-Calendar\nWi
- ndows drift - confirm with the venue before you go.\nFleeting - the weekly
-  Nashville what-closes-first list.
-URL:https://nashvillelife.com/Music-Under-Stars/Nashville-Calendar
+SUMMARY:Fleeting: Full Moon Hike: Sturgeon Moon (one night)
+LOCATION:Owl's Hill Nature Sanctuary\, Brentwood
+DESCRIPTION:One night a month\, Owl's Hill opens after dark for a guided fu
+ ll moon hike - August's Sturgeon Moon is this one.\nDetails and tickets: h
+ ttps://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
+URL:https://nashvillelife.com/Full-Moon-Hikes/Nashville-Calendar
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

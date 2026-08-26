@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20260903@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260904T003000Z
+DTEND:20260904T023000Z
+SUMMARY:Fleeting: The Pretty Reckless (one night)
+LOCATION:Ryman Auditorium
+DESCRIPTION:Taylor Momsen's band brings hard rock back to the Ryman's hallo
+ wed walls - genuinely jarring in the best way.\nDetails and tickets: https
+ ://nashvillego.com/calendar\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

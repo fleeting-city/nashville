@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cafe_cheeserie-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T003000Z
+DTEND:20260828T023000Z
+SUMMARY:Fleeting: Music in the Cafe: Tramaine Arte'Mis & The I7 Jazz Band (
+ one night)
+LOCATION:Cafe Cheeserie\, Downtown
+DESCRIPTION:Live jazz over cheese plates at Cafe Cheeserie - one of those o
+ nly-in-Nashville casual-elegant combos.\nDetails and tickets: https://nash
+ villedowntown.com/event/music-in-the-cafe-tramaine-artemis-and-the-i7-jazz
+ -band\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/music-in-the-cafe-tramaine-artemis-
+ and-the-i7-jazz-band
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

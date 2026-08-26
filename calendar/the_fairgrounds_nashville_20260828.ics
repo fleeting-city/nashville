@@ -7,18 +7,20 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:the_fairgrounds_nashville-20260828@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART:20260828T150000Z
 DTEND:20260828T170000Z
-SUMMARY:Fleeting: Nashville Eats & Beats Festival (one night)
+SUMMARY:Fleeting: Nashville Handmade\, Food & Indie Brands Market 2026 (one
+  night)
 LOCATION:The Fairgrounds Nashville\, Melrose
-DESCRIPTION:Food and live music converge at the Fairgrounds for a full-day 
- eat-and-listen graze.\nDetails and tickets: https://www.eventbrite.com/e/n
- ashville-eats-beats-festival-tickets-1994514282911?aff=ebdssbdestsearch\nW
- indows drift - confirm with the venue before you go.\nFleeting - the weekl
- y Nashville what-closes-first list.
-URL:https://www.eventbrite.com/e/nashville-eats-beats-festival-tickets-1994
- 514282911?aff=ebdssbdestsearch
+DESCRIPTION:Indie food makers\, handmade goods\, and local brands converge 
+ at the Fairgrounds - show up before the good stuff sells out.\nDetails and
+  tickets: https://www.eventbrite.com/e/nashville-handmade-food-indie-brand
+ s-market-2026-tickets-1992701843857?aff=ebdssbdestsearch\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://www.eventbrite.com/e/nashville-handmade-food-indie-brands-marke
+ t-2026-tickets-1992701843857?aff=ebdssbdestsearch
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

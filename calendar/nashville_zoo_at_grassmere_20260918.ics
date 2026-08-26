@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_zoo_at_grassmere-20260918@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260919T030000Z
+DTEND:20260919T050000Z
+SUMMARY:Fleeting: Sunset Safari (one night)
+LOCATION:Nashville Zoo at Grassmere\, South Nashville
+DESCRIPTION:The Zoo after dark - Sunset Safari is an evening event with ani
+ mals\, atmosphere\, and no school groups underfoot.\nDetails and tickets: 
+ https://nashvillelife.com/Sunset-Safari/Nashville-Calendar\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://nashvillelife.com/Sunset-Safari/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:various_venues-20260906@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:Last day: Nashville Dance Fest
 LOCATION:Various venues
-DESCRIPTION:Three days of country dance workshops\, competitions\, and live
-  floor time with Eric Paslay and Love and Theft supplying the soundtrack.\
- nDetails and tickets: https://www.nashvilledancefest.com/\nWindows drift -
-  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
- at-closes-first list.
+DESCRIPTION:Country dance and music festival weekend with workshops\, compe
+ titions\, and floor time across every style - Eric Paslay and Love and The
+ ft performing live.\nDetails and tickets: https://www.nashvilledancefest.c
+ om/\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
 URL:https://www.nashvilledancefest.com/
 TRANSP:TRANSPARENT
 END:VEVENT

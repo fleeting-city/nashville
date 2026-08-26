@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_lindsley-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T003000Z
+DTEND:20260828T023000Z
+SUMMARY:Fleeting: Jennifer Knapp with Levi Lowrey (one night)
+LOCATION:3rd & Lindsley\, Downtown
+DESCRIPTION:Jennifer Knapp rarely tours - this one-night 3rd & Lindsley sho
+ w is a quiet gem for anyone who knows the catalog.\nDetails and tickets: h
+ ttps://nashvilledowntown.com/event/jennifer-knapp-with-levi-lowery\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvilledowntown.com/event/jennifer-knapp-with-levi-lowery
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

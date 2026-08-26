@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:jwb_grill_nashville-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260829T233000Z
+DTEND:20260830T013000Z
+SUMMARY:Fleeting: Paradise Supper Session (one night)
+LOCATION:JWB Grill Nashville\, Downtown
+DESCRIPTION:A one-night themed supper session at JWB Grill - the kind of ti
+ cketed dinner concept that quietly sells out by Wednesday.\nDetails and ti
+ ckets: https://www.eventbrite.com/e/paradise-supper-session-tickets-199356
+ 8732745?aff=ebdssbdestsearch\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/paradise-supper-session-tickets-1993568732
+ 745?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

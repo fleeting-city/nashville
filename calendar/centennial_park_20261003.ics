@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20261003@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Fleeting: Celebrate Nashville Cultural Festival (one night)
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:Free annual showcase of Nashville's cultural diversity through 
+ music\, dance\, art\, and a serious spread of global food vendors.\nDetail
+ s and tickets: https://celebratenashville.org/\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://celebratenashville.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

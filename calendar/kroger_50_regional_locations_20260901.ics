@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:kroger_50_regional_locations-20260901@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Fleeting: Nicoletto's Dried Pastas & Sauces - Regional Kroger Launc
+ h (one night)
+LOCATION:Kroger (50 regional locations)
+DESCRIPTION:Nicoletto's takes the pantry aisle: their housemade dried pasta
+ s and sauces hit 50 Kroger stores across the region starting next month.\n
+ Details and tickets: https://www.bizjournals.com/nashville/news/2026/08/19
+ /nicolettos-pasta-co-nashville-mt-juliet-opening.html\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://www.bizjournals.com/nashville/news/2026/08/19/nicolettos-pasta-
+ co-nashville-mt-juliet-opening.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

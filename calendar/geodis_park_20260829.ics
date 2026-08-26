@@ -7,15 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:geodis_park-20260829@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART:20260830T003000Z
 DTEND:20260830T023000Z
 SUMMARY:Fleeting: Nashville SC vs FC Cincinnati (one night)
-LOCATION:Geodis Park\, Wedgewood-Houston
-DESCRIPTION:MLS rivalry match at Geodis - the Cincinnati matchup always dra
- ws a crowd with something to prove.\nDetails and tickets: https://nashvill
- ego.com/calendar\nWindows drift - confirm with the venue before you go.\nF
- leeting - the weekly Nashville what-closes-first list.
+LOCATION:Geodis Park\, South Nashville
+DESCRIPTION:Eastern Conference clash at Geodis with playoff implications - 
+ the atmosphere here is always worth it.\nDetails and tickets: https://nash
+ villego.com/calendar\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT

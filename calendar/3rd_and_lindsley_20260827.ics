@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T003000Z
+DTEND:20260828T023000Z
+SUMMARY:Fleeting: Jennifer Knapp with Levi Lowery (one night)
+LOCATION:3rd and Lindsley\, SoBro
+DESCRIPTION:Jennifer Knapp's raw songwriting paired with Levi Lowery makes 
+ for a 3rd and Lindsley Thursday that punches well above its ticket price.\
+ nDetails and tickets: https://nashvilledowntown.com/event/jennifer-knapp-w
+ ith-levi-lowery\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/jennifer-knapp-with-levi-lowery
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:loveless_barn-20260919@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Fleeting: Jam Fest: Loveless 75th Birthday Bash (one night)
+LOCATION:Loveless Barn
+DESCRIPTION:Nashville's most beloved biscuit institution turns 75 with live
+  music and a party at the barn - one of those genuinely local milestone ev
+ ents.\nDetails and tickets: https://lovelesscafe.com/product/jam-fest/?fbc
+ lid=IwY2xjawTlTrdwZG9mAWV4dG4DYWVtAjEwAGJyaWQRMU1vVmRrNlJHRDZ0WUFtWnVzcnRj
+ BmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeHwDXE0uOZQhcA24gd2wDBIOah-ziqR2P_vgxfe
+ dcSsFAvYmIAGpEzC7oxjI_aem_YNbUl43i1FEjbrwH9hxVag\nWindows drift - confirm 
+ with the venue before you go.\nFleeting - the weekly Nashville what-closes
+ -first list.
+URL:https://lovelesscafe.com/product/jam-fest/?fbclid=IwY2xjawTlTrdwZG9mAWV
+ 4dG4DYWVtAjEwAGJyaWQRMU1vVmRrNlJHRDZ0WUFtWnVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4M
+ jAwODkyAAEeHwDXE0uOZQhcA24gd2wDBIOah-ziqR2P_vgxfedcSsFAvYmIAGpEzC7oxjI_aem
+ _YNbUl43i1FEjbrwH9hxVag
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

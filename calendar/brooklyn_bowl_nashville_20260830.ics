@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:brooklyn_bowl_nashville-20260830@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260831T010000Z
+DTEND:20260831T030000Z
+SUMMARY:Fleeting: Eslabon Armado - Amor Nocturno (one night)
+LOCATION:Brooklyn Bowl Nashville\, Germantown
+DESCRIPTION:Regional Mexican's biggest young act brings the Amor Nocturno t
+ our to Brooklyn Bowl - one night\, expect a full house.\nDetails and ticke
+ ts: https://nashvilledowntown.com/event/eslabon-armado-amor-nocturno\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/eslabon-armado-amor-nocturno
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

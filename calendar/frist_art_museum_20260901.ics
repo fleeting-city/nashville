@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:frist_art_museum-20260901@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Last day: 2026 Young Tennessee Artists Exhibition
+LOCATION:Frist Art Museum\, Downtown
+DESCRIPTION:The Frist's annual showcase for emerging Tennessee artists - wo
+ rth a walk-through before the week is out.\nDetails and tickets: https://n
+ ashvilledowntown.com/event/2026-young-tennessee-artists\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://nashvilledowntown.com/event/2026-young-tennessee-artists
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

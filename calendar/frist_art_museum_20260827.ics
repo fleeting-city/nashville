@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:frist_art_museum-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T010000Z
+DTEND:20260828T030000Z
+SUMMARY:Fleeting: PechaKucha Vol. 53: The Dialogue of Space (one night)
+LOCATION:Frist Art Museum\, Downtown
+DESCRIPTION:The fast-format presentation night hits its 53rd volume at the 
+ Frist - creatives riffing on space in 20 slides\, 20 seconds each.\nDetail
+ s and tickets: https://nashvilledowntown.com/event/pechakucha-vol-53-the-d
+ ialogue-of-space\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/pechakucha-vol-53-the-dialogue-of-s
+ pace
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

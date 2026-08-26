@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:woolworth_theatre-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Last day: Shiners
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:A limited theatrical run at the Woolworth - three nights\, then
+  it's gone.\nDetails and tickets: https://nashvilledowntown.com/event/shin
+ ers\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/shiners
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

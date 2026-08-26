@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:mother_s_ruin_upstairs-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T000000Z
+DTEND:20260828T020000Z
+SUMMARY:Fleeting: RE:MIX #2 Presented by Soundtrack My Drink (one night)
+LOCATION:Mother's Ruin (Upstairs)\, Germantown
+DESCRIPTION:Soundtrack My Drink's second curated cocktail concept night tak
+ es over Mother's Ruin upstairs - a drink-forward one-off that won't repeat
+ .\nDetails and tickets: https://www.eventbrite.com/e/remix-2-presented-by-
+ soundtrack-my-drink-tickets-1996458550267?aff=ebdssbdestsearch\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://www.eventbrite.com/e/remix-2-presented-by-soundtrack-my-drink-t
+ ickets-1996458550267?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

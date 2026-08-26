@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:lavergne_fall_festival-20260912@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Fleeting: LaVergne Fall Festival
 LOCATION:La Vergne
-DESCRIPTION:La Vergne's annual fall festival - community-scale\, no-frills\
- , the kind of Saturday that actually feels like fall.\nDetails and tickets
- : https://nashvillelife.com/Old-Timers-Festival-LaVergne-TN\nWindows drift
-  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
- what-closes-first list.
+DESCRIPTION:La Vergne's annual fall festival returns for a Saturday of comm
+ unity food\, music\, and that first-hint-of-fall feeling.\nDetails and tic
+ kets: https://nashvillelife.com/Old-Timers-Festival-LaVergne-TN\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
 URL:https://nashvillelife.com/Old-Timers-Festival-LaVergne-TN
 TRANSP:TRANSPARENT
 END:VEVENT

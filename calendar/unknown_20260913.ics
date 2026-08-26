@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:unknown-20260913@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: CatVideoFest 2026
+LOCATION:Unknown\, Franklin
+DESCRIPTION:The internet's best cat videos curated into a theatrical experi
+ ence - oddly moving\, genuinely fun\, closes mid-September.\nDetails and t
+ ickets: https://visitfranklin.com/events/catvideofest-2026/\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
+URL:https://visitfranklin.com/events/catvideofest-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Nashville window half-life | Fleeting</title>
+<meta name="description" content="How long does a time-limited Nashville window actually stay open? The window half-life by category -- median days-open for concerts, dinners, pop-ups, festivals, limited runs and more, derived from Fleeting's weekly discovery crawl.">
+<link rel="canonical" href="https://nashville.fleeting.city/half-life/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="The Nashville window half-life">
+<meta property="og:description" content="How long a time-limited Nashville window stays open, by category. Median days-open for concerts, dinners, pop-ups, festivals and limited runs -- from Fleeting's crawl record.">
+<meta property="og:url" content="https://nashville.fleeting.city/half-life/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Nashville window half-life">
+<meta name="twitter:description" content="Median days-open by category for Nashville time-limited windows, from Fleeting's crawl record.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Window half-life dataset (EXP-0072 / LAS-314). The DURATION
+  cut over the crawl record -- median days-open by category. Built by
+  scripts/build_half_life.py from every scripts/out/<date>/candidates.json snapshot.
+  Days-open is inclusive stated open->close; only windows with BOTH parseable dates
+  count; categories are keyword-normalized; buckets under n=15 are held back. Every
+  number is machine-derived -- do not hand-edit, edit the builder. Machine-readable
+  dataset alongside: window_half_life.json / .csv. Pull surface only, NO alert promise
+  (F-0009). Dark mission-control theme; skyline resolved via brand/marks.py and
+  referenced (not pasted) from skyline.svg (rules 11/14). First-touch attribution to
+  surface 'half-life' (EXP-0030). Pure-ASCII copy.
+-->
+  <script>  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'half-life'),
+      m:(q.get('utm_medium')||'data'),
+      c:(q.get('utm_campaign')||'exp-0072'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .headline{margin:16px 0 4px;font-size:clamp(14px,2.6vw,16.5px);color:#e9e3d7;
+    border-left:3px solid var(--accent);padding:2px 0 2px 14px;max-width:62ch;}
+  .headline b{color:#fff;}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .chart{margin:28px 0 6px;}
+  .chead{display:flex;align-items:center;gap:10px;}
+  .chead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .chead h2{font-family:'Archivo';font-weight:900;font-size:clamp(16px,4vw,20px);letter-spacing:.03em;color:var(--gold);}
+  .csub{font-size:12.5px;color:var(--muted);margin:5px 0 14px;letter-spacing:.01em;}
+
+  .hrow{margin:0 0 16px;padding:0 0 14px;border-bottom:1px solid var(--line);}
+  .hrow:last-child{border-bottom:none;}
+  .hcat{font-family:'Archivo';font-weight:900;font-size:15.5px;letter-spacing:-.01em;color:var(--cream);
+    display:flex;align-items:baseline;gap:9px;text-transform:capitalize;}
+  .hcat .hn{font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);}
+  .htrack{position:relative;height:26px;margin:8px 0 6px;background:rgba(246,241,231,.05);border-radius:7px;overflow:hidden;}
+  .hbar{position:absolute;left:0;top:0;bottom:0;border-radius:7px;
+    background:linear-gradient(90deg,rgba(230,69,53,.85),rgba(240,180,41,.85));min-width:6px;}
+  .hval{position:absolute;right:10px;top:50%;transform:translateY(-50%);font-family:'Archivo';
+    font-weight:900;font-size:12.5px;color:var(--cream);text-shadow:0 1px 3px rgba(0,0,0,.6);}
+  .hmeta{font-size:11.5px;color:var(--muted);letter-spacing:.01em;}
+
+  .held{font-size:12px;color:var(--muted);font-style:italic;background:rgba(246,241,231,.03);
+    border:1px dashed var(--line);border-radius:12px;padding:12px 15px;margin:6px 0 4px;line-height:1.6;}
+
+  .method{margin:30px 0 6px;padding:18px 20px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .method h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin-bottom:8px;}
+  .method p{font-size:12.8px;color:#cbc5b9;line-height:1.72;}
+  .method b{color:var(--cream);} .method code{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--gold);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The window half-life</div>
+    <h1>How long a Nashville window<br>actually stays open<span class="dot">.</span></h1>
+    <p class="lede">Every week Fleeting logs the time-limited windows opening around Nashville -- and, quietly, when each one closes. This is the cut nobody has run on that record: <b>how long a window actually stays open, by category</b>. The number for each type is its <b>half-life</b> -- the point by which half of them have already closed.</p>
+    <div class="headline">Across 750 Nashville windows with a stated open and close date, the median stays open just <b>1 day</b>. Half of everything we track is gone within a day of opening. The one category you can actually plan around is <b>limited run</b> (half-life 16.5 days); the quickest to vanish are concert &amp; live music-type windows.</div>
+    <div class="asof">Crawl record Jun 25 - Aug 27, 2026 &middot; 1442 windows seen &middot; 750 with a datable open and close</div>
+    <section class="chart">
+      <div class="chead"><span class="dot"></span><h2>MEDIAN DAYS OPEN, BY TYPE</h2></div>
+      <p class="csub">Fastest-closing first. The bar is the half-life; the note below each is the middle-half spread and the share still open after a week.</p>
+      <div class="hrow"><div class="hcat">concert &amp; live music<span class="hn">301 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 6% still open after a week</div></div><div class="hrow"><div class="hcat">special event<span class="hn">106 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 9% still open after a week</div></div><div class="hrow"><div class="hcat">tasting &amp; dinner<span class="hn">103 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 15% still open after a week</div></div><div class="hrow"><div class="hcat">ticketed experience<span class="hn">81 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 15% still open after a week</div></div><div class="hrow"><div class="hcat">pop-up<span class="hn">31 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 34 days &middot; 32% still open after a week</div></div><div class="hrow"><div class="hcat">gallery &amp; exhibition<span class="hn">16 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 13.8 days &middot; 31% still open after a week</div></div><div class="hrow"><div class="hcat">festival<span class="hn">82 windows</span></div><div class="htrack"><div class="hbar" style="width:12%"></div><span class="hval">2 days</span></div><div class="hmeta">middle half 1 day - 3 days &middot; 18% still open after a week</div></div><div class="hrow"><div class="hcat">limited run<span class="hn">30 windows</span></div><div class="htrack"><div class="hbar" style="width:100%"></div><span class="hval">16.5 days</span></div><div class="hmeta">middle half 9 days - 30 days &middot; 80% still open after a week</div></div>
+    </section>
+    <p class="held">Held back for now, under our n=15 sample floor: market (7). These publish once the crawl has seen enough of them to report an honest median.</p>
+    <section class="method">
+      <h2>How this is measured</h2>
+      <p>The source is Fleeting's own weekly discovery crawl -- 9 snapshots between Jun 25 - Aug 27, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears in several weeks. Its <b>days-open</b> is counted inclusively from the date the listing says it opens to the date it says it closes -- a one-night event is 1 day, a run from the 1st to the 10th is 10. We only count a window when its listing carries <b>both</b> a real open and close date; a new opening with no stated end has no half-life, so it is left out rather than guessed. <b>Half-life</b> is the median: half the windows of that type have closed by then. Categories are folded from the listings' own freeform labels into a fixed set by keyword, and any type with fewer than 15 datable windows is held back rather than reported on thin data. Every number here is produced by <code>build_half_life.py</code> from the crawl record -- there are no hand-entered figures. The underlying table is published as <a href="window_half_life.json">JSON</a> and <a href="window_half_life.csv">CSV</a> for anyone who wants to check or cite it. This is a sample of the curated time-limited windows Fleeting tracks, not a census of everything happening in Nashville.</p>
+    </section>
+    <section class="cta">
+      <p><b>Most of these close within a day.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville windows -- the dinners, pop-ups and shows that will be gone by the weekend -- in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
+      <a class="btn" href="/?utm_source=half-life&amp;utm_medium=data&amp;utm_campaign=exp-0072#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Looking for what is open or closing this week? See <a href="/conditions/">the conditions board</a>. Which windows keep coming back? <a href="/recurring/">the recurring board</a>. The full record is in <a href="/archive/">the archive</a>. Built August 26, 2026.</p>
+  </div>
+</body>
+</html>

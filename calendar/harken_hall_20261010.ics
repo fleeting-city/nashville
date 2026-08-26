@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harken_hall-20261010@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Melissa Manchester (one night)
+LOCATION:Harken Hall
+DESCRIPTION:Adult-contemporary icon Melissa Manchester plays an intimate Ha
+ rken Hall date - the rare chance to hear those Carole Bayer Sager-era hits
+  up close.\nDetails and tickets: https://www.harkenhall.com/shows/melissa-
+ manchester-10-oct\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://www.harkenhall.com/shows/melissa-manchester-10-oct
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_business_journal_event-20260916@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Fleeting: Business of Hospitality & Tourism: Key Change - How Luxur
+ y Is Reshaping Music City (one night)
+LOCATION:Nashville Business Journal Event
+DESCRIPTION:Industry panel on how luxury hospitality is remaking Nashville'
+ s identity - useful intel if you're tracking the city's F&B and hotel scen
+ e.\nDetails and tickets: https://www.bizjournals.com/nashville/event/17238
+ 2/2026/nashville-business-breakfast\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.bizjournals.com/nashville/event/172382/2026/nashville-busin
+ ess-breakfast
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

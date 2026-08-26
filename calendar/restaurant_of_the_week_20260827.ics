@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:restaurant_of_the_week-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T000000Z
+DTEND:20260828T020000Z
+SUMMARY:Fleeting: Talent at the Table: Nashville | Benefit for Hope Connect
+ ions for Cancer (one night)
+LOCATION:Restaurant of the Week\, 8th Ave South
+DESCRIPTION:A rotating weekly charity dinner series pairing Nashville talen
+ t with a different restaurant host each week - proceeds go to Hope Connect
+ ions for Cancer.\nDetails and tickets: https://www.eventbrite.com/e/talent
+ -at-the-table-nashville-benefit-for-hope-connections-for-cancer-tickets-19
+ 98468086845?aff=ebdssbdestsearch\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/talent-at-the-table-nashville-benefit-for-
+ hope-connections-for-cancer-tickets-1998468086845?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

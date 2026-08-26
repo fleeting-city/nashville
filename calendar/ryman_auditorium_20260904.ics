@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20260904@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260905T003000Z
+DTEND:20260905T023000Z
+SUMMARY:Fleeting: Ray LaMontagne (one night)
+LOCATION:Ryman Auditorium
+DESCRIPTION:Ray LaMontagne's raspy folk-soul at the Ryman is one of those s
+ hows people talk about for years - get a ticket.\nDetails and tickets: htt
+ ps://nashvillego.com/calendar\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

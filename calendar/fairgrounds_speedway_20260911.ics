@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:fairgrounds_speedway-20260911@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Fleeting: The Nashville Fair (one night)
 LOCATION:Fairgrounds Speedway\, Fairgrounds
-DESCRIPTION:Nashville's annual fair returns to the Fairgrounds - nostalgic 
- bones\, modern spin\, and the kind of food that only exists once a year.\n
- Details and tickets: https://nashvillelife.com/Nashville-Fair/Nashville-Ca
- lendar\nWindows drift - confirm with the venue before you go.\nFleeting - 
- the weekly Nashville what-closes-first list.
+DESCRIPTION:Nashville's classic fair returns to the Fairgrounds with a nost
+ algic-meets-modern spin - rides\, food\, and that particular fairground sm
+ ell.\nDetails and tickets: https://nashvillelife.com/Nashville-Fair/Nashvi
+ lle-Calendar\nWindows drift - confirm with the venue before you go.\nFleet
+ ing - the weekly Nashville what-closes-first list.
 URL:https://nashvillelife.com/Nashville-Fair/Nashville-Calendar
 TRANSP:TRANSPARENT
 END:VEVENT

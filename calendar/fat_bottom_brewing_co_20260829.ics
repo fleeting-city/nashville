@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fat_bottom_brewing_co-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260829T150000Z
+DTEND:20260829T170000Z
+SUMMARY:Fleeting: Fat Bottom's 14th Anniversary (one night)
+LOCATION:Fat Bottom Brewing Co.
+DESCRIPTION:Fat Bottom marks 14 years with a ticketed anniversary party - e
+ xpect limited releases and a crowd that's been there since the early pints
+ .\nDetails and tickets: https://www.eventbrite.com/e/fat-bottoms-14th-anni
+ versary-tickets-1986437189106?aff=ebdssbdestsearch\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://www.eventbrite.com/e/fat-bottoms-14th-anniversary-tickets-19864
+ 37189106?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

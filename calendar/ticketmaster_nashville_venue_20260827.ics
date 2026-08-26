@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ticketmaster_nashville_venue-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:Last day: Harry Styles: Together\, Together
+LOCATION:Ticketmaster (Nashville venue)\, Downtown
+DESCRIPTION:Harry Styles is back in Nashville for two nights - the city wil
+ l be louder than usual midweek.\nDetails and tickets: https://nashvilledow
+ ntown.com/event/harry-styles-together-together\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvilledowntown.com/event/harry-styles-together-together
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

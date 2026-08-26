@@ -7,15 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:nissan_stadium-20260829@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
+DTSTAMP:20260826T111315Z
 DTSTART:20260829T220000Z
 DTEND:20260830T000000Z
-SUMMARY:Fleeting: Titans vs Bears (Preseason) (one night)
+SUMMARY:Fleeting: Titans vs Bears (one night)
 LOCATION:Nissan Stadium\, East Bank
-DESCRIPTION:Last preseason home game before the real thing starts - accessi
- ble tickets and a look at the depth chart.\nDetails and tickets: https://n
- ashvillego.com/calendar\nWindows drift - confirm with the venue before you
-  go.\nFleeting - the weekly Nashville what-closes-first list.
+DESCRIPTION:Preseason finale at Nissan - last chance to see the Titans befo
+ re the real thing starts.\nDetails and tickets: https://nashvillego.com/ca
+ lendar\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
 URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT

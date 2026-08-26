@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marquee_nashville-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260830T030000Z
+DTEND:20260830T050000Z
+SUMMARY:Fleeting: Murder Mystery Burlesque (one night)
+LOCATION:Marquee Nashville\, Downtown
+DESCRIPTION:Late-night whodunit with a burlesque twist - Marquee's brand of
+  weird works best after midnight anyway.\nDetails and tickets: https://nas
+ hvilledowntown.com/event/murder-mystery-burlesque\nWindows drift - confirm
+  with the venue before you go.\nFleeting - the weekly Nashville what-close
+ s-first list.
+URL:https://nashvilledowntown.com/event/murder-mystery-burlesque
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

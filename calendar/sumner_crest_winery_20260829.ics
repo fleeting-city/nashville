@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:sumner_crest_winery-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260829T210000Z
+DTEND:20260829T230000Z
+SUMMARY:Fleeting: Annual Grape Stomp (one night)
+LOCATION:Sumner Crest Winery\, Portland\, TN
+DESCRIPTION:Get your feet purple at Sumner Crest's annual harvest stomp - t
+ he most photogenic way to make wine you'll never actually drink.\nDetails 
+ and tickets: https://nashvillelife.com/Annual-Grape-Stomp/Nashville-Calend
+ ar\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Annual-Grape-Stomp/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

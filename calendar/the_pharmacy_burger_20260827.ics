@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_pharmacy_burger-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:Fleeting: Learn Mahjong with So Bam Fun (one night)
+LOCATION:The Pharmacy Burger\, East Nashville
+DESCRIPTION:Beginner mahjong night at one of Nashville's most beloved burge
+ r joints - tiles and tots\, basically perfect.\nDetails and tickets: https
+ ://nashvillelife.com/Learn-Mahjong-So-Bam-Fun-at-Pharmacy-Burger/Nashville
+ -Calendar\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Learn-Mahjong-So-Bam-Fun-at-Pharmacy-Burger/N
+ ashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

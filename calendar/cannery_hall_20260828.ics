@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cannery_hall-20260828@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260829T010000Z
+DTEND:20260829T030000Z
+SUMMARY:Fleeting: Magic Men Australia (one night)
+LOCATION:Cannery Hall\, Wedgewood-Houston
+DESCRIPTION:Australia's answer to Magic Mike lands at Cannery Hall for a ni
+ ght that will absolutely sell out.\nDetails and tickets: https://nashville
+ go.com/calendar\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -7,18 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:walk_of_fame_park-20260905@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-SUMMARY:Fleeting: Nashville Symphony: An American Mosaic (one night)
+DTSTAMP:20260826T111315Z
+DTSTART:20260906T003000Z
+DTEND:20260906T023000Z
+SUMMARY:Fleeting: American Mosaic: A Free Concert with the Nashville Sympho
+ ny (one night)
 LOCATION:Walk of Fame Park\, Downtown
-DESCRIPTION:Free outdoor symphony concert with Copland\, 4K visuals from al
- l 50 states\, and Gary Sinise narrating - bring a picnic.\nDetails and tic
- kets: https://nashvilledowntown.com/do/american-mosaic-a-free-community-co
- ncert\nWindows drift - confirm with the venue before you go.\nFleeting - t
- he weekly Nashville what-closes-first list.
-URL:https://nashvilledowntown.com/do/american-mosaic-a-free-community-conce
- rt
+DESCRIPTION:Free Nashville Symphony outdoor concert - no ticket\, no excuse
+  not to go.\nDetails and tickets: https://nashvillego.com/calendar\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

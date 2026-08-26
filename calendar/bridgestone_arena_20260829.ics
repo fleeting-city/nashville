@@ -7,16 +7,18 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:bridgestone_arena-20260829@nashville.fleeting.city
-DTSTAMP:20260820T161147Z
-DTSTART:20260830T000000Z
-DTEND:20260830T020000Z
-SUMMARY:Fleeting: Brandi Carlile (one night)
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Fleeting: Brandi Carlile: The Human Tour (one night)
 LOCATION:Bridgestone Arena\, Downtown
-DESCRIPTION:One of the best live acts in Americana scales up to arena level
-  - she earns every square foot of it.\nDetails and tickets: https://nashvi
- llego.com/calendar\nWindows drift - confirm with the venue before you go.\
- nFleeting - the weekly Nashville what-closes-first list.
-URL:https://nashvillego.com/calendar
+DESCRIPTION:Carlile brings her arena-filling emotional wallop to Bridgeston
+ e with Gregory Alan Isakov in tow.\nDetails and tickets: https://www.bridg
+ estonearena.com/events/detail/brandi-carlile-the-human-tour\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
+URL:https://www.bridgestonearena.com/events/detail/brandi-carlile-the-human
+ -tour
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

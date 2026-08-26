@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_blue_room_at_third_man_records-20260827@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260828T030000Z
+DTEND:20260828T050000Z
+SUMMARY:Fleeting: Robert Lester Folsom w/ Corey Parsons (one night)
+LOCATION:The Blue Room at Third Man Records\, Downtown
+DESCRIPTION:A rare Third Man Blue Room show - the cult-favorite songwriter 
+ in one of Nashville's most intimate stages.\nDetails and tickets: https://
+ nashvilledowntown.com/event/robert-lester-folsom-w-and-corey-parsons\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/robert-lester-folsom-w-and-corey-pa
+ rsons
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

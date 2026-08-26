@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:amerigo_italian_restaurant-20260922@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260922T233000Z
+DTEND:20260923T013000Z
+SUMMARY:Fleeting: Italian Wine Dinner at Amerigo Nashville (one night)
+LOCATION:Amerigo Italian Restaurant\, Music Row
+DESCRIPTION:A dedicated Italian wine dinner at Amerigo - regional pours wit
+ h the kitchen focused on one evening of serious pairing.\nDetails and tick
+ ets: https://www.eventbrite.com/e/italian-wine-dinner-at-amerigo-nashville
+ -tickets-1996527296890?aff=ebdssbdestsearch\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://www.eventbrite.com/e/italian-wine-dinner-at-amerigo-nashville-t
+ ickets-1996527296890?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

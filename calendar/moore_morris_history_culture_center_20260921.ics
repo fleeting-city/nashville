@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:moore_morris_history_culture_center-20260921@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Last day: America's 250th Scavenger Hunt
+LOCATION:Moore-Morris History & Culture Center\, Franklin
+DESCRIPTION:Hunt through Franklin's history to mark the nation's 250th - ru
+ ns through late September so the clock is ticking.\nDetails and tickets: h
+ ttps://visitfranklin.com/events/americas-250th-scavenger-hunt-by-the-moore
+ -morris-history-culture-center/\nWindows drift - confirm with the venue be
+ fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://visitfranklin.com/events/americas-250th-scavenger-hunt-by-the-m
+ oore-morris-history-culture-center/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

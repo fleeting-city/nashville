@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_nashville-20270101@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Fleeting: Live On The Green Returns to Downtown Nashville (one nigh
+ t)
+LOCATION:Downtown Nashville\, Downtown
+DESCRIPTION:The beloved free outdoor concert series is back after a four-ye
+ ar hiatus - no dates yet\, but mark 2027 in pencil.\nDetails and tickets: 
+ https://www.bizjournals.com/nashville/news/2026/08/25/live-on-the-green-co
+ ncert-nashville-lightening-100.html\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.bizjournals.com/nashville/news/2026/08/25/live-on-the-green
+ -concert-nashville-lightening-100.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

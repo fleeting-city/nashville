@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20260903@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260904T003000Z
+DTEND:20260904T023000Z
+SUMMARY:Fleeting: Tamar Braxton (one night)
+LOCATION:City Winery
+DESCRIPTION:Tamar Braxton live at City Winery is dinner-and-a-show done rig
+ ht - R&B royalty in a room that fits 300.\nDetails and tickets: https://na
+ shvillego.com/calendar\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:skydeck_on_broadway-20260831@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260901T000000Z
+DTEND:20260901T020000Z
+SUMMARY:Fleeting: Superbad - Monday Movie Nights on Skydeck (one night)
+LOCATION:Skydeck on Broadway\, Downtown
+DESCRIPTION:Superbad on a rooftop to close out the month - a solid reason t
+ o not write off Monday.\nDetails and tickets: https://nashvilledowntown.co
+ m/event/superbad-monday-movie-nights-on-skydeck\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvilledowntown.com/event/superbad-monday-movie-nights-on-sky
+ deck
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

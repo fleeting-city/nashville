@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261109@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20261110T013000Z
+DTEND:20261110T033000Z
+SUMMARY:Fleeting: Concert for Cumberland Heights: A Tribute to John Hiatt (
+ one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Keith Urban\, Rosanne Cash\, Steve Earle\, and Hiatt himself ga
+ ther at the Ryman to honor his catalog and fund Cumberland Heights rehab -
+  stacked lineup for a worthy cause.\nDetails and tickets: https://www.ryma
+ n.com/event/2026-11-09-concert-for-cumberland-heights-at-7-30-pm?utm_campa
+ ign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm_audience=mofu_adva
+ ntage&utm_content=product_cumberland_heights_110926_graphic&utm_id=1202505
+ 94501350679&utm_term=120250594501370679&fbclid=IwY2xjawTmmVNwZG9mAWV4dG4DY
+ WVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHh1qGOlfTLK
+ 0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n1vauWXsi6hFCfL3xgUm
+ aw\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-a
+ t-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm
+ _audience=mofu_advantage&utm_content=product_cumberland_heights_110926_gra
+ phic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjaw
+ TmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIw
+ MDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n
+ 1vauWXsi6hFCfL3xgUmaw
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

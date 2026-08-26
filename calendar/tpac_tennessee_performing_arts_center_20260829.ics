@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tpac_tennessee_performing_arts_center-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260830T000000Z
+DTEND:20260830T020000Z
+SUMMARY:Fleeting: Please Don't Destroy (one night)
+LOCATION:TPAC - Tennessee Performing Arts Center\, Downtown
+DESCRIPTION:The SNL comedy trio makes a rare live stop at TPAC - one night 
+ only for the guys who broke out on Digital Shorts.\nDetails and tickets: h
+ ttps://nashvilledowntown.com/event/please-dont-destroy\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://nashvilledowntown.com/event/please-dont-destroy
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

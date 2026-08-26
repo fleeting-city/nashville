@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:riverfront_park-20260829@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART:20260830T003000Z
+DTEND:20260830T023000Z
+SUMMARY:Fleeting: Nashville Riverboat Docking (one night)
+LOCATION:Riverfront Park\, Downtown
+DESCRIPTION:A riverboat pulls into the Cumberland at Riverfront Park - a ge
+ nuinely rare downtown spectacle that's free to watch.\nDetails and tickets
+ : https://nashvilledowntown.com/event/nashville-riverboat-docking\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://nashvilledowntown.com/event/nashville-riverboat-docking
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

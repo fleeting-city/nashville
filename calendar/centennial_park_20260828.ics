@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20260828@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Fleeting: Musicians Corner Fall Series - Week 1 (one night)
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:The beloved free outdoor concert series flips to fall mode this
+  weekend - first show of the new run.\nDetails and tickets: https://nashvi
+ llelife.com/Musicians-Corner\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Musicians-Corner
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

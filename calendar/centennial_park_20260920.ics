@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20260920@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: A Midsummer Night's Dream
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:Free (donate-what-you-will) outdoor Shakespeare in Centennial P
+ ark - running through late September if you keep missing it.\nDetails and 
+ tickets: https://do615.com/events/2026/8/20/a-midsummer-night-s-dream-tick
+ ets\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/8/20/a-midsummer-night-s-dream-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

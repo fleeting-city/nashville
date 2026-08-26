@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fisher_center_for_the_performing_arts-20261017@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Fleeting: C.S. Lewis on Stage: Further Up and Further On (one night
+ )
+LOCATION:Fisher Center for the Performing Arts
+DESCRIPTION:Actor Max McLean channels Lewis's own words in a one-man stage 
+ presentation at Belmont's Fisher Center.\nDetails and tickets: https://www
+ .thefishercenter.com/2026/06/23/c-s-lewis-on-stage-10-17-26/\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://www.thefishercenter.com/2026/06/23/c-s-lewis-on-stage-10-17-26/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

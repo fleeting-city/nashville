@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_shores_lakeside_resort-20260920@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Nashville Shores Waterpark - Season Close
+LOCATION:Nashville Shores Lakeside Resort
+DESCRIPTION:Last weeks of the waterpark season - closes Sep 20\, so this is
+  your window before it goes dark until next summer.\nDetails and tickets: 
+ https://feverup.com/m/135619\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/135619
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

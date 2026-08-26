@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_ariston-20260918@nashville.fleeting.city
+DTSTAMP:20260826T111315Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Fleeting: The Ariston Hosts a Davidoff Experience (one night)
+LOCATION:The Ariston\, Downtown
+DESCRIPTION:Nashville's premier cigar lounge pairs an exclusive Davidoff ta
+ sting with craft cocktails - the kind of evening where the dress code does
+  some work.\nDetails and tickets: https://nashvillelife.com/Ariston-Hosts-
+ Davidoff-Experience/Nashville-Calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillelife.com/Ariston-Hosts-Davidoff-Experience/Nashville-C
+ alendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
