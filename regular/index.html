@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your neighborhood, first | Fleeting Nashville</title>
+<meta name="description" content="Tell Fleeting which Nashville neighborhood you eat in and get your own cut: your block's here-then-gone windows with what is closing first, plus the local's read on the neighborhood. A pull page for regulars. Free Thursday email.">
+<link rel="canonical" href="https://nashville.fleeting.city/regular/">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Your neighborhood, first">
+<meta property="og:description" content="Declare your Nashville neighborhood and get a regular's cut -- your block's closing windows first, with the insider note. From Fleeting.">
+<meta property="og:url" content="https://nashville.fleeting.city/regular/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your neighborhood, first">
+<meta name="twitter:description" content="Declare your Nashville neighborhood and get a regular's cut -- your block's closing windows first, with the insider note. From Fleeting.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : 'Neighborhood regular' declare + recognition surface
+  (EXP-0079 / LAS-338). Reader declares a home neighborhood (stored CLIENT-SIDE only,
+  reflected in ?hood= for email deep-links) and gets a personalized cut: their block's
+  windows, CLOSINGS FIRST, with the LAS-187 insider note. Neighborhood taxonomy + notes
+  reused from scripts/neighborhoods.py; window data embedded from candidates_today.json,
+  regenerated on every publish -- do not hand-edit; edit the builder. Pull surface only:
+  NO alert promise, NO subscriber-record write, NO send (F-0009). Skyline resolved via
+  brand/marks.py and referenced (not pasted) from /regular/skyline.svg (rules 11/14).
+  Pure-ASCII copy + embedded data.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(26px,5.6vw,40px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  #declare{margin:22px 0 8px;}
+  .dlabel{font-family:'Archivo';font-weight:900;font-size:16px;color:var(--cream);margin:0 0 12px;}
+  .picker{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px;}
+  .pick{display:flex;flex-direction:column;gap:4px;text-align:left;cursor:pointer;
+    background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--gold);border-radius:12px;padding:14px 15px;transition:.14s;}
+  .pick:hover{border-left-color:var(--accent);}
+  .pname{font-family:'Archivo';font-weight:900;font-size:15.5px;color:var(--cream);letter-spacing:-.01em;line-height:1.15;}
+  .pcount{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--gold);}
+
+  .rhead{margin:22px 0 6px;}
+  .badge{display:inline-block;font-family:'Archivo';font-weight:900;font-size:clamp(18px,3.6vw,24px);
+    color:var(--ink);background:linear-gradient(135deg,var(--gold),#f6c95a);border-radius:10px;
+    padding:8px 14px;letter-spacing:-.01em;}
+  .note{margin:12px 0 0;font-size:14px;color:#d8d3c8;line-height:1.55;max-width:60ch;
+    border-left:3px solid var(--accent);padding-left:12px;}
+  .rsub{margin:18px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);padding-top:12px;}
+  .quiet{margin:16px 0 6px;font-size:14px;color:#d8d3c8;line-height:1.6;}
+
+  .cards{margin:12px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px 13px;margin:11px 0;}
+  .card.closing{border-left-color:var(--accent);box-shadow:0 0 0 1px rgba(230,69,53,.18);}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-bottom:8px;
+    color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);}
+  .card.closing .when{color:var(--neon);background:rgba(230,69,53,.14);border-color:rgba(230,69,53,.5);}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .card .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px;}
+  .card .det{font-size:12.5px;font-weight:700;}
+  .card .confirm{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);}
+
+  .change{margin:8px 0 4px;cursor:pointer;font-family:'Inter';font-weight:700;font-size:12.5px;
+    color:var(--muted);background:rgba(246,241,231,.05);border:1px solid var(--line);
+    border-radius:999px;padding:6px 14px;transition:.14s;}
+  .change:hover{color:var(--cream);border-color:var(--accent);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="/regular/skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Neighborhood regular</div>
+    <h1>Tell us your block<span class="dot">.</span> We'll lead with what's closing<span class="dot">.</span></h1>
+    <p class="lede">Fleeting tracks the whole city, but you live in <b>one</b> part of it. Say which, and this page becomes yours: your neighborhood's <b>here-then-gone</b> windows with <b>the closing ones first</b>, and the local's read on the area. Saved right here on your device -- nothing sent, nothing to sign.</p>
+    <div class="asof">Live for <b>Thursday, August 27</b> &middot; 52 windows across 19 neighborhoods</div>
+    <section id="declare">
+      <div class="dlabel">Which neighborhood do you eat in?</div>
+      <div class="picker"><button type="button" class="pick" data-hood="downtown"><span class="pname">Downtown</span><span class="pcount">16 live</span></button><button type="button" class="pick" data-hood="west-end"><span class="pname">West End</span><span class="pcount">8 live</span></button><button type="button" class="pick" data-hood="sobro"><span class="pname">SoBro</span><span class="pcount">5 live</span></button><button type="button" class="pick" data-hood="east-nashville"><span class="pname">East Nashville</span><span class="pcount">4 live</span></button><button type="button" class="pick" data-hood="broadway"><span class="pname">Broadway</span><span class="pcount">3 live</span></button><button type="button" class="pick" data-hood="franklin"><span class="pname">Franklin</span><span class="pcount">2 live</span></button><button type="button" class="pick" data-hood="midtown"><span class="pname">Midtown</span><span class="pcount">2 live</span></button><button type="button" class="pick" data-hood="belle-meade"><span class="pname">Belle Meade</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="capitol-hill-area"><span class="pname">Capitol Hill Area</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="columbia"><span class="pname">Columbia</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="east-bank"><span class="pname">East Bank</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="fairgrounds"><span class="pname">Fairgrounds</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="grassmere"><span class="pname">Grassmere</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="hendersonville"><span class="pname">Hendersonville</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="la-vergne"><span class="pname">La Vergne</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="melrose"><span class="pname">Melrose</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="springfield"><span class="pname">Springfield</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="the-gulch"><span class="pname">The Gulch</span><span class="pcount">1 live</span></button><button type="button" class="pick" data-hood="woodbine"><span class="pname">Woodbine</span><span class="pcount">1 live</span></button></div>
+    </section>
+    <section id="regular" hidden></section>
+    <section class="cta">
+      <p><b>This page does not ping you.</b> It is a pull surface on purpose -- no alerts, no notifications, and your neighborhood is saved only on this device. The way to never find out a day too late is the Thursday list: the week's here-then-gone Nashville windows, in your inbox before they close.</p>
+      <a class="btn" href="/?utm_source=regular&amp;utm_medium=neighborhood&amp;utm_campaign=EXP-0079#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Your neighborhood is remembered only in this browser -- it is never sent anywhere and never changes what lands in your inbox. Want the whole city instead? See <a href="/this-week/">this week by neighborhood</a>, the <a href="/conditions/">conditions board</a> for what is closing city-wide, or the <a href="/archive/">archive</a> of what has already gone.</p>
+  </div>
+  <script>
+  (function(){
+    var HOODS = {"Franklin":{"slug":"franklin","note":"Historic Main Street is the draw; arrive before the dinner rush or park on a cross street and walk in.","windows":[{"title":"37th Annual Steak & Burger Dinner Benefiting Boys & Girls Club of Middle TN","venue":"The Factory at Franklin","cat":"one-off ticketed dinner","blurb":"Annual charity steak-and-burger feed at the Factory - one night only, and proceeds go to the Boys & Girls Club.","url":"https://factoryatfranklin.com/event/37th-annual-steak-burger-dinner-benefiting-boys-girls-club-of-middle-tn/","confirm":false,"when":"Ends today","days_left":0,"closing":true},{"title":"Ballet of Lights: Sleeping Beauty in a Sparkling Show","venue":"The Franklin Theatre","cat":"one-off event","blurb":"Single-night illuminated ballet spectacle at the Franklin Theatre - one date means no second-chance tickets.","url":"https://feverup.com/m/404432","confirm":false,"when":"Through Feb 7","days_left":164,"closing":false}]},"East Nashville":{"slug":"east-nashville","note":"Park once on the side streets off Gallatin or Eastland and walk; the block a spot sits on tells you more than its stars do.","windows":[{"title":"Alicia Blue Album Release","venue":"Skinny Dennis","cat":"one-off special show","blurb":"Alicia Blue drops her debut album live at Skinny Dennis tonight - the kind of room-sized moment that won't repeat.","url":"https://www.bandsintown.com/e/108639916?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event","confirm":false,"when":"Ends today","days_left":0,"closing":true},{"title":"Learn Mahjong with So Bam Fun","venue":"The Pharmacy Burger","cat":"tasting/experience","blurb":"Beginner mahjong night at one of Nashville's most beloved burger spots - tiles and patties, an unlikely combo that somehow makes sense.","url":"https://nashvillelife.com/Learn-Mahjong-So-Bam-Fun-at-Pharmacy-Burger/Nashville-Calendar","confirm":false,"when":"Ends today","days_left":0,"closing":true},{"title":"NASHVILLE Ghosted! by Roz Hernandez LIVE","venue":"The Lipstick Lounge","cat":"special show","blurb":"Roz Hernandez brings her Ghosted! show to The Lipstick Lounge for one night of live comedy storytelling about being left on read.","url":"https://www.eventbrite.com/e/nashville-ghosted-by-roz-hernandez-live-928-tickets-1998695983490?aff=ebdssbdestsearch","confirm":false,"when":"Through Sep 28","days_left":32,"closing":false},{"title":"Fall 2026 - Clothes for a Cause","venue":"1215 Gallatin Ave","cat":"pop-up","blurb":"One-day pop-up clothing sale with a cause attached - East Nashville's version of a guilt-free shopping Saturday.","url":"https://www.eventbrite.com/e/fall-2026-clothes-for-a-cause-tickets-1997566336686?aff=ebdssbdestsearch","confirm":false,"when":"Through Oct 24","days_left":58,"closing":false}]},"The Gulch":{"slug":"the-gulch","note":"Valet-and-rooftop territory; go early or midweek unless you want a wait and a crowd.","windows":[{"title":"WNXP Summer Line Series: Blondshell, Caroline Carter","venue":"131 10th Ave N","cat":"one-off special show","blurb":"WNXP's summer showcase wraps with Blondshell headlining - indie-leaning and presented by TennPop at an outdoor venue.","url":"https://do615.com/events/2026/8/27/wnxp-summer-line-series-presented-by-tennpop-blondshell-tba-tickets","confirm":false,"when":"Ends today","days_left":0,"closing":true}]},"Woodbine":{"slug":"woodbine","note":"","windows":[{"title":"Chromatic & Friends NASHVILLE Pop-Up Show w Special Guests!","venue":"Faeker's Theatre","cat":"special show","blurb":"One-night pop-up at Faeker's with Chromatic and surprise guests - the kind of show that doesn't get a second chance.","url":"https://www.eventbrite.com/e/chromatic-friends-nashville-pop-up-show-w-special-guests-tickets-1996808993452?aff=ebdssbdestsearch","confirm":false,"when":"Ends today","days_left":0,"closing":true}]},"Capitol Hill Area":{"slug":"capitol-hill-area","note":"","windows":[{"title":"Dolly Good Time Benefit for Dolly Parton's Imagination Library of Middle TN","venue":"Nelson's Green Brier Distillery","cat":"ticketed experience","blurb":"One-night benefit at Nelson's Green Brier - good whiskey, good cause, Dolly's name on the marquee.","url":"https://www.eventbrite.com/e/dolly-good-time-benefit-for-dolly-partons-imagination-library-of-middle-tn-tickets-1984650093856?aff=ebdssbdestsearch","confirm":false,"when":"Through Sep 11","days_left":15,"closing":false}]},"Melrose":{"slug":"melrose","note":"","windows":[{"title":"Mott Cha Market | September 2026","venue":"Mott Cha","cat":"market","blurb":"Monthly pop-up market at Melrose's Mott Cha - local makers, matcha, one Saturday only.","url":"https://www.eventbrite.com/e/mott-cha-market-september-2026-tickets-1986032937980?aff=ebdssbdestsearch","confirm":false,"when":"Through Sep 19","days_left":23,"closing":false}]},"Hendersonville":{"slug":"hendersonville","note":"","windows":[{"title":"Pom 615 Middle TN Pop Up: Hendersonville","venue":"Cedarbrook  Smartt Steps","cat":"pop-up","blurb":"Pom 615 takes their Middle TN pop-up series to Hendersonville - one night, limited run.","url":"https://www.eventbrite.com/e/pom-615-middle-tn-pop-up-hendersonville-tickets-1998262339449?aff=ebdssbdestsearch","confirm":false,"when":"Through Oct 6","days_left":40,"closing":false}]},"Downtown":{"slug":"downtown","note":"Skip lower Broadway for food; the spots locals eat are a couple blocks off the honky-tonks.","windows":[{"title":"Masego: Fix Your Face Tour at Ryman Auditorium","venue":"Ryman Auditorium","cat":"special show","blurb":"Masego plays the Ryman tonight with tickets up to 52% off - a rare deal on a sold-out-caliber room.","url":"https://bucketlisters.com/explore/city/NSH","confirm":false,"when":"Ends today","days_left":0,"closing":true},{"title":"Artville","venue":"Walk of Fame Park","cat":"pop-up","blurb":"75 visual artists take over the park across the street from the Country Music Hall of Fame - free, weird, and gone Friday.","url":"https://artville.org/","confirm":false,"when":"2 days left","days_left":2,"closing":true},{"title":"Brandi Carlile: The Human Tour","venue":"Bridgestone Arena","cat":"concert","blurb":"One night only with Gregory Alan Isakov along for the ride - if you slept on tickets, now's the scramble.","url":"https://www.bridgestonearena.com/events/detail/brandi-carlile-the-human-tour","confirm":false,"when":"2 days left","days_left":2,"closing":true},{"title":"Rock the Ryman","venue":"Ryman Auditorium","cat":"concert","blurb":"Second annual country-meets-rock one-nighter with John Oates, Wynonna, Sam Bush, and YOLA on the Mother Church stage.","url":"https://www.ryman.com/event/2026-09-01-rock-the-ryman-at-7-30-pm","confirm":false,"when":"5 days left","days_left":5,"closing":false},{"title":"Nashville Symphony: An American Mosaic","venue":"Walk of Fame Park","cat":"concert","blurb":"Free outdoor symphony with Copland, 4K video from all 50 states, and Gary Sinise narrating - bring a picnic and pretend the tourists aren't there.","url":"https://nashvilledowntown.com/do/american-mosaic-a-free-community-concert","confirm":false,"when":"Through Sep 5","days_left":9,"closing":false},{"title":"Music City Underground","venue":"Bicentennial Mall State Park","cat":"festival","blurb":"Deep Tropics brings a curated global electronic lineup - house, techno, bass - to the open-air mall in a genuinely unexpected Nashville flex.","url":"https://www.deeptropics.org/","confirm":false,"when":"Through Sep 6","days_left":10,"closing":false},{"title":"Mosaic Art Classes Nashville: Turkish Lamp Workshop","venue":"Hampton Inn & Suites Nashville Downtown Capitol View","cat":"workshop","blurb":"Two-day-only hands-on Turkish lamp mosaic workshop - about as niche and time-limited as it gets.","url":"https://feverup.com/m/368448","confirm":false,"when":"Through Sep 13","days_left":17,"closing":false},{"title":"The Ariston Davidoff Experience","venue":"The Ariston","cat":"ticketed experience","blurb":"Nashville's premier cigar lounge pairs Davidoff's lineup with cocktails for an exclusive tasting night - small-room, invitation-energy without the velvet rope attitude.","url":"https://nashvillelife.com/Ariston-Hosts-Davidoff-Experience/Nashville-Calendar","confirm":false,"when":"Through Sep 18","days_left":22,"closing":false},{"title":"Alison Krauss & Union Station","venue":"Ryman Auditorium","cat":"concert","blurb":"Three nights of Krauss and Union Station with Jerry Douglas on resonator - the kind of residency the Ryman was built for.","url":"https://www.ryman.com/event/2026-alison-krauss-union-station","confirm":false,"when":"Through Sep 20","days_left":24,"closing":false},{"title":"Sober October: Nashville Zero Proof Halloween Bar Crawl","venue":"Rippy's Honky Tonk","cat":"ticketed experience","blurb":"A zero-proof Halloween crawl through downtown - costumes encouraged, hangovers optional.","url":"https://www.eventbrite.com/e/sober-october-nashville-zero-proof-halloween-bar-crawl-tickets-1998456812122?aff=ebdssbdestsearch","confirm":false,"when":"Through Oct 10","days_left":44,"closing":false},{"title":"Southern Festival of Books","venue":"Bicentennial Mall State Park","cat":"festival","blurb":"Author talks, literary vendors, and kids' programming spread across the Mall and the State Museum - the best free weekend for readers all year.","url":"https://notesonnashville.com/things-to-do/nashville-calendar","confirm":false,"when":"Through Oct 18","days_left":52,"closing":false},{"title":"Southern Festival of Books 2026","venue":"Bicentennial Mall","cat":"festival","blurb":"175+ authors descend on Bicentennial Mall for panels, signings, and readings - the literary weekend Nashville actually shows up for.","url":"https://nashvillelifestyles.com/nashville-calendar/things-to-do/southern-festival-of-books-announces-initial-lineup-of-award/","confirm":false,"when":"Through Oct 18","days_left":52,"closing":false},{"title":"Jason Isbell Residency","venue":"Ryman Auditorium","cat":"concert","blurb":"Six-night Ryman residency from Nashville's most reliable songwriter - pick your night by opener and go more than once if you can.","url":"https://www.ryman.com/event/2026-jason-isbell","confirm":false,"when":"Through Oct 24","days_left":58,"closing":false},{"title":"The Jury Experience - The Killer AI","venue":"Woolworth Theatre","cat":"immersive experience","blurb":"Interactive courtroom thriller where the audience serves as jurors in an AI murder case - limited four-week run at the Woolworth.","url":"https://feverup.com/m/700943","confirm":false,"when":"Through Nov 1","days_left":66,"closing":false},{"title":"Dwight Yoakam","venue":"Ryman Auditorium","cat":"concert","blurb":"Two nights of honky tonk at the Mother Church from the man who never stopped being cool - tight jeans, Telecaster, no filler.","url":"https://www.ryman.com/event/2026-dwight-yoakam","confirm":false,"when":"Through Nov 5","days_left":70,"closing":false},{"title":"Concert for Cumberland Heights: Riding with the King - A Tribute to John Hiatt","venue":"Ryman Auditorium","cat":"concert","blurb":"Keith Urban, Rosanne Cash, Steve Earle, Rodney Crowell - and John Hiatt himself - raise money for Cumberland Heights in one of Nashville's most star-stacked annual charity shows.","url":"https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-at-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm_audience=mofu_advantage&utm_content=product_cumberland_heights_110926_graphic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjawTmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3R0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n1vauWXsi6hFCfL3xgUmaw","confirm":false,"when":"Through Nov 9","days_left":74,"closing":false}]},"Broadway":{"slug":"broadway","note":"","windows":[{"title":"Candlelight: Halloween Classics","venue":"National Museum of African American Music","cat":"concert","blurb":"One-night Halloween classical concert inside NMAAM - spooky strings in a genuinely significant cultural space.","url":"https://feverup.com/m/636780","confirm":false,"when":"Through Oct 23","days_left":57,"closing":false},{"title":"Candlelight: Tribute to Michael Jackson","venue":"National Museum of African American Music","cat":"concert","blurb":"Single-night candlelit MJ tribute inside NMAAM - the venue alone makes this worth the ticket.","url":"https://feverup.com/m/704983","confirm":false,"when":"Through Oct 23","days_left":57,"closing":false},{"title":"Candlelight: Valentine's Day Special","venue":"National Museum of African American Music","cat":"concert","blurb":"Valentine's Day candlelight concert inside NMAAM - single night, and February 14 books fast.","url":"https://feverup.com/m/674689","confirm":false,"when":"Through Feb 14","days_left":171,"closing":false}]},"West End":{"slug":"west-end","note":"","windows":[{"title":"Musicians Corner Fall Series - Week 1","venue":"Centennial Park","cat":"festival / concert","blurb":"The beloved free outdoor concert series kicks off its fall run in Centennial Park - first week always draws a crowd trying to reclaim summer.","url":"https://nashvillelife.com/Musicians-Corner","confirm":false,"when":"Ends tomorrow","days_left":1,"closing":true},{"title":"Candlelight: A Haunted Evening of Halloween Classics","venue":"The Parthenon","cat":"concert","blurb":"Halloween night classics by candlelight inside Nashville's full-scale Parthenon replica - setting does most of the heavy lifting.","url":"https://feverup.com/m/117171","confirm":false,"when":"Through Oct 25","days_left":59,"closing":false},{"title":"Candlelight: Neo-Soul Favorites ft. Prince, Childish Gambino & More","venue":"Conrad Nashville","cat":"concert","blurb":"Single-night neo-soul candlelight concert on Thanksgiving - a civilized alternative to the couch.","url":"https://feverup.com/m/367030","confirm":false,"when":"Through Nov 28","days_left":93,"closing":false},{"title":"The Jazz Room: A Journey to the Heart of New Orleans","venue":"Hutton Hotel","cat":"ticketed experience","blurb":"Seasonal immersive jazz dining concept at the Hutton running through Thanksgiving - New Orleans atmosphere with a Nashville address.","url":"https://feverup.com/m/618711","confirm":false,"when":"Through Nov 28","days_left":93,"closing":false},{"title":"Candlelight: Christmas Carols on Strings","venue":"Conrad Nashville","cat":"concert","blurb":"String ensemble holiday carols by candlelight at the Conrad - two nights, then gone.","url":"https://feverup.com/m/614139","confirm":false,"when":"Through Dec 20","days_left":115,"closing":false},{"title":"Candlelight: Christmas Classics","venue":"Conrad Nashville","cat":"concert","blurb":"Two-night-only holiday candlelight concert at the Conrad - limited dates mean it will sell before December hits.","url":"https://feverup.com/m/614886","confirm":false,"when":"Through Dec 20","days_left":115,"closing":false},{"title":"Candlelight: Tribute to Fleetwood Mac","venue":"The Parthenon","cat":"concert","blurb":"Seasonal candlelit Fleetwood Mac tribute run at the Parthenon - the venue is genuinely dramatic for this material.","url":"https://feverup.com/m/487993","confirm":false,"when":"Through Dec 27","days_left":122,"closing":false},{"title":"Candlelight: 90s Hip-Hop on Strings","venue":"The Parthenon","cat":"concert","blurb":"String quartet takes on 90s hip-hop inside the Parthenon - a concept that sounds gimmicky until you're actually there.","url":"https://feverup.com/m/656285","confirm":false,"when":"Through Jan 15","days_left":141,"closing":false}]},"Midtown":{"slug":"midtown","note":"Bar-forward and busiest late; the food-first spots are the ones without a line out front.","windows":[{"title":"Shakespeare in the Park: \"A Midsummer Night's Dream\"","venue":"Centennial Park","cat":"performance","blurb":"Nashville Shakes brings its inventive spin to the Bard under the open sky - free, BYOB lawn chair, suggested $20 donation.","url":"https://www.nashvilleshakes.org/shakespeare-in-the-park-1","confirm":false,"when":"Through Sep 20","days_left":24,"closing":false},{"title":"Celebrate Nashville Cultural Festival","venue":"Centennial Park","cat":"festival","blurb":"Free all-day celebration of Nashville's cultural diversity - music, dance, art, and serious eating money required.","url":"https://celebratenashville.org/","confirm":false,"when":"Through Oct 3","days_left":37,"closing":false}]},"SoBro":{"slug":"sobro","note":"Between the arena and the river it swings with the event calendar; a show night is a different world than a Tuesday.","windows":[{"title":"Cast Iron Master Class Lunch at Yolan","venue":"The Joseph / Yolan","cat":"chef collab / dining experience","blurb":"Yolan's Chef de Cuisine leads an immersive cast iron lunch celebrating The Joseph's sixth anniversary - the kind of one-off you'll be name-dropping for months.","url":"https://nashvillelife.com/Cast-Iron-Master-Class-Lunch/Nashville-Calendar","confirm":false,"when":"Ends tomorrow","days_left":1,"closing":true},{"title":"Songwriter Session: Ana Cristina Cash","venue":"Country Music Hall of Fame and Museum","cat":"concert / showcase","blurb":"Nashville-via-Miami singer-songwriter Ana Cristina Cash - yes, those Cashes - brings her eclectic sound to the Hall for a one-off songwriter session.","url":"https://nashvillelife.com/Songwriter-Session-Ana-Cristina-Cash/Nashville-Calendar","confirm":false,"when":"2 days left","days_left":2,"closing":true},{"title":"Malloreddus Pasta Class at Yolan","venue":"Yolan","cat":"chef collab / dining experience","blurb":"Hands-on inside Yolan's kitchen learning Sardinia's gnarly little shell pasta - the kind of class that actually changes how you cook.","url":"https://nashvillelife.com/Malloreddus-Pasta-Class-Lunch/Nashville-Calendar","confirm":false,"when":"Through Sep 4","days_left":8,"closing":false},{"title":"Hatch Show Print Block Party","venue":"Country Music Hall of Fame and Museum","cat":"special show / market","blurb":"The legendary letterpress shop throws its annual block party - hands-on printing, live energy, and the rare chance to get inside the Hatch world.","url":"https://nashvillelife.com/Hatch-Show-Print-Block-Party/Nashville-Calendar","confirm":false,"when":"Through Sep 12","days_left":16,"closing":false},{"title":"Emmylou Harris & Tom Rush (Woofstock)","venue":"City Winery","cat":"concert","blurb":"Emmylou's annual dog-rescue benefit at City Winery - two living legends, a good cause, and an intimate room that makes it feel like a house show.","url":"https://tickets.citywinery.com/event/woofstock-at-the-winery-with-emmylou-harris-tom--u2ngi2?utm_source=facebook&utm_medium=paid&utm_campaign=NSH_092426_Woofstock_Single&utm_id=120225312749100209&utm_content=120250977343870209&utm_term=120250977343880209&fbclid=IwY2xjawS7FVtleHRuA2FlbQEwAGFkaWQBqzeghkCrIXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5GSok7UY_WtK3dYwcKBr4mFuWlXI2EwXEFnOsAkboBoIc_iNjlypEFaX-z3Q_aem_qC3DPoZM9O9yQ3re-1xYMA&campaign_id=120225312749100209&ad_id=120250977343870209","confirm":false,"when":"Through Sep 24","days_left":28,"closing":false}]},"East Bank":{"slug":"east-bank","note":"","windows":[{"title":"Bands of America Regional Championship","venue":"Nissan Stadium","cat":"experience","blurb":"High school marching bands competing at the highest level - legitimately jaw-dropping if you've never seen it; shuttle from the Capitol lot for $20 round-trip.","url":"https://nissanstadium.com/event/bands-of-america/","confirm":false,"when":"Through Oct 31","days_left":65,"closing":false}]},"Columbia":{"slug":"columbia","note":"","windows":[{"title":"Maury County Fair","venue":"","cat":"festival","blurb":"Classic Middle Tennessee county fair week - rides, livestock, fried everything, and the kind of low-tech fun that doesn't require a reservation.","url":"https://nashvillelife.com/Maury-County-Fair/Nashville-Calendar","confirm":false,"when":"Through Sep 7","days_left":11,"closing":false}]},"Fairgrounds":{"slug":"fairgrounds","note":"","windows":[{"title":"The Nashville Fair","venue":"Fairgrounds Speedway","cat":"festival","blurb":"Nashville's own fair returns to the Fairgrounds with its signature mix of nostalgia and modern midway - the local alternative to the state fair circuit.","url":"https://nashvillelife.com/Nashville-Fair/Nashville-Calendar","confirm":false,"when":"Starts Sep 11","days_left":null,"closing":false}]},"La Vergne":{"slug":"la-vergne","note":"","windows":[{"title":"LaVergne Fall Festival","venue":"","cat":"festival","blurb":"La Vergne's annual fall festival - the suburb southeast of Nashville that doesn't get enough credit for putting on a solid community day.","url":"https://nashvillelife.com/Old-Timers-Festival-LaVergne-TN","confirm":false,"when":"Through Sep 12","days_left":16,"closing":false}]},"Grassmere":{"slug":"grassmere","note":"","windows":[{"title":"Sunset Safari","venue":"Nashville Zoo at Grassmere","cat":"ticketed experience","blurb":"The Zoo after dark - animals at dusk, without the school groups, which is the only correct way to do it.","url":"https://nashvillelife.com/Sunset-Safari/Nashville-Calendar","confirm":false,"when":"Through Sep 18","days_left":22,"closing":false}]},"Belle Meade":{"slug":"belle-meade","note":"","windows":[{"title":"Cheekwood Harvest","venue":"Cheekwood Estate & Gardens","cat":"festival","blurb":"Cheekwood's fall festival debuts a new Marigold River installation alongside 100,000 pumpkins and after-dark Harvest NIGHTS - the seasonal anchor event for the west side.","url":"https://nashvillelife.com/Cheekwood-Harvest/Nashville-Calendar-0","confirm":false,"when":"Starts Sep 19","days_left":null,"closing":false}]},"Springfield":{"slug":"springfield","note":"","windows":[{"title":"Robertson County Fair","venue":"","cat":"festival","blurb":"Five days of Robertson County fair week north of Nashville - the real-deal agricultural fair experience before the season closes out.","url":"https://nashvillelife.com/Robertson-County-Fair/Nashville-Calendar","confirm":false,"when":"Through Sep 26","days_left":30,"closing":false}]}};
+    var KEY = 'fleeting_hood';
+    var BYSLUG = {}; for (var name in HOODS){ if(HOODS.hasOwnProperty(name)){ BYSLUG[HOODS[name].slug] = name; } }
+    function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+    function savedSlug(){
+      try{ var q=new URLSearchParams(window.location.search); var h=q.get('hood'); if(h && BYSLUG[h]){ return h; } }catch(e){}
+      try{ var v=localStorage.getItem(KEY); if(v && BYSLUG[v]){ return v; } }catch(e){}
+      return '';
+    }
+    function cardHtml(w){
+      var parts=['<article class="card'+(w.closing?' closing':'')+'">'];
+      parts.push('<span class="when">'+esc(w.when)+'</span>');
+      parts.push('<h3>'+esc(w.title)+'</h3>');
+      var meta=esc(w.venue||'');
+      if(w.cat && w.cat.toLowerCase()!=='null'){ meta = meta ? (meta+' &middot; '+esc(w.cat)) : esc(w.cat); }
+      if(meta){ parts.push('<div class="where">'+meta+'</div>'); }
+      if(w.blurb){ parts.push('<p class="blurb">'+esc(w.blurb)+'</p>'); }
+      var row=[];
+      if(w.url){ row.push('<a class="det" href="'+esc(w.url)+'" target="_blank" rel="noopener">Details &#8594;</a>'); }
+      if(w.confirm){ row.push('<span class="confirm">confirm before you go</span>'); }
+      if(row.length){ parts.push('<div class="meta">'+row.join('')+'</div>'); }
+      parts.push('</article>');
+      return parts.join('');
+    }
+    function render(slug){
+      var name = BYSLUG[slug]; var box=document.getElementById('regular'); if(!name||!box){ return; }
+      var d = HOODS[name]; var ws = d.windows||[];
+      var closing = ws.filter(function(w){ return w.closing; });
+      var head = '<div class="rhead"><div class="badge">You are an '+esc(name)+' regular</div>';
+      if(d.note){ head += '<p class="note">'+esc(d.note)+'</p>'; }
+      head += '</div>';
+      var lead;
+      if(!ws.length){
+        lead = '<p class="quiet">Your block is quiet this week -- nothing here-then-gone in '+esc(name)+' with a date on it right now. That is honest, not a miss. Check back, or see the <a href="/this-week/">whole city this week</a>.</p>';
+        box.innerHTML = head + lead;
+      } else {
+        var intro = closing.length
+          ? '<div class="rsub">Closing first &middot; '+closing.length+' on the clock in '+esc(name)+'</div>'
+          : '<div class="rsub">Nothing closing in the next 72 hours -- here is what is live and coming up in '+esc(name)+'</div>';
+        var cards=''; for(var i=0;i<ws.length;i++){ cards += cardHtml(ws[i]); }
+        box.innerHTML = head + intro + '<div class="cards">'+cards+'</div>'
+          + '<button type="button" class="change" id="change">Change neighborhood</button>';
+      }
+      box.hidden = false;
+      var declare=document.getElementById('declare'); if(declare){ declare.hidden = true; }
+      var ch=document.getElementById('change'); if(ch){ ch.addEventListener('click', function(){ clearChoice(); }); }
+      try{ box.scrollIntoView({behavior:'smooth', block:'start'}); }catch(e){}
+    }
+    function choose(slug){
+      try{ localStorage.setItem(KEY, slug); }catch(e){}
+      try{ var u=new URL(window.location.href); u.searchParams.set('hood', slug); history.replaceState(null,'',u.toString()); }catch(e){}
+      render(slug);
+    }
+    function clearChoice(){
+      try{ localStorage.removeItem(KEY); }catch(e){}
+      try{ var u=new URL(window.location.href); u.searchParams.delete('hood'); history.replaceState(null,'',u.toString()); }catch(e){}
+      var box=document.getElementById('regular'); if(box){ box.hidden=true; box.innerHTML=''; }
+      var declare=document.getElementById('declare'); if(declare){ declare.hidden=false; }
+    }
+    var picks=document.querySelectorAll('.pick');
+    for(var i=0;i<picks.length;i++){ (function(btn){ btn.addEventListener('click', function(){ choose(btn.getAttribute('data-hood')); }); })(picks[i]); }
+    var s=savedSlug(); if(s){ render(s); }
+  })();
+  </script>
+</body>
+</html>
