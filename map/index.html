@@ -93,8 +93,24 @@ function withinR(f){return !radiusMi||!LOC||distF(f)<=radiusMi}
 function inWin(rng){if(!rng)return false;let p=rng.split("-");let a=MON.indexOf(p[0]);let b=MON.indexOf(p[p.length-1]);if(a<0)return false;if(b<a)return curM>=a||curM<=b;return curM>=a&&curM<=b}
 function farmOpen(f){return Object.values(f.w||{}).some(inWin)}
 function daysUntil(s){return Math.ceil((new Date(s+'T00:00:00')-midnight)/864e5)}
-const map=L.map('map',{zoomControl:true,attributionControl:false}).setView([35.95,-86.7],8);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:19}).addTo(map);
+const map=L.map('map',{zoomControl:true,attributionControl:true}).setView([35.95,-86.7],8);
+/* 2026-09-10: CARTO's basemaps went key-only. The tiles still return HTTP 200 --
+   they just arrive stamped "API KEY REQUIRED" diagonally across every one -- so
+   nothing that checks status codes could see the break, and this map had been
+   publishing watermarked tiles hourly, unattended, for weeks. Swapped to the
+   keyless Esri dark canvas the Horace Forests maps already moved to.
+   THREE THINGS THAT FAIL SILENTLY HERE, all verified 2026-09-10:
+     1. Path order is {z}/{y}/{x} on Esri; CARTO was {z}/{x}/{y}. A wrong order
+        ALSO returns 200 with a perfectly valid tile of the WRONG PLACE.
+     2. This layer's deepest real tile is z16. Above that Esri serves a constant
+        2521-byte 'no data' placeholder, so maxNativeZoom must be pinned or deep
+        zooms silently go blank. maxZoom stays 19 so Leaflet upscales instead.
+     3. There is no {s} subdomain and no {r} retina suffix on Esri -- leaving
+        either in yields 404s or a broken URL.
+   Esri's terms require the credit, hence attributionControl:true. */
+const ESRI='https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_LAYER/MapServer/tile/{z}/{y}/{x}';
+L.tileLayer(ESRI.replace('LAYER','Base'),{maxZoom:19,maxNativeZoom:16,attribution:'Tiles &copy; Esri'}).addTo(map);
+L.tileLayer(ESRI.replace('LAYER','Reference'),{maxZoom:19,maxNativeZoom:16}).addTo(map);
 map.createPane('districts'); map.getPane('districts').style.zIndex=350;
 const layer=L.layerGroup().addTo(map), evlayer=L.layerGroup().addTo(map), loclayer=L.layerGroup().addTo(map);
 function farmVisible(f){if(!withinR(f))return false;if(nowOnly&&!farmOpen(f))return false;if(active.size&&!f.cr.some(c=>active.has(c)))return false;return true}
