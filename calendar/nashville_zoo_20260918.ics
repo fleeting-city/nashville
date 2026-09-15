@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_zoo-20260918@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Fleeting: Nashville Zoo Sunset Safari Fundraiser (one night)
+LOCATION:Nashville Zoo
+DESCRIPTION:The Zoo's annual after-hours fundraiser is back - animals at du
+ sk plus the fundraiser-circuit crowd that actually knows how to throw a pa
+ rty.\nDetails and tickets: https://williamsonsource.com/nashville-zoos-sun
+ set-safari-fundraiser-returns-september-18/\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://williamsonsource.com/nashville-zoos-sunset-safari-fundraiser-re
+ turns-september-18/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

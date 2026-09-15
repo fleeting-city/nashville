@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_franklin_theatre-20270207@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Fleeting: Ballet of Lights: Sleeping Beauty in a Sparkling Show (on
+ e night)
+LOCATION:The Franklin Theatre\, Franklin
+DESCRIPTION:One-night illuminated Sleeping Beauty ballet at the historic Fr
+ anklin Theatre - the 4.4 rating and single date make this worth booking ea
+ rly.\nDetails and tickets: https://feverup.com/m/404432\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://feverup.com/m/404432
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

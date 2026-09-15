@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20260927@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last day: Fever Candlelight Concerts
+LOCATION:Centennial Park
+DESCRIPTION:Outdoor candlelit classical concerts in Centennial Park - closi
+ ng out the season at the end of September.\nDetails and tickets: https://d
+ o615.com/events/2026/8/7/fever-candlelight-concerts-tickets\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
+URL:https://do615.com/events/2026/8/7/fever-candlelight-concerts-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

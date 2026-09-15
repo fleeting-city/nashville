@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20260917@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260917T170000Z
+DTEND:20260917T190000Z
+SUMMARY:Fleeting: The Last Waltz: The 50th Anniversary Tour (one night)
+LOCATION:3rd and Lindsley
+DESCRIPTION:Chest Fever - the official Band revival - brings The Last Waltz
+ 's 50th anniversary celebration to 3rd and Lindsley for a rare afternoon p
+ erformance.\nDetails and tickets: https://nashvillego.com/calendar\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

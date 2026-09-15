@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20260920@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Shakespeare in the Park: "A Midsummer Night's Dream"
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:Nashville Shakes brings their signature inventive spin to the B
+ ard under open sky - free\, bring a blanket\, and tip the $20 suggested do
+ nation.\nDetails and tickets: https://www.nashvilleshakes.org/shakespeare-
+ in-the-park-1\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleshakes.org/shakespeare-in-the-park-1
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

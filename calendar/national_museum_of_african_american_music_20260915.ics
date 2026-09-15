@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20260915@nashville.fleeting.c
+ ity
+DTSTAMP:20260915T200721Z
+DTSTART:20260916T000000Z
+DTEND:20260916T020000Z
+SUMMARY:Fleeting: Shared Roots: NMAAM Welcomes AMERICANAFEST 2026 (one nigh
+ t)
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:NMAAM hosts an AMERICANAFEST crossover event tracing the Black 
+ roots of American music - a rare programming overlap worth the pre-show de
+ tour.\nDetails and tickets: https://nashvilledowntown.com/event/shared-roo
+ ts-nmaam-welcomes-americanafest-2026\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/shared-roots-nmaam-welcomes-america
+ nafest-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

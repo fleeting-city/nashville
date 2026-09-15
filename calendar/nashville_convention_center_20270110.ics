@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_convention_center-20270110@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Last day: Antiques & Garden Show of Nashville
+LOCATION:Nashville Convention Center
+DESCRIPTION:The beloved antiques and garden fair returns for its winter run
+  - mark the calendar now before hotel rooms disappear.\nDetails and ticket
+ s: https://nashvillelifestyles.com/nashville-calendar/things-to-do/antique
+ s-garden-show-of-nashville-returns-january-8%E2%80%9310-2027/\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/antique
+ s-garden-show-of-nashville-returns-january-8%E2%80%9310-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

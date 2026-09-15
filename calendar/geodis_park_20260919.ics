@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:geodis_park-20260919@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260920T013000Z
+DTEND:20260920T033000Z
+SUMMARY:Fleeting: Nashville Soccer Club vs. Chicago Fire FC (one night)
+LOCATION:Geodis Park\, Wedgewood-Houston
+DESCRIPTION:NSC under the lights at Geodis in a late-season MLS matchup - t
+ he atmosphere at this stadium still punches above its market.\nDetails and
+  tickets: https://patch.com/tennessee/nashville/calendar/event/20260919/0a
+ 421fe7-47e4-4436-bb7a-3c8224e5e1f1/nashville-soccer-club-vs-chicago-fire-f
+ c\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20260919/0a421fe7-
+ 47e4-4436-bb7a-3c8224e5e1f1/nashville-soccer-club-vs-chicago-fire-fc
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

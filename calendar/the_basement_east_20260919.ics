@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20260919@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260919T190000Z
+DTEND:20260919T210000Z
+SUMMARY:Fleeting: AmericanaFest: Free Show - Eddie Slide & His Cowtown Doze
+ n (one night)
+LOCATION:The Basement East
+DESCRIPTION:Free AmericanaFest afternoon with Chuck Mead\, Rosemary Fossee\
+ , Sweet Megg\, and more - no ticket required.\nDetails and tickets: https:
+ //do615.com/events/2026/9/19/free-show-eddie-slide-his-cowtown-dozen-at-am
+ ericanafest-w-special-guests-chuck-mead-rosemary-fossee-sweet-megg-and-aus
+ ti-ticket\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/9/19/free-show-eddie-slide-his-cowtown-do
+ zen-at-americanafest-w-special-guests-chuck-mead-rosemary-fossee-sweet-meg
+ g-and-austi-ticket
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

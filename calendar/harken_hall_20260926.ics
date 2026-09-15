@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harken_hall-20260926@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Fleeting: Asleep at the Wheel with Emily Nenni (one night)
+LOCATION:Harken Hall
+DESCRIPTION:The gold standard of Texas swing\, with rising honky-tonk voice
+  Emily Nenni as special guest - Western-wear optional but encouraged.\nDet
+ ails and tickets: https://www.harkenhall.com/shows/asleep-at-the-wheel-wit
+ h-emily-nenni-26-sep\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.harkenhall.com/shows/asleep-at-the-wheel-with-emily-nenni-2
+ 6-sep
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

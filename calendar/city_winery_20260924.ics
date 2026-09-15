@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20260924@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Fleeting: Emmylou Harris & Tom Rush - Woofstock (one night)
+LOCATION:City Winery\, Wedgewood-Houston
+DESCRIPTION:Emmylou's annual dog-charity concert with Tom Rush - it's Woofs
+ tock\, and it always sells.\nDetails and tickets: https://tickets.citywine
+ ry.com/event/woofstock-at-the-winery-with-emmylou-harris-tom--u2ngi2?utm_s
+ ource=facebook&utm_medium=paid&utm_campaign=NSH_092426_Woofstock_Single&ut
+ m_id=120225312749100209&utm_content=120250977343870209&utm_term=1202509773
+ 43880209&fbclid=IwY2xjawS7FVtleHRuA2FlbQEwAGFkaWQBqzeghkCrIXNydGMGYXBwX2lk
+ EDIyMjAzOTE3ODgyMDA4OTIAAR5GSok7UY_WtK3dYwcKBr4mFuWlXI2EwXEFnOsAkboBoIc_iN
+ jlypEFaX-z3Q_aem_qC3DPoZM9O9yQ3re-1xYMA&campaign_id=120225312749100209&ad_
+ id=120250977343870209\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://tickets.citywinery.com/event/woofstock-at-the-winery-with-emmyl
+ ou-harris-tom--u2ngi2?utm_source=facebook&utm_medium=paid&utm_campaign=NSH
+ _092426_Woofstock_Single&utm_id=120225312749100209&utm_content=12025097734
+ 3870209&utm_term=120250977343880209&fbclid=IwY2xjawS7FVtleHRuA2FlbQEwAGFka
+ WQBqzeghkCrIXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5GSok7UY_WtK3dYwcKBr4
+ mFuWlXI2EwXEFnOsAkboBoIc_iNjlypEFaX-z3Q_aem_qC3DPoZM9O9yQ3re-1xYMA&campaig
+ n_id=120225312749100209&ad_id=120250977343870209
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

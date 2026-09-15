@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:black_river_entertainment-20260919@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Fleeting: Studios & Stories: Supporting Dolly Parton's Imagination 
+ Library (one night)
+LOCATION:Black River Entertainment
+DESCRIPTION:Black River Entertainment's inaugural Studios & Stories event r
+ aises money for Dolly's Imagination Library - industry access with a chari
+ table hook.\nDetails and tickets: https://nashvillelife.com/Studios-Storie
+ s-Supporting-Dolly-Parton%E2%80%99s-Imagination-Library/Nashville-Calendar
+ \nWindows drift - confirm with the venue before you go.\nFleeting - the we
+ ekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Studios-Stories-Supporting-Dolly-Parton%E2%80
+ %99s-Imagination-Library/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

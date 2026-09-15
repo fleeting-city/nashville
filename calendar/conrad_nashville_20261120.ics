@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:conrad_nashville-20261120@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Candlelight: Tribute to Adele (one night)
+LOCATION:Conrad Nashville\, West End
+DESCRIPTION:Single-date Adele candlelight set at the Conrad - the hotel roo
+ m acoustics make this format work better than it has any right to.\nDetail
+ s and tickets: https://feverup.com/m/470454\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://feverup.com/m/470454
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

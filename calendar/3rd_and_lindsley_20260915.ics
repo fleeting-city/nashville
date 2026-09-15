@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20260915@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260916T040000Z
+DTEND:20260916T060000Z
+SUMMARY:Fleeting: AMERICANAFEST 2026 feat. Amy Grant\, Melissa Etheridge\, 
+ Maggie Rose & more (one night)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:AMERICANAFEST lands at 3rd and Lindsley with a stacked bill - A
+ my Grant\, Melissa Etheridge\, Maggie Rose\, Aubrie Sellers\, and Olivia W
+ olf on one stage.\nDetails and tickets: https://nashvilledowntown.com/even
+ t/americanafest-2026-feat-olivia-wolf--aubrie-sellers--amy-grant--maggie-r
+ ose-and-melissa-etheridge\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/americanafest-2026-feat-olivia-wolf
+ --aubrie-sellers--amy-grant--maggie-rose-and-melissa-etheridge
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:schermerhorn_symphony_center-20260915@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260916T003000Z
+DTEND:20260916T023000Z
+SUMMARY:Fleeting: Renee Fleming with Bela Fleck: The Fiddle and the Drum (o
+ ne night)
+LOCATION:Schermerhorn Symphony Center\, SoBro
+DESCRIPTION:Opera icon Renee Fleming and banjo legend Bela Fleck share a st
+ age at Schermerhorn - a classical-meets-bluegrass collision that won't hap
+ pen twice.\nDetails and tickets: https://nashvillego.com/calendar\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

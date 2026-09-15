@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20260924@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Fleeting: Harvest NIGHTS at Cheekwood (one night)
+LOCATION:Cheekwood Estate & Gardens\, Belle Meade
+DESCRIPTION:Cheekwood Harvest after dark - illuminated scarecrows and pumpk
+ ins on Thursday nights make this the grown-up version of fall festival sea
+ son.\nDetails and tickets: https://nashvillelife.com/Harvest-NIGHTS-at-Che
+ ekwood/Nashville-Calendar\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Harvest-NIGHTS-at-Cheekwood/Nashville-Calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

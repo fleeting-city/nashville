@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:stateside_kitchen-20260919@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260919T150000Z
+DTEND:20260919T170000Z
+SUMMARY:Fleeting: Brunch N Blitz (one night)
+LOCATION:Stateside Kitchen\, Downtown
+DESCRIPTION:A brunch event at Stateside Kitchen timed around the soccer mat
+ ch - eat well before the Geodis crowd descends.\nDetails and tickets: http
+ s://patch.com/tennessee/nashville/calendar/event/20260919/6d9d2147-408c-45
+ df-af42-d916d3e1633d/brunch-n-blitz\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20260919/6d9d2147-
+ 408c-45df-af42-d916d3e1633d/brunch-n-blitz
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

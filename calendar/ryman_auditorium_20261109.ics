@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261109@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Fleeting: Concert for Cumberland Heights: Riding with the King - A 
+ Tribute to John Hiatt (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Keith Urban\, Rosanne Cash\, Steve Earle\, and John Hiatt himse
+ lf for a one-night benefit at the Mother Church - stacked.\nDetails and ti
+ ckets: https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heigh
+ ts-at-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb
+ &utm_audience=mofu_advantage&utm_content=product_cumberland_heights_110926
+ _graphic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2
+ xjawTmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4
+ ODIwMDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_a
+ em_n1vauWXsi6hFCfL3xgUmaw\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-a
+ t-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm
+ _audience=mofu_advantage&utm_content=product_cumberland_heights_110926_gra
+ phic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjaw
+ TmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIw
+ MDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n
+ 1vauWXsi6hFCfL3xgUmaw
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:lupo_notte-20260916@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Fleeting: Lupo Notte Opening (one night)
+LOCATION:Lupo Notte\, Green Hills
+DESCRIPTION:Italian newcomer Lupo Notte drops into Vertis Green Hills on Se
+ ptember 16 - the neighborhood's most anticipated table of the fall.\nDetai
+ ls and tickets: https://whatnow.com/nashville/restaurants/lupo-notte-to-op
+ en-september-16-at-vertis-green-hills/\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://whatnow.com/nashville/restaurants/lupo-notte-to-open-september-
+ 16-at-vertis-green-hills/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

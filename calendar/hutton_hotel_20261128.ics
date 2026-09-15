@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:hutton_hotel-20261128@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Fleeting: The Jazz Room: A Journey to the Heart of New Orleans (one
+  night)
+LOCATION:Hutton Hotel\, West End
+DESCRIPTION:A one-night New Orleans jazz immersion on Thanksgiving at the H
+ utton - the 4.6-star rating says this crowd knows what it's doing.\nDetail
+ s and tickets: https://feverup.com/m/618711\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://feverup.com/m/618711
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

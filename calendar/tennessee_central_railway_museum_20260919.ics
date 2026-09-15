@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tennessee_central_railway_museum-20260919@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Fleeting: Train Robbery Excursion (one night)
+LOCATION:Tennessee Central Railway Museum
+DESCRIPTION:The Mackle and Wilson gangs ride again - a theatrical train rob
+ bery excursion that's exactly as fun as it sounds.\nDetails and tickets: h
+ ttps://nashvillelife.com/Train-Robbery-Excursion-Train-Watertown/Nashville
+ -Calendar\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Train-Robbery-Excursion-Train-Watertown/Nashv
+ ille-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

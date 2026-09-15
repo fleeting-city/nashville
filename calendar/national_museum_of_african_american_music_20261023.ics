@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20261023@nashville.fleeting.c
+ ity
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Fleeting: Candlelight: Halloween Classics (one night)
+LOCATION:National Museum of African American Music\, Broadway
+DESCRIPTION:Spooky string arrangements for Halloween night inside NMAAM - o
+ ne date only\, so it will sell.\nDetails and tickets: https://feverup.com/
+ m/636780\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/636780
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

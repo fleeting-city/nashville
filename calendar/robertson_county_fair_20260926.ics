@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:robertson_county_fair-20260926@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Last day: Robertson County Fair
+LOCATION:Robertson County
+DESCRIPTION:A full week of county fair - the kind of thing that still has t
+ ractor pulls and pie competitions\, not a corporate food festival.\nDetail
+ s and tickets: https://nashvillelife.com/Robertson-County-Fair/Nashville-C
+ alendar\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Robertson-County-Fair/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:breeden_s_orchard-20260919@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260919T140000Z
+DTEND:20260919T160000Z
+SUMMARY:Fleeting: Apple Celebration at Breeden's Orchard (one night)
+LOCATION:Breeden's Orchard\, Mt. Juliet
+DESCRIPTION:Pick-your-own apple season hits its stride at this Mt. Juliet o
+ rchard - a rare legit farm experience within easy striking distance of Nas
+ hville.\nDetails and tickets: https://patch.com/tennessee/nashville/calend
+ ar/event/20260919/bb0f8924-c13c-4773-a58c-0c225e1da0d6/apple-celebration-a
+ t-breedens-orchard\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20260919/bb0f8924-
+ c13c-4773-a58c-0c225e1da0d6/apple-celebration-at-breedens-orchard
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

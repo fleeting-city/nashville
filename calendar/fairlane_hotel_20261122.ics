@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fairlane_hotel-20261122@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Last day: 7 Paintings Immersive Dinner
+LOCATION:Fairlane Hotel\, Downtown
+DESCRIPTION:Art-meets-dining immersive experience at Fairlane - $149/head f
+ or a Friday/Saturday/Sunday limited-seat dinner.\nDetails and tickets: htt
+ ps://do615.com/events/weekly/fri/7-paintings-immersive-dinner-tickets\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://do615.com/events/weekly/fri/7-paintings-immersive-dinner-ticket
+ s
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

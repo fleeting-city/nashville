@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_pinnacle-20260916@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260917T000000Z
+DTEND:20260917T020000Z
+SUMMARY:Fleeting: Taking Back Sunday with Thrice & Saves The Day (one night
+ )
+LOCATION:The Pinnacle
+DESCRIPTION:Three emo/post-hardcore pillars on one bill - the triple-header
+  that mid-2000s you always wanted.\nDetails and tickets: https://nashville
+ go.com/calendar\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

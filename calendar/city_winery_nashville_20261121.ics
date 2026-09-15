@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery_nashville-20261121@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Fleeting: The Boy Band Brunch at City Winery Nashville (one night)
+LOCATION:City Winery Nashville
+DESCRIPTION:A single-date boy-band-soundtracked brunch at City Winery - exc
+ lusively ticketed and likely to sell.\nDetails and tickets: https://bucket
+ listers.com/explore/city/NSH\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

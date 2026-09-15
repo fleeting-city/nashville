@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20260917@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260918T000000Z
+DTEND:20260918T020000Z
+SUMMARY:Fleeting: AmericanaFest: Shakey Graves\, Houndmouth\, The Brook & T
+ he Bluff + more (one night)
+LOCATION:The Basement East
+DESCRIPTION:Deep AmericanaFest lineup - Shakey Graves\, Houndmouth\, Langho
+ rne Slim\, Futurebirds\, Abraham Alexander\, and The Brook & The Bluff all
+  on one bill.\nDetails and tickets: https://do615.com/events/2026/9/17/ame
+ ricanafest-aubory-bugg-abraham-alexander-langhorne-slim-futurebirds-shakey
+ -graves-the-brook-the-bluff-houndmouth-tickets\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://do615.com/events/2026/9/17/americanafest-aubory-bugg-abraham-al
+ exander-langhorne-slim-futurebirds-shakey-graves-the-brook-the-bluff-hound
+ mouth-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

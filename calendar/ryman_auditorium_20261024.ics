@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261024@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Last day: Jason Isbell Residency
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Six nights\, different openers each show - Isbell at the Ryman 
+ is always a marquee moment.\nDetails and tickets: https://www.ryman.com/ev
+ ent/2026-jason-isbell\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-jason-isbell
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:w_nashville-20260927@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last day: Coastal Hour at Bar Mar
+LOCATION:W Nashville
+DESCRIPTION:W Nashville's Bar Mar is running a coastal-themed happy hour on
+  weeknights - last call on the concept is Sep 27.\nDetails and tickets: ht
+ tps://do615.com/events/2026/7/17/coastal-hour-at-bar-mar-tickets\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://do615.com/events/2026/7/17/coastal-hour-at-bar-mar-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

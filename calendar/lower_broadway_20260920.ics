@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:lower_broadway-20260920@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Fleeting: Tootsie's Orchid Lounge 66th Birthday Block Party (one ni
+ ght)
+LOCATION:Lower Broadway\, Downtown
+DESCRIPTION:Brantley Gilbert\, Randy Houser\, Montgomery Gentry\, and more 
+ shut down Lower Broadway for Tootsie's 66th - free\, rowdy\, and very on-b
+ rand.\nDetails and tickets: https://www.instagram.com/p/Dci_M2kBjPz/\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://www.instagram.com/p/Dci_M2kBjPz/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

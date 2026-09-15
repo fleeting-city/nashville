@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_thompsons_kitchen-20261001@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Fleeting: The Thompsons Kitchen Lunch Reopening (one night)
+LOCATION:The Thompsons Kitchen
+DESCRIPTION:This Fairview Southern-fusion spot is bringing lunch back in Oc
+ tober - worth a heads-up if you've been waiting on a midday visit.\nDetail
+ s and tickets: https://www.exploretock.com/the-thompsons-kitchen-fairview?
+ tock_source=tock&tock_medium=city_page&tock_content=carousel-The%20Thompso
+ ns%20Kitchen\nWindows drift - confirm with the venue before you go.\nFleet
+ ing - the weekly Nashville what-closes-first list.
+URL:https://www.exploretock.com/the-thompsons-kitchen-fairview?tock_source=
+ tock&tock_medium=city_page&tock_content=carousel-The%20Thompsons%20Kitchen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:noelle-20261031@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Impractical Magic at Hidden Bar
+LOCATION:Noelle
+DESCRIPTION:A magic-themed pop-up bar tucked inside Noelle running all fall
+  - cocktails with a trick up their sleeve.\nDetails and tickets: https://d
+ o615.com/events/2026/9/2/impractical-magic-at-hidden-bar-tickets\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://do615.com/events/2026/9/2/impractical-magic-at-hidden-bar-ticke
+ ts
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20260918@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260919T000000Z
+DTEND:20260919T020000Z
+SUMMARY:Fleeting: AmericanaFest: Wynonna Judd & Friends ft. Avi Kaplan (one
+  night)
+LOCATION:The Basement East
+DESCRIPTION:Wynonna headlining a friends-and-collaborators AmericanaFest se
+ t - the kind of one-night bill that doesn't repeat.\nDetails and tickets: 
+ https://do615.com/events/2026/9/18/americanafest-wyonna-judd-friends-ft-av
+ i-kaplan-tickets\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/9/18/americanafest-wyonna-judd-friends-ft
+ -avi-kaplan-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

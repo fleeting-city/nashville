@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ascend_amphitheater-20260918@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART:20260919T010000Z
+DTEND:20260919T030000Z
+SUMMARY:Fleeting: Shaboozey with Noeline Hofmann (one night)
+LOCATION:Ascend Amphitheater\, Downtown
+DESCRIPTION:Country's hottest crossover act headlines Ascend for one night 
+ - one of the most in-demand tickets of the fall given his breakout run.\nD
+ etails and tickets: https://nashvillego.com/calendar\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

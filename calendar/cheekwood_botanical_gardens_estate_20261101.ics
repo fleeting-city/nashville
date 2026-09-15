@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_botanical_gardens_estate-20261101@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Common Ground: The Hainsworth Collection in Conversation 
+ with Cheekwood's Permanent Collection
+LOCATION:Cheekwood Botanical Gardens & Estate
+DESCRIPTION:A private collection in dialogue with Cheekwood's own holdings 
+ - a rare curatorial pairing worth the estate grounds alone.\nDetails and t
+ ickets: https://cheekwood.org/calendar-events/common-ground-the-hainsworth
+ -collection-in-conversation-with-cheekwoods-permanent-collection/\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://cheekwood.org/calendar-events/common-ground-the-hainsworth-coll
+ ection-in-conversation-with-cheekwoods-permanent-collection/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

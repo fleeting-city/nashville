@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:woolworth_theatre-20260918@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Last day: Shiners Stage Show
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:A limited four-night engagement at the historic Woolworth Theat
+ re - catch the Shiners Stage Show before it closes out the week.\nDetails 
+ and tickets: https://nashvillego.com/calendar\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

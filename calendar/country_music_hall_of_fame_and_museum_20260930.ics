@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20260930@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Last day: Dolly Parton: Journey of a Seeker
+LOCATION:Country Music Hall of Fame and Museum\, Downtown
+DESCRIPTION:The Dolly retrospective at CMHOF closes at the end of the month
+  - last call if you haven't made it.\nDetails and tickets: https://do615.c
+ om/events/2025/5/22/dolly-parton-journey-of-a-seeker-tickets\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://do615.com/events/2025/5/22/dolly-parton-journey-of-a-seeker-tic
+ kets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

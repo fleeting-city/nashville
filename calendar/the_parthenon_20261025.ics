@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20261025@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Fleeting: Candlelight: A Haunted Evening of Halloween Classics (one
+  night)
+LOCATION:The Parthenon\, West End
+DESCRIPTION:Single-night Halloween candlelight concert inside the Parthenon
+  - the Greek temple backdrop goes full haunted house.\nDetails and tickets
+ : https://feverup.com/m/117171\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/117171
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

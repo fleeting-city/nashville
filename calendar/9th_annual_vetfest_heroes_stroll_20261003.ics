@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:9th_annual_vetfest_heroes_stroll-20261003@nashville.fleeting.city
+DTSTAMP:20260915T200721Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Fleeting: 9th Annual VETFEST & Heroes Stroll
+LOCATION:Brentwood
+DESCRIPTION:VetLinx's annual outdoor celebration honoring local veterans re
+ turns to Brentwood for its ninth year.\nDetails and tickets: https://willi
+ amsonsource.com/honor-local-heroes-the-9th-annual-vetfest-heroes-stroll-re
+ turns-to-brentwood/\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/honor-local-heroes-the-9th-annual-vetfest-
+ heroes-stroll-returns-to-brentwood/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
