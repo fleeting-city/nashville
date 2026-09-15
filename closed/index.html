@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Closed Nashville windows, newest first | Fleeting Nashville</title>
+<meta name="description" content="Every time-limited Nashville window Fleeting tracked that has already closed -- pop-ups, one-night menus and limited runs -- each with its own page and its stated end date. Newest first. Get the free Thursday list and catch the next one.">
+<link rel="canonical" href="https://nashville.fleeting.city/closed/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0e0d10">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Every closed Nashville window, newest first">
+<meta property="og:description" content="Every time-limited Nashville window Fleeting tracked that has already closed -- pop-ups, one-night menus and limited runs -- each with its own page and its stated end date. Newest first. Get the free Thursday list and catch the next one.">
+<meta property="og:url" content="https://nashville.fleeting.city/closed/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Every closed Nashville window, newest first">
+<meta name="twitter:description" content="Every time-limited Nashville window Fleeting tracked that has already closed -- pop-ups, one-night menus and limited runs -- each with its own page and its stated end date. Newest first. Get the free Thursday list and catch the next one.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : /closed/ hub (EXP-0088 / LAS-361, hub added 2026-09-15).
+  Every genuinely-closed time-limited window, newest first, each linking its own
+  permalink page. Built by scripts/build_window_pages.py from the same closed set
+  as the pages and /archive/. Regenerated on every publish -- do not hand-edit;
+  edit the builder. Skyline referenced from /closed/skyline.svg (canon rules
+  11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:640px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:126px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:94px;}}
+  .status{display:inline-block;font-family:'Inter';font-weight:700;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;border-radius:999px;padding:4px 12px;margin:16px 0 0;
+    color:var(--accent);background:rgba(230,69,53,.12);border:1px solid rgba(230,69,53,.4);}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.06;
+    font-size:clamp(26px,5.6vw,38px);margin:10px 0 8px;}
+  h1 .dot{color:var(--accent);}
+  .verdict{color:#cfc9bd;font-size:clamp(15px,2.8vw,18px);max-width:60ch;margin:2px 0 4px;}
+  .verdict b{color:var(--cream);}
+  .facts{margin:20px 0 6px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:4px 0;}
+  .facts .row{display:flex;gap:14px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px;}
+  .facts .row:last-child{border-bottom:none;}
+  .facts .k{flex:0 0 120px;color:var(--muted);font-weight:700;letter-spacing:.03em;text-transform:uppercase;font-size:11px;padding-top:2px;}
+  .facts .v{color:var(--cream);}
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:24px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .links{margin:22px 0 4px;font-size:12.5px;color:var(--muted);line-height:2;border-top:1px solid var(--line);padding-top:14px;}
+  .links .llabel{display:block;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--gold);
+    font-size:11px;margin-bottom:6px;}
+  .links a{display:inline-block;margin:0 8px 6px 0;font-weight:700;color:var(--cream);
+    background:rgba(246,241,231,.05);border:1px solid var(--line);border-radius:999px;padding:4px 11px;}
+  .links a:hover{text-decoration:none;border-color:var(--accent);}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:62ch;}
+  .lede b{color:var(--cream);}
+  .asof{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0 6px;font-size:12px;
+    font-weight:700;letter-spacing:.03em;color:var(--muted);text-transform:uppercase;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+  .month{margin-top:26px;}
+  .month h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--cream);border-bottom:1px solid var(--line);padding-bottom:8px;}
+  .month h2 .tag{font-size:11px;font-weight:500;color:var(--muted);font-family:'Inter';letter-spacing:0;
+    text-transform:none;margin-left:8px;}
+  .entry{display:block;padding:13px 2px;border-bottom:1px solid var(--line);}
+  .entry:hover{text-decoration:none;}
+  .entry:hover .ename{text-decoration:underline;}
+  .entry .ename{display:block;font-family:'Archivo';font-weight:700;font-size:16px;color:var(--cream);
+    letter-spacing:-.01em;line-height:1.2;}
+  .entry .ewhat{display:block;font-size:13px;color:var(--muted);margin-top:3px;}
+  .entry .eclosed{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--accent);margin-top:6px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/archive/">&#8592; The closed archive</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="/closed/skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The record, one page per window</div>
+    <h1>Every closed Nashville window<span class="dot">.</span></h1>
+    <p class="lede">Each time-limited window we tracked whose stated end date has passed gets its own page: what it was, where, and the day it closed. Newest first. <b>Nothing on this list is still open</b>, and nothing is invented.</p>
+    <div class="asof"><b>275</b> closed windows &middot; most recent closed <b>September 14, 2026</b></div>
+    <section class="cta">
+      <p><b>Do not find out a day too late.</b> Fleeting is the free Thursday email on Nashville pop-ups, one-night menus and limited runs -- the here-then-gone windows, in your inbox while there is still time to go.</p>
+      <a class="btn" href="/?utm_source=closed&amp;utm_medium=hub&amp;utm_campaign=index#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <div class="list">
+      <section class="month">
+        <h2>September 2026 <span class="tag">53 windows closed</span></h2>
+        <a class="entry" href="/closed/ticketmaster-arena-venue/"><span class="ename">Disney On Ice presents Find Your Hero</span><span class="ewhat">Event at Ticketmaster / (arena venue)</span><time class="eclosed" datetime="2026-09-14">Closed Sep 14, 2026</time></a>
+        <a class="entry" href="/closed/gray-dudley/"><span class="ename">Bourbon &amp; Bites at Gray &amp; Dudley</span><span class="ewhat">Pop-up at Gray &amp; Dudley in Downtown</span><time class="eclosed" datetime="2026-09-14">Closed Sep 14, 2026</time></a>
+        <a class="entry" href="/closed/simmons-bank-open-venue/"><span class="ename">Simmons Bank Open - Free Admission Days</span><span class="ewhat">Event at Simmons Bank Open venue in Franklin</span><time class="eclosed" datetime="2026-09-13">Closed Sep 13, 2026</time></a>
+        <a class="entry" href="/closed/pnc-plaza/"><span class="ename">Ryman Sidewalk Sessions with Butter &amp; Grit</span><span class="ewhat">Event at PNC Plaza in Downtown</span><time class="eclosed" datetime="2026-09-13">Closed Sep 13, 2026</time></a>
+        <a class="entry" href="/closed/hampton-inn-suites-nashville-downtown-capitol-vi/"><span class="ename">Mosaic Art Classes Nashville: Turkish Lamp Workshop</span><span class="ewhat">Event at Hampton Inn &amp; Suites Nashville Downtown Capitol View in Capitol View</span><time class="eclosed" datetime="2026-09-13">Closed Sep 13, 2026</time></a>
+        <a class="entry" href="/closed/franklin-flea-market/"><span class="ename">Franklin Flea Market</span><span class="ewhat">Limited-time in Franklin</span><time class="eclosed" datetime="2026-09-13">Closed Sep 13, 2026</time></a>
+        <a class="entry" href="/closed/assembly-food-hall/"><span class="ename">BLNK CNVS Presents: Slander</span><span class="ewhat">Event at Assembly Food Hall in Downtown</span><time class="eclosed" datetime="2026-09-13">Closed Sep 13, 2026</time></a>
+        <a class="entry" href="/closed/snitch/"><span class="ename">Soundcheck at Snitch: Brooks &amp; Dunn</span><span class="ewhat">Event at Snitch in Printers Alley</span><time class="eclosed" datetime="2026-09-12">Closed Sep 12, 2026</time></a>
+        <a class="entry" href="/closed/403-4th-s-ave/"><span class="ename">September Wine Tasting: Harvest Along the Coast</span><span class="ewhat">Event at 403 4th S Ave in Sobro</span><time class="eclosed" datetime="2026-09-12">Closed Sep 12, 2026</time></a>
+        <a class="entry" href="/closed/september-wine-tasting-harvest-along-the-coast/"><span class="ename">September Wine Tasting - Harvest Along the Coast</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-12">Closed Sep 12, 2026</time></a>
+        <a class="entry" href="/closed/lavergne-fall-festival/"><span class="ename">LaVergne Fall Festival</span><span class="ewhat">Event in La Vergne</span><time class="eclosed" datetime="2026-09-12">Closed Sep 12, 2026</time></a>
+        <a class="entry" href="/closed/the-mulehouse/"><span class="ename">Edgar Allan Poe Speakeasy: Chapter Two</span><span class="ewhat">Limited-time at The Mulehouse</span><time class="eclosed" datetime="2026-09-12">Closed Sep 12, 2026</time></a>
+        <a class="entry" href="/closed/jojo-s-joint/"><span class="ename">Tojo at Jojo's</span><span class="ewhat">Event at Jojo's Joint</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/franklin/"><span class="ename">Franklin 25th Anniversary 9/11 Tribute</span><span class="ewhat">Event at Franklin in Franklin</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/franklin-location-tbd/"><span class="ename">Franklin 25th Anniversary 9/11 Tribute</span><span class="ewhat">Event at Franklin (location TBD) in Franklin</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/city-of-franklin/"><span class="ename">Franklin 25th Anniversary 9/11 Tribute</span><span class="ewhat">Event at City of Franklin in Franklin</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/emo-night-brooklyn/"><span class="ename">Emo Night Brooklyn</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/row-one-at-cannery-hall/"><span class="ename">Emo Night Brooklyn</span><span class="ewhat">Event at Row One at Cannery Hall in Wedgewood-Houston</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/nelson-s-green-brier-distillery/"><span class="ename">Dolly Good Time Benefit for Dolly Parton's Imagination Library of Middle TN</span><span class="ewhat">Event at Nelson's Green Brier Distillery</span><time class="eclosed" datetime="2026-09-11">Closed Sep 11, 2026</time></a>
+        <a class="entry" href="/closed/hourglass-aesthetics-wellness/"><span class="ename">Grand Opening - Hourglass Aesthetics &amp; Wellness</span><span class="ewhat">Limited-time at Hourglass Aesthetics &amp; Wellness</span><time class="eclosed" datetime="2026-09-10">Closed Sep 10, 2026</time></a>
+        <a class="entry" href="/closed/nashville-municipal-auditorium/"><span class="ename">The Kehlani World Tour: North America</span><span class="ewhat">Event at Nashville Municipal Auditorium in Downtown</span><time class="eclosed" datetime="2026-09-08">Closed Sep 8, 2026</time></a>
+        <a class="entry" href="/closed/multiple-locations/"><span class="ename">Tennessee Farmers Market Trail</span><span class="ewhat">Limited-time at Multiple locations</span><time class="eclosed" datetime="2026-09-08">Closed Sep 8, 2026</time></a>
+        <a class="entry" href="/closed/greys-fine-cheeses/"><span class="ename">Greys Fine Cheeses - $2 Off All Roses</span><span class="ewhat">Menu item at Greys Fine Cheeses</span><time class="eclosed" datetime="2026-09-08">Closed Sep 8, 2026</time></a>
+        <a class="entry" href="/closed/five-points-pizza-gulch/"><span class="ename">Five Points Pizza Celebrates 15 Years with Free Slice Night</span><span class="ewhat">Pop-up at Five Points Pizza Gulch in The Gulch</span><time class="eclosed" datetime="2026-09-08">Closed Sep 8, 2026</time></a>
+        <a class="entry" href="/closed/nashville-symphony-free-labor-day-concert/"><span class="ename">Nashville Symphony Free Labor Day Concert</span><span class="ewhat">Event in Nashville</span><time class="eclosed" datetime="2026-09-07">Closed Sep 7, 2026</time></a>
+        <a class="entry" href="/closed/maury-county-fair/"><span class="ename">Maury County Fair</span><span class="ewhat">Event in Columbia</span><time class="eclosed" datetime="2026-09-07">Closed Sep 7, 2026</time></a>
+        <a class="entry" href="/closed/ticketmaster-nashville/"><span class="ename">Weird Al Yankovic</span><span class="ewhat">Event at Ticketmaster (Nashville)</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/ticketmaster/"><span class="ename">Weird Al Yankovic</span><span class="ewhat">Limited-time at Ticketmaster</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/sprouts-farmers-market-broadway-block-party-voll/"><span class="ename">Sprouts Farmers Market Broadway Block Party (Volleyball)</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/sprouts-farmers-market-broadway-block-party/"><span class="ename">Sprouts Farmers Market Broadway Block Party</span><span class="ewhat">Event in Downtown</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/stateside-kitchen/"><span class="ename">One Last Chance to Wear White - Brunch &amp; Beats</span><span class="ewhat">Event at Stateside Kitchen</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/nashville-shores-waterpark/"><span class="ename">Nashville Shores Labor Day Fireworks</span><span class="ewhat">Event at Nashville Shores Waterpark in Hermitage</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/nashville-dance-festival-volume-4/"><span class="ename">Nashville Dance Festival - Volume 4</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/nashville-dance-festival/"><span class="ename">Nashville Dance Festival</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/nashville-dance-fest-volume-4/"><span class="ename">Nashville Dance Fest - Volume 4</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/bicentennial-mall-state-park/"><span class="ename">Music City Underground</span><span class="ewhat">Event at Bicentennial Mall State Park in Downtown</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/the-joseph-a-luxury-collection-hotel/"><span class="ename">La Corsa: The Monza Weekend at The Joseph</span><span class="ewhat">Event at The Joseph, a Luxury Collection Hotel in Downtown</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/zanies/"><span class="ename">Jay Pharoah</span><span class="ewhat">Event at Zanies in West End</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/bicentennial-capitol-mall-state-park/"><span class="ename">Deep Tropics Festival</span><span class="ewhat">Event at Bicentennial Capitol Mall State Park in Downtown</span><time class="eclosed" datetime="2026-09-06">Closed Sep 6, 2026</time></a>
+        <a class="entry" href="/closed/garage-sale-bar/"><span class="ename">Jarren Blair, Minnie Desolene, and Carver Jones - Big Garage Sale</span><span class="ewhat">Pop-up at Garage Sale Bar in East Nashville</span><time class="eclosed" datetime="2026-09-05">Closed Sep 5, 2026</time></a>
+        <a class="entry" href="/closed/white-hall/"><span class="ename">Creator + Community Day by Shop Black Fest Nashville: Creator Edition</span><span class="ewhat">Event at White Hall in Inglewood</span><time class="eclosed" datetime="2026-09-05">Closed Sep 5, 2026</time></a>
+        <a class="entry" href="/closed/whiskey-river-saloon/"><span class="ename">CHEAT CODES</span><span class="ewhat">Event at Whiskey River Saloon</span><time class="eclosed" datetime="2026-09-05">Closed Sep 5, 2026</time></a>
+        <a class="entry" href="/closed/broadway-rave/"><span class="ename">Broadway Rave</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-05">Closed Sep 5, 2026</time></a>
+        <a class="entry" href="/closed/cannery-row/"><span class="ename">Broadway Rave</span><span class="ewhat">Event at Cannery Row in Wedgewood-Houston</span><time class="eclosed" datetime="2026-09-05">Closed Sep 5, 2026</time></a>
+        <a class="entry" href="/closed/3rd-lindsley-bar-grill/"><span class="ename">Wendy Moten</span><span class="ewhat">Event at 3rd &amp; Lindsley Bar &amp; Grill</span><time class="eclosed" datetime="2026-09-04">Closed Sep 4, 2026</time></a>
+        <a class="entry" href="/closed/l-a-jackson/"><span class="ename">TIKI THURSDAY PARTY</span><span class="ewhat">Event at L.A. Jackson in Downtown</span><time class="eclosed" datetime="2026-09-04">Closed Sep 4, 2026</time></a>
+        <a class="entry" href="/closed/403-4th-ave-s/"><span class="ename">Malloreddus Pasta Class + Lunch</span><span class="ewhat">Event at 403 4th Ave S in Sobro</span><time class="eclosed" datetime="2026-09-04">Closed Sep 4, 2026</time></a>
+        <a class="entry" href="/closed/the-joseph/"><span class="ename">La Corsa: The Monza Weekend at The Joseph</span><span class="ewhat">Event at The Joseph in Sobro</span><time class="eclosed" datetime="2026-09-04">Closed Sep 4, 2026</time></a>
+        <a class="entry" href="/closed/conrad-nashville/"><span class="ename">Candlelight: Tribute to Michael Jackson</span><span class="ewhat">Event at Conrad Nashville in West End</span><time class="eclosed" datetime="2026-09-04">Closed Sep 4, 2026</time></a>
+        <a class="entry" href="/closed/minus-the-bear-menos-el-oso-20th-anniversary-tou/"><span class="ename">Minus the Bear: Menos el Oso 20th Anniversary Tour</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-09-02">Closed Sep 2, 2026</time></a>
+        <a class="entry" href="/closed/basement-east/"><span class="ename">Ben Chapman's Peach Jam featuring Nicholas Jamerson, Tenille Townes &amp; more</span><span class="ewhat">Event at Basement East in East Nashville</span><time class="eclosed" datetime="2026-09-02">Closed Sep 2, 2026</time></a>
+        <a class="entry" href="/closed/ticketmaster-arena-show/"><span class="ename">The R&amp;B Tour: Usher Raymond &amp; Chris Brown</span><span class="ewhat">Event at Ticketmaster (arena show)</span><time class="eclosed" datetime="2026-09-01">Closed Sep 1, 2026</time></a>
+        <a class="entry" href="/closed/grand-hyatt-nashville/"><span class="ename">Book Your Rooftop Cabana</span><span class="ewhat">Seasonal at Grand Hyatt Nashville in Downtown</span><time class="eclosed" datetime="2026-09-01">Closed Sep 1, 2026</time></a>
+      </section>
+      <section class="month">
+        <h2>August 2026 <span class="tag">134 windows closed</span></h2>
+        <a class="entry" href="/closed/bode/"><span class="ename">Side B Summer Pop-Up</span><span class="ewhat">Pop-up at Bode in Downtown</span><time class="eclosed" datetime="2026-08-31">Closed Aug 31, 2026</time></a>
+        <a class="entry" href="/closed/voices-of-resilience-launch/"><span class="ename">Voices of Resilience Launch</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-30">Closed Aug 30, 2026</time></a>
+        <a class="entry" href="/closed/the-r-b-tour-usher-raymond-chris-brown/"><span class="ename">The R&amp;B Tour - Usher Raymond &amp; Chris Brown</span><span class="ewhat">Event in Downtown</span><time class="eclosed" datetime="2026-08-29">Closed Aug 29, 2026</time></a>
+        <a class="entry" href="/closed/tpac-tennessee-performing-arts-center/"><span class="ename">Please Don't Destroy</span><span class="ewhat">Event at TPAC - Tennessee Performing Arts Center in Downtown</span><time class="eclosed" datetime="2026-08-29">Closed Aug 29, 2026</time></a>
+        <a class="entry" href="/closed/fat-bottom-brewing-co/"><span class="ename">Fat Bottom's 14th Anniversary</span><span class="ewhat">Event at Fat Bottom Brewing Co.</span><time class="eclosed" datetime="2026-08-29">Closed Aug 29, 2026</time></a>
+        <a class="entry" href="/closed/sumner-crest-winery/"><span class="ename">Annual Grape Stomp at Sumner Crest Winery</span><span class="ewhat">Seasonal at Sumner Crest Winery in Portland, Tn</span><time class="eclosed" datetime="2026-08-29">Closed Aug 29, 2026</time></a>
+        <a class="entry" href="/closed/the-fairgrounds-nashville/"><span class="ename">Nashville Handmade, Food &amp; Indie Brands Market 2026</span><span class="ewhat">Limited-time at The Fairgrounds Nashville</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/nashville-centennial-park/"><span class="ename">Musicians Corner Fall Series - Week 1</span><span class="ewhat">Event at Nashville Centennial Park in Midtown</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/music-under-the-stars-final-show/"><span class="ename">Music Under the Stars - Final Show</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/music-under-the-stars-final-date/"><span class="ename">Music Under the Stars - Final Date</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/the-green-light-bar/"><span class="ename">JMC PreGame Party: Blue Out</span><span class="ewhat">Event at The Green Light Bar in Edgehill</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/yolan-the-joseph/"><span class="ename">Cast Iron Master Class Lunch at Yolan</span><span class="ewhat">Limited-time at Yolan / The Joseph in Downtown</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/the-joseph-yolan/"><span class="ename">Cast Iron Master Class Lunch - The Joseph's Sixth Iron Anniversary</span><span class="ewhat">Event at The Joseph (Yolan) in Downtown</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/yolan-at-the-joseph/"><span class="ename">Cast Iron Master Class Lunch - The Joseph's 6th Iron Anniversary</span><span class="ewhat">Limited-time at Yolan at The Joseph in Downtown</span><time class="eclosed" datetime="2026-08-28">Closed Aug 28, 2026</time></a>
+        <a class="entry" href="/closed/mother-s-ruin-upstairs/"><span class="ename">RE:MIX #2 Presented by Soundtrack My Drink</span><span class="ewhat">Pop-up at Mother's Ruin (Upstairs) in Germantown</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/the-pharmacy-burger/"><span class="ename">Learn Mahjong with So Bam Fun at The Pharmacy Burger</span><span class="ewhat">Event at The Pharmacy Burger in East Nashville</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/the-pharmacy-burger-parlor-beer-garden/"><span class="ename">Learn Mahjong with So Bam Fun at The Pharmacy Burger</span><span class="ewhat">Event at The Pharmacy Burger Parlor &amp; Beer Garden in East Nashville</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/harry-styles-together-together/"><span class="ename">Harry Styles: Together, Together</span><span class="ewhat">Event in Downtown</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/berry-hill/"><span class="ename">Chromatic &amp; Friends MYSTERY Pop-Up Show</span><span class="ewhat">Pop-up at Berry Hill in South Nashville</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/benson-boone-wanted-man-tour/"><span class="ename">Benson Boone: Wanted Man Tour</span><span class="ewhat">Event in Downtown</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/ticketmaster-nashville-venue/"><span class="ename">Benson Boone: Wanted Man Tour</span><span class="ewhat">Event at Ticketmaster (Nashville venue) in Downtown</span><time class="eclosed" datetime="2026-08-27">Closed Aug 27, 2026</time></a>
+        <a class="entry" href="/closed/profs-pints-nature-s-hidden-logic-evolution-natu/"><span class="ename">Profs &amp; Pints: Nature's Hidden Logic (Evolution &amp; Natural Selection)</span><span class="ewhat">Limited-time</span><time class="eclosed" datetime="2026-08-26">Closed Aug 26, 2026</time></a>
+        <a class="entry" href="/closed/profs-pints-nature-s-hidden-logic/"><span class="ename">Profs &amp; Pints: Nature's Hidden Logic</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-26">Closed Aug 26, 2026</time></a>
+        <a class="entry" href="/closed/panera-bread/"><span class="ename">Panera Bread Grand Opening - Springfield</span><span class="ewhat">Limited-time at Panera Bread in Springfield</span><time class="eclosed" datetime="2026-08-26">Closed Aug 26, 2026</time></a>
+        <a class="entry" href="/closed/3420-tom-austin-hwy/"><span class="ename">Panera Bread Grand Opening - Springfield</span><span class="ewhat">Limited-time at 3420 Tom Austin Hwy</span><time class="eclosed" datetime="2026-08-26">Closed Aug 26, 2026</time></a>
+        <a class="entry" href="/closed/church-street-park/"><span class="ename">National Dog Day at Church Street Park</span><span class="ewhat">Event at Church Street Park in Downtown</span><time class="eclosed" datetime="2026-08-26">Closed Aug 26, 2026</time></a>
+        <a class="entry" href="/closed/3rd-lindsley-bar-and-grill/"><span class="ename">Sessions on 3rd featuring Jerry Roe, Mark Hill, Danny Rader with Special Guest Rhett Akins + Jerry Flowers</span><span class="ewhat">Event at 3rd &amp; Lindsley Bar and Grill in Sobro</span><time class="eclosed" datetime="2026-08-25">Closed Aug 25, 2026</time></a>
+        <a class="entry" href="/closed/skydeck-on-broadway/"><span class="ename">Legally Blonde - Monday Movie Nights on Skydeck</span><span class="ewhat">Limited-time at Skydeck on Broadway in Downtown</span><time class="eclosed" datetime="2026-08-24">Closed Aug 24, 2026</time></a>
+        <a class="entry" href="/closed/franklin-marriott-cool-springs/"><span class="ename">Big Table: Eats Around the World Fundraiser Dinner</span><span class="ewhat">Event at Franklin Marriott Cool Springs in Cool Springs</span><time class="eclosed" datetime="2026-08-24">Closed Aug 24, 2026</time></a>
+        <a class="entry" href="/closed/mel-s-drive-in-nashville/"><span class="ename">World Champion Hawks 12-Stop Nashville Bar Crawl Challenge</span><span class="ewhat">Pop-up at Mel's Drive-In Nashville</span><time class="eclosed" datetime="2026-08-23">Closed Aug 23, 2026</time></a>
+        <a class="entry" href="/closed/chatham-hills-the-club-at-chatham-hills/"><span class="ename">LIV Golf Indianapolis 2026 - Hospitality</span><span class="ewhat">Event at Chatham Hills (The Club at Chatham Hills)</span><time class="eclosed" datetime="2026-08-23">Closed Aug 23, 2026</time></a>
+        <a class="entry" href="/closed/tennessee-state-fairgrounds/"><span class="ename">Wilson County-Tennessee State Fair</span><span class="ewhat">Event at Tennessee State Fairgrounds</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/farm-bureau-expo-center/"><span class="ename">Wilson County Fair / Tennessee State Fair</span><span class="ewhat">Event at Farm Bureau Expo Center</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/james-e-ward-agricultural-center/"><span class="ename">Tennessee State Fair</span><span class="ewhat">Event at James E. Ward Agricultural Center in Lebanon</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/necat-network/"><span class="ename">Live Studio Audience Taping of Stand Up &amp; Laugh with Anna Manis</span><span class="ewhat">Event at NECAT Network</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/analog-at-hutton-hotel/"><span class="ename">Katie Lynne Sharbaugh at Analog at Hutton Hotel</span><span class="ewhat">Event at Analog at Hutton Hotel in Midtown</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/the-bowery-vault/"><span class="ename">Fall in Full - A Night of ALTernative with Aaron Friend &amp; Jonny Lucas</span><span class="ewhat">Event at The Bowery Vault in Downtown Nashville</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/defy-film-festival/"><span class="ename">Defy Film Festival</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/elks-lodge-1102/"><span class="ename">Annual All White Affair - Elks Lodge #1102</span><span class="ewhat">Event at Elks Lodge #1102</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/music-city-walk-of-fame-park/"><span class="ename">25th Annual Music City Brewers Fest 2026</span><span class="ewhat">Event at Music City Walk of Fame Park in Downtown</span><time class="eclosed" datetime="2026-08-22">Closed Aug 22, 2026</time></a>
+        <a class="entry" href="/closed/the-parthenon/"><span class="ename">Candlelight: 90s Unplugged</span><span class="ewhat">Event at The Parthenon in West End</span><time class="eclosed" datetime="2026-08-21">Closed Aug 21, 2026</time></a>
+        <a class="entry" href="/closed/breeden-s-orchard/"><span class="ename">Writers Round at Breeden's Orchard</span><span class="ewhat">Event at Breeden's Orchard in Mt. Juliet</span><time class="eclosed" datetime="2026-08-20">Closed Aug 20, 2026</time></a>
+        <a class="entry" href="/closed/the-blue-room-at-third-man-records/"><span class="ename">Tipsy Teachings Lecture Series</span><span class="ewhat">Limited-time at The Blue Room at Third Man Records in Downtown</span><time class="eclosed" datetime="2026-08-20">Closed Aug 20, 2026</time></a>
+        <a class="entry" href="/closed/nashville-is-a-comedy-town-secret-show/"><span class="ename">Nashville Is A Comedy Town - Secret Show</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-20">Closed Aug 20, 2026</time></a>
+        <a class="entry" href="/closed/undisclosed/"><span class="ename">Nashville Is A Comedy Town (Secret Show)</span><span class="ewhat">Event at undisclosed</span><time class="eclosed" datetime="2026-08-20">Closed Aug 20, 2026</time></a>
+        <a class="entry" href="/closed/movies-under-the-giant-guitar-dirty-dancing/"><span class="ename">Movies Under the Giant Guitar - Dirty Dancing</span><span class="ewhat">Event in Wedgewood-Houston</span><time class="eclosed" datetime="2026-08-20">Closed Aug 20, 2026</time></a>
+        <a class="entry" href="/closed/southall-january-restaurant/"><span class="ename">January at Southall x The Chastain Sustainable Seven-Course Dinner</span><span class="ewhat">Event at Southall (January restaurant)</span><time class="eclosed" datetime="2026-08-20">Closed Aug 20, 2026</time></a>
+        <a class="entry" href="/closed/the-station-inn/"><span class="ename">Songs &amp; Stories with Larry Cordle and Friends</span><span class="ewhat">Event at The Station Inn in Downtown</span><time class="eclosed" datetime="2026-08-19">Closed Aug 19, 2026</time></a>
+        <a class="entry" href="/closed/miel/"><span class="ename">Miel Harvest Dinner</span><span class="ewhat">Event at Miel</span><time class="eclosed" datetime="2026-08-19">Closed Aug 19, 2026</time></a>
+        <a class="entry" href="/closed/1-kitchen/"><span class="ename">Foodies + New Friends: Nashville | Giving Back Edition</span><span class="ewhat">Event at 1 Kitchen</span><time class="eclosed" datetime="2026-08-19">Closed Aug 19, 2026</time></a>
+        <a class="entry" href="/closed/back-2-the-video-store-a-90s-speakeasy-bar-nashv/"><span class="ename">Back 2 The Video Store: A 90s Speakeasy Bar - Nashville</span><span class="ewhat">Pop-up</span><time class="eclosed" datetime="2026-08-19">Closed Aug 19, 2026</time></a>
+        <a class="entry" href="/closed/the-hampton-social/"><span class="ename">ABBA Sing-A-Long Dinner Party</span><span class="ewhat">Event at The Hampton Social</span><time class="eclosed" datetime="2026-08-19">Closed Aug 19, 2026</time></a>
+        <a class="entry" href="/closed/on-the-same-page-a-father-daughter-s-artistic-jo/"><span class="ename">'On The Same Page: A Father &amp; Daughter's Artistic Journey' - Michael Shane Neal &amp; Mattie Ree Neal</span><span class="ewhat">Limited-time</span><time class="eclosed" datetime="2026-08-19">Closed Aug 19, 2026</time></a>
+        <a class="entry" href="/closed/slow-burn-bookshop/"><span class="ename">Romantasy Junk Journaling Night at Slow Burn Bookshop</span><span class="ewhat">Event at Slow Burn Bookshop</span><time class="eclosed" datetime="2026-08-18">Closed Aug 18, 2026</time></a>
+        <a class="entry" href="/closed/rivers-of-tennessee-fountain/"><span class="ename">Germantown Food and Sightseeing Walking Tour</span><span class="ewhat">Limited-time at Rivers of Tennessee Fountain in Germantown</span><time class="eclosed" datetime="2026-08-18">Closed Aug 18, 2026</time></a>
+        <a class="entry" href="/closed/face-foundrie-belle-meade/"><span class="ename">FACE FOUNDRIE Belle Meade Grand Opening</span><span class="ewhat">Limited-time at FACE FOUNDRIE Belle Meade in Belle Meade</span><time class="eclosed" datetime="2026-08-18">Closed Aug 18, 2026</time></a>
+        <a class="entry" href="/closed/bluebird-cafe/"><span class="ename">BMI Acoustic Lounge</span><span class="ewhat">Event at Bluebird Cafe in Green Hills</span><time class="eclosed" datetime="2026-08-18">Closed Aug 18, 2026</time></a>
+        <a class="entry" href="/closed/first-horizon-park/"><span class="ename">Batting Practice Experience</span><span class="ewhat">Event at First Horizon Park in Downtown</span><time class="eclosed" datetime="2026-08-18">Closed Aug 18, 2026</time></a>
+        <a class="entry" href="/closed/goodfellas-pizzeria/"><span class="ename">Angel's Envy Cask Strength Rye Tasting at Wiseguy Lounge</span><span class="ewhat">Event at Goodfellas Pizzeria</span><time class="eclosed" datetime="2026-08-18">Closed Aug 18, 2026</time></a>
+        <a class="entry" href="/closed/bridgestone-arena-walk-of-fame-park/"><span class="ename">PBR Nashville Stampede Days</span><span class="ewhat">Event at Bridgestone Arena / Walk of Fame Park</span><time class="eclosed" datetime="2026-08-16">Closed Aug 16, 2026</time></a>
+        <a class="entry" href="/closed/category-10/"><span class="ename">Nashville Rep presents Broadway Brunch</span><span class="ewhat">Event at Category 10 in Downtown</span><time class="eclosed" datetime="2026-08-16">Closed Aug 16, 2026</time></a>
+        <a class="entry" href="/closed/witts-barbeque/"><span class="ename">Witts Barbeque Springfield Closing - Final Service</span><span class="ewhat">Closure at Witts Barbeque in Springfield</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/williamson-county-fairgrounds/"><span class="ename">Williamson County Fair 2026</span><span class="ewhat">Event at Williamson County Fairgrounds</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/williamson-county-fair/"><span class="ename">Williamson County Fair</span><span class="ewhat">Event in Williamson County</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/various-williamson-county/"><span class="ename">Williamson County Fair</span><span class="ewhat">Event at Various (Williamson County) in Franklin</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/11-lindsley-ave/"><span class="ename">THE RESET | A Wellness Brunch 2026</span><span class="ewhat">Event at 11 Lindsley Ave</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/11-lindsley/"><span class="ename">THE RESET | A Wellness Brunch 2026</span><span class="ewhat">Event at 11 Lindsley in East Nashville</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/veterans-park/"><span class="ename">The Middle Tennessee Food Truck Festival 2026</span><span class="ewhat">Event at Veterans Park</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/butterfly/"><span class="ename">Sonrisa Rum National Rum Day Celebration</span><span class="ewhat">Event at Butterfly in Downtown</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/forged-fire/"><span class="ename">Sicily Wine Tasting: Mount Etna Exploration</span><span class="ewhat">Event at Forged Fire</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/sicily-wine-tasting-mount-etna-exploration/"><span class="ename">Sicily Wine Tasting: Mount Etna Exploration</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/sicily-wine-tasting-mount-etna/"><span class="ename">Sicily Wine Tasting: Mount Etna</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/forged-fire-implied/"><span class="ename">Sicily Wine Tasting: Mount Etna</span><span class="ewhat">Event at Forged Fire (implied)</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/woodcuts-gallery-framing/"><span class="ename">Leave Your Impression: A Printmaking Workshop | Studio Series</span><span class="ewhat">Event at Woodcuts Gallery &amp; Framing</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/acme-feed-seed/"><span class="ename">Foo Fighters Pre-Party ft. Scotty Chapman</span><span class="ewhat">Event at Acme Feed &amp; Seed in Downtown</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/neighbors-of-germantown/"><span class="ename">El Bandido Ballpark Crawl</span><span class="ewhat">Pop-up at Neighbors of Germantown in Germantown</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/250-rep-john-lewis-way-s/"><span class="ename">Craft Distillery Tour along Tennessee Whiskey Trail with Tastings</span><span class="ewhat">Event at 250 Rep. John Lewis Way S in Downtown</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/black-arts-bash-6th-annual/"><span class="ename">Black Arts Bash (6th Annual)</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/black-arts-bash/"><span class="ename">Black Arts Bash</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/308-rep-john-lewis-way-s/"><span class="ename">Beer, Bourbon &amp; BBQ: Nashville Adventure</span><span class="ewhat">Limited-time at 308 Rep. John Lewis Way S in Downtown</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/aquarium-restaurant/"><span class="ename">Aquarium Nashville - Mystic Mermaids Under the Sea Breakfast</span><span class="ewhat">Pop-up at Aquarium Restaurant</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/bob-s-steak-chop-house/"><span class="ename">All-Inclusive Jack Daniel's Distillery Tour, Tastings, and Lunch</span><span class="ewhat">Event at Bob's Steak &amp; Chop House</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/6th-annual-black-arts-bash/"><span class="ename">6th Annual Black Arts Bash</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-15">Closed Aug 15, 2026</time></a>
+        <a class="entry" href="/closed/spirits-of-summer/"><span class="ename">Spirits of Summer</span><span class="ewhat">Limited-time</span><time class="eclosed" datetime="2026-08-14">Closed Aug 14, 2026</time></a>
+        <a class="entry" href="/closed/culaccino/"><span class="ename">Culaccino Nashville Yards Mahjong &amp; Mangia</span><span class="ewhat">Event at Culaccino in Nashville Yards</span><time class="eclosed" datetime="2026-08-13">Closed Aug 13, 2026</time></a>
+        <a class="entry" href="/closed/profs-pints-the-hospitals-of-civil-war-nashville/"><span class="ename">Profs &amp; Pints: The Hospitals of Civil War Nashville</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/profs-pints-hospitals-of-civil-war-nashville/"><span class="ename">Profs &amp; Pints: Hospitals of Civil War Nashville</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/tbd-profs-pints-nashville/"><span class="ename">Profs &amp; Pints: Hospitals of Civil War Nashville</span><span class="ewhat">Limited-time at TBD (Profs &amp; Pints Nashville)</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/the-basement/"><span class="ename">Gay Ole Opry Presents: Lilith Feral 2-Show-Pass</span><span class="ewhat">Event at The Basement in 8Th Ave South</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/american-football-with-plus1-charity-tour/"><span class="ename">American Football with PLUS1 Charity Tour</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/american-football-with-plus1/"><span class="ename">American Football with PLUS1</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/american-football-with-afternoon-bike-ride/"><span class="ename">American Football with Afternoon Bike Ride</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/american-football-afternoon-bike-ride/"><span class="ename">American Football Afternoon Bike Ride</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/american-football-with-plus1-charity-component/"><span class="ename">American Football (with PLUS1 charity component)</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-12">Closed Aug 12, 2026</time></a>
+        <a class="entry" href="/closed/fancypants/"><span class="ename">Fancypants x Redheaded Stranger BBQ &amp; Bourbon Dinner</span><span class="ewhat">Event at Fancypants</span><time class="eclosed" datetime="2026-08-10">Closed Aug 10, 2026</time></a>
+        <a class="entry" href="/closed/fancypants-redheaded-stranger/"><span class="ename">Fancypants &amp; Redheaded Stranger BBQ and Bourbon Dinner</span><span class="ewhat">Limited-time at Fancypants / Redheaded Stranger</span><time class="eclosed" datetime="2026-08-10">Closed Aug 10, 2026</time></a>
+        <a class="entry" href="/closed/the-adventure-park-at-nashville/"><span class="ename">Adventure Park Ziplining and Climbing</span><span class="ewhat">Event at The Adventure Park at Nashville</span><time class="eclosed" datetime="2026-08-09">Closed Aug 9, 2026</time></a>
+        <a class="entry" href="/closed/ascension-saint-thomas-landing/"><span class="ename">Xfinity Movie Night - Jumanji: Welcome to the Jungle</span><span class="ewhat">Event at Ascension Saint Thomas Landing</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/east-nashville/"><span class="ename">Tomato Arts Festival</span><span class="ewhat">Event at East Nashville in East Nashville</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/five-points-area/"><span class="ename">Tomato Arts Festival</span><span class="ewhat">Event at Five Points area in East Nashville</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/east-nashville-five-points-area/"><span class="ename">Tomato Arts Festival</span><span class="ewhat">Event at East Nashville (Five Points area) in East Nashville</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/eastside/"><span class="ename">Tomato Arts Festival</span><span class="ewhat">Event at Eastside in East Nashville</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/east-nashville-streets/"><span class="ename">Tomato Arts Festival</span><span class="ewhat">Event at East Nashville (streets) in East Nashville</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/tomato-art-fest/"><span class="ename">Tomato Art Fest</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/five-points/"><span class="ename">Tomato Art Fest</span><span class="ewhat">Event at Five Points in East Nashville</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/blue-room-bar/"><span class="ename">Nordista Freeze's THE COOL OFF</span><span class="ewhat">Event at Blue Room Bar</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/mott-cha/"><span class="ename">Mott Cha Market | August 2026</span><span class="ewhat">Limited-time at Mott Cha</span><time class="eclosed" datetime="2026-08-08">Closed Aug 8, 2026</time></a>
+        <a class="entry" href="/closed/virgin-hotels-nashville/"><span class="ename">Queens Who Lift</span><span class="ewhat">Event at Virgin Hotels Nashville</span><time class="eclosed" datetime="2026-08-07">Closed Aug 7, 2026</time></a>
+        <a class="entry" href="/closed/tennessee-state-museum/"><span class="ename">Outside The Box</span><span class="ewhat">Event at Tennessee State Museum in Capitol Hill Area</span><time class="eclosed" datetime="2026-08-07">Closed Aug 7, 2026</time></a>
+        <a class="entry" href="/closed/rocketown/"><span class="ename">Holy Smoke! 2026</span><span class="ewhat">Event at Rocketown</span><time class="eclosed" datetime="2026-08-07">Closed Aug 7, 2026</time></a>
+        <a class="entry" href="/closed/mere-bulles-restaurant-events/"><span class="ename">Pop, Fizz &amp; Speed Mingle</span><span class="ewhat">Event at Mere Bulles Restaurant &amp; Events</span><time class="eclosed" datetime="2026-08-06">Closed Aug 6, 2026</time></a>
+        <a class="entry" href="/closed/cafe-cheeserie/"><span class="ename">Music in the Cafe: Tramaine Arte'Mis &amp; The I7 Jazz Band</span><span class="ewhat">Event at Cafe Cheeserie</span><time class="eclosed" datetime="2026-08-06">Closed Aug 6, 2026</time></a>
+        <a class="entry" href="/closed/fogg-street-lawn-club/"><span class="ename">Bartender Bash, Summer 2026</span><span class="ewhat">Event at Fogg Street Lawn Club</span><time class="eclosed" datetime="2026-08-06">Closed Aug 6, 2026</time></a>
+        <a class="entry" href="/closed/the-mockingbird/"><span class="ename">Wine Dinner</span><span class="ewhat">Event at The Mockingbird in The Gulch</span><time class="eclosed" datetime="2026-08-05">Closed Aug 5, 2026</time></a>
+        <a class="entry" href="/closed/butterfly-at-w-nashville/"><span class="ename">Sonrisa Rum &amp; Piraguas at Butterfly</span><span class="ewhat">Pop-up at Butterfly at W Nashville in Sobro</span><time class="eclosed" datetime="2026-08-05">Closed Aug 5, 2026</time></a>
+        <a class="entry" href="/closed/williamson-county-location-unspecified/"><span class="ename">Oscar Mayer Weinermobile Pop-Up</span><span class="ewhat">Pop-up at Williamson County (location unspecified)</span><time class="eclosed" datetime="2026-08-05">Closed Aug 5, 2026</time></a>
+        <a class="entry" href="/closed/the-listening-room-cafe/"><span class="ename">Spines That Rock: An Evening Benefiting Back to Healing</span><span class="ewhat">Event at The Listening Room Cafe in Downtown</span><time class="eclosed" datetime="2026-08-04">Closed Aug 4, 2026</time></a>
+        <a class="entry" href="/closed/440-welshwood-dr/"><span class="ename">Cookies for a Cause</span><span class="ewhat">Pop-up at 440 Welshwood Dr</span><time class="eclosed" datetime="2026-08-04">Closed Aug 4, 2026</time></a>
+        <a class="entry" href="/closed/roberts-western-world/"><span class="ename">Robert's Western World 3rd Annual Fan Fair Block Party</span><span class="ewhat">Event at Roberts Western World in Lower Broadway</span><time class="eclosed" datetime="2026-08-03">Closed Aug 3, 2026</time></a>
+        <a class="entry" href="/closed/robert-s-western-world/"><span class="ename">3rd Annual Robert's Western World Fan Fair</span><span class="ewhat">Event at Robert's Western World in Lower Broadway</span><time class="eclosed" datetime="2026-08-03">Closed Aug 3, 2026</time></a>
+        <a class="entry" href="/closed/robert-s-western-world-lower-broadway/"><span class="ename">3rd Annual Robert's Western World Fan Fair</span><span class="ewhat">Event at Robert's Western World / Lower Broadway in Downtown</span><time class="eclosed" datetime="2026-08-03">Closed Aug 3, 2026</time></a>
+        <a class="entry" href="/closed/lower-broadway/"><span class="ename">3rd Annual Robert's Western World Fan Fair</span><span class="ewhat">Event at Lower Broadway in Downtown</span><time class="eclosed" datetime="2026-08-03">Closed Aug 3, 2026</time></a>
+        <a class="entry" href="/closed/tennessee-tax-free-weekend/"><span class="ename">Tennessee Tax-Free Weekend</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-02">Closed Aug 2, 2026</time></a>
+        <a class="entry" href="/closed/star-dust-drive-in-movie-theater/"><span class="ename">Star Dust Drive-In - Summer Nightly Run Ending</span><span class="ewhat">Seasonal at Star Dust Drive-In Movie Theater</span><time class="eclosed" datetime="2026-08-02">Closed Aug 2, 2026</time></a>
+        <a class="entry" href="/closed/1316-antioch-pike/"><span class="ename">Nashville's 13th Annual Jamaica Independence 2-Day Weekend Celebration</span><span class="ewhat">Event at 1316 Antioch Pike</span><time class="eclosed" datetime="2026-08-02">Closed Aug 2, 2026</time></a>
+        <a class="entry" href="/closed/tennessee-farmers-market-trail/"><span class="ename">Tennessee Farmers Market Trail</span><span class="ewhat">Event in Franklin</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/plaza-mariachi/"><span class="ename">Taste of Korea is Finally Here!</span><span class="ewhat">Event at Plaza Mariachi</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/3955-nolensville-pk/"><span class="ename">Taste of Korea</span><span class="ewhat">Event at 3955 Nolensville Pk</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/riverfront-park/"><span class="ename">Nashville Riverboat Docking</span><span class="ewhat">Event at Riverfront Park in Riverfront</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/marquee-nashville/"><span class="ename">Murder Mystery Burlesque</span><span class="ewhat">Event at Marquee Nashville in Downtown</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/frist-art-museum/"><span class="ename">A Landmark Repurposed: From Post Office to Art Museum</span><span class="ewhat">Limited-time at Frist Art Museum in Downtown</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/jw-marriott-nashville/"><span class="ename">47th Annual l'Ete du Vin Dinner &amp; Live Auction</span><span class="ewhat">Event at JW Marriott Nashville in Downtown</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/47th-annual-l-ete-du-vin-dinner-live-auction/"><span class="ename">47th Annual l'Ete du Vin - Dinner &amp; Live Auction</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+        <a class="entry" href="/closed/burger-up/"><span class="ename">12South Burger Up Final Days</span><span class="ewhat">Closure at Burger Up in 12South</span><time class="eclosed" datetime="2026-08-01">Closed Aug 1, 2026</time></a>
+      </section>
+      <section class="month">
+        <h2>July 2026 <span class="tag">88 windows closed</span></h2>
+        <a class="entry" href="/closed/train/"><span class="ename">Train</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/5-point-6-studio/"><span class="ename">PORTRAIT PARTY: Double Exposure</span><span class="ewhat">Event at 5 point 6 Studio</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/gigi-pip-two-roads-hat-bar/"><span class="ename">Play Like a Girl Pop Up</span><span class="ewhat">Pop-up at Gigi Pip | Two Roads Hat Bar</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/music-under-the-stars-july/"><span class="ename">Music Under the Stars - July</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/music-under-the-stars/"><span class="ename">Music Under the Stars</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/the-escape-game-berry-hill/"><span class="ename">Murder with a Side of Meatballs</span><span class="ewhat">Event at The Escape Game - Berry Hill in Berry Hill</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/july-porch-talk/"><span class="ename">July Porch Talk</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/cannery-hall/"><span class="ename">Heated Twilight - A Heated Rivalry + Twilight Dance Party</span><span class="ewhat">Event at Cannery Hall in Wedgewood-Houston</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/symphony-center/"><span class="ename">Dolly Parton-Threads: My Songs in Symphony</span><span class="ewhat">Event at Symphony Center in Downtown</span><time class="eclosed" datetime="2026-07-31">Closed Jul 31, 2026</time></a>
+        <a class="entry" href="/closed/l-ete-du-vin-vintners-tasting/"><span class="ename">l'Ete du Vin: Vintners Tasting</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-30">Closed Jul 30, 2026</time></a>
+        <a class="entry" href="/closed/l-ete-du-vin-vintners-tasting-night-1/"><span class="ename">l'Ete du Vin - Vintners Tasting (Night 1)</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-30">Closed Jul 30, 2026</time></a>
+        <a class="entry" href="/closed/l-ete-du-vin-vintners-tasting-evening-1/"><span class="ename">l'Ete du Vin - Vintners Tasting (Evening 1)</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-30">Closed Jul 30, 2026</time></a>
+        <a class="entry" href="/closed/firstbank-amphitheater-ascend-amphitheater/"><span class="ename">Hilary Duff</span><span class="ewhat">Event at FirstBank Amphitheater / Ascend Amphitheater</span><time class="eclosed" datetime="2026-07-30">Closed Jul 30, 2026</time></a>
+        <a class="entry" href="/closed/oxbow-the-wayward/"><span class="ename">An Evening in River North - Free Block Party</span><span class="ewhat">Event at Oxbow + The Wayward in River North</span><time class="eclosed" datetime="2026-07-30">Closed Jul 30, 2026</time></a>
+        <a class="entry" href="/closed/aviator-nation-dreamland/"><span class="ename">Spin x Dreamland Presents: Marcus King</span><span class="ewhat">Event at Aviator Nation Dreamland</span><time class="eclosed" datetime="2026-07-29">Closed Jul 29, 2026</time></a>
+        <a class="entry" href="/closed/the-office/"><span class="ename">Nashville Beatdown 2026</span><span class="ewhat">Event at The Office</span><time class="eclosed" datetime="2026-07-29">Closed Jul 29, 2026</time></a>
+        <a class="entry" href="/closed/killjoy-berry-hill/"><span class="ename">Killjoy Full Moon Market</span><span class="ewhat">Limited-time at Killjoy Berry Hill in Berry Hill</span><time class="eclosed" datetime="2026-07-29">Closed Jul 29, 2026</time></a>
+        <a class="entry" href="/closed/joelton-hardware-feed-and-farmacy/"><span class="ename">Joelton Hardware presents Mo Pitney featuring Emily Pitney</span><span class="ewhat">Event at Joelton Hardware, Feed and Farmacy</span><time class="eclosed" datetime="2026-07-29">Closed Jul 29, 2026</time></a>
+        <a class="entry" href="/closed/grimey-s/"><span class="ename">Charli XCX Q&amp;A</span><span class="ewhat">Event at Grimey's in 8Th Ave South</span><time class="eclosed" datetime="2026-07-29">Closed Jul 29, 2026</time></a>
+        <a class="entry" href="/closed/skinny-dennis/"><span class="ename">Chris Acker &amp; The Growing Boys at Skinny Dennis</span><span class="ewhat">Event at Skinny Dennis in East Nashville</span><time class="eclosed" datetime="2026-07-27">Closed Jul 27, 2026</time></a>
+        <a class="entry" href="/closed/centennial-park/"><span class="ename">Tales at Twilight</span><span class="ewhat">Event at Centennial Park in Midtown</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/house-of-cards/"><span class="ename">Magic Family Brunch</span><span class="ewhat">Event at House of Cards</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/kindling-arts-festival-2026-utopias/"><span class="ename">Kindling Arts Festival 2026: UTOPIAS</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/kindling-arts-festival/"><span class="ename">Kindling Arts Festival</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/friends-in-low-places-bar-honky-tonk/"><span class="ename">Friends In Low Places: Christmas In July on the Rooftop</span><span class="ewhat">Event at Friends in Low Places Bar &amp; Honky-Tonk in Downtown Nashville</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/killjoy-booze-free-beverage-shop/"><span class="ename">FREE NA Fernet Tasting (Saint Heck) at Both Shops</span><span class="ewhat">Event at Killjoy Booze-free Beverage Shop</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/velvet-room/"><span class="ename">Brunch with Chef Malissa</span><span class="ewhat">Event at Velvet Room</span><time class="eclosed" datetime="2026-07-26">Closed Jul 26, 2026</time></a>
+        <a class="entry" href="/closed/zanies-comedy-club/"><span class="ename">Pauly Shore</span><span class="ewhat">Event at Zanies Comedy Club</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/off-the-clock-performance-art-showcase/"><span class="ename">OFF THE CLOCK: Performance Art Showcase</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/geodis-park/"><span class="ename">Liverpool FC vs Sunderland A.F.C.</span><span class="ewhat">Event at Geodis Park in The Nations</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/found-movement-group-tea/"><span class="ename">Found Movement Group: TEA</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/fairy-floss-a-new-musical/"><span class="ename">FAIRY FLOSS: A New Musical</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/the-franklin-theatre/"><span class="ename">Edgar Allan Poe Speakeasy: Chapter Two</span><span class="ewhat">Event at The Franklin Theatre in Franklin</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/common-ground-new-performances/"><span class="ename">COMMON GROUND: New Performances</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/anzie-blue/"><span class="ename">Blue Material Comedy</span><span class="ewhat">Event at Anzie Blue</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/caption-by-hyatt/"><span class="ename">Blend Your Own Bourbon Experience with Big Machine Distilling</span><span class="ewhat">Event at Caption by Hyatt in Downtown</span><time class="eclosed" datetime="2026-07-25">Closed Jul 25, 2026</time></a>
+        <a class="entry" href="/closed/u-pick-flowers/"><span class="ename">U-Pick Flowers</span><span class="ewhat">Seasonal in Franklin</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/various/"><span class="ename">StarChefs Nashville Rising Stars Two-Week Promotion</span><span class="ewhat">Limited-time at Various</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/various-nashville-restaurants/"><span class="ename">StarChefs Nashville Rising Stars Two-Week Promotion</span><span class="ewhat">Limited-time at Various Nashville restaurants</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/exit-in/"><span class="ename">Stabbing Westward</span><span class="ewhat">Event at EXIT/IN in Elliston Place</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/one-night-in-tokyo/"><span class="ename">One Night in Tokyo</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/federales-nashville/"><span class="ename">National Tequila Day at Federales Nashville</span><span class="ewhat">Limited-time at Federales Nashville in Downtown</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/alligator-bar/"><span class="ename">National Tequila Day at Alligator Bar</span><span class="ewhat">Limited-time at Alligator Bar in Downtown</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/2020-lindell-ave/"><span class="ename">NashCab Amplified: A Pop Revue</span><span class="ewhat">Event at 2020 Lindell Ave</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/percy-warner-equestrian-barn/"><span class="ename">Full Moon Pickin' Party</span><span class="ewhat">Event at Percy Warner Equestrian Barn</span><time class="eclosed" datetime="2026-07-24">Closed Jul 24, 2026</time></a>
+        <a class="entry" href="/closed/trey-hensley-with-special-guest-tennessee-woodpi/"><span class="ename">Trey Hensley with Special Guest Tennessee Woodpile</span><span class="ewhat">Event in Franklin</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/love-and-exile-bar/"><span class="ename">TN Shine Co. Presents: Dallas Murrae - Live in Nashville, TN</span><span class="ewhat">Event at Love and Exile Bar</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/sustainable-life-theory-framework-east/"><span class="ename">Sustainable Life Theory Framework East</span><span class="ewhat">Event in East Nashville</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/objects-in-the-mirror/"><span class="ename">OBJECTS IN THE MIRROR</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/movies-under-the-giant-guitar/"><span class="ename">Movies Under the Giant Guitar</span><span class="ewhat">Limited-time in Wedgewood Houston</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/church-and-union/"><span class="ename">Hospital &amp; Hopsitality</span><span class="ewhat">Limited-time at Church and Union in Downtown</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/tempo-by-hilton-nashville-downtown/"><span class="ename">Floating Frequencies: A Poolside Sound Bath Series</span><span class="ewhat">Event at Tempo by Hilton Nashville Downtown in Downtown</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/the-detroit-cowboy/"><span class="ename">Five-Course Dinner with Chef Marino Bianchi &amp; Carey Bringle</span><span class="ewhat">Event at The Detroit Cowboy</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/cheekwood-botanical-gardens-estate/"><span class="ename">Dog Nights of Summer</span><span class="ewhat">Event at Cheekwood Botanical Gardens &amp; Estate in Belle Meade</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/third-coast-comedy-club/"><span class="ename">Cherry Bomb - An Improvised Musical</span><span class="ewhat">Event at Third Coast Comedy Club</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/stompin-grounds/"><span class="ename">Cake &amp; Sip: A Sweet Decorating Experience</span><span class="ewhat">Event at Stompin' Grounds in Downtown</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/ascend-amphitheater/"><span class="ename">4 Lawn Tickets for $99</span><span class="ewhat">Event at Ascend Amphitheater in Downtown</span><time class="eclosed" datetime="2026-07-23">Closed Jul 23, 2026</time></a>
+        <a class="entry" href="/closed/chief-s/"><span class="ename">Uncle B's Damned Ole Opry: Tom Petty's "Wildflowers" Gets Grassed!</span><span class="ewhat">Event at Chief's in Downtown</span><time class="eclosed" datetime="2026-07-22">Closed Jul 22, 2026</time></a>
+        <a class="entry" href="/closed/walk-of-fame-park/"><span class="ename">Singo Music Bingo - Kenny Chesney Edition</span><span class="ewhat">Event at Walk of Fame Park in Downtown</span><time class="eclosed" datetime="2026-07-22">Closed Jul 22, 2026</time></a>
+        <a class="entry" href="/closed/rudy-s-jazz-room/"><span class="ename">MILEStones: Tribute to Miles Davis</span><span class="ewhat">Event at Rudy's Jazz Room in Downtown</span><time class="eclosed" datetime="2026-07-22">Closed Jul 22, 2026</time></a>
+        <a class="entry" href="/closed/station-inn/"><span class="ename">Lacy Green Album Release Show</span><span class="ewhat">Event at Station Inn in The Gulch</span><time class="eclosed" datetime="2026-07-22">Closed Jul 22, 2026</time></a>
+        <a class="entry" href="/closed/dunkin-nashville-locations/"><span class="ename">Dunkin' Free Coffee for a Year Giveaway (National Drive-Thru Day)</span><span class="ewhat">Pop-up at Dunkin' - Nashville locations in Nashville Metro</span><time class="eclosed" datetime="2026-07-22">Closed Jul 22, 2026</time></a>
+        <a class="entry" href="/closed/the-basement-east/"><span class="ename">Belmont Performing 10 Years of Between You and Me</span><span class="ewhat">Event at The Basement East in East Nashville</span><time class="eclosed" datetime="2026-07-22">Closed Jul 22, 2026</time></a>
+        <a class="entry" href="/closed/brooklyn-bowl/"><span class="ename">Steel Pulse - Reggae Against Racism</span><span class="ewhat">Event at Brooklyn Bowl in Germantown</span><time class="eclosed" datetime="2026-07-21">Closed Jul 21, 2026</time></a>
+        <a class="entry" href="/closed/unknown/"><span class="ename">Sips &amp; Stories Happy Hour Tour</span><span class="ewhat">Event at Unknown in Franklin</span><time class="eclosed" datetime="2026-07-21">Closed Jul 21, 2026</time></a>
+        <a class="entry" href="/closed/schermerhorn-symphony-center/"><span class="ename">Dolly Parton's Threads: My Songs in Symphony</span><span class="ewhat">Event at Schermerhorn Symphony Center in Downtown</span><time class="eclosed" datetime="2026-07-21">Closed Jul 21, 2026</time></a>
+        <a class="entry" href="/closed/superica/"><span class="ename">National Tequila Day at Superica</span><span class="ewhat">Limited-time at Superica</span><time class="eclosed" datetime="2026-07-20">Closed Jul 20, 2026</time></a>
+        <a class="entry" href="/closed/multiple-venues/"><span class="ename">World Cup Finals Watch Parties</span><span class="ewhat">Event at Multiple venues</span><time class="eclosed" datetime="2026-07-19">Closed Jul 19, 2026</time></a>
+        <a class="entry" href="/closed/almost-friday-sporting-club/"><span class="ename">Watch the World Cup!</span><span class="ewhat">Event at Almost Friday Sporting Club</span><time class="eclosed" datetime="2026-07-19">Closed Jul 19, 2026</time></a>
+        <a class="entry" href="/closed/1111-dickerson-pike/"><span class="ename">Lavender Roots Dance Party</span><span class="ewhat">Event at 1111 Dickerson Pike</span><time class="eclosed" datetime="2026-07-19">Closed Jul 19, 2026</time></a>
+        <a class="entry" href="/closed/the-pinnacle/"><span class="ename">KALEO - Way Down We Go Tour</span><span class="ewhat">Event at The Pinnacle</span><time class="eclosed" datetime="2026-07-19">Closed Jul 19, 2026</time></a>
+        <a class="entry" href="/closed/face-foundrie-nashville-belle-meade/"><span class="ename">"Meet Me In Miami Edition" by Crowe Collective Club X Strykes Media</span><span class="ewhat">Event at FACE FOUNDRIE - Nashville Belle Meade in Belle Meade</span><time class="eclosed" datetime="2026-07-19">Closed Jul 19, 2026</time></a>
+        <a class="entry" href="/closed/bluestone-lane/"><span class="ename">Whisk &amp; Bloom: The Art of Matcha Class</span><span class="ewhat">Event at Bluestone Lane</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/3rd-and-lindsley/"><span class="ename">The Longplayers Performing Fleetwood Mac's Rumours</span><span class="ewhat">Event at 3rd and Lindsley in Sobro</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/dog-haus-east-nashville/"><span class="ename">Sweat for Pets</span><span class="ewhat">Event at Dog Haus East Nashville in East Nashville</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/susiecakes/"><span class="ename">SusieCakes Cupcake BOGO - 20th Anniversary</span><span class="ewhat">Limited-time at SusieCakes</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/woolworth-theatre/"><span class="ename">Shiners</span><span class="ewhat">Event at Woolworth Theatre in Downtown</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/assembly-food-hall-skydeck/"><span class="ename">Noche De Loteria (Latin Party Bingo)</span><span class="ewhat">Event at Assembly Food Hall (Skydeck) in Downtown</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/yolan/"><span class="ename">July Wine Tasting: Super Tuscans</span><span class="ewhat">Event at Yolan</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/july-wine-tasting-super-tuscans/"><span class="ename">July Wine Tasting: Super Tuscans</span><span class="ewhat">Event</span><time class="eclosed" datetime="2026-07-18">Closed Jul 18, 2026</time></a>
+        <a class="entry" href="/closed/ryman-auditorium/"><span class="ename">Tori Amos</span><span class="ewhat">Event at Ryman Auditorium in Downtown</span><time class="eclosed" datetime="2026-07-17">Closed Jul 17, 2026</time></a>
+        <a class="entry" href="/closed/the-adventure-science-center/"><span class="ename">Space: Journey Through the Galaxy</span><span class="ewhat">Event at The Adventure Science Center</span><time class="eclosed" datetime="2026-07-17">Closed Jul 17, 2026</time></a>
+        <a class="entry" href="/closed/owl-s-hill-nature-sanctuary/"><span class="ename">Family Firefly Hikes - July 17</span><span class="ewhat">Event at Owl's Hill Nature Sanctuary in Brentwood</span><time class="eclosed" datetime="2026-07-17">Closed Jul 17, 2026</time></a>
+        <a class="entry" href="/closed/drift-nashville/"><span class="ename">Nashville Junk Journal Club Presents: Journal Pop</span><span class="ewhat">Pop-up at Drift Nashville</span><time class="eclosed" datetime="2026-07-16">Closed Jul 16, 2026</time></a>
+        <a class="entry" href="/closed/eastside-bowl/"><span class="ename">Buck Reising's Split Happens Bowling Bash Presented By 104.5 The Zone</span><span class="ewhat">Event at Eastside Bowl in East Nashville</span><time class="eclosed" datetime="2026-07-16">Closed Jul 16, 2026</time></a>
+        <a class="entry" href="/closed/the-blue-room/"><span class="ename">Banned: A Book Happy Hour</span><span class="ewhat">Event at The Blue Room</span><time class="eclosed" datetime="2026-07-16">Closed Jul 16, 2026</time></a>
+        <a class="entry" href="/closed/firstbank-amphitheater/"><span class="ename">Paul Simon</span><span class="ewhat">Event at FirstBank Amphitheater</span><time class="eclosed" datetime="2026-07-15">Closed Jul 15, 2026</time></a>
+        <a class="entry" href="/closed/downtown-nashville/"><span class="ename">Let Freedom Sing! Music City July 4th - Nick Jonas, Boyz II Men, Brothers Osborne</span><span class="ewhat">Event at Downtown Nashville in Downtown</span><time class="eclosed" datetime="2026-07-04">Closed Jul 4, 2026</time></a>
+      </section>
+    </div>
+    <nav class="links"><span class="llabel">What is happening now</span><a href="/this-week/">This week by neighborhood</a><a href="/conditions/">Conditions board</a><a href="/archive/">The closed archive</a><a href="/">Fleeting HQ</a></nav>
+    <p class="foot">This page is part of the <span class="fmark">Fleeting<span class="dot">.</span></span> record of time-limited Nashville windows. A window appears here only once its stated end date has passed; we list what closed and when, and nothing is invented. If a date here is wrong, it is the date the window itself stated.</p>
+  </div>
+</body>
+</html>
