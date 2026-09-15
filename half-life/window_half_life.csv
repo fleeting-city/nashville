@@ -1,9 +1,9 @@
 category,n,half_life_days,p25_days,p75_days,min_days,max_days,survive_7d_pct
-concert & live music,301,1,1.0,1.0,1,46,6
-special event,106,1.0,1.0,1.0,1,154,9
-tasting & dinner,103,1,1.0,1.0,1,366,15
-ticketed experience,81,1,1.0,1.0,1,198,15
-pop-up,31,1,1.0,34.0,1,93,32
-gallery & exhibition,16,1.0,1.0,13.8,1,185,31
-festival,82,2.0,1.0,3.0,1,76,18
-limited run,30,16.5,9.0,30.0,1,497,80
+concert & live music,372,1.0,1.0,1.0,1,58,7
+special event,163,1,1.0,1.0,1,154,9
+tasting & dinner,110,1.0,1.0,1.0,1,366,14
+festival,107,1,1.0,3.0,1,76,15
+ticketed experience,103,1,1.0,3.0,1,183,19
+pop-up,38,1.5,1.0,35.0,1,108,39
+gallery & exhibition,18,1.5,1.0,48.5,1,497,39
+limited run,35,17,9.0,30.0,1,170,80

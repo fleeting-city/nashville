@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_bluebird_cafe-20260917@nashville.fleeting.city
+DTSTAMP:20260915T181105Z
+DTSTART:20260917T230000Z
+DTEND:20260918T010000Z
+SUMMARY:Fleeting: Americana Music Association: Brandy Clark Album Preview '
+ The Bird at the Bluebird' (one night)
+LOCATION:The Bluebird Cafe\, Green Hills
+DESCRIPTION:Brandy Clark previews her new album in an AMA-presented one-nig
+ ht event at the Bluebird - intimate room\, new music\, and one of Nashvill
+ e's most storied stages.\nDetails and tickets: https://nashvillego.com/cal
+ endar\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

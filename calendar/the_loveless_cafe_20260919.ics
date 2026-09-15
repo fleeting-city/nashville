@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_loveless_cafe-20260919@nashville.fleeting.city
+DTSTAMP:20260915T181105Z
+DTSTART:20260919T160000Z
+DTEND:20260919T180000Z
+SUMMARY:Fleeting: Jam Fest at The Loveless Cafe (one night)
+LOCATION:The Loveless Cafe\, Bellevue/TN-100
+DESCRIPTION:The Loveless leans into fall harvest season with a jam-focused 
+ fest - expect local preserves\, live music\, and biscuits in quantity.\nDe
+ tails and tickets: https://patch.com/tennessee/nashville/calendar/event/20
+ 260919/83397d4f-ac39-4b3a-b450-6874ea7b0e50/jam-fest-at-the-loveless-cafe\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20260919/83397d4f-
+ ac39-4b3a-b450-6874ea7b0e50/jam-fest-at-the-loveless-cafe
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:icehouse-20260917@nashville.fleeting.city
+DTSTAMP:20260915T181105Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Fleeting: "Shit Hole Country" at Icehouse - Turkey and the Wolf x G
+ ar Hole Records x Sipsman (one night)
+LOCATION:Icehouse
+DESCRIPTION:Turkey and the Wolf links up with Gar Hole Records and Sipsman 
+ for one very loud\, very good Americana Fest side event at Icehouse.\nDeta
+ ils and tickets: https://nashvillelife.com/Turkey-and-Wolf-Icehouse-Hosts-
+ Live-Music-Gar-Hole-Records-and-Sipsman/Nashville-Calendar\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://nashvillelife.com/Turkey-and-Wolf-Icehouse-Hosts-Live-Music-Gar
+ -Hole-Records-and-Sipsman/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
