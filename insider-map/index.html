@@ -221,7 +221,7 @@
   .rail li:first-child button{border-top:0;}
   .rail button:hover{background:rgba(246,241,231,.03);}
   .rail button:hover .r-name{color:#fff;text-decoration:underline;text-decoration-color:var(--line2);text-underline-offset:3px;}
-  .r-clk{font-family:var(--disp);font-weight:800;font-size:11px;letter-spacing:.07em;color:var(--cream);line-height:1.3;}
+  .r-clk{grid-row:1 / span 2;font-family:var(--disp);font-weight:800;font-size:11px;letter-spacing:.07em;color:var(--cream);line-height:1.3;}
   .r-clk .ps{margin-top:6px;display:flex;}
   .r-name{font-family:var(--disp);font-weight:700;font-size:14.5px;line-height:1.22;color:var(--cream);letter-spacing:-.005em;}
   .r-meta{grid-column:2;font-size:11px;color:var(--muted);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-top:3px;}
@@ -517,7 +517,7 @@ const HOODS = [
     path:'M664,495L698,496L698,491L703,486L709,468L700,453L725,474L735,470L748,496L776,546L788,569L784,591L778,590L773,580L703,571L690,565L673,563L671,532Z',
     near:['downtown','gulch'],
     drops:[
-      { name:'Wedgewood-Houston Farmer\'s Market', when:'WED · THRU 10/7', kind:'recurring', where:'The Outfiteld', starts:'2026-09-29', ends:'2026-10-07', url:'https://do615.com/events/weekly/wed/wedgewood-houston-farmer-s-market-tickets',
+      { name:'Wedgewood-Houston Farmer\'s Market', when:'WED · THRU 10/7', kind:'recurring', where:'The Outfield', starts:'2026-09-29', ends:'2026-10-07', url:'https://do615.com/events/weekly/wed/wedgewood-houston-farmer-s-market-tickets',
         blurb:'WeHo\'s neighborhood farmer\'s market has two Wednesdays left-last runs for local produce this season.' },
       { name:'Gannons', when:'NEW', kind:'opening', where:'Gannons', url:'https://nashvilleguru.com/businesses/gannons-wedgewood-houston',
         blurb:'WeHo gets a new addition with an Irish-tinged name and no confirmed timeline.' }
@@ -613,7 +613,7 @@ function clockText(d){
   }
   if(n === 0) return 'LAST DAY';
   if(n === 1) return 'ENDS TOMORROW';
-  if(n <= 6) return n + ' DAYS LEFT';
+  if(n <= 6) return (n + 1) + ' DAYS LEFT';   /* counts today, like the strip */
   return d.when;
 }
 /* The period countdown (canon fact 5): lit red squares = days left against a week. */
@@ -828,11 +828,13 @@ function renderDefault(){
     + '<div class="p-tag">Across Nashville, soonest gone first. Tap one to find it on the map.</div>';
   if(soon.length){
     html += '<ol class="rail">' + soon.map(x => {
-      const where = x.h.id === 'drive' ? 'Worth the drive' : x.h.name;
+      const hood = x.h.id === 'drive' ? 'Worth the drive' : x.h.name;
+      const where = String(x.d.where).toLowerCase().indexOf(hood.toLowerCase()) >= 0
+        ? x.d.where : hood + ' · ' + x.d.where;
       return '<li><button type="button" data-open="'+esc(x.d.wid)+'">'
         +'<span class="r-clk">'+esc(clockText(x.d))+periodStrip(x.d)+'</span>'
         +'<span class="r-name">'+esc(x.d.name)+'</span>'
-        +'<span class="r-meta">'+esc(where)+' · '+esc(x.d.where)+'</span></button></li>';
+        +'<span class="r-meta">'+esc(where)+'</span></button></li>';
     }).join('') + '</ol>';
   } else {
     html += '<p class="p-hint">Nothing is on a hard clock this week. The neighborhoods still carry new openings and rotating lineups.</p>';
