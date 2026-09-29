@@ -73,7 +73,7 @@
   @media(max-width:560px){ .wrap{padding:0 16px;} }
 
   /* ---- hero ---- */
-  .hero{padding:30px 0 4px;}
+  .hero{padding-top:30px;padding-bottom:4px;}   /* keep .wrap's side gutter */
   .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
     display:inline-flex;align-items:center;gap:8px;}
   h1{font-family:var(--disp);font-weight:900;letter-spacing:-.025em;line-height:1;
@@ -123,7 +123,7 @@
   .bm-scale text{font-family:var(--sans);font-weight:700;font-size:8.5px;letter-spacing:.14em;fill:var(--muted);text-anchor:middle;}
   @media(max-width:560px){
     .bm-lm text,.bm-plbl{display:none;}
-    .bm-rlbl{font-size:20px;letter-spacing:.24em;}
+    .bm-rlbl{display:none;}   /* too long to fit the narrow map; the river reads without it */
     .bm-shield{display:none;}
     .bm-scale text{font-size:18px;} .bm-scale path{stroke-width:2.4;}
   }
