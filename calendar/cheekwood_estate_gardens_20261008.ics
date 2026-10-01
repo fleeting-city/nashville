@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20261008@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261008T220000Z
+DTEND:20261009T000000Z
+SUMMARY:Fleeting: Harvest NIGHTS (one night)
+LOCATION:Cheekwood Estate & Gardens
+DESCRIPTION:Cheekwood goes dark - nighttime harvest experience on the groun
+ ds of Nashville's most photogenic estate.\nDetails and tickets: https://al
+ levents.in/nashville/harvest-nights/200030637096654\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://allevents.in/nashville/harvest-nights/200030637096654
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

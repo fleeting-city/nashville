@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_blue_room_at_third_man_records-20261001@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261002T010000Z
+DTEND:20261002T030000Z
+SUMMARY:Fleeting: Slothrust: The Dystopian Theatre Tour (one night)
+LOCATION:The Blue Room at Third Man Records\, Downtown
+DESCRIPTION:Slothrust in the intimate Blue Room is exactly the kind of swea
+ ty\, small-room show the Blue Room was built for.\nDetails and tickets: ht
+ tps://nashvilledowntown.com/event/slothrust-the-dystopian-theatre-tour\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/slothrust-the-dystopian-theatre-tou
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

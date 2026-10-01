@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_steam-20261017@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261017T150000Z
+DTEND:20261017T170000Z
+SUMMARY:Fleeting: Fall Foliage Excursion Train (one night)
+LOCATION:Nashville Steam
+DESCRIPTION:Peak-foliage scenic rail excursion - 179+ interested and the wi
+ ndow is tight.\nDetails and tickets: https://allevents.in/nashville/fall-f
+ oliage-excursion-train/200030404871404\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://allevents.in/nashville/fall-foliage-excursion-train/20003040487
+ 1404
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

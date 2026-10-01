@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:all_antico_vinaio_nashville-20270318@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Last day: All'Antico Vinaio Apericena Experience @ Nashville
+LOCATION:All'Antico Vinaio Nashville
+DESCRIPTION:The Florence schiacciata institution runs a ticketed apericena 
+ experience - limited-run Italian happy hour worth booking ahead.\nDetails 
+ and tickets: https://bucketlisters.com/explore/city/NSH\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

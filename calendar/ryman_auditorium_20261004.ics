@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261004@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last day: Undertale Live: The Determination Symphony
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Full orchestral live performance of the beloved indie RPG score
+  at the Ryman - two nights only\, and the venue is half the reason to go.\
+ nDetails and tickets: https://allevents.in/nashville/undertale-live-the-de
+ termination-symphony/2300029869642729\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://allevents.in/nashville/undertale-live-the-determination-symphon
+ y/2300029869642729
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:opry_mills-20261016@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261016T170000Z
+DTEND:20261016T190000Z
+SUMMARY:Fleeting: FOODEESFEST Nashville (40+ food trucks & craft vendors) (
+ one night)
+LOCATION:Opry Mills\, Opryland
+DESCRIPTION:40+ food trucks and craft vendors descend on Opry Mills for a f
+ ree Friday afternoon feed.\nDetails and tickets: https://allevents.in/nash
+ ville/foodeesfest-nashville-tennessee-40-food-trucks-and-craft-vendors/100
+ 001991730563732\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/foodeesfest-nashville-tennessee-40-food-
+ trucks-and-craft-vendors/100001991730563732
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

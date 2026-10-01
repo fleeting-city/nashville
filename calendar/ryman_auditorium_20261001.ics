@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261001@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261002T010000Z
+DTEND:20261002T030000Z
+SUMMARY:Fleeting: Ryan Beatty (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Ryan Beatty at the Ryman - a singular indie pop voice in the mo
+ st storied room in Nashville.\nDetails and tickets: https://nashvilledownt
+ own.com/event/ryan-beatty\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/ryan-beatty
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

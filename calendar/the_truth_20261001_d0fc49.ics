@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_truth-20261001@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Fleeting: The Truth (new music venue) (one night)
+LOCATION:The Truth
+DESCRIPTION:Nashville's newest music venue opens October 1 - Miranda Lamber
+ t is swinging the ceremonial door.\nDetails and tickets: https://www.liven
+ ation.com/venue/KovZ917ASBh/the-truth-events?awtrc=true&c=SEM_LNVenuesAuto
+ mation_ggl_23677460062_193728503039_the%20truth%20nashville&GCID=0&gclsrc=
+ aw.ds&gad_source=1&gad_campaignid=23677460062&gbraid=0AAAAAC1KtUqEjQb_6U92
+ iQ4OQb80LKcX3&gclid=CjwKCAjwn67VBhBnEiwAXUIN1XXpfg5XLiDCDMn_8SgWAKsdC-fXlc
+ YRY3ztJaHD09P40uZQoSkkExoCV5UQAvD_BwE#shows\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://www.livenation.com/venue/KovZ917ASBh/the-truth-events?awtrc=tru
+ e&c=SEM_LNVenuesAutomation_ggl_23677460062_193728503039_the%20truth%20nash
+ ville&GCID=0&gclsrc=aw.ds&gad_source=1&gad_campaignid=23677460062&gbraid=0
+ AAAAAC1KtUqEjQb_6U92iQ4OQb80LKcX3&gclid=CjwKCAjwn67VBhBnEiwAXUIN1XXpfg5XLi
+ DCDMn_8SgWAKsdC-fXlcYRY3ztJaHD09P40uZQoSkkExoCV5UQAvD_BwE#shows
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

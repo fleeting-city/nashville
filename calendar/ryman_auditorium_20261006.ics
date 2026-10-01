@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261006@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261007T003000Z
+DTEND:20261007T023000Z
+SUMMARY:Fleeting: An Evening with Vince Gill (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Vince Gill solo at the Ryman is one of Nashville's purest exper
+ iences - the man who literally owns the room\, one more time.\nDetails and
+  tickets: https://nashvilledowntown.com/event/an-evening-with-vince-gill\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/an-evening-with-vince-gill
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

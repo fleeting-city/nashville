@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery_nashville-20261002@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261002T233000Z
+DTEND:20261003T013000Z
+SUMMARY:Fleeting: Chef & Winemaker Dinner Series: Fall Equinox (one night)
+LOCATION:City Winery Nashville
+DESCRIPTION:Seasonal chef-and-winemaker collab dinner at City Winery - Fall
+  Equinox edition means the menu is doing something intentional with the tu
+ rn of the season.\nDetails and tickets: https://nashvilledowntown.com/even
+ t/chef-and-winemaker-dinner-series-fall-equinox\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvilledowntown.com/event/chef-and-winemaker-dinner-series-fa
+ ll-equinox
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20261011@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: Fall Tennessee Craft Fair
+LOCATION:Centennial Park
+DESCRIPTION:Tennessee artisans fill Centennial Park for three fall days - c
+ eramics\, textiles\, jewelry\, the works.\nDetails and tickets: https://na
+ shvillego.com/calendar\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

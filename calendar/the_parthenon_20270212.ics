@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20270212@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Last day: Candlelight: Coldplay vs. Imagine Dragons
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:Stadium anthems stripped to strings and candlelight - the Parth
+ enon setting makes it work.\nDetails and tickets: https://feverup.com/m/65
+ 6284\nWindows drift - confirm with the venue before you go.\nFleeting - th
+ e weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/656284
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

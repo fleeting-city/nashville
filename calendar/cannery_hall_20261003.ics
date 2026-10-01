@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cannery_hall-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261004T030000Z
+DTEND:20261004T050000Z
+SUMMARY:Fleeting: Earlybirds Club (one night)
+LOCATION:Cannery Hall\, Downtown
+DESCRIPTION:Cannery Hall event with a name that suggests either vintage coo
+ l or a very responsible start time - worth knowing about either way.\nDeta
+ ils and tickets: https://nashvilledowntown.com/event/earlybirds-club\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/earlybirds-club
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

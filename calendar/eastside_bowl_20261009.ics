@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T010000Z
+DTEND:20261010T030000Z
+SUMMARY:Fleeting: OmenBringer: A Night on Black Mountain Album Release (one
+  night)
+LOCATION:Eastside Bowl\, East Nashville
+DESCRIPTION:Nashville metal act OmenBringer celebrates their new record the
+  night it drops - release show energy is unmatched.\nDetails and tickets: 
+ https://nashvillego.com/calendar\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

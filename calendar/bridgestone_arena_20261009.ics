@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T000000Z
+DTEND:20261010T020000Z
+SUMMARY:Fleeting: Weezer: The Gathering with The Shins and Silversun Pickup
+ s (one night)
+LOCATION:Bridgestone Arena\, Downtown
+DESCRIPTION:Weezer headlining an arena with The Shins and Silversun Pickups
+  is a 2000s indie-alt dream lineup that actually happened.\nDetails and ti
+ ckets: https://nashvillego.com/calendar\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

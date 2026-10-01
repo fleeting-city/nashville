@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_high_center_stage_theater-20261001@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Fleeting: The Storyteller's Collective at Centennial High Center St
+ age Theater (one night)
+LOCATION:Centennial High Center Stage Theater
+DESCRIPTION:The Storyteller's Collective returns to Centennial High's black
+  box stage this October - a limited theatrical run worth putting on the ca
+ lendar now.\nDetails and tickets: https://williamsonsource.com/centennial-
+ high-center-stage-theater-presents-the-storytellers-collective/\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://williamsonsource.com/centennial-high-center-stage-theater-prese
+ nts-the-storytellers-collective/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

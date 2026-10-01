@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:belmont_university-20261001@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Fleeting: History in Your Backyard (one night)
+LOCATION:Belmont University
+DESCRIPTION:Local storytellers surface Nashville's buried history in a sing
+ le evening on Belmont's campus.\nDetails and tickets: https://nashvillelif
+ e.com/History-Your-Backyard/Nashville-Calendar\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvillelife.com/History-Your-Backyard/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,7 +1,7 @@
 {
   "dataset": "Fleeting Nashville window half-life",
   "experiment": "EXP-0072",
-  "generated": "2026-09-15",
+  "generated": "2026-10-01",
   "source": "Fleeting weekly discovery crawl (scripts/out/<date>/candidates.json)",
   "methodology": "A window is a distinct (title, venue) in the crawl record. Days-open is counted inclusively from the listing's stated open date to its stated close date (a one-night event = 1 day); only windows carrying both parseable dates are included. Half-life is the median days-open per category. Categories are normalized from freeform labels by keyword; buckets below n=15 are held back.",
   "provenance": {
@@ -16,104 +16,112 @@
       "2026-08-20",
       "2026-08-27",
       "2026-09-03",
-      "2026-09-10"
+      "2026-09-10",
+      "2026-09-17",
+      "2026-09-24",
+      "2026-10-01"
     ],
-    "snapshot_count": 11,
+    "snapshot_count": 14,
     "span_start": "2026-06-25",
-    "span_end": "2026-09-10",
-    "windows_total": 1824,
-    "windows_dated": 986,
-    "sample_n": 946,
-    "overall_half_life_days": 1.0,
+    "span_end": "2026-10-01",
+    "windows_total": 2424,
+    "windows_dated": 1322,
+    "sample_n": 1271,
+    "overall_half_life_days": 1,
     "min_n": 15,
     "survive_days": 7,
-    "held_back": [
-      [
-        "market",
-        11
-      ]
-    ]
+    "held_back": []
   },
   "categories": [
     {
       "category": "concert & live music",
-      "n": 372,
-      "half_life_days": 1.0,
+      "n": 507,
+      "half_life_days": 1,
       "p25_days": 1.0,
       "p75_days": 1.0,
       "min_days": 1,
-      "max_days": 58,
-      "survive_7d_pct": 7
+      "max_days": 139,
+      "survive_7d_pct": 6
     },
     {
       "category": "special event",
-      "n": 163,
+      "n": 243,
       "half_life_days": 1,
       "p25_days": 1.0,
       "p75_days": 1.0,
       "min_days": 1,
       "max_days": 154,
-      "survive_7d_pct": 9
+      "survive_7d_pct": 8
+    },
+    {
+      "category": "festival",
+      "n": 140,
+      "half_life_days": 1.0,
+      "p25_days": 1.0,
+      "p75_days": 3.0,
+      "min_days": 1,
+      "max_days": 76,
+      "survive_7d_pct": 11
     },
     {
       "category": "tasting & dinner",
-      "n": 110,
+      "n": 128,
       "half_life_days": 1.0,
       "p25_days": 1.0,
       "p75_days": 1.0,
       "min_days": 1,
       "max_days": 366,
-      "survive_7d_pct": 14
-    },
-    {
-      "category": "festival",
-      "n": 107,
-      "half_life_days": 1,
-      "p25_days": 1.0,
-      "p75_days": 3.0,
-      "min_days": 1,
-      "max_days": 76,
       "survive_7d_pct": 15
     },
     {
       "category": "ticketed experience",
-      "n": 103,
+      "n": 125,
       "half_life_days": 1,
       "p25_days": 1.0,
-      "p75_days": 3.0,
+      "p75_days": 2.0,
       "min_days": 1,
-      "max_days": 183,
-      "survive_7d_pct": 19
+      "max_days": 497,
+      "survive_7d_pct": 16
     },
     {
       "category": "pop-up",
-      "n": 38,
-      "half_life_days": 1.5,
+      "n": 46,
+      "half_life_days": 1.0,
       "p25_days": 1.0,
-      "p75_days": 35.0,
+      "p75_days": 33.2,
       "min_days": 1,
       "max_days": 108,
-      "survive_7d_pct": 39
+      "survive_7d_pct": 35
+    },
+    {
+      "category": "market",
+      "n": 16,
+      "half_life_days": 1.0,
+      "p25_days": 1.0,
+      "p75_days": 2.8,
+      "min_days": 1,
+      "max_days": 155,
+      "survive_7d_pct": 19
     },
     {
       "category": "gallery & exhibition",
       "n": 18,
       "half_life_days": 1.5,
       "p25_days": 1.0,
-      "p75_days": 48.5,
+      "p75_days": 16.8,
       "min_days": 1,
-      "max_days": 497,
+      "max_days": 198,
       "survive_7d_pct": 39
     },
     {
       "category": "limited run",
-      "n": 35,
-      "half_life_days": 17,
-      "p25_days": 9.0,
-      "p75_days": 30.0,
+      "n": 48,
+      "half_life_days": 17.0,
+      "p25_days": 8.2,
+      "p75_days": 33.5,
       "min_days": 1,
-      "max_days": 170,
-      "survive_7d_pct": 80
+      "max_days": 199,
+      "survive_7d_pct": 77
     }
   ]
 }

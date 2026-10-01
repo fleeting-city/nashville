@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_hermitage-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T220000Z
+DTEND:20261011T000000Z
+SUMMARY:Fleeting: Hauntings at The Hermitage (one night)
+LOCATION:The Hermitage
+DESCRIPTION:A late-night Halloween event at Andrew Jackson's estate - histo
+ ry and haunting in a single evening.\nDetails and tickets: https://nashvil
+ lelife.com/Hauntings-at-Hermitage/Nashville-Calendar\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://nashvillelife.com/Hauntings-at-Hermitage/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

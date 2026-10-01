@@ -7,16 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:chief_s_neon_steeple-20261003@nashville.fleeting.city
-DTSTAMP:20260915T200721Z
+DTSTAMP:20261001T171057Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:Fleeting: Point of Grace (one night)
-LOCATION:Chief's Neon Steeple\, Downtown
-DESCRIPTION:One of CCM's most enduring trios plays an intimate downtown set
-  at Chief's - a rare Nashville stop for a group that still draws a devoted
-  crowd.\nDetails and tickets: https://www.chiefsonbroadway.com/events/poin
- t-of-grace\nWindows drift - confirm with the venue before you go.\nFleetin
- g - the weekly Nashville what-closes-first list.
+SUMMARY:Fleeting: Point of Grace at Chief's Neon Steeple (one night)
+LOCATION:Chief's Neon Steeple
+DESCRIPTION:CCM's beloved trio brings their harmonies to Chief's downtown s
+ tage for a one-night stand.\nDetails and tickets: https://www.chiefsonbroa
+ dway.com/events/point-of-grace\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://www.chiefsonbroadway.com/events/point-of-grace
 TRANSP:TRANSPARENT
 END:VEVENT

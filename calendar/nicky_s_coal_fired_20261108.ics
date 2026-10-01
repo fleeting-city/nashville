@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nicky_s_coal_fired-20261108@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261108T170000Z
+DTEND:20261108T190000Z
+SUMMARY:Fleeting: Secondhand Wedding Dress Pop Up (one night)
+LOCATION:Nicky's Coal Fired
+DESCRIPTION:Pre-loved bridal gowns meet coal-fired pizza - a wildly Nashvil
+ le combination for brides on a budget.\nDetails and tickets: https://www.e
+ ventbrite.com/e/secondhand-wedding-dress-pop-up-tickets-2001095251766?aff=
+ ebdssbdestsearch\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/secondhand-wedding-dress-pop-up-tickets-20
+ 01095251766?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

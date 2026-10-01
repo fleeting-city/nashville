@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nissan_stadium-20261031@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fleeting: Bands of America Regional Championship (one night)
+LOCATION:Nissan Stadium\, East Bank
+DESCRIPTION:The region's best high school marching bands take the field in 
+ a competition that genuinely delivers - shuttle available from the State C
+ apitol lot for $20 roundtrip.\nDetails and tickets: https://nissanstadium.
+ com/event/bands-of-america/\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nissanstadium.com/event/bands-of-america/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

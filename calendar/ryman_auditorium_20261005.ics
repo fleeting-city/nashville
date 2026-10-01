@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261005@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261005T233000Z
+DTEND:20261006T013000Z
+SUMMARY:Fleeting: Dove Week 2026 - Night of Worship featuring Elevation Wor
+ ship (one night)
+LOCATION:Ryman Auditorium
+DESCRIPTION:Elevation Worship at the Ryman during Dove Week - annual Gospel
+  Music Association programming that draws a devoted crowd and fills the ro
+ om.\nDetails and tickets: https://nashvilledowntown.com/event/dove-week-20
+ 26-night-of-worship-featuring-elevation-worship\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvilledowntown.com/event/dove-week-2026-night-of-worship-fea
+ turing-elevation-worship
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

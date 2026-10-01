@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261011T003000Z
+DTEND:20261011T023000Z
+SUMMARY:Fleeting: The Bad Plus - Farewell Tour (one night)
+LOCATION:City Winery
+DESCRIPTION:The boundary-smashing jazz trio wraps it up on their final tour
+  - Nashville gets one night\, that's it.\nDetails and tickets: https://nas
+ hvillego.com/calendar\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

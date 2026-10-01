@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Ravyn Lenae: Blue Island (one night)
+LOCATION:Marathon Music Works
+DESCRIPTION:Chicago R&B artist Ravyn Lenae brings her lush\, cinematic soun
+ d to Marathon - a mid-size room that suits her perfectly.\nDetails and tic
+ kets: https://nashvillelife.com/Ravyn-Lenae-Presents-Blue-Island/Nashville
+ -Calendar\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Ravyn-Lenae-Presents-Blue-Island/Nashville-Ca
+ lendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

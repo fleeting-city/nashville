@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T210000Z
+DTEND:20261003T230000Z
+SUMMARY:Fleeting: Poets and Prophets: Salute to Legendary Songwriter Pat Mc
+ Laughlin (one night)
+LOCATION:Country Music Hall of Fame and Museum\, Downtown
+DESCRIPTION:A special tribute program at the Hall of Fame honoring Pat McLa
+ ughlin - songwriter's songwriter\, rarely this celebrated in public.\nDeta
+ ils and tickets: https://nashvilledowntown.com/event/poets-and-prophets-sa
+ lute-to-legendary-songwriter-pat-mclaughlin\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://nashvilledowntown.com/event/poets-and-prophets-salute-to-legend
+ ary-songwriter-pat-mclaughlin
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

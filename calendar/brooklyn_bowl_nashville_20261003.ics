@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:brooklyn_bowl_nashville-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261004T010000Z
+DTEND:20261004T030000Z
+SUMMARY:Fleeting: Umphrey's McGee (one night)
+LOCATION:Brooklyn Bowl Nashville\, Downtown
+DESCRIPTION:Umphrey's at Brooklyn Bowl is a reliable three-hour deep-cut ma
+ rathon - jam band faithful will already have tickets\, everyone else shoul
+ d reconsider their Saturday.\nDetails and tickets: https://nashvilledownto
+ wn.com/event/umphreys-mcgee\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/umphreys-mcgee
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

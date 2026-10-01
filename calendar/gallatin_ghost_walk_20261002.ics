@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gallatin_ghost_walk-20261002@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Fleeting: Gallatin Ghost Walk
+LOCATION:Gallatin
+DESCRIPTION:Reservation-only ghost tour through Gallatin's haunted history 
+ - call ahead or miss out.\nDetails and tickets: https://nashvillelife.com/
+ Gallatin-Ghost-Walk/Nashville-Calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillelife.com/Gallatin-Ghost-Walk/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

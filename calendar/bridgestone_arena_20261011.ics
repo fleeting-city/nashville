@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261011@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: Phoebe Bridgers: The Lost Tour 2026 with Alex G
+LOCATION:Bridgestone Arena
+DESCRIPTION:Phoebe Bridgers fills Bridgestone two nights running with Alex 
+ G in tow - tickets will not last.\nDetails and tickets: https://nashvilleg
+ o.com/calendar\nWindows drift - confirm with the venue before you go.\nFle
+ eting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

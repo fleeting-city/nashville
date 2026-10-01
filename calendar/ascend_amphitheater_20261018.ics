@@ -7,15 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:ascend_amphitheater-20261018@nashville.fleeting.city
-DTSTAMP:20260915T200721Z
+DTSTAMP:20261001T171057Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:Fleeting: Live on the Green Reboot (one night)
+SUMMARY:Fleeting: Live on the Green - Guster & Grace Potter (one night)
 LOCATION:Ascend Amphitheater\, Downtown
-DESCRIPTION:The beloved free concert series returns as a ticketed lawnwarmi
- ng event with Guster and Grace Potter - tickets from $20.\nDetails and tic
- kets: https://liveonthegreen.com/\nWindows drift - confirm with the venue 
- before you go.\nFleeting - the weekly Nashville what-closes-first list.
+DESCRIPTION:The beloved outdoor concert series is back with a one-off 'lawn
+ warming' pairing of Guster and Grace Potter before it becomes a full serie
+ s in 2027 - tickets from $20.\nDetails and tickets: https://liveonthegreen
+ .com/\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
 URL:https://liveonthegreen.com/
 TRANSP:TRANSPARENT
 END:VEVENT

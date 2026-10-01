@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_truth-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T010000Z
+DTEND:20261010T030000Z
+SUMMARY:Fleeting: Jack White Live 2026 (one night)
+LOCATION:The Truth
+DESCRIPTION:Jack White at The Truth is a room-to-artist mismatch in the bes
+ t possible direction - one of the most unpredictable live performers alive
+  in a small venue.\nDetails and tickets: https://nashvillego.com/calendar\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

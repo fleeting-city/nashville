@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:belinda_city-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T150000Z
+DTEND:20261010T170000Z
+SUMMARY:Fleeting: The Fall Edit (one night)
+LOCATION:Belinda City
+DESCRIPTION:A curated fall pop-up shopping event going fast - this weekend 
+ only.\nDetails and tickets: https://www.eventbrite.com/e/the-fall-edit-tic
+ kets-2000522051308?aff=ebdssbdestsearch\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://www.eventbrite.com/e/the-fall-edit-tickets-2000522051308?aff=eb
+ dssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

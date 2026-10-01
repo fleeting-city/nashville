@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261009T233000Z
+DTEND:20261010T013000Z
+SUMMARY:Fleeting: Candlelight: Tribute to Fleetwood Mac (one night)
+LOCATION:The Parthenon
+DESCRIPTION:Fleetwood Mac by candlelight inside a full-scale Greek temple r
+ eplica - the setting does more work than the setlist needs to.\nDetails an
+ d tickets: https://patch.com/tennessee/nashville/calendar/event/20261009/5
+ f49b824-ec54-4930-8578-8c3f7316680b/candlelight-tribute-to-fleetwood-mac\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261009/5f49b824-
+ ec54-4930-8578-8c3f7316680b/candlelight-tribute-to-fleetwood-mac
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

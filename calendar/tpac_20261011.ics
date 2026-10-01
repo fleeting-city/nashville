@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tpac-20261011@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: Nashville Rep Presents: John Proctor Is the Villain
+LOCATION:TPAC
+DESCRIPTION:Nashville Rep's provocative new production runs just under two 
+ weeks at TPAC - closing night is Oct 11.\nDetails and tickets: https://nas
+ hvillego.com/calendar\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

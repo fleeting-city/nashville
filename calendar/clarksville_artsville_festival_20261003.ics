@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:clarksville_artsville_festival-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T150000Z
+DTEND:20261003T170000Z
+SUMMARY:Fleeting: Clarksville Artsville Festival
+LOCATION:Downtown Clarksville
+DESCRIPTION:One-day arts festival in downtown Clarksville - worth the drive
+  if you want something off the Nashville circuit.\nDetails and tickets: ht
+ tps://nashvillelife.com/Clarksville-Artsville-Festival/Nashville-Calendar\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Clarksville-Artsville-Festival/Nashville-Cale
+ ndar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

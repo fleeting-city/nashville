@@ -16,8 +16,14 @@
   <url><loc>https://nashville.fleeting.city/table/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/downtown/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/pie-town/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/wedgewood-houston/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/bellevue/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/west-end/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/broadway/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/midtown/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/sobro/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/downtown-franklin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/belmont/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/coral-club/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/rice-vice/</loc></url>
@@ -386,8 +392,211 @@
   <url><loc>https://nashville.fleeting.city/venues/the-nashville-arcade/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/12south-former-burger-up/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/nicoletto-s/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/parlour-bar/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-farmers-market/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-tn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/local-tastes-of-nashville-speakeasy-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/caption-by-hyatt-downtown-nashville-the-gulch/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/wedgewood-houston-outdoor/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/multiple-venues-3rd-and-lindsley-the-station-inn-brooklyn-bowl-nashville-nmaam-and-more/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/unknown-nashville-mexican-restaurant/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/dolly-s-songteller-hotel-life-of-many-colors-museum/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/tipsy-scoop-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-jazz-workshop/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-harpeth-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/tn-dachshund-rescue-event/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/fontanel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/live-on-the-green/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/studio-tenn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/pearl-diver/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/sarabha-s-creamery/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/former-burger-up/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/burger-up-former/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/o-charley-s/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/franklin-light-opera/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/bowie-nature-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/unknown-venue-in-franklin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/new-nissan-stadium/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/gaylord-opryland/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/franklin-theater/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/puckett-s/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/grays-on-main/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/richland-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/lackey-backyard/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-park-at-harlindale/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/various-incl-amerigo/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/african-american-heritage-society-of-williamson-county/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/tin-roof-2/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/puesto/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/neuhoff-district/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/mill-ridge-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/131-10th-ave-n/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/hooky-entertainment-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/jelly-roll-s-goodnight-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/bar-mar-at-w-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/auditorium/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/millers-thrillers-zombie-hayride-and-haunted-woods/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/thompson-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/martin-s-bar-b-que-joint/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/la-perla-at-galeria-paloma/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/dogwood-acres-dairy-at-l-l-market/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/saap-saap-bbq-at-harding-house-l-l-market/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/various-amerigo/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/crockett-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/ray-stevens-cabaray/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/von-elrod-s-beer-hall-kitchen/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/hattori-nori/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/williamson-county-performing-arts-center-at-academy-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/amerigo/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/dolly-s-songteller-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/xul-west-nashville-former-southern-grist/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/croquet-cafe-at-centennial-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/centennial-park-croquet-clubhouse/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/bell-bottoms-up/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/vertis-green-hills/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-yards/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/roku-city/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/wedgewood-houston-giant-guitar/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/love-rae-grace-boutique/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/mtsu/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/biscuit-belly/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/legacy-embers/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/belinda-city/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/sheraton-grand-nashville-downtown/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-pancake-pantry-hillsboro-village/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-hermitage/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/belmont-university/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/shuckle-s-corn-maze-pumpkin-patch/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/honeysuckle-hill-farm/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/devil-s-dungeon/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/ember-oak/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/placemat/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/soulios-gallery/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-pancake-pantry/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/junior/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/waymore-s-guest-house-casual-club/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/st-paul-s-episcopal-church/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/220-willow-st-departure/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-fairgrounds-expo-hall/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/adventure-park-at-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/centennial-high-center-stage-theater/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/saap-saap-bbq-at-l-l-market/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/restaurant-of-the-month/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/firstbank-stadium/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-outfield/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/cambria-hotel-nashville-midtown/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/old-mill-barn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/harding-house-brewing-co-at-l-l-market/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-predators/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/dragon-alley/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/st-paul-s/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-jury-experience/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/hard-rock-cafe-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/dolly-parton-s-songteller-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/skull-s-rainbow-room/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/galeria-paloma/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/roots-academy/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/spring-hill-public-library/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/opry-mills/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/dampf-good-bbq/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/biscuit-belly-maple-street-biscuit-company/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/tropical-smoothie-cafe/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nicky-s-coal-fired/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/la-perla-at-paloma/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-steam/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/regal-green-hills/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-lab-at-zanies/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/opry-house/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/symphony-hall/</loc></url>
   <url><loc>https://nashville.fleeting.city/archive/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/various-incl-amerigo/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/profs-pints-the-odyssey-s-journey/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/latin-inspired-baking-demo/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/from-theatre-to-theatre-with-tpac-death-becomes/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/country-music-hall-of-fame-and-museum/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/undisclosed-bar-guild/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/cocktail-masterclass-with-the-bar-guild-presiden/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-machine-performs-pink-floyd/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/dolly-s-songteller-hotel-life-of-many-colors-mus/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/dolly-s-songteller-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-greek-festival/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-brew-fest/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/japanese-moon-viewing-otsukimi-12th-annual/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/japanese-moon-viewing-otsukimi/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/hope-wins-2026/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/w-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/bar-mar-at-w-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/12th-annual-japanese-moon-viewing-otsukimi/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/saturday-morning-cartoons-kubo-and-the-two-strin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/robertson-county-fair/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/robertson-county-fairgrounds/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/mill-ridge-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/jelly-roll-s-goodnight-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/tipsy-scoop-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-basement-marketplace/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/tn-dachshund-rescue-event/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/dachtoberfest/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/hooky-entertainment-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/131-10th-ave-n/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-jazz-workshop/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/auditorium/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/love-in-the-club-early-2000s-throwback-party/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/love-in-the-club/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/across-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/city-winery/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/climate-week-cook-off/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/7058-charlotte-pike/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/beehives-bombshells-a-tribute-to-the-women-of-th/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-mockingbird-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/jordan-pruitt-one-night-only/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-east-room/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/amerigo-italian-restaurant/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/amerigo-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/moore-morris-history-culture-center/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/tootsie-s-orchid-lounge/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-shores-lakeside-resort/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-tn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-lackeys-backyard/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/lackeyes-backyard/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/lackey-backyard/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/caption-by-hyatt-downtown-nashville-the-gulch/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/multiple-venues-3rd-lindsley-station-inn-brookly/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/multiple-venues-3rd-and-lindsley-exit-in-station/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/tennessee-central-railway-museum/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/local-tastes-of-nashville-speakeasy-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/black-river-entertainment/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/studios-stories-black-river-entertainment/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/studio-615/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/loveless-barn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-loveless-cafe/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/hot-diggity-dog-fest/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/back-2-the-video-store/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/back-2-the-video-store-a-90s-speakeasy-bar/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-venue-not-specified/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-farmers-market/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-ariston/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-zoo-at-grassmere/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-zoo/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/puckett-s/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/wasioto-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/church-and-union-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/skydeck/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/multiple-venues-3rd-and-lindsley-station-inn-bro/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/mourning-brew/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/parlour-bar/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/multiple-venues-3rd-and-lindsley-the-station-inn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-bluebird-cafe/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/all-antico-vinaio/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/turkey-and-the-wolf-icehouse/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/icehouse/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/profs-pints-world-war-i-and-the-middle-east/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-business-journal-event/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/multiple-venues-exit-in-3rd-and-lindsley-city-wi/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-stage-on-broadway/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/zuzu/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/char-restaurant/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/crush-yard/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/ticketmaster-arena-venue/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/gray-dudley/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/simmons-bank-open-venue/</loc></url>
@@ -489,6 +698,7 @@
   <url><loc>https://nashville.fleeting.city/closed/movies-under-the-giant-guitar-dirty-dancing/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/southall-january-restaurant/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/the-station-inn/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/serial-killer-speakeasy/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/miel/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/1-kitchen/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/back-2-the-video-store-a-90s-speakeasy-bar-nashv/</loc></url>
@@ -664,6 +874,7 @@
   <url><loc>https://nashville.fleeting.city/closed/firstbank-amphitheater/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/downtown-nashville/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/</loc></url>
+  <url><loc>https://nashville.fleeting.city/issues/010/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/008/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/007/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/006/</loc></url>

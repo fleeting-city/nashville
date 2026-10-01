@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_outfield-20261007@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Last day: Wedgewood-Houston Farmer's Market
+LOCATION:The Outfield\, Wedgewood-Houston
+DESCRIPTION:WeHo's neighborhood farmer's market has two Wednesdays left-las
+ t runs for local produce this season.\nDetails and tickets: https://do615.
+ com/events/weekly/wed/wedgewood-houston-farmer-s-market-tickets\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://do615.com/events/weekly/wed/wedgewood-houston-farmer-s-market-t
+ ickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

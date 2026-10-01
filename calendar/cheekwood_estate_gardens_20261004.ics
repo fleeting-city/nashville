@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20261004@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261004T213000Z
+DTEND:20261004T233000Z
+SUMMARY:Fleeting: Fall for Cheekwood (one night)
+LOCATION:Cheekwood Estate & Gardens
+DESCRIPTION:Cheekwood's fall seasonal programming kicks off - expect pumpki
+ ns\, foliage\, and the estate in its autumn best.\nDetails and tickets: ht
+ tps://allevents.in/nashville/fall-for-cheekwood/200030622367701\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://allevents.in/nashville/fall-for-cheekwood/200030622367701
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

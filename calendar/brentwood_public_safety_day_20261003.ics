@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:brentwood_public_safety_day-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Fleeting: Brentwood Public Safety Day
+LOCATION:Brentwood
+DESCRIPTION:Brentwood Fire & Rescue's annual Public Safety Day returns Oct.
+  3 - free\, family-friendly\, and a genuine community anchor.\nDetails and
+  tickets: https://williamsonsource.com/brentwood-public-safety-day-returns
+ -october-3/\nWindows drift - confirm with the venue before you go.\nFleeti
+ ng - the weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/brentwood-public-safety-day-returns-octobe
+ r-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

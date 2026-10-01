@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261002@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T010000Z
+DTEND:20261003T030000Z
+SUMMARY:Fleeting: Johnny Blue Skies & the Dark Clouds - Mutiny for the Mass
+ es 2026 Tour (one night)
+LOCATION:Bridgestone Arena
+DESCRIPTION:Sturgill Simpson's alter-ego project at full arena scale - a ra
+ re Bridgestone booking for an artist who usually plays much smaller.\nDeta
+ ils and tickets: https://nashvilledowntown.com/event/johnny-blue-skies-and
+ -the-dark-clouds-mutiny-for-the-masses-2026-tour\nWindows drift - confirm 
+ with the venue before you go.\nFleeting - the weekly Nashville what-closes
+ -first list.
+URL:https://nashvilledowntown.com/event/johnny-blue-skies-and-the-dark-clou
+ ds-mutiny-for-the-masses-2026-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

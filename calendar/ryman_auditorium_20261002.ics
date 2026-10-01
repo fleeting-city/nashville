@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261002@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T000000Z
+DTEND:20261003T020000Z
+SUMMARY:Fleeting: Josh Johnson's Comedy Band Camp (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Comedy meets live music at the Ryman - Josh Johnson's hybrid sh
+ ow is a genuine one-nighter at a bucket-list venue.\nDetails and tickets: 
+ https://nashvilledowntown.com/event/josh-johnsons-comedy-band-camp\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvilledowntown.com/event/josh-johnsons-comedy-band-camp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

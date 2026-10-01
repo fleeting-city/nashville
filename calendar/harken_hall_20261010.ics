@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harken_hall-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Melissa Manchester (one night)
+LOCATION:Harken Hall
+DESCRIPTION:Pop legend Melissa Manchester brings her catalog of era-definin
+ g soft-rock hits to intimate Harken Hall - a rare Nashville date.\nDetails
+  and tickets: https://www.harkenhall.com/shows/melissa-manchester-10-oct\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://www.harkenhall.com/shows/melissa-manchester-10-oct
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

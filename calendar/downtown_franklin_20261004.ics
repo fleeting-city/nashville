@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261004@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261005T023000Z
+DTEND:20261005T043000Z
+SUMMARY:Fleeting: Pablo Cruise (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:Late-70s soft-rock staples Pablo Cruise close out the FEAR FEST
+  weekend - 'Whatcha Gonna Do?' still lands live.\nDetails and tickets: htt
+ ps://downtownfranklintn.com/event/pablo-cruise/\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://downtownfranklintn.com/event/pablo-cruise/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

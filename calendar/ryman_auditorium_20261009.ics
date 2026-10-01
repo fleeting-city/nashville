@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T010000Z
+DTEND:20261010T030000Z
+SUMMARY:Fleeting: Deana Carter: Did I Shave My Legs for This? 30th Annivers
+ ary Show (one night)
+LOCATION:Ryman Auditorium
+DESCRIPTION:Deana Carter plays her platinum debut front-to-back at the Ryma
+ n on its 30th birthday - a proper Nashville homecoming.\nDetails and ticke
+ ts: https://nashvillego.com/calendar\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

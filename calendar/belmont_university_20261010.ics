@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:belmont_university-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Monsters and Mystery in the Mansion (one night)
+LOCATION:Belmont University
+DESCRIPTION:An experiential Victorian-era storytelling event inside Belmont
+  Mansion - gothic atmosphere\, actual history.\nDetails and tickets: https
+ ://nashvillelife.com/Monsters-and-Mystery-Mansion/Nashville-Calendar\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvillelife.com/Monsters-and-Mystery-Mansion/Nashville-Calend
+ ar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -7,15 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:vanderbilt_dyer_observatory-20261018@nashville.fleeting.city
-DTSTAMP:20260915T200721Z
+DTSTAMP:20261001T171057Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:Fleeting: Radnor Rounds Benefit Concert (one night)
-LOCATION:Vanderbilt Dyer Observatory\, Brentwood
-DESCRIPTION:Phil Vassar and friends play under the stars to benefit Radnor 
- Lake - $350 a carload of up to 8.\nDetails and tickets: https://radnorlake
- .org/radnor-in-the-round-2026/\nWindows drift - confirm with the venue bef
- ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+SUMMARY:Fleeting: Radnor in the Round Benefit Concert (one night)
+LOCATION:Vanderbilt Dyer Observatory\, Oak Hill
+DESCRIPTION:Phil Vassar & Friends play under the stars at the Dyer Observat
+ ory to benefit Radnor Lake - a carload of up to 8 for $350 makes this a sh
+ areable splurge.\nDetails and tickets: https://radnorlake.org/radnor-in-th
+ e-round-2026/\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
 URL:https://radnorlake.org/radnor-in-the-round-2026/
 TRANSP:TRANSPARENT
 END:VEVENT

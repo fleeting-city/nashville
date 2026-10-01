@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Frankenstein's Mad Scientist Cocktail Lab
+LOCATION:Nashville\, Downtown
+DESCRIPTION:Month-long Halloween cocktail lab concept with a mad-scientist 
+ theme - seasonal and gone after October.\nDetails and tickets: https://buc
+ ketlisters.com/explore/city/NSH\nWindows drift - confirm with the venue be
+ fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

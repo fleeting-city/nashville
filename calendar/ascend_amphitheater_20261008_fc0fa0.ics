@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ascend_amphitheater-20261008@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261009T010000Z
+DTEND:20261009T030000Z
+SUMMARY:Fleeting: ZZ Top with Cheap Trick (one night)
+LOCATION:Ascend Amphitheater\, Downtown
+DESCRIPTION:Two legacy rock acts\, one outdoor stage - the kind of double b
+ ill that shouldn't work on paper and absolutely does.\nDetails and tickets
+ : https://nashvillego.com/calendar\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

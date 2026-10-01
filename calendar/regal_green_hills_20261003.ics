@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:regal_green_hills-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T160000Z
+DTEND:20261003T180000Z
+SUMMARY:Fleeting: Nashville Horror Film Festival (one night)
+LOCATION:Regal Green Hills\, Green Hills
+DESCRIPTION:Horror shorts and features at Regal Green Hills - free admissio
+ n and the right vibe for the season.\nDetails and tickets: https://alleven
+ ts.in/nashville/nashville-horror-film-festival/100001994252326392\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://allevents.in/nashville/nashville-horror-film-festival/100001994
+ 252326392
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

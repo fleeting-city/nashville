@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:old_mill_barn-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Playing It Forward Benefit Concert (one night)
+LOCATION:Old Mill Barn\, Spring Hill\, TN
+DESCRIPTION:Vince Gill\, T. Graham Brown\, and friends play a country barn 
+ benefit raising instruments for area school kids.\nDetails and tickets: ht
+ tps://www.instrumentsforeducation.org/#/\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://www.instrumentsforeducation.org/#/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

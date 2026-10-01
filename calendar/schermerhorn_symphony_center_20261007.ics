@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:schermerhorn_symphony_center-20261007@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261008T003000Z
+DTEND:20261008T023000Z
+SUMMARY:Fleeting: Top Gun: Maverick in Concert (one night)
+LOCATION:Schermerhorn Symphony Center
+DESCRIPTION:Full film on screen while the Nashville Symphony plays the scor
+ e live - one night only at the Schermerhorn.\nDetails and tickets: https:/
+ /nashvillego.com/calendar\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

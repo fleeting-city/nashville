@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Hatch Show Print Block Party (one night)
+LOCATION:Country Music Hall of Fame and Museum
+DESCRIPTION:Hand-ink and pull prints using Nashville's iconic letterpress i
+ magery - a tactile piece of Music City heritage.\nDetails and tickets: htt
+ ps://nashvillelife.com/Hatch-Show-Print-Block-Party/Nashville-Calendar-0\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Hatch-Show-Print-Block-Party/Nashville-Calend
+ ar-0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

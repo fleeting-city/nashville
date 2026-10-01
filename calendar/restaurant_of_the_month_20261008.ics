@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:restaurant_of_the_month-20261008@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261009T000000Z
+DTEND:20261009T020000Z
+SUMMARY:Fleeting: Gather for Good: Nashville | Dinner Benefit for Dreams an
+ d Wishes of TN (one night)
+LOCATION:Restaurant of the Month\, Edgehill
+DESCRIPTION:Monthly benefit dinner at a rotating Edgehill restaurant - eat 
+ well\, fund wishes for Tennessee kids.\nDetails and tickets: https://www.e
+ ventbrite.com/e/gather-for-good-nashville-dinner-benefit-for-dreams-and-wi
+ shes-of-tn-tickets-1999707495951?aff=ebdssbdestsearch\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://www.eventbrite.com/e/gather-for-good-nashville-dinner-benefit-f
+ or-dreams-and-wishes-of-tn-tickets-1999707495951?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

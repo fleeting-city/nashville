@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261004T000000Z
+DTEND:20261004T020000Z
+SUMMARY:Fleeting: Dallas Stars vs. Nashville Predators - Hispanic Music Her
+ itage Night (one night)
+LOCATION:Bridgestone Arena\, Downtown
+DESCRIPTION:Preds home game with a full Hispanic Music Heritage Night progr
+ am - themed nights at Bridgestone punch above their weight.\nDetails and t
+ ickets: https://nashvilledowntown.com/event/dallas-stars-vs-nashville-pred
+ ators-hispanic-music-heritage-night\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/dallas-stars-vs-nashville-predators
+ -hispanic-music-heritage-night
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

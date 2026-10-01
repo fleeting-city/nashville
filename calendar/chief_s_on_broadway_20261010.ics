@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:chief_s_on_broadway-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T210000Z
+DTEND:20261010T230000Z
+SUMMARY:Fleeting: Sober October: Nashville Zero Proof Halloween Bar Crawl (
+ one night)
+LOCATION:Chief's On Broadway\, Broadway
+DESCRIPTION:Free Halloween-themed zero-proof bar crawl - no hangover\, cost
+ ume encouraged\, and a legit excuse to hit Broadway before it gets unhinge
+ d.\nDetails and tickets: https://allevents.in/nashville/sober-october-nash
+ ville-zero-proof-halloween-bar-crawl-tickets/80006125572409\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
+URL:https://allevents.in/nashville/sober-october-nashville-zero-proof-hallo
+ ween-bar-crawl-tickets/80006125572409
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

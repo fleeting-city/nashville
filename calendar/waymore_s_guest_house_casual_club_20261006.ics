@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:waymore_s_guest_house_casual_club-20261006@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261006T223000Z
+DTEND:20261007T003000Z
+SUMMARY:Fleeting: Sunset Soiree (one night)
+LOCATION:Waymore's Guest House & Casual Club\, East Nashville
+DESCRIPTION:One-night evening soiree at East Nashville's Waymore's - the ki
+ nd of low-key ticket that disappears quietly.\nDetails and tickets: https:
+ //www.eventbrite.com/e/sunset-soiree-tickets-1997878895558?aff=ebdssbdests
+ earch\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/sunset-soiree-tickets-1997878895558?aff=eb
+ dssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

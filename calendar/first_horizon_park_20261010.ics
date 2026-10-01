@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:first_horizon_park-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T120000Z
+DTEND:20261010T140000Z
+SUMMARY:Fleeting: Making Strides Against Breast Cancer (one night)
+LOCATION:First Horizon Park
+DESCRIPTION:Annual breast cancer awareness walk steps off at First Horizon 
+ Park at dawn.\nDetails and tickets: https://nashvillego.com/calendar\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

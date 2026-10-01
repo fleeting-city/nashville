@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T003000Z
+DTEND:20261010T023000Z
+SUMMARY:Fleeting: Beatledudes Celebrate John Lennon's Birthday (one night)
+LOCATION:City Winery
+DESCRIPTION:Two Lennon tributes in one night across town - City Winery's ve
+ rsion is intimate and typically sells out early.\nDetails and tickets: htt
+ ps://nashvillego.com/calendar\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fisher_center_for_the_performing_arts-20261014@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Fleeting: CMA Country Christmas TV Taping (one night)
+LOCATION:Fisher Center for the Performing Arts\, Belmont
+DESCRIPTION:Be in the live audience for the CBS Christmas special taping wi
+ th Trisha Yearwood\, BeBe & Debbie Winans\, Dan + Shay\, and Russell Dicke
+ rson.\nDetails and tickets: https://www.thefishercenter.com/2026/09/16/cma
+ -country-christmas-2026/\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.thefishercenter.com/2026/09/16/cma-country-christmas-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

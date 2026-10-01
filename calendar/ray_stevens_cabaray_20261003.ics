@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ray_stevens_cabaray-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Last day: Country Roads USA
+LOCATION:Ray Stevens' CabaRay
+DESCRIPTION:This Americana variety revue closes in four days-a few Thursday
+ -Saturday shows left before it's done.\nDetails and tickets: https://do615
+ .com/events/2026/3/19/country-roads-usa-tickets\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://do615.com/events/2026/3/19/country-roads-usa-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

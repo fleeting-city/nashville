@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_station_inn-20261005@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261006T010000Z
+DTEND:20261006T030000Z
+SUMMARY:Fleeting: GMA Roots Showcase (one night)
+LOCATION:The Station Inn
+DESCRIPTION:Gospel Music Association's roots-focused showcase at the Statio
+ n Inn - Dove Week's underground complement to the arena stuff happening th
+ e same night.\nDetails and tickets: https://nashvilledowntown.com/event/gm
+ a-roots-showcase\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/gma-roots-showcase
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

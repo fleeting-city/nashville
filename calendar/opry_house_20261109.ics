@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:opry_house-20261109@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Fleeting: Don't Look\, Ethel: A Salute to Ray Stevens (one night)
+LOCATION:Opry House\, Music Valley
+DESCRIPTION:Jamey Johnson\, Ronnie Milsap\, Ricky Skaggs\, Gretchen Wilson\
+ , Lee Greenwood\, and a dozen more honor the musical genius of Ray Stevens
+  in one spectacular overstuffed night.\nDetails and tickets: https://www.r
+ yman.com/event/2026-11-09-dont-look-ethel-a-salute-to-the-musical-genius-o
+ f-ray-stevens-at-7-pm\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-11-09-dont-look-ethel-a-salute-to-the-
+ musical-genius-of-ray-stevens-at-7-pm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

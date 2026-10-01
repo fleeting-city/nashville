@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T220000Z
+DTEND:20261004T000000Z
+SUMMARY:Fleeting: Music in the Meadow: Annie Sellick & Pat Bergeson (one ni
+ ght)
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:Jazz vocals and guitar in an outdoor meadow setting - exactly t
+ he kind of Nashville autumn evening that ruins you for winter.\nDetails an
+ d tickets: https://nashvillelife.com/Music-Meadow/Nashville-Calendar-1\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://nashvillelife.com/Music-Meadow/Nashville-Calendar-1
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

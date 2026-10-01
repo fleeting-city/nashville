@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T230000Z
+DTEND:20261004T010000Z
+SUMMARY:Fleeting: FEAR FEST! Hocus Pocus (1993) (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:The Sanderson Sisters get their FEAR FEST slot - it's become a 
+ fall ritual for a reason.\nDetails and tickets: https://downtownfranklintn
+ .com/event/fear-fest-hocus-pocus-1993/\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://downtownfranklintn.com/event/fear-fest-hocus-pocus-1993/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

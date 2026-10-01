@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T010000Z
+DTEND:20261010T030000Z
+SUMMARY:Fleeting: A Nashville Tribute and Birthday Celebration of John Lenn
+ on (one night)
+LOCATION:3rd and Lindsley
+DESCRIPTION:A stacked cast of Nashville songwriters and singers salutes Len
+ non on his birthday - deep cuts guaranteed.\nDetails and tickets: https://
+ nashvillego.com/calendar\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

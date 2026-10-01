@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cambria_hotel_nashville_midtown-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T220000Z
+DTEND:20261011T000000Z
+SUMMARY:Fleeting: Nashville Whiskey Festival (one night)
+LOCATION:Cambria Hotel Nashville Midtown\, Midtown
+DESCRIPTION:Whiskey tasting festival in Midtown - $42 gets you through the 
+ door of one of fall's better-justified afternoons.\nDetails and tickets: h
+ ttps://allevents.in/nashville/nashville-whiskey-festival/10000199238620978
+ 7\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/nashville-whiskey-festival/1000019923862
+ 09787
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

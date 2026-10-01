@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:friends_in_low_places_bar_honky_tonk-20261030@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261031T000000Z
+DTEND:20261031T020000Z
+SUMMARY:Fleeting: Nashville Zombie Crawl - Halloween Bar Crawl (one night)
+LOCATION:Friends in Low Places Bar & Honky-Tonk\, Downtown
+DESCRIPTION:Party pass to 10+ bars on Halloween Eve - the Zombie Crawl is N
+ ashville's annual undead takeover of Broadway.\nDetails and tickets: https
+ ://allevents.in/nashville/nashville-zombie-crawl-halloween-bar-crawl-party
+ -pass-to-10-bars/100001996115142124\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/nashville-zombie-crawl-halloween-bar-cra
+ wl-party-pass-to-10-bars/100001996115142124
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

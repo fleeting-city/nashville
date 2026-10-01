@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_lab_at_zanies-20261017@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Fleeting: Dolly Parton Drag Brunch (one night)
+LOCATION:The Lab at Zanies\, Madison
+DESCRIPTION:Rhinestones\, mimosas\, and Dolly tributes - the drag brunch at
+  Zanies' Lab that Nashville talks about.\nDetails and tickets: https://all
+ events.in/nashville/dolly-parton-drag-brunch-nashville/200030723993625\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://allevents.in/nashville/dolly-parton-drag-brunch-nashville/20003
+ 0723993625
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20261002@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T020000Z
+DTEND:20261003T040000Z
+SUMMARY:Fleeting: Fall Lantern Hikes (one night)
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:Lantern-lit evening hike through the sanctuary - one night\, tw
+ o hours\, genuinely lovely.\nDetails and tickets: https://nashvillelife.co
+ m/Fall-Lantern-Hikes/Nashville-Calendar\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://nashvillelife.com/Fall-Lantern-Hikes/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

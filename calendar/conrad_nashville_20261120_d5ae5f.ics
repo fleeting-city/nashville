@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:conrad_nashville-20261120@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Candlelight: Tribute to Dolly Parton (one night)
+LOCATION:Conrad Nashville\, Midtown
+DESCRIPTION:Coat of many candles - Dolly gets the full candlelight treatmen
+ t at the Conrad.\nDetails and tickets: https://feverup.com/m/770427\nWindo
+ ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
+ shville what-closes-first list.
+URL:https://feverup.com/m/770427
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

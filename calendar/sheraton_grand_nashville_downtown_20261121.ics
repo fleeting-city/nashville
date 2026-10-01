@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:sheraton_grand_nashville_downtown-20261121@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+SUMMARY:Fleeting: The Signed Edition Book Fair Nashville (one night)
+LOCATION:Sheraton Grand Nashville Downtown
+DESCRIPTION:A one-day book fair spotlighting signed editions - free to atte
+ nd with discount tickets available.\nDetails and tickets: https://www.even
+ tbrite.com/e/the-signed-edition-book-fair-nashville-tickets-1984186829219?
+ aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/the-signed-edition-book-fair-nashville-tic
+ kets-1984186829219?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

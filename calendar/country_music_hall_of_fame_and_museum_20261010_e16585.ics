@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261010@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fleeting: Songwriter Session: James T. Slater (one night)
+LOCATION:Country Music Hall of Fame and Museum
+DESCRIPTION:Intimate songwriter set inside the Hall - one writer\, a room f
+ ull of listeners\, no distractions.\nDetails and tickets: https://nashvill
+ elife.com/Songwriter-Session-James-T-Slater/Nashville-Calendar\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://nashvillelife.com/Songwriter-Session-James-T-Slater/Nashville-C
+ alendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

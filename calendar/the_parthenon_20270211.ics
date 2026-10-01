@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20270211@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Last day: Candlelight: The Best of Hans Zimmer
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:Inception horns and Interstellar swells echoing off Parthenon c
+ olumns - cinematic doesn't cover it.\nDetails and tickets: https://feverup
+ .com/m/186640\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/186640
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261003@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261003T150000Z
+DTEND:20261003T170000Z
+SUMMARY:Fleeting: FEAR FEST! Coraline (2009) (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:FEAR FEST's family-friendly morning slot goes stop-motion dark 
+ - Coraline still creeps out every age group.\nDetails and tickets: https:/
+ /downtownfranklintn.com/event/fear-fest-coraline-2009/\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-coraline-2009/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

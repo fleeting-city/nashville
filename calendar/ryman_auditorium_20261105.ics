@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261105@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Last day: Dwight Yoakam
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Two nights of pure Bakersfield honky-tonk at the Ryman - Dwight
+  Yoakam remains one of the sharpest live acts country music has ever produ
+ ced.\nDetails and tickets: https://www.ryman.com/event/2026-dwight-yoakam\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-dwight-yoakam
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

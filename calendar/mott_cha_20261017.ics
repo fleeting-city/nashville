@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:mott_cha-20261017@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Fleeting: Mott Cha Market | October 2026 (one night)
+LOCATION:Mott Cha\, Melrose
+DESCRIPTION:Melrose's beloved boba spot transforms into a maker market for 
+ one Saturday afternoon.\nDetails and tickets: https://www.eventbrite.com/e
+ /mott-cha-market-october-2026-tickets-1986033061349?aff=ebdssbdestsearch\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/mott-cha-market-october-2026-tickets-19860
+ 33061349?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

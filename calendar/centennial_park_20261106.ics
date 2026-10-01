@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20261106@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261106T160000Z
+DTEND:20261106T180000Z
+SUMMARY:Fleeting: NASHVILLE CREATORS & TREASURES POP-UP (one night)
+LOCATION:Centennial Park\, Centennial
+DESCRIPTION:Local makers and vintage hunters converge at Centennial Park fo
+ r a one-day artisan showcase.\nDetails and tickets: https://www.eventbrite
+ .com/e/nashville-creators-treasures-pop-up-tickets-2000402254994?aff=ebdss
+ bdestsearch\nWindows drift - confirm with the venue before you go.\nFleeti
+ ng - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nashville-creators-treasures-pop-up-ticket
+ s-2000402254994?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

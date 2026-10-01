@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261017@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Last day: 2026 Halloween Staycation
+LOCATION:Nashville
+DESCRIPTION:Do615's curated Halloween staycation package-spooky stays and e
+ xperiences before the holiday crunch.\nDetails and tickets: https://do615.
+ com/events/2026/9/24/halloween-staycation-tickets\nWindows drift - confirm
+  with the venue before you go.\nFleeting - the weekly Nashville what-close
+ s-first list.
+URL:https://do615.com/events/2026/9/24/halloween-staycation-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

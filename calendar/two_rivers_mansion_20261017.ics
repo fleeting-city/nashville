@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:two_rivers_mansion-20261017@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Fleeting: Tennessee Beer\, Bourbon\, Wine & Shine Festival (16th An
+ nual) (one night)
+LOCATION:Two Rivers Mansion\, Donelson
+DESCRIPTION:Sixteen years deep and still going - Tennessee's grab-bag booze
+  fest at a historic mansion for $17.\nDetails and tickets: https://alleven
+ ts.in/nashville/tennessee-beer-bourbon-wine-and-shine-festival-16th-annual
+ /100001995982883535\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/tennessee-beer-bourbon-wine-and-shine-fe
+ stival-16th-annual/100001995982883535
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

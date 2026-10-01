@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261008@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Fleeting: Artemas: LOVERCORE / Getting No Good Tour (one night)
+LOCATION:Marathon Music Works
+DESCRIPTION:The UK pop act behind 'i like the way you kiss me' lands at Mar
+ athon - indie pop with a big-room feel.\nDetails and tickets: https://nash
+ villelife.com/Artemas-LOVERCORE-GETTING-NO-GOOD-Tour/Nashville-Calendar\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvillelife.com/Artemas-LOVERCORE-GETTING-NO-GOOD-Tour/Nashvi
+ lle-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

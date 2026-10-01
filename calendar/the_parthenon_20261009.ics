@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20261009@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261010T014500Z
+DTEND:20261010T034500Z
+SUMMARY:Fleeting: Candlelight: Queen vs. ABBA (one night)
+LOCATION:The Parthenon
+DESCRIPTION:The Parthenon hosts a late candlelight set pitting Queen agains
+ t ABBA - a ridiculous premise that somehow works as a night out.\nDetails 
+ and tickets: https://patch.com/tennessee/nashville/calendar/event/20261009
+ /cd6238c1-d209-4ce5-a218-df2fb359613d/candlelight-queen-vs-abba\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261009/cd6238c1-
+ d209-4ce5-a218-df2fb359613d/candlelight-queen-vs-abba
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

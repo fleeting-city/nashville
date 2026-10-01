@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_pancake_pantry-20261001@nashville.fleeting.city
+DTSTAMP:20261001T171057Z
+DTSTART:20261001T230000Z
+DTEND:20261002T010000Z
+SUMMARY:Fleeting: Pickin' at the Pantry (one night)
+LOCATION:The Pancake Pantry\, Hillsboro Village
+DESCRIPTION:Live picking session at a Nashville breakfast institution after
+  hours - the kind of low-key local hang that doesn't come around often.\nD
+ etails and tickets: https://patch.com/tennessee/nashville/calendar/event/2
+ 0261001/111c3d65-639b-41e6-8ee8-5bae25055ae4/pickin-at-the-pantry\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261001/111c3d65-
+ 639b-41e6-8ee8-5bae25055ae4/pickin-at-the-pantry
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
