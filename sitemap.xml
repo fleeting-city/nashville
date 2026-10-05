@@ -16,14 +16,12 @@
   <url><loc>https://nashville.fleeting.city/table/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/downtown/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/pie-town/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/wedgewood-houston/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/bellevue/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/west-end/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/east-nashville/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/midtown/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/sobro/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/wedgewood-houston/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/the-gulch/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/downtown-franklin/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/belmont/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/coral-club/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/rice-vice/</loc></url>
@@ -510,6 +508,29 @@
   <url><loc>https://nashville.fleeting.city/venues/symphony-hall/</loc></url>
   <url><loc>https://nashville.fleeting.city/archive/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/pablo-cruise/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/national-banana-pudding-festival/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-oktoberfest-2026/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-oktoberfest/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/fear-fest-paranorman-2012/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-fairgrounds-expo-hall/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/chief-s-neon-steeple/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/von-elrod-s-beer-hall-kitchen/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/regal-green-hills/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/halloween-glow-in-the-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/fear-fest-scream-1996/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/fear-fest-hocus-pocus-1993/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/fear-fest-coraline-2009/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/fear-fest-the-shining-coraline-hocus-pocus-screa/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/220-willow-st-departure/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/nashville-steam/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/ray-stevens-cabaray/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/clarksville-artsville-festival/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/brentwood-public-safety-day/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/fear-fest-the-shining-1980/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-pancake-pantry-hillsboro-village/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-pancake-pantry/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/classic-seger-the-music-of-bob-seger-the-silver/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/various-incl-amerigo/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/profs-pints-the-odyssey-s-journey/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/latin-inspired-baking-demo/</loc></url>
@@ -874,6 +895,7 @@
   <url><loc>https://nashville.fleeting.city/closed/firstbank-amphitheater/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/downtown-nashville/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/</loc></url>
+  <url><loc>https://nashville.fleeting.city/issues/011/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/010/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/008/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/007/</loc></url>
