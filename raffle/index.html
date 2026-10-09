@@ -32,7 +32,9 @@
   same-day alert stub. Dark mission-control theme; skyline resolved via
   brand/marks.py and referenced (not pasted) from skyline.svg (rules 11/14).
   Entries attributed utm_campaign=EXP-0071; draw is documented + executable
-  (raffle_concierge_kit.md, scripts/raffle_draw.py). Pure-ASCII copy.
+  (raffle_concierge_kit.md, scripts/raffle_draw.py) and each week's result is
+  rendered here from the hash-chained draw_ledger.jsonl so 'publish the draw so
+  anyone can check it' is literally true (LAS-407). Pure-ASCII copy.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,6 +86,26 @@
   .fairp{font-size:13.5px;color:#d8d3c8;line-height:1.6;margin:14px 0 2px;max-width:64ch;}
   .fairp b{color:var(--cream);}
 
+  .draws{margin:28px 0 4px;}
+  .dhead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .dhead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .dhead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;color:var(--cream);}
+  .drawsp{font-size:13.5px;color:#d8d3c8;line-height:1.6;margin:14px 0 2px;max-width:64ch;}
+  .drawsp b{color:var(--cream);}
+  .draw{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px;margin:13px 0;}
+  .drow{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;
+    border-bottom:1px solid var(--line);padding-bottom:9px;margin-bottom:9px;}
+  .dweek{font-family:'Archivo';font-weight:900;font-size:16px;letter-spacing:.01em;color:var(--gold);}
+  .dwin{font-size:13px;color:var(--cream);font-weight:600;}
+  .dmeta{display:grid;grid-template-columns:1fr;gap:7px;margin:0;}
+  .dmeta>div{display:flex;flex-direction:column;gap:2px;}
+  .dmeta dt{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .dmeta dd{margin:0;font-size:13px;color:#d8d3c8;}
+  .dmeta dd.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;
+    color:#cfc9bd;word-break:break-all;line-height:1.45;}
+  .drawsfine{font-size:11.5px;color:var(--muted);margin-top:12px;letter-spacing:.01em;line-height:1.55;max-width:64ch;}
+
   .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
     border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:22px 20px 18px;margin:30px 0 10px;}
   .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4.4vw,24px);letter-spacing:-.01em;color:var(--cream);margin-bottom:8px;}
@@ -114,6 +136,17 @@
   .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
   .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
   .foot .fmark .dot{color:var(--accent);}
+
+  .rules{margin:22px 0 4px;border:1px solid var(--line);border-radius:12px;background:#100f13;overflow:hidden;}
+  .rules>summary{cursor:pointer;list-style:none;padding:13px 16px;font-family:'Archivo';font-weight:700;
+    font-size:13.5px;letter-spacing:.02em;color:var(--gold);}
+  .rules>summary::-webkit-details-marker{display:none;}
+  .rules>summary::after{content:"+";float:right;color:var(--muted);font-weight:700;}
+  .rules[open]>summary::after{content:"\2013";}
+  .rulesbody{padding:2px 16px 14px;border-top:1px solid var(--line);}
+  .rulesbody p{font-size:12.5px;color:#cfc9bd;line-height:1.55;margin:10px 0;}
+  .rulesbody p b{color:var(--cream);}
+  .rulesfine{color:var(--muted)!important;font-size:11.5px;}
 </style>
   <script>
   /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
@@ -155,6 +188,23 @@
       <div class="fhead"><span class="dot"></span><h2>Why the draw is fair</h2></div>
       <p class="fairp">At the weekly cutoff we take a snapshot of everyone entered and publish a fingerprint of that exact list (a one-way hash) -- so the list cannot be changed after the fact. The winning number then comes from a <b>public random beacon nobody controls</b> (a published, timestamped source), combined with that fingerprint. Same inputs, same winner, every time -- so you can re-run the math yourself and confirm we did not pick a friend. One entrant, one slot; the odds are simply one over the number of subscribers in the draw.</p>
     </section>
+    <section class="draws" id="draws">
+      <div class="dhead"><span class="dot"></span><h2>Published draws</h2></div>
+      <p class="drawsp">Each week's draw, exactly as recorded. The winner is shown redacted; everything else is what you need to re-run the math above and confirm it -- the frozen entry count, the one-way <b>list fingerprint</b> of the entrant snapshot, and the <b>public beacon</b> (drand) round and randomness that picked the winner. Each row also carries its own ledger hash and the hash of the row before it, so the record is tamper-evident.</p>
+      <article class="draw">
+        <div class="drow"><span class="dweek">2026-W41</span><span class="dwin">Winner: n***@y***.com</span></div>
+        <dl class="dmeta">
+          <div><dt>Cutoff</dt><dd>2026-10-07T23:59:59-05:00</dd></div>
+          <div><dt>Entries</dt><dd>11</dd></div>
+          <div><dt>List fingerprint (hash)</dt><dd class="mono">e97386376fb4422765bb8035adcb09e792b206809959cf263af9bcb57208145a</dd></div>
+          <div><dt>Beacon round (drand)</dt><dd class="mono">6537243</dd></div>
+          <div><dt>Beacon randomness</dt><dd class="mono">9aa90bf54a9458a2bf8362614e9dde6f486502e8bce07da286b5413a35233c79</dd></div>
+          <div><dt>Ledger hash</dt><dd class="mono">603ec5315e40d4505c620108dfa4e75242b2050df286845dc9793313a616e913</dd></div>
+          <div><dt>Previous hash</dt><dd class="mono">0c5d8fc315a20c663bb8bf6ee06cceadb92313eee3b81911740c87638fb8e05b</dd></div>
+        </dl>
+      </article>
+      <p class="drawsfine">Re-run it yourself: hash the published entrant snapshot and confirm it equals the list fingerprint, fetch the drand round above from any public relay, then recompute the winner index. Same inputs, same winner, every time.</p>
+    </section>
     <section class="cta" id="enter">
       <p class="ctah">Enter this week's draw.</p>
       <p class="ctap">Drop your email and you are in the raffle -- and on the free weekly list either way. <b>This list does not ping you</b>: no alerts, no notifications, just the Thursday heads-up in your inbox. Win, and your personal shortlist arrives as a one-off note, hand-built for you.</p>
@@ -177,6 +227,21 @@
         <p class="sharefine">You send it, not us. Nothing posts on your behalf.</p>
       </div>
     </section>
+    <details class="rules">
+      <summary>Official rules</summary>
+      <div class="rulesbody">
+        <p><b>Sponsor.</b> Fleeting, operated by Horace Forests LLC (the "Sponsor").</p>
+        <p><b>No purchase necessary.</b> A purchase will not improve your odds. Subscribing to the free Fleeting - Nashville weekly list is the only way to enter, and it is free.</p>
+        <p><b>Who can enter.</b> Open to subscribers who are 18 or older at the time of entry and are legal residents of the United States. You must have a confirmed, active subscription to the free weekly list; an unconfirmed or unsubscribed email is not in the draw.</p>
+        <p><b>How to enter.</b> Subscribe to the weekly list. One entry per subscriber per weekly draw, for as long as you stay subscribed. No ticket, no payment, no extra form.</p>
+        <p><b>Who cannot win.</b> Fleeting staff, operators, and their immediate families are not eligible to win.</p>
+        <p><b>The draw.</b> Once a week we freeze the entrant list at the weekly cutoff, publish a one-way fingerprint (hash) of that exact list, and draw one winner using a public random beacon nobody controls, combined with that fingerprint -- so anyone can re-run the math and check it. One entrant, one slot; the odds are one over the number of subscribers in the draw.</p>
+        <p><b>If you win.</b> The winner is notified by email at the address on file and must reply within 7 days to claim. If the winner does not reply within 7 days to claim, an alternate winner is drawn by the same method.</p>
+        <p><b>The prize.</b> One hand-built, personal "what is closing for you this week" shortlist, delivered privately by email. One winner per week. The prize has no cash value, is non-transferable, and no substitution is offered.</p>
+        <p><b>Privacy.</b> We never share or sell your email. Entering adds you to the free weekly list, which you can leave at any time -- leaving also takes you out of the draw.</p>
+        <p class="rulesfine">Void where prohibited. This promotion is run by the Sponsor and is not sponsored, endorsed, or administered by any email or social platform.</p>
+      </div>
+    </details>
     <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
   </div>
   <script>
