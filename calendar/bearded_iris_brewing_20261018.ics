@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bearded_iris_brewing-20261018@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261018T170000Z
+DTEND:20261018T190000Z
+SUMMARY:Fleeting: Sazon Latin Food Festival 2026: Nashville's Taste of Lati
+ n American Food (one night)
+LOCATION:Bearded Iris Brewing\, East Germantown
+DESCRIPTION:Latin American food festival at Bearded Iris Brewing featuring 
+ vendors and flavors from across Latin America.\nDetails and tickets: https
+ ://www.eventbrite.com/e/sazon-latin-food-festival-2026-nashvilles-taste-of
+ -latin-american-food-tickets-1983577985150?aff=ebdssbdestsearch\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://www.eventbrite.com/e/sazon-latin-food-festival-2026-nashvilles-
+ taste-of-latin-american-food-tickets-1983577985150?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

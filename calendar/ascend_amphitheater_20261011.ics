@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ascend_amphitheater-20261011@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261012T010000Z
+DTEND:20261012T030000Z
+SUMMARY:Fleeting: Dermot Kennedy (one night)
+LOCATION:Ascend Amphitheater\, Downtown
+DESCRIPTION:Outdoor amphitheater show from the Irish singer-songwriter\, on
+ e night only. No opener or ticket price stated.\nDetails and tickets: http
+ s://nashvilledowntown.com/event/dermot-kennedy\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvilledowntown.com/event/dermot-kennedy
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

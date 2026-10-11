@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:fisher_center_for_the_performing_arts-20261021@nashville.fleeting.city
-DTSTAMP:20261005T230215Z
+DTSTAMP:20261011T222409Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
-SUMMARY:Fleeting: Dolly Parton Tribute TV Taping (CBS Special) (one night)
+SUMMARY:Fleeting: Dolly Parton Tribute TV Taping (one night)
 LOCATION:Fisher Center for the Performing Arts\, Belmont
-DESCRIPTION:A two-hour CBS tribute to Dolly with a crowd of musician friend
- s - be in the room where her peers celebrate her on camera.\nDetails and t
- ickets: https://www.thefishercenter.com/events/\nWindows drift - confirm w
- ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
- first list.
+DESCRIPTION:Two-hour CBS special taping with many of Dolly's musician frien
+ ds expected to appear\; attend the live recording on the Belmont Universit
+ y campus.\nDetails and tickets: https://www.thefishercenter.com/events/\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
 URL:https://www.thefishercenter.com/events/
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sold Out This Week | Fleeting - Nashville</title>
+<meta name="description" content="The Nashville time-limited windows that actually sold out or filled this past week, ranked by how fast they went. Confirmed sellouts only - no guesses. From Fleeting's weekly discovery crawl.">
+<link rel="canonical" href="https://nashville.fleeting.city/sold-out/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Sold Out This Week - Nashville">
+<meta property="og:description" content="The windows that actually sold out or filled this past week in Nashville, ranked by how fast they went. Confirmed sellouts only.">
+<meta property="og:url" content="https://nashville.fleeting.city/sold-out/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sold Out This Week - Nashville">
+<meta name="twitter:description" content="The Nashville windows that sold out or filled fastest this past week. Confirmed sellouts only.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Sold Out This Week (EXP-0091 / LAS-399). Public, past-tense,
+  SOLD-OUT-ONLY leaderboard: the windows that actually sold out or filled this past
+  week, fastest first. Built by scripts/build_soldout_this_week.py from the WHOLE
+  board (board_source.py / board.json rule) + the same run's soldout.json verdicts.
+  Fill/close-speed is NOT recomputed here - it reuses build_soldout_sweep.build_record
+  and ranking (the members sweep's computation); this keeps only the sold_out/in_demand
+  tiers. Confirmed sellouts only (ranking.is_gone) - never a guessed sellout; an empty
+  week says so. Every date is the source's own. Machine-derived, do not hand-edit -
+  edit the builder. Pull surface only, NO alert promise (F-0009). Dark mission-control
+  theme; skyline resolved via brand/marks.py and referenced (not pasted) from
+  skyline.svg (rules 11/14). First-touch attribution to surface 'sold-out', subscribe
+  CTA utm_campaign=EXP-0091 (EXP-0030). Pure-ASCII copy.
+-->
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'sold-out'),
+      m:(q.get('utm_medium')||'leaderboard'),
+      c:(q.get('utm_campaign')||'EXP-0091'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12); --line2:rgba(246,241,231,.2);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:720px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,44px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:62ch;}
+  .lede b{color:var(--cream);}
+  .weektag{display:inline-block;margin:16px 0 6px;font-family:'Archivo';font-weight:700;font-size:12px;
+    letter-spacing:.04em;text-transform:uppercase;color:var(--gold);background:rgba(240,180,41,.1);
+    border:1px solid rgba(240,180,41,.3);border-radius:999px;padding:6px 14px;}
+
+  .legend{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 2px;}
+  .lg{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);
+    border:1px solid var(--line2);border-radius:999px;padding:4px 10px;}
+  .lg .sw{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle;}
+  .lg.sold .sw{background:var(--accent);} .lg.demand .sw{background:var(--neon);}
+
+  .list{margin:16px 0 10px;display:grid;gap:12px;}
+  .row{display:grid;grid-template-columns:46px 1fr auto;gap:16px;align-items:center;background:var(--ink2);
+    border:1px solid var(--line);border-left:3px solid var(--line2);border-radius:13px;padding:14px 16px;transition:.15s;}
+  .row:hover{border-color:var(--line2);transform:translateY(-1px);}
+  .row.sold_out{border-left-color:var(--accent);} .row.in_demand{border-left-color:var(--neon);}
+  .rk{font-family:'Archivo';font-weight:900;font-size:22px;color:var(--muted);text-align:center;}
+  .row.sold_out .rk{color:var(--accent);} .row.in_demand .rk{color:var(--neon);}
+  .body h3{font-family:'Archivo';font-weight:700;font-size:16.5px;letter-spacing:-.01em;line-height:1.18;margin-bottom:3px;}
+  .metaline{font-size:11.5px;color:var(--muted);font-weight:600;letter-spacing:.02em;text-transform:uppercase;}
+  .metaline .cat{color:var(--gold);} .metaline .sep{opacity:.5;margin:0 6px;}
+  .blurb{font-size:13px;color:#cbc6bb;line-height:1.45;margin-top:5px;}
+  .link{display:inline-block;margin-top:7px;font-size:11.5px;font-weight:700;color:#ffb3aa;text-decoration:none;}
+  .link:hover{text-decoration:underline;}
+  .right{text-align:right;white-space:nowrap;}
+  .badge{display:inline-block;font-family:'Archivo';font-weight:800;font-size:10.5px;letter-spacing:.08em;
+    border-radius:999px;padding:4px 11px;color:#fff;}
+  .badge.sold_out{background:var(--accent);} .badge.in_demand{background:var(--neon);}
+  .speed{margin-top:7px;font-size:11px;color:var(--muted);line-height:1.5;}
+  .speed b{color:var(--cream);font-weight:600;}
+
+  .empty{padding:34px 20px;text-align:center;background:var(--ink2);border:1px dashed var(--line2);
+    border-radius:14px;margin:16px 0 10px;}
+  .empty .eh{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,22px);color:var(--cream);margin-bottom:8px;}
+  .empty p{font-size:13.5px;color:#cbc6bb;line-height:1.6;max-width:52ch;margin:0 auto;}
+
+  .method{margin:30px 0 6px;padding:18px 20px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .method h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin-bottom:8px;}
+  .method p{font-size:12.8px;color:#cbc5b9;line-height:1.72;} .method b{color:var(--cream);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;} .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The week in reverse</div>
+    <h1>Sold out this week<span class="dot">.</span></h1>
+    <p class="lede">The Nashville windows that <b>actually sold out or filled</b> this past week, ranked by how fast they went. This is the demand signal - what closed while you were deciding. <b>Confirmed sellouts only; we never guess one.</b></p>
+    <div class="weektag">Week of Oct 5 &middot; No confirmed sold-out windows this week</div>
+    <div class="legend"><span class="lg sold"><span class="sw"></span>Sold out</span><span class="lg demand"><span class="sw"></span>Filled fast</span></div>
+    <div class="empty"><div class="eh">Nothing confirmed sold out this week.</div><p>A quiet week is honest. This board fills the moment a Nashville window actually sells out or a listing goes <i>going fast / few left</i> and then closes - we never guess a sellout. See the <a href="/conditions/">conditions board</a> for what is still open, or get the Thursday list below so you are not the one deciding too late.</p></div>
+    <section class="method">
+      <h2>How this is ranked</h2>
+      <p>The source is Fleeting's own weekly discovery crawl of time-limited Nashville windows. A window earns <b>SOLD OUT</b> only from a real availability check or unambiguous "sold out" language in its own listing - never a guess. <b>FILLED FAST</b> means the listing carried genuine scarcity language ("going fast", "few tickets left") and the window then closed this past week. Everything is ranked by how brief and in-demand the window was, using the same fill and close-speed computation as our members' retrospective. Dates are the listing's own; a missing date is left off, not invented. A window that simply reached its end date with no sold-out or scarcity signal is <i>not</i> on this board - that is a different list. No alerts, no notifications; one email a week.</p>
+    </section>
+    <section class="cta">
+      <p><b>The fastest windows are gone before most people hear about them.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville windows - the dinners, pop-ups and shows that will be gone by the weekend - in your inbox while they are still open.</p>
+      <a class="btn" href="https://nashville.fleeting.city/?utm_source=sold-out&amp;utm_medium=leaderboard&amp;utm_campaign=EXP-0091#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Looking for what is still open or closing next? See <a href="/conditions/">the conditions board</a>. How long a Nashville window usually stays open? <a href="/half-life/">the window half-life</a>. The full record is in <a href="/archive/">the archive</a>. Built October 11, 2026.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tpac_tennessee_performing_arts_center-20261011@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: John Proctor Is the Villain
+LOCATION:TPAC - Tennessee Performing Arts Center\, Downtown
+DESCRIPTION:Limited theatrical run at TPAC with evening and matinee perform
+ ances Thursday through Sunday. No ticket price stated.\nDetails and ticket
+ s: https://nashvilledowntown.com/event/john-proctor-is-the-villain\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvilledowntown.com/event/john-proctor-is-the-villain
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

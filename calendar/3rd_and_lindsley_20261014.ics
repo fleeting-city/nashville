@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261014@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261015T010000Z
+DTEND:20261015T030000Z
+SUMMARY:Fleeting: Mark Hummel Blues Survivors Road Dog Album Release (one n
+ ight)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:Live album release with blues harp legend Mark Hummel\, Anson F
+ underburgh\, and Frank Bang - one night at Nashville's best listening room
+ .\nDetails and tickets: https://allevents.in/nashville/mark-hummel-blues-s
+ urvivors-road-dog-album-release-featuring-anson-funderburgh-with-frank-ban
+ g-and-t/210002661101788\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/mark-hummel-blues-survivors-road-dog-alb
+ um-release-featuring-anson-funderburgh-with-frank-bang-and-t/2100026611017
+ 88
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

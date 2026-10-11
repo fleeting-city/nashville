@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:hatch_show_print-20261011@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261011T150000Z
+DTEND:20261011T170000Z
+SUMMARY:Fleeting: Hatch Show Print Family Block Party (one night)
+LOCATION:Hatch Show Print
+DESCRIPTION:Family-oriented follow-up block party at the letterpress shop t
+ he next morning. No pricing stated.\nDetails and tickets: https://patch.co
+ m/tennessee/nashville/calendar/event/20261011/32b0f299-944a-442f-add8-22f1
+ a21f4b83/hatch-show-print-family-block-party\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261011/32b0f299-
+ 944a-442f-add8-22f1a21f4b83/hatch-show-print-family-block-party
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

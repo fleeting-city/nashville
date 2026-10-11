@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:mother_s_ruin_upstairs-20261015@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261016T000000Z
+DTEND:20261016T020000Z
+SUMMARY:Fleeting: RE:MIX #3 Presented by Soundtrack My Drink (one night)
+LOCATION:Mother's Ruin (Upstairs)\, Germantown
+DESCRIPTION:Three bartenders compete through mystery basket rounds using Ol
+ d Forester bourbon while guests taste welcome cocktails and vote on a winn
+ er. A cash bar and spirit-curated music run alongside as finalists have on
+ e hour to build an original drink.\nDetails and tickets: https://www.event
+ brite.com/e/remix-3-presented-by-soundtrack-my-drink-tickets-2000653576704
+ ?aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/remix-3-presented-by-soundtrack-my-drink-t
+ ickets-2000653576704?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

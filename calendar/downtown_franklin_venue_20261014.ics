@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin_venue-20261014@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261014T200000Z
+DTEND:20261014T220000Z
+SUMMARY:Fleeting: FEAR FEST: Hocus Pocus (1993) (one night)
+LOCATION:Downtown Franklin venue\, Downtown Franklin
+DESCRIPTION:Third scheduled screening of Hocus Pocus in this year's FEAR FE
+ ST run\, afternoon slot.\nDetails and tickets: https://downtownfranklintn.
+ com/event/fear-fest-hocus-pocus-1993-2/\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://downtownfranklintn.com/event/fear-fest-hocus-pocus-1993-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

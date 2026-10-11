@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The climb to 100: Fleeting building in public | Fleeting - Nashville</title>
+<meta name="description" content="Fleeting is building in public: a tiny Nashville list climbing, one honest subscriber at a time, toward 100. See the real count, the issues we have shipped on the way, and be the next number.">
+<link rel="canonical" href="https://nashville.fleeting.city/climb/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="The climb to 100: Fleeting building in public">
+<meta property="og:description" content="A tiny Nashville list climbing, one honest subscriber at a time, toward 100. See the real count and be the next number.">
+<meta property="og:url" content="https://nashville.fleeting.city/climb/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The climb to 100: Fleeting building in public">
+<meta name="twitter:description" content="A tiny Nashville list climbing, one honest subscriber at a time, toward 100. Be the next number.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : The Climb (EXP-0098 / LAS-422). Lens L05 -- the constraint IS
+  the feature: a tiny list and no brand become a build-in-public climb to 100.
+  Built by scripts/build_climb_page.py. Pull / subscribe surface only: NO alert promise
+  (F-0009). The count is REAL (baked from the beehiiv read via founding_seats.py, or the
+  last cached as-of figure, or omitted) -- never fabricated. The milestone journal renders
+  ONLY issues that actually sent (issues_manifest.json, listed=true). Dark mission-control
+  theme; skyline resolved via brand/marks.py and referenced (not pasted) from skyline.svg
+  (rules 11/14). Web-clean copy. utm_campaign=EXP-0098.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+
+  .counter{margin:24px 0 6px;background:linear-gradient(180deg,#141318,#100f13);
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:16px 18px;}
+  .counter.nocount{border-color:var(--line);}
+  .counter.done{border-color:rgba(240,180,41,.45);}
+  .crow{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+  .clabel{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+  .cnum{font-family:'Archivo';font-weight:900;font-size:24px;color:var(--gold);}
+  .cnum .cof{font-family:'Inter';font-weight:600;font-size:12px;color:var(--muted);letter-spacing:.02em;}
+  .ctrack{margin:11px 0 4px;height:9px;border-radius:999px;background:rgba(246,241,231,.08);overflow:hidden;}
+  .cfill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--gold));
+    box-shadow:0 0 12px rgba(230,69,53,.5);}
+  .counter.done .cfill{background:linear-gradient(90deg,var(--gold),#ffd56b);}
+  .cnote{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5;}
+  .casof{color:var(--muted);font-style:italic;}
+
+  .why,.honest{margin:30px 0 4px;}
+  .jhead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .jdotbig{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--accent);box-shadow:0 0 12px rgba(230,69,53,.6);}
+  .jdotbig.gold{background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .jhead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;color:var(--cream);}
+  .jintro,.honestp{font-size:13.5px;color:#d8d3c8;line-height:1.55;margin:12px 0 4px;max-width:62ch;}
+  .honestp b{color:var(--cream);}
+
+  .journal{margin:14px 0 4px;border-left:2px solid var(--line);padding-left:4px;}
+  .jrow{position:relative;display:flex;gap:12px;padding:10px 0 10px 14px;}
+  .jdot{position:absolute;left:-5px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--accent);
+    box-shadow:0 0 10px rgba(230,69,53,.5);flex:0 0 auto;}
+  .jbody{min-width:0;}
+  .jkick{font-family:'Archivo';font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--gold);}
+  .jtitle{font-size:14px;color:#e7e1d5;line-height:1.45;margin-top:2px;}
+  .empty{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin:14px 0;}
+  .emptyp{font-size:13px;color:var(--muted);line-height:1.5;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:22px 20px 18px;margin:30px 0 10px;}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4.4vw,24px);letter-spacing:-.01em;color:var(--cream);margin-bottom:8px;}
+  .ctap{font-size:14px;color:#e7e1d5;margin:0 0 14px;line-height:1.5;}
+  .ctap b{color:#fff;}
+  .form{display:flex;gap:9px;flex-wrap:wrap;}
+  .form input{flex:1 1 200px;min-width:0;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:12px 14px;font-family:'Inter';}
+  .form input:focus{outline:none;border-color:var(--accent);}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn:disabled{opacity:.6;cursor:default;}
+  .fine{font-size:11.5px;color:var(--muted);margin-top:11px;letter-spacing:.01em;}
+
+  .share{margin-top:18px;padding-top:16px;border-top:1px solid rgba(230,69,53,.28);}
+  .shareh{font-family:'Archivo';font-weight:900;font-size:clamp(17px,3.8vw,21px);letter-spacing:-.01em;color:var(--cream);margin-bottom:6px;}
+  .shareh .dot{color:var(--accent);}
+  .sharep{font-size:13px;color:#e7e1d5;line-height:1.5;margin-bottom:12px;}
+  .sharebtns{display:flex;gap:8px;flex-wrap:wrap;}
+  .sbtn{display:inline-block;background:#0c0b0f;border:1px solid var(--line);border-radius:9px;
+    color:var(--cream);font-family:'Inter';font-weight:600;font-size:13px;padding:9px 14px;
+    cursor:pointer;transition:.14s;}
+  .sbtn:hover{border-color:var(--accent);color:var(--cream);text-decoration:none;}
+  .sbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;}
+  .sbtn.primary:hover{background:#d13a2b;}
+  .sharefine{font-size:11px;color:var(--muted);margin-top:11px;letter-spacing:.01em;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'climb'),
+      m:(q.get('utm_medium')||'build_in_public'),
+      c:(q.get('utm_campaign')||'EXP-0098'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Building in public</div>
+    <h1>Watch a tiny list climb to 100<span class="dot">.</span></h1>
+    <p class="lede">No big list yet, no brand you have heard of -- just an honest count and the issues we have actually shipped, out in the open. At this size every single subscriber moves the number, and you can watch it happen. That is the whole point, and it only works right now, while we are small.</p>
+    <div class="counter" role="group" aria-label="The climb"><div class="crow"><span class="clabel">Readers on the climb</span><span class="cnum">20 <span class="cof">of 100</span></span></div><div class="ctrack"><div class="cfill" style="width:20.0%"></div></div><p class="cnote">80 to go. At this size a single new subscriber is a step you can see -- which is exactly why we are doing this in the open now and not later. <span class="casof">(as of 2026-10-11)</span></p></div>
+    <section class="why">
+      <div class="jhead"><span class="jdotbig"></span><h2>The milestone journal</h2></div>
+      <p class="jintro">Every entry below is a real issue that actually went out -- the climb, issue by issue. No invented numbers; just what we shipped and when.</p>
+    <section class="journal" aria-label="Milestone journal"><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 012 - Thu, October 8, 2026</p><p class="jtitle">Pet Psychic Readings, and 22 more before they&#x27;re gone</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 011 - Thu, October 1, 2026</p><p class="jtitle">Bedazzled and Brewed, and 26 more before they&#x27;re gone</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 010 - Thu, September 24, 2026</p><p class="jtitle">Guilty Pleasures 25th Anniversary - THE FINAL SHOW AT 3rd &amp; Lindsley, and 34 more before they&#x27;re gone</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 008 - Thu, August 27, 2026</p><p class="jtitle">Please Don&#x27;t Destroy plays TPAC Saturday, and the clock is louder than usual</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 007 - Thu, August 20, 2026</p><p class="jtitle">Out of the Parthenon for the first time in forty years, and it closes Sunday</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 006 - Thu, August 13, 2026</p><p class="jtitle">Whitt&#x27;s and Audrey both serve their last plate</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 004 - Thu, July 30, 2026</p><p class="jtitle">Hilary Duff at Ascend, Burger Up&#x27;s last weekend in 12South, and Broadway goes car-free for Robert&#x27;s</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 003 - Thu, July 23, 2026</p><p class="jtitle">Kindling Arts goes utopian, a San Sebastian wine dinner under the stars, and Turnpike at Ascend</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 002  Thu, July 16, 2026</p><p class="jtitle">Journal Pop tonight, Tori at the Ryman, and a creek dinner at Hachland Hill</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue 001  Thu, July 9, 2026  The Debut</p><p class="jtitle">Harry Connick tonight, a spritz rooftop on a timer, and a race with deadmau5</p></div></article><article class="jrow"><div class="jdot"></div><div class="jbody"><p class="jkick">Issue Zero  The Welcome Edition</p><p class="jtitle">Here for a moment.</p></div></article></section>
+    </section>
+    <section class="honest">
+      <div class="jhead"><span class="jdotbig gold"></span><h2>Why this only works because we are small</h2></div>
+      <p class="honestp">A counter climbing to 100 is only interesting while the numbers are small enough that one person changes them. Once a list is the one everybody in Nashville already has, "watch us grow" stops meaning anything -- the number moves whether you showed up or not. So this is a window that closes on itself: there is exactly one climb from nothing to 100, and you are standing in it. That is not a growth hack bolted on; it is the same thing Fleeting is about -- the stuff that is <b>here, then gone</b>.</p>
+    </section>
+    <section class="cta" id="join">
+      <p class="ctah">Be the next number. You will be #21.</p>
+      <p class="ctap">Subscribe and you are reader #21 on a public climb to 100 -- a number only this honest while we are still small. <b>This list does not ping you</b> -- no alerts, no same-day notifications, just the Thursday heads-up in your inbox.</p>
+      <form class="form" id="subscribe" onsubmit="return go(event)">
+        <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
+        <button class="btn" type="submit">Join the climb &#8594;</button>
+      </form>
+      <p class="fine">Unsubscribe anytime. We never share your email.</p>
+      <div class="share" id="share" hidden>
+        <p class="shareh">Now move the number<span class="dot">.</span></p>
+        <p class="sharep">The climb goes faster when you hand someone the line. Know a Nashvillian who should be a number on this list? Send them your link:</p>
+        <div class="sharebtns">
+          <button class="sbtn primary" type="button" onclick="shareNative()">Share the climb &#8594;</button>
+          <button class="sbtn" type="button" onclick="copyLink(this)">Copy link</button>
+          <a class="sbtn" id="sx" target="_blank" rel="noopener noreferrer">Post to X</a>
+          <a class="sbtn" id="sthreads" target="_blank" rel="noopener noreferrer">Threads</a>
+          <a class="sbtn" id="ssms">Text it</a>
+          <a class="sbtn" id="semail">Email</a>
+        </div>
+        <p class="sharefine">You send it, not us. Nothing posts on your behalf.</p>
+      </div>
+    </section>
+    <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/founding/">founding era</a> page.</p>
+  </div>
+  <script>
+  function flFirstTouch(){
+    var d={utm_source:'',utm_medium:'',utm_campaign:'',
+           referrer:'',first_touch_at:'',landing_path:''};
+    try{
+      var raw=localStorage.getItem('fl_ft');
+      if(raw){var o=JSON.parse(raw);
+        d.utm_source=o.s||'';d.utm_medium=o.m||'';d.utm_campaign=o.c||'';
+        d.referrer=o.r||'';d.first_touch_at=o.t||'';d.landing_path=o.p||'';}
+    }catch(e){}
+    try{var q=new URLSearchParams(location.search);
+      if(!d.utm_source){d.utm_source=q.get('utm_source')||'';}
+      if(!d.utm_medium){d.utm_medium=q.get('utm_medium')||'';}
+      if(!d.utm_campaign){d.utm_campaign=q.get('utm_campaign')||'';}
+    }catch(e){}
+    if(!d.referrer){try{d.referrer=document.referrer||'';}catch(e){}}
+    return d;
+  }
+  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
+  function go(e){
+    e.preventDefault();
+    var form=document.getElementById('subscribe');
+    var input=document.getElementById('email');
+    var btn=form.querySelector('button[type=submit]');
+    var em=input.value.trim();
+    if(!em){ return false; }
+    function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
+    var ft=flFirstTouch();
+    var payload={
+      email:em,
+      referrer:ft.referrer,
+      utm_source:ft.utm_source||'climb',
+      utm_medium:ft.utm_medium||'build_in_public',
+      utm_campaign:ft.utm_campaign||'EXP-0098'
+    };
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Joining...';
+    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          if(d.number||d.position){ window.__fn=parseInt(d.number||d.position,10)||0; }
+          var pos=(window.__fn&&window.__fn>0)?(' You are reader #'+window.__fn+'.'):'';
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">You are on the climb.'+pos+'</div><p style="color:var(--muted);margin:8px 0 0;">Check your inbox to confirm. The first heads-up lands Thursday.</p></div>';
+          revealShare();
+        } else {
+          btn.disabled=false; btn.textContent=label; fallback();
+        }
+      })
+      .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
+    return false;
+  }
+
+  // Reader-initiated share loop. Every button opens a share intent the reader completes, or
+  // copies to their clipboard. Nothing posts on anyone's behalf; no external action runs here.
+  // The share link is UTM-tagged (EXP-0098) so a share->visit->subscribe carries attribution
+  // into the go() payload above. The reader NUMBER is vanity-only and OPTIONAL: shown only when
+  // the worker hands one back (d.number) or a human passes ?n=, never fabricated.
+  function climbNumber(){
+    var q=new URLSearchParams(window.location.search);
+    var n=parseInt(q.get('n')||'0',10);
+    if(window.__fn && window.__fn>0){ n=window.__fn; }
+    return (n>0 && n<100000) ? n : 0;
+  }
+  function shareInfo(){
+    var n=climbNumber();
+    var url='https://nashville.fleeting.city/climb/?utm_source=climb_share&utm_medium=referral&utm_campaign=EXP-0098';
+    var who=n>0 ? ('reader No.'+n+' on') : 'on';
+    var text="I'm "+who+" Fleeting - Nashville's public climb to 100, the weekly list of the city's here-then-gone food, drink and one-night things. Be the next number:";
+    return {url:url, text:text, full:text+' '+url};
+  }
+  function revealShare(){
+    var s=shareInfo();
+    var sx=document.getElementById('sx');
+    var st=document.getElementById('sthreads');
+    var sm=document.getElementById('ssms');
+    var se=document.getElementById('semail');
+    if(sx){ sx.href='https://twitter.com/intent/tweet?text='+encodeURIComponent(s.text)+'&url='+encodeURIComponent(s.url); }
+    if(st){ st.href='https://www.threads.net/intent/post?text='+encodeURIComponent(s.full); }
+    if(sm){ sm.href='sms:?&body='+encodeURIComponent(s.full); }
+    if(se){ se.href='mailto:?subject='+encodeURIComponent('Fleeting is climbing to 100')+'&body='+encodeURIComponent(s.full); }
+    var box=document.getElementById('share');
+    if(box){ box.hidden=false; }
+  }
+  function shareNative(){
+    var s=shareInfo();
+    if(navigator.share){ navigator.share({text:s.text, url:s.url}).catch(function(){}); }
+    else { copyLink(); }
+  }
+  function copyLink(btn){
+    var s=shareInfo();
+    function done(){ if(btn){ var t=btn.textContent; btn.textContent='Copied'; setTimeout(function(){ btn.textContent=t; },1600); } }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(s.full).then(done).catch(function(){}); }
+    else { window.prompt('Copy your climb link:', s.full); }
+  }
+  </script>
+</body>
+</html>

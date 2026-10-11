@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:alive_ii_a_tribute_to_kiss_ft_paul_sidoti-20261026@nashville.fleeting.c
+ ity
+DTSTAMP:20261011T222409Z
+DTSTART:20261027T000000Z
+DTEND:20261027T020000Z
+SUMMARY:Fleeting: Alive II: A Tribute To KISS ft. Paul Sidoti
+LOCATION:Downtown Franklin
+DESCRIPTION:Paul Sidoti\, Taylor Swift's lead guitarist\, fronts a lineup i
+ ncluding veterans who doubled for KISS in the film "Detroit Rock City\," c
+ overing the 1977 Love Gun era in full costume. Cabaret seats include a pre
+ -show meet and greet. $50.\nDetails and tickets: https://downtownfranklint
+ n.com/event/alive-ii-a-tribute-to-kiss-ft-paul-sidoti/\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://downtownfranklintn.com/event/alive-ii-a-tribute-to-kiss-ft-paul
+ -sidoti/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

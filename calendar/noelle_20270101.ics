@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:noelle-20270101@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Last day: Drug Store Coffee
+LOCATION:Noelle\, Downtown
+DESCRIPTION:Coffee concept operating inside Noelle hotel\, open from 6 AM. 
+ Runs through Jan 1.\nDetails and tickets: https://do615.com/events/2026/7/
+ 22/drug-store-coffee-tickets\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/7/22/drug-store-coffee-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tomorrow_s_hope_starting_at_silo_market-20261031@nashville.fleeting.cit
+ y
+DTSTAMP:20261011T222409Z
+DTSTART:20261031T180000Z
+DTEND:20261031T200000Z
+SUMMARY:Fleeting: Nation's "Drink-or-Treat" (one night)
+LOCATION:Tomorrow's Hope (Starting at Silo Market)\, The Nations
+DESCRIPTION:Halloween-themed bar crawl through The Nations neighborhood\, s
+ tarting at Silo Market.\nDetails and tickets: https://www.eventbrite.com/e
+ /nations-drink-or-treat-tickets-2002662184504?aff=ebdssbdestsearch\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://www.eventbrite.com/e/nations-drink-or-treat-tickets-20026621845
+ 04?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -7,18 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:schermerhorn_symphony_center-20261017@nashville.fleeting.city
-DTSTAMP:20261005T230215Z
-DTSTART:20261018T003000Z
-DTEND:20261018T023000Z
-SUMMARY:Fleeting: Nashville Symphony - Mozart & Marsalis Opening Weekend (o
- ne night)
+DTSTAMP:20261011T222409Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Last day: Nashville Symphony Opening Weekend: Mozart & Marsalis
 LOCATION:Schermerhorn Symphony Center\, Downtown
-DESCRIPTION:The Symphony's season opener pairs Mozart with Wynton Marsalis 
- - opening weekend always draws a dressed-up crowd.\nDetails and tickets: h
- ttps://allevents.in/nashville/nashville-symphony-mozart-and-marsalis-openi
- ng-weekend-at-schermerhorn-symphony-center/2400030137626640\nWindows drift
-  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
- what-closes-first list.
+DESCRIPTION:The Nashville Symphony's season opener pairs Mozart with Wynton
+  Marsalis - opening-weekend energy at Schermerhorn that's worth catching b
+ efore it becomes routine.\nDetails and tickets: https://allevents.in/nashv
+ ille/nashville-symphony-mozart-and-marsalis-opening-weekend-at-schermerhor
+ n-symphony-center/2400030137626640\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://allevents.in/nashville/nashville-symphony-mozart-and-marsalis-o
  pening-weekend-at-schermerhorn-symphony-center/2400030137626640
 TRANSP:TRANSPARENT

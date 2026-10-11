@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:brooklyn_bowl_nashville-20261015@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261015T230000Z
+DTEND:20261016T010000Z
+SUMMARY:Fleeting: Spare & Scare: A Halloween Double Feature Movie Night (on
+ e night)
+LOCATION:Brooklyn Bowl Nashville\, North Capitol
+DESCRIPTION:Brooklyn Bowl goes full Halloween with a one-night double featu
+ re movie event - bowling\, drinks\, and horror films in the same room.\nDe
+ tails and tickets: https://do615.com/events/2026/10/15/spare-scare-a-hallo
+ ween-double-feature-movie-night-tickets\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://do615.com/events/2026/10/15/spare-scare-a-halloween-double-feat
+ ure-movie-night-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

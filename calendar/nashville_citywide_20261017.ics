@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_citywide-20261017@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Last day: 2026 Halloween Staycation Giveaway
+LOCATION:Nashville (citywide)
+DESCRIPTION:Enter-to-win contest for a Nashville Halloween staycation grand
+  prize. No purchase indicated\, closes Oct 17.\nDetails and tickets: https
+ ://do615.com/events/2026/9/24/halloween-staycation-tickets\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://do615.com/events/2026/9/24/halloween-staycation-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

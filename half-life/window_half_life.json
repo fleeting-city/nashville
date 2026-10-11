@@ -1,7 +1,7 @@
 {
   "dataset": "Fleeting Nashville window half-life",
   "experiment": "EXP-0072",
-  "generated": "2026-10-05",
+  "generated": "2026-10-11",
   "source": "Fleeting weekly discovery crawl (scripts/out/<date>/candidates.json)",
   "methodology": "A window is a distinct (title, venue) in the crawl record. Days-open is counted inclusively from the listing's stated open date to its stated close date (a one-night event = 1 day); only windows carrying both parseable dates are included. Half-life is the median days-open per category. Categories are normalized from freeform labels by keyword; buckets below n=15 are held back.",
   "provenance": {
@@ -19,15 +19,16 @@
       "2026-09-10",
       "2026-09-17",
       "2026-09-24",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-10-08"
     ],
-    "snapshot_count": 14,
+    "snapshot_count": 15,
     "span_start": "2026-06-25",
-    "span_end": "2026-10-01",
-    "windows_total": 2424,
-    "windows_dated": 1322,
-    "sample_n": 1271,
-    "overall_half_life_days": 1,
+    "span_end": "2026-10-08",
+    "windows_total": 2626,
+    "windows_dated": 1449,
+    "sample_n": 1386,
+    "overall_half_life_days": 1.0,
     "min_n": 15,
     "survive_days": 7,
     "held_back": []
@@ -35,8 +36,8 @@
   "categories": [
     {
       "category": "concert & live music",
-      "n": 507,
-      "half_life_days": 1,
+      "n": 568,
+      "half_life_days": 1.0,
       "p25_days": 1.0,
       "p75_days": 1.0,
       "min_days": 1,
@@ -45,8 +46,8 @@
     },
     {
       "category": "special event",
-      "n": 243,
-      "half_life_days": 1,
+      "n": 260,
+      "half_life_days": 1.0,
       "p25_days": 1.0,
       "p75_days": 1.0,
       "min_days": 1,
@@ -55,8 +56,8 @@
     },
     {
       "category": "festival",
-      "n": 140,
-      "half_life_days": 1.0,
+      "n": 151,
+      "half_life_days": 1,
       "p25_days": 1.0,
       "p75_days": 3.0,
       "min_days": 1,
@@ -65,63 +66,63 @@
     },
     {
       "category": "tasting & dinner",
-      "n": 128,
-      "half_life_days": 1.0,
+      "n": 137,
+      "half_life_days": 1,
       "p25_days": 1.0,
       "p75_days": 1.0,
       "min_days": 1,
       "max_days": 366,
-      "survive_7d_pct": 15
-    },
-    {
-      "category": "ticketed experience",
-      "n": 125,
-      "half_life_days": 1,
-      "p25_days": 1.0,
-      "p75_days": 2.0,
-      "min_days": 1,
-      "max_days": 497,
       "survive_7d_pct": 16
     },
     {
+      "category": "ticketed experience",
+      "n": 136,
+      "half_life_days": 1.0,
+      "p25_days": 1.0,
+      "p75_days": 1.0,
+      "min_days": 1,
+      "max_days": 497,
+      "survive_7d_pct": 14
+    },
+    {
       "category": "pop-up",
-      "n": 46,
+      "n": 48,
       "half_life_days": 1.0,
       "p25_days": 1.0,
       "p75_days": 33.2,
       "min_days": 1,
       "max_days": 108,
-      "survive_7d_pct": 35
+      "survive_7d_pct": 33
     },
     {
       "category": "market",
-      "n": 16,
-      "half_life_days": 1.0,
+      "n": 19,
+      "half_life_days": 1,
       "p25_days": 1.0,
-      "p75_days": 2.8,
+      "p75_days": 2.0,
       "min_days": 1,
       "max_days": 155,
-      "survive_7d_pct": 19
+      "survive_7d_pct": 16
     },
     {
       "category": "gallery & exhibition",
-      "n": 18,
-      "half_life_days": 1.5,
+      "n": 19,
+      "half_life_days": 2,
       "p25_days": 1.0,
-      "p75_days": 16.8,
+      "p75_days": 17.0,
       "min_days": 1,
       "max_days": 198,
-      "survive_7d_pct": 39
+      "survive_7d_pct": 42
     },
     {
       "category": "limited run",
       "n": 48,
       "half_life_days": 17.0,
-      "p25_days": 8.2,
-      "p75_days": 33.5,
+      "p25_days": 5.8,
+      "p75_days": 31.8,
       "min_days": 1,
       "max_days": 199,
-      "survive_7d_pct": 77
+      "survive_7d_pct": 75
     }
   ]
 }

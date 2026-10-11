@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:oddity_improv-20261013@nashville.fleeting.city
+DTSTAMP:20261011T222409Z
+DTSTART:20261014T000000Z
+DTEND:20261014T020000Z
+SUMMARY:Fleeting: Oddity Improv
+LOCATION:Downtown Franklin
+DESCRIPTION:Live improv comedy show in downtown Franklin. Single evening pe
+ rformance.\nDetails and tickets: https://downtownfranklintn.com/event/oddi
+ ty-improv-10/\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/oddity-improv-10/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,11 @@
+{
+  "dataset": "Fleeting Nashville sold-out this week",
+  "experiment": "EXP-0091",
+  "generated": "2026-10-11",
+  "board_date": "2026-10-08",
+  "week_of": "Oct 5",
+  "source": "Fleeting weekly discovery crawl whole board (board_source.py) + soldout.json verdicts",
+  "methodology": "Public, past-tense, sold-out-only leaderboard. A window is included only if ranking.is_gone() calls it gone (SOLD OUT) or its listing carried real scarcity language and it closed this past week (FILLED FAST). Fill/close-speed is computed by build_soldout_sweep.build_record (the members sweep's computation) and ranked fastest-first. No guessed sellouts; a missing date is omitted, not invented.",
+  "count": 0,
+  "items": []
+}
