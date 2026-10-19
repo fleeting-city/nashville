@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20261029@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261030T014500Z
+DTEND:20261030T034500Z
+SUMMARY:Fleeting: Candlelight: 90s Hip-Hop on Strings (one night)
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:90s hip-hop catalog performed by strings in candlelight inside 
+ The Parthenon. Tickets from $42.\nDetails and tickets: https://allevents.i
+ n/nashville/candlelight-90s-hip-hop-on-strings/2700030166006823\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://allevents.in/nashville/candlelight-90s-hip-hop-on-strings/27000
+ 30166006823
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

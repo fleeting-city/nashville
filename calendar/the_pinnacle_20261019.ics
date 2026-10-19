@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_pinnacle-20261019@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261020T000000Z
+DTEND:20261020T020000Z
+SUMMARY:Fleeting: Knocked Loose & Denzel Curry (one night)
+LOCATION:The Pinnacle\, Downtown
+DESCRIPTION:Knocked Loose and Denzel Curry co-headline a single night at Th
+ e Pinnacle.\nDetails and tickets: https://nashvilledowntown.com/event/knoc
+ ked-loose-and-denzel-curry\nWindows drift - confirm with the venue before 
+ you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/knocked-loose-and-denzel-curry
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

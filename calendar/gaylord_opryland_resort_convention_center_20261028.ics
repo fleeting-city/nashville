@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gaylord_opryland_resort_convention_center-20261028@nashville.fleeting.c
+ ity
+DTSTAMP:20261019T122450Z
+DTSTART:20261029T003000Z
+DTEND:20261029T023000Z
+SUMMARY:Fleeting: The Champions: A World Bass Championship (one night)
+LOCATION:Gaylord Opryland Resort & Convention Center
+DESCRIPTION:Ticketed spectator event for a world bass fishing championship.
+  $58\, one night.\nDetails and tickets: https://allevents.in/nashville/the
+ -champions-a-world-bass-championship/100001992387308072\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://allevents.in/nashville/the-champions-a-world-bass-championship/
+ 100001992387308072
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

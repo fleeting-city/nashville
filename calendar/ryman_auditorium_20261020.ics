@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261020@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T003000Z
+DTEND:20261021T023000Z
+SUMMARY:Fleeting: Sons of Legion (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Sons of Legion perform at the Ryman for one night.\nDetails and
+  tickets: https://nashvilledowntown.com/event/sons-of-legion\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://nashvilledowntown.com/event/sons-of-legion
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

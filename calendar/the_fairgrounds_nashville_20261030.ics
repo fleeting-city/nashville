@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_fairgrounds_nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261030T170000Z
+DTEND:20261030T190000Z
+SUMMARY:Fleeting: Nash-ional (one night)
+LOCATION:The Fairgrounds Nashville\, Vine Hill
+DESCRIPTION:Exhibition at The Fairgrounds Nashville. 126+ interested\, no c
+ losing date stated.\nDetails and tickets: https://allevents.in/nashville/n
+ ash-ional/200030454578007\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/nash-ional/200030454578007
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

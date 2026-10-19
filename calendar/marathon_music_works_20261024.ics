@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T000000Z
+DTEND:20261025T020000Z
+SUMMARY:Fleeting: Songs That Saved My Life: A Sober 90s/2000s Pop Punk Sing
+  Along Party (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:Sober-friendly 90s and 2000s pop punk sing-along at Marathon Mu
+ sic Works. One night.\nDetails and tickets: https://nashvillego.com/calend
+ ar\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

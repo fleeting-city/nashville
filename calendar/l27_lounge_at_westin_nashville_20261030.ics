@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:l27_lounge_at_westin_nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261031T020000Z
+DTEND:20261031T040000Z
+SUMMARY:Fleeting: L27 Rooftop Nashville Halloween Eve Masquerade Party (one
+  night)
+LOCATION:L27 Lounge at Westin Nashville
+DESCRIPTION:Masquerade party on the Westin Nashville rooftop the night befo
+ re Halloween. Tickets $32.\nDetails and tickets: https://allevents.in/nash
+ ville/l27-rooftop-nashville-halloween-eve-masquerade-party/100001997459721
+ 798\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/l27-rooftop-nashville-halloween-eve-masq
+ uerade-party/100001997459721798
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

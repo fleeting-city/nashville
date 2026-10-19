@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Fleeting: Suspended Gravity Circus: Shadow Parade (one night)
+LOCATION:Eastside Bowl\, East Nashville
+DESCRIPTION:One-night circus performance at Eastside Bowl.\nDetails and tic
+ kets: https://nashvillego.com/calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

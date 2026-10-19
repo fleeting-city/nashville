@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gaylord_opryland-20261231@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Last day: POMP\, SNOW & CIRQUEumstance 2026
+LOCATION:Gaylord Opryland\, Opryland
+DESCRIPTION:Gaylord Opryland's holiday cirque spectacular runs November 24 
+ through December 31 with new acts for 2026. Award-winning production featu
+ ring acrobatics and magic.\nDetails and tickets: https://nashvillelifestyl
+ es.com/nashville-calendar/things-to-do/gaylord-opryland%E2%80%99s-award-wi
+ nning-pomp-snow-cirqueumstance-re/\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/gaylord
+ -opryland%E2%80%99s-award-winning-pomp-snow-cirqueumstance-re/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

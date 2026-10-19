@@ -7,15 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:city_winery_nashville-20261121@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
+DTSTAMP:20261019T122450Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Fleeting: The Boy Band Brunch at City Winery Nashville (one night)
 LOCATION:City Winery Nashville\, Pie Town
-DESCRIPTION:One-off themed brunch with boy band music at City Winery\, from
-  $39. Single date.\nDetails and tickets: https://bucketlisters.com/explore
- /city/NSH\nWindows drift - confirm with the venue before you go.\nFleeting
-  - the weekly Nashville what-closes-first list.
+DESCRIPTION:One-night themed brunch with boy band music at City Winery\, fr
+ om $39. Single date\, ticketed.\nDetails and tickets: https://bucketlister
+ s.com/explore/city/NSH\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://bucketlisters.com/explore/city/NSH
 TRANSP:TRANSPARENT
 END:VEVENT

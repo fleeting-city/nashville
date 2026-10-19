@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T220000Z
+DTEND:20261026T000000Z
+SUMMARY:Fleeting: Nashville Jazz Festival featuring Kirk Whalum\, Rod McGah
+ a\, Chester Thompson & David Williford (one night)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:Jazz festival at 3rd and Lindsley with four named performers in
+ cluding Kirk Whalum. Tickets $36.\nDetails and tickets: https://allevents.
+ in/nashville/nashville-jazz-festival-featuring-kirk-whalum-rod-mcgaha-ches
+ ter-thompson-and-david-williford/210001630428932\nWindows drift - confirm 
+ with the venue before you go.\nFleeting - the weekly Nashville what-closes
+ -first list.
+URL:https://allevents.in/nashville/nashville-jazz-festival-featuring-kirk-w
+ halum-rod-mcgaha-chester-thompson-and-david-williford/210001630428932
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

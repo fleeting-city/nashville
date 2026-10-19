@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261022T010000Z
+DTEND:20261022T030000Z
+SUMMARY:Fleeting: Aaron Lee Tasjan Album Release Show w/ Madeleine Kelson (
+ one night)
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:Album release show at the Basement East\; a one-night event tie
+ d to new material.\nDetails and tickets: https://do615.com/events/2026/10/
+ 21/aaron-lee-tasjan-album-release-show-tickets\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://do615.com/events/2026/10/21/aaron-lee-tasjan-album-release-show
+ -tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

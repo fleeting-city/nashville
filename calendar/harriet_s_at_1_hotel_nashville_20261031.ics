@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harriet_s_at_1_hotel_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:Fleeting: AZURE Presents: Halloween at Harriet's Rooftop 1 Hotel Na
+ shville (one night)
+LOCATION:Harriet's at 1 Hotel Nashville
+DESCRIPTION:Halloween night rooftop party at 1 Hotel Nashville's Harriet's 
+ bar. Tickets $40.\nDetails and tickets: https://allevents.in/nashville/azu
+ re-presents-halloween-at-harriets-rooftop-1-hotel-nashville/46000307401370
+ 10\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/azure-presents-halloween-at-harriets-roo
+ ftop-1-hotel-nashville/4600030740137010
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

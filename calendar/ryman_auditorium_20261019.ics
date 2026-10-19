@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261019@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261020T003000Z
+DTEND:20261020T023000Z
+SUMMARY:Fleeting: Sonic Live in Concert (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:One-night Sonic the Hedgehog live concert event at the Ryman Au
+ ditorium.\nDetails and tickets: https://nashvillego.com/calendar\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

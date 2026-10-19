@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fisher_center-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Fleeting: Dolly tribute TV taping (one night)
+LOCATION:Fisher Center\, Belmont University
+DESCRIPTION:Two-hour CBS special taping with a large turnout of musician fr
+ iends expected. Live audience seats available.\nDetails and tickets: https
+ ://www.thefishercenter.com/events/\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.thefishercenter.com/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

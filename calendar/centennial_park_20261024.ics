@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T153000Z
+DTEND:20261024T173000Z
+SUMMARY:Fleeting: Walk to End Lupus Now (one night)
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:Annual charity walk at Centennial Park benefiting lupus awarene
+ ss.\nDetails and tickets: https://nashvillego.com/calendar\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

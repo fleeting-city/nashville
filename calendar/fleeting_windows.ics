@@ -7,852 +7,23 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:fleeting-join-the-free-list@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
 RRULE:FREQ=WEEKLY
 SUMMARY:Fleeting: this week's Nashville picks - join the free list
 DESCRIPTION:Fleeting finds Nashville's here-then-gone food\, drink and one-
  night windows and drops each deadline onto this calendar as it is discover
  ed.\nJoin the free weekly list: https://nashville.fleeting.city/?utm_sourc
- e=calendar&utm_medium=ics&utm_campaign=feed#subscribe\nThis calendar refre
- shes on its own. Nothing is ever sent to you - you look when you look.
+ e=calendar&utm_medium=ics&utm_campaign=EXP-0113#subscribe\nThis calendar r
+ efreshes on its own. Nothing is ever sent to you - you look when you look.
 URL:https://nashville.fleeting.city/?utm_source=calendar&utm_medium=ics&utm
- _campaign=feed#subscribe
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hatch_show_print-20261011@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261011T150000Z
-DTEND:20261011T170000Z
-SUMMARY:Fleeting: Hatch Show Print Family Block Party (one night)
-LOCATION:Hatch Show Print
-DESCRIPTION:Family-oriented follow-up block party at the letterpress shop t
- he next morning. No pricing stated.\nDetails and tickets: https://patch.co
- m/tennessee/nashville/calendar/event/20261011/32b0f299-944a-442f-add8-22f1
- a21f4b83/hatch-show-print-family-block-party\nWindows drift - confirm with
-  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
- st list.
-URL:https://patch.com/tennessee/nashville/calendar/event/20261011/32b0f299-
- 944a-442f-add8-22f1a21f4b83/hatch-show-print-family-block-party
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ascend_amphitheater-20261011@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261012T010000Z
-DTEND:20261012T030000Z
-SUMMARY:Fleeting: Dermot Kennedy (one night)
-LOCATION:Ascend Amphitheater\, Downtown
-DESCRIPTION:Outdoor amphitheater show from the Irish singer-songwriter\, on
- e night only. No opener or ticket price stated.\nDetails and tickets: http
- s://nashvilledowntown.com/event/dermot-kennedy\nWindows drift - confirm wi
- th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
- irst list.
-URL:https://nashvilledowntown.com/event/dermot-kennedy
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tpac_tennessee_performing_arts_center-20261011@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:Last day: John Proctor Is the Villain
-LOCATION:TPAC - Tennessee Performing Arts Center\, Downtown
-DESCRIPTION:Limited theatrical run at TPAC with evening and matinee perform
- ances Thursday through Sunday. No ticket price stated.\nDetails and ticket
- s: https://nashvilledowntown.com/event/john-proctor-is-the-villain\nWindow
- s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
- hville what-closes-first list.
-URL:https://nashvilledowntown.com/event/john-proctor-is-the-villain
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:brooklyn_bowl_nashville-20261011@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261012T000000Z
-DTEND:20261012T020000Z
-SUMMARY:Fleeting: Candlebox - Can't Quit You Tour (one night)
-LOCATION:Brooklyn Bowl Nashville\, North Capitol
-DESCRIPTION:Named tour stop from the 90s alt-rock act at Brooklyn Bowl. One
-  night only\; no ticket price stated.\nDetails and tickets: https://nashvi
- lledowntown.com/event/candlebox-cant-quit-you-tour\nWindows drift - confir
- m with the venue before you go.\nFleeting - the weekly Nashville what-clos
- es-first list.
-URL:https://nashvilledowntown.com/event/candlebox-cant-quit-you-tour
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:brooklyn_bowl_nashville-20261012@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261013T003000Z
-DTEND:20261013T023000Z
-SUMMARY:Fleeting: Bright Eyes (one night)
-LOCATION:Brooklyn Bowl Nashville\, North Capitol
-DESCRIPTION:One-night show from Conor Oberst's band at Brooklyn Bowl. No op
- ener or ticket price stated in the listing.\nDetails and tickets: https://
- nashvilledowntown.com/event/bright-eyes\nWindows drift - confirm with the 
- venue before you go.\nFleeting - the weekly Nashville what-closes-first li
- st.
-URL:https://nashvilledowntown.com/event/bright-eyes
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:downtown_franklin_venue_unspecified-20261011@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261012T020000Z
-DTEND:20261012T040000Z
-SUMMARY:Fleeting: Deborah Allen & Friends Sunday Gospel Matinee ft. John Be
- rry\, Chloe Agnew\, and Jesse & Noah Bellamy (one night)
-LOCATION:Downtown Franklin (venue unspecified)\, Franklin
-DESCRIPTION:Country legend Deborah Allen anchors a stacked gospel matinee w
- ith an unusually deep guest lineup - this one punches above a typical Sund
- ay show.\nDetails and tickets: https://downtownfranklintn.com/event/debora
- h-allen-friends-sunday-gospel-matinee-ft-john-berry-chloe-agnew-and-jesse-
- noah-bellamy/\nWindows drift - confirm with the venue before you go.\nFlee
- ting - the weekly Nashville what-closes-first list.
-URL:https://downtownfranklintn.com/event/deborah-allen-friends-sunday-gospe
- l-matinee-ft-john-berry-chloe-agnew-and-jesse-noah-bellamy/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:two_rivers_mansion-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
-SUMMARY:Fleeting: Tennessee Beer\, Bourbon\, Wine\, & Shine Festival (16th 
- Annual) (one night)
-LOCATION:Two Rivers Mansion\, Donelson
-DESCRIPTION:Annual tasting festival covering beer\, bourbon\, wine\, and mo
- onshine at a historic mansion. Tickets from $17.37.\nDetails and tickets: 
- https://www.eventbrite.com/e/tennessee-beer-bourbon-wine-shine-festival-16
- th-annual-tickets-1995982883535?aff=ebdssbdestsearch\nWindows drift - conf
- irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
- oses-first list.
-URL:https://www.eventbrite.com/e/tennessee-beer-bourbon-wine-shine-festival
- -16th-annual-tickets-1995982883535?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bicentennial_mall_state_park-20261018@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Last day: Southern Festival of Books
-LOCATION:Bicentennial Mall State Park\, Downtown
-DESCRIPTION:Free weekend event spanning the Mall\, Tennessee State Museum\,
-  and State Library with author talks\, vendors\, and kids activities.\nDet
- ails and tickets: https://celebratenashville.org/\nWindows drift - confirm
-  with the venue before you go.\nFleeting - the weekly Nashville what-close
- s-first list.
-URL:https://celebratenashville.org/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:vanderbilt_dyer_observatory-20261018@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Fleeting: Radnor Rounds benefit concert (one night)
-LOCATION:Vanderbilt Dyer Observatory\, Oak Hill
-DESCRIPTION:Phil Vassar and Friends play a benefit for Radnor Lake State Pa
- rk. Tickets are sold per carload of up to 8 guests at $350.\nDetails and t
- ickets: https://radnorlake.org/radnor-in-the-round-2026/\nWindows drift - 
- confirm with the venue before you go.\nFleeting - the weekly Nashville wha
- t-closes-first list.
-URL:https://radnorlake.org/radnor-in-the-round-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:mother_s_ruin_upstairs-20261015@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261016T000000Z
-DTEND:20261016T020000Z
-SUMMARY:Fleeting: RE:MIX #3 Presented by Soundtrack My Drink (one night)
-LOCATION:Mother's Ruin (Upstairs)\, Germantown
-DESCRIPTION:Three bartenders compete through mystery basket rounds using Ol
- d Forester bourbon while guests taste welcome cocktails and vote on a winn
- er. A cash bar and spirit-curated music run alongside as finalists have on
- e hour to build an original drink.\nDetails and tickets: https://www.event
- brite.com/e/remix-3-presented-by-soundtrack-my-drink-tickets-2000653576704
- ?aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you g
- o.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://www.eventbrite.com/e/remix-3-presented-by-soundtrack-my-drink-t
- ickets-2000653576704?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:the_palm_nashville-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261017T230000Z
-DTEND:20261018T010000Z
-SUMMARY:Fleeting: The Palm's 100th Anniversary Wine Dinner - Nashville (one
-  night)
-LOCATION:The Palm - Nashville\, Downtown
-DESCRIPTION:Centennial anniversary wine dinner at The Palm Nashville. One-n
- ight ticketed event marking 100 years.\nDetails and tickets: https://www.e
- ventbrite.com/e/the-palms-100th-anniversary-wine-dinner-nashville-tickets-
- 1997195894684?aff=ebdssbdestsearch\nWindows drift - confirm with the venue
-  before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://www.eventbrite.com/e/the-palms-100th-anniversary-wine-dinner-na
- shville-tickets-1997195894684?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:the_franklin_theatre-20261015@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261016T003000Z
-DTEND:20261016T023000Z
-SUMMARY:Fleeting: The Franklin Theatre Songwriters Series: Black River Ente
- rtainment Presents Doug Johnson\, Josh Kerr\, and Dan Wilson (one night)
-LOCATION:The Franklin Theatre\, Downtown Franklin
-DESCRIPTION:In-the-round songwriters showcase presented by Black River Ente
- rtainment with three Nashville-connected writers. One night.\nDetails and 
- tickets: https://downtownfranklintn.com/event/the-franklin-theatre-songwri
- ters-series-black-river-entertainment-presents-doug-johnson-josh-kerr-and-
- dan-wilson/\nWindows drift - confirm with the venue before you go.\nFleeti
- ng - the weekly Nashville what-closes-first list.
-URL:https://downtownfranklintn.com/event/the-franklin-theatre-songwriters-s
- eries-black-river-entertainment-presents-doug-johnson-josh-kerr-and-dan-wi
- lson/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bearded_iris_brewing-20261018@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261018T170000Z
-DTEND:20261018T190000Z
-SUMMARY:Fleeting: Sazon Latin Food Festival 2026: Nashville's Taste of Lati
- n American Food (one night)
-LOCATION:Bearded Iris Brewing\, East Germantown
-DESCRIPTION:Latin American food festival at Bearded Iris Brewing featuring 
- vendors and flavors from across Latin America.\nDetails and tickets: https
- ://www.eventbrite.com/e/sazon-latin-food-festival-2026-nashvilles-taste-of
- -latin-american-food-tickets-1983577985150?aff=ebdssbdestsearch\nWindows d
- rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
- lle what-closes-first list.
-URL:https://www.eventbrite.com/e/sazon-latin-food-festival-2026-nashvilles-
- taste-of-latin-american-food-tickets-1983577985150?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fisher_center_for_the_performing_arts-20261014@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:Fleeting: CMA Country Christmas Taping (one night)
-LOCATION:Fisher Center for the Performing Arts\, Belmont
-DESCRIPTION:Attend the live TV taping of a CBS Christmas special featuring 
- Trisha Yearwood\, BeBe and Debbie Winans\, Dan + Shay\, and Russell Dicker
- son at Belmont University's concert hall.\nDetails and tickets: https://ww
- w.thefishercenter.com/2026/09/16/cma-country-christmas-2026/\nWindows drif
- t - confirm with the venue before you go.\nFleeting - the weekly Nashville
-  what-closes-first list.
-URL:https://www.thefishercenter.com/2026/09/16/cma-country-christmas-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ascend_amphitheater-20261018@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Fleeting: Live on the Green concert (one night)
-LOCATION:Ascend Amphitheater\, Downtown
-DESCRIPTION:One-off 'lawnwarming' reboot of the formerly free outdoor serie
- s with Guster and Grace Potter. Tickets start at $20.\nDetails and tickets
- : https://liveonthegreen.com/\nWindows drift - confirm with the venue befo
- re you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://liveonthegreen.com/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:downtown_franklin_venue-20261014@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261014T200000Z
-DTEND:20261014T220000Z
-SUMMARY:Fleeting: FEAR FEST: Hocus Pocus (1993) (one night)
-LOCATION:Downtown Franklin venue\, Downtown Franklin
-DESCRIPTION:Third scheduled screening of Hocus Pocus in this year's FEAR FE
- ST run\, afternoon slot.\nDetails and tickets: https://downtownfranklintn.
- com/event/fear-fest-hocus-pocus-1993-2/\nWindows drift - confirm with the 
- venue before you go.\nFleeting - the weekly Nashville what-closes-first li
- st.
-URL:https://downtownfranklintn.com/event/fear-fest-hocus-pocus-1993-2/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:the_fairgrounds_nashville-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
-SUMMARY:Fleeting: The Nashville Vintage Market (one night)
-LOCATION:The Fairgrounds Nashville\, Vine Hill
-DESCRIPTION:Nashville's beloved vintage market is back at the Fairgrounds -
-  $5 entry for the dealers\, the finds\, and the people-watching.\nDetails 
- and tickets: https://allevents.in/nashville/the-nashville-vintage-market-t
- ickets/80002894423001\nWindows drift - confirm with the venue before you g
- o.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://allevents.in/nashville/the-nashville-vintage-market-tickets/800
- 02894423001
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:the_lab_at_zanies-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
-SUMMARY:Fleeting: Dolly Parton Drag Brunch (one night)
-LOCATION:The Lab at Zanies
-DESCRIPTION:All Dolly\, all drag\, all brunch - The Lab at Zanies does this
-  one right and it reliably sells out.\nDetails and tickets: https://alleve
- nts.in/nashville/dolly-parton-drag-brunch-nashville/200030723993625\nWindo
- ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
- shville what-closes-first list.
-URL:https://allevents.in/nashville/dolly-parton-drag-brunch-nashville/20003
- 0723993625
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:centennial_park-20261016@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261016T150000Z
-DTEND:20261016T170000Z
-SUMMARY:Fleeting: NASHVILLE ARTISAN @ VENDOR MARKET (one night)
-LOCATION:Centennial Park\, Centennial
-DESCRIPTION:Artisan vendor market at Centennial Park - local makers\, handm
- ade goods\, and the kind of one-off finds you won't see at the mall.\nDeta
- ils and tickets: https://www.eventbrite.com/e/nashville-artisan-vendor-mar
- ket-tickets-2002737096568?aff=ebdssbdestsearch\nWindows drift - confirm wi
- th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
- irst list.
-URL:https://www.eventbrite.com/e/nashville-artisan-vendor-market-tickets-20
- 02737096568?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:mott_cha-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
-SUMMARY:Fleeting: Mott Cha Market | October 2026 (one night)
-LOCATION:Mott Cha\, Melrose
-DESCRIPTION:Monthly pop-up market at Melrose's Mott Cha - a tight curation 
- of local vendors in a neighborhood that actually has taste.\nDetails and t
- ickets: https://www.eventbrite.com/e/mott-cha-market-october-2026-tickets-
- 1986033061349?aff=ebdssbdestsearch\nWindows drift - confirm with the venue
-  before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://www.eventbrite.com/e/mott-cha-market-october-2026-tickets-19860
- 33061349?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:geodis_park-20261014@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261015T003000Z
-DTEND:20261015T023000Z
-SUMMARY:Fleeting: Nashville Soccer Club vs. Sporting Kansas City (one night
- )
-LOCATION:Geodis Park\, Wedgewood-Houston
-DESCRIPTION:Nashville SC hosts Sporting Kansas City in a late-season MLS re
- gular season match\, with Pet Adoption Night presented by Mars Petcare run
- ning alongside the game at Geodis Park.\nDetails and tickets: https://patc
- h.com/tennessee/nashville/calendar/event/20261014/f0c13a66-8e27-4bd0-a564-
- cd0262d0c86e/nashville-soccer-club-vs-sporting-kansas-city\nWindows drift 
- - confirm with the venue before you go.\nFleeting - the weekly Nashville w
- hat-closes-first list.
-URL:https://patch.com/tennessee/nashville/calendar/event/20261014/f0c13a66-
- 8e27-4bd0-a564-cd0262d0c86e/nashville-soccer-club-vs-sporting-kansas-city
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3rd_and_lindsley-20261014@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261015T010000Z
-DTEND:20261015T030000Z
-SUMMARY:Fleeting: Mark Hummel Blues Survivors Road Dog Album Release (one n
- ight)
-LOCATION:3rd and Lindsley\, Downtown
-DESCRIPTION:Live album release with blues harp legend Mark Hummel\, Anson F
- underburgh\, and Frank Bang - one night at Nashville's best listening room
- .\nDetails and tickets: https://allevents.in/nashville/mark-hummel-blues-s
- urvivors-road-dog-album-release-featuring-anson-funderburgh-with-frank-ban
- g-and-t/210002661101788\nWindows drift - confirm with the venue before you
-  go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://allevents.in/nashville/mark-hummel-blues-survivors-road-dog-alb
- um-release-featuring-anson-funderburgh-with-frank-bang-and-t/2100026611017
- 88
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:opry_mills-20261016@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261016T180000Z
-DTEND:20261016T200000Z
-SUMMARY:Fleeting: FOODEESFEST Nashville - 40+ Food Trucks & Craft Vendors (
- one night)
-LOCATION:Opry Mills\, Opryland
-DESCRIPTION:One-day food-truck takeover at Opry Mills with 40+ vendors - fr
- ee admission and a solid excuse to eat your way around the parking lot.\nD
- etails and tickets: https://allevents.in/nashville/foodeesfest-nashville-t
- ennessee-40-food-trucks-and-craft-vendors/100001991730563732\nWindows drif
- t - confirm with the venue before you go.\nFleeting - the weekly Nashville
-  what-closes-first list.
-URL:https://allevents.in/nashville/foodeesfest-nashville-tennessee-40-food-
- trucks-and-craft-vendors/100001991730563732
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:downtown_franklin_venue_unspecified-20261016@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261017T023000Z
-DTEND:20261017T043000Z
-SUMMARY:Fleeting: The Songs of Frank Myers: Songs and Strings (one night)
-LOCATION:Downtown Franklin (venue unspecified)\, Franklin
-DESCRIPTION:A dedicated evening celebrating the songwriting catalog of Fran
- k Myers - intimate\, strings-forward\, and the kind of show that fills up 
- quietly.\nDetails and tickets: https://downtownfranklintn.com/event/the-so
- ngs-of-frank-myers-songs-and-strings/\nWindows drift - confirm with the ve
- nue before you go.\nFleeting - the weekly Nashville what-closes-first list
- .
-URL:https://downtownfranklintn.com/event/the-songs-of-frank-myers-songs-and
- -strings/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:downtown_franklin_venue_unspecified-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261018T010000Z
-DTEND:20261018T030000Z
-SUMMARY:Fleeting: Alison Brown (one night)
-LOCATION:Downtown Franklin (venue unspecified)\, Franklin
-DESCRIPTION:Grammy-winning banjo virtuoso Alison Brown in an intimate Frank
- lin setting - a rare chance to catch one of bluegrass's most distinctive v
- oices up close.\nDetails and tickets: https://downtownfranklintn.com/event
- /alison-brown/\nWindows drift - confirm with the venue before you go.\nFle
- eting - the weekly Nashville what-closes-first list.
-URL:https://downtownfranklintn.com/event/alison-brown/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:downtown_franklin_venue_unspecified-20261018@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261019T033000Z
-DTEND:20261019T053000Z
-SUMMARY:Fleeting: Mike Dawes (one night)
-LOCATION:Downtown Franklin (venue unspecified)\, Franklin
-DESCRIPTION:UK fingerstyle guitar phenomenon Mike Dawes - the guy who does 
- the impossible-looking solo arrangements - plays Franklin for what's likel
- y a short run.\nDetails and tickets: https://downtownfranklintn.com/event/
- mike-dawes/\nWindows drift - confirm with the venue before you go.\nFleeti
- ng - the weekly Nashville what-closes-first list.
-URL:https://downtownfranklintn.com/event/mike-dawes/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:schermerhorn_symphony_center-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Last day: Nashville Symphony Opening Weekend: Mozart & Marsalis
-LOCATION:Schermerhorn Symphony Center\, Downtown
-DESCRIPTION:The Nashville Symphony's season opener pairs Mozart with Wynton
-  Marsalis - opening-weekend energy at Schermerhorn that's worth catching b
- efore it becomes routine.\nDetails and tickets: https://allevents.in/nashv
- ille/nashville-symphony-mozart-and-marsalis-opening-weekend-at-schermerhor
- n-symphony-center/2400030137626640\nWindows drift - confirm with the venue
-  before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://allevents.in/nashville/nashville-symphony-mozart-and-marsalis-o
- pening-weekend-at-schermerhorn-symphony-center/2400030137626640
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fisher_center_for_the_performing_arts-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Fleeting: C.S. Lewis on Stage: Further Up and Further In (one night
- )
-LOCATION:Fisher Center for the Performing Arts\, Belmont University
-DESCRIPTION:Actor Max McLean performs Lewis's own words in a one-night thea
- trical presentation - niche but genuinely compelling for fans.\nDetails an
- d tickets: https://www.thefishercenter.com/2026/06/23/c-s-lewis-on-stage-1
- 0-17-26/\nWindows drift - confirm with the venue before you go.\nFleeting 
- - the weekly Nashville what-closes-first list.
-URL:https://www.thefishercenter.com/2026/06/23/c-s-lewis-on-stage-10-17-26/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:brooklyn_bowl_nashville-20261015@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261015T230000Z
-DTEND:20261016T010000Z
-SUMMARY:Fleeting: Spare & Scare: A Halloween Double Feature Movie Night (on
- e night)
-LOCATION:Brooklyn Bowl Nashville\, North Capitol
-DESCRIPTION:Brooklyn Bowl goes full Halloween with a one-night double featu
- re movie event - bowling\, drinks\, and horror films in the same room.\nDe
- tails and tickets: https://do615.com/events/2026/10/15/spare-scare-a-hallo
- ween-double-feature-movie-night-tickets\nWindows drift - confirm with the 
- venue before you go.\nFleeting - the weekly Nashville what-closes-first li
- st.
-URL:https://do615.com/events/2026/10/15/spare-scare-a-halloween-double-feat
- ure-movie-night-tickets
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:langford_auditorium-20261011@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261011T233000Z
-DTEND:20261012T013000Z
-SUMMARY:Fleeting: Author Event with Barbara Kingsolver (one night)
-LOCATION:Langford Auditorium
-DESCRIPTION:Pulitzer winner Barbara Kingsolver live at Vanderbilt for $39 -
-  one night only.\nDetails and tickets: https://allevents.in/nashville/auth
- or-event-with-barbara-kingsolver/100001990578356449\nWindows drift - confi
- rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
- ses-first list.
-URL:https://allevents.in/nashville/author-event-with-barbara-kingsolver/100
- 001990578356449
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:dumpling_fest_nashville-20261021@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261021T220000Z
-DTEND:20261022T000000Z
-SUMMARY:Fleeting: Dumpling Fest Nashville
-LOCATION:Germantown and Hillsboro Village
-DESCRIPTION:Dumpling-focused food festival spanning Germantown and Hillsbor
- o Village locations.\nDetails and tickets: https://www.eventbrite.ca/e/dum
- pling-fest-nashville-tickets-1999218321818?aff=ebdssbdestsearch\nWindows d
- rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
- lle what-closes-first list.
-URL:https://www.eventbrite.ca/e/dumpling-fest-nashville-tickets-19992183218
- 18?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tennessee_agricultural_museum-20261024@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261024T230000Z
-DTEND:20261025T010000Z
-SUMMARY:Fleeting: Dinner on the Lawn (one night)
-LOCATION:Tennessee Agricultural Museum\, Crieve Hall
-DESCRIPTION:Single-night outdoor dinner at the Tennessee Agricultural Museu
- m in Crieve Hall.\nDetails and tickets: https://www.eventbrite.com/e/dinne
- r-on-the-lawn-tickets-1994095700921?aff=ebdssbdestsearch\nWindows drift - 
- confirm with the venue before you go.\nFleeting - the weekly Nashville wha
- t-closes-first list.
-URL:https://www.eventbrite.com/e/dinner-on-the-lawn-tickets-1994095700921?a
- ff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tomorrow_s_hope_starting_at_silo_market-20261031@nashville.fleeting.cit
- y
-DTSTAMP:20261011T222409Z
-DTSTART:20261031T180000Z
-DTEND:20261031T200000Z
-SUMMARY:Fleeting: Nation's "Drink-or-Treat" (one night)
-LOCATION:Tomorrow's Hope (Starting at Silo Market)\, The Nations
-DESCRIPTION:Halloween-themed bar crawl through The Nations neighborhood\, s
- tarting at Silo Market.\nDetails and tickets: https://www.eventbrite.com/e
- /nations-drink-or-treat-tickets-2002662184504?aff=ebdssbdestsearch\nWindow
- s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
- hville what-closes-first list.
-URL:https://www.eventbrite.com/e/nations-drink-or-treat-tickets-20026621845
- 04?aff=ebdssbdestsearch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:national_museum_of_african_american_music-20261023@nashville.fleeting.c
- ity
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Fleeting: Candlelight: Halloween Classics (one night)
-LOCATION:National Museum of African American Music\, Downtown
-DESCRIPTION:Candlelight concert of Halloween classics at NMAAM. Single date
- \, tickets from $55.97.\nDetails and tickets: https://feverup.com/m/636780
- \nWindows drift - confirm with the venue before you go.\nFleeting - the we
- ekly Nashville what-closes-first list.
-URL:https://feverup.com/m/636780
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:the_parthenon-20261025@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Fleeting: Candlelight: A Haunted Evening of Halloween Classics (one
-  night)
-LOCATION:The Parthenon\, Midtown
-DESCRIPTION:Candlelight concert format with Halloween-themed classical musi
- c at the Parthenon. One night only\, tickets from $33.\nDetails and ticket
- s: https://feverup.com/m/117171\nWindows drift - confirm with the venue be
- fore you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://feverup.com/m/117171
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nissan_stadium-20261031@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Fleeting: Bands of America Regional Championship (one night)
-LOCATION:Nissan Stadium\, Downtown
-DESCRIPTION:Top area high school marching bands compete on the stadium fiel
- d. Grayline shuttle runs from State Parking Lot 28 near the Capitol for $2
- 0 roundtrip.\nDetails and tickets: https://nissanstadium.com/event/bands-o
- f-america/\nWindows drift - confirm with the venue before you go.\nFleetin
- g - the weekly Nashville what-closes-first list.
-URL:https://nissanstadium.com/event/bands-of-america/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:broadway_halloween_bar_fest-20261031@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Fleeting: Broadway Halloween Bar Fest
-LOCATION:Broadway
-DESCRIPTION:Halloween bar crawl along Broadway\, from $6. One night only.\n
- Details and tickets: https://bucketlisters.com/explore/city/NSH\nWindows d
- rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
- lle what-closes-first list.
-URL:https://bucketlisters.com/explore/city/NSH
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:city_winery_nashville-20261121@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Fleeting: The Boy Band Brunch at City Winery Nashville (one night)
-LOCATION:City Winery Nashville\, Pie Town
-DESCRIPTION:One-off themed brunch with boy band music at City Winery\, from
-  $39. Single date.\nDetails and tickets: https://bucketlisters.com/explore
- /city/NSH\nWindows drift - confirm with the venue before you go.\nFleeting
-  - the weekly Nashville what-closes-first list.
-URL:https://bucketlisters.com/explore/city/NSH
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:all_antico_vinaio-20270318@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-SUMMARY:Last day: All'Antico Vinaio Apericena Experience
-LOCATION:All'Antico Vinaio
-DESCRIPTION:Italian apericena experience from the Florentine sandwich insti
- tution\, from $90. Runs through mid-March.\nDetails and tickets: https://b
- ucketlisters.com/explore/city/NSH\nWindows drift - confirm with the venue 
- before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://bucketlisters.com/explore/city/NSH
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nashville_citywide-20261017@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Last day: 2026 Halloween Staycation Giveaway
-LOCATION:Nashville (citywide)
-DESCRIPTION:Enter-to-win contest for a Nashville Halloween staycation grand
-  prize. No purchase indicated\, closes Oct 17.\nDetails and tickets: https
- ://do615.com/events/2026/9/24/halloween-staycation-tickets\nWindows drift 
- - confirm with the venue before you go.\nFleeting - the weekly Nashville w
- hat-closes-first list.
-URL:https://do615.com/events/2026/9/24/halloween-staycation-tickets
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cheekwood_botanical_gardens_estate-20261101@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Common Ground: The Hainsworth Collection in Conversation 
- with Cheekwood's Permanent Collection
-LOCATION:Cheekwood Botanical Gardens & Estate\, Bellevue
-DESCRIPTION:Hainsworth Collection works installed alongside Cheekwood's per
- manent holdings in a paired exhibition format. Closes Nov 1. Ticketed.\nDe
- tails and tickets: https://cheekwood.org/calendar-events/common-ground-the
- -hainsworth-collection-in-conversation-with-cheekwoods-permanent-collectio
- n/\nWindows drift - confirm with the venue before you go.\nFleeting - the 
- weekly Nashville what-closes-first list.
-URL:https://cheekwood.org/calendar-events/common-ground-the-hainsworth-coll
- ection-in-conversation-with-cheekwoods-permanent-collection/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:noelle-20270101@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270102
-SUMMARY:Last day: Drug Store Coffee
-LOCATION:Noelle\, Downtown
-DESCRIPTION:Coffee concept operating inside Noelle hotel\, open from 6 AM. 
- Runs through Jan 1.\nDetails and tickets: https://do615.com/events/2026/7/
- 22/drug-store-coffee-tickets\nWindows drift - confirm with the venue befor
- e you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://do615.com/events/2026/7/22/drug-store-coffee-tickets
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ryman_auditorium-20261024@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Last day: Jason Isbell Residency
-LOCATION:Ryman Auditorium\, Downtown
-DESCRIPTION:Six nights at the Mother Church with a different opening act ea
- ch night\; one of Nashville's most consistently praised singer-songwriters
-  in the room he suits best.\nDetails and tickets: https://www.ryman.com/ev
- ent/2026-jason-isbell\nWindows drift - confirm with the venue before you g
- o.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://www.ryman.com/event/2026-jason-isbell
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fisher_center_for_the_performing_arts-20261021@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:Fleeting: Dolly Parton Tribute TV Taping (one night)
-LOCATION:Fisher Center for the Performing Arts\, Belmont
-DESCRIPTION:Two-hour CBS special taping with many of Dolly's musician frien
- ds expected to appear\; attend the live recording on the Belmont Universit
- y campus.\nDetails and tickets: https://www.thefishercenter.com/events/\nW
- indows drift - confirm with the venue before you go.\nFleeting - the weekl
- y Nashville what-closes-first list.
-URL:https://www.thefishercenter.com/events/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ryman_auditorium-20261105@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Last day: Dwight Yoakam
-LOCATION:Ryman Auditorium\, Downtown
-DESCRIPTION:Two nights of honky tonk from a country outlier with several de
- cades of catalog performing at the Mother Church of Country Music.\nDetail
- s and tickets: https://www.ryman.com/event/2026-dwight-yoakam\nWindows dri
- ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
- e what-closes-first list.
-URL:https://www.ryman.com/event/2026-dwight-yoakam
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ryman_auditorium-20261109@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Fleeting: Concert for Cumberland Heights: Riding with the King (one
-  night)
-LOCATION:Ryman Auditorium\, Downtown
-DESCRIPTION:Keith Urban\, Roseanne Cash\, Steve Earle\, Rodney Crowell\, Li
- lly Hiatt\, and John Hiatt himself headline a John Hiatt tribute benefitin
- g a longstanding drug and alcohol rehab center.\nDetails and tickets: http
- s://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-at-7-30-
- pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm_audien
- ce=mofu_advantage&utm_content=product_cumberland_heights_110926_graphic&ut
- m_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjawTmmVNwZ
- G9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgA
- BHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n1vauWXs
- i6hFCfL3xgUmaw\nWindows drift - confirm with the venue before you go.\nFle
- eting - the weekly Nashville what-closes-first list.
-URL:https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-a
- t-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm
- _audience=mofu_advantage&utm_content=product_cumberland_heights_110926_gra
- phic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjaw
- TmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIw
- MDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n
- 1vauWXsi6hFCfL3xgUmaw
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:grand_ole_opry_house-20261109@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Fleeting: Don't Look Ethel: A Salute to the Musical Genius of Ray S
- tevens (one night)
-LOCATION:Grand Ole Opry House\, Opryland
-DESCRIPTION:Jamey Johnson\, Ronnie Milsap\, Lee Greenwood\, Ricky Skaggs\, 
- Gretchen Wilson\, The Gatlin Brothers\, and a dozen others salute Ray Stev
- ens's comedic and musical catalog in one night.\nDetails and tickets: http
- s://www.ryman.com/event/2026-11-09-dont-look-ethel-a-salute-to-the-musical
- -genius-of-ray-stevens-at-7-pm\nWindows drift - confirm with the venue bef
- ore you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://www.ryman.com/event/2026-11-09-dont-look-ethel-a-salute-to-the-
- musical-genius-of-ray-stevens-at-7-pm
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:symphony_hall-20261122@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Fleeting: No Small Endeavor featuring Emmylou Harris (one night)
-LOCATION:Symphony Hall
-DESCRIPTION:Nashville's answer to Prairie Home Companion pairs storytelling
-  and thought-provoking reflections with live music\; this edition brings E
- mmylou Harris to the stage.\nDetails and tickets: https://notesonnashville
- .com/things-to-do/nashville-calendar\nWindows drift - confirm with the ven
- ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://notesonnashville.com/things-to-do/nashville-calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:the_park_at_harlindale-20270411@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20270411
-DTEND;VALUE=DATE:20270412
-SUMMARY:Last day: Pilgrimage Festival 2027
-LOCATION:The Park at Harlindale\, Franklin
-DESCRIPTION:Eclectic multi-day music festival returning to Franklin after a
-  one-year break\; full lineup details expected about three months before t
- he event.\nDetails and tickets: https://pilgrimagefestival.com/\nWindows d
- rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
- lle what-closes-first list.
-URL:https://pilgrimagefestival.com/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:edible_nashville_farm_dinner-20261107@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Last day: 2026 Fall Farm Dinner
-LOCATION:Edible Nashville Farm Dinner
-DESCRIPTION:Two-night farm dinner series from Edible Nashville\; tickets ar
- e live now and these sell out.\nDetails and tickets: https://www.eventbrit
- e.com/e/2026-fall-farm-dinner-registration-2000487480907?aff=oddtdtcreator
- \nWindows drift - confirm with the venue before you go.\nFleeting - the we
- ekly Nashville what-closes-first list.
-URL:https://www.eventbrite.com/e/2026-fall-farm-dinner-registration-2000487
- 480907?aff=oddtdtcreator
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:oddity_improv-20261013@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART:20261014T000000Z
-DTEND:20261014T020000Z
-SUMMARY:Fleeting: Oddity Improv
-LOCATION:Downtown Franklin
-DESCRIPTION:Live improv comedy show in downtown Franklin. Single evening pe
- rformance.\nDetails and tickets: https://downtownfranklintn.com/event/oddi
- ty-improv-10/\nWindows drift - confirm with the venue before you go.\nFlee
- ting - the weekly Nashville what-closes-first list.
-URL:https://downtownfranklintn.com/event/oddity-improv-10/
+ _campaign=EXP-0113#subscribe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:an_evening_with_jim_messina-20261022@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
+DTSTAMP:20261019T122450Z
 DTSTART:20261023T000000Z
 DTEND:20261023T020000Z
 SUMMARY:Fleeting: An Evening With Jim Messina
@@ -868,7 +39,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:women_in_harmony-20261023@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
+DTSTAMP:20261019T122450Z
 DTSTART:20261024T010000Z
 DTEND:20261024T030000Z
 SUMMARY:Fleeting: Women in Harmony
@@ -884,23 +55,84 @@ URL:https://downtownfranklintn.com/event/women-in-harmony/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:41st_annual_pumpkinfest_2026-20261025@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Last day: 41st Annual PumpkinFest 2026
+UID:national_museum_of_african_american_music-20261023@nashville.fleeting.c
+ ity
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Fleeting: Candlelight: Tribute to Michael Jackson (one night)
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:Single-night candlelit Michael Jackson tribute at NMAAM. From $
+ 74.\nDetails and tickets: https://feverup.com/m/704983\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://feverup.com/m/704983
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fear_fest_backrooms_everything_must_go_edition_2-20261024@nashville.fle
+ eting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T133000Z
+DTEND:20261024T153000Z
+SUMMARY:Fleeting: FEAR FEST! Backrooms: Everything Must Go Edition (2026)
 LOCATION:Downtown Franklin
-DESCRIPTION:Annual fall festival in downtown Franklin now in its 41st year.
-  Two-day event.\nDetails and tickets: https://downtownfranklintn.com/event
- /41st-annual-pumpkinfest-2026/\nWindows drift - confirm with the venue bef
- ore you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://downtownfranklintn.com/event/41st-annual-pumpkinfest-2026/
+DESCRIPTION:A 2026 film screening as part of the FEAR FEST Halloween series
+ \; the all-day runtime suggests a marathon or multi-part format.\nDetails 
+ and tickets: https://downtownfranklintn.com/event/fear-fest-backrooms-ever
+ ything-must-go-edition-2026/\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-backrooms-everything-mus
+ t-go-edition-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fear_fest_ghostbusters_1984-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T150000Z
+DTEND:20261024T170000Z
+SUMMARY:Fleeting: FEAR FEST! Ghostbusters (1984)
+LOCATION:Downtown Franklin
+DESCRIPTION:FEAR FEST Halloween series screening of the 1984 original Ghost
+ busters.\nDetails and tickets: https://downtownfranklintn.com/event/fear-f
+ est-ghostbusters-1984/\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-ghostbusters-1984/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fear_fest_the_addams_family_1991-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T183000Z
+DTEND:20261024T203000Z
+SUMMARY:Fleeting: FEAR FEST! The Addams Family (1991)
+LOCATION:Downtown Franklin
+DESCRIPTION:FEAR FEST screening of the 1991 Addams Family film.\nDetails an
+ d tickets: https://downtownfranklintn.com/event/fear-fest-the-addams-famil
+ y-1991/\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-the-addams-family-1991/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fear_fest_hocus_pocus_1993-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T183000Z
+DTEND:20261025T203000Z
+SUMMARY:Fleeting: FEAR FEST! Hocus Pocus (1993)
+LOCATION:Downtown Franklin
+DESCRIPTION:Final Hocus Pocus FEAR FEST date\; one of the last screenings i
+ n the October horror series.\nDetails and tickets: https://downtownfrankli
+ ntn.com/event/fear-fest-hocus-pocus-1993-4/\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://downtownfranklintn.com/event/fear-fest-hocus-pocus-1993-4/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:alive_ii_a_tribute_to_kiss_ft_paul_sidoti-20261026@nashville.fleeting.c
  ity
-DTSTAMP:20261011T222409Z
+DTSTAMP:20261019T122450Z
 DTSTART:20261027T000000Z
 DTEND:20261027T020000Z
 SUMMARY:Fleeting: Alive II: A Tribute To KISS ft. Paul Sidoti
@@ -914,6 +146,1159 @@ DESCRIPTION:Paul Sidoti\, Taylor Swift's lead guitarist\, fronts a lineup i
  closes-first list.
 URL:https://downtownfranklintn.com/event/alive-ii-a-tribute-to-kiss-ft-paul
  -sidoti/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:41st_annual_pumpkinfest-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Last day: 41st Annual PumpkinFest
+LOCATION:Downtown Franklin
+DESCRIPTION:Annual outdoor fall festival in downtown Franklin\, now in its 
+ 41st year. Two-day event.\nDetails and tickets: https://downtownfranklintn
+ .com/event/41st-annual-pumpkinfest-2026/\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://downtownfranklintn.com/event/41st-annual-pumpkinfest-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1000_rosa_l_parks_blvd-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T150000Z
+DTEND:20261024T170000Z
+SUMMARY:Fleeting: Haunted Museum Storytelling Festival 2026 (one night)
+LOCATION:1000 Rosa L Parks Blvd\, North Capitol
+DESCRIPTION:Storytelling festival at the museum on Rosa L Parks Blvd with 6
+ 4+ interested. Limited Halloween-season run.\nDetails and tickets: https:/
+ /allevents.in/nashville/haunted-museum-storytelling-festival-2026/20003067
+ 0746711\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/haunted-museum-storytelling-festival-202
+ 6/200030670746711
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fat_bottom_brewing_co-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T150000Z
+DTEND:20261024T170000Z
+SUMMARY:Fleeting: Fall Festival at Fat Bottom Brewing (one night)
+LOCATION:Fat Bottom Brewing Co.\, The Nations
+DESCRIPTION:Free fall festival at Fat Bottom Brewing. Seasonal one-day even
+ t at the brewery.\nDetails and tickets: https://allevents.in/nashville/fal
+ l-festival-at-fat-bottom-brewing/100002002457858359\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://allevents.in/nashville/fall-festival-at-fat-bottom-brewing/1000
+ 02002457858359
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T220000Z
+DTEND:20261026T000000Z
+SUMMARY:Fleeting: Nashville Jazz Festival featuring Kirk Whalum\, Rod McGah
+ a\, Chester Thompson & David Williford (one night)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:Jazz festival at 3rd and Lindsley with four named performers in
+ cluding Kirk Whalum. Tickets $36.\nDetails and tickets: https://allevents.
+ in/nashville/nashville-jazz-festival-featuring-kirk-whalum-rod-mcgaha-ches
+ ter-thompson-and-david-williford/210001630428932\nWindows drift - confirm 
+ with the venue before you go.\nFleeting - the weekly Nashville what-closes
+ -first list.
+URL:https://allevents.in/nashville/nashville-jazz-festival-featuring-kirk-w
+ halum-rod-mcgaha-chester-thompson-and-david-williford/210001630428932
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:belle_meade-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T180000Z
+DTEND:20261025T200000Z
+SUMMARY:Fleeting: Trick-or-Treat at Belle Meade (one night)
+LOCATION:Belle Meade\, Belle Meade
+DESCRIPTION:Seasonal trick-or-treat event at the Belle Meade historic prope
+ rty. Six-plus already interested.\nDetails and tickets: https://allevents.
+ in/nashville/trick-or-treat-at-belle-meade/200030799809630\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://allevents.in/nashville/trick-or-treat-at-belle-meade/2000307998
+ 09630
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fisher_center_for_the_performing_arts-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Fleeting: A Celebration of Dolly Parton: TV special (one night)
+LOCATION:Fisher Center for the Performing Arts
+DESCRIPTION:Two-hour live television taping at Belmont's Fisher Center with
+  Ashley McBryde\, Brad Paisley\, Carrie Underwood\, Reba McEntire\, and ot
+ hers. Already sold out.\nDetails and tickets: https://www.thefishercenter.
+ com/2026/09/23/a-celebration-of-dolly-parton/\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://www.thefishercenter.com/2026/09/23/a-celebration-of-dolly-parto
+ n/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:germantown_and_hillsboro_village-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T220000Z
+DTEND:20261022T000000Z
+SUMMARY:Fleeting: Dumpling Fest Nashville (one night)
+LOCATION:Germantown and Hillsboro Village\, Centennial
+DESCRIPTION:Just-added dumpling festival spanning two neighborhoods\; vendo
+ r and format details not yet in the listing.\nDetails and tickets: https:/
+ /www.eventbrite.ca/e/dumpling-fest-nashville-tickets-1999218321818?aff=ebd
+ ssbdestsearch\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.ca/e/dumpling-fest-nashville-tickets-19992183218
+ 18?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tempo_by_hilton_nashville_downtown-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261023T220000Z
+DTEND:20261024T000000Z
+SUMMARY:Fleeting: Handmade Pasta Making Class with Chef Taylor (one night)
+LOCATION:Tempo by Hilton Nashville Downtown\, Downtown
+DESCRIPTION:Hands-on pasta making class through Mary Louise's Social Club a
+ t a downtown hotel\; limited sessions available.\nDetails and tickets: htt
+ ps://www.eventbrite.com/e/handmade-pasta-making-class-with-chef-taylor-mar
+ y-louises-social-club-tickets-1991480001293?aff=ebdssbdestsearch\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://www.eventbrite.com/e/handmade-pasta-making-class-with-chef-tayl
+ or-mary-louises-social-club-tickets-1991480001293?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:barrel_proof-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T210000Z
+DTEND:20261024T230000Z
+SUMMARY:Fleeting: Nashville Halloween Tequila Crawl & Costume Contest (one 
+ night)
+LOCATION:Barrel Proof\, Germantown
+DESCRIPTION:Halloween bar crawl built around tequila with a costume contest
+ \; starts at Barrel Proof in Germantown.\nDetails and tickets: https://www
+ .eventbrite.com/e/nashville-halloween-tequila-crawl-costume-contest-ticket
+ s-1999317194549?aff=ebdssbdestsearch\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nashville-halloween-tequila-crawl-costume-
+ contest-tickets-1999317194549?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tennessee_agricultural_museum-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T230000Z
+DTEND:20261025T010000Z
+SUMMARY:Fleeting: Dinner on the Lawn (one night)
+LOCATION:Tennessee Agricultural Museum\, Crieve Hall
+DESCRIPTION:Outdoor dinner on the grounds of the agricultural museum\; menu
+  and price not detailed in the listing.\nDetails and tickets: https://www.
+ eventbrite.com/e/dinner-on-the-lawn-tickets-1994095700921?aff=ebdssbdestse
+ arch\nWindows drift - confirm with the venue before you go.\nFleeting - th
+ e weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/dinner-on-the-lawn-tickets-1994095700921?a
+ ff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:511_woodland_st-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261023T140000Z
+DTEND:20261023T160000Z
+SUMMARY:Fleeting: East Nashville Fall Artisan Market & Craft Fair 2026 (one
+  night)
+LOCATION:511 Woodland St\, East Nashville
+DESCRIPTION:Fall artisan market in East Nashville at 511 Woodland St. Free 
+ entry\; local makers and craft vendors.\nDetails and tickets: https://alle
+ vents.in/nashville/east-nashville-fall-artisan-market-and-craft-fair-2026/
+ 100002000256456908\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/east-nashville-fall-artisan-market-and-c
+ raft-fair-2026/100002000256456908
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_basement_east-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261022T010000Z
+DTEND:20261022T030000Z
+SUMMARY:Fleeting: Aaron Lee Tasjan Album Release Show w/ Madeleine Kelson (
+ one night)
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:Album release show at the Basement East\; a one-night event tie
+ d to new material.\nDetails and tickets: https://do615.com/events/2026/10/
+ 21/aaron-lee-tasjan-album-release-show-tickets\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://do615.com/events/2026/10/21/aaron-lee-tasjan-album-release-show
+ -tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_basement_east-20261019@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261020T010000Z
+DTEND:20261020T030000Z
+SUMMARY:Fleeting: The Linda Lindas w/ Grace Bowers (one night)
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:One-night show pairing The Linda Lindas with Nashville guitaris
+ t Grace Bowers.\nDetails and tickets: https://do615.com/events/2026/10/19/
+ the-linda-lindas-w-grace-bowers-tickets\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://do615.com/events/2026/10/19/the-linda-lindas-w-grace-bowers-tic
+ kets
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nashville_zoo-20261020@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Last day: Boo at the Zoo
+LOCATION:Nashville Zoo\, Grassmere
+DESCRIPTION:Multi-day Halloween event at Nashville Zoo running through at l
+ east Oct 20\, with 5 PM start times listed.\nDetails and tickets: https://
+ nashvillego.com/calendar\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ryman_auditorium-20261019@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261020T003000Z
+DTEND:20261020T023000Z
+SUMMARY:Fleeting: Sonic Live in Concert (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:One-night Sonic the Hedgehog live concert event at the Ryman Au
+ ditorium.\nDetails and tickets: https://nashvillego.com/calendar\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fisher_center-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Fleeting: Dolly tribute TV taping (one night)
+LOCATION:Fisher Center\, Belmont University
+DESCRIPTION:Two-hour CBS special taping with a large turnout of musician fr
+ iends expected. Live audience seats available.\nDetails and tickets: https
+ ://www.thefishercenter.com/events/\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.thefishercenter.com/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nissan_stadium-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fleeting: Bands of America Regional Championship (one night)
+LOCATION:Nissan Stadium\, East Nashville
+DESCRIPTION:Top regional high school marching bands compete at Nissan Stadi
+ um\; a $20 roundtrip shuttle runs from State Parking Lot 28 near the State
+  Capitol.\nDetails and tickets: https://nissanstadium.com/event/bands-of-a
+ merica/\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://nissanstadium.com/event/bands-of-america/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ryman_auditorium-20261105@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Last day: Dwight Yoakam
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Two nights of honky-tonk at the Mother Church of Country Music 
+ from a performer the text describes as bringing decades of it.\nDetails an
+ d tickets: https://www.ryman.com/event/2026-dwight-yoakam\nWindows drift -
+  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
+ at-closes-first list.
+URL:https://www.ryman.com/event/2026-dwight-yoakam
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:edible_nashville_farm_dinner-20261107@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Last day: 2026 Fall Farm Dinner
+LOCATION:Edible Nashville Farm Dinner
+DESCRIPTION:Edible Nashville's annual farm dinner\, ticketed through Eventb
+ rite. Two-night run with tickets currently live.\nDetails and tickets: htt
+ ps://www.eventbrite.com/e/2026-fall-farm-dinner-registration-2000487480907
+ ?aff=oddtdtcreator\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/2026-fall-farm-dinner-registration-2000487
+ 480907?aff=oddtdtcreator
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:geist-20261104@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Fleeting: Geist's Holiday Pop-Up (one night)
+LOCATION:Geist\, Germantown
+DESCRIPTION:Seasonal holiday pop-up from Geist opening in Germantown in Nov
+ ember. No details on format\, hours\, or end date given in the text.\nDeta
+ ils and tickets: https://nashvilleguru.com/businesses/geists-holiday-pop-u
+ p\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/geists-holiday-pop-up
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:broadway-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fleeting: Broadway Halloween Bar Fest (one night)
+LOCATION:Broadway\, Downtown
+DESCRIPTION:Halloween bar crawl along Broadway\, from $6. Single-night even
+ t on the strip.\nDetails and tickets: https://bucketlisters.com/explore/ci
+ ty/NSH\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ryman_auditorium-20261109@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Fleeting: Concert for Cumberland Heights: Riding with the King (one
+  night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:John Hiatt tribute benefit for Cumberland Heights rehab center\
+ ; Keith Urban\, Roseanne Cash\, Steve Earle\, Rodney Crowell\, Lilly Hiatt
+ \, Shawn Colvin\, and Hiatt himself on the bill.\nDetails and tickets: htt
+ ps://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-at-7-30
+ -pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm_audie
+ nce=mofu_advantage&utm_content=product_cumberland_heights_110926_graphic&u
+ tm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjawTmmVNw
+ ZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5Mg
+ ABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n1vauWX
+ si6hFCfL3xgUmaw\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-a
+ t-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm
+ _audience=mofu_advantage&utm_content=product_cumberland_heights_110926_gra
+ phic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjaw
+ TmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIw
+ MDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n
+ 1vauWXsi6hFCfL3xgUmaw
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1200_forrest_park_dr-20261029@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261029T220000Z
+DTEND:20261030T000000Z
+SUMMARY:Fleeting: Harvest NIGHTS | Bootanical Bash (one night)
+LOCATION:1200 Forrest Park Dr\, Bellevue
+DESCRIPTION:Harvest-season night event at 1200 Forrest Park Dr. Halloween-a
+ djacent botanical theme.\nDetails and tickets: https://allevents.in/nashvi
+ lle/harvest-nights-bootanical-bash/200030630670300\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://allevents.in/nashville/harvest-nights-bootanical-bash/200030630
+ 670300
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_parthenon-20261029@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261030T014500Z
+DTEND:20261030T034500Z
+SUMMARY:Fleeting: Candlelight: 90s Hip-Hop on Strings (one night)
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:90s hip-hop catalog performed by strings in candlelight inside 
+ The Parthenon. Tickets from $42.\nDetails and tickets: https://allevents.i
+ n/nashville/candlelight-90s-hip-hop-on-strings/2700030166006823\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://allevents.in/nashville/candlelight-90s-hip-hop-on-strings/27000
+ 30166006823
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l27_lounge_at_westin_nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261031T020000Z
+DTEND:20261031T040000Z
+SUMMARY:Fleeting: L27 Rooftop Nashville Halloween Eve Masquerade Party (one
+  night)
+LOCATION:L27 Lounge at Westin Nashville
+DESCRIPTION:Masquerade party on the Westin Nashville rooftop the night befo
+ re Halloween. Tickets $32.\nDetails and tickets: https://allevents.in/nash
+ ville/l27-rooftop-nashville-halloween-eve-masquerade-party/100001997459721
+ 798\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/l27-rooftop-nashville-halloween-eve-masq
+ uerade-party/100001997459721798
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:harriet_s_at_1_hotel_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:Fleeting: AZURE Presents: Halloween at Harriet's Rooftop 1 Hotel Na
+ shville (one night)
+LOCATION:Harriet's at 1 Hotel Nashville
+DESCRIPTION:Halloween night rooftop party at 1 Hotel Nashville's Harriet's 
+ bar. Tickets $40.\nDetails and tickets: https://allevents.in/nashville/azu
+ re-presents-halloween-at-harriets-rooftop-1-hotel-nashville/46000307401370
+ 10\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/azure-presents-halloween-at-harriets-roo
+ ftop-1-hotel-nashville/4600030740137010
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lotz_house-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Lotz House Ghost Tours
+LOCATION:Lotz House\, Franklin
+DESCRIPTION:Ghost tours at the historic Lotz House in Franklin\, running on
+ ly on Saturdays through the end of October.\nDetails and tickets: https://
+ williamsonsource.com/lotz-house-to-offer-ghost-tours-every-saturday-in-oct
+ ober/\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/lotz-house-to-offer-ghost-tours-every-satu
+ rday-in-october/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tomorrow_s_hope-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261031T180000Z
+DTEND:20261031T200000Z
+SUMMARY:Fleeting: Nation's Drink-or-Treat (one night)
+LOCATION:Tomorrow's Hope\, The Nations
+DESCRIPTION:Halloween neighborhood bar crawl starting at Silo Market in The
+  Nations\; listed as free to attend.\nDetails and tickets: https://www.eve
+ ntbrite.com/e/nations-drink-or-treat-tickets-2002662184504?aff=ebdssbdests
+ earch\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nations-drink-or-treat-tickets-20026621845
+ 04?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:del_frisco_s_grille-20261105@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261106T003000Z
+DTEND:20261106T023000Z
+SUMMARY:Fleeting: Del Frisco's Grille Nashville - Joe Wagner Wine Dinner (o
+ ne night)
+LOCATION:Del Frisco's Grille\, Music Row
+DESCRIPTION:Single-night winemaker dinner with Joe Wagner at the Music Row 
+ location.\nDetails and tickets: https://www.eventbrite.com/e/del-friscos-g
+ rille-nashville-joe-wagner-wine-dinner-tickets-1999717933169?aff=ebdssbdes
+ tsearch\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/del-friscos-grille-nashville-joe-wagner-wi
+ ne-dinner-tickets-1999717933169?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gaylord_opryland-20261101@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Fleeting: ice! featuring Home Alone (one night)
+LOCATION:Gaylord Opryland\, Opryland
+DESCRIPTION:Gaylord Opryland's annual ice sculpture attraction returns with
+  a Home Alone theme. Specific open date not yet announced.\nDetails and ti
+ ckets: https://nashvillelifestyles.com/nashville-calendar/things-to-do/ice
+ -featuring-home-alone/\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/ice-fea
+ turing-home-alone/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sushi_san-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Sushi-San x Loveless Cafe Apple Butter Sundae
+LOCATION:Sushi-San
+DESCRIPTION:Apple butter and biscuit soft-serve sundae made with the Lovele
+ ss Cafe\, part of a rotating monthly collaboration\; this flavor is gone a
+ fter October.\nDetails and tickets: https://www.nashvillescene.com/food_dr
+ ink/bites/sushi-san-loveless-cafe-sundae-collaboration/article_382d3466-79
+ 3b-48cb-a038-20b0988799d0.html\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvillescene.com/food_drink/bites/sushi-san-loveless-cafe
+ -sundae-collaboration/article_382d3466-793b-48cb-a038-20b0988799d0.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:saint_nicky_s-20261124@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Fleeting: Saint Nicky's (one night)
+LOCATION:Saint Nicky's\, The Nations
+DESCRIPTION:Holiday pop-up opening in The Nations on Nov 24. No details on 
+ concept or end date given in the text.\nDetails and tickets: https://nashv
+ illeguru.com/businesses/saint-nickys\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/saint-nickys
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:city_winery_nashville-20261121@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Fleeting: The Boy Band Brunch at City Winery Nashville (one night)
+LOCATION:City Winery Nashville\, Pie Town
+DESCRIPTION:One-night themed brunch with boy band music at City Winery\, fr
+ om $39. Single date\, ticketed.\nDetails and tickets: https://bucketlister
+ s.com/explore/city/NSH\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:city_winery_nashville-20261129@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Last day: City Winery Tasting
+LOCATION:City Winery Nashville\, Pie Town
+DESCRIPTION:Wine tasting experience at City Winery running through late Nov
+ ember\, from $39. Ticketed\, exclusive listing.\nDetails and tickets: http
+ s://bucketlisters.com/explore/city/NSH\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:woolworth_theatre-20261213@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Last day: The Jury Experience - The Killer AI
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:Ticketed immersive courtroom thriller running through mid-Decem
+ ber. Discounted 20% from $32.80.\nDetails and tickets: https://feverup.com
+ /m/700943\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/700943
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:all_antico_vinaio_nashville-20270318@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Last day: All'Antico Vinaio Apericena Experience @ Nashville
+LOCATION:All'Antico Vinaio Nashville
+DESCRIPTION:Ticketed apericena format at the Florentine sandwich shop\, run
+ ning through March. From $90.\nDetails and tickets: https://bucketlisters.
+ com/explore/city/NSH\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fall_2026_clothes_for_a_cause-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+SUMMARY:Fleeting: Fall 2026 - Clothes for a Cause
+LOCATION:East Nashville
+DESCRIPTION:Charity clothing pop-up in East Nashville. Proceeds go to a cau
+ se\; free to attend.\nDetails and tickets: https://www.eventbrite.com/e/fa
+ ll-2026-clothes-for-a-cause-tickets-1997566336686?aff=ebdssbdestsearch\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/fall-2026-clothes-for-a-cause-tickets-1997
+ 566336686?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_event_center_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261101T013000Z
+DTEND:20261101T033000Z
+SUMMARY:Fleeting: A Wicked Affair presented by Asenath 3 x Shinar Lodge #2 
+ (one night)
+LOCATION:The Event Center Nashville
+DESCRIPTION:Halloween ticketed event with 50% off select tickets currently 
+ available. From $44.52.\nDetails and tickets: https://www.eventbrite.com/e
+ /a-wicked-affair-present-by-asenath-3-x-shinar-lodge-2-tickets-20015774229
+ 53?aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/a-wicked-affair-present-by-asenath-3-x-shi
+ nar-lodge-2-tickets-2001577422953?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:centennial_park-20261106@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261106T160000Z
+DTEND:20261106T180000Z
+SUMMARY:Fleeting: Nashville Creators & Treasures Pop-Up (one night)
+LOCATION:Centennial Park\, Centennial
+DESCRIPTION:Independent creator and vendor showcase at Centennial Park. Fre
+ e to attend.\nDetails and tickets: https://www.eventbrite.com/e/nashville-
+ creators-treasures-pop-up-tickets-2000402254994?aff=ebdssbdestsearch\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nashville-creators-treasures-pop-up-ticket
+ s-2000402254994?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nicky_s_coal_fired-20261108@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261108T180000Z
+DTEND:20261108T200000Z
+SUMMARY:Fleeting: Secondhand Wedding Dress Pop Up (one night)
+LOCATION:Nicky's Coal Fired
+DESCRIPTION:Resale wedding dress pop-up at Nicky's Coal Fired\; sales end s
+ oon. Multiple dates listed.\nDetails and tickets: https://www.eventbrite.c
+ om/e/secondhand-wedding-dress-pop-up-tickets-2001095251766?aff=ebdssbdests
+ earch\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/secondhand-wedding-dress-pop-up-tickets-20
+ 01095251766?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:skin_bash_belle_meade-20261203@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261203T223000Z
+DTEND:20261204T003000Z
+SUMMARY:Fleeting: Skin Bash - Belle Meade
+LOCATION:West Nashville
+DESCRIPTION:Skincare-focused pop-up event in West Nashville\; sales end soo
+ n.\nDetails and tickets: https://www.eventbrite.com/e/skin-bash-belle-mead
+ e-tickets-2001398289159?aff=ebdssbdestsearch\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
+URL:https://www.eventbrite.com/e/skin-bash-belle-meade-tickets-200139828915
+ 9?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nashville_zoo-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: BOOze at the Zoo 2026
+LOCATION:Nashville Zoo\, Grassmere
+DESCRIPTION:Adults-only Halloween party at the Nashville Zoo\, back for 202
+ 6. Zoo-after-dark setting with a Halloween theme\; specific dates not list
+ ed in this preview.\nDetails and tickets: https://nashvillelifestyles.com/
+ nashville-calendar/things-to-do/booze-at-the-zoo-2026-nashville-zoo-s-adul
+ ts-only-halloween-/\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/booze-a
+ t-the-zoo-2026-nashville-zoo-s-adults-only-halloween-/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bar_mar_and_henrietta_red-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Bar Mar x Henrietta Red Seafood Collaboration
+LOCATION:Bar Mar and Henrietta Red
+DESCRIPTION:Two events for National Seafood Month put both kitchens on one 
+ menu: a six-course tasting dinner at Bar Mar on October 22 with three cour
+ ses from each team ($180 per person)\, and a four-course Power Lunch at He
+ nrietta Red on October 30 ($80 per person). Reservations via OpenTable.\nD
+ etails and tickets: https://nashvillelifestyles.com/nashville-calendar/thi
+ ngs-to-do/bar-mar-and-henrietta-red-team-up-for-a-seafood-focused-dini/\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/bar-mar
+ -and-henrietta-red-team-up-for-a-seafood-focused-dini/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gaylord_opryland-20261231@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Last day: POMP\, SNOW & CIRQUEumstance 2026
+LOCATION:Gaylord Opryland\, Opryland
+DESCRIPTION:Gaylord Opryland's holiday cirque spectacular runs November 24 
+ through December 31 with new acts for 2026. Award-winning production featu
+ ring acrobatics and magic.\nDetails and tickets: https://nashvillelifestyl
+ es.com/nashville-calendar/things-to-do/gaylord-opryland%E2%80%99s-award-wi
+ nning-pomp-snow-cirqueumstance-re/\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/gaylord
+ -opryland%E2%80%99s-award-winning-pomp-snow-cirqueumstance-re/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:opry_house-20261109@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Fleeting: Don't Look\, Ethel: The Musical Genius of Ray Stevens (on
+ e night)
+LOCATION:Opry House
+DESCRIPTION:Large-cast tribute show with Jamey Johnson\, Ronnie Milsap\, Le
+ e Greenwood\, The Gatlin Brothers\, Gretchen Wilson\, and others saluting 
+ Ray Stevens's catalog.\nDetails and tickets: https://www.ryman.com/event/2
+ 026-11-09-dont-look-ethel-a-salute-to-the-musical-genius-of-ray-stevens-at
+ -7-pm\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.ryman.com/event/2026-11-09-dont-look-ethel-a-salute-to-the-
+ musical-genius-of-ray-stevens-at-7-pm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:symphony_hall-20261122@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Fleeting: No Small Endeavor: music and more (one night)
+LOCATION:Symphony Hall
+DESCRIPTION:Storytelling\, live reflections\, and music in a Prairie Home C
+ ompanion format\, with Emmylou Harris headlining this edition.\nDetails an
+ d tickets: https://notesonnashville.com/things-to-do/nashville-calendar\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://notesonnashville.com/things-to-do/nashville-calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_park_at_harlindale-20270411@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Last day: Pilgrimage Festival 2027
+LOCATION:The Park at Harlindale\, Franklin
+DESCRIPTION:Eclectic music festival returning after a one-year sabbatical t
+ o its Franklin home\; full lineup details expected roughly three months be
+ fore the event.\nDetails and tickets: https://pilgrimagefestival.com/\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://pilgrimagefestival.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:skydeck-20261021@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T233000Z
+DTEND:20261022T013000Z
+SUMMARY:Fleeting: Wags & Walks Benefit Concert (one night)
+LOCATION:Skydeck
+DESCRIPTION:One-night benefit concert for Wags & Walks at Skydeck.\nDetails
+  and tickets: https://nashvillego.com/calendar\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bicentennial_capitol_mall_state_park-20261022@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261022T233000Z
+DTEND:20261023T013000Z
+SUMMARY:Fleeting: NightLight 615: Obsession (one night)
+LOCATION:Bicentennial Capitol Mall State Park\, North Capitol
+DESCRIPTION:Outdoor Halloween film screening at Bicentennial Capitol Mall. 
+ Free public park setting\; first of three consecutive NightLight nights.\n
+ Details and tickets: https://nashvillego.com/calendar\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:skydeck-20261022@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261023T000000Z
+DTEND:20261023T020000Z
+SUMMARY:Fleeting: The Traitors Watch Party (one night)
+LOCATION:Skydeck
+DESCRIPTION:Watch party with cast members Carolyn Wiger\, Sandra Diaz and J
+ onny Fairplay from The Traitors in attendance at Skydeck.\nDetails and tic
+ kets: https://nashvillego.com/calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261022@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261023T013000Z
+DTEND:20261023T033000Z
+SUMMARY:Fleeting: 13th Annual Light the Late Night with Charles Esten (one 
+ night)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:Charles Esten's 13th annual benefit show with special guests at
+  3rd and Lindsley.\nDetails and tickets: https://nashvillego.com/calendar\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bicentennial_capitol_mall_state_park-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261023T233000Z
+DTEND:20261024T013000Z
+SUMMARY:Fleeting: NightLight 615: Hocus Pocus (one night)
+LOCATION:Bicentennial Capitol Mall State Park\, North Capitol
+DESCRIPTION:Outdoor screening of Hocus Pocus at Bicentennial Mall. Second n
+ ight of the three-part Halloween outdoor film series.\nDetails and tickets
+ : https://nashvillego.com/calendar\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:marathon_music_works-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Fleeting: DJ Shadow Celebrates 30 Years of Endtroducing (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:DJ Shadow performing on the 30th anniversary of Endtroducing. M
+ ilestone one-night show.\nDetails and tickets: https://nashvillego.com/cal
+ endar\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eastside_bowl-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Fleeting: Suspended Gravity Circus: Shadow Parade (one night)
+LOCATION:Eastside Bowl\, East Nashville
+DESCRIPTION:One-night circus performance at Eastside Bowl.\nDetails and tic
+ kets: https://nashvillego.com/calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:first_horizon_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T120000Z
+DTEND:20261024T140000Z
+SUMMARY:Fleeting: Nashville Half Marathon & 5K (one night)
+LOCATION:First Horizon Park\, North Capitol
+DESCRIPTION:Annual Nashville Half Marathon and 5K starting at First Horizon
+  Park.\nDetails and tickets: https://nashvillego.com/calendar\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bicentennial_capitol_mall_state_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T233000Z
+DTEND:20261025T013000Z
+SUMMARY:Fleeting: NightLight 615: Scream (1996) (one night)
+LOCATION:Bicentennial Capitol Mall State Park\, North Capitol
+DESCRIPTION:Outdoor screening of Scream at Bicentennial Mall. Final night o
+ f the NightLight 615 Halloween film series.\nDetails and tickets: https://
+ nashvillego.com/calendar\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:geodis_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T201500Z
+DTEND:20261024T221500Z
+SUMMARY:Fleeting: USA Rugby International Series: USA Women vs Italy & USA 
+ Men vs Australia XV (one night)
+LOCATION:GEODIS Park\, Vine Hill
+DESCRIPTION:Double-header international rugby at GEODIS Park. USA Women fac
+ e Italy\; USA Men face Australia XV.\nDetails and tickets: https://nashvil
+ lego.com/calendar\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:city_winery-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T170000Z
+DTEND:20261024T190000Z
+SUMMARY:Fleeting: Princess Party Brunch (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:Princess-themed ticketed brunch at City Winery. One-day midday 
+ event.\nDetails and tickets: https://nashvillego.com/calendar\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cheekwood-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Last day: Halloween Pooch Party
+LOCATION:Cheekwood\, Bellevue
+DESCRIPTION:Two-day Halloween dog event at Cheekwood estate. All-day both d
+ ays.\nDetails and tickets: https://nashvillego.com/calendar\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:marathon_music_works-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T000000Z
+DTEND:20261025T020000Z
+SUMMARY:Fleeting: Songs That Saved My Life: A Sober 90s/2000s Pop Punk Sing
+  Along Party (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:Sober-friendly 90s and 2000s pop punk sing-along at Marathon Mu
+ sic Works. One night.\nDetails and tickets: https://nashvillego.com/calend
+ ar\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cannery_hall-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T030000Z
+DTEND:20261025T050000Z
+SUMMARY:Fleeting: Club 2010s: Halloween Edition (one night)
+LOCATION:Cannery Hall
+DESCRIPTION:Halloween edition of Club 2010s at Cannery Hall. Late-night the
+ med party.\nDetails and tickets: https://nashvillego.com/calendar\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:centennial_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T153000Z
+DTEND:20261024T173000Z
+SUMMARY:Fleeting: Walk to End Lupus Now (one night)
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:Annual charity walk at Centennial Park benefiting lupus awarene
+ ss.\nDetails and tickets: https://nashvillego.com/calendar\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:skydeck-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T170000Z
+DTEND:20261025T190000Z
+SUMMARY:Fleeting: Super Smash Bros. Ultimate Tournament (one night)
+LOCATION:Skydeck
+DESCRIPTION:Competitive Super Smash Bros. Ultimate tournament at Skydeck. O
+ ne-day event.\nDetails and tickets: https://nashvillego.com/calendar\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:city_winery-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261026T003000Z
+DTEND:20261026T023000Z
+SUMMARY:Fleeting: PureSoul Presents Michael Jackson's Thriller (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:Live tribute performance of Michael Jackson's Thriller at City 
+ Winery. Halloween weekend one-nighter.\nDetails and tickets: https://nashv
+ illego.com/calendar\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shelby_bottoms-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T120000Z
+DTEND:20261025T140000Z
+SUMMARY:Fleeting: Shelby Six-Miler (one night)
+LOCATION:Shelby Bottoms\, East Nashville
+DESCRIPTION:Six-mile run through Shelby Bottoms. Annual race event.\nDetail
+ s and tickets: https://nashvillego.com/calendar\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_pinnacle-20261019@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261020T000000Z
+DTEND:20261020T020000Z
+SUMMARY:Fleeting: Knocked Loose & Denzel Curry (one night)
+LOCATION:The Pinnacle\, Downtown
+DESCRIPTION:Knocked Loose and Denzel Curry co-headline a single night at Th
+ e Pinnacle.\nDetails and tickets: https://nashvilledowntown.com/event/knoc
+ ked-loose-and-denzel-curry\nWindows drift - confirm with the venue before 
+ you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/knocked-loose-and-denzel-curry
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3rd_lindsley-20261020@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T003000Z
+DTEND:20261021T023000Z
+SUMMARY:Fleeting: 3rd Annual Road Ready Talent Contest (one night)
+LOCATION:3rd & Lindsley\, Downtown
+DESCRIPTION:Third annual emerging artist competition at 3rd & Lindsley\, on
+ e night only.\nDetails and tickets: https://nashvilledowntown.com/event/3r
+ d-annual-road-ready-talent-contest\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/3rd-annual-road-ready-talent-contes
+ t
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brooklyn_bowl-20261020@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T000000Z
+DTEND:20261021T020000Z
+SUMMARY:Fleeting: Chad Gray: 30 Years of Madnesss (one night)
+LOCATION:Brooklyn Bowl\, North Capitol
+DESCRIPTION:Chad Gray marks 30 years with a special anniversary show at Bro
+ oklyn Bowl\, one night only.\nDetails and tickets: https://nashvilledownto
+ wn.com/event/chad-gray-30-years-of-madnesss\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://nashvilledowntown.com/event/chad-gray-30-years-of-madnesss
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bridgestone_arena-20261020@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T003000Z
+DTEND:20261021T023000Z
+SUMMARY:Fleeting: Dave Chappelle - Karmageddon Tour (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:Dave Chappelle's Karmageddon Tour hits Bridgestone Arena for a 
+ single night.\nDetails and tickets: https://nashvilledowntown.com/event/da
+ ve-chappelle-karmageddon-tour\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/dave-chappelle-karmageddon-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ryman_auditorium-20261020@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261021T003000Z
+DTEND:20261021T023000Z
+SUMMARY:Fleeting: Sons of Legion (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Sons of Legion perform at the Ryman for one night.\nDetails and
+  tickets: https://nashvilledowntown.com/event/sons-of-legion\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://nashvilledowntown.com/event/sons-of-legion
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kossie_gardner_sr_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T200000Z
+DTEND:20261024T220000Z
+SUMMARY:Fleeting: 2026 North Nashville Culture Crawl - 10th Anniversary Edi
+ tion (one night)
+LOCATION:Kossie Gardner Sr. Park\, North Nashville
+DESCRIPTION:Tenth anniversary edition of the North Nashville Culture Crawl.
+  Free\, one afternoon only.\nDetails and tickets: https://allevents.in/nas
+ hville/2026-north-nashville-culture-crawl-10th-anniversary-edition/1000019
+ 98678807115\nWindows drift - confirm with the venue before you go.\nFleeti
+ ng - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/2026-north-nashville-culture-crawl-10th-
+ anniversary-edition/100001998678807115
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gaylord_opryland_resort_convention_center-20261028@nashville.fleeting.c
+ ity
+DTSTAMP:20261019T122450Z
+DTSTART:20261029T003000Z
+DTEND:20261029T023000Z
+SUMMARY:Fleeting: The Champions: A World Bass Championship (one night)
+LOCATION:Gaylord Opryland Resort & Convention Center
+DESCRIPTION:Ticketed spectator event for a world bass fishing championship.
+  $58\, one night.\nDetails and tickets: https://allevents.in/nashville/the
+ -champions-a-world-bass-championship/100001992387308072\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://allevents.in/nashville/the-champions-a-world-bass-championship/
+ 100001992387308072
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the_fairgrounds_nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261030T170000Z
+DTEND:20261030T190000Z
+SUMMARY:Fleeting: Nash-ional (one night)
+LOCATION:The Fairgrounds Nashville\, Vine Hill
+DESCRIPTION:Exhibition at The Fairgrounds Nashville. 126+ interested\, no c
+ losing date stated.\nDetails and tickets: https://allevents.in/nashville/n
+ ash-ional/200030454578007\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/nash-ional/200030454578007
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:assembly_food_hall-20261115@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Fleeting: Nashville Fall Festival Assembly Food Hall (one night)
+LOCATION:Assembly Food Hall\, Downtown
+DESCRIPTION:Fall festival hosted inside Assembly Food Hall. Free admission\
+ , single Sunday.\nDetails and tickets: https://allevents.in/nashville/nash
+ ville-fall-festival-assembly-food-hall/100001999619839769\nWindows drift -
+  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
+ at-closes-first list.
+URL:https://allevents.in/nashville/nashville-fall-festival-assembly-food-ha
+ ll/100001999619839769
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

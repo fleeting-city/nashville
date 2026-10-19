@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:belle_meade-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261025T180000Z
+DTEND:20261025T200000Z
+SUMMARY:Fleeting: Trick-or-Treat at Belle Meade (one night)
+LOCATION:Belle Meade\, Belle Meade
+DESCRIPTION:Seasonal trick-or-treat event at the Belle Meade historic prope
+ rty. Six-plus already interested.\nDetails and tickets: https://allevents.
+ in/nashville/trick-or-treat-at-belle-meade/200030799809630\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://allevents.in/nashville/trick-or-treat-at-belle-meade/2000307998
+ 09630
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

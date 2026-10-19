@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261023@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Fleeting: DJ Shadow Celebrates 30 Years of Endtroducing (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:DJ Shadow performing on the 30th anniversary of Endtroducing. M
+ ilestone one-night show.\nDetails and tickets: https://nashvillego.com/cal
+ endar\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261025@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261026T003000Z
+DTEND:20261026T023000Z
+SUMMARY:Fleeting: PureSoul Presents Michael Jackson's Thriller (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:Live tribute performance of Michael Jackson's Thriller at City 
+ Winery. Halloween weekend one-nighter.\nDetails and tickets: https://nashv
+ illego.com/calendar\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

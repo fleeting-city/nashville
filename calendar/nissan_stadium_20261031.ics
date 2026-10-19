@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:nissan_stadium-20261031@nashville.fleeting.city
-DTSTAMP:20261011T222409Z
+DTSTAMP:20261019T122450Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Fleeting: Bands of America Regional Championship (one night)
-LOCATION:Nissan Stadium\, Downtown
-DESCRIPTION:Top area high school marching bands compete on the stadium fiel
- d. Grayline shuttle runs from State Parking Lot 28 near the Capitol for $2
- 0 roundtrip.\nDetails and tickets: https://nissanstadium.com/event/bands-o
- f-america/\nWindows drift - confirm with the venue before you go.\nFleetin
- g - the weekly Nashville what-closes-first list.
+LOCATION:Nissan Stadium\, East Nashville
+DESCRIPTION:Top regional high school marching bands compete at Nissan Stadi
+ um\; a $20 roundtrip shuttle runs from State Parking Lot 28 near the State
+  Capitol.\nDetails and tickets: https://nissanstadium.com/event/bands-of-a
+ merica/\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
 URL:https://nissanstadium.com/event/bands-of-america/
 TRANSP:TRANSPARENT
 END:VEVENT

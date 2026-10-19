@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:geodis_park-20261024@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261024T201500Z
+DTEND:20261024T221500Z
+SUMMARY:Fleeting: USA Rugby International Series: USA Women vs Italy & USA 
+ Men vs Australia XV (one night)
+LOCATION:GEODIS Park\, Vine Hill
+DESCRIPTION:Double-header international rugby at GEODIS Park. USA Women fac
+ e Italy\; USA Men face Australia XV.\nDetails and tickets: https://nashvil
+ lego.com/calendar\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_event_center_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261101T013000Z
+DTEND:20261101T033000Z
+SUMMARY:Fleeting: A Wicked Affair presented by Asenath 3 x Shinar Lodge #2 
+ (one night)
+LOCATION:The Event Center Nashville
+DESCRIPTION:Halloween ticketed event with 50% off select tickets currently 
+ available. From $44.52.\nDetails and tickets: https://www.eventbrite.com/e
+ /a-wicked-affair-present-by-asenath-3-x-shinar-lodge-2-tickets-20015774229
+ 53?aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/a-wicked-affair-present-by-asenath-3-x-shi
+ nar-lodge-2-tickets-2001577422953?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

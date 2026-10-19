@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20261019@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART:20261020T010000Z
+DTEND:20261020T030000Z
+SUMMARY:Fleeting: The Linda Lindas w/ Grace Bowers (one night)
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:One-night show pairing The Linda Lindas with Nashville guitaris
+ t Grace Bowers.\nDetails and tickets: https://do615.com/events/2026/10/19/
+ the-linda-lindas-w-grace-bowers-tickets\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://do615.com/events/2026/10/19/the-linda-lindas-w-grace-bowers-tic
+ kets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:saint_nicky_s-20261124@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Fleeting: Saint Nicky's (one night)
+LOCATION:Saint Nicky's\, The Nations
+DESCRIPTION:Holiday pop-up opening in The Nations on Nov 24. No details on 
+ concept or end date given in the text.\nDetails and tickets: https://nashv
+ illeguru.com/businesses/saint-nickys\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/saint-nickys
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

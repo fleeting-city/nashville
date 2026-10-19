@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:woolworth_theatre-20261213@nashville.fleeting.city
+DTSTAMP:20261019T122450Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Last day: The Jury Experience - The Killer AI
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:Ticketed immersive courtroom thriller running through mid-Decem
+ ber. Discounted 20% from $32.80.\nDetails and tickets: https://feverup.com
+ /m/700943\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/700943
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
