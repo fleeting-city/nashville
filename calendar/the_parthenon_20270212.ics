@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20270212@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Last day: Candlelight: Coldplay vs. Imagine Dragons
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:String arrangement head-to-head of Coldplay and Imagine Dragons
+  catalogs at the Parthenon. Rated 4.8. From $38.\nDetails and tickets: htt
+ ps://feverup.com/m/656284\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/656284
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_lawn_at_nashville_yards-20261030@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Last day: Nashville Yards Free Outdoor Movie Series
+LOCATION:The Lawn at Nashville Yards\, Downtown
+DESCRIPTION:Free outdoor movies on the lawn at Nashville Yards\, wrapping u
+ p October 30. No ticket required.\nDetails and tickets: https://do615.com/
+ events/2026/5/30/free-outdoor-movie-series-tickets\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://do615.com/events/2026/5/30/free-outdoor-movie-series-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:riverfront_park-20261025@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Last day: Pop-Up Bar at the Terrace
+LOCATION:Riverfront Park\, SoBro
+DESCRIPTION:Weekend-only pop-up bar on the Riverfront Park terrace. Three s
+ essions across Friday through Sunday\; different hours each day.\nDetails 
+ and tickets: https://nashvilledowntown.com/event/pop-up-bar-at-the-terrace
+ \nWindows drift - confirm with the venue before you go.\nFleeting - the we
+ ekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/pop-up-bar-at-the-terrace
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

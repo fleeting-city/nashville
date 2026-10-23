@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:sonny_s_patio_pub_clubhouse-20261227@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Last day: Holly Jolly Holiday Bar at Sonny's Patio Pub Clubhouse
+LOCATION:Sonny's Patio Pub Clubhouse\, Germantown
+DESCRIPTION:Seasonal holiday-themed bar pop-up running through late Decembe
+ r. Tickets from $22.\nDetails and tickets: https://bucketlisters.com/explo
+ re/city/NSH\nWindows drift - confirm with the venue before you go.\nFleeti
+ ng - the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

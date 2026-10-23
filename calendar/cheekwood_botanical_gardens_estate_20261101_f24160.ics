@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_botanical_gardens_estate-20261101@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Cheekwood Harvest
+LOCATION:Cheekwood Botanical Gardens & Estate\, Bellevue
+DESCRIPTION:Cheekwood's 55-acre botanical garden runs its harvest festival 
+ through November 1\, featuring 100\,000 pumpkins\, a new Marigold River\, 
+ and evening Harvest NIGHTS. Adults $21-$29\, seniors $19-$27\, students $1
+ 7-$25.\nDetails and tickets: https://cheekwood.org/calendar-events/cheekwo
+ od-harvest/\nWindows drift - confirm with the venue before you go.\nFleeti
+ ng - the weekly Nashville what-closes-first list.
+URL:https://cheekwood.org/calendar-events/cheekwood-harvest/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

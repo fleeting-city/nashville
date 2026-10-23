@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tin_roof_broadway-20261025@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Last day: 9 to 5: A Toast to Dolly
+LOCATION:Tin Roof Broadway\, Downtown
+DESCRIPTION:Order "The Dolly\," a featured cocktail honoring Dolly Parton's
+  music and generosity\, while live music plays through the last weekend. F
+ or every one sold\, Tin Roof donates $1 to Dolly Parton's Imagination Libr
+ ary.\nDetails and tickets: https://tinroofbroadway.com/featured-event/9-to
+ -5-a-toast-to-dolly/\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://tinroofbroadway.com/featured-event/9-to-5-a-toast-to-dolly/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book the Window | Fleeting - Nashville</title>
+<meta name="description" content="This week's closing Nashville windows you can book yourself right now - a tap through to Resy, Tock, OpenTable or Eventbrite. Only windows that are genuinely bookable; no dead links. From Fleeting's weekly discovery crawl.">
+<link rel="canonical" href="https://nashville.fleeting.city/bookable/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Book the Window - Nashville">
+<meta property="og:description" content="This week's closing Nashville windows you can book yourself - straight through to Resy, Tock, OpenTable or Eventbrite.">
+<meta property="og:url" content="https://nashville.fleeting.city/bookable/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Book the Window - Nashville">
+<meta name="twitter:description" content="Closing Nashville windows you can book yourself right now. Only genuinely bookable ones.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Book the Window (EXP-0103 / LAS-449). A zero-call self-serve
+  affiliate reservation rail: this week's CLOSING windows that can actually be booked
+  on a reservation/ticket platform (Resy / Tock / OpenTable / Eventbrite), each with a
+  'Book this window' link to the listing's own url. Built by scripts/build_bookable_window.py
+  from the WHOLE board (board_source.py / board.json rule). Honest by construction: a
+  window is listed only if its own crawl-captured link lands on a recognised platform,
+  it is verified (not needs_confirm) and it carries a real, parseable close date that
+  has not passed - never a dead or invented link; an empty week says so. Links are
+  wrapped through affiliate.py against the SHARED affiliate_config.json: INERT today
+  (plain link + first-party UTM), and they gain the affiliate id automatically the
+  moment LAS-160 enables a network with a real id - no code change. FTC disclosure
+  shows only once a real id fires. Machine-derived, do not hand-edit - edit the builder.
+  Pull surface only, NO alert/booking-for-you promise (F-0009). Dark mission-control
+  theme; skyline resolved via brand/marks.py and referenced (not pasted) from
+  skyline.svg (rules 11/14). First-touch attribution to surface 'bookable', subscribe
+  CTA utm_campaign=EXP-0103 (EXP-0030). Pure-ASCII copy.
+-->
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'bookable'),
+      m:(q.get('utm_medium')||'rail'),
+      c:(q.get('utm_campaign')||'EXP-0103'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12); --line2:rgba(246,241,231,.2);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:720px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,44px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:62ch;}
+  .lede b{color:var(--cream);}
+  .weektag{display:inline-block;margin:16px 0 6px;font-family:'Archivo';font-weight:700;font-size:12px;
+    letter-spacing:.04em;text-transform:uppercase;color:var(--gold);background:rgba(240,180,41,.1);
+    border:1px solid rgba(240,180,41,.3);border-radius:999px;padding:6px 14px;}
+
+  .list{margin:16px 0 10px;display:grid;gap:12px;}
+  .row{display:grid;grid-template-columns:46px 1fr auto;gap:16px;align-items:center;background:var(--ink2);
+    border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:13px;padding:14px 16px;transition:.15s;}
+  .row:hover{border-color:var(--line2);transform:translateY(-1px);}
+  .rk{font-family:'Archivo';font-weight:900;font-size:22px;color:var(--accent);text-align:center;}
+  .body h3{font-family:'Archivo';font-weight:700;font-size:16.5px;letter-spacing:-.01em;line-height:1.18;margin-bottom:3px;}
+  .metaline{font-size:11.5px;color:var(--muted);font-weight:600;letter-spacing:.02em;text-transform:uppercase;}
+  .metaline .cat{color:var(--gold);} .metaline .sep{opacity:.5;margin:0 6px;}
+  .blurb{font-size:13px;color:#cbc6bb;line-height:1.45;margin-top:5px;}
+  .when{margin-top:7px;font-size:11.5px;color:var(--muted);font-weight:600;letter-spacing:.02em;}
+  .right{text-align:right;white-space:nowrap;}
+  .book{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;
+    font-size:12.5px;letter-spacing:.01em;padding:10px 15px;border-radius:9px;white-space:nowrap;transition:.14s;}
+  .book:hover{background:#d13a2b;text-decoration:none;}
+
+  .empty{padding:34px 20px;text-align:center;background:var(--ink2);border:1px dashed var(--line2);
+    border-radius:14px;margin:16px 0 10px;}
+  .empty .eh{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,22px);color:var(--cream);margin-bottom:8px;}
+  .empty p{font-size:13.5px;color:#cbc6bb;line-height:1.6;max-width:52ch;margin:0 auto;}
+
+  .disclose{margin:12px 0 2px;font-size:11px;color:var(--muted);line-height:1.6;max-width:62ch;}
+
+  .method{margin:30px 0 6px;padding:18px 20px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .method h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin-bottom:8px;}
+  .method p{font-size:12.8px;color:#cbc5b9;line-height:1.72;} .method b{color:var(--cream);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;} .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Book it before it closes</div>
+    <h1>Book the window<span class="dot">.</span></h1>
+    <p class="lede">The closing Nashville windows you can <b>book yourself, right now</b> - one tap through to Resy, Tock, OpenTable or Eventbrite, the platform that actually sells it. No call, no waiting for business hours. <b>Only windows that are genuinely bookable; we never point you at a dead link.</b></p>
+    <div class="weektag">11 bookable windows this week, closing soonest first</div>
+    <div class="list"><article class="row"><div class="rk">1</div><div class="body"><div class="metaline"><span class="cat">CLASS</span><span class="sep">&middot;</span>Mary Louise&#x27;s Social Club &middot; Downtown</div><h3>Handmade Pasta Making Class with Chef Taylor</h3><div class="blurb">Hands-on pasta making class with Chef Taylor at Mary Louise&#x27;s Social Club inside Tempo by Hilton Nashville Downtown. Sales end soon.</div><div class="when">closes Oct 23 &middot; closes today</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/handmade-pasta-making-class-with-chef-taylor-mary-louises-social-club-tickets-1991480001293?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">2</div><div class="body"><div class="metaline"><span class="cat">POP-UP</span><span class="sep">&middot;</span>Radnor</div><h3>Nashville Designer Tent Sale</h3><div class="blurb">Friday&#x27;s early-access hour at Ro + Co&#x27;s Sidco Drive warehouse lets you shop furniture, sofas, lighting, and accessories from six Nashville designers and upholstery brands at up to 80% off before the public arrives Saturday.</div><div class="when">closes Oct 23 &middot; closes today</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/nashville-designer-tent-sale-tickets-2003304702292?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">3</div><div class="body"><div class="metaline"><span class="cat">DINNER</span><span class="sep">&middot;</span>Tennessee Agricultural Museum &middot; Crieve Hall</div><h3>Dinner on the Lawn</h3><div class="blurb">A fundraising dinner set among the historic cabins at the Tennessee Agricultural Museum, with proceeds supporting its mission to preserve Tennessee agricultural history. Two hours outdoors, free parking.</div><div class="when">closes Oct 24 &middot; 1 day left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/dinner-on-the-lawn-tickets-1994095700921?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">4</div><div class="body"><div class="metaline"><span class="cat">FESTIVAL</span><span class="sep">&middot;</span>Barrel Proof &middot; Germantown</div><h3>Nashville Halloween Tequila Crawl &amp; Costume Contest</h3><div class="blurb">Halloween bar crawl built around tequila with a costume contest; starts at Barrel Proof in Germantown.</div><div class="when">closes Oct 24 &middot; 1 day left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/nashville-halloween-tequila-crawl-costume-contest-tickets-1999317194549?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">5</div><div class="body"><div class="metaline"><span class="cat">SPECIAL EVENT</span><span class="sep">&middot;</span>Federales Tacos &amp; Tequila &middot; The Gulch</div><h3>Pumpkin Carving Party at Federales in The Gulch</h3><div class="blurb">Ticketed pumpkin carving night at a taqueria bar in the Gulch. Tickets from $37.15.</div><div class="when">closes Oct 26 &middot; 3 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/pumpkin-carving-party-at-federales-in-the-gulch-tickets-1999297391317?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">6</div><div class="body"><div class="metaline"><span class="cat">SPECIAL EVENT</span><span class="sep">&middot;</span>Game Terminal</div><h3>Game Terminal Halloween Party 2026</h3><div class="blurb">Halloween party at Game Terminal, tickets from $13.73.</div><div class="when">closes Oct 30 &middot; 7 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/game-terminal-halloween-party-2026-tickets-2001411570885?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">7</div><div class="body"><div class="metaline"><span class="cat">TASTING</span><span class="sep">&middot;</span>Silo Market &middot; The Nations</div><h3>Nation&#x27;s &quot;Drink-or-Treat&quot;</h3><div class="blurb">Halloween-themed bar crawl through The Nations, starting at Silo Market. Afternoon format.</div><div class="when">closes Oct 31 &middot; 8 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/nations-drink-or-treat-tickets-2002662184504?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">8</div><div class="body"><div class="metaline"><span class="cat">DINNER</span><span class="sep">&middot;</span>Del Frisco&#x27;s Grille &middot; Music Row</div><h3>Del Frisco&#x27;s Grille Nashville - Joe Wagner Wine Dinner</h3><div class="blurb">Seated winemaker dinner pairing Wagner Family wines with a coursed menu at the Music Row location. Sales flagged as ending soon.</div><div class="when">closes Nov 5 &middot; 13 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/del-friscos-grille-nashville-joe-wagner-wine-dinner-tickets-1999717933169?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">9</div><div class="body"><div class="metaline"><span class="cat">DINNER</span><span class="sep">&middot;</span>2400 Pennington Bend Rd &middot; Haysboro</div><h3>2026 Fall Farm Dinner</h3><div class="blurb">Seated farm dinner at 2400 Pennington Bend Rd in Haysboro. Two November evenings available.</div><div class="when">closes Nov 6 &middot; 14 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/2026-fall-farm-dinner-registration-2000487480907?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">10</div><div class="body"><div class="metaline"><span class="cat">MARKET</span><span class="sep">&middot;</span>Centennial Park &middot; Centennial</div><h3>Nashville Creators &amp; Treasures Pop-Up</h3><div class="blurb">Multi-vendor pop-up at Centennial Park featuring local creators and curated goods.</div><div class="when">closes Nov 6 &middot; 14 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/nashville-creators-treasures-pop-up-tickets-2000402254994?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article><article class="row"><div class="rk">11</div><div class="body"><div class="metaline"><span class="cat">POP-UP</span><span class="sep">&middot;</span>Tomorrow&#x27;s Hope at Nicky&#x27;s Coal Fired</div><h3>Secondhand Wedding Dress Pop Up</h3><div class="blurb">Secondhand wedding dress sale running across multiple dates; sales ending soon.</div><div class="when">closes Nov 8 &middot; 16 days left</div></div><div class="right"><a class="book" href="https://www.eventbrite.com/e/secondhand-wedding-dress-pop-up-tickets-2001095251766?aff=ebdssbdestsearch&amp;utm_source=fleeting&amp;utm_medium=book-window&amp;utm_campaign=EXP-0103" target="_blank" rel="noopener nofollow sponsored">Book this window on Eventbrite &#8594;</a></div></article></div>
+    <section class="method">
+      <h2>How this board works</h2>
+      <p>The source is Fleeting's own weekly discovery crawl of time-limited Nashville windows. A window appears here only when its own listing is a real reservation or ticket page on <b>Resy, Tock, OpenTable or Eventbrite</b>, the crawl could verify it, and it carries a real closing date that has not passed. A window that is call-ahead, walk-up, or only written up on a blog is not on this board - we would rather show you fewer, real booking links than one dead one. Each link goes to the listing's own page; booking happens there, with that platform, not with us. No alerts, no notifications, and we never book anything on your behalf - one email a week.</p>
+    </section>
+    <section class="cta">
+      <p><b>The windows worth booking are gone before most people hear about them.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville windows - the dinners, pop-ups and shows that will be gone by the weekend - in your inbox while they are still open and still bookable.</p>
+      <a class="btn" href="https://nashville.fleeting.city/?utm_source=bookable&amp;utm_medium=rail&amp;utm_campaign=EXP-0103#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Looking for everything that is open or closing next? See <a href="/conditions/">the conditions board</a>. What already sold out? <a href="/sold-out/">sold out this week</a>. The full record is in <a href="/archive/">the archive</a>. Built October 23, 2026.</p>
+  </div>
+</body>
+</html>

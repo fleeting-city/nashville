@@ -8,15 +8,15 @@ X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:national_museum_of_african_american_music-20261023@nashville.fleeting.c
  ity
-DTSTAMP:20261019T122450Z
+DTSTAMP:20261023T111420Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Fleeting: Candlelight: Tribute to Michael Jackson (one night)
 LOCATION:National Museum of African American Music\, Downtown
-DESCRIPTION:Single-night candlelit Michael Jackson tribute at NMAAM. From $
- 74.\nDetails and tickets: https://feverup.com/m/704983\nWindows drift - co
- nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
- closes-first list.
+DESCRIPTION:String ensemble plays Michael Jackson catalog at NMAAM. Tickets
+  from $74.\nDetails and tickets: https://feverup.com/m/704983\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
 URL:https://feverup.com/m/704983
 TRANSP:TRANSPARENT
 END:VEVENT

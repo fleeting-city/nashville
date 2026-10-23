@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Still Standing? A Nashville recall game | Fleeting</title>
+<meta name="description" content="Guess which once-featured Nashville windows are still standing and which already closed, then share your score. Built from Fleeting's back catalog -- honest by design: every answer is the window's own stated close date.">
+<link rel="canonical" href="https://nashville.fleeting.city/still-standing/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Still Standing? A Nashville recall game | Fleeting">
+<meta property="og:description" content="Guess which once-featured Nashville windows are still standing and which already closed, then share your score. Built from Fleeting's back catalog -- honest by design: every answer is the window's own stated close date.">
+<meta property="og:url" content="https://nashville.fleeting.city/still-standing/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Still Standing? A Nashville recall game | Fleeting">
+<meta name="twitter:description" content="Guess which once-featured Nashville windows are still standing and which already closed, then share your score. Built from Fleeting's back catalog -- honest by design: every answer is the window's own stated close date.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : 'Still Standing?' recall game (EXP-0110 / LAS-465).
+  Lens L12 make-the-archive-work / G2. Serves once-featured windows (ledger
+  confidence=vetted) one at a time; reader guesses still-standing-or-closed; the
+  honest answer is the window's own stated close date vs today, revealed with the
+  ORIGINAL issue link. Rounds are balanced by construction (equal standing+closed).
+  Unknown-state windows are excluded; one-off events are excluded. Static, no
+  server, no PII, no send(). Regenerated on every publish by
+  scripts/build_still_standing.py -- do not hand-edit; edit the builder. Dark
+  mission-control theme; skyline resolved via brand/marks.py and referenced (not
+  pasted) from skyline.svg (rules 11/14). Pure-ASCII bytes.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:640px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;} .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;} h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;margin:0 0 8px;}
+  .lede b{color:var(--cream);}
+
+  .game{margin:22px 0 6px;}
+  .progress{display:flex;align-items:center;justify-content:space-between;font-size:11.5px;font-weight:700;
+    letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;}
+  .progress b{color:var(--cream);}
+  .qcard{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-radius:14px;padding:20px 18px 18px;}
+  .qtype{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.35);
+    border-radius:999px;padding:3px 10px;margin-bottom:10px;}
+  .qcard h2{font-family:'Archivo';font-weight:900;font-size:22px;line-height:1.15;letter-spacing:-.01em;color:var(--cream);}
+  .qwhere{font-size:12.5px;color:var(--muted);margin:6px 0 2px;font-weight:600;letter-spacing:.02em;}
+  .qwhere::before{content:"\25CD  ";color:var(--gold);}
+  .guess{display:flex;gap:10px;margin:18px 0 2px;flex-wrap:wrap;}
+  .guess button{flex:1 1 140px;background:var(--ink2);color:var(--cream);border:1px solid var(--line);
+    border-radius:11px;padding:14px 12px;font-family:'Archivo';font-weight:700;font-size:15px;cursor:pointer;transition:.14s;}
+  .guess button:hover{border-color:var(--accent);background:#1c1a20;}
+  .guess button.standing:hover{border-color:var(--gold);}
+  .reveal{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;}
+  .verdict{display:inline-block;font-family:'Archivo';font-weight:900;font-size:16px;margin-bottom:6px;}
+  .verdict.right{color:var(--gold);} .verdict.wrong{color:var(--accent);}
+  .ans{font-size:14px;color:#d8d3c8;line-height:1.5;margin:4px 0;} .ans b{color:var(--cream);}
+  .reveal .meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:12.5px;font-weight:700;}
+  .next{display:block;width:100%;margin-top:16px;background:var(--accent);color:#fff;border:none;cursor:pointer;
+    font-family:'Archivo';font-weight:700;font-size:15px;padding:14px;border-radius:11px;transition:.14s;}
+  .next:hover{background:#d13a2b;}
+  .scorecard{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:16px;padding:24px 20px;text-align:center;}
+  .scorecard .big{font-family:'Archivo';font-weight:900;font-size:clamp(34px,9vw,52px);line-height:1;color:var(--cream);}
+  .scorecard .big span{color:var(--gold);}
+  .scorecard .sub{font-size:14.5px;color:#cfc9bd;margin:10px 0 2px;}
+  .scorecard .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px;}
+  .scorecard button,.scorecard a{background:var(--accent);color:#fff;border:none;cursor:pointer;
+    font-family:'Archivo';font-weight:700;font-size:14px;padding:12px 18px;border-radius:10px;transition:.14s;}
+  .scorecard .ghost{background:transparent;border:1px solid var(--line);color:var(--cream);}
+  .scorecard button:hover{background:#d13a2b;} .scorecard .ghost:hover{border-color:var(--accent);text-decoration:none;}
+  .copied{font-size:12px;color:var(--gold);margin-top:10px;min-height:16px;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;} .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--cream);}
+  .btn.ghost:hover{border-color:var(--accent);}
+  .thinlinks{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 4px;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);} .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Still standing?</div>
+    <h1>Which ones are <span class="dot">still</span> standing<span class="dot">?</span></h1>
+    <p class="lede">We featured these Nashville windows when they were on the clock. Some are <b>still hanging on</b>. Most are <b>already gone</b>. Can you tell which is which<span class="dot">?</span></p>
+    <div id="game" class="game"></div>
+    <section class="cta" id="subscribe">
+      <p><b>Everything here was on a timer.</b> Some are still hanging on, most are already gone -- and you only find out which when it is too late to go. Friday's roundup is the whole week of here-then-gone Nashville, in your inbox while there is still time. Free.</p>
+      <a class="btn" href="/?utm_source=stillstanding&amp;utm_medium=game&amp;utm_campaign=recall_game#subscribe">Get Friday's roundup, free &#8594;</a>
+    </section>
+    <p class="foot">Every window here is real and every answer is the window's own stated close date, read from the <span class="fmark">Fleeting<span class="dot">.</span></span> discovery crawl on <b>October 23, 2026</b> and shown with the issue it ran in. A "still standing" window is one still inside its stated run as of that crawl -- confirm with the source before you go. Want the live read instead? Try the <a href="/still-on/">window checker</a> or the <a href="/archive/">closed-windows archive</a>.</p>
+  </div>
+  <script type="application/json" id="data">{"standing":[{"t":"Fall 2026 - Clothes for a Cause","v":"","n":"east nashville","y":"Pop-up","e":"2026-10-24","s":"standing","iu":"/issues/011/","in":"011","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"},{"t":"Shuckle's Corn Maze & Pumpkin Patch","v":"","n":"unknown","y":"Seasonal","e":"2026-10-31","s":"standing","iu":"/issues/010/","in":"010","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"Devil's Dungeon Haunted House","v":"Devil's Dungeon","n":"unknown","y":"Seasonal","e":"2026-10-31","s":"standing","iu":"/issues/010/","in":"010","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"Honeysuckle Fall Festival","v":"Honeysuckle Hill Farm","n":"unknown","y":"Seasonal","e":"2026-11-01","s":"standing","iu":"/issues/010/","in":"010","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"}],"closed":[{"t":"C.S. Lewis on Stage: Further Up and Further On","v":"Fisher Center for the Performing Arts","n":"unknown","y":"Pop-up","e":"2026-10-17","s":"closed","iu":"/issues/008/","in":"008","u":"https://notesonnashville.com/things-to-do/nashville-calendar"},{"t":"October Third Saturday Market at Love, Rae Grace Boutique","v":"Love, Rae Grace Boutique","n":"unknown","y":"Limited-time run","e":"2026-10-17","s":"closed","iu":"/issues/010/","in":"010","u":"https://williamsonsource.com/events/"},{"t":"Oddity Improv","v":"","n":"downtown franklin","y":"Limited-time run","e":"2026-10-13","s":"closed","iu":"/issues/012/","in":"012","u":"https://www.downtownfranklintn.com/events"},{"t":"The Fall Edit","v":"Belinda City","n":"unknown","y":"Pop-up","e":"2026-10-10","s":"closed","iu":"/issues/010/","in":"010","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"},{"t":"Spamilton: An American Parody Musical","v":"","n":"downtown franklin","y":"Limited-time run","e":"2026-10-10","s":"closed","iu":"/issues/012/","in":"012","u":"https://www.downtownfranklintn.com/events"},{"t":"Farm Day 2026 at Bells Bend Park","v":"Bells Bend Park","n":"unknown","y":"Limited-time run","e":"2026-10-10","s":"closed","iu":"/issues/012/","in":"012","u":"https://allevents.in/nashville"},{"t":"Pet Psychic Readings","v":"Holston House Nashville","n":"unknown","y":"Limited-time run","e":"2026-10-09","s":"closed","iu":"/issues/012/","in":"012","u":"https://nashvilledowntown.com/do"},{"t":"Return of the Rebels: 12-Stop Hotty Toddy Bar Crawl Part II","v":"Silverbelly Whiskey Distillery & Alan Jackson Museum","n":"the district","y":"Limited-time run","e":"2026-10-09","s":"closed","iu":"/issues/012/","in":"012","u":"https://www.eventbrite.com/d/tn--nashville/food-and-drink/"},{"t":"Fall Market","v":"Noble Park","n":"the gulch","y":"Limited-time run","e":"2026-10-08","s":"closed","iu":"/issues/012/","in":"012","u":"https://nashvilledowntown.com/do"},{"t":"Wedgewood-Houston Farmer's Market","v":"The Outfield","n":"wedgewood-houston","y":"Limited-time run","e":"2026-10-07","s":"closed","iu":"/issues/011/","in":"011","u":"https://do615.com/events"},{"t":"Dolly's Songteller Hotel & Life of Many Colors Museum Grand Opening","v":"Dolly's Songteller Hotel","n":"unknown","y":"Limited-time run","e":"2026-09-29","s":"closed","iu":"/issues/010/","in":"010","u":"https://notesonnashville.com/things-to-do/nashville-calendar"},{"t":"Coastal Hour at Bar Mar","v":"Bar Mar at W Nashville","n":"the gulch","y":"Seasonal","e":"2026-09-27","s":"closed","iu":"/issues/010/","in":"010","u":"https://do615.com/events"},{"t":"Fall Pop-Up Market at The Basement Marketplace","v":"The Basement Marketplace","n":"sherwood forest","y":"Pop-up","e":"2026-09-26","s":"closed","iu":"/issues/007/","in":"007","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"},{"t":"Back 2 The Video Store: A 90s Speakeasy Bar","v":"Back 2 The Video Store","n":"unknown","y":"Pop-up","e":"2026-09-19","s":"closed","iu":"/issues/002/","in":"002","u":"https://bucketlisters.com/explore/city/NSH"},{"t":"Duckhorn Wine Dinner at Char Nashville","v":"Char Restaurant","n":"midtown","y":"Pop-up","e":"2026-09-15","s":"closed","iu":"/issues/007/","in":"007","u":"https://www.eventbrite.com/d/tn--nashville/food-and-drink/"},{"t":"Franklin Flea Market","v":"","n":"franklin","y":"Limited-time run","e":"2026-09-13","s":"closed","iu":"/issues/004/","in":"004","u":"https://williamsonsource.com/events/"},{"t":"Edgar Allan Poe Speakeasy: Chapter Two","v":"The Mulehouse","n":"unknown","y":"Limited-time run","e":"2026-09-12","s":"closed","iu":"/issues/004/","in":"004","u":"https://feverup.com/en/nashville"},{"t":"Book Your Rooftop Cabana","v":"Grand Hyatt Nashville","n":"downtown","y":"Seasonal","e":"2026-09-01","s":"closed","iu":"/issues/004/","in":"004","u":"https://do615.com/events"},{"t":"Side B Summer Pop-Up","v":"Bode","n":"downtown","y":"Pop-up","e":"2026-08-31","s":"closed","iu":"/issues/004/","in":"004","u":"https://nashvilledowntown.com/do"},{"t":"Cast Iron Master Class Lunch - The Joseph's 6th Iron Anniversary","v":"Yolan at The Joseph","n":"downtown","y":"Limited-time run","e":"2026-08-28","s":"closed","iu":"/issues/006/","in":"006","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"Chromatic & Friends MYSTERY Pop-Up Show","v":"Berry Hill","n":"south nashville","y":"Pop-up","e":"2026-08-27","s":"closed","iu":"/issues/007/","in":"007","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"},{"t":"Panera Bread Grand Opening - Springfield","v":"Panera Bread","n":"springfield","y":"Limited-time run","e":"2026-08-26","s":"closed","iu":"/issues/006/","in":"006","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"Legally Blonde - Monday Movie Nights on Skydeck","v":"Skydeck on Broadway","n":"downtown","y":"Limited-time run","e":"2026-08-24","s":"closed","iu":"/issues/007/","in":"007","u":"https://nashvilledowntown.com/do"},{"t":"Tipsy Teachings Lecture Series","v":"The Blue Room at Third Man Records","n":"downtown","y":"Limited-time run","e":"2026-08-20","s":"closed","iu":"/issues/007/","in":"007","u":"https://nashvilledowntown.com/do"},{"t":"FACE FOUNDRIE Belle Meade Grand Opening","v":"FACE FOUNDRIE Belle Meade","n":"belle meade","y":"Limited-time run","e":"2026-08-18","s":"closed","iu":"/issues/004/","in":"004","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"},{"t":"Beer, Bourbon & BBQ: Nashville Adventure","v":"308 Rep. John Lewis Way S","n":"downtown","y":"Limited-time run","e":"2026-08-15","s":"closed","iu":"/issues/004/","in":"004","u":"https://feverup.com/en/nashville"},{"t":"Aquarium Nashville - Mystic Mermaids Under the Sea Breakfast","v":"Aquarium Restaurant","n":"unknown","y":"Pop-up","e":"2026-08-15","s":"closed","iu":"/issues/006/","in":"006","u":"https://www.eventbrite.com/d/tn--nashville/food-and-drink/"},{"t":"Mott Cha Market | August 2026","v":"Mott Cha","n":"unknown","y":"Limited-time run","e":"2026-08-08","s":"closed","iu":"/issues/002/","in":"002","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"},{"t":"Cookies for a Cause","v":"440 Welshwood Dr","n":"unknown","y":"Pop-up","e":"2026-08-04","s":"closed","iu":"/issues/004/","in":"004","u":"https://www.eventbrite.com/d/tn--nashville/food-and-drink/"},{"t":"Star Dust Drive-In - Summer Nightly Run Ending","v":"Star Dust Drive-In Movie Theater","n":"unknown","y":"Seasonal","e":"2026-08-02","s":"closed","iu":"/issues/002/","in":"002","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"12South Burger Up Final Days","v":"Burger Up","n":"12south","y":"Closure","e":"2026-08-01","s":"closed","iu":"/issues/002/","in":"002","u":"https://www.nashvillescene.com/food_drink"},{"t":"A Landmark Repurposed: From Post Office to Art Museum","v":"Frist Art Museum","n":"downtown","y":"Limited-time run","e":"2026-08-01","s":"closed","iu":"/issues/002/","in":"002","u":"https://nashvilledowntown.com/do"},{"t":"Play Like a Girl Pop Up","v":"Gigi Pip | Two Roads Hat Bar","n":"unknown","y":"Pop-up","e":"2026-07-31","s":"closed","iu":"/issues/004/","in":"004","u":"https://nashvilledowntown.com/do"},{"t":"StarChefs Nashville Rising Stars Two-Week Promotion","v":"Various","n":"unknown","y":"Limited-time run","e":"2026-07-24","s":"closed","iu":"/issues/002/","in":"002","u":"https://www.nashvillescene.com/food_drink"},{"t":"Movies Under the Giant Guitar","v":"","n":"wedgewood houston","y":"Limited-time run","e":"2026-07-23","s":"closed","iu":"/issues/003/","in":"003","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"National Tequila Day at Superica","v":"Superica","n":"unknown","y":"Limited-time run","e":"2026-07-20","s":"closed","iu":"/issues/002/","in":"002","u":"https://nashvilledowntown.com/do"},{"t":"SusieCakes Cupcake BOGO - 20th Anniversary","v":"SusieCakes","n":"unknown","y":"Limited-time run","e":"2026-07-18","s":"closed","iu":"/issues/002/","in":"002","u":"https://nashvillelife.com/Nashville-Calendar-of-Events"},{"t":"Nashville Junk Journal Club Presents: Journal Pop","v":"Drift Nashville","n":"unknown","y":"Pop-up","e":"2026-07-16","s":"closed","iu":"/issues/002/","in":"002","u":"https://www.eventbrite.com/d/tn--nashville/pop-up/"}],"minSide":3}</script>
+  <script>
+(function(){
+  var DATA;
+  try { DATA = JSON.parse(document.getElementById('data').textContent); }
+  catch(e){ DATA = {standing:[],closed:[],minSide:3}; }
+  var root = document.getElementById('game');
+  if(!root) return;
+  function esc(s){ return (s==null?'':String(s)).replace(/[&<>"']/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i];a[i]=a[j];a[j]=t; } return a; }
+  function nice(iso){ var d=new Date(iso+'T00:00:00'); if(isNaN(d)) return iso;
+    var m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return m[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear(); }
+
+  var round=[], idx=0, score=0, answered=false;
+
+  function deal(){
+    var cap = Math.min(5, DATA.standing.length, DATA.closed.length);
+    var st = shuffle(DATA.standing.slice()).slice(0,cap);
+    var cl = shuffle(DATA.closed.slice()).slice(0,cap);
+    round = shuffle(st.concat(cl));
+    idx=0; score=0;
+  }
+
+  function where(it){
+    var w = it.v || '';
+    if(it.n){ w = w ? (w+', '+it.n) : it.n; }
+    return w;
+  }
+
+  function question(){
+    answered=false;
+    var it = round[idx];
+    var w = esc(where(it));
+    root.innerHTML =
+      '<div class="progress"><span>Window <b>'+(idx+1)+'</b> of <b>'+round.length+'</b></span>'
+      +'<span>Score <b>'+score+'</b></span></div>'
+      +'<div class="qcard"><span class="qtype">'+esc(it.y)+'</span>'
+      +'<h2>'+esc(it.t)+'</h2>'
+      +(w?'<div class="qwhere">'+w+'</div>':'')
+      +'<div class="guess">'
+      +'<button class="standing" data-g="standing">Still standing</button>'
+      +'<button data-g="closed">Closed</button>'
+      +'</div><div class="reveal" id="reveal" hidden></div></div>';
+  }
+
+  function reveal(guess){
+    if(answered) return; answered=true;
+    var it = round[idx];
+    var right = (guess === it.s);
+    if(right) score++;
+    var rv = document.getElementById('reveal');
+    var line, truth;
+    if(it.s==='standing'){
+      truth='Still standing.'; line='As of our last crawl it was still in its run -- last day on file is <b>'+nice(it.e)+'</b>. Confirm before you go.';
+    } else {
+      truth='Closed.'; line='Its stated run ended <b>'+nice(it.e)+'</b>. Gone.';
+    }
+    var meta='';
+    if(it.iu){ meta+='<a href="'+esc(it.iu)+'" target="_blank" rel="noopener">The issue it ran in (#'+esc(it['in'])+') &#8594;</a>'; }
+    if(it.u){ meta+='<a href="'+esc(it.u)+'" target="_blank" rel="noopener">Source &#8594;</a>'; }
+    rv.innerHTML =
+      '<div class="verdict '+(right?'right':'wrong')+'">'+(right?'You knew it.':'Nope.')+' '+truth+'</div>'
+      +'<p class="ans">'+line+'</p>'
+      +(meta?'<div class="meta">'+meta+'</div>':'')
+      +'<button class="next" id="next">'+((idx+1<round.length)?'Next window &#8594;':'See your score &#8594;')+'</button>';
+    rv.hidden=false;
+    var btns=root.querySelectorAll('.guess button'); for(var i=0;i<btns.length;i++){ btns[i].disabled=true; btns[i].style.opacity=.55; }
+    document.getElementById('next').addEventListener('click', advance);
+  }
+
+  function advance(){ idx++; if(idx<round.length){ question(); } else { finish(); }
+    window.scrollTo({top:root.offsetTop-20,behavior:'smooth'}); }
+
+  function finish(){
+    var n=round.length;
+    var share='I knew '+score+'/'+n+' of Nashville on Fleeting\'s Still Standing game.';
+    root.innerHTML =
+      '<div class="scorecard"><div class="big">You knew <span>'+score+'/'+n+'</span><br>of Nashville</div>'
+      +'<p class="sub">'+(score===n?'A clean sweep. You have been paying attention.':(score>=Math.ceil(n/2)?'Not bad. The city moves fast.':'Nashville got away from you. That is what the list is for.'))+'</p>'
+      +'<div class="row">'
+      +'<button id="share">Share my score</button>'
+      +'<button class="ghost" id="again">Play again</button>'
+      +'<a class="ghost" href="/?utm_source=stillstanding&utm_medium=game&utm_campaign=recall_game#subscribe">Get the list</a>'
+      +'</div><div class="copied" id="copied" aria-live="polite"></div></div>';
+    document.getElementById('again').addEventListener('click', function(){ deal(); question(); window.scrollTo({top:root.offsetTop-20,behavior:'smooth'}); });
+    document.getElementById('share').addEventListener('click', function(){
+      var note=document.getElementById('copied');
+      if(navigator.share){ navigator.share({title:'Fleeting - Still Standing?',text:share,url:location.href}).catch(function(){}); return; }
+      if(navigator.clipboard){ navigator.clipboard.writeText(share+' '+location.href).then(function(){ note.textContent='Copied -- paste it anywhere.'; },function(){ note.textContent=share; }); }
+      else { note.textContent=share; }
+    });
+  }
+
+  root.addEventListener('click', function(e){
+    var b=e.target.closest && e.target.closest('.guess button[data-g]');
+    if(b && !answered){ reveal(b.getAttribute('data-g')); }
+  });
+
+  deal(); question();
+})();
+</script>
+</body>
+</html>

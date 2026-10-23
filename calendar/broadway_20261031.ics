@@ -7,15 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:broadway-20261031@nashville.fleeting.city
-DTSTAMP:20261019T122450Z
+DTSTAMP:20261023T111420Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Fleeting: Broadway Halloween Bar Fest (one night)
 LOCATION:Broadway\, Downtown
-DESCRIPTION:Halloween bar crawl along Broadway\, from $6. Single-night even
- t on the strip.\nDetails and tickets: https://bucketlisters.com/explore/ci
- ty/NSH\nWindows drift - confirm with the venue before you go.\nFleeting - 
- the weekly Nashville what-closes-first list.
+DESCRIPTION:Halloween bar crawl on Broadway\, one night only. From $6\, whi
+ ch is about as low as the strip gets.\nDetails and tickets: https://bucket
+ listers.com/explore/city/NSH\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://bucketlisters.com/explore/city/NSH
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fleeting Churn Rate: Nashville food-window churn | Fleeting</title>
+<meta name="description" content="How many time-limited Nashville food and drink windows open and close each month, and how long they last -- the Fleeting Churn Rate, a monthly citable stat derived from Fleeting's weekly discovery crawl. Free JSON and CSV under CC BY 4.0.">
+<link rel="canonical" href="https://nashville.fleeting.city/churn/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="The Fleeting Churn Rate">
+<meta property="og:description" content="Nashville food-window churn, monthly: how many time-limited food and drink windows open vs close, and how long they last. From Fleeting's weekly crawl, free to cite under CC BY 4.0.">
+<meta property="og:url" content="https://nashville.fleeting.city/churn/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Fleeting Churn Rate">
+<meta name="twitter:description" content="Nashville food-window churn by month, from Fleeting's crawl record. Free JSON and CSV, CC BY 4.0.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : The Fleeting Churn Rate (EXP-0114 / LAS-473). The monthly
+  CHURN cut over the crawl record -- Nashville FOOD windows opened vs closed per
+  month, net, and median days-open of what closed. Built by
+  scripts/build_churn_rate.py from every scripts/out/<date>/candidates.json snapshot.
+  Food is decided by the shared conversation_radar.FOOD_WORDS vocabulary (reused, not
+  reinvented). Only calendar months FULLY inside the observation span are reported;
+  the partial first month and the in-progress month are excluded. Every number is
+  machine-derived -- do not hand-edit, edit the builder. Machine-readable dataset
+  alongside: churn_rate.json / .csv (CC BY 4.0). Pull surface only, NO alert promise
+  (F-0009); no spend, no outbound (LAS-211 / F-0037). Dark mission-control theme;
+  skyline resolved via brand/marks.py and referenced (not pasted) from skyline.svg
+  (rules 11/14). First-touch attribution to surface 'churn' (EXP-0030); subscribe +
+  cite links carry utm_campaign=exp-0114. Reader prose keeps accents; data
+  files are strict-ASCII (a portable public feed).
+-->
+  <script>  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'churn'),
+      m:(q.get('utm_medium')||'data'),
+      c:(q.get('utm_campaign')||'exp-0114'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12); --green:#5cc98a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .headline{margin:16px 0 4px;font-size:clamp(14px,2.6vw,16.5px);color:#e9e3d7;
+    border-left:3px solid var(--accent);padding:2px 0 2px 14px;max-width:62ch;}
+  .headline b{color:#fff;}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .chart{margin:28px 0 6px;}
+  .chead{display:flex;align-items:center;gap:10px;}
+  .chead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .chead h2{font-family:'Archivo';font-weight:900;font-size:clamp(16px,4vw,20px);letter-spacing:.03em;color:var(--gold);}
+  .csub{font-size:12.5px;color:var(--muted);margin:5px 0 14px;letter-spacing:.01em;line-height:1.6;}
+
+  .mtable{width:100%;border-collapse:collapse;font-size:13.5px;}
+  .mtable thead th{font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--muted);text-align:right;padding:0 6px 8px;border-bottom:1px solid var(--line);}
+  .mtable thead th:first-child{text-align:left;}
+  .mtable td{padding:10px 6px;border-bottom:1px solid var(--line);vertical-align:baseline;}
+  .mtable tr:last-child td{border-bottom:none;}
+  .m-month{font-family:'Archivo';font-weight:900;color:var(--cream);font-size:14px;text-align:left;}
+  .m-num{text-align:right;font-variant-numeric:tabular-nums;color:#cbc5b9;font-weight:600;}
+  .m-net{font-weight:800;}
+  .m-net.neg{color:var(--accent);} .m-net.pos{color:var(--green);} .m-net.flat{color:var(--muted);}
+  .m-med{color:var(--gold);}
+  .thin{color:var(--muted);font-style:italic;}
+
+  .caveat{font-size:12px;color:var(--muted);background:rgba(246,241,231,.03);
+    border:1px dashed var(--line);border-radius:12px;padding:12px 15px;margin:14px 0 4px;line-height:1.65;}
+  .caveat b{color:var(--cream);}
+
+  .method{margin:30px 0 6px;padding:18px 20px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .method h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin-bottom:8px;}
+  .method p{font-size:12.8px;color:#cbc5b9;line-height:1.72;}
+  .method b{color:var(--cream);} .method code{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--gold);}
+  .cite{font-size:11.5px;color:var(--muted);margin:10px 0 0;}
+  .cite code{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#cbc5b9;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">The Fleeting Churn Rate</div>
+    <h1>Nashville food windows<br>open fast and close faster<span class="dot">.</span></h1>
+    <p class="lede">Every week Fleeting crawls Nashville for time-limited windows -- the dinners, pop-ups, residencies and runs that are here then gone -- and records when each one opens and closes. This is the churn cut of that record: <b>how many food and drink windows opened versus closed each month</b>, and how long the ones that closed actually lasted. One number, updated monthly, honest about how young it is.</p>
+    <div class="headline">In <b>September 2026</b>, Nashville saw <b>110</b> time-limited food and drink windows open and <b>115</b> close -- a net loss of <b>5</b> for the month. The food windows that closed that month had been open a median of <b>1 day</b>.</div>
+    <div class="asof">Crawl record Jun 25 - Oct 22, 2026 &middot; 3 complete months &middot; 1255 food windows seen</div>
+    <section class="chart">
+      <div class="chead"><span class="dot"></span><h2>OPENED vs CLOSED, BY MONTH</h2></div>
+      <p class="csub">Food and drink windows only. Net is opens minus closes; median days-open is the lifespan of the windows that closed that month.</p>
+      <table class="mtable"><thead><tr><th>Month</th><th>Opened</th><th>Closed</th><th>Net</th><th>Median open</th></tr></thead><tbody><tr><td class="m-month">Jul 2026</td><td class="m-num">69</td><td class="m-num">37</td><td class="m-num m-net pos">net +32</td><td class="m-num m-med">1 day</td></tr><tr><td class="m-month">Aug 2026</td><td class="m-num">150</td><td class="m-num">165</td><td class="m-num m-net neg">net -15</td><td class="m-num m-med">1 day</td></tr><tr><td class="m-month">Sep 2026</td><td class="m-num">110</td><td class="m-num">115</td><td class="m-num m-net neg">net -5</td><td class="m-num m-med">1 day</td></tr></tbody></table>
+    </section>
+    <p class="caveat">We are a young newsletter: this covers <b>3 complete months</b> of record (Jun 25 - Oct 22, 2026). We report churn only for months we watched end to end -- the partial first month and the current, unfinished month are left out. 3 months is a reading, not a trend; we will not call it one until the record is long enough to.</p>
+    <section class="method">
+      <h2>How this is measured</h2>
+      <p>The source is Fleeting's own weekly discovery crawl -- 17 snapshots between Jun 25 - Oct 22, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears in several weeks. It is a <b>food window</b> when its category, title or description matches Fleeting's shared food-and-drink vocabulary, or it comes from a known food source -- the same test our recommendation replies use. A window <b>opens</b> in the month its stated open date falls and <b>closes</b> in the month its stated close date falls; both must be real calendar dates. We only report a month once the crawl has watched it <b>from its first day to its last</b> -- a month we joined partway through, or the current unfinished month, is left out rather than reported short. <b>Median days-open</b> is counted inclusively from open to close (a one-night window is 1 day) over the food windows that closed in the record. Every number here is produced by <code>build_churn_rate.py</code> from the crawl record -- there are no hand-entered figures. The underlying table is published as <a href="churn_rate.json">JSON</a> and <a href="churn_rate.csv">CSV</a> for anyone who wants to check or cite it. A short window that opens and closes between two weekly crawls can be missed: this is a sample of the curated time-limited windows Fleeting tracks, not a census of every restaurant change in Nashville.</p>
+      <p class="cite">How to cite: <code>Data by Fleeting - Nashville, https://nashville.fleeting.city/churn/</code> (September 2026 figures) &middot; licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+    </section>
+    <section class="cta">
+      <p><b>Most of these windows close within days.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville food, drink and events -- the ones that will be gone by the weekend -- in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
+      <a class="btn" href="/?utm_source=churn&amp;utm_medium=data&amp;utm_campaign=exp-0114#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Want the other cuts? <a href="/half-life/">the window half-life</a>, <a href="/open-data/">the raw open dataset</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 23, 2026.</p>
+  </div>
+</body>
+</html>

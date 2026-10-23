@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261025@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Last day: 41st Annual PumpkinFest
+LOCATION:Downtown Franklin\, Franklin
+DESCRIPTION:Franklin's signature fall street festival in its 41st year\, ru
+ nning both Saturday and Sunday across the historic downtown.\nDetails and 
+ tickets: https://downtownfranklintn.com/event/41st-annual-pumpkinfest-2026
+ /\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/41st-annual-pumpkinfest-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

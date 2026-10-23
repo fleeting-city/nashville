@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_zoo_at_grassmere-20261101@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Boo at the Zoo
+LOCATION:Nashville Zoo at Grassmere\, Grassmere
+DESCRIPTION:Presented by Middle Tennessee Honda Dealers\, the Zoo's annual 
+ Halloween event runs through the first weekend of November.\nDetails and t
+ ickets: https://do615.com/events/2026/10/16/boo-at-the-zoo-presented-by-mi
+ ddle-tennessee-honda-dealers-tickets\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/10/16/boo-at-the-zoo-presented-by-middle-
+ tennessee-honda-dealers-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

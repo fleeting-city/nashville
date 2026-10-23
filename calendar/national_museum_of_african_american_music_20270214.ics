@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20270214@nashville.fleeting.c
+ ity
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Fleeting: Candlelight: Valentine's Day Special (one night)
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:Valentine's Day candlelight concert at NMAAM. From $55.97.\nDet
+ ails and tickets: https://feverup.com/m/674689\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://feverup.com/m/674689
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

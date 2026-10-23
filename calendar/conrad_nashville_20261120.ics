@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:conrad_nashville-20261120@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Candlelight: Tribute to The Beatles (one night)
+LOCATION:Conrad Nashville\, Midtown
+DESCRIPTION:Beatles catalog on strings at the Conrad. From $36.\nDetails an
+ d tickets: https://feverup.com/m/747406\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://feverup.com/m/747406
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

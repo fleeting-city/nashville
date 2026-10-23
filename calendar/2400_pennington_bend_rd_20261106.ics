@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:2400_pennington_bend_rd-20261106@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261106T230000Z
+DTEND:20261107T010000Z
+SUMMARY:Fleeting: 2026 Fall Farm Dinner (one night)
+LOCATION:2400 Pennington Bend Rd\, Haysboro
+DESCRIPTION:Seated farm dinner at 2400 Pennington Bend Rd in Haysboro. Two 
+ November evenings available.\nDetails and tickets: https://www.eventbrite.
+ com/e/2026-fall-farm-dinner-registration-2000487480907?aff=ebdssbdestsearc
+ h\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/2026-fall-farm-dinner-registration-2000487
+ 480907?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

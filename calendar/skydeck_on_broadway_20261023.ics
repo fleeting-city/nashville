@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:skydeck_on_broadway-20261023@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261024T000000Z
+DTEND:20261024T020000Z
+SUMMARY:Fleeting: Bingo Loco (one night)
+LOCATION:Skydeck on Broadway
+DESCRIPTION:Bingo Loco takes over Skydeck on Broadway for a single Friday n
+ ight\, running from 7 to 9:30 PM.\nDetails and tickets: https://nashvilled
+ owntown.com/event/bingo-loco\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/bingo-loco
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

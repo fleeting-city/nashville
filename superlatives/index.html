@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Window Superlatives: Nashville's longest-running fleeting windows | Fleeting</title>
+<meta name="description" content="A best-of ranking from Fleeting's own crawl record: the longest-running time-limited Nashville windows we have watched open and close, and the neighborhoods with the most fleeting windows. Free JSON and CSV under CC BY 4.0.">
+<link rel="canonical" href="https://nashville.fleeting.city/superlatives/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Window Superlatives">
+<meta property="og:description" content="Nashville's longest-running fleeting windows and busiest neighborhoods, ranked from Fleeting's weekly crawl. Free to cite under CC BY 4.0.">
+<meta property="og:url" content="https://nashville.fleeting.city/superlatives/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Window Superlatives">
+<meta name="twitter:description" content="Nashville's longest-running fleeting windows, ranked from Fleeting's crawl record. Free JSON and CSV, CC BY 4.0.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Window Superlatives (EXP-0117 / LAS-494). A RETROSPECTIVE
+  best-of ranking over the crawl record -- the longest-running windows we watched
+  open AND close, and the busiest neighborhoods. Built by scripts/build_superlatives.py
+  from every scripts/out/<date>/candidates.json snapshot. Only windows whose stated
+  open and close both sit inside the observation span (never past build date) are
+  ranked -- NOT an all-time list. Every number is machine-derived; do not hand-edit,
+  edit the builder. Machine-readable alongside: superlatives.json / .csv (CC BY 4.0).
+  Pull surface only, NO alert promise (F-0009); no spend, no outbound (LAS-211 /
+  F-0037). Dark mission-control theme; skyline resolved via brand/marks.py and
+  referenced (not pasted) from skyline.svg (rules 11/14). First-touch attribution to
+  surface 'superlatives' (EXP-0030); subscribe links carry utm_campaign=exp-0117.
+  Reader prose keeps accents; data files are strict-ASCII (a portable public feed).
+-->
+  <script>  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'superlatives'),
+      m:(q.get('utm_medium')||'data'),
+      c:(q.get('utm_campaign')||'exp-0117'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12); --green:#5cc98a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .headline{margin:16px 0 4px;font-size:clamp(14px,2.6vw,16.5px);color:#e9e3d7;
+    border-left:3px solid var(--accent);padding:2px 0 2px 14px;max-width:62ch;}
+  .headline b{color:#fff;}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .chart{margin:28px 0 6px;}
+  .chead{display:flex;align-items:center;gap:10px;}
+  .chead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--accent);box-shadow:0 0 12px rgba(230,69,53,.6);}
+  .chead .dot.gold{background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .chead h2{font-family:'Archivo';font-weight:900;font-size:clamp(16px,4vw,20px);letter-spacing:.03em;color:var(--cream);}
+  .csub{font-size:12.5px;color:var(--muted);margin:5px 0 14px;letter-spacing:.01em;line-height:1.6;}
+
+  .stable{width:100%;border-collapse:collapse;font-size:14px;}
+  .stable td{padding:12px 6px;border-bottom:1px solid var(--line);vertical-align:baseline;}
+  .stable tr:last-child td{border-bottom:none;}
+  .s-rank{font-family:'Archivo';font-weight:900;color:var(--accent);font-size:16px;width:34px;text-align:left;
+    font-variant-numeric:tabular-nums;}
+  .s-title .t{display:block;font-family:'Archivo';font-weight:700;color:var(--cream);font-size:14.5px;line-height:1.25;}
+  .s-title .w{display:block;font-size:11.5px;color:#cbc5b9;margin-top:2px;}
+  .s-title .r{display:block;font-size:11px;color:var(--muted);margin-top:1px;letter-spacing:.02em;}
+  .s-days{text-align:right;font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:14px;white-space:nowrap;}
+
+  .ntable{width:100%;border-collapse:collapse;font-size:14px;}
+  .ntable thead th{font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--muted);text-align:right;padding:0 6px 8px;border-bottom:1px solid var(--line);}
+  .ntable thead th:nth-child(1){text-align:left;width:34px;} .ntable thead th:nth-child(2){text-align:left;}
+  .ntable td{padding:10px 6px;border-bottom:1px solid var(--line);vertical-align:baseline;}
+  .ntable tr:last-child td{border-bottom:none;}
+  .n-rank{font-family:'Archivo';font-weight:900;color:var(--gold);font-size:14px;font-variant-numeric:tabular-nums;}
+  .n-name{font-family:'Archivo';font-weight:700;color:var(--cream);}
+  .n-num{text-align:right;font-variant-numeric:tabular-nums;color:#cbc5b9;font-weight:700;}
+
+  .caveat{font-size:12px;color:var(--muted);background:rgba(246,241,231,.03);
+    border:1px dashed var(--line);border-radius:12px;padding:12px 15px;margin:18px 0 4px;line-height:1.65;}
+  .caveat b{color:var(--cream);}
+
+  .method{margin:30px 0 6px;padding:18px 20px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .method h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin-bottom:8px;}
+  .method p{font-size:12.8px;color:#cbc5b9;line-height:1.72;}
+  .method b{color:var(--cream);} .method code{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--gold);}
+  .cite{font-size:11.5px;color:var(--muted);margin:10px 0 0;}
+  .cite code{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#cbc5b9;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Window Superlatives</div>
+    <h1>The best of the windows<br>we watched come and go<span class="dot">.</span></h1>
+    <p class="lede">Every week Fleeting crawls Nashville for time-limited windows -- the dinners, pop-ups, residencies, markets and runs that are here then gone -- and records when each one opens and closes. This is the best-of cut of that record: <b>the windows that lasted the longest</b>, and <b>the neighborhoods with the most fleeting windows of all</b>. Not an all-time list -- the window we have so far.</p>
+    <div class="headline">The longest-running window we have watched open and close is <b>Nashville Shores Waterpark</b> at <b>Nashville Shores Lakeside Resort</b>, open <b>62 days</b> (Jul 21 to Sep 20).</div>
+    <div class="asof">Crawl record Jun 25 - Oct 22, 2026 &middot; 17 weekly crawls &middot; 1059 windows watched open and closed</div>
+    <section class="chart">
+      <div class="chead"><span class="dot"></span><h2>LONGEST-RUNNING WINDOWS</h2></div>
+      <p class="csub">Days from stated open to stated close, counted inclusively. Only windows we watched begin and end inside the record qualify; recurring or episodic listings (more than one start date) are left out -- scattered nights are not one continuous run.</p>
+      <table class="stable"><tbody><tr><td class="s-rank">1</td><td class="s-title"><span class="t">Nashville Shores Waterpark</span><span class="w">Nashville Shores Lakeside Resort &middot; Hermitage</span><span class="r">Jul 21 - Sep 20</span></td><td class="s-days">62 days</td></tr><tr><td class="s-rank">2</td><td class="s-title"><span class="t">Back 2 The Video Store: A 90s Speakeasy Bar</span><span class="w">Back 2 The Video Store &middot; Germantown</span><span class="r">Jul 30 - Sep 19</span></td><td class="s-days">52 days</td></tr><tr><td class="s-rank">3</td><td class="s-title"><span class="t">Back 2 The Video Store: A 90s Speakeasy Bar - Nashville</span><span class="w">Back 2 The Video Store</span><span class="r">Jul 30 - Sep 19</span></td><td class="s-days">52 days</td></tr><tr><td class="s-rank">4</td><td class="s-title"><span class="t">Fever Candlelight Concerts</span><span class="w">Centennial Park &middot; Midtown</span><span class="r">Aug 7 - Sep 27</span></td><td class="s-days">52 days</td></tr><tr><td class="s-rank">5</td><td class="s-title"><span class="t">Nashville Shores Waterpark - End-of-Season Window</span><span class="w">Nashville Shores Lakeside Resort &middot; Hermitage</span><span class="r">Aug 15 - Sep 20</span></td><td class="s-days">37 days</td></tr><tr><td class="s-rank">6</td><td class="s-title"><span class="t">CatVideoFest 2026</span><span class="w">Franklin</span><span class="r">Aug 9 - Sep 13</span></td><td class="s-days">36 days</td></tr><tr><td class="s-rank">7</td><td class="s-title"><span class="t">A Midsummer Night&#x27;s Dream (Donate What You Will)</span><span class="w">Centennial Park &middot; Midtown</span><span class="r">Aug 20 - Sep 20</span></td><td class="s-days">32 days</td></tr><tr><td class="s-rank">8</td><td class="s-title"><span class="t">Shakespeare in the Park: A Midsummer Night&#x27;s Dream</span><span class="w">Centennial Park &middot; Midtown</span><span class="r">Aug 20 - Sep 20</span></td><td class="s-days">32 days</td></tr><tr><td class="s-rank">9</td><td class="s-title"><span class="t">Treat a Pal! BOGO in the Gardens</span><span class="w">Cheekwood Botanical Gardens &amp; Estate &middot; Belle Meade</span><span class="r">Jul 1 - Jul 31</span></td><td class="s-days">31 days</td></tr><tr><td class="s-rank">10</td><td class="s-title"><span class="t">Murder with a Side of Meatballs</span><span class="w">The Escape Game - Berry Hill &middot; Berry Hill</span><span class="r">Jul 2 - Jul 31</span></td><td class="s-days">30 days</td></tr></tbody></table>
+    </section>
+    <section class="chart">
+      <div class="chead"><span class="dot gold"></span><h2>BUSIEST NEIGHBORHOODS</h2></div>
+      <p class="csub">Distinct time-limited windows we have tracked in each neighborhood across the whole record.</p>
+      <table class="ntable"><thead><tr><th>#</th><th>Neighborhood</th><th>Windows</th></tr></thead><tbody><tr><td class="n-rank">1</td><td class="n-name">Downtown</td><td class="n-num">612</td></tr><tr><td class="n-rank">2</td><td class="n-name">East Nashville</td><td class="n-num">162</td></tr><tr><td class="n-rank">3</td><td class="n-name">Franklin</td><td class="n-num">147</td></tr><tr><td class="n-rank">4</td><td class="n-name">Wedgewood-Houston</td><td class="n-num">120</td></tr><tr><td class="n-rank">5</td><td class="n-name">Midtown</td><td class="n-num">83</td></tr><tr><td class="n-rank">6</td><td class="n-name">Germantown</td><td class="n-num">75</td></tr><tr><td class="n-rank">7</td><td class="n-name">SoBro</td><td class="n-num">75</td></tr><tr><td class="n-rank">8</td><td class="n-name">Downtown Franklin</td><td class="n-num">59</td></tr></tbody></table>
+    </section>
+    <p class="caveat">We are a young newsletter: this is built from <b>120 days</b> of record (Jun 25 - Oct 22, 2026), <b>17</b> weekly crawls. It is <b>not an all-time ranking</b> -- a window that opened before we started watching, or that is still open today, cannot win a "longest run" it did not finish in front of us, so it is left out. The record is still short; this is the best of the window we have, honestly bounded, and it grows each week.</p>
+    <section class="method">
+      <h2>How this is measured</h2>
+      <p>The source is Fleeting's own weekly discovery crawl -- 17 snapshots between Jun 25 - Oct 22, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears across several weeks. A window is eligible for the <b>longest-running</b> ranking only when its stated open date and stated close date both fall inside our observation span and its close is on or before the day this page was built -- a window we watched from open to close. <b>Days open</b> is counted inclusively (a one-night window is 1 day). Windows that opened before we began crawling, or whose close is still in the future, are left out: we did not watch them run, so they do not get a superlative. <b>Recurring or episodic listings</b> -- anything with more than one distinct start date, like a concert run, a monthly series or a re-staged pop-up -- are excluded from this ranking too: scattered occurrences are not one continuous open period, so we do not credit them the span from their first night to their last (they still count toward the neighborhood leaderboard). The <b>neighborhood</b> leaderboard counts distinct windows carrying each neighborhood across the whole record. Every number here is produced by <code>build_superlatives.py</code> from the crawl record -- there are no hand-entered figures. The underlying ranking is published as <a href="superlatives.json">JSON</a> and <a href="superlatives.csv">CSV</a> for anyone who wants to check or cite it. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event, and it is <b>not an all-time list</b> -- it is the window we have so far, and it grows each week.</p>
+      <p class="cite">How to cite: <code>Data by Fleeting - Nashville, https://nashville.fleeting.city/superlatives/</code> &middot; licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+    </section>
+    <section class="cta">
+      <p><b>Most Nashville windows close within days.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville food, drink and events -- the ones that will be gone by the weekend -- in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
+      <a class="btn" href="/?utm_source=superlatives&amp;utm_medium=data&amp;utm_campaign=exp-0117#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Want the other cuts? <a href="/churn/">the food-window churn rate</a>, <a href="/half-life/">the window half-life</a>, <a href="/open-data/">the raw open dataset</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 23, 2026.</p>
+  </div>
+</body>
+</html>

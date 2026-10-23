@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261027@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261028T003000Z
+DTEND:20261028T023000Z
+SUMMARY:Fleeting: Jake Shimabukuro with Special Guest Sam Bush (one night)
+LOCATION:Country Music Hall of Fame and Museum\, Downtown
+DESCRIPTION:Ukulele virtuoso Jake Shimabukuro joined by Nashville newgrass 
+ legend Sam Bush. Single ticketed night at the Hall of Fame.\nDetails and t
+ ickets: https://patch.com/tennessee/nashville/calendar/event/20261027/e265
+ 8e69-c7ff-4103-b477-c9daa3e172df/jake-shimabukuro-with-special-guest-sam-b
+ ush\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261027/e2658e69-
+ c7ff-4103-b477-c9daa3e172df/jake-shimabukuro-with-special-guest-sam-bush
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

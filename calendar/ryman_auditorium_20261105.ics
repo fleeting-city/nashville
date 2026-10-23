@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:ryman_auditorium-20261105@nashville.fleeting.city
-DTSTAMP:20261019T122450Z
+DTSTAMP:20261023T111420Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Last day: Dwight Yoakam
 LOCATION:Ryman Auditorium\, Downtown
-DESCRIPTION:Two nights of honky-tonk at the Mother Church of Country Music 
- from a performer the text describes as bringing decades of it.\nDetails an
- d tickets: https://www.ryman.com/event/2026-dwight-yoakam\nWindows drift -
-  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
- at-closes-first list.
+DESCRIPTION:Two nights of traditional country from a Bakersfield legend at 
+ the Ryman\, bringing decades of honky tonk to the Mother Church.\nDetails 
+ and tickets: https://www.ryman.com/event/2026-dwight-yoakam\nWindows drift
+  - confirm with the venue before you go.\nFleeting - the weekly Nashville 
+ what-closes-first list.
 URL:https://www.ryman.com/event/2026-dwight-yoakam
 TRANSP:TRANSPARENT
 END:VEVENT

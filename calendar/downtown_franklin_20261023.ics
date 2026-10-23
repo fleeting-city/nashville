@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261023@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Fleeting: Women in Harmony (one night)
+LOCATION:Downtown Franklin\, Franklin
+DESCRIPTION:One-night performance billed as Women in Harmony in downtown Fr
+ anklin. Single show\, 90-minute runtime listed.\nDetails and tickets: http
+ s://downtownfranklintn.com/event/women-in-harmony/\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://downtownfranklintn.com/event/women-in-harmony/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

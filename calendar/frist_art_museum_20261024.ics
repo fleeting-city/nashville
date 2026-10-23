@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:frist_art_museum-20261024@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261024T143000Z
+DTEND:20261024T163000Z
+SUMMARY:Fleeting: Workshop Series: Witnessing Art Through Expressive Writin
+ g Part Two (one night)
+LOCATION:Frist Art Museum\, SoBro
+DESCRIPTION:Second installment of a two-part workshop series at the Frist. 
+ Sequential series means Part Two does not repeat.\nDetails and tickets: ht
+ tps://nashvilledowntown.com/event/workshop-series-witnessing-art-through-e
+ xpressive-writing--part-two\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/workshop-series-witnessing-art-thro
+ ugh-expressive-writing--part-two
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

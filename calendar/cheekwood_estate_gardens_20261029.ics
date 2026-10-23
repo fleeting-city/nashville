@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20261029@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261029T220000Z
+DTEND:20261030T000000Z
+SUMMARY:Fleeting: Harvest NIGHTS Bootanical Bash (one night)
+LOCATION:Cheekwood Estate & Gardens\, Bellevue
+DESCRIPTION:Evening Halloween event at Cheekwood's gardens and estate groun
+ ds. Single-night ticketed experience in a well-known botanical setting.\nD
+ etails and tickets: https://patch.com/tennessee/nashville/calendar/event/2
+ 0261029/72188501-31d2-4a6a-9ace-5e74cb46538b/harvest-nights-bootanical-bas
+ h\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261029/72188501-
+ 31d2-4a6a-9ace-5e74cb46538b/harvest-nights-bootanical-bash
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

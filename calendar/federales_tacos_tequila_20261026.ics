@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:federales_tacos_tequila-20261026@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261027T000000Z
+DTEND:20261027T020000Z
+SUMMARY:Fleeting: Pumpkin Carving Party at Federales in The Gulch (one nigh
+ t)
+LOCATION:Federales Tacos & Tequila\, The Gulch
+DESCRIPTION:Ticketed pumpkin carving night at a taqueria bar in the Gulch. 
+ Tickets from $37.15.\nDetails and tickets: https://www.eventbrite.com/e/pu
+ mpkin-carving-party-at-federales-in-the-gulch-tickets-1999297391317?aff=eb
+ dssbdestsearch\nWindows drift - confirm with the venue before you go.\nFle
+ eting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/pumpkin-carving-party-at-federales-in-the-
+ gulch-tickets-1999297391317?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

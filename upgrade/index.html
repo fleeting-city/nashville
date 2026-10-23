@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upgrade to Fleeting+ | Fleeting - Nashville</title>
+<meta name="description" content="Fleeting+ is the members' board: the whole weekly calendar sorted by what closes first, 24-hour early access to new drops, and the Sold-Out Sweep. One tap, no call. The free Thursday list stays free.">
+<link rel="canonical" href="https://nashville.fleeting.city/upgrade/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Upgrade to Fleeting+">
+<meta property="og:description" content="The members' board: the whole weekly calendar by what closes first, 24-hour early access, and the Sold-Out Sweep.">
+<meta property="og:url" content="https://nashville.fleeting.city/upgrade/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Upgrade to Fleeting+">
+<meta name="twitter:description" content="The members' board: the full weekly calendar, 24-hour early access, and the Sold-Out Sweep. One tap, no call.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Instant Insider self-serve Fleeting+ upgrade rail
+  (EXP-0104 / LAS-450). Lens L10 -- the zero-call self-serve PAID rail. Built by
+  scripts/build_upgrade_rail.py from scripts/plus_rail.json. The charge rides the
+  existing beehiiv Monetize / Stripe gate (LAS-173); there is NO second payment
+  path. The rail ships behind a flag that DEFAULTS OFF (status=opening_soon) and
+  shows an honest coming-soon state with no checkout until a human turns it on.
+  The UNLOCK is the existing plus_gate worker, not re-implemented here. Dark
+  mission-control theme; skyline resolved via brand/marks.py and referenced (not
+  pasted) from skyline.svg (rules 11/14). Web-clean copy. State: opening_soon.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(240,180,41,.12),transparent 60%),
+      radial-gradient(46% 34% at 2% 108%,rgba(230,69,53,.10),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .plus{color:var(--gold);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+
+  .why{margin:30px 0 4px;}
+  .whead{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .whead .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px rgba(230,69,53,.7);}
+  .whead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,3.4vw,21px);letter-spacing:-.01em;}
+  .benefit{display:flex;gap:13px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);}
+  .benefit:last-child{border-bottom:none;}
+  .bdot{flex:0 0 auto;width:11px;height:11px;margin-top:6px;border-radius:2px;background:var(--gold);
+    box-shadow:0 0 10px rgba(240,180,41,.5);}
+  .benefit h3{font-family:'Archivo';font-weight:700;font-size:16px;margin-bottom:3px;color:var(--cream);}
+  .benefit p{color:var(--muted);font-size:14.5px;}
+
+  .cta{margin:30px 0 8px;background:linear-gradient(180deg,#141318,#100f13);
+    border:1px solid var(--line);border-radius:16px;padding:24px 22px;}
+  .pricebadge{display:inline-flex;align-items:baseline;gap:9px;background:var(--gold);color:var(--ink);
+    font-family:'Archivo';font-weight:900;padding:6px 14px;border-radius:999px;margin-bottom:14px;}
+  .pricebadge span{font-size:12px;letter-spacing:.08em;}
+  .pricebadge strong{font-size:16px;}
+  .pricebadge.soon{background:transparent;color:var(--gold);border:1px solid rgba(240,180,41,.5);}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4vw,25px);letter-spacing:-.01em;margin-bottom:8px;}
+  .ctap{color:var(--muted);font-size:14.5px;max-width:58ch;}
+  .ctap b{color:var(--cream);}
+  .btn{display:inline-flex;align-items:center;gap:8px;margin-top:18px;background:var(--accent);color:#fff;
+    font-weight:700;font-size:16px;padding:14px 24px;border-radius:12px;
+    box-shadow:0 10px 30px rgba(230,69,53,.35);transition:transform .15s,box-shadow .2s;}
+  .btn:hover{transform:translateY(-2px);text-decoration:none;box-shadow:0 14px 36px rgba(230,69,53,.45);}
+  .fine{margin-top:12px;font-size:12.5px;color:var(--muted);}
+  .already{margin-top:12px;font-size:13px;color:var(--muted);}
+  .already a{color:var(--gold);}
+
+  .foot{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;}
+  .fmark{color:var(--cream);font-weight:600;} .fmark .dot{color:var(--accent);}
+</style>
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'upgrade'),
+      m:(q.get('utm_medium')||'front_door'),
+      c:(q.get('utm_campaign')||'plus_upgrade'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="plus">+</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Fleeting+ -- the members' board</div>
+    <h1>The full board<span class="dot">.</span> One tap away<span class="dot">.</span></h1>
+    <p class="lede">The free Thursday email is the highlights. <b>Fleeting+ is the whole board</b> -- everything we gather each week, sorted by what closes first, plus a 24-hour head start on every new drop. No call, no sales form: you upgrade and the board opens.</p>
+    <section class="why">
+      <div class="whead"><span class="dot"></span><h2>What opens when you are a member</h2></div>
+      <article class="benefit"><span class="bdot" aria-hidden="true"></span><div><h3>The full board</h3><p>Everything we gather each week, not just the Thursday highlights -- the whole calendar, sorted by what closes first. It opens the moment you are a member.</p></div></article>
+      <article class="benefit"><span class="bdot" aria-hidden="true"></span><div><h3>First in line</h3><p>The Members' Presale: the newest here-then-gone drops land on your board a full 24 hours before the free list ever sees them.</p></div></article>
+      <article class="benefit"><span class="bdot" aria-hidden="true"></span><div><h3>The Sold-Out Sweep</h3><p>The members-only weekly read on what filled and how fast -- so next time you move before the room does.</p></div></article>
+    </section>
+    <section class="cta" id="upgrade">
+      <div class="pricebadge soon"><span>Fleeting+</span><strong>opens soon</strong></div>
+      <p class="ctah">The doors are not open yet.</p>
+      <p class="ctap">Fleeting+ will be $7 a month for the full board, 24-hour early access, and the Sold-Out Sweep -- the one-tap upgrade opens soon. Until then there is nothing to pay. Get the free Thursday list and you will be the first to know when the doors open.</p>
+      <a class="btn" href="/#subscribe">Get the free list &#8594;</a>
+      <p class="fine">The free weekly list is always free. No charge until the doors open, and never without your say.</p>
+      <p class="already">Already a member? <a href="https://fleeting-plus-gate.brady-k-rowe.workers.dev">Open the board &#8594;</a></p>
+    </section>
+    <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See the free side on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
+  </div>
+</body>
+</html>

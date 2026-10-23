@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261029@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART:20261030T000000Z
+DTEND:20261030T020000Z
+SUMMARY:Fleeting: The Machine Performs Pink Floyd (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin\, TN
+DESCRIPTION:Two-hour Pink Floyd tribute show. Single date in downtown Frank
+ lin\, no ticket price stated in the listing.\nDetails and tickets: https:/
+ /downtownfranklintn.com/event/the-machine-performs-pink-floyd/\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://downtownfranklintn.com/event/the-machine-performs-pink-floyd/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

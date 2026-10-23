@@ -1,0 +1,80 @@
+{
+  "dataset": "The Fleeting Churn Rate - Nashville food-window churn",
+  "experiment": "EXP-0114",
+  "as_of": "2026-10-23T11:14:12+00:00",
+  "generated": "2026-10-23",
+  "source": "Fleeting weekly discovery crawl (scripts/out/<date>/candidates.json)",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Data by Fleeting - Nashville",
+  "attribution_url": "https://nashville.fleeting.city/churn/",
+  "methodology": "A window is a distinct (title, venue) in the crawl record. It is a FOOD window when its category/title/blurb hits Fleeting's shared food vocabulary or comes from a known food source. Churn is reported only for calendar months fully inside the observation span (first snapshot 2026-06-25 to last snapshot 2026-10-22): a month opens-count is windows whose stated open date falls in it, closes-count is windows whose stated close date falls in it. Median days-open is counted inclusively (one-night = 1 day) over food windows that closed in the span and carry both dates. A short window opening and closing between two weekly crawls can be missed; this is a sample of the curated windows Fleeting tracks, not a census of every restaurant change in Nashville. No number is hand-entered.",
+  "headline": {
+    "month": "2026-09",
+    "month_nice": "September 2026",
+    "opened": 110,
+    "closed": 115,
+    "net": -5,
+    "median_days_open": 1.0,
+    "span_median_days_open": 1.0,
+    "span_closed_dated_n": 298
+  },
+  "provenance": {
+    "snapshots": [
+      "2026-06-25",
+      "2026-07-02",
+      "2026-07-16",
+      "2026-07-23",
+      "2026-07-30",
+      "2026-08-06",
+      "2026-08-13",
+      "2026-08-20",
+      "2026-08-27",
+      "2026-09-03",
+      "2026-09-10",
+      "2026-09-17",
+      "2026-09-24",
+      "2026-10-01",
+      "2026-10-08",
+      "2026-10-15",
+      "2026-10-22"
+    ],
+    "snapshot_count": 17,
+    "span_start": "2026-06-25",
+    "span_end": "2026-10-22",
+    "complete_months": [
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "complete_month_count": 3,
+    "food_windows_total": 1255,
+    "windows_total": 2928
+  },
+  "months": [
+    {
+      "month": "2026-07",
+      "opened": 69,
+      "closed": 37,
+      "net": 32,
+      "median_days_open": 1.0,
+      "closed_dated_n": 35
+    },
+    {
+      "month": "2026-08",
+      "opened": 150,
+      "closed": 165,
+      "net": -15,
+      "median_days_open": 1.0,
+      "closed_dated_n": 153
+    },
+    {
+      "month": "2026-09",
+      "opened": 110,
+      "closed": 115,
+      "net": -5,
+      "median_days_open": 1.0,
+      "closed_dated_n": 110
+    }
+  ]
+}

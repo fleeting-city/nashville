@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:play_playground-20261031@nashville.fleeting.city
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Celebrate Spooky Season at Play Playground
+LOCATION:Play Playground
+DESCRIPTION:Halloween-season activation at Play Playground through October 
+ 31. VIP pass giveaway running\; tickets also available for purchase.\nDeta
+ ils and tickets: https://playplayground.com/nashville/tickets/?utm_source=
+ digital-ad&utm_campaign=do615campaign\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://playplayground.com/nashville/tickets/?utm_source=digital-ad&utm
+ _campaign=do615campaign
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

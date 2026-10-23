@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:frankenstein_s_mad_scientist_cocktail_lab-20261031@nashville.fleeting.c
+ ity
+DTSTAMP:20261023T111420Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Frankenstein's Mad Scientist Cocktail Lab
+LOCATION:Frankenstein's Mad Scientist Cocktail Lab
+DESCRIPTION:Halloween-themed cocktail lab running ten nights through Hallow
+ een. Ticketed\, from $20\, ends the night it peaks.\nDetails and tickets: 
+ https://bucketlisters.com/explore/city/NSH\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
