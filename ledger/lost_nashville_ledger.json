@@ -1,0 +1,46 @@
+{
+  "dataset": "The Lost Nashville Ledger",
+  "experiment": "EXP-0128",
+  "as_of": "2026-10-27T11:11:29+00:00",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Fleeting Lost Nashville Ledger",
+  "attribution_url": "https://nashville.fleeting.city/ledger/",
+  "methodology": "An append-only record of permanently closed Nashville food spots, each with a real calendar close date. A spot is included only when the Fleeting discovery classifier recorded a closure (type=closure) or an operator verified one with a cited source; a pop-up or event that merely ended is never counted as a closure, and no close date is ever invented. Cause is given only when recorded. No personal data on individuals.",
+  "count": 3,
+  "entries": [
+    {
+      "id": "wl_20260917_puckett_s",
+      "name": "Puckett's Hendersonville Permanent Closure",
+      "venue": "Puckett's",
+      "neighborhood": "hendersonville",
+      "type": "closure",
+      "closed": "2026-09-18",
+      "cause": "",
+      "source": "https://whatnow.com/nashville/",
+      "citation_url": "https://nashville.fleeting.city/ledger/#wl_20260917_puckett_s"
+    },
+    {
+      "id": "wl_20260806_witts_barbeque",
+      "name": "Witts Barbeque Springfield Closing - Final Service",
+      "venue": "Witts Barbeque",
+      "neighborhood": "springfield",
+      "type": "closure",
+      "closed": "2026-08-15",
+      "cause": "",
+      "source": "https://whatnow.com/nashville/",
+      "citation_url": "https://nashville.fleeting.city/ledger/#wl_20260806_witts_barbeque"
+    },
+    {
+      "id": "wl_20260716_burger_up",
+      "name": "12South Burger Up Final Days",
+      "venue": "Burger Up",
+      "neighborhood": "12south",
+      "type": "closure",
+      "closed": "2026-08-01",
+      "cause": "",
+      "source": "https://www.nashvillescene.com/food_drink",
+      "citation_url": "https://nashville.fleeting.city/ledger/#wl_20260716_burger_up"
+    }
+  ]
+}
