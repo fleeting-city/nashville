@@ -30,8 +30,8 @@
   RSVP form POSTs to the fleeting-rsvp Worker (cf_rsvp/, D1 capture, honeypot + per-IP
   rate limit, waitlist past capacity). On Worker failure the form falls back to a
   prefilled mailto. Copied verbatim by scripts/fleeting_github_deploy.sh. Pure-ASCII copy.
-  Giving circle: CIRCLE_NAME set 2026-10-27; DONATE_URL stays empty until the account is set; the
-  page reads correctly either way.
+  Giving circle: CIRCLE_NAME set 2026-10-27. Online donation link pulled 2026-10-27 (Brady);
+  donations are by QR at the door only.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -257,7 +257,7 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
 
         <section class="blk">
           <div class="bhead"><span class="dot"></span><h2>The cause</h2></div>
-          <p class="p">The night benefits <b id="circle">the Nashville Entrepreneurs Giving Circle</b> for cultural and economic development in Nashville and Middle Tennessee, through the power of entrepreneurism and self-determination. There is no ticket. Give a suggested donation by QR at the door and at the Induction<span id="donate-line"></span>. Gifts are not tax-deductible.</p>
+          <p class="p">The night benefits <b id="circle">the Nashville Entrepreneurs Giving Circle</b> for cultural and economic development in Nashville and Middle Tennessee, through the power of entrepreneurism and self-determination. There is no ticket. Give a suggested donation by QR at the door and at the Induction. Gifts are not tax-deductible.</p>
         </section>
 
         <section class="blk">
@@ -327,16 +327,11 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
   var GCAL_URL='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent("A Villain's Vendetta")+
     '&dates=20261031T220000Z/20261101T030000Z&details='+encodeURIComponent('Murder mystery night. Doors at 5, we start at 5:40 sharp. Villain attire required. https://nashville.fleeting.city/events/')+
     '&location='+encodeURIComponent('Belle Air Mansion, 2250 Lebanon Pike, Nashville, TN 37214');
-  // Giving circle: fill both once named. Empty = the page keeps its generic wording.
+  // Giving circle name. Empty = the page keeps its generic wording.
   var CIRCLE_NAME='the Nashville Entrepreneurs Giving Circle';
-  var DONATE_URL='';
 
   (function(){
     if(CIRCLE_NAME){ document.getElementById('circle').textContent=CIRCLE_NAME; }
-    if(DONATE_URL){
-      var a=document.createElement('a'); a.href=DONATE_URL; a.target='_blank'; a.rel='noopener'; a.textContent='give now';
-      var s=document.getElementById('donate-line'); s.appendChild(document.createTextNode(', or ')); s.appendChild(a);
-    }
   })();
 
   var form=document.getElementById('rsvpform');
