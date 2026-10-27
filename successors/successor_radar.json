@@ -1,0 +1,12 @@
+{
+  "dataset": "The Fleeting Successor Radar",
+  "experiment": "EXP-0132",
+  "as_of": "2026-10-27T18:16:36+00:00",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Fleeting Successor Radar",
+  "attribution_url": "https://nashville.fleeting.city/successors/",
+  "methodology": "A forward-looking record of real, sourced signals that a new tenant is moving into a Nashville space. A successor is a factual claim: an entry exists only from an operator-maintained signal that carries a new-tenant name, a dated signal and a cited source; nothing is auto-inferred from the closure record, which is used only to corroborate a stated predecessor (predecessor_confirmed). A tenant is asserted as moving in only when status is 'confirmed'; every other entry is marked speculative and never stated as fact. No personal data.",
+  "count": 0,
+  "entries": []
+}
