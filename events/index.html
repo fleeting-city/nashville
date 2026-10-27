@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events: A Villain's Vendetta, Oct 31 | Fleeting - Nashville</title>
+<meta name="description" content="A murder mystery at Belle Air Mansion in Donelson, Saturday October 31, 5 to 10 PM. Come in villain attire, take a character or just come for the night. Free RSVP; benefiting a Nashville giving circle.">
+<link rel="canonical" href="https://nashville.fleeting.city/events/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="A Villain's Vendetta: a murder mystery at Belle Air Mansion, Oct 31">
+<meta property="og:description" content="Saturday, October 31, 5 to 10 PM, Donelson. Villain attire, a secret agenda, and a killer hiding in plain sight. Free RSVP.">
+<meta property="og:url" content="https://nashville.fleeting.city/events/">
+<meta property="og:image" content="https://nashville.fleeting.city/events/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A Villain's Vendetta: a murder mystery at Belle Air Mansion, Oct 31">
+<meta name="twitter:description" content="Saturday, October 31, 5 to 10 PM, Donelson. Villain attire, a secret agenda, a killer in plain sight. Free RSVP.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/events/og.png">
+<!--
+  Fleeting - Nashville : Events (2026-10-27). Nights Fleeting hosts. First listing is
+  A Villain's Vendetta (Oct 31, Belle Air Mansion), moved here when Torch stepped back;
+  plan lives in Strategic_Projects/Villains_Vendetta_Party/. SPOILER-FREE: never put the
+  victim, the killer or any character's secret on this page.
+  RSVP form POSTs to the fleeting-rsvp Worker (cf_rsvp/, D1 capture, honeypot + per-IP
+  rate limit, waitlist past capacity). On Worker failure the form falls back to a
+  prefilled mailto. Copied verbatim by scripts/fleeting_github_deploy.sh. Pure-ASCII copy.
+  Giving circle: CIRCLE_NAME / DONATE_URL below stay empty until Brady names them; the
+  page reads correctly either way.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 16px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:22px 0 0;}
+  .hubh{font-family:'Archivo';font-weight:900;font-size:clamp(22px,5vw,30px);letter-spacing:-.01em;margin:6px 0 4px;}
+  .hubh .dot{color:var(--accent);}
+  .hubp{color:#cfc9bd;font-size:14px;max-width:60ch;}
+
+  .event{margin:24px 0 0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:linear-gradient(180deg,#141318,#100f13);}
+  .hero{position:relative;aspect-ratio:16/9;background:#1a0b0d;overflow:hidden;}
+  .hero img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 45%;}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,13,16,0) 35%,rgba(14,13,16,.92) 100%);}
+  .stamp{position:absolute;top:12px;left:12px;z-index:1;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:5px 9px;border-radius:6px;}
+  .credit{position:absolute;right:10px;bottom:8px;z-index:1;font-size:10px;color:rgba(246,241,231,.55);}
+  .ebody{padding:4px 18px 22px;}
+  .date{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:-6px;position:relative;z-index:1;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;font-size:clamp(30px,7vw,46px);margin:6px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#d8d3c8;font-size:clamp(14.5px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .go{display:inline-block;margin:16px 0 4px;}
+
+  .facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0 4px;}
+  @media(max-width:520px){.facts{grid-template-columns:1fr;}}
+  .fact{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#0f0e12;}
+  .fact .k{font-size:10.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+  .fact .v{font-family:'Archivo';font-weight:700;font-size:15.5px;color:var(--cream);margin-top:3px;line-height:1.3;}
+  .fact .s{font-size:12.5px;color:#cfc9bd;margin-top:3px;}
+
+  section.blk{margin:28px 0 0;}
+  .bhead{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:10px;}
+  .bhead .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;background:var(--gold);box-shadow:0 0 12px rgba(240,180,41,.6);}
+  .bhead h2{font-family:'Archivo';font-weight:900;font-size:clamp(17px,4vw,21px);letter-spacing:.01em;}
+  .p{font-size:14px;color:#d8d3c8;line-height:1.6;margin:12px 0 0;max-width:64ch;}
+  .p b{color:var(--cream);}
+  ol.steps{list-style:none;margin:12px 0 0;counter-reset:s;}
+  ol.steps li{counter-increment:s;position:relative;padding:0 0 10px 34px;font-size:14px;color:#d8d3c8;}
+  ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:22px;height:22px;border-radius:50%;
+    background:rgba(230,69,53,.16);border:1px solid rgba(230,69,53,.45);color:var(--cream);font-family:'Archivo';font-weight:700;
+    font-size:12px;display:flex;align-items:center;justify-content:center;}
+  ol.steps li b{color:var(--cream);}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px;}
+  @media(max-width:520px){.two{grid-template-columns:1fr;}}
+  .role{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;padding:13px 15px;background:#0f0e12;}
+  .role h3{font-family:'Archivo';font-weight:900;font-size:16px;color:var(--gold);margin-bottom:4px;}
+  .role p{font-size:13.5px;color:#d8d3c8;}
+  details{border-bottom:1px solid var(--line);padding:11px 0;}
+  details summary{cursor:pointer;font-weight:600;font-size:14.5px;color:var(--cream);list-style:none;}
+  details summary::-webkit-details-marker{display:none;}
+  details summary::before{content:"+";display:inline-block;width:18px;color:var(--accent);font-weight:700;}
+  details[open] summary::before{content:"-";}
+  details p{font-size:13.5px;color:#cfc9bd;margin:6px 0 0 18px;max-width:62ch;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:22px 18px 18px;margin:30px 0 0;scroll-margin-top:16px;}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(20px,4.6vw,26px);letter-spacing:-.01em;margin-bottom:6px;}
+  .ctap{font-size:14px;color:#e7e1d5;margin:0 0 14px;line-height:1.5;}
+  .seats{font-size:12px;color:var(--gold);font-weight:700;letter-spacing:.06em;margin:-6px 0 14px;min-height:1em;}
+  form .row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;}
+  @media(max-width:520px){form .row{grid-template-columns:1fr;}}
+  label.f{display:block;font-size:12px;font-weight:600;color:var(--muted);margin-bottom:5px;letter-spacing:.02em;}
+  input[type=text],input[type=email],input[type=tel],textarea{width:100%;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:11px 13px;font-family:'Inter';}
+  textarea{min-height:70px;resize:vertical;}
+  input:focus,textarea:focus{outline:none;border-color:var(--accent);}
+  fieldset{border:none;margin:4px 0 12px;}
+  legend{font-size:12px;font-weight:600;color:var(--muted);margin-bottom:6px;letter-spacing:.02em;}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;}
+  .chips label{position:relative;}
+  .chips input{position:absolute;opacity:0;pointer-events:none;}
+  .chips span{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:13.5px;
+    color:var(--cream);background:#0c0b0f;cursor:pointer;transition:.12s;}
+  .chips input:checked + span{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600;}
+  .chips input:focus-visible + span{outline:2px solid var(--gold);outline-offset:2px;}
+  .charq[hidden]{display:none;}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:15px;
+    padding:13px 22px;border-radius:10px;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn:disabled{opacity:.6;cursor:default;}
+  .err{color:var(--neon);font-size:13px;margin-top:10px;min-height:1em;}
+  .fine{font-size:11.5px;color:var(--muted);margin-top:12px;line-height:1.5;}
+  .done h3{font-family:'Archivo';font-weight:900;font-size:22px;}
+  .done p{font-size:14px;color:#e7e1d5;margin-top:8px;}
+  .done .cal{margin-top:16px;display:flex;flex-wrap:wrap;align-items:center;gap:14px;}
+  .done .cal-g{color:var(--cream);font-size:14px;text-decoration:underline;}
+  .foot{margin-top:28px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+
+    <div class="kicker">Events</div>
+    <p class="hubh">Nights we host<span class="dot">.</span></p>
+    <p class="hubp">Most of what Fleeting covers is somebody else's window. These are ours: one night, one place, and then it is gone.</p>
+
+    <article class="event" id="villains-vendetta">
+      <div class="hero">
+        <span class="stamp">Sat Oct 31</span>
+        <img src="belle_air.jpg" alt="Belle Air Mansion, a two-story brick house with a columned double porch, under old trees" width="1400" height="963">
+        <span class="credit">Belle Air, Library of Congress HABS</span>
+      </div>
+      <div class="ebody">
+        <div class="date">Saturday, October 31 &middot; 5 to 10 PM &middot; Donelson</div>
+        <h1>A Villain's Vendetta<span class="dot">.</span></h1>
+        <p class="lede">A murder mystery in a 1790 mansion. <b>Wicked company, a worthy cause, and a killer hiding in plain sight.</b> Come in villain attire, take a character if you want one, and scheme through dinner until the lights go out.</p>
+        <a class="btn go" href="#rsvp">RSVP free &#8594;</a>
+
+        <div class="facts">
+          <div class="fact"><div class="k">When</div><div class="v">Sat, Oct 31, 5 to 10 PM</div><div class="s">Doors at 5. The game starts at 5:40 sharp.</div></div>
+          <div class="fact"><div class="k">Where</div><div class="v">Belle Air Mansion</div><div class="s"><a href="https://maps.google.com/?q=2250+Lebanon+Pike,+Nashville,+TN+37214" target="_blank" rel="noopener">2250 Lebanon Pike, Donelson</a>. Park in the lot, come in the front.</div></div>
+          <div class="fact"><div class="k">Wear</div><div class="v">Villain attire</div><div class="s">Costume required. Dress to kill.</div></div>
+          <div class="fact"><div class="k">Cost</div><div class="v">Free RSVP</div><div class="s">Dinner at 6. A suggested donation goes to the giving circle.</div></div>
+        </div>
+
+        <section class="blk">
+          <div class="bhead"><span class="dot"></span><h2>How the night works</h2></div>
+          <ol class="steps">
+            <li><b>5:40, the Blood Moon Celebration.</b> The Villains Alliance convenes at Dracula's castle to admit one new member. Every suspect gets Alliance money and a secret agenda.</li>
+            <li><b>Scheme through dinner.</b> Bribe, bargain, lie. The buffet opens at 6 so the game never stops.</li>
+            <li><b>The lights go out.</b> One villain does not survive the evening. The investigation starts on the spot.</li>
+            <li><b>Accusations, the reveal, awards.</b> Then the Alliance inducts its new members, and the dues go to the giving circle. Music until ten.</li>
+          </ol>
+        </section>
+
+        <section class="blk">
+          <div class="bhead"><span class="dot"></span><h2>Two ways to come</h2></div>
+          <div class="two">
+            <div class="role"><h3>Suspect</h3><p>You get a character file by email: who you are, what you wear, what you know going in. Keep it secret, even from whoever you came with. Suspect roles are limited and go in RSVP order.</p></div>
+            <div class="role"><h3>Guest</h3><p>No file, no lines. Come in costume, eat, drink, watch the room turn on itself, and vote at the end.</p></div>
+          </div>
+          <p class="p">Want a character? <b>RSVP by Wednesday, October 28</b> so your file reaches you in time. After that, you come as a guest.</p>
+        </section>
+
+        <section class="blk">
+          <div class="bhead"><span class="dot"></span><h2>The house</h2></div>
+          <p class="p">Belle Air is a real 1790 brick house that a Nashville mayor dressed up in 1838: rosewood doors, frescoed ceilings, a cantilevered staircase, and a secret room upstairs you enter by stepping through a window. For one night it is Dracula's castle.</p>
+        </section>
+
+        <section class="blk">
+          <div class="bhead"><span class="dot"></span><h2>The cause</h2></div>
+          <p class="p">The night benefits <b id="circle">a Nashville giving circle</b> for cultural and economic development in Nashville and Middle Tennessee, through the power of entrepreneurism and self-determination. There is no ticket. Give a suggested donation by QR at the door and at the Induction<span id="donate-line"></span>. Gifts are not tax-deductible.</p>
+        </section>
+
+        <section class="blk">
+          <div class="bhead"><span class="dot"></span><h2>Questions</h2></div>
+          <details><summary>Do I have to act?</summary><p>Only as much as you want. Suspects read from their file. Guests can just enjoy the night.</p></details>
+          <details><summary>I don't know anyone. Is that okay?</summary><p>That is the point. Every character has a reason to talk to every other one.</p></details>
+          <details><summary>Can I bring someone?</summary><p>Yes. Add their name on the form. If they want their own character, have them RSVP too so the file goes to them.</p></details>
+          <details><summary>What if I already RSVP'd by email or text?</summary><p>You are on the list. Use the form only if you want to change something; the same email updates your RSVP instead of adding a second one.</p></details>
+          <details><summary>How big is it?</summary><p>The house holds 50. Past that, RSVPs go on a waitlist and we will tell you if a spot opens.</p></details>
+        </section>
+
+        <section class="cta" id="rsvp">
+          <p class="ctah">RSVP<span style="color:var(--accent)">.</span></p>
+          <p class="ctap">Free. One form per person; a plus-one can ride on yours.</p>
+          <p class="seats" id="seats"></p>
+          <form id="rsvpform" novalidate>
+            <div class="row">
+              <div><label class="f" for="name">Name</label><input type="text" id="name" name="name" autocomplete="name" required maxlength="120"></div>
+              <div><label class="f" for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required maxlength="200"></div>
+            </div>
+            <div class="row">
+              <div><label class="f" for="phone">Mobile (for day-of updates)</label><input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="40"></div>
+              <div><label class="f" for="plus_name">Bringing someone? Their name</label><input type="text" id="plus_name" name="plus_name" maxlength="120"></div>
+            </div>
+            <fieldset>
+              <legend>Want a character to play?</legend>
+              <div class="chips">
+                <label><input type="radio" name="character" value="yes"><span>Yes, make me a suspect</span></label>
+                <label><input type="radio" name="character" value="maybe"><span>If there is one left</span></label>
+                <label><input type="radio" name="character" value="no"><span>No, just a guest</span></label>
+              </div>
+            </fieldset>
+            <div class="charq" id="charq" hidden>
+              <fieldset>
+                <legend>How big do you want to play?</legend>
+                <div class="chips">
+                  <label><input type="radio" name="play" value="lead"><span>Lead role</span></label>
+                  <label><input type="radio" name="play" value="middle"><span>Happy in the middle</span></label>
+                  <label><input type="radio" name="play" value="lowkey"><span>Keep me low-key</span></label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Role preference</legend>
+                <div class="chips">
+                  <label><input type="radio" name="role" value="female"><span>Female role</span></label>
+                  <label><input type="radio" name="role" value="male"><span>Male role</span></label>
+                  <label><input type="radio" name="role" value="either"><span>Either</span></label>
+                </div>
+              </fieldset>
+            </div>
+            <div style="margin-bottom:12px"><label class="f" for="note">Anything we should know? (optional)</label><textarea id="note" name="note" maxlength="1000"></textarea></div>
+            <div class="hp" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+            <button class="btn" type="submit">Save my spot &#8594;</button>
+            <p class="err" id="err" role="alert"></p>
+          </form>
+          <p class="fine">Your details go to the host for this event only: the character file, a reminder the day before, and day-of changes. Not added to the Fleeting newsletter.</p>
+        </section>
+      </div>
+    </article>
+
+    <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. <a href="/">Get the list</a>.</p>
+  </div>
+  <script>
+  var EVENT='villains-vendetta-2026';
+  var RSVP_ENDPOINT='https://fleeting-rsvp.brady-k-rowe.workers.dev';
+  var FALLBACK_EMAIL='hello@fleeting.city';
+  var GCAL_URL='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent("A Villain's Vendetta")+
+    '&dates=20261031T220000Z/20261101T030000Z&details='+encodeURIComponent('Murder mystery night. Doors at 5, we start at 5:40 sharp. Villain attire required. https://nashville.fleeting.city/events/')+
+    '&location='+encodeURIComponent('Belle Air Mansion, 2250 Lebanon Pike, Nashville, TN 37214');
+  // Giving circle: fill both once named. Empty = the page keeps its generic wording.
+  var CIRCLE_NAME='';
+  var DONATE_URL='';
+
+  (function(){
+    if(CIRCLE_NAME){ document.getElementById('circle').textContent=CIRCLE_NAME; }
+    if(DONATE_URL){
+      var a=document.createElement('a'); a.href=DONATE_URL; a.target='_blank'; a.rel='noopener'; a.textContent='give now';
+      var s=document.getElementById('donate-line'); s.appendChild(document.createTextNode(', or ')); s.appendChild(a);
+    }
+  })();
+
+  var form=document.getElementById('rsvpform');
+  var charq=document.getElementById('charq');
+  form.addEventListener('change',function(e){
+    if(e.target.name==='character'){ charq.hidden=(e.target.value==='no'); }
+  });
+
+  fetch(RSVP_ENDPOINT+'/status?event='+EVENT).then(function(r){return r.json();}).then(function(d){
+    if(!d||!d.ok){return;}
+    var el=document.getElementById('seats');
+    if(!d.open){ closeForm('RSVPs for this night are closed.'); return; }
+    var left=d.capacity-d.confirmed_seats;
+    if(left<=0){ el.textContent='The house is full. New RSVPs join the waitlist.'; }
+    else if(left<=15){ el.textContent=left+' spots left.'; }
+  }).catch(function(){});
+
+  function closeForm(msg){
+    form.outerHTML='<div class="done"><h3>'+msg+'</h3></div>';
+  }
+  function val(n){ var el=form.elements[n]; return el?(el.value||'').trim():''; }
+  function radio(n){ var c=form.querySelector('input[name="'+n+'"]:checked'); return c?c.value:''; }
+  function mailtoFallback(d){
+    var body='RSVP for A Villain\'s Vendetta (Oct 31)\n\nName: '+d.name+'\nEmail: '+d.email+'\nMobile: '+d.phone+
+      '\nBringing: '+(d.plus_name||'-')+'\nCharacter: '+d.character+(d.play?(' / '+d.play+' / '+d.role):'')+'\nNote: '+(d.note||'-');
+    window.location.href='mailto:'+FALLBACK_EMAIL+'?subject='+encodeURIComponent('RSVP: A Villain\'s Vendetta')+'&body='+encodeURIComponent(body);
+  }
+
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var err=document.getElementById('err'); err.textContent='';
+    var d={event:EVENT,name:val('name'),email:val('email'),phone:val('phone'),plus_name:val('plus_name'),
+      character:radio('character'),play:radio('play'),role:radio('role'),note:val('note'),website:val('website')};
+    if(!d.name){ err.textContent='Add your name.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.email)){ err.textContent='Add an email we can send your file to.'; return; }
+    if(!d.character){ err.textContent='Pick whether you want a character.'; return; }
+    if(d.character==='no'){ d.play=''; d.role=''; }
+    var btn=form.querySelector('button[type=submit]'); var label=btn.textContent;
+    btn.disabled=true; btn.textContent='Saving...';
+    fetch(RSVP_ENDPOINT+'/rsvp',{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(d)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }).then(function(j){ j._status=r.status; return j; }); })
+      .then(function(j){
+        if(j&&j.ok){
+          var wait=j.status==='waitlist';
+          var head=wait?'You are on the waitlist.':(j.updated?'RSVP updated.':'You are in.');
+          var msg=wait?'The house is full right now. If a spot opens, we will email you.'
+            :(d.character==='no'?'See you Saturday at 5. Come in costume.'
+              :'Your character file comes by email before Saturday. Read it and keep it to yourself.');
+          var cal=wait?'':'<p class="cal"><a class="btn" href="villains-vendetta.ics" download>Add to calendar</a> <a class="cal-g" href="'+GCAL_URL+'" target="_blank" rel="noopener">Google Calendar</a></p>';
+          form.outerHTML='<div class="done"><h3>'+head+'</h3><p>'+msg+'</p><p>Saturday, October 31. Doors at 5, we start at 5:40 sharp. Belle Air Mansion, 2250 Lebanon Pike.</p>'+cal+'</div>';
+          return;
+        }
+        btn.disabled=false; btn.textContent=label;
+        if(j&&j._status>=400&&j._status<500&&j.error){ err.textContent=j.error.charAt(0).toUpperCase()+j.error.slice(1)+'.'; return; }
+        err.textContent='Could not save that. Opening an email with your RSVP instead.'; mailtoFallback(d);
+      })
+      .catch(function(){
+        btn.disabled=false; btn.textContent=label;
+        err.textContent='Could not reach the RSVP list. Opening an email with your RSVP instead.'; mailtoFallback(d);
+      });
+  });
+  </script>
+</body>
+</html>

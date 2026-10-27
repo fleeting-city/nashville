@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting Nashville//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:villains-vendetta-2026@nashville.fleeting.city
+DTSTAMP:20261027T170000Z
+DTSTART:20261031T220000Z
+DTEND:20261101T030000Z
+SUMMARY:A Villain's Vendetta
+LOCATION:Belle Air Mansion\, 2250 Lebanon Pike\, Nashville\, TN 37214
+DESCRIPTION:Murder mystery night. Doors at 5\, we start at 5:40 sharp. Villain attire required. Details: https://nashville.fleeting.city/events/
+URL:https://nashville.fleeting.city/events/
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:A Villain's Vendetta tonight. Doors at 5\, start 5:40 sharp.
+END:VALARM
+END:VEVENT
+END:VCALENDAR
