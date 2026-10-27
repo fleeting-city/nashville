@@ -143,6 +143,16 @@
   .foot{margin-top:28px;font-size:11.5px;color:var(--muted);line-height:1.7;}
   .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
   .foot .fmark .dot{color:var(--accent);}
+  .gal{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px;}
+  .gal figure{margin:0;}
+  .gal figure.wide{grid-column:1 / -1;}
+  .gal a{display:block;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:#1a0b0d;}
+  .gal img{display:block;width:100%;height:auto;aspect-ratio:1400/930;object-fit:cover;transition:transform .3s;}
+  .gal a:hover img{transform:scale(1.03);}
+  .gal figcaption{font-size:12px;color:var(--muted);margin:6px 2px 4px;line-height:1.4;}
+  .gal figcaption b{color:var(--cream);font-weight:600;}
+  .gnote{font-size:11.5px;color:var(--muted);margin:8px 2px 0;font-style:italic;}
+  @media(max-width:520px){.gal{grid-template-columns:1fr;}}
 </style>
 <!-- posthog:begin (managed by scripts/posthog_inject.py - do not hand-edit) -->
 <script>
@@ -253,6 +263,15 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
         <section class="blk">
           <div class="bhead"><span class="dot"></span><h2>The house</h2></div>
           <p class="p">Belle Air is a real 1790 brick house that a Nashville mayor dressed up in 1838: rosewood doors, frescoed ceilings, a cantilevered staircase, and a secret room upstairs you enter by stepping through a window. For one night it is Dracula's castle.</p>
+          <div class="gal">
+            <figure class="wide"><a href="house/grand_hall.jpg"><img src="house/grand_hall.jpg" alt="The Grand Hall under red light, a tape body outline on the rug, a crowd of costumed villains leaning in" width="1400" height="930" loading="lazy"></a><figcaption><b>Grand Hall</b> &middot; Blood Moon Ballroom. The toast, the body, the reveal.</figcaption></figure>
+            <figure><a href="house/foyer.jpg"><img src="house/foyer.jpg" alt="The green front foyer by candlelight, a suspect line-up board, a blood moon poster and villains with drinks" width="1400" height="930" loading="lazy"></a><figcaption><b>Front foyer</b> &middot; Hall of Shadows. Check-in, mug shots, first drink.</figcaption></figure>
+            <figure><a href="house/staircase.jpg"><img src="house/staircase.jpg" alt="The spiral staircase with candles on every tread and paper bats up the wall" width="1400" height="930" loading="lazy"></a><figcaption><b>Staircase</b> &middot; Cursed Corridor. Watch the top step.</figcaption></figure>
+            <figure><a href="house/parlor.jpg"><img src="house/parlor.jpg" alt="The parlor by firelight, three villains on red sofas passing money across the table" width="1400" height="930" loading="lazy"></a><figcaption><b>Parlor</b> &middot; Midnight Parlor. Where the deals get made.</figcaption></figure>
+            <figure><a href="house/dining_room.jpg"><img src="house/dining_room.jpg" alt="The long dining room set as a candlelit buffet with a sangria bar" width="1400" height="930" loading="lazy"></a><figcaption><b>Dining rooms</b> &middot; Sinister Sanctum. Buffet and bar.</figcaption></figure>
+            <figure class="wide"><a href="house/veranda.jpg"><img src="house/veranda.jpg" alt="The columned veranda at night with string lights, patio heaters, fog on the lawn and a full moon" width="1400" height="930" loading="lazy"></a><figcaption><b>Veranda</b> &middot; the Courtyard. Heaters, fog, air.</figcaption></figure>
+          </div>
+          <p class="gnote">The rooms are real, from the inn's own photos. The decor and the crowd are an AI render of what we are setting up.</p>
         </section>
 
         <section class="blk">
