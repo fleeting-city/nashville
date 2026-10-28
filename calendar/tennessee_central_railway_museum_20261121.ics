@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tennessee_central_railway_museum-20261121@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Fleeting: North Pole Express Train Ride (one night)
+LOCATION:Tennessee Central Railway Museum\, Hermitage Ave
+DESCRIPTION:A train ride where Santa and his elves walk through every car t
+ o visit with passengers.\nDetails and tickets: https://nashvillelife.com/N
+ orth-Pole-Express-Train-Ride/Nashville-Calendar\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvillelife.com/North-Pole-Express-Train-Ride/Nashville-Calen
+ dar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

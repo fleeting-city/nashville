@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:studio_615-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T040000Z
+DTEND:20261031T060000Z
+SUMMARY:Fleeting: Nightmares from Poe (one night)
+LOCATION:Studio 615
+DESCRIPTION:Edgar Allan Poe stories staged late on the Friday before Hallow
+ een\, which is the right hour for them. Tickets from $49.\nDetails and tic
+ kets: https://www.eventbrite.com/e/nightmares-from-poe-edgar-allan-poe-sto
+ ries-tickets-2002709799923?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&a
+ ff=ebdssbdestsearch\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nightmares-from-poe-edgar-allan-poe-storie
+ s-tickets-2002709799923?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&aff=
+ ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

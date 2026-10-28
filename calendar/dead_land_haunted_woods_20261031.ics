@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:dead_land_haunted_woods-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Deadlands Haunted House
+LOCATION:Dead Land Haunted Woods
+DESCRIPTION:Haunted woods open Friday and Saturday nights\, with this weeke
+ nd the last of the season.\nDetails and tickets: https://nashvillelife.com
+ /Deadlands-Haunted-House-Attractions/Nashville-Calendar\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://nashvillelife.com/Deadlands-Haunted-House-Attractions/Nashville
+ -Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

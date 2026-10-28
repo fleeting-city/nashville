@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:urban_cowboy_bar-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Halloween Party at Urban Cowboy Bar
+LOCATION:Urban Cowboy Bar
+DESCRIPTION:A two-night Halloween party at the bar\, going until 1 AM both 
+ nights. No cover or price is stated.\nDetails and tickets: https://nashvil
+ ledowntown.com/event/halloween-party-at-urban-cowboy-bar\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://nashvilledowntown.com/event/halloween-party-at-urban-cowboy-bar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

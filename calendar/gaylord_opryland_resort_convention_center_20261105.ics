@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gaylord_opryland_resort_convention_center-20261105@nashville.fleeting.c
+ ity
+DTSTAMP:20261028T222851Z
+DTSTART:20261105T233000Z
+DTEND:20261106T013000Z
+SUMMARY:Fleeting: 43rd Annual A Country Christmas Lighting Ceremony (one ni
+ ght)
+LOCATION:Gaylord Opryland Resort & Convention Center\, Opryland
+DESCRIPTION:The resort's annual switch-on that opens the holiday season\, n
+ ow in its 43rd year.\nDetails and tickets: https://allevents.in/nashville/
+ 43rd-annual-a-country-christmas-lighting-ceremony/200030747403458\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://allevents.in/nashville/43rd-annual-a-country-christmas-lighting
+ -ceremony/200030747403458
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

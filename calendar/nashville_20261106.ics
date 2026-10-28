@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Fleeting: Raviolo Pasta-Making Class and Lunch (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:Hands-on class on raviolo\, Italy's oversized filled pasta\, fo
+ llowed by lunch.\nDetails and tickets: https://nashvillelife.com/Raviolo-P
+ asta-Making-Class-and-Lunch/Nashville-Calendar\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvillelife.com/Raviolo-Pasta-Making-Class-and-Lunch/Nashvill
+ e-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:assembly_food_hall-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T160000Z
+DTEND:20261031T180000Z
+SUMMARY:Fleeting: Trick or Treatery (one night)
+LOCATION:Assembly Food Hall\, Downtown
+DESCRIPTION:A Halloween-morning trick-or-treat window inside the food hall.
+  Early enough to get the kids fed and costumed before the evening gets lou
+ d.\nDetails and tickets: https://nashvilledowntown.com/event/trick-or-trea
+ tery\nWindows drift - confirm with the venue before you go.\nFleeting - th
+ e weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/trick-or-treatery
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

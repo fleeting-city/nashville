@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_park_at_harlindale-20270411@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Last day: Pilgrimage Festival 2027
+LOCATION:The Park at Harlindale\, Franklin
+DESCRIPTION:The eclectic music festival returns after a one-year sabbatical
+ . Lineup details are expected about three months ahead.\nDetails and ticke
+ ts: https://pilgrimagefestival.com/\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://pilgrimagefestival.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

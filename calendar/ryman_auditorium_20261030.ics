@@ -7,18 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:ryman_auditorium-20261030@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART:20261031T000000Z
 DTEND:20261031T020000Z
 SUMMARY:Fleeting: Neko Case & Allison Russell (one night)
 LOCATION:Ryman Auditorium\, Downtown
-DESCRIPTION:Double bill at the Ryman with 31+ interested. Single night\; tw
- o headliners sharing the stage.\nDetails and tickets: https://allevents.in
- /nashville/neko-case-and-allison-russell-ryman-auditorium/200030497295931\
- nWindows drift - confirm with the venue before you go.\nFleeting - the wee
- kly Nashville what-closes-first list.
-URL:https://allevents.in/nashville/neko-case-and-allison-russell-ryman-audi
- torium/200030497295931
+DESCRIPTION:Two heavyweight songwriters sharing one bill in the Mother Chur
+ ch. A single listed night.\nDetails and tickets: https://nashvillego.com/c
+ alendar\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

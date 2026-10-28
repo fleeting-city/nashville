@@ -7,16 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:honeytree_meadery-20261031@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Last day: The Mummy Pop Up Bar
 LOCATION:Honeytree Meadery
-DESCRIPTION:A Mummy-themed pop-up at Honeytree Meadery\, running through Ha
- lloween. A Brendan Fraser cutout giveaway is attached.\nDetails and ticket
- s: https://do615.com/events/2026/10/15/the-mummy-pop-up-bar-tickets\nWindo
- ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
- shville what-closes-first list.
+DESCRIPTION:The meadery is done up as an ancient Egyptian sanctuary with to
+ mb-worthy decor\, themed around The Mummy. Entering gets you a chance at a
+  life-size Brendan Fraser cutout\, and the bar closes October 31.\nDetails
+  and tickets: https://do615.com/events/2026/10/15/the-mummy-pop-up-bar-tic
+ kets\nWindows drift - confirm with the venue before you go.\nFleeting - th
+ e weekly Nashville what-closes-first list.
 URL:https://do615.com/events/2026/10/15/the-mummy-pop-up-bar-tickets
 TRANSP:TRANSPARENT
 END:VEVENT

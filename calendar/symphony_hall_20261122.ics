@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:symphony_hall-20261122@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Fleeting: No Small Endeavor: music and more (one night)
+LOCATION:Symphony Hall
+DESCRIPTION:Nashville's answer to Prairie Home Companion\, mixing storytell
+ ing\, thoughtful reflections and live music. This edition features Emmylou
+  Harris.\nDetails and tickets: https://notesonnashville.com/things-to-do/n
+ ashville-calendar\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://notesonnashville.com/things-to-do/nashville-calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

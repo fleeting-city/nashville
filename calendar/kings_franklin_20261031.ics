@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:kings_franklin-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T163000Z
+DTEND:20261031T183000Z
+SUMMARY:Fleeting: Halloween at Kings Franklin (one night)
+LOCATION:Kings Franklin\, Franklin
+DESCRIPTION:A Halloween all-dayer in Franklin\, open from late morning unti
+ l just before midnight. Works as either a family stop or a late one.\nDeta
+ ils and tickets: https://www.nashvilleparent.com/calendar\nWindows drift -
+  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
+ at-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:belmont_mansion_gift_shop-20261119@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Fleeting: Friends & Neighbors Shopping Night (one night)
+LOCATION:Belmont Mansion gift shop\, Belmont
+DESCRIPTION:A relaxed evening of shopping in the Belmont Mansion gift shop\
+ , with hors d'oeuvres and light beverages.\nDetails and tickets: https://n
+ ashvillelife.com/Friends-Neighbors-Shopping-Night/Nashville-Calendar\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvillelife.com/Friends-Neighbors-Shopping-Night/Nashville-Ca
+ lendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

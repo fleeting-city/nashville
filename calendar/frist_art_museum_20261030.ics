@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:frist_art_museum-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T030000Z
+DTEND:20261031T050000Z
+SUMMARY:Fleeting: Freaky Frist Friday (one night)
+LOCATION:Frist Art Museum\, Downtown
+DESCRIPTION:An evening event at the Frist\, a good excuse to see the museum
+  after dark. The listing gives no program details.\nDetails and tickets: h
+ ttps://nashvilledowntown.com/event/freaky-frist-friday\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://nashvilledowntown.com/event/freaky-frist-friday
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

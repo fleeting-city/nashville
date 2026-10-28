@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_hermitage-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Ghost Tours at The Hermitage
+LOCATION:The Hermitage\, Hermitage
+DESCRIPTION:After-dark ghost tours at the Hermitage\, listed Thursday throu
+ gh Saturday evenings. Three nights left on this week's calendar.\nDetails 
+ and tickets: https://nashvilleparent.com/event/ghost-tours-at-the-hermitag
+ e-4-2/2026-09-27/\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilleparent.com/event/ghost-tours-at-the-hermitage-4-2/2026
+ -09-27/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

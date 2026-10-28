@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20261031@nashville.fleeting.c
+ ity
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:Fleeting: R&B Bingo: Battle of Generations (one night)
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:A generational face-off played as R&B bingo\, held at the museu
+ m on Halloween night. No price stated.\nDetails and tickets: https://nashv
+ illedowntown.com/event/randb-bingo-battle-of-generations\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://nashvilledowntown.com/event/randb-bingo-battle-of-generations
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

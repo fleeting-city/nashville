@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:lucky_ladd_farms-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Fall Harvest Festival
+LOCATION:Lucky Ladd Farms
+DESCRIPTION:Farm-based fall festival with daytime hours Wednesday through S
+ aturday this week. The calendar lists no other dates\, so Halloween is the
+  last visible day.\nDetails and tickets: https://nashvilleparent.com/event
+ /pumpkin-patch-corn-maze-at-lucky-ladd-farms-2/2026-09-27/\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://nashvilleparent.com/event/pumpkin-patch-corn-maze-at-lucky-ladd
+ -farms-2/2026-09-27/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

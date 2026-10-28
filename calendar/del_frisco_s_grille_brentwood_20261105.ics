@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:del_frisco_s_grille_brentwood-20261105@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261106T003000Z
+DTEND:20261106T023000Z
+SUMMARY:Fleeting: Joe Wagner Wine Dinner (one night)
+LOCATION:Del Frisco's Grille Brentwood\, Brentwood
+DESCRIPTION:Five courses\, including braised short rib and Angus hanger ste
+ ak\, with six Joe Wagner wines poured alongside. One night only\, ages 21+
+ \, and all sales are final.\nDetails and tickets: https://www.eventbrite.c
+ om/e/del-friscos-grille-brentwood-joe-wagner-wine-dinner-tickets-199971760
+ 0173?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&aff=ebdssbdestsearch\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/del-friscos-grille-brentwood-joe-wagner-wi
+ ne-dinner-tickets-1999717600173?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3
+ bd7&aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

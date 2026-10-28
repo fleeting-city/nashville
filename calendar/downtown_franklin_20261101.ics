@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: FEAR FEST! The Texas Chain Saw Massacre (1974) Midnight S
+ creening
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:The 1974 original at midnight on Halloween itself\, closing out
+  the Fear Fest film run.\nDetails and tickets: https://downtownfranklintn.
+ com/event/fear-fest-the-texas-chain-saw-massacre-1974-midnight-screening/\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-the-texas-chain-saw-mass
+ acre-1974-midnight-screening/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

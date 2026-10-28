@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20261120@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Holiday LIGHTS at Cheekwood (one night)
+LOCATION:Cheekwood Estate & Gardens\, Bellevue
+DESCRIPTION:Seasonal light show with the Peppermint Path\, the Star Field a
+ nd a 28-foot Pixel Pine.\nDetails and tickets: https://nashvillelife.com/H
+ oliday-LIGHTS-at-Cheekwood/Nashville-Calendar-0\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvillelife.com/Holiday-LIGHTS-at-Cheekwood/Nashville-Calenda
+ r-0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

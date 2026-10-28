@@ -34,7 +34,7 @@
   referenced (not pasted) from skyline.svg (rules 11/14). First-touch attribution to
   surface 'half-life' (EXP-0030). Pure-ASCII copy.
 -->
-  <script>  <script>
+  <script>
   /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
      context ONCE, in their own browser, so it survives navigation to the
      subscribe form. No network call, no external action. */
@@ -53,7 +53,6 @@
     localStorage.setItem(K,JSON.stringify(ft));
   }catch(e){}})();
   </script>
-</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -159,6 +158,33 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
 <!-- meta-pixel:end -->
 </head>
 <body>
+<!-- site-header:begin (managed by scripts/header_inject.py - do not hand-edit) -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter:wght@600&text=FLETINGASHV.&display=swap');
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/dm-sans-400.ttf') format('truetype')}
+.fh-bar,.fh-bar *{box-sizing:border-box}
+.fh-bar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:14px 5vw;margin:0;background:#0c0b0a;border-bottom:1px solid rgba(241,234,219,.173);position:sticky;top:0;z-index:30;font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6;color:#f1eadb;text-align:left}
+.fh-bar a{text-decoration:none}
+.fh-mark{display:flex;align-items:baseline;white-space:nowrap}
+.fh-name{font-family:'Archivo','DM Sans',sans-serif;font-weight:900;font-size:20px;line-height:1;letter-spacing:.02em;color:#f6f1e7;text-shadow:0 0 16px rgba(230,69,53,.45)}
+.fh-dot{color:#E64535}
+.fh-city{font-family:'Inter',sans-serif;font-weight:600;font-size:11px;line-height:1;letter-spacing:.22em;color:#a39c8f;margin-left:8px}
+.fh-nav{display:flex;gap:17px}
+.fh-nav a{font-size:14px;color:#d9cfbc}
+.fh-nav a:hover,.fh-join:hover{color:#e84b3f}
+.fh-join{display:flex;align-items:center;gap:12px;font-size:14px;color:#f1eadb;border-bottom:1px solid #b99656;padding:9px 0;white-space:nowrap}
+@media(max-width:1150px){.fh-bar{gap:20px}}
+@media(max-width:800px){.fh-bar{min-height:75px}.fh-nav{display:none}}
+@media(max-width:540px){.fh-bar{padding:12px 20px;min-height:72px;gap:12px}.fh-mark{flex-direction:column;align-items:flex-start;gap:4px}.fh-city{margin-left:0}.fh-join{font-size:12px;gap:7px}}
+.wrap>.top:has(>a.logo:only-child):not(:has(.plus)),.wrap>a.logo,body>nav:has(>.nav-in){display:none!important}
+</style>
+<header class="fh-bar">
+  <a class="fh-mark" href="/" aria-label="Fleeting Nashville home"><span class="fh-name">FLEETING<span class="fh-dot">.</span></span><span class="fh-city">NASHVILLE</span></a>
+  <nav class="fh-nav" aria-label="Main navigation"><a href="/#drop">The Thursday drop</a><a href="/perks.html">Perks</a><a href="/#how">A little about us</a></nav>
+  <a class="fh-join" href="/#join">Get the free newsletter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+</header>
+<!-- site-header:end -->
+
   <div class="wrap">
     <a class="back" href="/">&#8592; Fleeting HQ</a>
     <div class="top">
@@ -168,23 +194,23 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
     <div class="kicker">The window half-life</div>
     <h1>How long a Nashville window<br>actually stays open<span class="dot">.</span></h1>
     <p class="lede">Every week Fleeting logs the time-limited windows opening around Nashville -- and, quietly, when each one closes. This is the cut nobody has run on that record: <b>how long a window actually stays open, by category</b>. The number for each type is its <b>half-life</b> -- the point by which half of them have already closed.</p>
-    <div class="headline">Across 1564 Nashville windows with a stated open and close date, the median stays open just <b>1 day</b>. Half of everything we track is gone within a day of opening. The one category you can actually plan around is <b>limited run</b> (half-life 15 days); the quickest to vanish are concert &amp; live music-type windows.</div>
-    <div class="asof">Crawl record Jun 25 - Oct 22, 2026 &middot; 2928 windows seen &middot; 1564 with a datable open and close</div>
+    <div class="headline">Across 1710 Nashville windows with a stated open and close date, the median stays open just <b>1 day</b>. Half of everything we track is gone within a day of opening. The one category you can actually plan around is <b>limited run</b> (half-life 16 days); the quickest to vanish are concert &amp; live music-type windows.</div>
+    <div class="asof">Crawl record Jun 25 - Oct 29, 2026 &middot; 3122 windows seen &middot; 1710 with a datable open and close</div>
     <section class="chart">
       <div class="chead"><span class="dot"></span><h2>MEDIAN DAYS OPEN, BY TYPE</h2></div>
       <p class="csub">Fastest-closing first. The bar is the half-life; the note below each is the middle-half spread and the share still open after a week.</p>
-      <div class="hrow"><div class="hcat">concert &amp; live music<span class="hn">629 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 6% still open after a week</div></div><div class="hrow"><div class="hcat">special event<span class="hn">319 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 8% still open after a week</div></div><div class="hrow"><div class="hcat">festival<span class="hn">176 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 3 days &middot; 11% still open after a week</div></div><div class="hrow"><div class="hcat">ticketed experience<span class="hn">148 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 2 days &middot; 16% still open after a week</div></div><div class="hrow"><div class="hcat">tasting &amp; dinner<span class="hn">145 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 14% still open after a week</div></div><div class="hrow"><div class="hcat">pop-up<span class="hn">52 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 34 days &middot; 33% still open after a week</div></div><div class="hrow"><div class="hcat">market<span class="hn">22 windows</span></div><div class="htrack"><div class="hbar" style="width:7%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 2 days &middot; 14% still open after a week</div></div><div class="hrow"><div class="hcat">gallery &amp; exhibition<span class="hn">19 windows</span></div><div class="htrack"><div class="hbar" style="width:13%"></div><span class="hval">2 days</span></div><div class="hmeta">middle half 1 day - 26 days &middot; 42% still open after a week</div></div><div class="hrow"><div class="hcat">limited run<span class="hn">54 windows</span></div><div class="htrack"><div class="hbar" style="width:100%"></div><span class="hval">15 days</span></div><div class="hmeta">middle half 1.8 days - 30.2 days &middot; 65% still open after a week</div></div>
+      <div class="hrow"><div class="hcat">concert &amp; live music<span class="hn">631 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 6% still open after a week</div></div><div class="hrow"><div class="hcat">special event<span class="hn">438 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 7% still open after a week</div></div><div class="hrow"><div class="hcat">festival<span class="hn">183 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 3 days &middot; 10% still open after a week</div></div><div class="hrow"><div class="hcat">tasting &amp; dinner<span class="hn">154 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1 day &middot; 14% still open after a week</div></div><div class="hrow"><div class="hcat">ticketed experience<span class="hn">145 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 1.5 days &middot; 16% still open after a week</div></div><div class="hrow"><div class="hcat">pop-up<span class="hn">57 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 32.5 days &middot; 33% still open after a week</div></div><div class="hrow"><div class="hcat">market<span class="hn">24 windows</span></div><div class="htrack"><div class="hbar" style="width:6%"></div><span class="hval">1 day</span></div><div class="hmeta">middle half 1 day - 2 days &middot; 12% still open after a week</div></div><div class="hrow"><div class="hcat">gallery &amp; exhibition<span class="hn">20 windows</span></div><div class="htrack"><div class="hbar" style="width:9%"></div><span class="hval">1.5 days</span></div><div class="hmeta">middle half 1 day - 25 days &middot; 40% still open after a week</div></div><div class="hrow"><div class="hcat">limited run<span class="hn">58 windows</span></div><div class="htrack"><div class="hbar" style="width:100%"></div><span class="hval">16 days</span></div><div class="hmeta">middle half 2.8 days - 33 days &middot; 67% still open after a week</div></div>
     </section>
     
     <section class="method">
       <h2>How this is measured</h2>
-      <p>The source is Fleeting's own weekly discovery crawl -- 17 snapshots between Jun 25 - Oct 22, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears in several weeks. Its <b>days-open</b> is counted inclusively from the date the listing says it opens to the date it says it closes -- a one-night event is 1 day, a run from the 1st to the 10th is 10. We only count a window when its listing carries <b>both</b> a real open and close date; a new opening with no stated end has no half-life, so it is left out rather than guessed. <b>Half-life</b> is the median: half the windows of that type have closed by then. Categories are folded from the listings' own freeform labels into a fixed set by keyword, and any type with fewer than 15 datable windows is held back rather than reported on thin data. Every number here is produced by <code>build_half_life.py</code> from the crawl record -- there are no hand-entered figures. The underlying table is published as <a href="window_half_life.json">JSON</a> and <a href="window_half_life.csv">CSV</a> for anyone who wants to check or cite it. This is a sample of the curated time-limited windows Fleeting tracks, not a census of everything happening in Nashville.</p>
+      <p>The source is Fleeting's own weekly discovery crawl -- 18 snapshots between Jun 25 - Oct 29, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears in several weeks. Its <b>days-open</b> is counted inclusively from the date the listing says it opens to the date it says it closes -- a one-night event is 1 day, a run from the 1st to the 10th is 10. We only count a window when its listing carries <b>both</b> a real open and close date; a new opening with no stated end has no half-life, so it is left out rather than guessed. <b>Half-life</b> is the median: half the windows of that type have closed by then. Categories are folded from the listings' own freeform labels into a fixed set by keyword, and any type with fewer than 15 datable windows is held back rather than reported on thin data. Every number here is produced by <code>build_half_life.py</code> from the crawl record -- there are no hand-entered figures. The underlying table is published as <a href="window_half_life.json">JSON</a> and <a href="window_half_life.csv">CSV</a> for anyone who wants to check or cite it. This is a sample of the curated time-limited windows Fleeting tracks, not a census of everything happening in Nashville.</p>
     </section>
     <section class="cta">
       <p><b>Most of these close within a day.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville windows -- the dinners, pop-ups and shows that will be gone by the weekend -- in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
       <a class="btn" href="/?utm_source=half-life&amp;utm_medium=data&amp;utm_campaign=exp-0072#subscribe">Get the Thursday list, free &#8594;</a>
     </section>
-    <p class="foot">Looking for what is open or closing this week? See <a href="/conditions/">the conditions board</a>. Which windows keep coming back? <a href="/recurring/">the recurring board</a>. The full record is in <a href="/archive/">the archive</a>. Built October 23, 2026.</p>
+    <p class="foot">Looking for what is open or closing this week? See <a href="/conditions/">the conditions board</a>. Which windows keep coming back? <a href="/recurring/">the recurring board</a>. The full record is in <a href="/archive/">the archive</a>. Built October 28, 2026.</p>
   </div>
 </body>
 </html>

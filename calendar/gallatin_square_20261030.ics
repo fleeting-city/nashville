@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gallatin_square-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T150000Z
+DTEND:20261030T170000Z
+SUMMARY:Fleeting: Night of Trick or Treating on the Gallatin Square (one ni
+ ght)
+LOCATION:Gallatin Square\, Gallatin
+DESCRIPTION:Daytime trick-or-treating around the Gallatin square on Friday\
+ , 10 to 2. Early enough to finish before the evening events start.\nDetail
+ s and tickets: https://www.nashvilleparent.com/calendar\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

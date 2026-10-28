@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harken_hall-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Fleeting: Rix Roundup: A Western Swing Ranch Party (one night)
+LOCATION:Harken Hall
+DESCRIPTION:A Western swing ranch party built for bootscooting the night aw
+ ay.\nDetails and tickets: https://www.harkenhall.com/shows/rix-roundup-06-
+ nov\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://www.harkenhall.com/shows/rix-roundup-06-nov
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

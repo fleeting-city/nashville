@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:blue_aster-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T230000Z
+DTEND:20261031T010000Z
+SUMMARY:Fleeting: Champagne and Caviar (one night)
+LOCATION:Blue Aster
+DESCRIPTION:A one-evening pairing of champagne and caviar\, for a Friday th
+ at does not involve a costume. Sales are ending soon.\nDetails and tickets
+ : https://www.eventbrite.com/e/champagne-and-caviar-tickets-1998252375647?
+ aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/champagne-and-caviar-tickets-1998252375647
+ ?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

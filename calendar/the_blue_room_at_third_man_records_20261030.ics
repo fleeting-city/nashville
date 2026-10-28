@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_blue_room_at_third_man_records-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T030000Z
+DTEND:20261031T050000Z
+SUMMARY:Fleeting: Friko (one night)
+LOCATION:The Blue Room at Third Man Records\, Downtown
+DESCRIPTION:Friko plays the Blue Room at Third Man Records\, a small room f
+ or a one-night show.\nDetails and tickets: https://nashvilledowntown.com/e
+ vent/friko\nWindows drift - confirm with the venue before you go.\nFleetin
+ g - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/friko
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

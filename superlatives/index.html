@@ -36,7 +36,7 @@
   surface 'superlatives' (EXP-0030); subscribe links carry utm_campaign=exp-0117.
   Reader prose keeps accents; data files are strict-ASCII (a portable public feed).
 -->
-  <script>  <script>
+  <script>
   /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
      context ONCE, in their own browser, so it survives navigation to the
      subscribe form. No network call, no external action. */
@@ -55,7 +55,6 @@
     localStorage.setItem(K,JSON.stringify(ft));
   }catch(e){}})();
   </script>
-</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -173,6 +172,33 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
 <!-- meta-pixel:end -->
 </head>
 <body>
+<!-- site-header:begin (managed by scripts/header_inject.py - do not hand-edit) -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter:wght@600&text=FLETINGASHV.&display=swap');
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/dm-sans-400.ttf') format('truetype')}
+.fh-bar,.fh-bar *{box-sizing:border-box}
+.fh-bar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:14px 5vw;margin:0;background:#0c0b0a;border-bottom:1px solid rgba(241,234,219,.173);position:sticky;top:0;z-index:30;font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6;color:#f1eadb;text-align:left}
+.fh-bar a{text-decoration:none}
+.fh-mark{display:flex;align-items:baseline;white-space:nowrap}
+.fh-name{font-family:'Archivo','DM Sans',sans-serif;font-weight:900;font-size:20px;line-height:1;letter-spacing:.02em;color:#f6f1e7;text-shadow:0 0 16px rgba(230,69,53,.45)}
+.fh-dot{color:#E64535}
+.fh-city{font-family:'Inter',sans-serif;font-weight:600;font-size:11px;line-height:1;letter-spacing:.22em;color:#a39c8f;margin-left:8px}
+.fh-nav{display:flex;gap:17px}
+.fh-nav a{font-size:14px;color:#d9cfbc}
+.fh-nav a:hover,.fh-join:hover{color:#e84b3f}
+.fh-join{display:flex;align-items:center;gap:12px;font-size:14px;color:#f1eadb;border-bottom:1px solid #b99656;padding:9px 0;white-space:nowrap}
+@media(max-width:1150px){.fh-bar{gap:20px}}
+@media(max-width:800px){.fh-bar{min-height:75px}.fh-nav{display:none}}
+@media(max-width:540px){.fh-bar{padding:12px 20px;min-height:72px;gap:12px}.fh-mark{flex-direction:column;align-items:flex-start;gap:4px}.fh-city{margin-left:0}.fh-join{font-size:12px;gap:7px}}
+.wrap>.top:has(>a.logo:only-child):not(:has(.plus)),.wrap>a.logo,body>nav:has(>.nav-in){display:none!important}
+</style>
+<header class="fh-bar">
+  <a class="fh-mark" href="/" aria-label="Fleeting Nashville home"><span class="fh-name">FLEETING<span class="fh-dot">.</span></span><span class="fh-city">NASHVILLE</span></a>
+  <nav class="fh-nav" aria-label="Main navigation"><a href="/#drop">The Thursday drop</a><a href="/perks.html">Perks</a><a href="/#how">A little about us</a></nav>
+  <a class="fh-join" href="/#join">Get the free newsletter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+</header>
+<!-- site-header:end -->
+
   <div class="wrap">
     <a class="back" href="/">&#8592; Fleeting HQ</a>
     <div class="top">
@@ -183,7 +209,7 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
     <h1>The best of the windows<br>we watched come and go<span class="dot">.</span></h1>
     <p class="lede">Every week Fleeting crawls Nashville for time-limited windows -- the dinners, pop-ups, residencies, markets and runs that are here then gone -- and records when each one opens and closes. This is the best-of cut of that record: <b>the windows that lasted the longest</b>, and <b>the neighborhoods with the most fleeting windows of all</b>. Not an all-time list -- the window we have so far.</p>
     <div class="headline">The longest-running window we have watched open and close is <b>Nashville Shores Waterpark</b> at <b>Nashville Shores Lakeside Resort</b>, open <b>62 days</b> (Jul 21 to Sep 20).</div>
-    <div class="asof">Crawl record Jun 25 - Oct 22, 2026 &middot; 17 weekly crawls &middot; 1059 windows watched open and closed</div>
+    <div class="asof">Crawl record Jun 25 - Oct 28, 2026 &middot; 18 weekly crawls &middot; 1134 windows watched open and closed</div>
     <section class="chart">
       <div class="chead"><span class="dot"></span><h2>LONGEST-RUNNING WINDOWS</h2></div>
       <p class="csub">Days from stated open to stated close, counted inclusively. Only windows we watched begin and end inside the record qualify; recurring or episodic listings (more than one start date) are left out -- scattered nights are not one continuous run.</p>
@@ -192,19 +218,19 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
     <section class="chart">
       <div class="chead"><span class="dot gold"></span><h2>BUSIEST NEIGHBORHOODS</h2></div>
       <p class="csub">Distinct time-limited windows we have tracked in each neighborhood across the whole record.</p>
-      <table class="ntable"><thead><tr><th>#</th><th>Neighborhood</th><th>Windows</th></tr></thead><tbody><tr><td class="n-rank">1</td><td class="n-name">Downtown</td><td class="n-num">612</td></tr><tr><td class="n-rank">2</td><td class="n-name">East Nashville</td><td class="n-num">162</td></tr><tr><td class="n-rank">3</td><td class="n-name">Franklin</td><td class="n-num">147</td></tr><tr><td class="n-rank">4</td><td class="n-name">Wedgewood-Houston</td><td class="n-num">120</td></tr><tr><td class="n-rank">5</td><td class="n-name">Midtown</td><td class="n-num">83</td></tr><tr><td class="n-rank">6</td><td class="n-name">Germantown</td><td class="n-num">75</td></tr><tr><td class="n-rank">7</td><td class="n-name">SoBro</td><td class="n-num">75</td></tr><tr><td class="n-rank">8</td><td class="n-name">Downtown Franklin</td><td class="n-num">59</td></tr></tbody></table>
+      <table class="ntable"><thead><tr><th>#</th><th>Neighborhood</th><th>Windows</th></tr></thead><tbody><tr><td class="n-rank">1</td><td class="n-name">Downtown</td><td class="n-num">655</td></tr><tr><td class="n-rank">2</td><td class="n-name">East Nashville</td><td class="n-num">166</td></tr><tr><td class="n-rank">3</td><td class="n-name">Franklin</td><td class="n-num">153</td></tr><tr><td class="n-rank">4</td><td class="n-name">Wedgewood-Houston</td><td class="n-num">123</td></tr><tr><td class="n-rank">5</td><td class="n-name">SoBro</td><td class="n-num">88</td></tr><tr><td class="n-rank">6</td><td class="n-name">Midtown</td><td class="n-num">87</td></tr><tr><td class="n-rank">7</td><td class="n-name">Germantown</td><td class="n-num">76</td></tr><tr><td class="n-rank">8</td><td class="n-name">Downtown Franklin</td><td class="n-num">65</td></tr></tbody></table>
     </section>
-    <p class="caveat">We are a young newsletter: this is built from <b>120 days</b> of record (Jun 25 - Oct 22, 2026), <b>17</b> weekly crawls. It is <b>not an all-time ranking</b> -- a window that opened before we started watching, or that is still open today, cannot win a "longest run" it did not finish in front of us, so it is left out. The record is still short; this is the best of the window we have, honestly bounded, and it grows each week.</p>
+    <p class="caveat">We are a young newsletter: this is built from <b>126 days</b> of record (Jun 25 - Oct 28, 2026), <b>18</b> weekly crawls. It is <b>not an all-time ranking</b> -- a window that opened before we started watching, or that is still open today, cannot win a "longest run" it did not finish in front of us, so it is left out. The record is still short; this is the best of the window we have, honestly bounded, and it grows each week.</p>
     <section class="method">
       <h2>How this is measured</h2>
-      <p>The source is Fleeting's own weekly discovery crawl -- 17 snapshots between Jun 25 - Oct 22, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears across several weeks. A window is eligible for the <b>longest-running</b> ranking only when its stated open date and stated close date both fall inside our observation span and its close is on or before the day this page was built -- a window we watched from open to close. <b>Days open</b> is counted inclusively (a one-night window is 1 day). Windows that opened before we began crawling, or whose close is still in the future, are left out: we did not watch them run, so they do not get a superlative. <b>Recurring or episodic listings</b> -- anything with more than one distinct start date, like a concert run, a monthly series or a re-staged pop-up -- are excluded from this ranking too: scattered occurrences are not one continuous open period, so we do not credit them the span from their first night to their last (they still count toward the neighborhood leaderboard). The <b>neighborhood</b> leaderboard counts distinct windows carrying each neighborhood across the whole record. Every number here is produced by <code>build_superlatives.py</code> from the crawl record -- there are no hand-entered figures. The underlying ranking is published as <a href="superlatives.json">JSON</a> and <a href="superlatives.csv">CSV</a> for anyone who wants to check or cite it. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event, and it is <b>not an all-time list</b> -- it is the window we have so far, and it grows each week.</p>
+      <p>The source is Fleeting's own weekly discovery crawl -- 18 snapshots between Jun 25 - Oct 28, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears across several weeks. A window is eligible for the <b>longest-running</b> ranking only when its stated open date and stated close date both fall inside our observation span and its close is on or before the day this page was built -- a window we watched from open to close. <b>Days open</b> is counted inclusively (a one-night window is 1 day). Windows that opened before we began crawling, or whose close is still in the future, are left out: we did not watch them run, so they do not get a superlative. <b>Recurring or episodic listings</b> -- anything with more than one distinct start date, like a concert run, a monthly series or a re-staged pop-up -- are excluded from this ranking too: scattered occurrences are not one continuous open period, so we do not credit them the span from their first night to their last (they still count toward the neighborhood leaderboard). The <b>neighborhood</b> leaderboard counts distinct windows carrying each neighborhood across the whole record. Every number here is produced by <code>build_superlatives.py</code> from the crawl record -- there are no hand-entered figures. The underlying ranking is published as <a href="superlatives.json">JSON</a> and <a href="superlatives.csv">CSV</a> for anyone who wants to check or cite it. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event, and it is <b>not an all-time list</b> -- it is the window we have so far, and it grows each week.</p>
       <p class="cite">How to cite: <code>Data by Fleeting - Nashville, https://nashville.fleeting.city/superlatives/</code> &middot; licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
     </section>
     <section class="cta">
       <p><b>Most Nashville windows close within days.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville food, drink and events -- the ones that will be gone by the weekend -- in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
       <a class="btn" href="/?utm_source=superlatives&amp;utm_medium=data&amp;utm_campaign=exp-0117#subscribe">Get the Thursday list, free &#8594;</a>
     </section>
-    <p class="foot">Want the other cuts? <a href="/churn/">the food-window churn rate</a>, <a href="/half-life/">the window half-life</a>, <a href="/open-data/">the raw open dataset</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 23, 2026.</p>
+    <p class="foot">Want the other cuts? <a href="/churn/">the food-window churn rate</a>, <a href="/half-life/">the window half-life</a>, <a href="/open-data/">the raw open dataset</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 28, 2026.</p>
   </div>
 </body>
 </html>

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_green_light_bar-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T000000Z
+DTEND:20261031T020000Z
+SUMMARY:Fleeting: Friday Pre-Halloween Party Pass Crawl (one night)
+LOCATION:The Green Light Bar
+DESCRIPTION:A party pass crawl that warms up Halloween weekend a night earl
+ y. The listing says sales are ending soon.\nDetails and tickets: https://w
+ ww.eventbrite.com/e/friday-pre-halloween-party-pass-nashville-experience-c
+ rawl-tickets-2003783945722?aff=ebdssbdestsearch\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://www.eventbrite.com/e/friday-pre-halloween-party-pass-nashville-
+ experience-crawl-tickets-2003783945722?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

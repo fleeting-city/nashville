@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harken_hall-20261112@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Fleeting: Music City Iron Fork (one night)
+LOCATION:Harken Hall
+DESCRIPTION:Four leading chefs battle for the top prize while you sample fo
+ od from 20 restaurants plus wine and beer purveyors. Eating is the audienc
+ e participation part.\nDetails and tickets: https://www.musiccityfoodandwi
+ nefest.com/ironfork?utm_source=ActiveCampaign&utm_medium=email&utm_content
+ =Don%20t%20Miss%20Iron%20Fork%20on%20November%2012%21&utm_campaign=Iron%20
+ Fork%20-%20sampling%20restaurants%20%28Copy%29\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://www.musiccityfoodandwinefest.com/ironfork?utm_source=ActiveCamp
+ aign&utm_medium=email&utm_content=Don%20t%20Miss%20Iron%20Fork%20on%20Nove
+ mber%2012%21&utm_campaign=Iron%20Fork%20-%20sampling%20restaurants%20%28Co
+ py%29
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

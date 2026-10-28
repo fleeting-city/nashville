@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:woolworth_theatre-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T223000Z
+DTEND:20261102T003000Z
+SUMMARY:Fleeting: The Jury Experience: The Killer AI (one night)
+LOCATION:Woolworth Theatre\, Downtown
+DESCRIPTION:A ticketed theatre show with a murder-trial premise and an AI d
+ efendant. Listing gives no price or format beyond the title.\nDetails and 
+ tickets: https://patch.com/tennessee/nashville/calendar/event/20261101/296
+ 59869-c3bc-49a0-a9a6-ff618272dba7/the-jury-experience-the-killer-ai\nWindo
+ ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
+ shville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261101/29659869-
+ c3bc-49a0-a9a6-ff618272dba7/the-jury-experience-the-killer-ai
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

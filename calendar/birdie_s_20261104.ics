@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:birdie_s-20261104@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Fleeting: Birdie's Wine Wednesday: Oyster Edition (one night)
+LOCATION:Birdie's
+DESCRIPTION:Six raw oysters and three glasses of wine for $35\, with an out
+ door screening of the docuseries ShellBound on the lawn at Lost & Found. H
+ enrietta Red and The Local Palate join in\, and tickets go through OpenTab
+ le.\nDetails and tickets: https://nashvillelife.com/Birdie%E2%80%99s-Wine-
+ Wednesday-Oyster-Edition/Nashville-Calendar\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://nashvillelife.com/Birdie%E2%80%99s-Wine-Wednesday-Oyster-Editio
+ n/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

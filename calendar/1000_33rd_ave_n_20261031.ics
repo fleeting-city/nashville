@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:1000_33rd_ave_n-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+SUMMARY:Fleeting: Legacy Harvest Festival (one night)
+LOCATION:1000 33rd Ave. N\, Hadley Park
+DESCRIPTION:A harvest festival on Halloween afternoon in the 37209 area. A 
+ daytime option if bar crawls are not your thing.\nDetails and tickets: htt
+ ps://allevents.in/nashville/legacy-harvest-festival/200030865511859\nWindo
+ ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
+ shville what-closes-first list.
+URL:https://allevents.in/nashville/legacy-harvest-festival/200030865511859
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

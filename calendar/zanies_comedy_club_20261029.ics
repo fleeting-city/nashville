@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:zanies_comedy_club-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Fleeting: Sheryl Underwood (one night)
+LOCATION:Zanies Comedy Club\, Historic Waverly
+DESCRIPTION:Emmy-winning co-host of The Talk on CBS doing stand-up in a roo
+ m small enough to hear her breathe. Check Zanies for the full run and show
+ times.\nDetails and tickets: https://nashvillelife.com/Sheryl-Underwood/Na
+ shville-Calendar\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Sheryl-Underwood/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

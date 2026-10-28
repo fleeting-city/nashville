@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_haunting_at_one_more_cocktail_club-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T003000Z
+DTEND:20261031T023000Z
+SUMMARY:Fleeting: The Fright Crawl\, Friday (one night)
+LOCATION:The Haunting at One More Cocktail Club
+DESCRIPTION:The Friday-night run of the same crawl\, for anyone who wants t
+ o get the costume out of the way before Saturday. $8.\nDetails and tickets
+ : https://allevents.in/nashville/the-fright-crawl-nashville-halloween-bar-
+ crawl-2026-fri-oct-30/100001998619425503\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://allevents.in/nashville/the-fright-crawl-nashville-halloween-bar
+ -crawl-2026-fri-oct-30/100001998619425503
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

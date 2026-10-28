@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:jw_marriott_nashville-20261102@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Fleeting: JW Marriott's Whiskey Wonderland (one night)
+LOCATION:JW Marriott Nashville\, SoBro
+DESCRIPTION:A whiskey-themed holiday pop-up from the hotel. The listing giv
+ es no price or closing date\, so confirm both before going.\nDetails and t
+ ickets: https://nashvilleguru.com/businesses/jw-marriotts-whiskey-wonderla
+ nd\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/jw-marriotts-whiskey-wonderland
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

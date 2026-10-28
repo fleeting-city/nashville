@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_trimble-20261107@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261108T020000Z
+DTEND:20261108T040000Z
+SUMMARY:Fleeting: The Nashville Pancakes & Booze Art Show (one night)
+LOCATION:The Trimble
+DESCRIPTION:A one-night art show with a pancakes and booze angle. Tickets a
+ re $19.\nDetails and tickets: https://allevents.in/nashville/the-nashville
+ -pancakes-and-booze-art-show/100001992844266848\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://allevents.in/nashville/the-nashville-pancakes-and-booze-art-sho
+ w/100001992844266848
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

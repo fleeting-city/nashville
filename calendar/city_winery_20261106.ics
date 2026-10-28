@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261107T000000Z
+DTEND:20261107T020000Z
+SUMMARY:Fleeting: The Music of Hey Arnold! Live! (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:Composer Jim Lang and the PS 118 AllStars play the cartoon's ja
+ zz soundtrack\, with series creator Craig Bartlett as special guest. Two s
+ hows that night.\nDetails and tickets: https://nashvillego.com/calendar\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

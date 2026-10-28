@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:studio_tenn-20261103@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Last day: The Addams Family Musical
+LOCATION:Studio Tenn\, Franklin
+DESCRIPTION:Studio Tenn's stage take on the creepy\, kooky family\, running
+  evenings in Franklin and a fitting pick for the last week of October. The
+  calendar lists dates through Nov 3.\nDetails and tickets: https://visitfr
+ anklin.com/events/studio-tenn-the-addams-family-musical/2026-10-08/\nWindo
+ ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
+ shville what-closes-first list.
+URL:https://visitfranklin.com/events/studio-tenn-the-addams-family-musical/
+ 2026-10-08/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fleeting: Pikmin Bloom Nashville Mini Walk (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:A free\, open-to-all Halloween pop-up walk for Pikmin Bloom pla
+ yers\, run in collaboration with local festivals. Bring a charged phone.\n
+ Details and tickets: https://nashvillelife.com/Pikmin-Bloom-Nashville-MINI
+ -WALK-Halloween-Pop/Nashville-Calendar\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillelife.com/Pikmin-Bloom-Nashville-MINI-WALK-Halloween-Po
+ p/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

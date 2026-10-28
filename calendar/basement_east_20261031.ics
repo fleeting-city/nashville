@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:basement_east-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T163000Z
+DTEND:20261031T183000Z
+SUMMARY:Fleeting: Rock & Roll Playhouse: Halloween Spectacular for Kids (on
+ e night)
+LOCATION:Basement East\, East Nashville
+DESCRIPTION:A daytime Halloween show for kids at Basement East.\nDetails an
+ d tickets: https://nashvillego.com/calendar\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

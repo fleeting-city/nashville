@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_estate_gardens-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Cheekwood Harvest
+LOCATION:Cheekwood Estate & Gardens\, Bellevue
+DESCRIPTION:Six-week fall festival at the 55-acre garden\, with the new Mar
+ igold River\, 100\,000 pumpkins and carving demos by Master Carver Lundy C
+ upp. Thursday's Bootanical Bash adds a costume contest and dance party aft
+ er dark.\nDetails and tickets: https://nashvillelife.com/Cheekwood-Harvest
+ /Nashville-Calendar-0\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Cheekwood-Harvest/Nashville-Calendar-0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

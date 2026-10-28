@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261107@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Fleeting: Panel Discussion: Roger Miller's Wit\, Wisdom and Wonder 
+ (one night)
+LOCATION:Country Music Hall of Fame and Museum\, SoBro
+DESCRIPTION:Exclusive conversation about the singer-songwriter Roger Miller
+ \, hosted at the museum.\nDetails and tickets: https://nashvillelife.com/P
+ anel-Discussion-Roger-Millers-Wit-Wisdom-and-Wonder/Nashville-Calendar\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://nashvillelife.com/Panel-Discussion-Roger-Millers-Wit-Wisdom-and
+ -Wonder/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:walk_of_fame_park-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261029T123000Z
+DTEND:20261029T143000Z
+SUMMARY:Fleeting: Spooky Hunt: Nashville Riverfront Ghost Mystery Quest (on
+ e night)
+LOCATION:Walk Of Fame Park\, SoBro
+DESCRIPTION:A ghost-themed mystery quest along the Nashville riverfront\, p
+ riced at 23 USD. A seasonal way to spend a morning walking downtown with a
+  puzzle in hand.\nDetails and tickets: https://allevents.in/nashville/spoo
+ ky-hunt-nashville-riverfront-ghost-mystery-quest-tickets/10000200103754717
+ 0\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/spooky-hunt-nashville-riverfront-ghost-m
+ ystery-quest-tickets/100002001037547170
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -7,15 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:hidden_bar-20261105@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Fleeting: Santa Baby Pop-Up at Hidden Bar (one night)
 LOCATION:Hidden Bar\, Downtown
-DESCRIPTION:Holiday pop-up at Hidden Bar opens Downtown on Nov 5\; no closi
- ng date given.\nDetails and tickets: https://nashvilleguru.com/businesses/
- santa-baby-pop-up-at-hidden-bar\nWindows drift - confirm with the venue be
- fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+DESCRIPTION:Hidden Bar goes Christmas with a Santa-themed holiday pop-up do
+ wntown. Details are thin\, but seasonal bar takeovers tend to be gone by N
+ ew Year's.\nDetails and tickets: https://nashvilleguru.com/businesses/sant
+ a-baby-pop-up-at-hidden-bar\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://nashvilleguru.com/businesses/santa-baby-pop-up-at-hidden-bar
 TRANSP:TRANSPARENT
 END:VEVENT

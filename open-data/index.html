@@ -35,7 +35,7 @@
   surface 'open-data' (EXP-0030). Reader prose keeps accents; data files are
   strict-ASCII (a portable public feed).
 -->
-  <script>  <script>
+  <script>
   /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
      context ONCE, in their own browser, so it survives navigation to the
      subscribe form. No network call, no external action. */
@@ -54,7 +54,6 @@
     localStorage.setItem(K,JSON.stringify(ft));
   }catch(e){}})();
   </script>
-</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -168,6 +167,33 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
 <!-- meta-pixel:end -->
 </head>
 <body>
+<!-- site-header:begin (managed by scripts/header_inject.py - do not hand-edit) -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter:wght@600&text=FLETINGASHV.&display=swap');
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/dm-sans-400.ttf') format('truetype')}
+.fh-bar,.fh-bar *{box-sizing:border-box}
+.fh-bar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:14px 5vw;margin:0;background:#0c0b0a;border-bottom:1px solid rgba(241,234,219,.173);position:sticky;top:0;z-index:30;font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6;color:#f1eadb;text-align:left}
+.fh-bar a{text-decoration:none}
+.fh-mark{display:flex;align-items:baseline;white-space:nowrap}
+.fh-name{font-family:'Archivo','DM Sans',sans-serif;font-weight:900;font-size:20px;line-height:1;letter-spacing:.02em;color:#f6f1e7;text-shadow:0 0 16px rgba(230,69,53,.45)}
+.fh-dot{color:#E64535}
+.fh-city{font-family:'Inter',sans-serif;font-weight:600;font-size:11px;line-height:1;letter-spacing:.22em;color:#a39c8f;margin-left:8px}
+.fh-nav{display:flex;gap:17px}
+.fh-nav a{font-size:14px;color:#d9cfbc}
+.fh-nav a:hover,.fh-join:hover{color:#e84b3f}
+.fh-join{display:flex;align-items:center;gap:12px;font-size:14px;color:#f1eadb;border-bottom:1px solid #b99656;padding:9px 0;white-space:nowrap}
+@media(max-width:1150px){.fh-bar{gap:20px}}
+@media(max-width:800px){.fh-bar{min-height:75px}.fh-nav{display:none}}
+@media(max-width:540px){.fh-bar{padding:12px 20px;min-height:72px;gap:12px}.fh-mark{flex-direction:column;align-items:flex-start;gap:4px}.fh-city{margin-left:0}.fh-join{font-size:12px;gap:7px}}
+.wrap>.top:has(>a.logo:only-child):not(:has(.plus)),.wrap>a.logo,body>nav:has(>.nav-in){display:none!important}
+</style>
+<header class="fh-bar">
+  <a class="fh-mark" href="/" aria-label="Fleeting Nashville home"><span class="fh-name">FLEETING<span class="fh-dot">.</span></span><span class="fh-city">NASHVILLE</span></a>
+  <nav class="fh-nav" aria-label="Main navigation"><a href="/#drop">The Thursday drop</a><a href="/perks.html">Perks</a><a href="/#how">A little about us</a></nav>
+  <a class="fh-join" href="/#join">Get the free newsletter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+</header>
+<!-- site-header:end -->
+
   <div class="wrap">
     <a class="back" href="/">&#8592; Fleeting HQ</a>
     <div class="top">
@@ -177,8 +203,8 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
     <div class="kicker">The open dataset</div>
     <h1>Nashville Closings<span class="dot">.</span><br>the raw feed, free to use</h1>
     <p class="lede">Every week Fleeting crawls Nashville for time-limited windows -- the dinners, pop-ups, residencies and runs that are here then gone -- and records when each one closes. This is that record, raw: the <b>canonical closing-window feed</b>, free to download, cite and embed. No analysis, no paywall, just the windows that are open right now and the date each one closes.</p>
-    <div class="headline">As of this build there are <b>93</b> open, datable Nashville windows in the feed. The next to close is <b>Emily West &amp; Friends honoring Dolly Parton</b> (closes today).</div>
-    <div class="asof">As of October 23, 2026, 11:14 UTC &middot; 93 open windows &middot; source bundle 2026-10-22</div>
+    <div class="headline">As of this build there are <b>178</b> open, datable Nashville windows in the feed. The next to close is <b>Mahjong in the Mansion</b> (1 day left).</div>
+    <div class="asof">As of October 28, 2026, 22:28 UTC &middot; 178 open windows &middot; source bundle 2026-10-29</div>
     <section class="grab">
       <div class="chead"><span class="dot"></span><h2>DOWNLOAD THE DATA</h2></div>
       <p class="csub">The whole feed, machine-readable, rebuilt every publish. Licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> -- reuse it freely, just credit <b>Data by Fleeting - Nashville</b> with a link back.</p>
@@ -200,17 +226,17 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
     <section class="chart">
       <div class="chead"><span class="dot"></span><h2>CLOSING SOONEST</h2></div>
       <p class="csub">A preview of the top 8 rows -- the full set is in the download above.</p>
-      <table class="ptable"><tbody><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://nashvilledowntown.com/event/emily-west-and-friends-honoring-dolly-parton" target="_blank" rel="noopener">Emily West &amp; Friends honoring Dolly Parton</a><span class="p-meta">3rd &amp; Lindsley &middot; special show</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://nashvilledowntown.com/event/the-iron-maidens" target="_blank" rel="noopener">The Iron Maidens</a><span class="p-meta">Brooklyn Bowl Nashville &middot; concert</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://nashvilledowntown.com/event/machine-girl" target="_blank" rel="noopener">Machine Girl</a><span class="p-meta">Brooklyn Bowl Nashville &middot; concert</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://downtownfranklintn.com/event/women-in-harmony/" target="_blank" rel="noopener">Women in Harmony</a><span class="p-meta">Downtown Franklin &middot; concert</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://nashvilledowntown.com/event/run-nash-expo" target="_blank" rel="noopener">Run Nash Expo</a><span class="p-meta">First Horizon Park &middot; festival</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://nashvilleguru.com/businesses/la-matera" target="_blank" rel="noopener">La Matera</a><span class="p-meta">La Matera &middot; opening</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://patch.com/tennessee/nashville/calendar/event/20261023/e260249f-f571-41b0-8207-b810fb799c62/dj-shadow-celebrates-30-years-of-endtroducing" target="_blank" rel="noopener">DJ Shadow Celebrates 30 Years of Endtroducing</a><span class="p-meta">Marathon Music Works &middot; event</span></td><td class="p-date">Oct 23</td></tr><tr><td class="p-days">closes today</td><td class="p-title"><a href="https://www.eventbrite.com/e/handmade-pasta-making-class-with-chef-taylor-mary-louises-social-club-tickets-1991480001293?aff=ebdssbdestsearch" target="_blank" rel="noopener">Handmade Pasta Making Class with Chef Taylor</a><span class="p-meta">Mary Louise&#x27;s Social Club &middot; class</span></td><td class="p-date">Oct 23</td></tr></tbody></table>
+      <table class="ptable"><tbody><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://nashvillelife.com/Mahjong-Mansion-Fundraiser/Nashville-Calendar" target="_blank" rel="noopener">Mahjong in the Mansion</a><span class="p-meta">Belmont Mansion &middot; event</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://nashvilledowntown.com/event/nashville-predators-vs-washington-capitals-golden-hall-induction" target="_blank" rel="noopener">Nashville Predators vs Washington Capitals - Golden Hall Induction</a><span class="p-meta">Bridgestone Arena &middot; event</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://www.nashvilleparent.com/calendar" target="_blank" rel="noopener">Candlelight: The Best of Hans Zimmer</a><span class="p-meta">Candlelight concert &middot; event</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://nashvillelife.com/Harvest-NIGHTS-Bootanical-Bash/Nashville-Calendar" target="_blank" rel="noopener">Harvest NIGHTS: Bootanical Bash</a><span class="p-meta">Cheekwood Estate &amp; Gardens &middot; event</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://downtownfranklintn.com/event/fear-fest-nope-2022/" target="_blank" rel="noopener">FEAR FEST! Nope (2022)</a><span class="p-meta">Downtown Franklin &middot; special event</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://whatnow.com/nashville/restaurants/soundproof-to-open-at-nashville-yards-bringing-a-new-speakeasy-experience-to-music-city/" target="_blank" rel="noopener">Soundproof</a><span class="p-meta">Hooky Entertainment &middot; opening</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://allevents.in/nashville/jenis-ice-cream-x-proverbs-community-event/200030887293349" target="_blank" rel="noopener">Jeni&#x27;s Ice Cream x Proverbs Community Event</a><span class="p-meta">Jeni&#x27;s Splendid Ice Creams (12 South) &middot; popup</span></td><td class="p-date">Oct 29</td></tr><tr><td class="p-days">1 day left</td><td class="p-title"><a href="https://nashvilledowntown.com/event/good-spirits-bad-intentions" target="_blank" rel="noopener">Good Spirits, Bad Intentions</a><span class="p-meta">Riverfront Park &middot; one-off</span></td><td class="p-date">Oct 29</td></tr></tbody></table>
     </section>
     <section class="method">
       <h2>How this is built</h2>
-      <p>The source is Fleeting's own weekly discovery crawl -- the whole board for the newest run (bundle <b>2026-10-22</b>), not a hand-picked subset. A row is published only when the listing is one we could verify, carries a <b>real, parseable closing date</b>, and has not already closed; a window with a vague "end of summer" and no datable close is left out rather than guessed. <b>closes</b> is the last day to catch a run or the date of a one-off; <b>days_left</b> is counted from the build date. Of 155 board items this run, 93 met that bar (1 undated, 55 unverified, 6 already closed were dropped). Every field is the source listing's own; nothing is invented. The machine-readable <code>as_of</code> timestamp in the JSON says exactly how fresh the feed is. This is a sample of the curated time-limited windows Fleeting tracks, not a census of everything in Nashville.</p>
+      <p>The source is Fleeting's own weekly discovery crawl -- the whole board for the newest run (bundle <b>2026-10-29</b>), not a hand-picked subset. A row is published only when the listing is one we could verify, carries a <b>real, parseable closing date</b>, and has not already closed; a window with a vague "end of summer" and no datable close is left out rather than guessed. <b>closes</b> is the last day to catch a run or the date of a one-off; <b>days_left</b> is counted from the build date. Of 203 board items this run, 178 met that bar (1 undated, 24 unverified, 0 already closed were dropped). Every field is the source listing's own; nothing is invented. The machine-readable <code>as_of</code> timestamp in the JSON says exactly how fresh the feed is. This is a sample of the curated time-limited windows Fleeting tracks, not a census of everything in Nashville.</p>
     </section>
     <section class="cta">
       <p><b>Most of these close within days.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville windows in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
       <a class="btn" href="/?utm_source=open-data&amp;utm_medium=data&amp;utm_campaign=exp-0099#subscribe">Get the Thursday list, free &#8594;</a>
     </section>
-    <p class="foot">Want the cuts instead of the raw feed? <a href="/half-life/">the window half-life</a>, <a href="/recurring/">what keeps coming back</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 23, 2026.</p>
+    <p class="foot">Want the cuts instead of the raw feed? <a href="/half-life/">the window half-life</a>, <a href="/recurring/">what keeps coming back</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 28, 2026.</p>
   </div>
 </body>
 </html>

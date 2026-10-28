@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:rudy_s_jazz_room-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T223000Z
+DTEND:20261101T003000Z
+SUMMARY:Fleeting: Stephanie Adlington: The Witching Hour (one night)
+LOCATION:Rudy's Jazz Room\, The Gulch
+DESCRIPTION:A Halloween-evening jazz set billed as the Witching Hour. Early
+  slot\, so you can still make a later party.\nDetails and tickets: https:/
+ /nashvilledowntown.com/event/stephanie-adlington-the-witching-hour\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://nashvilledowntown.com/event/stephanie-adlington-the-witching-ho
+ ur
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:riverside_revival-20261104@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261105T001000Z
+DTEND:20261105T021000Z
+SUMMARY:Fleeting: ESN Songwriters Round (one night)
+LOCATION:Riverside Revival\, Inglewood
+DESCRIPTION:A songwriters round featuring Ketch Secor\, Drew Holcomb\, Elli
+ e Holcomb\, Henry Paul\, Andy Ripp\, Hannah & Chris Meyers and Joey Bradsh
+ aw.\nDetails and tickets: https://nashvillego.com/calendar\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

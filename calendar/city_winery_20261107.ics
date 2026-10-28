@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261107@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261107T180000Z
+DTEND:20261107T200000Z
+SUMMARY:Fleeting: Spellbinder: Magic & Hip Hop Theater Brunch (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:A midday show pairing magic with hip hop theater\, served as a 
+ brunch.\nDetails and tickets: https://nashvillego.com/calendar\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

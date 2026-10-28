@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Fleeting: Broadway Rave (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:A dance night aimed at musical theatre nerds\, drama geeks\, ac
+ tors and theatre lovers.\nDetails and tickets: https://nashvillelife.com/B
+ roadway-Rave/Nashville-Calendar\nWindows drift - confirm with the venue be
+ fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Broadway-Rave/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

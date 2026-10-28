@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:perenn_grocery-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Fleeting: Perenn Grocery (one night)
+LOCATION:Perenn Grocery\, Wedgewood-Houston
+DESCRIPTION:Listed under eat and drink\, opening this week in Wedgewood-Hou
+ ston. Details are thin\, so treat the first weekend as a scouting trip.\nD
+ etails and tickets: https://nashvilleguru.com/businesses/perenn-grocery\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/perenn-grocery
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

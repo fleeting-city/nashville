@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_hampton_social-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T000000Z
+DTEND:20261101T020000Z
+SUMMARY:Fleeting: Haunting at The Hamptons Rooftop Party (one night)
+LOCATION:The Hampton Social\, SoBro
+DESCRIPTION:Halloween rooftop party with a free listing\, which is rare for
+  the night. Worth getting there early.\nDetails and tickets: https://allev
+ ents.in/nashville/haunting-at-the-hamptons-halloween-rooftop-party/1000019
+ 98967973018\nWindows drift - confirm with the venue before you go.\nFleeti
+ ng - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/haunting-at-the-hamptons-halloween-rooft
+ op-party/100001998967973018
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

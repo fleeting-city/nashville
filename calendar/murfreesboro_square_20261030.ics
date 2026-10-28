@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:murfreesboro_square-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T220000Z
+DTEND:20261031T000000Z
+SUMMARY:Fleeting: Trick or Treat on the Murfreesboro Square (one night)
+LOCATION:Murfreesboro Square\, Murfreesboro
+DESCRIPTION:A two-hour Friday afternoon trick-or-treat loop around the Murf
+ reesboro square\, timed for after school.\nDetails and tickets: https://ww
+ w.nashvilleparent.com/calendar\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

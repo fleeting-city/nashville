@@ -1,7 +1,7 @@
 {
   "dataset": "Fleeting - Set a Watch (Nashville closing-watchlist feed)",
   "experiment": "EXP-0130",
-  "as_of": "2026-10-27T12:41:03+00:00",
+  "as_of": "2026-10-28T22:28:44+00:00",
   "recent_closed_days": 30,
   "methodology": "Each spot is a time-limited Nashville window the Fleeting crawl tracks, with a real, parseable close date. A spot stays listed while it is open and for 30 days after it closes, so a saved watch for a just-closed spot still resolves honestly; undated/prose timing is never promoted to a date and is not listed. 'days_left' and 'status' are counted from the as_of date; a reader's page recomputes them against the reader's own clock when opened. This is a PULL status feed, not a notification channel: nothing here is ever sent.",
   "status_values": {
@@ -11,17 +11,17 @@
     "just_closed": "closed within the last 14 days",
     "closed": "closed"
   },
-  "count": 152,
+  "count": 189,
   "spots": [
     {
-      "slug": "dead_hearts_club_tempo_after_dark",
-      "id": "wl_20261022_lovelorn_lounge_restaurant_bar",
-      "name": "Dead Hearts Club: Tempo After Dark",
-      "what": "Pop-up at Lovelorn Lounge Restaurant & Bar",
-      "venue": "Lovelorn Lounge Restaurant & Bar",
-      "neighborhood": "",
-      "category": "Pop-up",
-      "closes": "2026-10-27",
+      "slug": "jw_marriott_nashville_and_888_kiichi_s_korner",
+      "id": "wl_20261029_jw_marriott_nashville_888",
+      "name": "JW Marriott Nashville and 888 - Kiichi's Korner",
+      "what": "Event at JW Marriott Nashville | 888 in Downtown",
+      "venue": "JW Marriott Nashville | 888",
+      "neighborhood": "Downtown",
+      "category": "Event",
+      "closes": "2026-10-28",
       "days_left": 0,
       "status": "closing_today",
       "url": "https://nashvilledowntown.com/do"
@@ -35,9 +35,35 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-28",
+      "days_left": 0,
+      "status": "closing_today",
+      "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "trick_or_treat_trail",
+      "id": "wl_20261029_the_factory",
+      "name": "Trick-or-Treat Trail",
+      "what": "Event at The Factory in Franklin",
+      "venue": "The Factory",
+      "neighborhood": "Franklin",
+      "category": "Event",
+      "closes": "2026-10-28",
+      "days_left": 0,
+      "status": "closing_today",
+      "url": "https://www.downtownfranklintn.com/events"
+    },
+    {
+      "slug": "candlelight_the_best_of_hans_zimmer",
+      "id": "wl_20261029_candlelight_concert",
+      "name": "Candlelight: The Best of Hans Zimmer",
+      "what": "Event at Candlelight concert",
+      "venue": "Candlelight concert",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-29",
       "days_left": 1,
       "status": "closing_soon",
-      "url": "https://allevents.in/nashville"
+      "url": "https://www.nashvilleparent.com/calendar"
     },
     {
       "slug": "harvest_nights_bootanical_bash",
@@ -48,9 +74,61 @@
       "neighborhood": "Bellevue",
       "category": "Seasonal",
       "closes": "2026-10-29",
-      "days_left": 2,
+      "days_left": 1,
       "status": "closing_soon",
       "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "jeni_s_ice_cream_x_proverbs_community_event",
+      "id": "wl_20261029_jeni_s_splendid_ice_creams_12_south",
+      "name": "Jeni's Ice Cream x Proverbs Community Event",
+      "what": "Pop-up at Jeni's Splendid Ice Creams (12 South) in 12 South",
+      "venue": "Jeni's Splendid Ice Creams (12 South)",
+      "neighborhood": "12 South",
+      "category": "Pop-up",
+      "closes": "2026-10-29",
+      "days_left": 1,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "mahjong_in_the_mansion",
+      "id": "wl_20261029_belmont_mansion",
+      "name": "Mahjong in the Mansion",
+      "what": "Event at Belmont Mansion in Belmont",
+      "venue": "Belmont Mansion",
+      "neighborhood": "Belmont",
+      "category": "Event",
+      "closes": "2026-10-29",
+      "days_left": 1,
+      "status": "closing_soon",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
+    },
+    {
+      "slug": "castle_of_villains",
+      "id": "wl_20261029_castle_of_villains",
+      "name": "Castle of Villains",
+      "what": "Event",
+      "venue": "Castle of Villains",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
+    },
+    {
+      "slug": "champagne_and_caviar",
+      "id": "wl_20261029_blue_aster",
+      "name": "Champagne and Caviar",
+      "what": "Event at Blue Aster",
+      "venue": "Blue Aster",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
     {
       "slug": "game_terminal_halloween_party_2026",
@@ -61,9 +139,22 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-30",
-      "days_left": 3,
+      "days_left": 2,
       "status": "closing_soon",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
+    },
+    {
+      "slug": "halloween_speakeasy_masquerade_ball",
+      "id": "wl_20261029_oaklands_mansion",
+      "name": "Halloween Speakeasy & Masquerade Ball",
+      "what": "Event at Oaklands Mansion",
+      "venue": "Oaklands Mansion",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
     },
     {
       "slug": "l27_rooftop_nashville_halloween_eve_masquerade_party",
@@ -74,7 +165,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-30",
-      "days_left": 3,
+      "days_left": 2,
       "status": "closing_soon",
       "url": "https://allevents.in/nashville"
     },
@@ -87,9 +178,87 @@
       "neighborhood": "Nashville Yards",
       "category": "Event",
       "closes": "2026-10-30",
-      "days_left": 3,
+      "days_left": 2,
       "status": "closing_soon",
       "url": "https://do615.com/events"
+    },
+    {
+      "slug": "nashville_halloween_bar_crawl_friday",
+      "id": "wl_20261029_live_oak",
+      "name": "Nashville Halloween Bar Crawl (Friday)",
+      "what": "Event at Live Oak",
+      "venue": "Live Oak",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "nashville_official_halloween_bar_crawl_2026",
+      "id": "wl_20261029_midtown_nashville",
+      "name": "Nashville Official Halloween Bar Crawl 2026",
+      "what": "Event at Midtown Nashville in Midtown",
+      "venue": "Midtown Nashville",
+      "neighborhood": "Midtown",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
+    },
+    {
+      "slug": "night_of_trick_or_treating_on_the_gallatin_square",
+      "id": "wl_20261029_gallatin_square",
+      "name": "Night of Trick or Treating on the Gallatin Square",
+      "what": "Event at Gallatin Square in Gallatin",
+      "venue": "Gallatin Square",
+      "neighborhood": "Gallatin",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
+    },
+    {
+      "slug": "the_fright_crawl_friday",
+      "id": "wl_20261029_the_haunting_at_one_more_cocktail_club",
+      "name": "The Fright Crawl, Friday",
+      "what": "Event at The Haunting at One More Cocktail Club",
+      "venue": "The Haunting at One More Cocktail Club",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "trick_or_treat_on_the_murfreesboro_square",
+      "id": "wl_20261029_murfreesboro_square",
+      "name": "Trick or Treat on the Murfreesboro Square",
+      "what": "Event at Murfreesboro Square in Murfreesboro",
+      "venue": "Murfreesboro Square",
+      "neighborhood": "Murfreesboro",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
+    },
+    {
+      "slug": "west_park_after_dark",
+      "id": "wl_20261029_west_park",
+      "name": "West Park After Dark",
+      "what": "Event at West Park",
+      "venue": "West Park",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-30",
+      "days_left": 2,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
     },
     {
       "slug": "a_wicked_affair_presented_by_asenath_3_x_shinar_lodge_2",
@@ -100,9 +269,22 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
+    },
+    {
+      "slug": "all_hallows_east",
+      "id": "wl_20261029_110_s_11th_st",
+      "name": "All Hallows East",
+      "what": "Event at 110 S 11th St in East Nashville",
+      "venue": "110 S 11th St",
+      "neighborhood": "East Nashville",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
     },
     {
       "slug": "azure_presents_halloween_at_harriet_s_rooftop_1_hotel_nashville",
@@ -113,9 +295,22 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "baby_goat_cuddling",
+      "id": "wl_20261029_baby_goat_cuddling",
+      "name": "Baby Goat Cuddling",
+      "what": "Event",
+      "venue": "Baby Goat Cuddling",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
     },
     {
       "slug": "bar_mar_and_henrietta_red_seafood_dining_collaboration",
@@ -126,7 +321,7 @@
       "neighborhood": "",
       "category": "Limited-time",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://nashvillelifestyles.com/nashville-calendar"
     },
@@ -139,7 +334,7 @@
       "neighborhood": "",
       "category": "Pop-up",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://nashvillelifestyles.com/nashville-calendar"
     },
@@ -152,7 +347,7 @@
       "neighborhood": "Broadway",
       "category": "Event",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://bucketlisters.com/explore/city/NSH"
     },
@@ -165,9 +360,35 @@
       "neighborhood": "",
       "category": "Seasonal",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://do615.com/events"
+    },
+    {
+      "slug": "community_fall_festival",
+      "id": "wl_20261029_patterson_park",
+      "name": "Community Fall Festival",
+      "what": "Event at Patterson Park",
+      "venue": "Patterson Park",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
+    },
+    {
+      "slug": "deadlands_haunted_house",
+      "id": "wl_20261029_dead_land_haunted_woods",
+      "name": "Deadlands Haunted House",
+      "what": "Event at Dead Land Haunted Woods",
+      "venue": "Dead Land Haunted Woods",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
     {
       "slug": "devil_s_dungeon_haunted_house",
@@ -178,9 +399,35 @@
       "neighborhood": "",
       "category": "Seasonal",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
+    },
+    {
+      "slug": "fall_harvest_festival",
+      "id": "wl_20261029_lucky_ladd_farms",
+      "name": "Fall Harvest Festival",
+      "what": "Event at Lucky Ladd Farms",
+      "venue": "Lucky Ladd Farms",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
+    },
+    {
+      "slug": "frankenstein_s_mad_scientist_cocktail_lab",
+      "id": "wl_20261029_nashville_cocktail_lab",
+      "name": "Frankenstein's Mad Scientist Cocktail Lab",
+      "what": "Event at Nashville cocktail lab",
+      "venue": "Nashville cocktail lab",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://bucketlisters.com/explore/city/NSH"
     },
     {
       "slug": "frankenstein_s_mad_scientist_cocktail_lab_nashville",
@@ -191,9 +438,35 @@
       "neighborhood": "",
       "category": "Pop-up",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://bucketlisters.com/explore/city/NSH"
+    },
+    {
+      "slug": "halloween_at_kings_franklin",
+      "id": "wl_20261029_kings_franklin",
+      "name": "Halloween at Kings Franklin",
+      "what": "Event at Kings Franklin in Franklin",
+      "venue": "Kings Franklin",
+      "neighborhood": "Franklin",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
+    },
+    {
+      "slug": "legacy_harvest_festival",
+      "id": "wl_20261029_1000_33rd_ave_n",
+      "name": "Legacy Harvest Festival",
+      "what": "Event at 1000 33rd Ave. N in Hadley Park",
+      "venue": "1000 33rd Ave. N",
+      "neighborhood": "Hadley Park",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
     },
     {
       "slug": "lotz_house_ghost_tours",
@@ -204,9 +477,48 @@
       "neighborhood": "Franklin",
       "category": "Event",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://williamsonsource.com/events/"
+    },
+    {
+      "slug": "martha_my_fear_2026",
+      "id": "wl_20261029_martha_my_dear",
+      "name": "Martha My Fear 2026",
+      "what": "Event at Martha My Dear in East Hill",
+      "venue": "Martha My Dear",
+      "neighborhood": "East Hill",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
+    },
+    {
+      "slug": "murder_mystery_masquerade",
+      "id": "wl_20261029_thistle_and_rye",
+      "name": "Murder Mystery Masquerade",
+      "what": "Event at Thistle and Rye",
+      "venue": "Thistle and Rye",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
+    },
+    {
+      "slug": "nashville_card_show",
+      "id": "wl_20261029_nashville_card_show",
+      "name": "Nashville Card Show",
+      "what": "Limited-time",
+      "venue": "Nashville Card Show",
+      "neighborhood": "",
+      "category": "Limited-time",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://www.nashvilleparent.com/calendar"
     },
     {
       "slug": "nation_s_drink_or_treat",
@@ -217,7 +529,7 @@
       "neighborhood": "The Nations",
       "category": "Event",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -230,9 +542,22 @@
       "neighborhood": "",
       "category": "Seasonal",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
+    },
+    {
+      "slug": "the_halloween_brunch_experience",
+      "id": "wl_20261029_federales_tacos_tequila_nashville",
+      "name": "The Halloween Brunch Experience",
+      "what": "Event at Federales Tacos & Tequila - Nashville",
+      "venue": "Federales Tacos & Tequila - Nashville",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-31",
+      "days_left": 3,
+      "status": "closing_soon",
+      "url": "https://nashvilledowntown.com/do"
     },
     {
       "slug": "the_mummy_pop_up_bar",
@@ -243,7 +568,7 @@
       "neighborhood": "",
       "category": "Pop-up",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://do615.com/events"
     },
@@ -256,9 +581,48 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-31",
-      "days_left": 4,
+      "days_left": 3,
       "status": "closing_soon",
       "url": "https://feverup.com/en/nashville"
+    },
+    {
+      "slug": "coffee_cookies_with_luke_danes",
+      "id": "wl_20261029_prickly_pear_coffee_co",
+      "name": "Coffee + Cookies with Luke Danes",
+      "what": "Pop-up at Prickly Pear Coffee Co. in Downtown",
+      "venue": "Prickly Pear Coffee Co.",
+      "neighborhood": "Downtown",
+      "category": "Pop-up",
+      "closes": "2026-11-01",
+      "days_left": 4,
+      "status": "closing_soon",
+      "url": "https://nashvilledowntown.com/do"
+    },
+    {
+      "slug": "hallelujah_harvest_festival",
+      "id": "wl_20261029_2510_albion_st",
+      "name": "Hallelujah Harvest Festival",
+      "what": "Event at 2510 Albion St in Hadley",
+      "venue": "2510 Albion St",
+      "neighborhood": "Hadley",
+      "category": "Event",
+      "closes": "2026-11-01",
+      "days_left": 4,
+      "status": "closing_soon",
+      "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "halloween_party_at_urban_cowboy_bar",
+      "id": "wl_20261029_urban_cowboy_bar",
+      "name": "Halloween Party at Urban Cowboy Bar",
+      "what": "Event at Urban Cowboy Bar",
+      "venue": "Urban Cowboy Bar",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-01",
+      "days_left": 4,
+      "status": "closing_soon",
+      "url": "https://nashvilledowntown.com/do"
     },
     {
       "slug": "honeysuckle_fall_festival",
@@ -269,7 +633,7 @@
       "neighborhood": "",
       "category": "Seasonal",
       "closes": "2026-11-01",
-      "days_left": 5,
+      "days_left": 4,
       "status": "closing_soon",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -282,9 +646,61 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-11-01",
-      "days_left": 5,
+      "days_left": 4,
       "status": "closing_soon",
       "url": "https://do615.com/events"
+    },
+    {
+      "slug": "tennessee_dead",
+      "id": "wl_20261029_acme_feed_and_seed",
+      "name": "Tennessee Dead",
+      "what": "Event at Acme Feed and Seed in Downtown",
+      "venue": "Acme Feed and Seed",
+      "neighborhood": "Downtown",
+      "category": "Event",
+      "closes": "2026-11-01",
+      "days_left": 4,
+      "status": "closing_soon",
+      "url": "https://nashvilledowntown.com/do"
+    },
+    {
+      "slug": "steve_lacy_oh_yeah_tour",
+      "id": "wl_20261029_metro_nashville_municipal_auditorium",
+      "name": "Steve Lacy - Oh Yeah? Tour",
+      "what": "Event at Metro Nashville Municipal Auditorium",
+      "venue": "Metro Nashville Municipal Auditorium",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-03",
+      "days_left": 6,
+      "status": "closing_soon",
+      "url": "https://nashvilledowntown.com/do"
+    },
+    {
+      "slug": "birdie_s_wine_wednesday_oyster_edition",
+      "id": "wl_20261029_birdie_s",
+      "name": "Birdie's Wine Wednesday: Oyster Edition",
+      "what": "Event at Birdie's",
+      "venue": "Birdie's",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-04",
+      "days_left": 7,
+      "status": "closing_soon",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
+    },
+    {
+      "slug": "esn_songwriters_round",
+      "id": "wl_20261029_riverside_revival",
+      "name": "ESN Songwriters Round",
+      "what": "Event at Riverside Revival in Inglewood",
+      "venue": "Riverside Revival",
+      "neighborhood": "Inglewood",
+      "category": "Event",
+      "closes": "2026-11-04",
+      "days_left": 7,
+      "status": "closing_soon",
+      "url": "https://nashvillego.com/calendar"
     },
     {
       "slug": "del_frisco_s_grille_nashville_joe_wagner_wine_dinner",
@@ -295,9 +711,35 @@
       "neighborhood": "Music Row",
       "category": "Event",
       "closes": "2026-11-05",
-      "days_left": 9,
+      "days_left": 8,
       "status": "on_watch",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
+    },
+    {
+      "slug": "joe_wagner_wine_dinner",
+      "id": "wl_20261029_del_frisco_s_grille_brentwood",
+      "name": "Joe Wagner Wine Dinner",
+      "what": "Event at Del Frisco's Grille Brentwood in Brentwood",
+      "venue": "Del Frisco's Grille Brentwood",
+      "neighborhood": "Brentwood",
+      "category": "Event",
+      "closes": "2026-11-05",
+      "days_left": 8,
+      "status": "on_watch",
+      "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
+    },
+    {
+      "slug": "off_the_record_part_ii",
+      "id": "wl_20261029_the_cowan",
+      "name": "Off The Record: Part II",
+      "what": "Event at The Cowan",
+      "venue": "The Cowan",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-06",
+      "days_left": 9,
+      "status": "on_watch",
+      "url": "https://allevents.in/nashville"
     },
     {
       "slug": "2026_fall_farm_dinner",
@@ -308,9 +750,48 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-11-07",
-      "days_left": 11,
+      "days_left": 10,
       "status": "on_watch",
       "url": "https://ediblenashville.ediblecommunities.com"
+    },
+    {
+      "slug": "the_nashville_pancakes_booze_art_show",
+      "id": "wl_20261029_the_trimble",
+      "name": "The Nashville Pancakes & Booze Art Show",
+      "what": "Event at The Trimble",
+      "venue": "The Trimble",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-07",
+      "days_left": 10,
+      "status": "on_watch",
+      "url": "https://allevents.in/nashville"
+    },
+    {
+      "slug": "kosher_nashville_hot_chicken_jewish_arts_music_festival",
+      "id": "wl_20261029_gordon_jewish_community_center",
+      "name": "Kosher Nashville Hot Chicken & Jewish Arts & Music Festival",
+      "what": "Event at Gordon Jewish Community Center",
+      "venue": "Gordon Jewish Community Center",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-08",
+      "days_left": 11,
+      "status": "on_watch",
+      "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
+    },
+    {
+      "slug": "nashville_holiday_market",
+      "id": "wl_20261029_the_nashville_fairgrounds_expo_3",
+      "name": "Nashville Holiday Market",
+      "what": "Limited-time at The Nashville Fairgrounds, EXPO 3",
+      "venue": "The Nashville Fairgrounds, EXPO 3",
+      "neighborhood": "",
+      "category": "Limited-time",
+      "closes": "2026-11-08",
+      "days_left": 11,
+      "status": "on_watch",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
     {
       "slug": "don_t_look_ethel_a_salute_to_ray_stevens",
@@ -321,7 +802,7 @@
       "neighborhood": "Music Valley",
       "category": "Event",
       "closes": "2026-11-09",
-      "days_left": 13,
+      "days_left": 12,
       "status": "on_watch",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -334,9 +815,22 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-11-15",
-      "days_left": 19,
+      "days_left": 18,
       "status": "on_watch",
       "url": "https://www.nashvillescene.com/food_drink"
+    },
+    {
+      "slug": "friends_neighbors_shopping_night",
+      "id": "wl_20261029_belmont_mansion_gift_shop",
+      "name": "Friends & Neighbors Shopping Night",
+      "what": "Limited-time at Belmont Mansion gift shop in Belmont",
+      "venue": "Belmont Mansion gift shop",
+      "neighborhood": "Belmont",
+      "category": "Limited-time",
+      "closes": "2026-11-19",
+      "days_left": 22,
+      "status": "on_watch",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
     {
       "slug": "the_signed_edition_book_fair_nashville",
@@ -347,9 +841,22 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-11-21",
-      "days_left": 25,
+      "days_left": 24,
       "status": "on_watch",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
+    },
+    {
+      "slug": "tipsy_turkey_pub_crawl",
+      "id": "wl_20261029_printers_alley",
+      "name": "Tipsy Turkey Pub Crawl",
+      "what": "Event at Printers Alley in Printers Alley",
+      "venue": "Printers Alley",
+      "neighborhood": "Printers Alley",
+      "category": "Event",
+      "closes": "2026-11-21",
+      "days_left": 24,
+      "status": "on_watch",
+      "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
     {
       "slug": "no_small_endeavor_with_emmylou_harris",
@@ -360,9 +867,22 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-11-22",
-      "days_left": 26,
+      "days_left": 25,
       "status": "on_watch",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
+    },
+    {
+      "slug": "the_pasta_club_gnocchi_night",
+      "id": "wl_20261029_studio_154_hotel",
+      "name": "The Pasta Club: Gnocchi Night",
+      "what": "Event at Studio 154 Hotel",
+      "venue": "Studio 154 Hotel",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-11-22",
+      "days_left": 25,
+      "status": "on_watch",
+      "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
     {
       "slug": "the_jazz_room_a_journey_to_the_heart_of_new_orleans",
@@ -373,7 +893,7 @@
       "neighborhood": "West End",
       "category": "Event",
       "closes": "2026-11-28",
-      "days_left": 32,
+      "days_left": 31,
       "status": "on_watch",
       "url": "https://feverup.com/en/nashville"
     },
@@ -386,7 +906,7 @@
       "neighborhood": "West Nashville",
       "category": "Event",
       "closes": "2026-12-03",
-      "days_left": 37,
+      "days_left": 36,
       "status": "on_watch",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
     },
@@ -399,9 +919,22 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-12-31",
-      "days_left": 65,
+      "days_left": 64,
       "status": "on_watch",
       "url": "https://bucketlisters.com/explore/city/NSH"
+    },
+    {
+      "slug": "christmas_on_the_cumberland",
+      "id": "wl_20261029_clarksville",
+      "name": "Christmas on the Cumberland",
+      "what": "Seasonal at Clarksville",
+      "venue": "Clarksville",
+      "neighborhood": "",
+      "category": "Seasonal",
+      "closes": "2027-01-02",
+      "days_left": 66,
+      "status": "on_watch",
+      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
     {
       "slug": "antiques_garden_show_of_nashville",
@@ -412,7 +945,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2027-01-10",
-      "days_left": 75,
+      "days_left": 74,
       "status": "on_watch",
       "url": "https://nashvillelifestyles.com/nashville-calendar"
     },
@@ -425,7 +958,7 @@
       "neighborhood": "Nashville",
       "category": "Limited-time",
       "closes": "2027-03-31",
-      "days_left": 155,
+      "days_left": 154,
       "status": "on_watch",
       "url": "https://whatnow.com/nashville/"
     },
@@ -438,9 +971,48 @@
       "neighborhood": "Franklin",
       "category": "Event",
       "closes": "2027-04-11",
-      "days_left": 166,
+      "days_left": 165,
       "status": "on_watch",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
+    },
+    {
+      "slug": "dead_hearts_club_tempo_after_dark",
+      "id": "wl_20261022_lovelorn_lounge_restaurant_bar",
+      "name": "Dead Hearts Club: Tempo After Dark",
+      "what": "Pop-up at Lovelorn Lounge Restaurant & Bar",
+      "venue": "Lovelorn Lounge Restaurant & Bar",
+      "neighborhood": "",
+      "category": "Pop-up",
+      "closes": "2026-10-27",
+      "days_left": -1,
+      "status": "just_closed",
+      "url": "https://nashvilledowntown.com/do"
+    },
+    {
+      "slug": "justice_jam",
+      "id": "wl_20261029_cannery_hall_s_mainstage",
+      "name": "Justice Jam",
+      "what": "Event at Cannery Hall's Mainstage",
+      "venue": "Cannery Hall's Mainstage",
+      "neighborhood": "",
+      "category": "Event",
+      "closes": "2026-10-27",
+      "days_left": -1,
+      "status": "just_closed",
+      "url": "https://do615.com/events"
+    },
+    {
+      "slug": "national_sandwich_day_moved_to_oct_27",
+      "id": "wl_20261029_subway",
+      "name": "National Sandwich Day Moved to Oct. 27",
+      "what": "Limited-time at Subway",
+      "venue": "Subway",
+      "neighborhood": "",
+      "category": "Limited-time",
+      "closes": "2026-10-27",
+      "days_left": -1,
+      "status": "just_closed",
+      "url": "https://williamsonsource.com/events/"
     },
     {
       "slug": "alive_ii_a_tribute_to_kiss_ft_paul_sidoti",
@@ -451,7 +1023,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-26",
-      "days_left": -1,
+      "days_left": -2,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -464,7 +1036,7 @@
       "neighborhood": "The Gulch",
       "category": "Event",
       "closes": "2026-10-26",
-      "days_left": -1,
+      "days_left": -2,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
     },
@@ -477,7 +1049,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -490,7 +1062,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -503,7 +1075,7 @@
       "neighborhood": "Downtown",
       "category": "Pop-up",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://do615.com/events"
     },
@@ -516,7 +1088,7 @@
       "neighborhood": "North Nashville",
       "category": "Event",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -529,7 +1101,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -542,7 +1114,7 @@
       "neighborhood": "East Nashville",
       "category": "Event",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://nashvillego.com/calendar"
     },
@@ -555,7 +1127,7 @@
       "neighborhood": "Belle Meade",
       "category": "Seasonal",
       "closes": "2026-10-25",
-      "days_left": -2,
+      "days_left": -3,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -568,7 +1140,7 @@
       "neighborhood": "North Nashville",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -581,7 +1153,7 @@
       "neighborhood": "Crieve Hall",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -594,7 +1166,7 @@
       "neighborhood": "East Nashville",
       "category": "Pop-up",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
     },
@@ -607,7 +1179,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -620,7 +1192,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -633,7 +1205,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -646,7 +1218,7 @@
       "neighborhood": "North Capitol",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -659,7 +1231,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-24",
-      "days_left": -3,
+      "days_left": -4,
       "status": "just_closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -672,7 +1244,7 @@
       "neighborhood": "Broadway",
       "category": "Event",
       "closes": "2026-10-23",
-      "days_left": -4,
+      "days_left": -5,
       "status": "just_closed",
       "url": "https://feverup.com/en/nashville"
     },
@@ -685,7 +1257,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-23",
-      "days_left": -4,
+      "days_left": -5,
       "status": "just_closed",
       "url": "https://williamsonsource.com/events/"
     },
@@ -698,7 +1270,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-23",
-      "days_left": -4,
+      "days_left": -5,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -711,7 +1283,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-22",
-      "days_left": -5,
+      "days_left": -6,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -724,7 +1296,7 @@
       "neighborhood": "",
       "category": "Limited-time",
       "closes": "2026-10-22",
-      "days_left": -5,
+      "days_left": -6,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -737,7 +1309,7 @@
       "neighborhood": "The Nations",
       "category": "Event",
       "closes": "2026-10-22",
-      "days_left": -5,
+      "days_left": -6,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -750,7 +1322,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-22",
-      "days_left": -5,
+      "days_left": -6,
       "status": "just_closed",
       "url": "https://patch.com/tennessee/nashville/calendar"
     },
@@ -763,7 +1335,7 @@
       "neighborhood": "Belmont",
       "category": "Event",
       "closes": "2026-10-21",
-      "days_left": -6,
+      "days_left": -7,
       "status": "just_closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -776,7 +1348,7 @@
       "neighborhood": "Belmont University",
       "category": "Event",
       "closes": "2026-10-21",
-      "days_left": -6,
+      "days_left": -7,
       "status": "just_closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -789,7 +1361,7 @@
       "neighborhood": "Germantown And Hillsboro Village",
       "category": "Event",
       "closes": "2026-10-21",
-      "days_left": -6,
+      "days_left": -7,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -802,7 +1374,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-21",
-      "days_left": -6,
+      "days_left": -7,
       "status": "just_closed",
       "url": "https://ediblenashville.ediblecommunities.com"
     },
@@ -815,7 +1387,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-20",
-      "days_left": -7,
+      "days_left": -8,
       "status": "just_closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -828,7 +1400,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-18",
-      "days_left": -9,
+      "days_left": -10,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -841,7 +1413,7 @@
       "neighborhood": "Brentwood",
       "category": "Event",
       "closes": "2026-10-18",
-      "days_left": -9,
+      "days_left": -10,
       "status": "just_closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -854,7 +1426,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-18",
-      "days_left": -9,
+      "days_left": -10,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -867,7 +1439,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-18",
-      "days_left": -9,
+      "days_left": -10,
       "status": "just_closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -880,7 +1452,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-18",
-      "days_left": -9,
+      "days_left": -10,
       "status": "just_closed",
       "url": "https://nashvillelifestyles.com/nashville-calendar"
     },
@@ -893,7 +1465,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://do615.com/events"
     },
@@ -906,7 +1478,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -919,7 +1491,7 @@
       "neighborhood": "",
       "category": "Pop-up",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -932,7 +1504,7 @@
       "neighborhood": "Sobro",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://patch.com/tennessee/nashville/calendar"
     },
@@ -945,7 +1517,7 @@
       "neighborhood": "Madison",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -958,7 +1530,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -971,7 +1543,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -984,7 +1556,7 @@
       "neighborhood": "Sobro",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -997,7 +1569,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://patch.com/tennessee/nashville/calendar"
     },
@@ -1010,7 +1582,7 @@
       "neighborhood": "Germantown",
       "category": "Limited-time",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1023,7 +1595,7 @@
       "neighborhood": "",
       "category": "Limited-time",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://williamsonsource.com/events/"
     },
@@ -1036,7 +1608,7 @@
       "neighborhood": "Donelson",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://williamsonsource.com/events/"
     },
@@ -1049,7 +1621,7 @@
       "neighborhood": "Donelson",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -1062,7 +1634,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -1075,7 +1647,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-17",
-      "days_left": -10,
+      "days_left": -11,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1088,7 +1660,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-16",
-      "days_left": -11,
+      "days_left": -12,
       "status": "just_closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -1101,7 +1673,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-16",
-      "days_left": -11,
+      "days_left": -12,
       "status": "just_closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1114,7 +1686,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-16",
-      "days_left": -11,
+      "days_left": -12,
       "status": "just_closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1127,7 +1699,7 @@
       "neighborhood": "Ewingville",
       "category": "Pop-up",
       "closes": "2026-10-15",
-      "days_left": -12,
+      "days_left": -13,
       "status": "just_closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
     },
@@ -1140,7 +1712,7 @@
       "neighborhood": "Downtown",
       "category": "Limited-time",
       "closes": "2026-10-15",
-      "days_left": -12,
+      "days_left": -13,
       "status": "just_closed",
       "url": "https://patch.com/tennessee/nashville/calendar"
     },
@@ -1153,8 +1725,8 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-13",
-      "days_left": -14,
-      "status": "just_closed",
+      "days_left": -15,
+      "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
     {
@@ -1166,8 +1738,8 @@
       "neighborhood": "Downtown Franklin",
       "category": "Limited-time",
       "closes": "2026-10-13",
-      "days_left": -14,
-      "status": "just_closed",
+      "days_left": -15,
+      "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
     {
@@ -1179,7 +1751,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-11",
-      "days_left": -16,
+      "days_left": -17,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1192,7 +1764,7 @@
       "neighborhood": "",
       "category": "Limited-time",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1205,7 +1777,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1218,7 +1790,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1231,7 +1803,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -1244,7 +1816,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1257,7 +1829,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1270,7 +1842,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1283,7 +1855,7 @@
       "neighborhood": "Spring Hill, Tn",
       "category": "Event",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -1296,7 +1868,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Limited-time",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1309,7 +1881,7 @@
       "neighborhood": "",
       "category": "Pop-up",
       "closes": "2026-10-10",
-      "days_left": -17,
+      "days_left": -18,
       "status": "closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/pop-up/"
     },
@@ -1322,7 +1894,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -1335,7 +1907,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1348,7 +1920,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1361,7 +1933,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1374,7 +1946,7 @@
       "neighborhood": "",
       "category": "Limited-time",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -1387,7 +1959,7 @@
       "neighborhood": "The District",
       "category": "Limited-time",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -1400,7 +1972,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-09",
-      "days_left": -18,
+      "days_left": -19,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1413,7 +1985,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-08",
-      "days_left": -19,
+      "days_left": -20,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1426,7 +1998,7 @@
       "neighborhood": "The Gulch",
       "category": "Limited-time",
       "closes": "2026-10-08",
-      "days_left": -19,
+      "days_left": -20,
       "status": "closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -1439,7 +2011,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-08",
-      "days_left": -19,
+      "days_left": -20,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1452,7 +2024,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-07",
-      "days_left": -20,
+      "days_left": -21,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1465,7 +2037,7 @@
       "neighborhood": "Wedgewood-Houston",
       "category": "Limited-time",
       "closes": "2026-10-07",
-      "days_left": -20,
+      "days_left": -21,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1478,7 +2050,7 @@
       "neighborhood": "Vanderbilt",
       "category": "Event",
       "closes": "2026-10-06",
-      "days_left": -21,
+      "days_left": -22,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1491,7 +2063,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-06",
-      "days_left": -21,
+      "days_left": -22,
       "status": "closed",
       "url": "https://nashvilledowntown.com/do"
     },
@@ -1504,7 +2076,7 @@
       "neighborhood": "East Nashville",
       "category": "Event",
       "closes": "2026-10-06",
-      "days_left": -21,
+      "days_left": -22,
       "status": "closed",
       "url": "https://www.eventbrite.com/d/tn--nashville/food-and-drink/"
     },
@@ -1517,7 +2089,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-05",
-      "days_left": -22,
+      "days_left": -23,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1530,7 +2102,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-04",
-      "days_left": -23,
+      "days_left": -24,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1543,7 +2115,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-04",
-      "days_left": -23,
+      "days_left": -24,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1556,7 +2128,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-04",
-      "days_left": -23,
+      "days_left": -24,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1569,7 +2141,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-04",
-      "days_left": -23,
+      "days_left": -24,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1582,7 +2154,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-04",
-      "days_left": -23,
+      "days_left": -24,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1595,7 +2167,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-04",
-      "days_left": -23,
+      "days_left": -24,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1608,7 +2180,7 @@
       "neighborhood": "Brentwood",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://williamsonsource.com/events/"
     },
@@ -1621,7 +2193,7 @@
       "neighborhood": "Downtown Clarksville",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1634,7 +2206,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1647,7 +2219,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1660,7 +2232,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1673,7 +2245,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1686,7 +2258,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1699,7 +2271,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1712,7 +2284,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1725,7 +2297,7 @@
       "neighborhood": "Green Hills",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://allevents.in/nashville"
     },
@@ -1738,7 +2310,7 @@
       "neighborhood": "Germantown",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://patch.com/tennessee/nashville/calendar"
     },
@@ -1751,7 +2323,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-10-03",
-      "days_left": -24,
+      "days_left": -25,
       "status": "closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -1764,7 +2336,7 @@
       "neighborhood": "Downtown Franklin",
       "category": "Event",
       "closes": "2026-10-02",
-      "days_left": -25,
+      "days_left": -26,
       "status": "closed",
       "url": "https://www.downtownfranklintn.com/events"
     },
@@ -1777,7 +2349,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-10-01",
-      "days_left": -26,
+      "days_left": -27,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1790,7 +2362,7 @@
       "neighborhood": "Hillsboro Village",
       "category": "Event",
       "closes": "2026-10-01",
-      "days_left": -26,
+      "days_left": -27,
       "status": "closed",
       "url": "https://patch.com/tennessee/nashville/calendar"
     },
@@ -1803,7 +2375,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-09-30",
-      "days_left": -27,
+      "days_left": -28,
       "status": "closed",
       "url": "https://bucketlisters.com/explore/city/NSH"
     },
@@ -1816,7 +2388,7 @@
       "neighborhood": "Downtown",
       "category": "Event",
       "closes": "2026-09-30",
-      "days_left": -27,
+      "days_left": -28,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1829,7 +2401,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-09-30",
-      "days_left": -27,
+      "days_left": -28,
       "status": "closed",
       "url": "https://do615.com/events"
     },
@@ -1842,7 +2414,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-09-30",
-      "days_left": -27,
+      "days_left": -28,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1855,7 +2427,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-09-30",
-      "days_left": -27,
+      "days_left": -28,
       "status": "closed",
       "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     },
@@ -1868,7 +2440,7 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-09-30",
-      "days_left": -27,
+      "days_left": -28,
       "status": "closed",
       "url": "https://www.nashvillescene.com/food_drink"
     },
@@ -1881,7 +2453,7 @@
       "neighborhood": "Downtown",
       "category": "Limited-time",
       "closes": "2026-09-29",
-      "days_left": -28,
+      "days_left": -29,
       "status": "closed",
       "url": "https://notesonnashville.com/things-to-do/nashville-calendar"
     },
@@ -1894,100 +2466,9 @@
       "neighborhood": "",
       "category": "Event",
       "closes": "2026-09-29",
-      "days_left": -28,
+      "days_left": -29,
       "status": "closed",
       "url": "https://do615.com/events"
-    },
-    {
-      "slug": "12th_annual_japanese_moon_viewing_otsukimi",
-      "id": "wl_20260917_12th_annual_japanese_moon_viewing_otsukimi",
-      "name": "12th Annual Japanese Moon Viewing (Otsukimi)",
-      "what": "Event",
-      "venue": "",
-      "neighborhood": "",
-      "category": "Event",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
-    },
-    {
-      "slug": "coastal_hour_at_bar_mar",
-      "id": "wl_20260806_w_nashville",
-      "name": "Coastal Hour at Bar Mar",
-      "what": "Seasonal at W Nashville in Downtown",
-      "venue": "W Nashville",
-      "neighborhood": "Downtown",
-      "category": "Seasonal",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://do615.com/events"
-    },
-    {
-      "slug": "hope_wins_2026",
-      "id": "wl_20260924_hope_wins_2026",
-      "name": "Hope Wins 2026",
-      "what": "Event",
-      "venue": "",
-      "neighborhood": "",
-      "category": "Event",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://do615.com/events"
-    },
-    {
-      "slug": "japanese_moon_viewing_otsukimi",
-      "id": "wl_20260924_japanese_moon_viewing_otsukimi",
-      "name": "Japanese Moon Viewing (Otsukimi)",
-      "what": "Event",
-      "venue": "",
-      "neighborhood": "",
-      "category": "Event",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
-    },
-    {
-      "slug": "japanese_moon_viewing_otsukimi_12th_annual",
-      "id": "wl_20260917_japanese_moon_viewing_otsukimi_12th_annual",
-      "name": "Japanese Moon Viewing (Otsukimi) - 12th Annual",
-      "what": "Event",
-      "venue": "",
-      "neighborhood": "",
-      "category": "Event",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
-    },
-    {
-      "slug": "nashville_brew_fest",
-      "id": "wl_20260716_nashville_brew_fest",
-      "name": "Nashville Brew Fest",
-      "what": "Event",
-      "venue": "",
-      "neighborhood": "",
-      "category": "Event",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://bucketlisters.com/explore/city/NSH"
-    },
-    {
-      "slug": "nashville_greek_festival",
-      "id": "wl_20260917_nashville_greek_festival",
-      "name": "Nashville Greek Festival",
-      "what": "Event",
-      "venue": "",
-      "neighborhood": "",
-      "category": "Event",
-      "closes": "2026-09-27",
-      "days_left": -30,
-      "status": "closed",
-      "url": "https://nashvillelife.com/Nashville-Calendar-of-Events"
     }
   ]
 }

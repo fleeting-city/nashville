@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:martha_my_dear-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fleeting: Martha My Fear 2026 (one night)
+LOCATION:Martha My Dear\, East Hill
+DESCRIPTION:The bar's annual Halloween party\, back again with holiday-them
+ ed drink specials.\nDetails and tickets: https://nashvillelife.com/Martha-
+ My-Fear-2026-at-Martha-My-Dear/Nashville-Calendar-0\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://nashvillelife.com/Martha-My-Fear-2026-at-Martha-My-Dear/Nashvil
+ le-Calendar-0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

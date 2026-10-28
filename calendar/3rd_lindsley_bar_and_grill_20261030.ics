@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_lindsley_bar_and_grill-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T003000Z
+DTEND:20261031T023000Z
+SUMMARY:Fleeting: David Garfield: LA + NYC + Nashville (one night)
+LOCATION:3rd & Lindsley Bar and Grill
+DESCRIPTION:A one-night band with Steve Ferrone\, Ready Freddie Washington\
+ , Robbie Wyckoff\, Wendy Moten and Dann Huff.\nDetails and tickets: https:
+ //do615.com/events/2026/10/30/david-garfield-la-nyc-nashville-featuring-st
+ eve-ferrone-ready-freddie-washington-robbie-wyckoff-wendy-moten-paul-fran-
+ tickets\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/10/30/david-garfield-la-nyc-nashville-fea
+ turing-steve-ferrone-ready-freddie-washington-robbie-wyckoff-wendy-moten-p
+ aul-fran-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

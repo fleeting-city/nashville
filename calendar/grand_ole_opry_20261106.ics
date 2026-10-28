@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:grand_ole_opry-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Fleeting: Clay Walker Family Christmas Album and Opry Show (one nig
+ ht)
+LOCATION:Grand Ole Opry\, Opryland
+DESCRIPTION:Clay Walker releases a family Christmas album on Nov 6 and play
+ s the Grand Ole Opry. Early holiday material from a country regular\, with
+  the Opry as the stage.\nDetails and tickets: https://williamsonsource.com
+ /clay-walker-to-release-family-christmas-album-nov-6-and-play-grand-ole-op
+ ry/\nWindows drift - confirm with the venue before you go.\nFleeting - the
+  weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/clay-walker-to-release-family-christmas-al
+ bum-nov-6-and-play-grand-ole-opry/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

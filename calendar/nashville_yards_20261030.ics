@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_yards-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T020000Z
+DTEND:20261031T040000Z
+SUMMARY:Fleeting: Halloween at Nashville Yards (one night)
+LOCATION:Nashville Yards
+DESCRIPTION:A Friday-evening Halloween block at Nashville Yards\, running 4
+  to 9. Listed for one day only.\nDetails and tickets: https://www.nashvill
+ eparent.com/calendar\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

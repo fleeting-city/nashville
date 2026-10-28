@@ -1,14 +1,14 @@
 {
   "dataset": "Window Superlatives - Nashville's longest-running fleeting windows",
   "experiment": "EXP-0117",
-  "as_of": "2026-10-23T11:14:12+00:00",
-  "generated": "2026-10-23",
+  "as_of": "2026-10-28T22:28:45+00:00",
+  "generated": "2026-10-28",
   "source": "Fleeting weekly discovery crawl (scripts/out/<date>/candidates.json)",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Data by Fleeting - Nashville",
   "attribution_url": "https://nashville.fleeting.city/superlatives/",
-  "methodology": "A window is a distinct (title, venue) in the crawl record, deduplicated across snapshots. 'Longest running' ranks windows whose stated open AND stated close both fall inside our observation span (first snapshot 2026-06-25 to last snapshot 2026-10-22, never past the build date): a window we watched from its open to its close. Days open is counted inclusively (a one-night window is 1 day). Windows that opened before our record began, or whose close is still in the future, are excluded -- we did not watch them run. Recurring or episodic listings (more than one distinct start date -- a concert run, a monthly series, a re-staged pop-up) are excluded from the longest-running ranking: scattered occurrences are not one continuous open period, so we do not credit them the span from first night to last. They still count toward the neighborhood leaderboard. Windows carrying neither a real venue nor a neighborhood are excluded too -- a public best-of names a place you can check. The neighborhood leaderboard counts distinct windows carrying each neighborhood over the whole record. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event. No number is hand-entered; this is not an all-time list, it is the window we have so far.",
+  "methodology": "A window is a distinct (title, venue) in the crawl record, deduplicated across snapshots. 'Longest running' ranks windows whose stated open AND stated close both fall inside our observation span (first snapshot 2026-06-25 to last snapshot 2026-10-28, never past the build date): a window we watched from its open to its close. Days open is counted inclusively (a one-night window is 1 day). Windows that opened before our record began, or whose close is still in the future, are excluded -- we did not watch them run. Recurring or episodic listings (more than one distinct start date -- a concert run, a monthly series, a re-staged pop-up) are excluded from the longest-running ranking: scattered occurrences are not one continuous open period, so we do not credit them the span from first night to last. They still count toward the neighborhood leaderboard. Windows carrying neither a real venue nor a neighborhood are excluded too -- a public best-of names a place you can check. The neighborhood leaderboard counts distinct windows carrying each neighborhood over the whole record. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event. No number is hand-entered; this is not an all-time list, it is the window we have so far.",
   "provenance": {
     "snapshots": [
       "2026-06-25",
@@ -27,15 +27,16 @@
       "2026-10-01",
       "2026-10-08",
       "2026-10-15",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-29"
     ],
-    "snapshot_count": 17,
+    "snapshot_count": 18,
     "span_start": "2026-06-25",
-    "span_end": "2026-10-22",
-    "span_days": 120,
-    "windows_total": 2928,
-    "ranked_total": 1059,
-    "neighborhoods_total": 128,
+    "span_end": "2026-10-28",
+    "span_days": 126,
+    "windows_total": 3122,
+    "ranked_total": 1134,
+    "neighborhoods_total": 140,
     "median_days_open": 1.0,
     "longest_days": 62,
     "shortest_days": 1,
@@ -137,42 +138,42 @@
   "busiest_neighborhoods": [
     {
       "neighborhood": "Downtown",
-      "windows": 612,
+      "windows": 655,
       "rank": 1
     },
     {
       "neighborhood": "East Nashville",
-      "windows": 162,
+      "windows": 166,
       "rank": 2
     },
     {
       "neighborhood": "Franklin",
-      "windows": 147,
+      "windows": 153,
       "rank": 3
     },
     {
       "neighborhood": "Wedgewood-Houston",
-      "windows": 120,
+      "windows": 123,
       "rank": 4
     },
     {
-      "neighborhood": "Midtown",
-      "windows": 83,
+      "neighborhood": "SoBro",
+      "windows": 88,
       "rank": 5
     },
     {
-      "neighborhood": "Germantown",
-      "windows": 75,
+      "neighborhood": "Midtown",
+      "windows": 87,
       "rank": 6
     },
     {
-      "neighborhood": "SoBro",
-      "windows": 75,
+      "neighborhood": "Germantown",
+      "windows": 76,
       "rank": 7
     },
     {
       "neighborhood": "Downtown Franklin",
-      "windows": 59,
+      "windows": 65,
       "rank": 8
     }
   ]

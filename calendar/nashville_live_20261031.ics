@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_live-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Nightmare on 2nd Ave Halloween Cash Prize Sweepstakes
+LOCATION:Nashville Live!
+DESCRIPTION:A Halloween sweepstakes with a $1\,000 cash prize\, with noon e
+ ntries listed Thursday through Saturday. Rules are not in the text.\nDetai
+ ls and tickets: https://nashvilledowntown.com/event/nightmare-on-2nd-ave-1
+ 000-halloween-cash-prize-sweepstakes\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/nightmare-on-2nd-ave-1000-halloween
+ -cash-prize-sweepstakes
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

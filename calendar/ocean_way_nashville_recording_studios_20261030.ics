@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ocean_way_nashville_recording_studios-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T150000Z
+DTEND:20261030T170000Z
+SUMMARY:Fleeting: WAMCon Nashville 2026 (one night)
+LOCATION:Ocean Way Nashville Recording Studios
+DESCRIPTION:Women in Recording Arts conference held at Ocean Way studios\, 
+ tickets 77 USD. A rare chance to be inside a working studio for the day.\n
+ Details and tickets: https://allevents.in/nashville/wamcon-nashville-2026-
+ women-in-recording-arts-conference/100001988572419638\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://allevents.in/nashville/wamcon-nashville-2026-women-in-recording
+ -arts-conference/100001988572419638
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gordon_jewish_community_center-20261108@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261108T183000Z
+DTEND:20261108T203000Z
+SUMMARY:Fleeting: Kosher Nashville Hot Chicken & Jewish Arts & Music Festiv
+ al (one night)
+LOCATION:Gordon Jewish Community Center
+DESCRIPTION:Nashville hot chicken made kosher\, paired with Jewish arts and
+  music in a single Sunday afternoon festival.\nDetails and tickets: https:
+ //www.eventbrite.com/e/kosher-nashville-hot-chicken-jewish-arts-music-fest
+ ival-tickets-2002952757616?aff=ebdssbdestsearch\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://www.eventbrite.com/e/kosher-nashville-hot-chicken-jewish-arts-m
+ usic-festival-tickets-2002952757616?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

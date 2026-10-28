@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:l27_lounge_at_westin_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:Fleeting: Haunted L27 Halloween Night Party (one night)
+LOCATION:L27 Lounge at Westin Nashville
+DESCRIPTION:Rooftop Halloween party at a hotel lounge\, a different crowd f
+ rom the Broadway crawls. Tickets run $28.\nDetails and tickets: https://al
+ levents.in/nashville/haunted-l27-nashville-rooftop-halloween-night-party/1
+ 00002001674645749\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/haunted-l27-nashville-rooftop-halloween-
+ night-party/100002001674645749
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

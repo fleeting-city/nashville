@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_cowan-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261107T030000Z
+DTEND:20261107T050000Z
+SUMMARY:Fleeting: Off The Record: Part II (one night)
+LOCATION:The Cowan
+DESCRIPTION:Second installment of a Friday-night party\, free to get in.\nD
+ etails and tickets: https://allevents.in/nashville/off-the-record-part-ii/
+ 100002002433565699\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/off-the-record-part-ii/10000200243356569
+ 9
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

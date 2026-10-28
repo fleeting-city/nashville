@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:fogg_street_lawn_club-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T220000Z
+DTEND:20261101T000000Z
+SUMMARY:Fleeting: Dubaween Halloween Costume Party (one night)
+LOCATION:Fogg Street Lawn Club
+DESCRIPTION:Billed as Nashville's largest Halloween costume party\, held at
+  Fogg Street Lawn Club. Bring a costume with some effort behind it.\nDetai
+ ls and tickets: https://allevents.in/nashville/dubaween-nashvilles-largest
+ -halloween-costume-party/200030710115536\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://allevents.in/nashville/dubaween-nashvilles-largest-halloween-co
+ stume-party/200030710115536
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -7,18 +7,21 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:centennial_park-20261106@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART:20261106T160000Z
 DTEND:20261106T180000Z
 SUMMARY:Fleeting: Nashville Creators & Treasures Pop-Up (one night)
-LOCATION:Centennial Park\, Centennial
-DESCRIPTION:Multi-vendor pop-up at Centennial Park featuring local creators
-  and curated goods.\nDetails and tickets: https://www.eventbrite.com/e/nas
- hville-creators-treasures-pop-up-tickets-2000402254994?aff=ebdssbdestsearc
- h\nWindows drift - confirm with the venue before you go.\nFleeting - the w
- eekly Nashville what-closes-first list.
+LOCATION:Centennial Park\, Centennial Park
+DESCRIPTION:A daytime pop-up market of local creators and treasures set in 
+ the park. A Friday morning start suits anyone with a flexible schedule and
+  gift lists to chip away at.\nDetails and tickets: https://www.eventbrite.
+ com/e/nashville-creators-treasures-pop-up-tickets-2000402254994?dsrp_sid=5
+ 5bde3e4-f0b5-4089-b3a1-a662e7dbf442&dsrp_item_id=2000402254994&aff=ebdssbd
+ estsearch\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
 URL:https://www.eventbrite.com/e/nashville-creators-treasures-pop-up-ticket
- s-2000402254994?aff=ebdssbdestsearch
+ s-2000402254994?dsrp_sid=55bde3e4-f0b5-4089-b3a1-a662e7dbf442&dsrp_item_id
+ =2000402254994&aff=ebdssbdestsearch
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

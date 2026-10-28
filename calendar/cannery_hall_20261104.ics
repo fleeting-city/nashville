@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cannery_hall-20261104@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261105T023000Z
+DTEND:20261105T043000Z
+SUMMARY:Fleeting: Vituity Cares Benefit Concert: Music with a Mission (one 
+ night)
+LOCATION:Cannery Hall
+DESCRIPTION:A one-night benefit concert at Cannery Hall.\nDetails and ticke
+ ts: https://nashvillego.com/calendar\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

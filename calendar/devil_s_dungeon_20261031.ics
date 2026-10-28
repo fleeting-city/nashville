@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:devil_s_dungeon-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Devil's Dungeon Haunted House
+LOCATION:Devil's Dungeon
+DESCRIPTION:Haunted house open select dates only\, closing on Halloween.\nD
+ etails and tickets: https://nashvillelife.com/Devil%E2%80%99s-Dungeon-Haun
+ ted-House/Nashville-Calendar\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Devil%E2%80%99s-Dungeon-Haunted-House/Nashvil
+ le-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

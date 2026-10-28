@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:live_oak-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T210000Z
+DTEND:20261030T230000Z
+SUMMARY:Fleeting: Nashville Halloween Bar Crawl (Friday) (one night)
+LOCATION:Live Oak
+DESCRIPTION:A Friday afternoon Halloween bar crawl out of Live Oak. Tickets
+  are USD 17.\nDetails and tickets: https://allevents.in/nashville/nashvill
+ e-halloween-bar-crawl/100001999251238272\nWindows drift - confirm with the
+  venue before you go.\nFleeting - the weekly Nashville what-closes-first l
+ ist.
+URL:https://allevents.in/nashville/nashville-halloween-bar-crawl/1000019992
+ 51238272
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

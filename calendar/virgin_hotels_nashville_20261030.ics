@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:virgin_hotels_nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T010000Z
+DTEND:20261031T030000Z
+SUMMARY:Fleeting: The Hex Hotel | Halloween at Virgin Hotels Nashville (one
+  night)
+LOCATION:Virgin Hotels Nashville
+DESCRIPTION:A Halloween night hosted inside a hotel\, free to attend with a
+  ticket reservation. A Friday evening start puts it just ahead of the actu
+ al Halloween weekend.\nDetails and tickets: https://www.eventbrite.com/e/t
+ he-hex-hotel-halloween-at-virgin-hotels-nashville-tickets-2002174923092?ds
+ rp_sid=55bde3e4-f0b5-4089-b3a1-a662e7dbf442&dsrp_item_id=2002174923092&aff
+ =ebdssbdestsearch\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/the-hex-hotel-halloween-at-virgin-hotels-n
+ ashville-tickets-2002174923092?dsrp_sid=55bde3e4-f0b5-4089-b3a1-a662e7dbf4
+ 42&dsrp_item_id=2002174923092&aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

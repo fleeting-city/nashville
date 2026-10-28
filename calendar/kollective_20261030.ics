@@ -7,15 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:kollective-20261030@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-SUMMARY:Fleeting: Kollective Opening (one night)
+SUMMARY:Fleeting: Kollective (one night)
 LOCATION:Kollective\, Wedgewood-Houston
-DESCRIPTION:New wellness concept opening in Wedgewood-Houston Oct 30.\nDeta
- ils and tickets: https://nashvilleguru.com/businesses/kollective\nWindows 
- drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
- ille what-closes-first list.
+DESCRIPTION:Wellness opening in Wedgewood-Houston at the end of this week. 
+ The listing does not say what services it offers.\nDetails and tickets: ht
+ tps://nashvilleguru.com/businesses/kollective\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
 URL:https://nashvilleguru.com/businesses/kollective
 TRANSP:TRANSPARENT
 END:VEVENT

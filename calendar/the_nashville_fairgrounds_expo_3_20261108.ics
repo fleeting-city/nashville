@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_nashville_fairgrounds_expo_3-20261108@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Last day: Nashville Holiday Market
+LOCATION:The Nashville Fairgrounds\, EXPO 3
+DESCRIPTION:A Markets for Makers weekend\, two days of maker vendors at the
+  Fairgrounds.\nDetails and tickets: https://nashvillelife.com/Nashville-Ho
+ liday-Market/Nashville-Calendar\nWindows drift - confirm with the venue be
+ fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Nashville-Holiday-Market/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

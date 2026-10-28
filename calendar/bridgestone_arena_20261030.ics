@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T010000Z
+DTEND:20261031T030000Z
+SUMMARY:Fleeting: Zach Top Cold Beer & Country Music Tour (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:A touring country headliner at the arena for one Friday night. 
+ No price is stated.\nDetails and tickets: https://nashvilledowntown.com/ev
+ ent/zach-top-cold-beer-and-country-music-tour\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://nashvilledowntown.com/event/zach-top-cold-beer-and-country-musi
+ c-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

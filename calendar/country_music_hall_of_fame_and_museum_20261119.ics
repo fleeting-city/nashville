@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261119@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Fleeting: Maggie Sanger: Cultivar Opening Reception (one night)
+LOCATION:Country Music Hall of Fame and Museum\, Downtown
+DESCRIPTION:Opening of Cultivar\, a new solo exhibition by Nashville-born v
+ isual artist Maggie Sanger.\nDetails and tickets: https://nashvillelife.co
+ m/Maggie-Sanger-Cultivar-Opening-Reception/Nashville-Calendar\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
+URL:https://nashvillelife.com/Maggie-Sanger-Cultivar-Opening-Reception/Nash
+ ville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

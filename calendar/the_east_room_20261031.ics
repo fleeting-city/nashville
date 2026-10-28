@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_east_room-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T010000Z
+DTEND:20261101T030000Z
+SUMMARY:Fleeting: Welcome To The Black Parade Tribute Show (one night)
+LOCATION:The East Room
+DESCRIPTION:A My Chemical Romance tribute night with Hindsight Hero\, timed
+  for Halloween.\nDetails and tickets: https://nashvillego.com/calendar\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

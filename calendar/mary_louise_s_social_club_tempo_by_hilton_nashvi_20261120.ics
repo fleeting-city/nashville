@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:mary_louise_s_social_club_tempo_by_hilton_nashvi-20261120@nashville.fle
+ eting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261121T000000Z
+DTEND:20261121T020000Z
+SUMMARY:Fleeting: Handmade Pasta Making Class with Chef Taylor (one night)
+LOCATION:Mary Louise's Social Club\, Tempo by Hilton Nashville Downtown\, D
+ owntown
+DESCRIPTION:A hands-on pasta class led by Chef Taylor in a downtown hotel s
+ ocial club. A second date is listed.\nDetails and tickets: https://www.eve
+ ntbrite.com/e/handmade-pasta-making-class-with-chef-taylor-mary-louises-so
+ cial-club-tickets-1991480001293?aff=ebdssbdestsearch\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://www.eventbrite.com/e/handmade-pasta-making-class-with-chef-tayl
+ or-mary-louises-social-club-tickets-1991480001293?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T000000Z
+DTEND:20261030T020000Z
+SUMMARY:Fleeting: Nashville Predators vs Washington Capitals - Golden Hall 
+ Induction (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:A home game paired with a Golden Hall induction ceremony. The t
+ ext gives no price or details on who is being inducted.\nDetails and ticke
+ ts: https://nashvilledowntown.com/event/nashville-predators-vs-washington-
+ capitals-golden-hall-induction\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/nashville-predators-vs-washington-c
+ apitals-golden-hall-induction
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

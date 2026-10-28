@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_pinnacle-20261107@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261108T020000Z
+DTEND:20261108T040000Z
+SUMMARY:Fleeting: Red Bull Jukebox Nashville with Max McNown\, Kameron Marl
+ owe & Cassidy Daniels (one night)
+LOCATION:The Pinnacle\, Downtown
+DESCRIPTION:A one-night Red Bull-branded concert with Max McNown\, Kameron 
+ Marlowe and Cassidy Daniels.\nDetails and tickets: https://nashvillego.com
+ /calendar\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

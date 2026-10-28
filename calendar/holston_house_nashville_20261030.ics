@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:holston_house_nashville-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T020000Z
+DTEND:20261031T040000Z
+SUMMARY:Fleeting: Pet Psychic Readings (one night)
+LOCATION:Holston House Nashville\, Downtown
+DESCRIPTION:Local pet psychic and medium Kelsey Gilchriest gives compliment
+ ary readings for you and your pet with proof of purchase of a spooky cockt
+ ail or app. Your animal doesn't have to be there\, though the lobby is pet
+ -friendly. Last night of the two.\nDetails and tickets: https://nashvilled
+ owntown.com/event/pet-psychic-readings\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvilledowntown.com/event/pet-psychic-readings
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

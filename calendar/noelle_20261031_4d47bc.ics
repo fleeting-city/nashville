@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:noelle-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Impractical Magic at Hidden Bar
+LOCATION:Noelle\, Downtown
+DESCRIPTION:Follow the candlelight behind a storage door at Noelle to reach
+  Hidden Bar\, where the cocktail menu runs to midnight margaritas and love
+  spells themed around the Owens family home\, no reservations needed.\nDet
+ ails and tickets: https://do615.com/events/2026/9/2/impractical-magic-at-h
+ idden-bar-tickets\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/9/2/impractical-magic-at-hidden-bar-ticke
+ ts
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

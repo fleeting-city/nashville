@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Haunted History Tour
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:Ghost stories inside the Ryman on Halloween night and the night
+  after. The listing shows a late window\, so check for tour times.\nDetail
+ s and tickets: https://nashvilledowntown.com/event/haunted-history-tour\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/haunted-history-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

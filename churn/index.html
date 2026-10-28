@@ -38,7 +38,7 @@
   cite links carry utm_campaign=exp-0114. Reader prose keeps accents; data
   files are strict-ASCII (a portable public feed).
 -->
-  <script>  <script>
+  <script>
   /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
      context ONCE, in their own browser, so it survives navigation to the
      subscribe form. No network call, no external action. */
@@ -57,7 +57,6 @@
     localStorage.setItem(K,JSON.stringify(ft));
   }catch(e){}})();
   </script>
-</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -167,6 +166,33 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
 <!-- meta-pixel:end -->
 </head>
 <body>
+<!-- site-header:begin (managed by scripts/header_inject.py - do not hand-edit) -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter:wght@600&text=FLETINGASHV.&display=swap');
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/dm-sans-400.ttf') format('truetype')}
+.fh-bar,.fh-bar *{box-sizing:border-box}
+.fh-bar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:14px 5vw;margin:0;background:#0c0b0a;border-bottom:1px solid rgba(241,234,219,.173);position:sticky;top:0;z-index:30;font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6;color:#f1eadb;text-align:left}
+.fh-bar a{text-decoration:none}
+.fh-mark{display:flex;align-items:baseline;white-space:nowrap}
+.fh-name{font-family:'Archivo','DM Sans',sans-serif;font-weight:900;font-size:20px;line-height:1;letter-spacing:.02em;color:#f6f1e7;text-shadow:0 0 16px rgba(230,69,53,.45)}
+.fh-dot{color:#E64535}
+.fh-city{font-family:'Inter',sans-serif;font-weight:600;font-size:11px;line-height:1;letter-spacing:.22em;color:#a39c8f;margin-left:8px}
+.fh-nav{display:flex;gap:17px}
+.fh-nav a{font-size:14px;color:#d9cfbc}
+.fh-nav a:hover,.fh-join:hover{color:#e84b3f}
+.fh-join{display:flex;align-items:center;gap:12px;font-size:14px;color:#f1eadb;border-bottom:1px solid #b99656;padding:9px 0;white-space:nowrap}
+@media(max-width:1150px){.fh-bar{gap:20px}}
+@media(max-width:800px){.fh-bar{min-height:75px}.fh-nav{display:none}}
+@media(max-width:540px){.fh-bar{padding:12px 20px;min-height:72px;gap:12px}.fh-mark{flex-direction:column;align-items:flex-start;gap:4px}.fh-city{margin-left:0}.fh-join{font-size:12px;gap:7px}}
+.wrap>.top:has(>a.logo:only-child):not(:has(.plus)),.wrap>a.logo,body>nav:has(>.nav-in){display:none!important}
+</style>
+<header class="fh-bar">
+  <a class="fh-mark" href="/" aria-label="Fleeting Nashville home"><span class="fh-name">FLEETING<span class="fh-dot">.</span></span><span class="fh-city">NASHVILLE</span></a>
+  <nav class="fh-nav" aria-label="Main navigation"><a href="/#drop">The Thursday drop</a><a href="/perks.html">Perks</a><a href="/#how">A little about us</a></nav>
+  <a class="fh-join" href="/#join">Get the free newsletter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+</header>
+<!-- site-header:end -->
+
   <div class="wrap">
     <a class="back" href="/">&#8592; Fleeting HQ</a>
     <div class="top">
@@ -176,24 +202,24 @@ src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
     <div class="kicker">The Fleeting Churn Rate</div>
     <h1>Nashville food windows<br>open fast and close faster<span class="dot">.</span></h1>
     <p class="lede">Every week Fleeting crawls Nashville for time-limited windows -- the dinners, pop-ups, residencies and runs that are here then gone -- and records when each one opens and closes. This is the churn cut of that record: <b>how many food and drink windows opened versus closed each month</b>, and how long the ones that closed actually lasted. One number, updated monthly, honest about how young it is.</p>
-    <div class="headline">In <b>September 2026</b>, Nashville saw <b>110</b> time-limited food and drink windows open and <b>115</b> close -- a net loss of <b>5</b> for the month. The food windows that closed that month had been open a median of <b>1 day</b>.</div>
-    <div class="asof">Crawl record Jun 25 - Oct 22, 2026 &middot; 3 complete months &middot; 1255 food windows seen</div>
+    <div class="headline">In <b>September 2026</b>, Nashville saw <b>109</b> time-limited food and drink windows open and <b>115</b> close -- a net loss of <b>6</b> for the month. The food windows that closed that month had been open a median of <b>1 day</b>.</div>
+    <div class="asof">Crawl record Jun 25 - Oct 29, 2026 &middot; 3 complete months &middot; 1310 food windows seen</div>
     <section class="chart">
       <div class="chead"><span class="dot"></span><h2>OPENED vs CLOSED, BY MONTH</h2></div>
       <p class="csub">Food and drink windows only. Net is opens minus closes; median days-open is the lifespan of the windows that closed that month.</p>
-      <table class="mtable"><thead><tr><th>Month</th><th>Opened</th><th>Closed</th><th>Net</th><th>Median open</th></tr></thead><tbody><tr><td class="m-month">Jul 2026</td><td class="m-num">69</td><td class="m-num">37</td><td class="m-num m-net pos">net +32</td><td class="m-num m-med">1 day</td></tr><tr><td class="m-month">Aug 2026</td><td class="m-num">150</td><td class="m-num">165</td><td class="m-num m-net neg">net -15</td><td class="m-num m-med">1 day</td></tr><tr><td class="m-month">Sep 2026</td><td class="m-num">110</td><td class="m-num">115</td><td class="m-num m-net neg">net -5</td><td class="m-num m-med">1 day</td></tr></tbody></table>
+      <table class="mtable"><thead><tr><th>Month</th><th>Opened</th><th>Closed</th><th>Net</th><th>Median open</th></tr></thead><tbody><tr><td class="m-month">Jul 2026</td><td class="m-num">69</td><td class="m-num">37</td><td class="m-num m-net pos">net +32</td><td class="m-num m-med">1 day</td></tr><tr><td class="m-month">Aug 2026</td><td class="m-num">149</td><td class="m-num">165</td><td class="m-num m-net neg">net -16</td><td class="m-num m-med">1 day</td></tr><tr><td class="m-month">Sep 2026</td><td class="m-num">109</td><td class="m-num">115</td><td class="m-num m-net neg">net -6</td><td class="m-num m-med">1 day</td></tr></tbody></table>
     </section>
-    <p class="caveat">We are a young newsletter: this covers <b>3 complete months</b> of record (Jun 25 - Oct 22, 2026). We report churn only for months we watched end to end -- the partial first month and the current, unfinished month are left out. 3 months is a reading, not a trend; we will not call it one until the record is long enough to.</p>
+    <p class="caveat">We are a young newsletter: this covers <b>3 complete months</b> of record (Jun 25 - Oct 29, 2026). We report churn only for months we watched end to end -- the partial first month and the current, unfinished month are left out. 3 months is a reading, not a trend; we will not call it one until the record is long enough to.</p>
     <section class="method">
       <h2>How this is measured</h2>
-      <p>The source is Fleeting's own weekly discovery crawl -- 17 snapshots between Jun 25 - Oct 22, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears in several weeks. It is a <b>food window</b> when its category, title or description matches Fleeting's shared food-and-drink vocabulary, or it comes from a known food source -- the same test our recommendation replies use. A window <b>opens</b> in the month its stated open date falls and <b>closes</b> in the month its stated close date falls; both must be real calendar dates. We only report a month once the crawl has watched it <b>from its first day to its last</b> -- a month we joined partway through, or the current unfinished month, is left out rather than reported short. <b>Median days-open</b> is counted inclusively from open to close (a one-night window is 1 day) over the food windows that closed in the record. Every number here is produced by <code>build_churn_rate.py</code> from the crawl record -- there are no hand-entered figures. The underlying table is published as <a href="churn_rate.json">JSON</a> and <a href="churn_rate.csv">CSV</a> for anyone who wants to check or cite it. A short window that opens and closes between two weekly crawls can be missed: this is a sample of the curated time-limited windows Fleeting tracks, not a census of every restaurant change in Nashville.</p>
+      <p>The source is Fleeting's own weekly discovery crawl -- 18 snapshots between Jun 25 - Oct 29, 2026. A <b>window</b> is a distinct listing (its title and venue), counted once even if it appears in several weeks. It is a <b>food window</b> when its category, title or description matches Fleeting's shared food-and-drink vocabulary, or it comes from a known food source -- the same test our recommendation replies use. A window <b>opens</b> in the month its stated open date falls and <b>closes</b> in the month its stated close date falls; both must be real calendar dates. We only report a month once the crawl has watched it <b>from its first day to its last</b> -- a month we joined partway through, or the current unfinished month, is left out rather than reported short. <b>Median days-open</b> is counted inclusively from open to close (a one-night window is 1 day) over the food windows that closed in the record. Every number here is produced by <code>build_churn_rate.py</code> from the crawl record -- there are no hand-entered figures. The underlying table is published as <a href="churn_rate.json">JSON</a> and <a href="churn_rate.csv">CSV</a> for anyone who wants to check or cite it. A short window that opens and closes between two weekly crawls can be missed: this is a sample of the curated time-limited windows Fleeting tracks, not a census of every restaurant change in Nashville.</p>
       <p class="cite">How to cite: <code>Data by Fleeting - Nashville, https://nashville.fleeting.city/churn/</code> (September 2026 figures) &middot; licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
     </section>
     <section class="cta">
       <p><b>Most of these windows close within days.</b> That is the whole problem Fleeting exists for. The Thursday list is the week's time-limited Nashville food, drink and events -- the ones that will be gone by the weekend -- in your inbox while they are still open. No alerts, no notifications; one email a week.</p>
       <a class="btn" href="/?utm_source=churn&amp;utm_medium=data&amp;utm_campaign=exp-0114#subscribe">Get the Thursday list, free &#8594;</a>
     </section>
-    <p class="foot">Want the other cuts? <a href="/half-life/">the window half-life</a>, <a href="/open-data/">the raw open dataset</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 23, 2026.</p>
+    <p class="foot">Want the other cuts? <a href="/half-life/">the window half-life</a>, <a href="/open-data/">the raw open dataset</a>, <a href="/conditions/">what is open or closing this week</a>. Built October 28, 2026.</p>
   </div>
 </body>
 </html>

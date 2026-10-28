@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:castle_of_villains-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T020000Z
+DTEND:20261031T040000Z
+SUMMARY:Fleeting: Castle of Villains (one night)
+LOCATION:Castle of Villains
+DESCRIPTION:A villain-themed evening listed for Friday only\, 6:30 to 9. Th
+ e text gives no further detail\, so check the organizer before going.\nDet
+ ails and tickets: https://www.nashvilleparent.com/calendar\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

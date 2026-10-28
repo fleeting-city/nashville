@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T180000Z
+DTEND:20261031T200000Z
+SUMMARY:Fleeting: Family Program: Halloween Hootenanny (one night)
+LOCATION:Country Music Hall of Fame and Museum\, SoBro
+DESCRIPTION:The museum's Halloween-day family program\, timed for the after
+ noon before trick-or-treating. Costumed kids and a country music setting\,
+  though the listing gives no further detail.\nDetails and tickets: https:/
+ /patch.com/tennessee/nashville/calendar/event/20261031/323d5c2f-f6b2-4007-
+ bb09-fa1267e33ef7/family-program-halloween-hootenanny\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261031/323d5c2f-
+ f6b2-4007-bb09-fa1267e33ef7/family-program-halloween-hootenanny
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

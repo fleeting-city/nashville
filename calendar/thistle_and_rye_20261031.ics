@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:thistle_and_rye-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T233000Z
+DTEND:20261101T013000Z
+SUMMARY:Fleeting: Murder Mystery Masquerade (one night)
+LOCATION:Thistle and Rye
+DESCRIPTION:A Halloween-night murder mystery with a masquerade theme\, so y
+ ou get a mask\, a whodunit and a room full of suspects. Tickets from $85.0
+ 8.\nDetails and tickets: https://www.eventbrite.com/e/murder-mystery-masqu
+ erade-tickets-2000275833865?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&
+ aff=ebdssbdestsearch\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/murder-mystery-masquerade-tickets-20002758
+ 33865?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

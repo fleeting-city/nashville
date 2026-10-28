@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:clarksville-20270102@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Last day: Christmas on the Cumberland
+LOCATION:Clarksville
+DESCRIPTION:A holiday season run in Clarksville stretching from late Novemb
+ er into the new year.\nDetails and tickets: https://nashvillelife.com/Chri
+ stmas-on-the-Cumberland-Clarksville-TN\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvillelife.com/Christmas-on-the-Cumberland-Clarksville-TN
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

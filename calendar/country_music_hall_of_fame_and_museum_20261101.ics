@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T190000Z
+DTEND:20261101T210000Z
+SUMMARY:Fleeting: Musician Spotlight: Eddy Dunlap (one night)
+LOCATION:Country Music Hall of Fame and Museum\, SoBro
+DESCRIPTION:A Sunday afternoon spotlight on musician Eddy Dunlap at the mus
+ eum\, starting at 1 PM. A low-key way to end the Halloween weekend.\nDetai
+ ls and tickets: https://patch.com/tennessee/nashville/calendar/event/20261
+ 101/876b5abe-1c6a-4485-b6d6-0c8327dd4653/musician-spotlight-eddy-dunlap\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261101/876b5abe-
+ 1c6a-4485-b6d6-0c8327dd4653/musician-spotlight-eddy-dunlap
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

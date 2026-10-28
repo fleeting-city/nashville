@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:walk_of_fame_park-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Nashville Pikmin Gathering
+LOCATION:Walk of Fame Park\, Downtown
+DESCRIPTION:A weekend meetup for Pikmin players in the park\, running 10 to
+  6 both days.\nDetails and tickets: https://nashvilledowntown.com/event/na
+ shville-pikmin-gathering\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/nashville-pikmin-gathering
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

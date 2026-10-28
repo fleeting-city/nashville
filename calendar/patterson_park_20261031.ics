@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:patterson_park-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T210000Z
+DTEND:20261031T230000Z
+SUMMARY:Fleeting: Community Fall Festival (one night)
+LOCATION:Patterson Park
+DESCRIPTION:A neighborhood fall festival at the park on Halloween afternoon
+ \, three hours. Listed for Saturday only.\nDetails and tickets: https://ww
+ w.nashvilleparent.com/calendar\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

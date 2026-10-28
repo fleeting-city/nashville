@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_bluebird_cafe-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T230000Z
+DTEND:20261031T010000Z
+SUMMARY:Fleeting: Don Henry's 3rd Annual Falloween Fallies (one night)
+LOCATION:The Bluebird Cafe\, Green Hills
+DESCRIPTION:A Halloween-season songwriter night hosted by Don Henry at the 
+ Bluebird\, with two listed showings on the same night.\nDetails and ticket
+ s: https://nashvillego.com/calendar\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

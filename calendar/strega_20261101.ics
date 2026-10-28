@@ -7,16 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:strega-20261101@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Strega Bar Patio Movie Nights
+SUMMARY:Last day: Patio Movie Nights
 LOCATION:Strega\, Eastwood
-DESCRIPTION:Free Sunday patio screenings at Strega at dusk\, running throug
- h November 1. Last few Sundays remaining.\nDetails and tickets: https://do
- 615.com/events/2026/6/28/patio-movie-nights-tickets\nWindows drift - confi
- rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
- ses-first list.
+DESCRIPTION:Free outdoor movies on the Strega patio at dusk\, with the run 
+ ending this week.\nDetails and tickets: https://do615.com/events/2026/6/28
+ /patio-movie-nights-tickets\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://do615.com/events/2026/6/28/patio-movie-nights-tickets
 TRANSP:TRANSPARENT
 END:VEVENT

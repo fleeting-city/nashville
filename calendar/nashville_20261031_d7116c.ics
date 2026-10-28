@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fleeting: El Dia de los Muertos (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:A Day of the Dead celebration of one of the most important holi
+ days in Mexico and Latin America. One day only.\nDetails and tickets: http
+ s://nashvillelife.com/El-D%C3%ADa-de-los-Muertos/Nashville-Calendar\nWindo
+ ws drift - confirm with the venue before you go.\nFleeting - the weekly Na
+ shville what-closes-first list.
+URL:https://nashvillelife.com/El-D%C3%ADa-de-los-Muertos/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

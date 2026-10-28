@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:studio_154_hotel-20261122@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:Fleeting: The Pasta Club: Gnocchi Night (one night)
+LOCATION:Studio 154 Hotel
+DESCRIPTION:A Sunday afternoon devoted to one thing\, gnocchi\, at a hotel 
+ studio space.\nDetails and tickets: https://www.eventbrite.com/e/the-pasta
+ -club-gnocchi-night-tickets-2002238879387?aff=ebdssbdestsearch\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://www.eventbrite.com/e/the-pasta-club-gnocchi-night-tickets-20022
+ 38879387?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

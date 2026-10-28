@@ -7,19 +7,20 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:play_playground-20261031@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
+DTSTAMP:20261028T222851Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Last day: Celebrate Spooky Season at Play Playground
-LOCATION:Play Playground
-DESCRIPTION:Halloween-season activation at Play Playground through October 
- 31. VIP pass giveaway running\; tickets also available for purchase.\nDeta
- ils and tickets: https://playplayground.com/nashville/tickets/?utm_source=
- digital-ad&utm_campaign=do615campaign\nWindows drift - confirm with the ve
- nue before you go.\nFleeting - the weekly Nashville what-closes-first list
- .
-URL:https://playplayground.com/nashville/tickets/?utm_source=digital-ad&utm
- _campaign=do615campaign
+LOCATION:Play Playground\, Lower Broadway / Honky Tonk Highway
+DESCRIPTION:Rooftop Halloween takeover with glowing skeleton decor and down
+ town views. Drinks include the Pumpkin Espresso Martini\, Headless Horsema
+ n with blackberry wine and gin\, and booze-free Vampire Kiss and Scary Shi
+ rley. Runs through Halloween.\nDetails and tickets: https://do615.com/even
+ ts/2026/10/7/celebrate-spooky-season-at-play-playground-tickets\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://do615.com/events/2026/10/7/celebrate-spooky-season-at-play-play
+ ground-tickets
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

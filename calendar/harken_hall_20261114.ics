@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harken_hall-20261114@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fleeting: Jeremy McComb's Honky Tonk Circus Tour (one night)
+LOCATION:Harken Hall
+DESCRIPTION:A night for anyone who loves '90s country and wants to dance to
+  it until closing.\nDetails and tickets: https://www.harkenhall.com/shows/
+ honkey-tonk-circus-w-jeremy-mccomb-14-nov\nWindows drift - confirm with th
+ e venue before you go.\nFleeting - the weekly Nashville what-closes-first 
+ list.
+URL:https://www.harkenhall.com/shows/honkey-tonk-circus-w-jeremy-mccomb-14-
+ nov
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

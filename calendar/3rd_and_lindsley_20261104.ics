@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261104@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261105T003000Z
+DTEND:20261105T023000Z
+SUMMARY:Fleeting: The Nicest Night in Nashville (one night)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:Marcus Hummon\, Yeli Ensemble\, Phil Madeira\, Rachel Rodriguez
+  and more share one stage for the evening.\nDetails and tickets: https://n
+ ashvillego.com/calendar\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

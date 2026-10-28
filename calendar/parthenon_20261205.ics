@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:parthenon-20261205@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261206T000000Z
+DTEND:20261206T020000Z
+SUMMARY:Fleeting: A Starlit Dinner Amongst The Stars (one night)
+LOCATION:Parthenon\, Centennial Park
+DESCRIPTION:A ticketed dinner set at the Parthenon\, which is reason enough
+  to book a table at it.\nDetails and tickets: https://www.eventbrite.com/e
+ /a-starlit-dinner-amongst-the-stars-tickets-2001605850982?aff=ebdssbdestse
+ arch\nWindows drift - confirm with the venue before you go.\nFleeting - th
+ e weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/a-starlit-dinner-amongst-the-stars-tickets
+ -2001605850982?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

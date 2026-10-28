@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:metro_nashville_municipal_auditorium-20261103@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Last day: Steve Lacy - Oh Yeah? Tour
+LOCATION:Metro Nashville Municipal Auditorium
+DESCRIPTION:A two-night run at the auditorium. The calendar lists the show 
+ on both Monday and Tuesday.\nDetails and tickets: https://nashvilledowntow
+ n.com/event/steve-lacy-oh-yeah-tour-1\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://nashvilledowntown.com/event/steve-lacy-oh-yeah-tour-1
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

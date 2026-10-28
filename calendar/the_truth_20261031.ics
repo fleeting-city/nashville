@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_truth-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T010000Z
+DTEND:20261101T030000Z
+SUMMARY:Fleeting: Beck: Ride Lonesome Tour (one night)
+LOCATION:The Truth\, Wedgewood-Houston
+DESCRIPTION:Beck on a Halloween night stop\, one show listed. A big name in
+  a mid-size room.\nDetails and tickets: https://nashvillego.com/calendar\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

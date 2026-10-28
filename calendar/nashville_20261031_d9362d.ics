@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T160000Z
+DTEND:20261031T180000Z
+SUMMARY:Fleeting: The Sanderson Sisters' JamBOOree (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:A Hocus Pocus-themed Halloween morning event\, three hours on S
+ aturday. Listed for one day only.\nDetails and tickets: https://www.nashvi
+ lleparent.com/calendar\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

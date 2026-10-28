@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T010000Z
+DTEND:20261101T030000Z
+SUMMARY:Fleeting: System of a Clown: A Spooky System of a Down Tribute (one
+  night)
+LOCATION:Eastside Bowl\, Madison
+DESCRIPTION:A Halloween tribute set with Wynton Existing\, Iguanahead\, Nat
+ alie Ray and guests on the bill.\nDetails and tickets: https://nashvillego
+ .com/calendar\nWindows drift - confirm with the venue before you go.\nFlee
+ ting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:federales_tacos_tequila_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: The Halloween Brunch Experience
+LOCATION:Federales Tacos & Tequila - Nashville
+DESCRIPTION:A two-day Halloween brunch at the taco and tequila bar. Costume
+ s are presumably welcome\, though the text does not say what is on the men
+ u.\nDetails and tickets: https://nashvilledowntown.com/event/the-halloween
+ -brunch-experience\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/the-halloween-brunch-experience
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

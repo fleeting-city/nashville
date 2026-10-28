@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:prickly_pear_coffee_co-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Last day: Coffee + Cookies with Luke Danes
+LOCATION:Prickly Pear Coffee Co.\, Downtown
+DESCRIPTION:A 45 minute Gilmore Girls session with Scott Patterson as Luke:
+  photo booth\, coffee of your choice\, a cookie-decorating class\, and a c
+ onversation with a live Q&A. The listed slot is Friday\, 1 to 3 PM.\nDetai
+ ls and tickets: https://nashvilledowntown.com/event/coffee-cookies-with-lu
+ ke-danes\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/coffee-cookies-with-luke-danes
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

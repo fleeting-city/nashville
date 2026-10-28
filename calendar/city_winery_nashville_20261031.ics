@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery_nashville-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T000300Z
+DTEND:20261101T020300Z
+SUMMARY:Fleeting: FINAL GIRL: A Horror Musical (one night)
+LOCATION:City Winery Nashville\, Pie Town
+DESCRIPTION:A horror-themed musical staged on Halloween night\, with a slas
+ her-flick title to match. Seven-oh-three start time is oddly specific.\nDe
+ tails and tickets: https://patch.com/tennessee/nashville/calendar/event/20
+ 261031/67a2686c-3a69-4571-a158-242b2b01f237/final-girl-a-horror-musical\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261031/67a2686c-
+ 3a69-4571-a158-242b2b01f237/final-girl-a-horror-musical
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

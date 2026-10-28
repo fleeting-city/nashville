@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:morton_s_the_steakhouse-20261107@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261108T000000Z
+DTEND:20261108T020000Z
+SUMMARY:Fleeting: Wagyu\, Whiskey\, and Wine (one night)
+LOCATION:Morton's The Steakhouse
+DESCRIPTION:A steakhouse pairing night built around wagyu\, whiskey and win
+ e at Morton's\, with a second date listed.\nDetails and tickets: https://w
+ ww.eventbrite.com/e/wagyu-whiskey-and-wine-mortons-nashville-tickets-20020
+ 93940872?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&aff=ebdssbdestsearc
+ h\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/wagyu-whiskey-and-wine-mortons-nashville-t
+ ickets-2002093940872?dsrp_sid=cd399948-b466-4664-92e1-9af6f91d3bd7&aff=ebd
+ ssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

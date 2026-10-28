@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:skydeck_on_broadway-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T030000Z
+DTEND:20261101T050000Z
+SUMMARY:Fleeting: United We Dance: Halloween Rave (one night)
+LOCATION:Skydeck on Broadway
+DESCRIPTION:A one-night Halloween rave at the rooftop venue\, starting at 1
+ 0 PM. Price and lineup are not in the listing.\nDetails and tickets: https
+ ://nashvilledowntown.com/event/united-we-dance-halloween-rave\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
+URL:https://nashvilledowntown.com/event/united-we-dance-halloween-rave
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:shuckle_s_corn_maze_pumpkin_patch-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Shuckle's Corn Maze and Pumpkin Patch
+LOCATION:Shuckle's Corn Maze & Pumpkin Patch
+DESCRIPTION:Corn maze and pumpkin patch open weekends only. One last weeken
+ d before it closes.\nDetails and tickets: https://nashvillelife.com/Shuckl
+ es-Corn-Maze-Pumpkin-Patch-2026-at-Fiddle-Dee-Farms/Nashville-Calendar\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://nashvillelife.com/Shuckles-Corn-Maze-Pumpkin-Patch-2026-at-Fidd
+ le-Dee-Farms/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

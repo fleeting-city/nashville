@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:caption_by_hyatt_downtown_nashville_the_gulch-20261031@nashville.fleeti
+ ng.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+SUMMARY:Fleeting: Bedazzled and Brewed (one night)
+LOCATION:Caption by Hyatt Downtown Nashville - The Gulch\, The Gulch
+DESCRIPTION:A Saturday daytime event at the Gulch hotel\, bedazzling plus b
+ rewing by the name. The text offers no further detail or price.\nDetails a
+ nd tickets: https://nashvilledowntown.com/event/bedazzled-and-brewed\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/bedazzled-and-brewed
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

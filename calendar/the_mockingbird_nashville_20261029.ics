@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_mockingbird_nashville-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261029T230000Z
+DTEND:20261030T010000Z
+SUMMARY:Fleeting: Wagyu & Wontons (one night)
+LOCATION:The Mockingbird Nashville\, Capitol View
+DESCRIPTION:A one-night\, multi-course Wagyu menu with the restaurant's glo
+ bally inspired comfort food\, matched course by course with cocktails from
+  Lipman. Seating is limited.\nDetails and tickets: https://nashvilledownto
+ wn.com/event/wagyu-and-wontons\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/wagyu-and-wontons
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

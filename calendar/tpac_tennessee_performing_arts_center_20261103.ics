@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tpac_tennessee_performing_arts_center-20261103@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261104T003000Z
+DTEND:20261104T023000Z
+SUMMARY:Fleeting: Death Becomes Her (one night)
+LOCATION:TPAC - Tennessee Performing Arts Center\, Downtown
+DESCRIPTION:A two-hour theater evening at TPAC on Tuesday. No details on ru
+ n length or price in the text.\nDetails and tickets: https://nashvilledown
+ town.com/event/death-becomes-her\nWindows drift - confirm with the venue b
+ efore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/death-becomes-her
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:exit_in-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261102T020000Z
+DTEND:20261102T040000Z
+SUMMARY:Fleeting: Cosmic Charlie: Day of the Dead (one night)
+LOCATION:EXIT/IN\, Midtown
+DESCRIPTION:A Day of the Dead themed night with Cosmic Charlie at EXIT/IN.\
+ nDetails and tickets: https://nashvillego.com/calendar\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

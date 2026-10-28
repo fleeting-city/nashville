@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:2510_albion_st-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T190000Z
+DTEND:20261101T210000Z
+SUMMARY:Fleeting: Hallelujah Harvest Festival (one night)
+LOCATION:2510 Albion St\, Hadley
+DESCRIPTION:Free Sunday afternoon harvest festival\, the day after Hallowee
+ n.\nDetails and tickets: https://allevents.in/nashville/hallelujah-harvest
+ -festival/100002003307450512\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/hallelujah-harvest-festival/100002003307
+ 450512
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

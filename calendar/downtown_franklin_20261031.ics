@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: FEAR FEST! Child's Play (1988) Midnight Screening
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:Chucky at midnight\, the Friday night slot on the Fear Fest cal
+ endar. One showing\, and it is gone after Halloween.\nDetails and tickets:
+  https://downtownfranklintn.com/event/fear-fest-childs-play-1988-midnight-
+ screening/\nWindows drift - confirm with the venue before you go.\nFleetin
+ g - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-childs-play-1988-midnigh
+ t-screening/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

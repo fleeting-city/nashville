@@ -7,30 +7,22 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:ryman_auditorium-20261109@nashville.fleeting.city
-DTSTAMP:20261023T111420Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Fleeting: Concert for Cumberland Heights: Riding with the King (one
-  night)
+DTSTAMP:20261028T222851Z
+DTSTART:20261110T013000Z
+DTEND:20261110T033000Z
+SUMMARY:Fleeting: Keith Urban\, Rosanne Cash\, Steve Earle\, Rodney Crowell
+  and more (one night)
 LOCATION:Ryman Auditorium\, Downtown
-DESCRIPTION:John Hiatt tribute fundraiser for Cumberland Heights rehab with
-  Keith Urban\, Rosanne Cash\, Steve Earle\, Rodney Crowell\, and Hiatt him
- self in a special guest slot.\nDetails and tickets: https://www.ryman.com/
- event/2026-11-09-concert-for-cumberland-heights-at-7-30-pm?utm_campaign=ry
- man_shows&utm_medium=paidsocial&utm_source=fb&utm_audience=mofu_advantage&
- utm_content=product_cumberland_heights_110926_graphic&utm_id=1202505945013
- 50679&utm_term=120250594501370679&fbclid=IwY2xjawTmmVNwZG9mAWV4dG4DYWVtATA
- AYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHh1qGOlfTLK0ubS3_
- Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n1vauWXsi6hFCfL3xgUmaw\nWi
- ndows drift - confirm with the venue before you go.\nFleeting - the weekly
-  Nashville what-closes-first list.
-URL:https://www.ryman.com/event/2026-11-09-concert-for-cumberland-heights-a
- t-7-30-pm?utm_campaign=ryman_shows&utm_medium=paidsocial&utm_source=fb&utm
- _audience=mofu_advantage&utm_content=product_cumberland_heights_110926_gra
- phic&utm_id=120250594501350679&utm_term=120250594501370679&fbclid=IwY2xjaw
- TmmVNwZG9mAWV4dG4DYWVtATAAYWRpZAGrN0fwkofXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIw
- MDg5MgABHh1qGOlfTLK0ubS3_Obce4U9LcfTHj0bcqFWki0zZ04mNyDNHOOjg_9cz-Tw_aem_n
- 1vauWXsi6hFCfL3xgUmaw
+DESCRIPTION:A one-night lineup at the Ryman that also includes Lilly Hiatt\
+ , Shawn Colvin\, Richard Thompson\, Robert Earl Keen and John Hiatt. Liste
+ d alongside the 30th Annual Concert for Cumberland Heights.\nDetails and t
+ ickets: https://allevents.in/nashville/keith-urban-rosanne-cash-steve-earl
+ e-rodney-crowell-lilly-hiatt-shawn-colvin-richard-thompson-robert/33000304
+ 90755553\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/keith-urban-rosanne-cash-steve-earle-rod
+ ney-crowell-lilly-hiatt-shawn-colvin-richard-thompson-robert/3300030490755
+ 553
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:110_s_11th_st-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T210000Z
+DTEND:20261031T230000Z
+SUMMARY:Fleeting: All Hallows East (one night)
+LOCATION:110 S 11th St\, East Nashville
+DESCRIPTION:Halloween Saturday event starting at 4 PM\, listed among the to
+ p weekend picks. Details and price are not given.\nDetails and tickets: ht
+ tps://allevents.in/nashville/all-hallows-east/100001999794308610?ref=faq\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/all-hallows-east/100001999794308610?ref=
+ faq
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

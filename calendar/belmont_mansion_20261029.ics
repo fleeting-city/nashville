@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:belmont_mansion-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Fleeting: Mahjong in the Mansion (one night)
+LOCATION:Belmont Mansion\, Belmont
+DESCRIPTION:A fundraiser evening of mahjong in a historic mansion\, back af
+ ter popular demand. Worth a look if you want a game night that is not triv
+ ia.\nDetails and tickets: https://nashvillelife.com/Mahjong-Mansion-Fundra
+ iser/Nashville-Calendar\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Mahjong-Mansion-Fundraiser/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

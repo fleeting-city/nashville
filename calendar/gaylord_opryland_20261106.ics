@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gaylord_opryland-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261106T160000Z
+DTEND:20261106T180000Z
+SUMMARY:Fleeting: ice! featuring "Home Alone" (one night)
+LOCATION:Gaylord Opryland\, Opryland
+DESCRIPTION:Seasonal ice-themed attraction built around the Home Alone film
+ \, with several additional dates listed.\nDetails and tickets: https://all
+ events.in/nashville/ice-featuring-home-alone/200030746887027\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://allevents.in/nashville/ice-featuring-home-alone/200030746887027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

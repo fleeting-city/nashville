@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:3rd_and_lindsley-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T010000Z
+DTEND:20261101T030000Z
+SUMMARY:Fleeting: Rubiks Groove Halloween Extravaganza! (one night)
+LOCATION:3rd and Lindsley\, Downtown
+DESCRIPTION:A Halloween night show at 3rd and Lindsley from Rubiks Groove.\
+ nDetails and tickets: https://nashvilledowntown.com/event/rubiks-groove-ha
+ lloween-extravaganza\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/rubiks-groove-halloween-extravaganz
+ a
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

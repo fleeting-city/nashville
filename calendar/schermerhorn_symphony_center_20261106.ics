@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:schermerhorn_symphony_center-20261106@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261107T013000Z
+DTEND:20261107T033000Z
+SUMMARY:Fleeting: Nashville Symphony: Harry Potter and the Prisoner of Azka
+ ban in Concert (one night)
+LOCATION:Schermerhorn Symphony Center\, SoBro
+DESCRIPTION:The film screened with the orchestra playing the score live. Pr
+ ice is not listed.\nDetails and tickets: https://allevents.in/nashville/na
+ shville-symphony-harry-potter-and-the-prisoner-of-azkaban-in-concert-at-sc
+ hermerhorn-symphony-cent/2400029856100330\nWindows drift - confirm with th
+ e venue before you go.\nFleeting - the weekly Nashville what-closes-first 
+ list.
+URL:https://allevents.in/nashville/nashville-symphony-harry-potter-and-the-
+ prisoner-of-azkaban-in-concert-at-schermerhorn-symphony-cent/2400029856100
+ 330
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

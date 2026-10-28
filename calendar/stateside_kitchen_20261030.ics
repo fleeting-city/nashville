@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:stateside_kitchen-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T150000Z
+DTEND:20261030T170000Z
+SUMMARY:Fleeting: Beats & BOO-zy Brunch (one night)
+LOCATION:Stateside Kitchen\, Downtown
+DESCRIPTION:A Halloween twist on the downtown DJ party brunch\, with free-f
+ low drinks\, brunch plates and spooky music from 10 a.m. to 3 p.m. Costume
+ s are encouraged\, reservations are recommended\, and it runs through Sund
+ ay\, November 1.\nDetails and tickets: https://patch.com/tennessee/nashvil
+ le/calendar/event/20261030/52abf879-4df5-4016-b74e-c9a9dc5d3929/beats-boo-
+ zy-brunch\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261030/52abf879-
+ 4df5-4016-b74e-c9a9dc5d3929/beats-boo-zy-brunch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

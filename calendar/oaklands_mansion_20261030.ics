@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:oaklands_mansion-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T220000Z
+DTEND:20261031T000000Z
+SUMMARY:Fleeting: Halloween Speakeasy & Masquerade Ball (one night)
+LOCATION:Oaklands Mansion
+DESCRIPTION:Speakeasy theme and masquerade dress-up rolled into one Hallowe
+ en-week evening\, flagged as an editor's pick on the listing. Ticket price
+  is not listed.\nDetails and tickets: https://allevents.in/murfreesboro/ha
+ lloween-speakeasy-and-masquerade-ball-oaklands-mansion/4300030862869122?af
+ f=u1gjbz\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/murfreesboro/halloween-speakeasy-and-masquerade-ba
+ ll-oaklands-mansion/4300030862869122?aff=u1gjbz
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

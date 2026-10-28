@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harding_house_brewing_co-20261101@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261102T003000Z
+DTEND:20261102T023000Z
+SUMMARY:Fleeting: The Apple: A Death Note Inspired Culinary Mystery Event (
+ one night)
+LOCATION:Harding House Brewing Co.
+DESCRIPTION:A Death Note themed culinary mystery evening at a brewery\, for
+  anime fans who also want dinner.\nDetails and tickets: https://www.eventb
+ rite.com/e/the-apple-a-death-note-inspired-culinary-mystery-event-tickets-
+ 2002955756586?dsrp_sid=c04e90d6-221b-4036-a3ef-9b2424c32941&aff=ebdssbdest
+ search\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/the-apple-a-death-note-inspired-culinary-m
+ ystery-event-tickets-2002955756586?dsrp_sid=c04e90d6-221b-4036-a3ef-9b2424
+ c32941&aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bicentennial_mall-20261231@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Fleeting: NYE: Nashville's Big Bash (one night)
+LOCATION:Bicentennial Mall\, North Capitol
+DESCRIPTION:HARDY\, Little Big Town and the Red Clay Strays headline a free
+ -form lineup to ring in the New Year. The park sits just north of the Stat
+ e Capitol.\nDetails and tickets: https://www.visitmusiccity.com/newyearsev
+ e\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://www.visitmusiccity.com/newyearseve
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

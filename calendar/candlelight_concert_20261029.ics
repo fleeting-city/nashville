@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:candlelight_concert-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261029T233000Z
+DTEND:20261030T013000Z
+SUMMARY:Fleeting: Candlelight: The Best of Hans Zimmer (one night)
+LOCATION:Candlelight concert
+DESCRIPTION:A one-night candlelit concert of Hans Zimmer film music. Hour-l
+ ong\, so it fits before a late dinner.\nDetails and tickets: https://www.n
+ ashvilleparent.com/calendar\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T010000Z
+DTEND:20261101T030000Z
+SUMMARY:Fleeting: Thundercat: Distracted AF Tour (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:A touring stop landing on Halloween night\, so one Nashville da
+ te only. No ticket price in the listing.\nDetails and tickets: https://pat
+ ch.com/tennessee/nashville/calendar/event/20261031/a4149ec5-382c-4692-bdbd
+ -356813b6e1e2/thundercat-distracted-af-tour\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261031/a4149ec5-
+ 382c-4692-bdbd-356813b6e1e2/thundercat-distracted-af-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tpac_tennessee_performing_arts_center-20261102@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261103T010000Z
+DTEND:20261103T030000Z
+SUMMARY:Fleeting: Nurse Blake: But Did You Die? Tour (one night)
+LOCATION:TPAC - Tennessee Performing Arts Center\, Downtown
+DESCRIPTION:A nurse-comedy touring show\, listed with two entries on the sa
+ me Monday night\, so it may be two shows. No price stated.\nDetails and ti
+ ckets: https://nashvilledowntown.com/event/nurse-blake-but-did-you-die-tou
+ r\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/nurse-blake-but-did-you-die-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

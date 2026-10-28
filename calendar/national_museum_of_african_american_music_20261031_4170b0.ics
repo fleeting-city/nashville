@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20261031@nashville.fleeting.c
+ ity
+DTSTAMP:20261028T222851Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:Fleeting: R&B Bingo: Halloween Edition (one night)
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:A Halloween-themed R&B bingo night at the museum\, one of two b
+ ingo sessions that evening. No price is given.\nDetails and tickets: https
+ ://nashvilledowntown.com/event/randb-bingo-halloween-edition\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://nashvilledowntown.com/event/randb-bingo-halloween-edition
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

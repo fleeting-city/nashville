@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:west_park-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T230000Z
+DTEND:20261031T010000Z
+SUMMARY:Fleeting: West Park After Dark (one night)
+LOCATION:West Park
+DESCRIPTION:An after-dark Halloween outing at West Park on the Friday befor
+ e the holiday.\nDetails and tickets: https://allevents.in/nashville/west-p
+ ark-after-dark/200030909852536\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/west-park-after-dark/200030909852536
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261103@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261104T013000Z
+DTEND:20261104T033000Z
+SUMMARY:Fleeting: Cracking The Serial Killer Code with Dr. Katherine Ramsla
+ nd (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:A talk billed as a chilling evening with forensic psychologist 
+ Dr. Katherine Ramsland. Good post-Halloween comedown.\nDetails and tickets
+ : https://nashvillego.com/calendar\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

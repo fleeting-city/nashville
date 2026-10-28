@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:logan_s_roadhouse-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Fleeting: Prime Rib Weekends Return (one night)
+LOCATION:Logan's Roadhouse
+DESCRIPTION:Prime rib weekends are back at Logan's Roadhouse. The text give
+ s no price or hours\, so check the article before planning a dinner around
+  it.\nDetails and tickets: https://williamsonsource.com/prime-rib-weekends
+ -return-to-logans-roadhouse-oct-30/\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/prime-rib-weekends-return-to-logans-roadho
+ use-oct-30/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

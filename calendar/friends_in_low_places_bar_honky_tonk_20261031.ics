@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:friends_in_low_places_bar_honky_tonk-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Last day: Nashville Zombie Crawl
+LOCATION:Friends in Low Places Bar & Honky-Tonk\, Downtown
+DESCRIPTION:A two-night Halloween bar crawl covering 10+ bars\, with the ti
+ cket page flagging that sales end soon. Tickets start at $19.98.\nDetails 
+ and tickets: https://www.eventbrite.com/e/nashville-zombie-crawl-halloween
+ -bar-crawl-10-bars-oct-30th-31st-tickets-1996115694777?aff=ebdssbdestsearc
+ h\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nashville-zombie-crawl-halloween-bar-crawl
+ -10-bars-oct-30th-31st-tickets-1996115694777?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

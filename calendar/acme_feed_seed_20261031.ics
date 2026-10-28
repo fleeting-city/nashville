@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:acme_feed_seed-20261031@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T210000Z
+DTEND:20261031T230000Z
+SUMMARY:Fleeting: Halloween Bar Crawl on Broadway (one night)
+LOCATION:Acme Feed & Seed\, Broadway
+DESCRIPTION:The Broadway-focused Halloween crawl for anyone who wants costu
+ mes and honky-tonk noise in the same evening. Sales are ending soon\, tick
+ ets from $20.58.\nDetails and tickets: https://www.eventbrite.com/e/hallow
+ een-bar-crawl-1031-nashville-broadway-tickets-1996123938434?aff=ebdssbdest
+ search\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/halloween-bar-crawl-1031-nashville-broadwa
+ y-tickets-1996123938434?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

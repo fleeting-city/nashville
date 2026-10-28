@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_wine_auction-20261115@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Fleeting: Nashville Wine Auction Somm Showdown (one night)
+LOCATION:Nashville Wine Auction
+DESCRIPTION:Six wine professionals face off in a competition. Worth a seat 
+ if you like watching sommeliers get tested in public.\nDetails and tickets
+ : https://www.nashvillescene.com/food_drink\nWindows drift - confirm with 
+ the venue before you go.\nFleeting - the weekly Nashville what-closes-firs
+ t list.
+URL:https://www.nashvillescene.com/food_drink
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261031T010000Z
+DTEND:20261031T030000Z
+SUMMARY:Fleeting: A Very Special Halloween Tribute to Panic! At The Disco (
+ one night)
+LOCATION:Eastside Bowl\, Madison
+DESCRIPTION:A one-night Halloween tribute show to Panic! At The Disco.\nDet
+ ails and tickets: https://nashvillego.com/calendar\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

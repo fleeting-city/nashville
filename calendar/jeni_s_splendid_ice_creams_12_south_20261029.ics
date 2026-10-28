@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:jeni_s_splendid_ice_creams_12_south-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261029T210000Z
+DTEND:20261029T230000Z
+SUMMARY:Fleeting: Jeni's Ice Cream x Proverbs Community Event (one night)
+LOCATION:Jeni's Splendid Ice Creams (12 South)\, 12 South
+DESCRIPTION:A community collaboration between Jeni's and Proverbs at the 12
+  South scoop shop. One afternoon only.\nDetails and tickets: https://allev
+ ents.in/nashville/jenis-ice-cream-x-proverbs-community-event/2000308872933
+ 49\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/jenis-ice-cream-x-proverbs-community-eve
+ nt/200030887293349
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

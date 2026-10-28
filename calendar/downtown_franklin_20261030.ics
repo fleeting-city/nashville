@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261030@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART:20261030T230000Z
+DTEND:20261031T010000Z
+SUMMARY:Fleeting: FEAR FEST! Rocky Horror Picture Show (1975) (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:Two showings of the cult musical on Halloween eve\, one early a
+ nd one late. The Friday night pick for people who like a crowd.\nDetails a
+ nd tickets: https://downtownfranklintn.com/event/fear-fest-rocky-horror-pi
+ cture-show-1975/2026-10-30/1/\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/fear-fest-rocky-horror-picture-sho
+ w-1975/2026-10-30/1/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

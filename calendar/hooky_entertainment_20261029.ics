@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:hooky_entertainment-20261029@nashville.fleeting.city
+DTSTAMP:20261028T222851Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Fleeting: Soundproof (one night)
+LOCATION:Hooky Entertainment\, Nashville Yards
+DESCRIPTION:A speakeasy-style cocktail bar tucked inside Hooky Entertainmen
+ t\, pairing inventive drinks and elevated bites with live music. Opening n
+ ight is this week\, so expect it to be new and busy.\nDetails and tickets:
+  https://whatnow.com/nashville/restaurants/soundproof-to-open-at-nashville
+ -yards-bringing-a-new-speakeasy-experience-to-music-city/\nWindows drift -
+  confirm with the venue before you go.\nFleeting - the weekly Nashville wh
+ at-closes-first list.
+URL:https://whatnow.com/nashville/restaurants/soundproof-to-open-at-nashvil
+ le-yards-bringing-a-new-speakeasy-experience-to-music-city/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
