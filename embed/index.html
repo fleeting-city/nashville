@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grab the week: a free closing-soon Nashville block for your list | Fleeting</title>
+<meta name="description" content="A free, auto-updating block of this week's closing-soon Nashville windows. Paste it into your newsletter, Substack or bio link and look plugged-in to your list -- zero work, always current.">
+<link rel="canonical" href="https://nashville.fleeting.city/embed/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Grab the week: a free closing-soon Nashville block">
+<meta property="og:description" content="An auto-updating block of this week's closing-soon Nashville windows for your newsletter, Substack or bio link. Free, always current, zero work.">
+<meta property="og:url" content="https://nashville.fleeting.city/embed/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Grab the week: a free closing-soon Nashville block">
+<meta name="twitter:description" content="An auto-updating block of this week's closing-soon Nashville windows. Free, always current, zero work.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : The Embeddable Week grab page (EXP-0143 / LAS-553).
+  A self-serve PULL asset (lens L01, goal G2) that replaces the 0-for-3 cold gift
+  (partner_gift_blurb/EXP-0008, F-0037): any local account GRABS a copy-paste block
+  of this week's closing-soon windows instead of us pitching. Built by
+  scripts/build_embed.py from the live discovery feed. The handle a grabber types is
+  slugified and stamped as utm_source on every snippet (medium=referral, campaign=EXP-0143).
+  Dark mission-control theme; skyline resolved via brand/marks.py and referenced
+  (not pasted) from skyline.svg (rules 11/14). Pure-ASCII copy. Pull surface only
+  (F-0009): no external action, no alert promise.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(240,180,41,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:6px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:62ch;}
+  .panel{background:var(--ink2);border:1px solid var(--line);border-radius:14px;padding:18px 16px;margin:24px 0 12px;}
+  .flabel{display:block;font-size:13px;font-weight:700;color:var(--cream);margin-bottom:8px;}
+  .flabel .opt{font-weight:400;color:var(--muted);font-size:12px;}
+  #handle{width:100%;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:11px 13px;font-family:'Inter';}
+  #handle:focus{outline:none;border-color:var(--gold);}
+  .status{font-size:12.5px;color:var(--muted);margin-top:10px;line-height:1.5;}
+  .preview{margin:8px 0 6px;}
+  .plabel,.gh{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:14px 0 8px;}
+  .gh .gt{display:block;font-weight:500;letter-spacing:.02em;text-transform:none;color:var(--muted);font-size:11.5px;margin-top:3px;}
+  .pvframe{width:100%;max-width:540px;height:300px;border:1px dashed var(--line);border-radius:12px;background:#fbfaf6;}
+  .grab{margin:4px 0 2px;}
+  .snip{width:100%;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;color:#e7e1d5;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;padding:11px 13px;resize:vertical;line-height:1.5;}
+  .copy{margin-top:8px;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:13.5px;
+    padding:9px 16px;border-radius:9px;border:none;cursor:pointer;transition:.14s;}
+  .copy:hover{background:#d13a2b;}
+  .copy.done{background:#2f7d4f;}
+  .foot{margin-top:26px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">For newsletters, Substacks and bio links</div>
+    <h1>Grab the week<span class="dot">.</span></h1>
+    <p class="lede">A free, auto-updating block of the Nashville windows closing this week -- the here-then-gone food, drink and one-night things. Drop it into your newsletter, Substack or bio link and look plugged-in to your own list. It refreshes on its own every week, so you grab it once. No sign-up, no pitch, no catch.</p>
+    <section class="panel">
+      <label class="flabel" for="handle">Your name or handle <span class="opt">(optional -- so the credit link points back to you)</span></label>
+      <input type="text" id="handle" placeholder="e.g. citycastnashville" autocomplete="off" spellcheck="false" maxlength="48">
+      <p class="status" id="status">Showing this week's 4 closing-soon windows. The embed updates to the current week automatically -- grab it once.</p>
+    </section>
+    <section class="preview">
+      <div class="plabel">Live preview</div>
+      <iframe id="pv" class="pvframe" title="Live preview of the embed block"></iframe>
+    </section>
+    <section class="grab">
+      <div class="gh">1. Auto-updating HTML embed <span class="gt">best for a website or Substack -- stays current on its own</span></div>
+      <textarea id="snipHtml" class="snip" readonly rows="3"></textarea>
+      <button class="copy" data-for="snipHtml">Copy HTML embed</button>
+    </section>
+    <section class="grab">
+      <div class="gh">2. Plain text / markdown <span class="gt">best for an email newsletter -- a snapshot of THIS week (re-grab next week)</span></div>
+      <textarea id="snipText" class="snip" readonly rows="8"></textarea>
+      <button class="copy" data-for="snipText">Copy text block</button>
+    </section>
+    <section class="grab">
+      <div class="gh">3. Just a link <span class="gt">best for an Instagram or TikTok bio link</span></div>
+      <textarea id="snipLink" class="snip" readonly rows="2"></textarea>
+      <button class="copy" data-for="snipLink">Copy link</button>
+    </section>
+    <p class="foot">Every window here is real and dated from the <span class="fmark">Fleeting<span class="dot">.</span></span> discovery feed -- undated things are held back, not guessed, and the countdowns recompute in the reader's browser so a late view is never stale. This block never pings anyone and never collects an email; the only thing it asks of a reader is a tap to see more. Questions? See what Fleeting is on the <a href="/conditions/">conditions board</a>.</p>
+  </div>
+  <script>
+  var TOKEN="FLEETINGSRC";
+  var FALLBACK="embed";
+  var BLOCK="https://nashville.fleeting.city/embed/block/";
+  var IFRAME_TPL="<iframe src=\"https://nashville.fleeting.city/embed/block/?src=FLEETINGSRC\" width=\"100%\" height=\"300\" style=\"border:0;max-width:540px\" loading=\"lazy\" title=\"Closing soon in Nashville this week, by Fleeting\"></iframe>";
+  var TEXT_TPL="What's fleeting in Nashville this week -- a few things closing soon:\n\n- **The Mummy Pop Up Bar** -- A Halloween-season pop-up bar running out of a meadery, with drink specials on offer. (closes today)\n- **Rubiks Groove Halloween Extravaganza!** -- A rock-leaning Halloween night show at a long-running SoBro music room. (closes today)\n- **Thundercat, Channel Tres** -- Thundercat headlines with Channel Tres in support, spanning electronic, indie and world sounds. (closes today)\n- **Hippie Sabotage - 2 Nights** -- Electronic duo Hippie Sabotage plays a two-night run at The Caverns, out in Murfreesboro. (closes today)\n\nNashville's time-limited food and events, every week: [Fleeting](https://nashville.fleeting.city/?utm_source=FLEETINGSRC&utm_medium=referral&utm_campaign=EXP-0143&utm_content=embed_week).";
+  var LINK_TPL="https://nashville.fleeting.city/?utm_source=FLEETINGSRC&utm_medium=referral&utm_campaign=EXP-0143&utm_content=embed_week";
+  var ROWS=[{"title": "The Mummy Pop Up Bar", "note": "A Halloween-season pop-up bar running out of a meadery, with drink specials on offer.", "close": "closes today", "aware": false}, {"title": "Rubiks Groove Halloween Extravaganza!", "note": "A rock-leaning Halloween night show at a long-running SoBro music room.", "close": "closes today", "aware": false}, {"title": "Thundercat, Channel Tres", "note": "Thundercat headlines with Channel Tres in support, spanning electronic, indie and world sounds.", "close": "closes today", "aware": false}, {"title": "Hippie Sabotage - 2 Nights", "note": "Electronic duo Hippie Sabotage plays a two-night run at The Caverns, out in Murfreesboro.", "close": "closes today", "aware": false}];
+  function slug(v){ v=(v||'').replace(/[^a-z0-9_-]/gi,'').toLowerCase().slice(0,48); return v||FALLBACK; }
+  function swap(tpl,src){ return tpl.split(TOKEN).join(src); }
+  function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+  function renderPreview(src){
+    var css=document.getElementById('pvcss'); // reuse block styles inline
+    var rows='';
+    if(!ROWS.length){ rows='<p class="fl-empty">Nothing confirmed closing this week yet.</p>'; }
+    else{ rows='<ul>'; for(var i=0;i<ROWS.length;i++){ var r=ROWS[i];
+      var aware=r.aware?' <span class="fl-aware">(tickets gone, listed for awareness)</span>':'';
+      rows+='<li><span class="fl-ttl">'+esc(r.title)+'</span> <span class="fl-note">'+esc(r.note)+'</span> <span class="fl-close">'+esc(r.close)+'</span>'+aware+'</li>'; }
+      rows+='</ul>'; }
+    var link=swap(LINK_TPL,src);
+    var doc='<!DOCTYPE html><meta charset="utf-8"><base target="_blank"><style>.fl-embed{max-width:520px;margin:0 auto;padding:16px 18px;border:1px solid #e3ddd0;border-radius:12px;background:#fbfaf6;color:#201d18;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;font-size:15px;box-sizing:border-box;}.fl-embed *{box-sizing:border-box;}.fl-embed .fl-kick{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#9a5a2b;margin:0 0 8px;}.fl-embed h3{font-size:17px;font-weight:800;margin:0 0 12px;letter-spacing:-.01em;color:#201d18;}.fl-embed ul{list-style:none;margin:0 0 12px;padding:0;}.fl-embed li{padding:8px 0;border-top:1px solid #efe9db;}.fl-embed li:first-child{border-top:none;}.fl-embed .fl-ttl{font-weight:700;color:#201d18;}.fl-embed .fl-note{color:#4a453c;}.fl-embed .fl-close{display:inline-block;margin-left:2px;font-size:12px;font-weight:700;color:#b5341f;white-space:nowrap;}.fl-embed .fl-aware{color:#8a8275;font-weight:600;}.fl-embed .fl-credit{margin:4px 0 0;font-size:12.5px;color:#6b655a;}.fl-embed .fl-credit a{color:#b5341f;font-weight:700;text-decoration:none;}.fl-embed .fl-credit a:hover{text-decoration:underline;}.fl-embed .fl-empty{color:#4a453c;margin:0 0 10px;}html,body{margin:0;padding:0;background:transparent;}</style>'
+      +'<div class="fl-embed"><p class="fl-kick">Closing soon in Nashville</p><h3>Here then gone, this week</h3>'+rows
+      +'<p class="fl-credit">Tracked by <a href="'+link+'">Fleeting</a> -- Nashville\'s weekly list of time-limited food, drink and events.</p></div>';
+    var f=document.getElementById('pv'); f.srcdoc=doc;
+  }
+  function update(){
+    var src=slug(document.getElementById('handle').value);
+    document.getElementById('snipHtml').value=swap(IFRAME_TPL,src);
+    document.getElementById('snipText').value=swap(TEXT_TPL,src);
+    document.getElementById('snipLink').value=swap(LINK_TPL,src);
+    renderPreview(src);
+  }
+  document.getElementById('handle').addEventListener('input',update);
+  var btns=document.querySelectorAll('.copy');
+  for(var i=0;i<btns.length;i++){ btns[i].addEventListener('click',function(){
+    var ta=document.getElementById(this.getAttribute('data-for')); var b=this;
+    ta.select();
+    function ok(){ var l=b.textContent; b.textContent='Copied'; b.classList.add('done');
+      setTimeout(function(){ b.textContent=l; b.classList.remove('done'); },1400); }
+    try{ if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(ta.value).then(ok,function(){ document.execCommand('copy'); ok(); }); }
+      else { document.execCommand('copy'); ok(); } }catch(e){ try{ document.execCommand('copy'); ok(); }catch(_){} }
+  }); }
+  update();
+  </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Closing soon in Nashville this week | Fleeting</title>
+<link rel="canonical" href="https://nashville.fleeting.city/embed/block/">
+<!--
+  Fleeting - Nashville : The Embeddable Week block (EXP-0143 / LAS-553).
+  The auto-updating fragment a self-serve iframe embed loads. Rebuilt weekly by
+  scripts/build_embed.py from the live discovery feed; windows are real and dated,
+  countdowns recompute in the reader's browser from each window's stated close date.
+  Reads ?src=<grabber> to stamp utm_source on the credit link (medium=referral,
+  campaign=EXP-0143). Neutral/theme-agnostic by design: it lives inside a
+  partner's page, so NO skyline mark and no heavy brand. noindex, not in the sitemap.
+  Pull surface only (F-0009): no alert promise, no external action.
+-->
+<style>
+  .fl-embed{max-width:520px;margin:0 auto;padding:16px 18px;border:1px solid #e3ddd0;
+    border-radius:12px;background:#fbfaf6;color:#201d18;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;font-size:15px;box-sizing:border-box;}
+  .fl-embed *{box-sizing:border-box;}
+  .fl-embed .fl-kick{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:#9a5a2b;margin:0 0 8px;}
+  .fl-embed h3{font-size:17px;font-weight:800;margin:0 0 12px;letter-spacing:-.01em;color:#201d18;}
+  .fl-embed ul{list-style:none;margin:0 0 12px;padding:0;}
+  .fl-embed li{padding:8px 0;border-top:1px solid #efe9db;}
+  .fl-embed li:first-child{border-top:none;}
+  .fl-embed .fl-ttl{font-weight:700;color:#201d18;}
+  .fl-embed .fl-note{color:#4a453c;}
+  .fl-embed .fl-close{display:inline-block;margin-left:2px;font-size:12px;font-weight:700;
+    color:#b5341f;white-space:nowrap;}
+  .fl-embed .fl-aware{color:#8a8275;font-weight:600;}
+  .fl-embed .fl-credit{margin:4px 0 0;font-size:12.5px;color:#6b655a;}
+  .fl-embed .fl-credit a{color:#b5341f;font-weight:700;text-decoration:none;}
+  .fl-embed .fl-credit a:hover{text-decoration:underline;}
+  .fl-embed .fl-empty{color:#4a453c;margin:0 0 10px;}
+  html,body{margin:0;padding:0;background:transparent;}
+</style>
+</head>
+<body>
+  <div class="fl-embed">
+    <p class="fl-kick">Closing soon in Nashville</p>
+    <h3>Here then gone, this week</h3>
+    <ul>
+      <li data-ends="2026-10-31"><span class="fl-ttl">The Mummy Pop Up Bar</span> <span class="fl-note">A Halloween-season pop-up bar running out of a meadery, with drink specials on offer.</span> <span class="fl-close">closes today</span></li>
+      <li data-ends="2026-10-31"><span class="fl-ttl">Rubiks Groove Halloween Extravaganza!</span> <span class="fl-note">A rock-leaning Halloween night show at a long-running SoBro music room.</span> <span class="fl-close">closes today</span></li>
+      <li data-ends="2026-10-31"><span class="fl-ttl">Thundercat, Channel Tres</span> <span class="fl-note">Thundercat headlines with Channel Tres in support, spanning electronic, indie and world sounds.</span> <span class="fl-close">closes today</span></li>
+      <li data-ends=""><span class="fl-ttl">Hippie Sabotage - 2 Nights</span> <span class="fl-note">Electronic duo Hippie Sabotage plays a two-night run at The Caverns, out in Murfreesboro.</span> <span class="fl-close">closes today</span></li>
+    </ul>
+    <p class="fl-credit">Tracked by <a id="fl-link" href="https://nashville.fleeting.city/?utm_source=embed&utm_medium=referral&utm_campaign=EXP-0143&utm_content=embed_week" target="_blank" rel="noopener">Fleeting</a> -- Nashville's weekly list of time-limited food, drink and events.</p>
+  </div>
+  <script>
+  (function(){
+    try{
+      var q=new URLSearchParams(location.search);
+      var src=(q.get('src')||'').replace(/[^a-z0-9_-]/gi,'').toLowerCase().slice(0,48);
+      if(src){
+        var a=document.getElementById('fl-link');
+        if(a){ a.href=a.href.replace(/utm_source=[^&]*/, 'utm_source='+encodeURIComponent(src)); }
+      }
+    }catch(e){}
+    try{
+      var now=new Date(); now.setHours(0,0,0,0);
+      var nodes=document.querySelectorAll('.fl-embed li[data-ends]');
+      for(var i=0;i<nodes.length;i++){
+        var iso=nodes[i].getAttribute('data-ends'); if(!iso){continue;}
+        var p=iso.split('-'); if(p.length!==3){continue;}
+        var end=new Date(+p[0], +p[1]-1, +p[2]); end.setHours(0,0,0,0);
+        var days=Math.round((end-now)/86400000);
+        var label;
+        if(days<0){ label='closed'; }
+        else if(days===0){ label='closes today'; }
+        else if(days===1){ label='closes tomorrow'; }
+        else { label=days+' days left'; }
+        var span=nodes[i].querySelector('.fl-close');
+        if(span){ span.textContent=label; }
+      }
+    }catch(e){}
+  })();
+  </script>
+</body>
+</html>
