@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steal This Chart: Nashville food-window churn | Fleeting</title>
+<meta name="description" content="A free, repostable chart of Nashville time-limited food-window churn - how many open vs close each month, from Fleeting's weekly crawl. Grab it, post it, credit baked in. CC BY 4.0.">
+<link rel="canonical" href="https://nashville.fleeting.city/steal-this-chart/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Steal This Chart: Nashville food-window churn">
+<meta property="og:description" content="A free, repostable chart of Nashville food-window churn by month. Grab it, post it - the credit is baked in. CC BY 4.0.">
+<meta property="og:url" content="https://nashville.fleeting.city/steal-this-chart/">
+<meta property="og:image" content="https://nashville.fleeting.city/steal-this-chart/chart.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Steal This Chart: Nashville food-window churn">
+<meta name="twitter:description" content="A free, repostable Nashville food-churn chart from Fleeting. Credit baked in. CC BY 4.0.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/steal-this-chart/chart.png">
+<!--
+  Fleeting - Nashville : Steal This Chart (EXP-0145 / LAS-555). A single embeddable
+  food-window churn chart, credit baked into the pixels, built to be reposted. Image
+  built by scripts/build_steal_this_chart.py; the figures come straight from
+  build_churn_rate (EXP-0114) -- complete months only, a sample not a census. Skyline
+  resolved via brand/marks.py and stamped (rules 11/14). Pull surface only, NO alert
+  promise (F-0009); no spend, no outbound (F-0037). First-touch attribution to surface
+  'steal-chart'; subscribe/cite links carry utm_campaign=exp-0145. Strict ASCII.
+-->
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'steal-chart'),
+      m:(q.get('utm_medium')||'image'),
+      c:(q.get('utm_campaign')||'exp-0145'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:760px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:4px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,44px);margin:8px 0 12px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16.5px);max-width:62ch;}
+  .lede b{color:var(--cream);}
+  .chartfig{margin:22px 0 8px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--ink2);}
+  .chartfig img{display:block;width:100%;height:auto;}
+  .grab{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:6px 0 4px;}
+  .hint{font-size:12.5px;color:var(--muted);}
+  .box{margin:26px 0 6px;padding:18px 20px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .box h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin:12px 0 6px;}
+  .box h2:first-child{margin-top:0;}
+  .muted{font-size:12.8px;color:var(--muted);line-height:1.6;}
+  .code{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#cbc5b9;background:#0b0a0d;
+    border:1px solid var(--line);border-radius:8px;padding:11px 13px;margin:6px 0 2px;white-space:pre-wrap;word-break:break-all;}
+  .method{margin:26px 0 6px;}
+  .method p{font-size:12.8px;color:#cbc5b9;line-height:1.72;max-width:70ch;}
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="kicker">Steal this chart</div>
+    <h1>Nashville food windows,<br>opened vs closed<span class="dot">.</span></h1>
+    <p class="lede">In September, 109 opened and 115 closed - net 6 lost. This is the churn cut of Fleeting's weekly crawl, drawn as one image you can repost anywhere. The credit is <b>baked into the picture</b>, so it travels even when the link does not. Free to use under CC BY 4.0.</p>
+    <figure class="chartfig">
+      <img src="chart.png" alt="Grouped bar chart: Nashville time-limited food windows opened versus closed, by month, from Fleeting's weekly crawl" width="1200" height="630">
+    </figure>
+    <div class="grab">
+      <a class="btn" href="chart.png" download>Download the chart (PNG)</a>
+      <span class="hint">Right-click / long-press to save, then post it anywhere.</span>
+    </div>
+    <section class="box">
+      <h2>Embed it</h2>
+      <p class="muted">Paste this where you can use HTML (it links back and keeps the alt text):</p>
+      <pre class="code">&lt;a href="https://nashville.fleeting.city/steal-this-chart/"&gt;&lt;img src="https://nashville.fleeting.city/steal-this-chart/chart.png" alt="Nashville food-window churn by month, from Fleeting" width="1200" height="630"&gt;&lt;/a&gt;</pre>
+      <h2>Credit line</h2>
+      <p class="muted">If your platform strips images of their caption, this is the credit (the image already carries it):</p>
+      <pre class="code">Chart: Fleeting - Nashville (nashville.fleeting.city/churn), CC BY 4.0</pre>
+    </section>
+    <section class="method">
+      <p>The numbers are the same ones on <a href="/churn/">the Fleeting Churn Rate</a>: distinct time-limited food and drink windows from our weekly discovery crawl, counted by the month they opened or closed. We report only calendar months we watched end to end (Jun 25 - Oct 29, 2026) - the partial first month and the current, unfinished month are left out. A short window that opens and closes between two weekly crawls can be missed: this is a sample of the curated windows Fleeting tracks, not a census of every restaurant change in Nashville. Figures and methodology, with JSON and CSV, live on <a href="/churn/">the churn page</a>.</p>
+    </section>
+    <section class="cta">
+      <p><b>Most of these windows close within days.</b> That is the whole reason Fleeting exists. The Thursday list is the week's time-limited Nashville food, drink and events - the ones gone by the weekend - in your inbox while they are still open. One email a week, no alerts.</p>
+      <a class="btn" href="/?utm_source=steal-chart&amp;utm_medium=image&amp;utm_campaign=exp-0145#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Built October 31, 2026. Want the full table? <a href="/churn/">the Fleeting Churn Rate</a>.</p>
+  </div>
+</body>
+</html>
