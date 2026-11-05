@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:an_ozzie_harriett_christmas_with_the_nelsons-20261206@nashville.fleetin
+ g.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261206T190000Z
+DTEND:20261206T210000Z
+SUMMARY:Fleeting: An Ozzie & Harriett Christmas with the Nelsons
+LOCATION:Downtown Franklin
+DESCRIPTION:A Christmas show built around the Nelson family\, scheduled for
+  a Sunday afternoon. Easy to fit in before dinner.\nDetails and tickets: h
+ ttps://downtownfranklintn.com/event/an-ozzie-harriett-christmas-with-the-n
+ elsons/\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/an-ozzie-harriett-christmas-with-t
+ he-nelsons/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

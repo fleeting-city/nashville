@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:caption_by_hyatt_downtown_nashville-20261107@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261108T030000Z
+DTEND:20261108T050000Z
+SUMMARY:Fleeting: Handmade Pasta Class (one night)
+LOCATION:Caption by Hyatt Downtown Nashville\, Downtown
+DESCRIPTION:Three-hour evening pasta class at the Hyatt\, a full night of r
+ olling and cutting by hand. The listing carries a stray September date\, s
+ o confirm the day before booking.\nDetails and tickets: https://nashvilled
+ owntown.com/event/handmade-pasta-class\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://nashvilledowntown.com/event/handmade-pasta-class
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

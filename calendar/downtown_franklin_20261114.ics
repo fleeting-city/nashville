@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261114@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261115T010000Z
+DTEND:20261115T030000Z
+SUMMARY:Fleeting: Larry Sparks and The Lonesome Ramblers (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:A bluegrass night with Larry Sparks and The Lonesome Ramblers. 
+ Two listings appear for the evening\, so look for the right time slot when
+  you book.\nDetails and tickets: https://downtownfranklintn.com/event/larr
+ y-sparks-and-the-lonesome-ramblers/\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/larry-sparks-and-the-lonesome-ramb
+ lers/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

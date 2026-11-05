@@ -1,14 +1,14 @@
 {
   "dataset": "Window Superlatives - Nashville's longest-running fleeting windows",
   "experiment": "EXP-0117",
-  "as_of": "2026-10-28T22:28:45+00:00",
-  "generated": "2026-10-28",
+  "as_of": "2026-11-05T04:57:01+00:00",
+  "generated": "2026-11-05",
   "source": "Fleeting weekly discovery crawl (scripts/out/<date>/candidates.json)",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Data by Fleeting - Nashville",
   "attribution_url": "https://nashville.fleeting.city/superlatives/",
-  "methodology": "A window is a distinct (title, venue) in the crawl record, deduplicated across snapshots. 'Longest running' ranks windows whose stated open AND stated close both fall inside our observation span (first snapshot 2026-06-25 to last snapshot 2026-10-28, never past the build date): a window we watched from its open to its close. Days open is counted inclusively (a one-night window is 1 day). Windows that opened before our record began, or whose close is still in the future, are excluded -- we did not watch them run. Recurring or episodic listings (more than one distinct start date -- a concert run, a monthly series, a re-staged pop-up) are excluded from the longest-running ranking: scattered occurrences are not one continuous open period, so we do not credit them the span from first night to last. They still count toward the neighborhood leaderboard. Windows carrying neither a real venue nor a neighborhood are excluded too -- a public best-of names a place you can check. The neighborhood leaderboard counts distinct windows carrying each neighborhood over the whole record. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event. No number is hand-entered; this is not an all-time list, it is the window we have so far.",
+  "methodology": "A window is a distinct (title, venue) in the crawl record, deduplicated across snapshots. 'Longest running' ranks windows whose stated open AND stated close both fall inside our observation span (first snapshot 2026-06-25 to last snapshot 2026-11-05, never past the build date): a window we watched from its open to its close. Days open is counted inclusively (a one-night window is 1 day). Windows that opened before our record began, or whose close is still in the future, are excluded -- we did not watch them run. Recurring or episodic listings (more than one distinct start date -- a concert run, a monthly series, a re-staged pop-up) are excluded from the longest-running ranking: scattered occurrences are not one continuous open period, so we do not credit them the span from first night to last. They still count toward the neighborhood leaderboard. Windows carrying neither a real venue nor a neighborhood are excluded too -- a public best-of names a place you can check. The neighborhood leaderboard counts distinct windows carrying each neighborhood over the whole record. This is a sample of the curated time-limited windows Fleeting tracks, not a census of every Nashville event. No number is hand-entered; this is not an all-time list, it is the window we have so far.",
   "provenance": {
     "snapshots": [
       "2026-06-25",
@@ -28,22 +28,32 @@
       "2026-10-08",
       "2026-10-15",
       "2026-10-22",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-11-05"
     ],
-    "snapshot_count": 18,
+    "snapshot_count": 19,
     "span_start": "2026-06-25",
-    "span_end": "2026-10-28",
-    "span_days": 126,
-    "windows_total": 3122,
-    "ranked_total": 1134,
-    "neighborhoods_total": 140,
+    "span_end": "2026-11-05",
+    "span_days": 134,
+    "windows_total": 3306,
+    "ranked_total": 1280,
+    "neighborhoods_total": 145,
     "median_days_open": 1.0,
-    "longest_days": 62,
+    "longest_days": 127,
     "shortest_days": 1,
     "guard_ok": true,
     "guard_reasons": []
   },
   "longest_running": [
+    {
+      "title": "Strega Bar Patio Movie Nights",
+      "venue": "Strega",
+      "neighborhood": "Eastwood",
+      "opened": "2026-06-28",
+      "closed": "2026-11-01",
+      "days_open": 127,
+      "rank": 1
+    },
     {
       "title": "Nashville Shores Waterpark",
       "venue": "Nashville Shores Lakeside Resort",
@@ -51,7 +61,16 @@
       "opened": "2026-07-21",
       "closed": "2026-09-20",
       "days_open": 62,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Impractical Magic at Hidden Bar",
+      "venue": "Noelle",
+      "neighborhood": "Downtown",
+      "opened": "2026-09-02",
+      "closed": "2026-10-31",
+      "days_open": 60,
+      "rank": 3
     },
     {
       "title": "Back 2 The Video Store: A 90s Speakeasy Bar",
@@ -60,7 +79,7 @@
       "opened": "2026-07-30",
       "closed": "2026-09-19",
       "days_open": 52,
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Back 2 The Video Store: A 90s Speakeasy Bar - Nashville",
@@ -69,7 +88,7 @@
       "opened": "2026-07-30",
       "closed": "2026-09-19",
       "days_open": 52,
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Fever Candlelight Concerts",
@@ -78,7 +97,25 @@
       "opened": "2026-08-07",
       "closed": "2026-09-27",
       "days_open": 52,
-      "rank": 4
+      "rank": 6
+    },
+    {
+      "title": "Deadlands Haunted House",
+      "venue": "Dead Land Haunted Woods",
+      "neighborhood": null,
+      "opened": "2026-09-18",
+      "closed": "2026-10-31",
+      "days_open": 44,
+      "rank": 7
+    },
+    {
+      "title": "Cheekwood Harvest",
+      "venue": "Cheekwood Botanical Gardens & Estate",
+      "neighborhood": "Bellevue",
+      "opened": "2026-09-19",
+      "closed": "2026-11-01",
+      "days_open": 44,
+      "rank": 8
     },
     {
       "title": "Nashville Shores Waterpark \u2014 End-of-Season Window",
@@ -87,68 +124,32 @@
       "opened": "2026-08-15",
       "closed": "2026-09-20",
       "days_open": 37,
-      "rank": 5
-    },
-    {
-      "title": "CatVideoFest 2026",
-      "venue": "",
-      "neighborhood": "Franklin",
-      "opened": "2026-08-09",
-      "closed": "2026-09-13",
-      "days_open": 36,
-      "rank": 6
-    },
-    {
-      "title": "A Midsummer Night's Dream (Donate What You Will)",
-      "venue": "Centennial Park",
-      "neighborhood": "Midtown",
-      "opened": "2026-08-20",
-      "closed": "2026-09-20",
-      "days_open": 32,
-      "rank": 7
-    },
-    {
-      "title": "Shakespeare in the Park: A Midsummer Night's Dream",
-      "venue": "Centennial Park",
-      "neighborhood": "Midtown",
-      "opened": "2026-08-20",
-      "closed": "2026-09-20",
-      "days_open": 32,
-      "rank": 8
-    },
-    {
-      "title": "Treat a Pal! BOGO in the Gardens",
-      "venue": "Cheekwood Botanical Gardens & Estate",
-      "neighborhood": "Belle Meade",
-      "opened": "2026-07-01",
-      "closed": "2026-07-31",
-      "days_open": 31,
       "rank": 9
     },
     {
-      "title": "Murder with a Side of Meatballs",
-      "venue": "The Escape Game \u2013 Berry Hill",
-      "neighborhood": "Berry Hill",
-      "opened": "2026-07-02",
-      "closed": "2026-07-31",
-      "days_open": 30,
+      "title": "Honeysuckle Fall Festival",
+      "venue": "Honeysuckle Hill Farm",
+      "neighborhood": null,
+      "opened": "2026-09-26",
+      "closed": "2026-11-01",
+      "days_open": 37,
       "rank": 10
     }
   ],
   "busiest_neighborhoods": [
     {
       "neighborhood": "Downtown",
-      "windows": 655,
+      "windows": 695,
       "rank": 1
     },
     {
       "neighborhood": "East Nashville",
-      "windows": 166,
+      "windows": 170,
       "rank": 2
     },
     {
       "neighborhood": "Franklin",
-      "windows": 153,
+      "windows": 165,
       "rank": 3
     },
     {
@@ -157,23 +158,23 @@
       "rank": 4
     },
     {
-      "neighborhood": "SoBro",
-      "windows": 88,
+      "neighborhood": "Midtown",
+      "windows": 94,
       "rank": 5
     },
     {
-      "neighborhood": "Midtown",
-      "windows": 87,
+      "neighborhood": "SoBro",
+      "windows": 92,
       "rank": 6
     },
     {
       "neighborhood": "Germantown",
-      "windows": 76,
+      "windows": 81,
       "rank": 7
     },
     {
       "neighborhood": "Downtown Franklin",
-      "windows": 65,
+      "windows": 76,
       "rank": 8
     }
   ]

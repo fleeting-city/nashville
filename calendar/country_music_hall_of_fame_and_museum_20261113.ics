@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261113@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261114T013000Z
+DTEND:20261114T033000Z
+SUMMARY:Fleeting: Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks
+  (one night)
+LOCATION:Country Music Hall of Fame and Museum\, SoBro
+DESCRIPTION:The Jayhawks mark four decades with Mary Gauthier opening. A on
+ e-night anniversary set in the museum's hall.\nDetails and tickets: https:
+ //patch.com/tennessee/nashville/calendar/event/20261113/0a0e431f-3962-4508
+ -947f-e6e76654dcca/sanctuary-park-tour-celebrating-40-years-of-the-jayhawk
+ s-with-special-guest-mary-gauthier\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261113/0a0e431f-
+ 3962-4508-947f-e6e76654dcca/sanctuary-park-tour-celebrating-40-years-of-th
+ e-jayhawks-with-special-guest-mary-gauthier
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

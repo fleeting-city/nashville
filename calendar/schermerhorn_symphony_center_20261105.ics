@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:schermerhorn_symphony_center-20261105@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261106T000000Z
+DTEND:20261106T020000Z
+SUMMARY:Fleeting: Harry Potter and the Prisoner of Azkaban in Concert (one 
+ night)
+LOCATION:Schermerhorn Symphony Center\, SoBro
+DESCRIPTION:The Nashville Symphony plays the film's score live. The run is 
+ short\, with several performances listed starting this week.\nDetails and 
+ tickets: https://allevents.in/nashville/nashville-symphony-harry-potter-an
+ d-the-prisoner-of-azkaban-in-concert-at-schermerhorn-symphony-cent/2400029
+ 856100330\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/nashville-symphony-harry-potter-and-the-
+ prisoner-of-azkaban-in-concert-at-schermerhorn-symphony-cent/2400029856100
+ 330
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

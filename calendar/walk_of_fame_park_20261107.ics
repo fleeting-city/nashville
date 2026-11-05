@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:walk_of_fame_park-20261107@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T230000Z
+DTEND:20261108T010000Z
+SUMMARY:Fleeting: Hoop Nashville Pop-Up (one night)
+LOCATION:Walk of Fame Park\, Downtown
+DESCRIPTION:Arcade-style basketball hoops go up in Walk of Fame Park\, and 
+ anyone can stop by to shoot for free. Bring a friend to challenge and chas
+ e the high score\, 3 to 5 PM\, weather permitting.\nDetails and tickets: h
+ ttps://nashvilledowntown.com/event/hoop-nashville-pop-up\nWindows drift - 
+ confirm with the venue before you go.\nFleeting - the weekly Nashville wha
+ t-closes-first list.
+URL:https://nashvilledowntown.com/event/hoop-nashville-pop-up
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

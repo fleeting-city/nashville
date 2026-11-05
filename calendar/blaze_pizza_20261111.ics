@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:blaze_pizza-20261111@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Fleeting: Free Veterans Pizza Day (one night)
+LOCATION:Blaze Pizza
+DESCRIPTION:Veterans and active-duty military get one free one-topping pizz
+ a at participating locations on Wednesday\, Nov 11. The article gives no I
+ D or dine-in rules\, so call your location first.\nDetails and tickets: ht
+ tps://williamsonsource.com/blaze-pizza-gives-veterans-a-free-pizza-on-nove
+ mber-11/\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/blaze-pizza-gives-veterans-a-free-pizza-on
+ -november-11/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

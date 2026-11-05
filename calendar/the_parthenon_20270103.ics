@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20270103@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Last day: Candlelight: Featuring Vivaldi's Four Seasons & More
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:Vivaldi's best-known work and more\, performed by candlelight o
+ ver the holidays. The cheapest ticket in the batch\, from $27.46.\nDetails
+  and tickets: https://feverup.com/m/123200\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
+URL:https://feverup.com/m/123200
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

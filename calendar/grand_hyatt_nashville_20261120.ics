@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:grand_hyatt_nashville-20261120@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Curling Over Broadway (one night)
+LOCATION:Grand Hyatt Nashville\, Downtown
+DESCRIPTION:A holiday curling pop-up at a downtown hotel\, which is a fairl
+ y specific way to spend a winter evening. Listing gives no price or end da
+ te.\nDetails and tickets: https://nashvilleguru.com/businesses/curling-ove
+ r-broadway-at-grand-hyatt-nashville\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/curling-over-broadway-at-grand-hya
+ tt-nashville
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

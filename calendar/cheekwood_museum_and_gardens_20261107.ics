@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cheekwood_museum_and_gardens-20261107@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Fleeting: Cheekwood Gardening School: Backyard Conservation (one ni
+ ght)
+LOCATION:Cheekwood Museum and Gardens
+DESCRIPTION:A class on how gardening choices affect wildlife\, including bi
+ rds and pollinators.\nDetails and tickets: https://nashvillelife.com/Cheek
+ wood-Gardening-School-Backyard-Conservation/Nashville-Calendar\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
+URL:https://nashvillelife.com/Cheekwood-Gardening-School-Backyard-Conservat
+ ion/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

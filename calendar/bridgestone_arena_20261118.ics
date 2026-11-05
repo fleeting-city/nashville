@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261118@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261119T010000Z
+DTEND:20261119T030000Z
+SUMMARY:Fleeting: The 60th Annual CMA Awards (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:The 60th edition of the CMA Awards\, held at the downtown arena
+ . A milestone year for the biggest night in country music.\nDetails and ti
+ ckets: https://allevents.in/nashville/the-60th-annual-cma-awards/210003560
+ 499458\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/the-60th-annual-cma-awards/2100035604994
+ 58
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

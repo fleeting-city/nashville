@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tennessee_central_railway_museum-20261128@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Fleeting: Santa Express Excursion Train (one night)
+LOCATION:Tennessee Central Railway Museum\, Hermitage Ave
+DESCRIPTION:Holiday excursion train rides with three departures on the day\
+ , run by the railway museum.\nDetails and tickets: https://allevents.in/na
+ shville/santa-express-excursion-train-morning-trip/200030571976627\nWindow
+ s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
+ hville what-closes-first list.
+URL:https://allevents.in/nashville/santa-express-excursion-train-morning-tr
+ ip/200030571976627
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

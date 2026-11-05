@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery_nashville-20261113@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261114T000000Z
+DTEND:20261114T020000Z
+SUMMARY:Fleeting: GRAMMY Award Winner Avery*Sunshine (one night)
+LOCATION:City Winery Nashville\, Pie Town
+DESCRIPTION:Avery*Sunshine\, who won the 2025 GRAMMY for Best Progressive R
+ &B Album with So Glad to Know You\, plays soul and R&B at the piano with w
+ ine and dinner. There are two shows\, 6 PM and 9:30 PM.\nDetails and ticke
+ ts: https://patch.com/tennessee/nashville/calendar/event/20261113/29f426b4
+ -4057-4f04-b957-f69e5d2695b6/grammy-award-winner-avery-sunshine\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261113/29f426b4-
+ 4057-4f04-b957-f69e5d2695b6/grammy-award-winner-avery-sunshine
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

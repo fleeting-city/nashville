@@ -1,8 +1,648 @@
 {
   "append_only": true,
-  "as_of": "2026-10-30T12:18:10+00:00",
+  "as_of": "2026-11-04T12:09:09+00:00",
   "dataset": "The Closings Record - Fleeting",
   "events": [
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_williamson_county",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Williamson County Christmas",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_unwrapped_special_film_sight_with_dr_ming_wang",
+      "recorded_at": "2026-11-04",
+      "summary": "Added UNWRAPPED + Special Film \"SIGHT\" with Dr. Ming Wang",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_tpac_andrew_jackson_hall",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Nashville Nutcracker",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_the_rux",
+      "recorded_at": "2026-11-04",
+      "summary": "Added The Art and Elegance of Bordeaux Wines: Vignobles Arbo Tasting",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_the_piano_men_live",
+      "recorded_at": "2026-11-04",
+      "summary": "Added The Piano Men Live",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_the_nashville_palace",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Music City Writer's Round Benefit",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_the_melting_pot",
+      "recorded_at": "2026-11-04",
+      "summary": "Added The Melting Pot returns to downtown Nashville",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_the_fairgrounds_nashville_expo_center",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Jurassic Quest",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_tennessee_wildlife_federation",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Free Wildlife Town Hall",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_tanger_outlets_nashville",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Making Spirits Bright Tree Lighting Celebration",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_slide_hustle_on_3rd",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Slide Hustle on 3rd",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_skin_pharm_nashville",
+      "recorded_at": "2026-11-04",
+      "summary": "Added A Fall Reset with Skin Pharm, Gus Mayer, Mama Mahjong & Merry-Go-Mahjong",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_savas",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Crafted Together with Savas x Nest",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_sam_davis_home",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Haunted History Tours at Sam Davis Home",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_rock_the_halls_a_christmas_celebration_with_rich",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Rock the Halls: A Christmas Celebration with Rich Jacques and Friends",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_redneck_riviera_bar_bbq",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Veterans Day at Redneck Riviera",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_pink_floyd_laser_show_the_dark_side_of_the_moon",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Pink Floyd Laser Show: The Dark Side of the Moon",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_percy_warner_park",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Iroquois Steeplechase",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_parnassus_books",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Author event with Dusty Slay",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_ole_red_nashville",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Matt Rogers",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_nonna_notti_italian_market_deli",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Nonna Notti Wine Dinner",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_nashville_venue_not_stated",
+      "recorded_at": "2026-11-04",
+      "summary": "Added From Grape to Grandeur: The Nebbiolo Story",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_morgan_wallen_s_sand_in_my_boots_festival",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Sand in My Boots Festival 2027",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_monty_criswell_two_weeks_at_a_time_book_launch_w",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Monty Criswell \"Two Weeks at a Time\" Book Launch with special guest Trace Adkins",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_merriest_main_street",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Merriest Main Street",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_mary_louise_s_social_club_at_tempo_by_hilton_nas",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Handmade Pasta Making Class with Chef Taylor",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_made_south",
+      "recorded_at": "2026-11-04",
+      "summary": "Added MADE SOUTH Holiday Market",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_lou_na",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Grand & Gilded",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_london_s_lights",
+      "recorded_at": "2026-11-04",
+      "summary": "Added London's Lights",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_little_hats_italian_market",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Little Hats Italian Market opening Murfreesboro deli",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_join_us_bouissiere_wines_from_gigondas_france",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Join Us: Bouissiere Wines from Gigondas, France",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_jefferson_mcdonald_holiday_show",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Jefferson McDonald Holiday Show",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_ingram_whiskey",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Ingram Whiskey River-Aged Bourbon Experience Giveaway",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_holiday_market_at_the_mansion",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Holiday Market at the Mansion",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_hieber_farms",
+      "recorded_at": "2026-11-04",
+      "summary": "Added The Hideaway at Hieber Farms' Christmas",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_handmade_nashville",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Handmade Nashville Holiday Market",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_guitar_build_workshop",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Salemtown Fall Festival",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_green_door_gourmet",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Green Door Gourmet Holiday Pop-Up Market",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_glow_wild",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Glow Wild",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_glenn_miller_orchestra",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Glenn Miller Orchestra",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_gathre",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Foodies + New Friends: Giving Back Edition",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_gallatin_comic_con_2026",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Gallatin Comic Con 2026",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_franktown_festival_of_lights",
+      "recorded_at": "2026-11-04",
+      "summary": "Added FrankTown Festival of Lights",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_fairlane_hotel_nashville",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Backstage at Fairlane Hotel",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_eternity_advance_screening",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Eternity: Exclusive Advance Screening",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_elmo_s_got_the_moves",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Elmo's Got the Moves!",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_d_andrews_bakery_cafe",
+      "recorded_at": "2026-11-04",
+      "summary": "Added D'Andrews Bakery & Cocorico Collaboration Dinner",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_crafty_bastards",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Crafty Bastards Fall Arts and Crafts Fair",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_cheekwood_museum_and_gardens",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Cheekwood Harvest",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_chad_s_winter_wonderland",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Chad's Winter Wonderland",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_centennial_holiday_craft_show",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Centennial Holiday Craft Show",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_caption_by_hyatt_downtown_nashville",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Handmade Pasta Class",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_canvas_skin",
+      "recorded_at": "2026-11-04",
+      "summary": "Added A Canvas Classic Christmas",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_butcher_bee",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Russ & Daughters Brunch",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_bluebird_on_the_mountain",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Nashville Opera on the Mountain",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_blaze_pizza",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Free Veterans Pizza Day",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_birdie_s_wine_bar",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Birdie's Wine Wednesday: Oyster Edition",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_bass_pro_shops",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Santa's Wonderland",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_ann_wilson_documentary_with_director_q_a",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Ann Wilson Documentary with Director Q&A",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_an_ozzie_harriett_christmas_with_the_nelsons",
+      "recorded_at": "2026-11-04",
+      "summary": "Added An Ozzie & Harriett Christmas with the Nelsons",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_adventure_science_center",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Veterans and Military Family Night",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_a_celtic_christmas",
+      "recorded_at": "2026-11-04",
+      "summary": "Added A Celtic Christmas",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_624_n_walnut_st",
+      "recorded_at": "2026-11-04",
+      "summary": "Added SpaLiday Preview Party",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261105_512_lea_ave",
+      "recorded_at": "2026-11-04",
+      "summary": "Added Boozy Sundae Decorating Class",
+      "supersedes": null,
+      "version": 1
+    },
     {
       "change": "created",
       "changed_fields": [],
@@ -11068,8 +11708,8 @@
   "id_scheme": "<city>/<window_id> - permanent, never reused or renumbered, namespaced per city so ids never collide across cities",
   "totals": {
     "corrections": 0,
-    "distinct_records": 1106,
-    "records_created": 1106,
-    "version_events": 1106
+    "distinct_records": 1170,
+    "records_created": 1170,
+    "version_events": 1170
   }
 }

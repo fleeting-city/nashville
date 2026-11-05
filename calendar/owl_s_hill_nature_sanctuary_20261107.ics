@@ -7,16 +7,18 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:owl_s_hill_nature_sanctuary-20261107@nashville.fleeting.city
-DTSTAMP:20261028T222851Z
+DTSTAMP:20261105T045715Z
 DTSTART:20261107T160000Z
 DTEND:20261107T180000Z
-SUMMARY:Fleeting: Owl Day (one night)
+SUMMARY:Fleeting: Owl Day at Owl's Hill Nature Sanctuary (one night)
 LOCATION:Owl's Hill Nature Sanctuary
-DESCRIPTION:A three-hour morning devoted to owls at the sanctuary.\nDetails
-  and tickets: https://nashvillelife.com/Owl-Day/Nashville-Calendar\nWindow
- s drift - confirm with the venue before you go.\nFleeting - the weekly Nas
- hville what-closes-first list.
-URL:https://nashvillelife.com/Owl-Day/Nashville-Calendar
+DESCRIPTION:A themed Saturday morning at the sanctuary\, 10 AM to 1 PM\, de
+ dicated to owls. Pairs with a weekend of fall hikes there.\nDetails and ti
+ ckets: https://nashvilleparent.com/event/owl-day-at-owls-hill-nature-sanct
+ uary/\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://nashvilleparent.com/event/owl-day-at-owls-hill-nature-sanctuary
+ /
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

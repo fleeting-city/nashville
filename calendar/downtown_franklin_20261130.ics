@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261130@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261201T010000Z
+DTEND:20261201T030000Z
+SUMMARY:Fleeting: Christmas with the Celts (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:A one-hour Celtic Christmas show on a Monday night. Short enoug
+ h to slot in around a regular work week.\nDetails and tickets: https://dow
+ ntownfranklintn.com/event/christmas-with-the-celts/\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://downtownfranklintn.com/event/christmas-with-the-celts/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

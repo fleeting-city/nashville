@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261122@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261123T010000Z
+DTEND:20261123T030000Z
+SUMMARY:Fleeting: Jon McLaughlin: Home For The Holidays (one night)
+LOCATION:Downtown Franklin\, Downtown Franklin
+DESCRIPTION:Jon McLaughlin brings a holiday concert on a Sunday night\, one
+  of the first of the season's Christmas shows in town. Listed through 10:3
+ 0 PM.\nDetails and tickets: https://downtownfranklintn.com/event/jon-mclau
+ ghlin-home-for-the-holidays/\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/jon-mclaughlin-home-for-the-holida
+ ys/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

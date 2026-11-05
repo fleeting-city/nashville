@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_venue_not_stated-20261114@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fleeting: From Grape to Grandeur: The Nebbiolo Story (one night)
+LOCATION:Nashville (venue not stated)
+DESCRIPTION:A tasting on Nebbiolo\, the grape behind Piemonte's winemaking 
+ identity\, covering wines from perfumed to powerful. Worth it if Barolo is
+  on your list.\nDetails and tickets: https://nashvillelife.com/Grape-Grand
+ eur-Nebbiolo-Story/Nashville-Calendar\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://nashvillelife.com/Grape-Grandeur-Nebbiolo-Story/Nashville-Calen
+ dar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

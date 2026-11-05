@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20261105@nashville.fleeting.c
+ ity
+DTSTAMP:20261105T045715Z
+DTSTART:20261105T193000Z
+DTEND:20261105T213000Z
+SUMMARY:Fleeting: Gallery Albertine Exhibit Opening & Discussion (one night
+ )
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:Opening of a new gallery exhibit paired with a discussion\, hel
+ d over a lunch hour.\nDetails and tickets: https://nashvilledowntown.com/e
+ vent/gallery-albertine-exhibit-opening-and-discussion\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://nashvilledowntown.com/event/gallery-albertine-exhibit-opening-a
+ nd-discussion
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

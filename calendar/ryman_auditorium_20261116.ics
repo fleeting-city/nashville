@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261116@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261117T013000Z
+DTEND:20261117T033000Z
+SUMMARY:Fleeting: Drake White's Benefit for the Brain (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:A one-night benefit hosted by Drake White at the Ryman. Monday 
+ evening only.\nDetails and tickets: https://nashvillego.com/calendar\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

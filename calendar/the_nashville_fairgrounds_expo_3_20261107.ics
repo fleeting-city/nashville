@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_nashville_fairgrounds_expo_3-20261107@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T170000Z
+DTEND:20261107T190000Z
+SUMMARY:Fleeting: Nashville Holiday Market (one night)
+LOCATION:The Nashville Fairgrounds: EXPO 3\, Fairgrounds
+DESCRIPTION:A holiday market in the Expo 3 building at the Fairgrounds\, op
+ ening Saturday morning. Early shopping for gifts from local vendors. The t
+ ext states no end date or price.\nDetails and tickets: https://patch.com/t
+ ennessee/nashville/calendar/event/20261107/4c618c4d-f151-4cb3-abd2-db8962b
+ 31b67/nashville-holiday-market\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261107/4c618c4d-
+ f151-4cb3-abd2-db8962b31b67/nashville-holiday-market
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

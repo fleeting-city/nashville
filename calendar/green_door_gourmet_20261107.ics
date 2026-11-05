@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:green_door_gourmet-20261107@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T160000Z
+DTEND:20261107T180000Z
+SUMMARY:Fleeting: Green Door Gourmet Holiday Pop-Up Market (one night)
+LOCATION:Green Door Gourmet
+DESCRIPTION:A certified-organic farm along the Cumberland River opens for o
+ ne day of hand-crafted gifts\, food and more. It is free and all ages\, 10
+  AM to 3 PM\, and there is no second Saturday.\nDetails and tickets: https
+ ://nashvilleparent.com/event/green-door-gourmet-holiday-pop-up-market/\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://nashvilleparent.com/event/green-door-gourmet-holiday-pop-up-mar
+ ket/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

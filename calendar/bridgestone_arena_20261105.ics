@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261105@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261106T013000Z
+DTEND:20261106T033000Z
+SUMMARY:Fleeting: Jonas Brothers (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:One-night arena show listed at 7:30 PM. The calendar does not m
+ ention tickets or prices\, so check before you plan around it.\nDetails an
+ d tickets: https://nashvilleparent.com/event/jonas-brothers-at-bridgestone
+ -arena/\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
+URL:https://nashvilleparent.com/event/jonas-brothers-at-bridgestone-arena/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

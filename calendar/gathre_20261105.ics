@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:gathre-20261105@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261106T010000Z
+DTEND:20261106T030000Z
+SUMMARY:Fleeting: Foodies + New Friends: Giving Back Edition (one night)
+LOCATION:Gathre
+DESCRIPTION:A group dinner with strangers who like to eat\, billed as a giv
+ ing back edition. The listing hints this run is ending soon\, and sales ar
+ e closing.\nDetails and tickets: https://www.eventbrite.com/e/foodies-new-
+ friends-nashville-giving-back-edition-while-we-still-can-tickets-200371935
+ 6534?aff=ebdssbdestsearch\nWindows drift - confirm with the venue before y
+ ou go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/foodies-new-friends-nashville-giving-back-
+ edition-while-we-still-can-tickets-2003719356534?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

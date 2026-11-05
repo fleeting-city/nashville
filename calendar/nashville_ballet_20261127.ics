@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_ballet-20261127@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Fleeting: Nashville's Nutcracker (one night)
+LOCATION:Nashville Ballet
+DESCRIPTION:The company's holiday staple\, with matinees on Nov 27 and 28 a
+ nd again on Dec 5\, which also adds a 7 PM show.\nDetails and tickets: htt
+ ps://www.nashvilleparent.com/calendar\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

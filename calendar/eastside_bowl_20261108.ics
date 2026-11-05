@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261108@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Fleeting: The Totally Rad Collectors Market (one night)
+LOCATION:Eastside Bowl\, Madison
+DESCRIPTION:A collectors market set up inside the bowling alley on Sunday a
+ fternoon. Good for browsing\, and the listing gives no vendor details.\nDe
+ tails and tickets: https://nashvillego.com/calendar\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

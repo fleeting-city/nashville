@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:owl_s_hill_nature_sanctuary-20261121@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Last day: Fall Color Hikes
+LOCATION:Owl's Hill Nature Sanctuary
+DESCRIPTION:Guided fall color hikes on select Saturdays. Three dates left t
+ his season.\nDetails and tickets: https://nashvillelife.com/Fall-Color-Hik
+ es-at-Owls-Hill/Nashville-Calendar\nWindows drift - confirm with the venue
+  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Fall-Color-Hikes-at-Owls-Hill/Nashville-Calen
+ dar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_hermitage-20261114@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Last day: Field of Honor
+LOCATION:The Hermitage\, Hermitage
+DESCRIPTION:A ten-day Veterans Day season display on the grounds of Andrew 
+ Jackson's home. Details beyond the dates are not listed.\nDetails and tick
+ ets: https://nashvillelife.com/Field-Honor-at-Andrew-Jacksons-Hermitage/Na
+ shville-Calendar\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Field-Honor-at-Andrew-Jacksons-Hermitage/Nash
+ ville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

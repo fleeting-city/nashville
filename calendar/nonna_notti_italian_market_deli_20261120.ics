@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nonna_notti_italian_market_deli-20261120@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261121T003000Z
+DTEND:20261121T023000Z
+SUMMARY:Fleeting: Nonna Notti Wine Dinner (one night)
+LOCATION:Nonna Notti Italian Market & Deli
+DESCRIPTION:A one-night wine dinner at an Italian market and deli\, where t
+ he pairings come from the shelves around you.\nDetails and tickets: https:
+ //www.eventbrite.com/e/nonna-notti-wine-dinner-tickets-2003925270428?aff=e
+ bdssbdestsearch\nWindows drift - confirm with the venue before you go.\nFl
+ eeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nonna-notti-wine-dinner-tickets-2003925270
+ 428?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement-20261112@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261113T010000Z
+DTEND:20261113T030000Z
+SUMMARY:Fleeting: Give A Crap\, Nashville (one night)
+LOCATION:The Basement\, 8th Ave South
+DESCRIPTION:Kelsi Mayne\, Hollye B and Shannon McNally play a benefit night
+ . One show only.\nDetails and tickets: https://nashvillego.com/calendar\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

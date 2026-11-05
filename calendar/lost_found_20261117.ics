@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:lost_found-20261117@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Fleeting: Danny DeVito Day (one night)
+LOCATION:Lost & Found
+DESCRIPTION:An evening devoted to Danny DeVito for his 82nd birthday.\nDeta
+ ils and tickets: https://nashvillelife.com/Danny-DeVito-Day-at-Lost-Found/
+ Nashville-Calendar\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Danny-DeVito-Day-at-Lost-Found/Nashville-Cale
+ ndar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

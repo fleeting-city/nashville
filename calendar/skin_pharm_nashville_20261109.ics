@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:skin_pharm_nashville-20261109@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261110T000000Z
+DTEND:20261110T020000Z
+SUMMARY:Fleeting: A Fall Reset with Skin Pharm\, Gus Mayer\, Mama Mahjong &
+  Merry-Go-Mahjong (one night)
+LOCATION:Skin Pharm Nashville\, Hillsboro-Belmont
+DESCRIPTION:A Monday evening collaboration between a skincare shop\, a reta
+ iler and two mahjong outfits. Four brands share one room for a single nigh
+ t.\nDetails and tickets: https://www.eventbrite.com/e/a-fall-reset-with-sk
+ in-pharm-gus-mayer-mama-mahjong-merry-go-mahjong-tickets-2003796166274?aff
+ =ebdssbdestsearch\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/a-fall-reset-with-skin-pharm-gus-mayer-mam
+ a-mahjong-merry-go-mahjong-tickets-2003796166274?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

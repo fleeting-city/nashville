@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:aquarium_restaurant-20261205@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+SUMMARY:Fleeting: Breakfast with Santa (one night)
+LOCATION:Aquarium Restaurant\, Opryland
+DESCRIPTION:A morning meal with Santa at the Aquarium Restaurant\, with thr
+ ee dates listed. Free.\nDetails and tickets: https://allevents.in/nashvill
+ e/aquarium-nashville-breakfast-with-santa/100002004095122460\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://allevents.in/nashville/aquarium-nashville-breakfast-with-santa/
+ 100002004095122460
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

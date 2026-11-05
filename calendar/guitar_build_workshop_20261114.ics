@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:guitar_build_workshop-20261114@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fleeting: Salemtown Fall Festival (one night)
+LOCATION:Guitar Build Workshop\, Salemtown
+DESCRIPTION:A neighborhood fall festival held at a guitar workshop. Free to
+  attend.\nDetails and tickets: https://allevents.in/nashville/salemtown-fa
+ ll-festival/100002003683257561\nWindows drift - confirm with the venue bef
+ ore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/salemtown-fall-festival/1000020036832575
+ 61
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

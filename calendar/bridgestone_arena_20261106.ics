@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261106@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T013000Z
+DTEND:20261107T033000Z
+SUMMARY:Fleeting: Dave Matthews Band (one night)
+LOCATION:Bridgestone Arena\, Downtown
+DESCRIPTION:One Friday night at the arena for Dave Matthews Band\, with no 
+ second show listed.\nDetails and tickets: https://nashvilleparent.com/even
+ t/dave-matthews-band-at-bridgestone-arena/\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
+URL:https://nashvilleparent.com/event/dave-matthews-band-at-bridgestone-are
+ na/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

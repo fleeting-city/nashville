@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:glenn_miller_orchestra-20261106@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T020000Z
+DTEND:20261107T040000Z
+SUMMARY:Fleeting: Glenn Miller Orchestra
+LOCATION:Downtown Franklin
+DESCRIPTION:Big band standards played by an orchestra built around a famous
+  name. A one-evening slot on a Friday\, if swing is your speed.\nDetails a
+ nd tickets: https://downtownfranklintn.com/event/glenn-miller-orchestra/\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/glenn-miller-orchestra/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

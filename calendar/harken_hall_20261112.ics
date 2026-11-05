@@ -7,23 +7,23 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:harken_hall-20261112@nashville.fleeting.city
-DTSTAMP:20261028T222851Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Fleeting: Music City Iron Fork (one night)
+DTSTAMP:20261105T045715Z
+DTSTART:20261113T000000Z
+DTEND:20261113T020000Z
+SUMMARY:Fleeting: Iron Fork Nashville 2026: Live Culinary Competition & Tas
+ ting Event (one night)
 LOCATION:Harken Hall
-DESCRIPTION:Four leading chefs battle for the top prize while you sample fo
- od from 20 restaurants plus wine and beer purveyors. Eating is the audienc
- e participation part.\nDetails and tickets: https://www.musiccityfoodandwi
- nefest.com/ironfork?utm_source=ActiveCampaign&utm_medium=email&utm_content
- =Don%20t%20Miss%20Iron%20Fork%20on%20November%2012%21&utm_campaign=Iron%20
- Fork%20-%20sampling%20restaurants%20%28Copy%29\nWindows drift - confirm wi
- th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
- irst list.
-URL:https://www.musiccityfoodandwinefest.com/ironfork?utm_source=ActiveCamp
- aign&utm_medium=email&utm_content=Don%20t%20Miss%20Iron%20Fork%20on%20Nove
- mber%2012%21&utm_campaign=Iron%20Fork%20-%20sampling%20restaurants%20%28Co
- py%29
+DESCRIPTION:Four local chefs cook one dish around a secret ingredient for a
+  panel of judges\, while you eat unlimited bites from 20 restaurants plus 
+ wine\, beer and craft cocktails. Live auctions benefit local nonprofits. I
+ t is one night\, 6 to 9 PM.\nDetails and tickets: https://patch.com/tennes
+ see/nashville/calendar/event/20261112/78b544f6-7ffb-4db1-81bc-7418e0ef92d7
+ /iron-fork-nashville-2026-live-culinary-competition-tasting-event\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261112/78b544f6-
+ 7ffb-4db1-81bc-7418e0ef92d7/iron-fork-nashville-2026-live-culinary-competi
+ tion-tasting-event
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

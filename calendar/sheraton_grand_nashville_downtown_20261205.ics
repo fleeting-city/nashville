@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:sheraton_grand_nashville_downtown-20261205@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+SUMMARY:Fleeting: AZAZIE Nashville Pop-up (one night)
+LOCATION:Sheraton Grand Nashville Downtown\, Downtown
+DESCRIPTION:Try on 50+ wedding dress styles and 100+ bridesmaid styles\, an
+ d take your pick home the same day. General admission is free with 15% off
+  in-store\; early access at 9 AM is $40 and includes a private fitting roo
+ m.\nDetails and tickets: https://www.eventbrite.com/e/2026-dec-5-azazie-na
+ shville-pop-up-free-tickets-available-tickets-2003692911436?aff=ebdssbdest
+ search\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/2026-dec-5-azazie-nashville-pop-up-free-ti
+ ckets-available-tickets-2003692911436?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

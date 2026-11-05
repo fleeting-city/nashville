@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:savas-20261112@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261112T220000Z
+DTEND:20261113T000000Z
+SUMMARY:Fleeting: Crafted Together with Savas x Nest (one night)
+LOCATION:SAVAS
+DESCRIPTION:Shop\, meet local makers and eat light bites while hearing how 
+ Nest supports artisan businesses. A portion of sales goes to Nest\, so the
+  browsing counts for something.\nDetails and tickets: https://patch.com/te
+ nnessee/nashville/calendar/event/20261112/1169164f-c583-43de-81a4-71f99511
+ 001e/crafted-together-with-savas-x-nest\nWindows drift - confirm with the 
+ venue before you go.\nFleeting - the weekly Nashville what-closes-first li
+ st.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261112/1169164f-
+ c583-43de-81a4-71f99511001e/crafted-together-with-savas-x-nest
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

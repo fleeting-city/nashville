@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:assembly_food_hall-20261108@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261108T200000Z
+DTEND:20261108T220000Z
+SUMMARY:Fleeting: Petals & Pours: An Autumn Floral Workshop & Cocktail Expe
+ rience (one night)
+LOCATION:Assembly Food Hall\, Downtown
+DESCRIPTION:An autumn flower arranging workshop paired with cocktails. A Su
+ nday midday plan that ends with something to take home and a drink in hand
+ .\nDetails and tickets: https://nashvilledowntown.com/event/petals-and-pou
+ rs-an-autumn-floral-workshop-and-cocktail-experience\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://nashvilledowntown.com/event/petals-and-pours-an-autumn-floral-w
+ orkshop-and-cocktail-experience
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

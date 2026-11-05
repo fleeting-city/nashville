@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:franklin_theatre-20261119@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261120T010000Z
+DTEND:20261120T030000Z
+SUMMARY:Fleeting: The Franklin Theatre Songwriters Series: Elvie Shane host
+ s Nashville Basement Stage Songwriters with La Vie Quartet (one night)
+LOCATION:Franklin Theatre\, Downtown Franklin
+DESCRIPTION:Elvie Shane hosts a round of Nashville Basement Stage songwrite
+ rs\, with La Vie Quartet joining. Songwriter nights are the Nashville trad
+ ition in its natural habitat\, here for one evening only.\nDetails and tic
+ kets: https://downtownfranklintn.com/event/the-franklin-theatre-songwriter
+ s-series-elvie-shane-hosts-nashville-basement-stage-songwriters-with-la-vi
+ e-quartet/\nWindows drift - confirm with the venue before you go.\nFleetin
+ g - the weekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/the-franklin-theatre-songwriters-s
+ eries-elvie-shane-hosts-nashville-basement-stage-songwriters-with-la-vie-q
+ uartet/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

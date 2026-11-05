@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:d_andrews_bakery_cafe-20261111@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261112T003000Z
+DTEND:20261112T023000Z
+SUMMARY:Fleeting: D'Andrews Bakery & Cocorico Collaboration Dinner (one nig
+ ht)
+LOCATION:D'Andrews Bakery & Cafe
+DESCRIPTION:A one-night dinner pairing a local bakery with Cocorico in the 
+ kitchen. Just added to the listings\, so seats are likely still open.\nDet
+ ails and tickets: https://www.eventbrite.com/e/dandrews-bakery-cocorico-co
+ llaboration-dinner-tickets-2003985376206?aff=ebdssbdestsearch\nWindows dri
+ ft - confirm with the venue before you go.\nFleeting - the weekly Nashvill
+ e what-closes-first list.
+URL:https://www.eventbrite.com/e/dandrews-bakery-cocorico-collaboration-din
+ ner-tickets-2003985376206?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

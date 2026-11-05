@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:alligator_bar-20261120@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Life at the Lodge (one night)
+LOCATION:Alligator Bar\, The Nations
+DESCRIPTION:A lodge-themed holiday pop-up setting up in The Nations. The li
+ sting does not say what is served or when it closes.\nDetails and tickets:
+  https://nashvilleguru.com/businesses/life-at-the-lodge-at-alligator-bar\n
+ Windows drift - confirm with the venue before you go.\nFleeting - the week
+ ly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/life-at-the-lodge-at-alligator-bar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

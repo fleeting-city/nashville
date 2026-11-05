@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_fairgrounds_nashville-20261113@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261113T150000Z
+DTEND:20261113T170000Z
+SUMMARY:Fleeting: Christmas Village 2026 (one night)
+LOCATION:The Fairgrounds Nashville\, Vine Hill
+DESCRIPTION:Seasonal holiday market at the Fairgrounds\, opening mid-Novemb
+ er.\nDetails and tickets: https://allevents.in/nashville/christmas-village
+ -2026/200030203709912\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/christmas-village-2026/200030203709912
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

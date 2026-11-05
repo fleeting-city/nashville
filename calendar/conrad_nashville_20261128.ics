@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:conrad_nashville-20261128@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Fleeting: Candlelight: Tribute to Michael Jackson (one night)
+LOCATION:Conrad Nashville\, Midtown
+DESCRIPTION:One night of Michael Jackson's catalog in a candlelit setting\,
+  a decent way to burn off Thanksgiving leftovers. Tickets start at $39.\nD
+ etails and tickets: https://feverup.com/m/674694\nWindows drift - confirm 
+ with the venue before you go.\nFleeting - the weekly Nashville what-closes
+ -first list.
+URL:https://feverup.com/m/674694
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

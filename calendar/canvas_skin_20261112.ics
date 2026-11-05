@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:canvas_skin-20261112@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261112T220000Z
+DTEND:20261113T000000Z
+SUMMARY:Fleeting: A Canvas Classic Christmas (one night)
+LOCATION:Canvas Skin
+DESCRIPTION:An early Christmas-themed afternoon event at a skin studio\, on
+ e day only.\nDetails and tickets: https://www.eventbrite.com/e/a-canvas-cl
+ assic-christmas-tickets-2002943113771?aff=ebdssbdestsearch\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://www.eventbrite.com/e/a-canvas-classic-christmas-tickets-2002943
+ 113771?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

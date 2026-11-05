@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:butcher_bee-20261122@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Fleeting: Russ & Daughters Brunch (one night)
+LOCATION:Butcher & Bee\, East Nashville
+DESCRIPTION:A special brunch celebrating the Russ & Daughters cookbook\, 10
+ 0 Years. A one-day menu nod to the New York appetizing institution.\nDetai
+ ls and tickets: https://nashvillelife.com/Russ-Daughters-Brunch-at-Butcher
+ -Bee/Nashville-Calendar\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Russ-Daughters-Brunch-at-Butcher-Bee/Nashvill
+ e-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

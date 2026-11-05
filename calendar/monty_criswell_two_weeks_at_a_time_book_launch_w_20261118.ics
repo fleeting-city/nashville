@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:monty_criswell_two_weeks_at_a_time_book_launch_w-20261118@nashville.fle
+ eting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261119T010000Z
+DTEND:20261119T030000Z
+SUMMARY:Fleeting: Monty Criswell "Two Weeks at a Time" Book Launch with spe
+ cial guest Trace Adkins
+LOCATION:Downtown Franklin
+DESCRIPTION:Book launch for Monty Criswell's Two Weeks at a Time\, with Tra
+ ce Adkins as the special guest. One evening only\, 7 to 8:30.\nDetails and
+  tickets: https://downtownfranklintn.com/event/monty-criswell-two-weeks-at
+ -a-time-book-launch-with-special-guest-trace-adkins/\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://downtownfranklintn.com/event/monty-criswell-two-weeks-at-a-time
+ -book-launch-with-special-guest-trace-adkins/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

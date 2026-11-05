@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20270115@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Last day: Candlelight: Queen vs. ABBA
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:Two very different catalogs go head to head in a limited run of
+  candlelit shows. Tickets start at $33\, and it is the earliest of the Par
+ thenon runs.\nDetails and tickets: https://feverup.com/m/294748\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
+URL:https://feverup.com/m/294748
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

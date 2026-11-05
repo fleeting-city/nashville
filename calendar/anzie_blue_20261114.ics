@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:anzie_blue-20261114@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261115T020000Z
+DTEND:20261115T040000Z
+SUMMARY:Fleeting: Blue Material Comedy Show (one night)
+LOCATION:Anzie Blue
+DESCRIPTION:A single-night comedy show with the adult material right in the
+  name. Tickets start at $8.24\, and a 2 for 1 deal is listed.\nDetails and
+  tickets: https://www.eventbrite.com/e/blue-material-comedy-show-tickets-2
+ 003560624763?aff=ebdssbdestsearch\nWindows drift - confirm with the venue 
+ before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/blue-material-comedy-show-tickets-20035606
+ 24763?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

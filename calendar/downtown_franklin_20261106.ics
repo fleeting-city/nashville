@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin-20261106@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T000000Z
+DTEND:20261107T020000Z
+SUMMARY:Fleeting: Franklin Art Crawl (one night)
+LOCATION:Downtown Franklin\, Franklin
+DESCRIPTION:A three-hour evening art crawl in Franklin\, handy for a first-
+ Friday style wander with no fixed seat to book.\nDetails and tickets: http
+ s://nashvilleparent.com/event/franklin-art-crawl/2026-11-06/\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://nashvilleparent.com/event/franklin-art-crawl/2026-11-06/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

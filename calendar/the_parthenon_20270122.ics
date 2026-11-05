@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20270122@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Last day: Candlelight: Tribute to Fleetwood Mac
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:Fleetwood Mac songs reworked for strings and lit by candles\, w
+ ith a long run through the holidays. Tickets from $37.\nDetails and ticket
+ s: https://feverup.com/m/487993\nWindows drift - confirm with the venue be
+ fore you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://feverup.com/m/487993
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

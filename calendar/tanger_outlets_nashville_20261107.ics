@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tanger_outlets_nashville-20261107@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261107T230000Z
+DTEND:20261108T010000Z
+SUMMARY:Fleeting: Making Spirits Bright Tree Lighting Celebration (one nigh
+ t)
+LOCATION:Tanger Outlets Nashville\, Cane Ridge
+DESCRIPTION:A 48-foot LED tree lights at 6 p.m.\, after Santa arrives at 5:
+ 45 and before the Nashville Ballet's Mini Nutcracker. Gingerbread Village 
+ and Santa's Workshop activities run 5 to 8 p.m. on The Green.\nDetails and
+  tickets: https://patch.com/tennessee/nashville/calendar/event/20261107/39
+ a60340-aa03-498e-848c-f9e6bc134423/making-spirits-bright-tanger-outlets-na
+ shville-invites-community-for-tree-lighting-celebration\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261107/39a60340-
+ aa03-498e-848c-f9e6bc134423/making-spirits-bright-tanger-outlets-nashville
+ -invites-community-for-tree-lighting-celebration
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

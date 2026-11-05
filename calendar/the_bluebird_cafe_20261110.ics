@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_bluebird_cafe-20261110@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261111T030000Z
+DTEND:20261111T050000Z
+SUMMARY:Fleeting: Veterans Day Special benefitting Folds of Honor (one nigh
+ t)
+LOCATION:The Bluebird Cafe\, Green Hills
+DESCRIPTION:A benefit songwriter night for Folds of Honor with Brennan Clem
+ ents\, Dave Turnbull\, Steve Bogard and Jeff Stevens. Tickets at the Blueb
+ ird go fast\, so plan ahead.\nDetails and tickets: https://nashvillego.com
+ /calendar\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_hermitage-20261105@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261106T003000Z
+DTEND:20261106T023000Z
+SUMMARY:Fleeting: Ghost Tours at The Hermitage (one night)
+LOCATION:The Hermitage\, Hermitage
+DESCRIPTION:Evening ghost tours running 6:30 to 9:30 PM. A seasonal after-d
+ ark take on the historic site\, with the calendar showing multiple nights 
+ this week.\nDetails and tickets: https://nashvilleparent.com/event/ghost-t
+ ours-at-the-hermitage-4-2/2026-11-05/\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://nashvilleparent.com/event/ghost-tours-at-the-hermitage-4-2/2026
+ -11-05/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

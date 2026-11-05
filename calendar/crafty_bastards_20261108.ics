@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:crafty_bastards-20261108@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Last day: Crafty Bastards Fall Arts and Crafts Fair
+LOCATION:Crafty Bastards
+DESCRIPTION:A two-day fall arts and crafts fair with Saturday and Sunday ho
+ urs from late morning to mid afternoon.\nDetails and tickets: https://www.
+ nashvilleparent.com/calendar\nWindows drift - confirm with the venue befor
+ e you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

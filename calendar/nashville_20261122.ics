@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261122@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Last day: Nashville Poke'Fest
+LOCATION:Nashville\, Downtown
+DESCRIPTION:A three-day poke festival\, with Friday running 12 to 8 and Sat
+ urday and Sunday on shorter hours.\nDetails and tickets: https://www.nashv
+ illeparent.com/calendar\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

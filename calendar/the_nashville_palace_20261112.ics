@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_nashville_palace-20261112@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261112T230000Z
+DTEND:20261113T010000Z
+SUMMARY:Fleeting: Music City Writer's Round Benefit (one night)
+LOCATION:The Nashville Palace
+DESCRIPTION:A benefit writers' round at The Nashville Palace.\nDetails and 
+ tickets: https://allevents.in/nashville/music-city-writers-round-benefit/2
+ 00030923974254\nWindows drift - confirm with the venue before you go.\nFle
+ eting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/music-city-writers-round-benefit/2000309
+ 23974254
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:church_street_park-20261105@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART:20261105T170000Z
+DTEND:20261105T190000Z
+SUMMARY:Fleeting: Monroe Harding Herb Sale (one night)
+LOCATION:Church Street Park\, Downtown
+DESCRIPTION:A two-hour herb sale in the park over Thursday lunch. Small and
+  quick\, so walk over before it packs up.\nDetails and tickets: https://na
+ shvilledowntown.com/event/monroe-harding-herb-sale\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://nashvilledowntown.com/event/monroe-harding-herb-sale
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

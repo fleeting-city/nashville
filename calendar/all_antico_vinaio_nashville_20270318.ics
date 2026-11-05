@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:all_antico_vinaio_nashville-20270318@nashville.fleeting.city
+DTSTAMP:20261105T045715Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Last day: All'Antico Vinaio Apericena Experience
+LOCATION:All'Antico Vinaio Nashville
+DESCRIPTION:An apericena experience\, the Italian aperitivo-meets-dinner fo
+ rmat\, running across winter. Tickets start at $90\, and the long window m
+ eans no rush but a real end date.\nDetails and tickets: https://bucketlist
+ ers.com/explore/city/NSH\nWindows drift - confirm with the venue before yo
+ u go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://bucketlisters.com/explore/city/NSH
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
