@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Small in Nashville: the local spots worth catching before they are gone | Fleeting</title>
+<meta name="description" content="Shopping small in Nashville around Small Business Saturday (November 28)? Here is the here-then-gone local list: pop-ups, one-night dinners, limited runs and closings with a real clock on them, pulled live from the Fleeting discovery feed. Free Thursday email.">
+<link rel="canonical" href="https://nashville.fleeting.city/shop-small/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Shop Small in Nashville: the local spots worth catching">
+<meta property="og:description" content="The here-then-gone local spots worth catching this shop-small season in Nashville. Real dated windows, pulled live.">
+<meta property="og:url" content="https://nashville.fleeting.city/shop-small/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shop Small in Nashville: the local spots worth catching">
+<meta name="twitter:description" content="The here-then-gone local spots worth catching this shop-small season in Nashville. Real dated windows, pulled live.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : 'Shop Small' Small Business Saturday PULL/SEO satellite
+  landing page (EXP-0155 / LAS-576). Rides the national shop-local spike around
+  Small Business Saturday (Sat 2026-11-28) to surface the OTHER here-then-gone local
+  windows in Nashville, each a subscribe front door. Built by
+  scripts/build_small_business_saturday_page.py from the live discovery feed
+  (candidates_today.json). Regenerated on every publish -- do not hand-edit; edit the
+  builder. Ships only where genuine current inventory clears the min-content floor
+  (anti-doorway). Time-boxed: redirects to /this-week/ after the shop-local day. Per-
+  venue urgency is ONLY each window's own stated date (honesty guard: we never invent a
+  closing deadline we do not hold). Pull surface only: NO alert promise (F-0009). Not
+  affiliated with American Express or the Small Business Saturday initiative. Skyline
+  resolved via brand/marks.py and referenced (not pasted) from /shop-small/skyline.svg
+  (rules 11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(26px,5.6vw,40px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+  .disclaimer{color:var(--muted);font-size:12px;margin:10px 0 0;max-width:60ch;font-style:italic;}
+  .asof{margin:16px 0 6px;font-size:12px;font-weight:700;letter-spacing:.03em;color:var(--muted);
+    text-transform:uppercase;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;}
+  .asof b{color:var(--cream);}
+
+  .cards{margin:16px 0 8px;}
+  .card{background:linear-gradient(180deg,#141318,#100f13);border:1px solid var(--line);
+    border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px 13px;margin:11px 0;}
+  .card .when{display:inline-block;font-family:'Inter';font-weight:700;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-bottom:8px;
+    color:var(--gold);background:rgba(240,180,41,.12);border:1px solid rgba(240,180,41,.4);}
+  .card h3{font-family:'Archivo';font-weight:900;font-size:17px;letter-spacing:-.01em;line-height:1.16;color:var(--cream);}
+  .card .where{font-size:11.5px;color:var(--muted);margin:4px 0 6px;font-weight:600;letter-spacing:.02em;}
+  .card .where::before{content:"\25CD  ";color:var(--gold);}
+  .card .blurb{font-size:13px;color:#d8d3c8;line-height:1.5;}
+  .card .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px;}
+  .card .det{font-size:12.5px;font-weight:700;}
+  .card .confirm{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+    border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:26px 0 10px;}
+  .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;}
+  .cta p b{color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="/shop-small/skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <div class="kicker">Shop Small season</div>
+    <h1>Shop small in Nashville<span class="dot">.</span> Catch them before they're gone<span class="dot">.</span></h1>
+    <p class="lede"><b>Small Business Saturday</b> lands <b>November 28</b>, and the whole point of shopping local is that the local spots do not wait. These are the <b>live and coming-up</b> here-then-gone windows in Nashville through that weekend -- pop-ups, one-night dinners, limited runs, last calls. Pulled straight from what the machine tracks. Nothing undated, nothing already closed.</p>
+    <p class="disclaimer">Independent local list. We frame the urgency around the shop-local season, not around any made-up per-spot deadline: every clock you see below is that window's OWN stated date, read from the feed -- an undated spot shows no deadline at all. Fleeting is not affiliated with, sponsored by, or endorsed by American Express or the Small Business Saturday initiative (a registered trademark of American Express); we just track the fleeting local spots around the day.</p>
+    <div class="asof">Live for <b>Friday, November 6</b> &middot; 24 local windows through Small Business Saturday weekend</div>
+    <div class="cards"><article class="card"><span class="when">Today, 5 PM, plus one more date</span><h3>2026 Fall Farm Dinner</h3><div class="where">2400 Pennington Bend Rd &middot; Opryland &middot; dinner</div><p class="blurb">A seasonal dinner out at a Pennington Bend address rather than a dining room. Listed as almost full, with one additional date also on sale.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/2026-fall-farm-dinner-registration-2000487480907?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Big Gigantic Presents Double Vision</h3><div class="where">The Caverns &middot; Murfreesboro &middot; special show</div><p class="blurb">Big Gigantic brings its Double Vision show to The Caverns in Murfreesboro. Electronic and dance, one night only on this stop.</p><div class="meta"><a class="det" href="https://do615.com/events/2026/11/6/big-gigantic-presents-double-vision-tickets" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Cheekwood Gardening School: Festive Winter Containers</h3><div class="where">Cheekwood &middot; Bellevue &middot; class</div><p class="blurb">A gardening school session on building festive winter containers. One morning only.</p><div class="meta"><a class="det" href="https://patch.com/tennessee/nashville/calendar/event/20261106/90f7e286-22b0-4898-bdbb-151ef0d34bb4/cheekwood-gardening-school-festive-winter-containers" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Opens Nov 6</span><h3>Elegy Coffee opens</h3><div class="where">Elegy Coffee (Sylvan Park) &middot; Sylvan Park &middot; opening</div><p class="blurb">A new coffee shop in Sylvan Park, and today is the day it reportedly opens its doors. The listing gives no menu or hours, so check the page first.</p><div class="meta"><a class="det" href="https://nashvilleguru.com/businesses/elegy-coffee-sylvan-park" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Franklin Art Crawl</h3><div class="where">Downtown Franklin &middot; Franklin &middot; event</div><p class="blurb">A three-hour Friday evening art crawl in Franklin. Wander at your own pace and see what the galleries have on the walls.</p><div class="meta"><a class="det" href="https://nashvilleparent.com/event/franklin-art-crawl/2026-11-06/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Nashville Opera on the Mountain</h3><div class="where">Bluebird on the Mountain &middot; event</div><p class="blurb">Opera performed up on the mountain, part of the Bluebird on the Mountain series. An evening slot, so plan the drive up before dusk.</p><div class="meta"><a class="det" href="https://nashvilleparent.com/event/nashville-opera-on-the-mountain/2026-11-06/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Opens Nov 6</span><h3>Noko Yaki opens</h3><div class="where">Noko Yaki &middot; West End &middot; opening</div><p class="blurb">A new West End restaurant lands today. The listing offers no menu, so the reason to go is simply being early to a fresh opening.</p><div class="meta"><a class="det" href="https://nashvilleguru.com/businesses/noko-yaki" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Nov 6, 8 AM to 6 PM</span><h3>On The Same Page: A Father &amp; Daughter&#x27;s Artistic Journey</h3><div class="where">gallery</div><p class="blurb">An art showing featuring father and daughter Michael Shane Neal and Mattie Ree Neal. Two generations of one family&#x27;s work, listed for a single day today.</p><div class="meta"><a class="det" href="https://nashvillelifestyles.com/events/on-page-father-daughter-s-artistic-journey-featuring-michael-shane-neal-mattie-ree-neal/?occ_dtstart=2026-11-06T08:00" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Opry 100 with Carrie Underwood</h3><div class="where">Grand Ole Opry &middot; Opryland / Music Valley &middot; special show</div><p class="blurb">One Opry night stacked with Carrie Underwood, Bill Anderson, Louis York, Steven Curtis Chapman, Colony House and Mark Wills. A rare lineup to catch on one stage.</p><div class="meta"><a class="det" href="https://do615.com/events/2026/11/6/grand-ole-opry-opry-100-tickets" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Raviolo Pasta-Making Class and Lunch</h3><div class="where">Nashville cooking class (venue not stated) &middot; class</div><p class="blurb">A hands-on class devoted to raviolo, the oversized filled pasta, followed by lunch. You make it, then you eat it, which is the right order.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Raviolo-Pasta-Making-Class-and-Lunch/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>Rix Roundup</h3><div class="where">Harken Hall &middot; Madison / Rivergate &middot; special show</div><p class="blurb">50 Shades of Hay and the Wonderin&#x27; Cowboys headline this hip hop night in Madison. One evening only.</p><div class="meta"><a class="det" href="https://do615.com/events/2026/11/6/rix-roundup-tickets" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends today</span><h3>The Music of Hey Arnold! Live!</h3><div class="where">City Winery &middot; SoBro (South of Broadway) &middot; special show</div><p class="blurb">Jim Lang and The PS 118 AllStars play the music of Hey Arnold!, with special guest Craig Bartlett. Two shows tonight, so you get a second shot at tickets.</p><div class="meta"><a class="det" href="https://do615.com/events/2026/11/6/the-music-of-hey-arnold-live-feat-jim-lang-and-the-ps-118-allstars-with-special-guest-craig-bartlett-tickets" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Starts Nov 6, 10 AM, multiple dates</span><h3>ice! featuring Home Alone</h3><div class="where">Gaylord Opryland Resort &middot; Music Valley &middot; festival</div><p class="blurb">Seasonal ice sculpture exhibit with a Home Alone theme, running multiple dates this season. Dress warm, since the sculptures are kept cold.</p><div class="meta"><a class="det" href="https://allevents.in/nashville/ice-featuring-home-alone/200030746887027" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Craig Morgan</h3><div class="where">Nashville &middot; Downtown &middot; special show</div><p class="blurb">Craig Morgan plays tomorrow, per the featured listings. The page gives no venue or time, so check the ticket page.</p><div class="meta"><a class="det" href="https://do615.com/events/2026/11/7/craig-morgan-tickets" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Green Door Gourmet Holiday Pop-Up Market</h3><div class="where">Green Door Gourmet &middot; popup</div><p class="blurb">A one-day holiday pop-up market, billed as a gourmet shopping stop. Daytime only.</p><div class="meta"><a class="det" href="https://nashvilleparent.com/event/green-door-gourmet-holiday-pop-up-market/" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Knockdown Professional Kickboxing</h3><div class="where">Skydeck &middot; special show</div><p class="blurb">A one-night professional kickboxing card up on the Skydeck. Rare to see fight night in this venue.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Making Spirits Bright: Tree Lighting Celebration</h3><div class="where">Tanger Outlets Nashville &middot; event</div><p class="blurb">The outlet center invites the community to a tree lighting celebration. A one-evening kickoff to the season.</p><div class="meta"><a class="det" href="https://patch.com/tennessee/nashville/calendar/event/20261107/39a60340-aa03-498e-848c-f9e6bc134423/making-spirits-bright-tanger-outlets-nashville-invites-community-for-tree-lighting-celebration" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Starts tomorrow</span><h3>Nashville Holiday Market</h3><div class="where">The Nashville Fairgrounds: EXPO 3 &middot; market</div><p class="blurb">A holiday market at the Fairgrounds Expo hall, opening Saturday morning. The text lists only the opening day, so check the run before you plan around it.</p><div class="meta"><a class="det" href="https://patch.com/tennessee/nashville/calendar/event/20261107/4c618c4d-f151-4cb3-abd2-db8962b31b67/nashville-holiday-market" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Owl Day</h3><div class="where">Owl&#x27;s Hill Nature Sanctuary &middot; event</div><p class="blurb">A three-hour Saturday morning devoted to owls. Short window, so plan accordingly.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Owl-Day/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Panel Discussion: Roger Miller&#x27;s Wit, Wisdom and Wonder</h3><div class="where">Country Music Hall of Fame and Museum &middot; SoBro &middot; event</div><p class="blurb">An exclusive conversation about the beloved singer and songwriter Roger Miller. A one-day chance to hear people who know the catalog talk through it.</p><div class="meta"><a class="det" href="https://nashvillelife.com/Panel-Discussion-Roger-Millers-Wit-Wisdom-and-Wonder/Nashville-Calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Red Bull Jukebox Nashville</h3><div class="where">The Pinnacle &middot; Downtown &middot; special show</div><p class="blurb">A branded one-night lineup with Max McNown, Kameron Marlowe and Cassidy Daniels. Three acts on one bill, and it will not repeat.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Ends tomorrow</span><h3>Spellbinder: Magic &amp; Hip Hop Theater Brunch</h3><div class="where">City Winery &middot; Pie Town &middot; special show</div><p class="blurb">Magic and hip hop theater served alongside brunch. A single midday show, so it is a Saturday-only booking.</p><div class="meta"><a class="det" href="https://nashvillego.com/calendar" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">Starts tomorrow</span><h3>Wagyu, Whiskey, and Wine</h3><div class="where">Morton&#x27;s The Steakhouse &middot; dinner</div><p class="blurb">A steakhouse pairing night built around wagyu, whiskey and wine. Sales are flagged as ending soon, with one more date listed.</p><div class="meta"><a class="det" href="https://www.eventbrite.com/e/wagyu-whiskey-and-wine-mortons-nashville-tickets-2002093940872?aff=ebdssbdestsearch" target="_blank" rel="noopener">Details &#8594;</a></div></article><article class="card"><span class="when">2 days left</span><h3>Crafty Bastards Fall Arts and Crafts Fair</h3><div class="where">Nashville &middot; Downtown &middot; market</div><p class="blurb">Two-day indie arts and crafts fair, good for handmade gift shopping before the holiday rush.</p><div class="meta"><a class="det" href="https://nashvilleparent.com/event/nashville-winter-crafty-bastards-arts-and-crafts-fair-2/2026-11-07/" target="_blank" rel="noopener">Details &#8594;</a></div></article></div>
+    <section class="cta">
+      <p><b>This page does not ping you.</b> It is a pull surface on purpose -- no alerts, no notifications, no same-day text. The way to never find out a day too late is the Thursday list: the week's here-then-gone Nashville windows, in your inbox before they close.</p>
+      <a class="btn" href="/?utm_source=shop_small&amp;utm_medium=satellite&amp;utm_campaign=EXP-0155#subscribe">Get the Thursday list, free &#8594;</a>
+    </section>
+    <p class="foot">Every window here is real and every date is its own stated date, read from the <span class="fmark">Fleeting<span class="dot">.</span></span> discovery feed; undated or already-closed windows are held back, not guessed. See <a href="/this-week/">this week by neighborhood</a> for the whole city, the <a href="/conditions/">conditions board</a> for what is closing, and the <a href="/archive/">archive</a> for what has already gone.</p>
+  </div>
+</body>
+</html>
