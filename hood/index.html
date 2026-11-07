@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Nashville neighborhood | Fleeting - Nashville</title>
+<meta name="description" content="One optional tap: tell Fleeting which Nashville neighborhood you call yours, and your Thursday list leads with the closings and finds on your own blocks.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://nashville.fleeting.city/hood/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<!--
+ Fleeting - Nashville : neighborhood opt-in (EXP-0158 / LAS-590). The LIVE reader-facing
+ half of subscriber neighborhood capture. A post-subscribe, one-tap step: the reader picks
+ the Nashville neighborhood they call theirs, which POSTs {email, neighborhood, consent:true}
+ to the fleeting-neighborhood Worker (data-worker below). The Worker stores neighborhood +
+ email + consent ONLY; it never sends, mails, or writes to beehiiv (HARD SAFETY RULE 1).
+ The hood buttons are fetched LIVE from the Worker's /hoods route, so this surface never
+ forks the canonical taxonomy (single home: scripts/neighborhoods.py). The catch-all is not
+ in that set by design -- the field carries one specific neighborhood or nothing.
+ Deliberately noindex and absent from sitemap.xml: this is a reader-declared personalization
+ reached from the welcome/newsletter, not a stranger-facing SEO doorway. Pass the subscriber
+ email via ?email= (the welcome link knows it) or the input. All copy is pure ASCII (RULE 6).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:620px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:4px 0 0;}
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(26px,5.6vw,40px);margin:8px 0 12px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16.5px);max-width:58ch;}
+  .card{margin:22px 0 6px;padding:20px 20px 22px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+  .label{font-family:'Archivo';font-weight:900;font-size:13px;letter-spacing:.03em;color:var(--cream);margin:0 0 12px;text-transform:uppercase;}
+  .hoods{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 16px;}
+  .hoods button{background:#0b0a0d;color:var(--cream);border:1px solid var(--line);
+    border-radius:999px;padding:8px 14px;font-size:13.5px;font-weight:600;cursor:pointer;transition:.14s;}
+  .hoods button:hover{border-color:var(--muted);}
+  .hoods button[aria-pressed="true"]{border-color:var(--accent);color:#fff;background:rgba(230,69,53,.16);}
+  .email{width:100%;padding:11px 13px;margin:0 0 14px;background:#0b0a0d;color:var(--cream);
+    border:1px solid var(--line);border-radius:10px;font-size:15px;font-family:inherit;}
+  .email:focus{outline:none;border-color:var(--muted);}
+  .consent{color:var(--muted);font-size:12.8px;line-height:1.6;margin:0 0 16px;}
+  .go{background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;border:none;cursor:pointer;transition:.14s;}
+  .go:hover{background:#d13a2b;}
+  .go[disabled]{opacity:.45;cursor:default;}
+  .msg{margin-top:14px;font-size:13.5px;min-height:20px;}
+  .msg.ok{color:#6ee7a8;} .msg.err{color:var(--accent);}
+  .hp{position:absolute;left:-5000px;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+</head>
+<body>
+  <div class="wrap" data-worker="https://fleeting-neighborhood.brady-k-rowe.workers.dev">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="kicker">One more thing</div>
+    <h1>Which Nashville neighborhood do you call yours<span class="dot">?</span></h1>
+    <p class="lede">You are subscribed. One optional tap lets us lead your Thursday list with the closings and finds on your own blocks. Skip it and nothing changes.</p>
+
+    <div class="card">
+      <p class="label">Pick your neighborhood</p>
+      <div class="hoods" id="hoods" aria-label="Pick your neighborhood"></div>
+
+      <input class="email" id="email" type="email" inputmode="email" autocomplete="email"
+             placeholder="the email you subscribed with">
+      <input class="hp" id="website" tabindex="-1" autocomplete="off" aria-hidden="true" placeholder="leave blank">
+
+      <p class="consent">By saving, you agree we can store this neighborhood with your email to tailor your issue. We never share it, and you can remove it any time by replying to any issue.</p>
+
+      <button class="go" id="go" disabled>Save my neighborhood</button>
+      <div class="msg" id="msg" role="status" aria-live="polite"></div>
+    </div>
+
+    <p class="foot">Opt-in only, one neighborhood per reader. <a href="/privacy.html">How we handle your data</a>.</p>
+  </div>
+
+<script>
+(function () {
+  var root = document.querySelector("[data-worker]");
+  var WORKER = root.getAttribute("data-worker");
+  var hoodsEl = document.getElementById("hoods");
+  var emailEl = document.getElementById("email");
+  var goEl = document.getElementById("go");
+  var msgEl = document.getElementById("msg");
+  var chosen = null;
+
+  var qp = new URLSearchParams(location.search);
+  if (qp.get("email")) emailEl.value = qp.get("email");
+
+  function say(text, kind) { msgEl.textContent = text; msgEl.className = "msg" + (kind ? " " + kind : ""); }
+  function validEmail(v) { return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v); }
+  function refresh() { goEl.disabled = !(chosen && validEmail(emailEl.value.trim())); }
+
+  // Pull the canonical hood list from the Worker so this surface never hardcodes it.
+  fetch(WORKER + "/hoods").then(function (r) { return r.json(); }).then(function (d) {
+    (d.hoods || []).forEach(function (h) {
+      var b = document.createElement("button");
+      b.type = "button"; b.textContent = h; b.setAttribute("aria-pressed", "false");
+      b.addEventListener("click", function () {
+        chosen = h;
+        Array.prototype.forEach.call(hoodsEl.children, function (c) {
+          c.setAttribute("aria-pressed", c === b ? "true" : "false");
+        });
+        refresh();
+      });
+      hoodsEl.appendChild(b);
+    });
+  }).catch(function () { say("Could not load neighborhoods right now.", "err"); });
+
+  emailEl.addEventListener("input", refresh);
+
+  goEl.addEventListener("click", function () {
+    var email = emailEl.value.trim();
+    if (!chosen || !validEmail(email)) return;
+    goEl.disabled = true;
+    say("Saving...");
+    // text/plain dodges the CORS preflight (same as cf_rsvp); consent is the tap itself.
+    fetch(WORKER + "/neighborhood", {
+      method: "POST",
+      headers: { "content-type": "text/plain" },
+      body: JSON.stringify({
+        email: email, neighborhood: chosen, consent: true,
+        website: document.getElementById("website").value
+      })
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      if (d.ok) { say("Saved. Your issue will lead with " + (d.neighborhood || chosen) + ".", "ok"); }
+      else { say(d.error || "Could not save that.", "err"); goEl.disabled = false; }
+    }).catch(function () { say("Could not reach the server. Try again later.", "err"); goEl.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>
