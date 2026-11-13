@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261130@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261130T180000Z
+DTEND:20261130T200000Z
+SUMMARY:Fleeting: Nashville Predators v Ottawa Senators $1 Hot Dogs (one ni
+ ght)
+LOCATION:Bridgestone Arena\, Downtown
+DESCRIPTION:A Predators home game with a one-dollar hot dog promotion. The 
+ price is the whole pitch.\nDetails and tickets: https://allevents.in/nashv
+ ille/nashville-predators-v-ottawa-senators-$1-hot-dogs/210009239299931\nWi
+ ndows drift - confirm with the venue before you go.\nFleeting - the weekly
+  Nashville what-closes-first list.
+URL:https://allevents.in/nashville/nashville-predators-v-ottawa-senators-$1
+ -hot-dogs/210009239299931
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

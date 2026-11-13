@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_parthenon-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T024500Z
+DTEND:20261114T044500Z
+SUMMARY:Fleeting: Candlelight: Queen vs. ABBA (one night)
+LOCATION:The Parthenon\, Midtown
+DESCRIPTION:A candlelit set pitting the music of Queen against ABBA\, stage
+ d inside the full-scale Parthenon replica in Centennial Park. One late eve
+ ning performance.\nDetails and tickets: https://allevents.in/nashville/can
+ dlelight-queen-vs-abba/200030948326706\nWindows drift - confirm with the v
+ enue before you go.\nFleeting - the weekly Nashville what-closes-first lis
+ t.
+URL:https://allevents.in/nashville/candlelight-queen-vs-abba/20003094832670
+ 6
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

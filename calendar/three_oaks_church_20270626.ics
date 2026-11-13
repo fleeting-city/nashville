@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:three_oaks_church-20270626@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Last day: Tennessee Jubilee 2027
+LOCATION:Three Oaks Church\, Gallatin
+DESCRIPTION:A four-day summer festival at Three Oaks Church in Gallatin\, a
+  short drive northeast of the city.\nDetails and tickets: https://www.band
+ sintown.com/f/232946?came_from=253&utm_medium=web&utm_source=city_page&utm
+ _campaign=festival\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/232946?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

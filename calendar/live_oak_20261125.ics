@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:live_oak-20261125@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261126T020000Z
+DTEND:20261126T040000Z
+SUMMARY:Fleeting: Nashville Official Thanksgiving Eve Bar Crawl 2026 (one n
+ ight)
+LOCATION:Live Oak
+DESCRIPTION:One wristband covers 4+ downtown bars with Thanksgiving-themed 
+ drink specials\, live DJs at select venues and a free after party. It runs
+  8 p.m. to 2 a.m. on the eve\, 21+ with ID\, and has sold out before.\nDet
+ ails and tickets: https://allevents.in/nashville/nashville-official-thanks
+ giving-eve-bar-crawl-2026/100001983726947701\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
+URL:https://allevents.in/nashville/nashville-official-thanksgiving-eve-bar-
+ crawl-2026/100001983726947701
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

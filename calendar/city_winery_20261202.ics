@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261202@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Fleeting: Chef & Winemaker Dinner: Gather & Give Thanks (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:A four-course dinner paired with wines from the winemaker\, the
+ med around giving thanks. The monthly series gets a holiday-season edition
+ .\nDetails and tickets: https://nashvillelife.com/Chef-Winemaker-Dinner-Ga
+ ther-Give-Thanks/Nashville-Calendar\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Chef-Winemaker-Dinner-Gather-Give-Thanks/Nash
+ ville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

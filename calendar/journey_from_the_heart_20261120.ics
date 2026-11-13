@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:journey_from_the_heart-20261120@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261121T010000Z
+DTEND:20261121T030000Z
+SUMMARY:Fleeting: Journey from The Heart
+LOCATION:Downtown Franklin
+DESCRIPTION:A one-night evening show\, 7 to 9 PM. The listing names the act
+  only\, so check the event page for details.\nDetails and tickets: https:/
+ /downtownfranklintn.com/event/journey-from-the-heart/\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://downtownfranklintn.com/event/journey-from-the-heart/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

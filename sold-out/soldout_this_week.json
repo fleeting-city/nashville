@@ -1,11 +1,30 @@
 {
   "dataset": "Fleeting Nashville sold-out this week",
   "experiment": "EXP-0091",
-  "generated": "2026-11-05",
-  "board_date": "2026-11-05",
-  "week_of": "Nov 2",
+  "generated": "2026-11-13",
+  "board_date": "2026-11-12",
+  "week_of": "Nov 9",
   "source": "Fleeting weekly discovery crawl whole board (board_source.py) + soldout.json verdicts",
   "methodology": "Public, past-tense, sold-out-only leaderboard. A window is included only if ranking.is_gone() calls it gone (SOLD OUT) or its listing carried real scarcity language and it closed this past week (FILLED FAST). Fill/close-speed is computed by build_soldout_sweep.build_record (the members sweep's computation) and ranked fastest-first. No guessed sellouts; a missing date is omitted, not invented.",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "title": "Nashville Official Thanksgiving Eve Bar Crawl 2026",
+      "venue": "Live Oak",
+      "neighborhood": "",
+      "category": "event",
+      "tier": "sold_out",
+      "tier_label": "SOLD OUT",
+      "gone": true,
+      "urgency": 0.065,
+      "span_days": 1,
+      "short_window": false,
+      "closed_on": "2026-11-25",
+      "days_tracked": 15,
+      "when": "Nov 25, 8 PM",
+      "blurb": "One wristband covers 4+ downtown bars with Thanksgiving-themed drink specials, live DJs at select venues and a free after party. It runs 8 p.m. to 2 a.m. on the eve, 21+ with ID, and has sold out before.",
+      "url": "https://allevents.in/nashville/nashville-official-thanksgiving-eve-bar-crawl-2026/100001983726947701",
+      "rank": 1
+    }
+  ]
 }

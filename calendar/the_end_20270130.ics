@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_end-20270130@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Fleeting: 615 indie live 2027 (one night)
+LOCATION:The End\, Midtown
+DESCRIPTION:A one-day independent music showcase at The End. A single Satur
+ day to catch local acts in one room.\nDetails and tickets: https://www.ban
+ dsintown.com/f/240561?came_from=253&utm_medium=web&utm_source=city_page&ut
+ m_campaign=festival\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/240561?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

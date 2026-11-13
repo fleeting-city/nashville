@@ -7,16 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:alligator_bar-20261120@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-SUMMARY:Fleeting: Life at the Lodge (one night)
-LOCATION:Alligator Bar\, The Nations
-DESCRIPTION:A lodge-themed holiday pop-up setting up in The Nations. The li
- sting does not say what is served or when it closes.\nDetails and tickets:
-  https://nashvilleguru.com/businesses/life-at-the-lodge-at-alligator-bar\n
- Windows drift - confirm with the venue before you go.\nFleeting - the week
- ly Nashville what-closes-first list.
+SUMMARY:Fleeting: Life at the Lodge at Alligator Bar (one night)
+LOCATION:Alligator Bar\, Downtown
+DESCRIPTION:Beneath the Broadway Bridge at Union Station in Nashville Yards
+ \, a luxe winter-inspired holiday pop-up opens Nov 20\, billed as alpine c
+ harm meets festive indulgence. The listing gives no menu or price.\nDetail
+ s and tickets: https://nashvilleguru.com/businesses/life-at-the-lodge-at-a
+ lligator-bar\nWindows drift - confirm with the venue before you go.\nFleet
+ ing - the weekly Nashville what-closes-first list.
 URL:https://nashvilleguru.com/businesses/life-at-the-lodge-at-alligator-bar
 TRANSP:TRANSPARENT
 END:VEVENT

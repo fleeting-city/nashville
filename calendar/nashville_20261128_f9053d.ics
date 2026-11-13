@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261128@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Last day: Pink Floyd Laser Show: The Dark Side of the Moon
+LOCATION:Nashville\, Downtown
+DESCRIPTION:The Dark Side of the Moon with lasers\, in a short one-hour slo
+ t. Listed again on Nov 28\, so you get a second chance.\nDetails and ticke
+ ts: https://nashvilleparent.com/event/pink-floyd-laser-show-the-dark-side-
+ of-the-moon/2026-11-06/\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilleparent.com/event/pink-floyd-laser-show-the-dark-side-o
+ f-the-moon/2026-11-06/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

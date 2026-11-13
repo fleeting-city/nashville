@@ -7,17 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:conrad_nashville-20261128@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:Fleeting: Candlelight: Tribute to Michael Jackson (one night)
+SUMMARY:Fleeting: Candlelight: Tribute to Adele (one night)
 LOCATION:Conrad Nashville\, Midtown
-DESCRIPTION:One night of Michael Jackson's catalog in a candlelit setting\,
-  a decent way to burn off Thanksgiving leftovers. Tickets start at $39.\nD
- etails and tickets: https://feverup.com/m/674694\nWindows drift - confirm 
- with the venue before you go.\nFleeting - the weekly Nashville what-closes
- -first list.
-URL:https://feverup.com/m/674694
+DESCRIPTION:One night of Adele's catalog by candlelight\, rated 4.7 on the 
+ listing. A decent plan for the weekend after Thanksgiving. Tickets from $3
+ 4.\nDetails and tickets: https://feverup.com/m/470454\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://feverup.com/m/470454
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

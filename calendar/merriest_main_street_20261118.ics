@@ -7,17 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:merriest_main_street-20261118@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Fleeting: Merriest Main Street
 LOCATION:Downtown Franklin
-DESCRIPTION:The seasonal Main Street event kicks off mid-November on the do
- wntown calendar. The listing gives no further detail\, so the event page i
- s the place to confirm what and when.\nDetails and tickets: https://downto
- wnfranklintn.com/event/merriest-main-street/\nWindows drift - confirm with
-  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
- st list.
+DESCRIPTION:A holiday-named event listed for Nov 18 on the downtown calenda
+ r. The listing gives no further detail\, so check the event page for times
+  and what is on.\nDetails and tickets: https://downtownfranklintn.com/even
+ t/merriest-main-street/\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
 URL:https://downtownfranklintn.com/event/merriest-main-street/
 TRANSP:TRANSPARENT
 END:VEVENT

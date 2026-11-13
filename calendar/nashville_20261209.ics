@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261209@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Fleeting: Pentatonix: Christmas in the City Tour (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:Holiday a cappella tour stop\, flagged as a must-see event on t
+ he Nashville page.\nDetails and tickets: https://www.ticketmaster.com/pent
+ atonix-christmas-in-the-city-tour-nashville-tennessee-12-09-2026/event/1B0
+ 0650583B04F68?ac_link=NTM_Pentatonix26-2_spotlight_5\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-nash
+ ville-tennessee-12-09-2026/event/1B00650583B04F68?ac_link=NTM_Pentatonix26
+ -2_spotlight_5
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

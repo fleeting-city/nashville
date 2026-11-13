@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cannonsburgh_village-20261219@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Last day: A Charming Christmas
+LOCATION:Cannonsburgh Village
+DESCRIPTION:Six evenings of Christmas at the village.\nDetails and tickets:
+  https://nashvillelife.com/Charming-Christmas-at-Cannonsburgh/Nashville-Ca
+ lendar\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/Charming-Christmas-at-Cannonsburgh/Nashville-
+ Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

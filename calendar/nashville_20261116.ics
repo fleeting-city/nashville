@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261116@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Last day: Ingram Whiskey River-Aged Bourbon Experience Giveaway
+LOCATION:Nashville\, Downtown
+DESCRIPTION:A two-week giveaway for a river-aged bourbon experience from In
+ gram Whiskey. Entry details are not in the listing\, so the event page is 
+ the place to start.\nDetails and tickets: https://do615.com/events/2026/11
+ /2/ingram-whiskey-river-aged-bourbon-experience-giveaway-tickets\nWindows 
+ drift - confirm with the venue before you go.\nFleeting - the weekly Nashv
+ ille what-closes-first list.
+URL:https://do615.com/events/2026/11/2/ingram-whiskey-river-aged-bourbon-ex
+ perience-giveaway-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

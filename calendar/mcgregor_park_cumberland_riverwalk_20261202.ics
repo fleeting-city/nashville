@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:mcgregor_park_cumberland_riverwalk-20261202@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Last day: Christmas on the Cumberland 2026
+LOCATION:McGregor Park & Cumberland Riverwalk\, Clarksville
+DESCRIPTION:A twelve day holiday run along the Cumberland Riverwalk in Clar
+ ksville\, a short drive out of Nashville if you want your Christmas lights
+  with some river in them.\nDetails and tickets: https://www.bandsintown.co
+ m/f/239220?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=
+ festival\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/239220?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

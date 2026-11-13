@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:omni_nashville_hotel-20270319@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Last day: CRS 2027
+LOCATION:Omni Nashville Hotel\, SoBro
+DESCRIPTION:A three-day industry gathering at the Omni Nashville Hotel\, We
+ dnesday through Friday. Mostly a trade affair\, so check the access terms 
+ before planning around it.\nDetails and tickets: https://www.bandsintown.c
+ om/f/236594?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign
+ =festival\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/236594?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

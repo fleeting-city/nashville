@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20270109@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Fleeting: Monster Jam (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:Truck show with a midday Saturday start.\nDetails and tickets: 
+ https://www.ticketmaster.com/monster-jam-nashville-tennessee-01-09-2027/ev
+ ent/1B00651FA5E38D77\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/monster-jam-nashville-tennessee-01-09-2027
+ /event/1B00651FA5E38D77
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261120@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Broadway Sings Fleetwood Mac (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:Broadway voices take on the Fleetwood Mac catalog for one night
+ . Big vocals\, familiar songs.\nDetails and tickets: https://nashvillelife
+ .com/Broadway-Sings-Fleetwood-Mac/Nashville-Calendar\nWindows drift - conf
+ irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
+ oses-first list.
+URL:https://nashvillelife.com/Broadway-Sings-Fleetwood-Mac/Nashville-Calend
+ ar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

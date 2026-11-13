@@ -7,16 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:marathon_music_works-20261113@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:Fleeting: Switch Presents: Thriller (one night)
+SUMMARY:Fleeting: SWITCH Presents: Thriller (one night)
 LOCATION:Marathon Music Works\, Watkins Park
-DESCRIPTION:SWITCH's Friday the 13th event\, with live sets built around Th
- riller. The calendar lined up neatly for this one\, and it will not again 
- until next time.\nDetails and tickets: https://nashvillelife.com/SWITCH-PR
- ESENTS-THRILLER/Nashville-Calendar\nWindows drift - confirm with the venue
-  before you go.\nFleeting - the weekly Nashville what-closes-first list.
+DESCRIPTION:A Friday the 13th night built around live sets from SWITCH's pr
+ emiere event series. Fitting date for a theme this spooky\, and the room i
+ s a proper concert hall.\nDetails and tickets: https://nashvillelife.com/S
+ WITCH-PRESENTS-THRILLER/Nashville-Calendar\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
 URL:https://nashvillelife.com/SWITCH-PRESENTS-THRILLER/Nashville-Calendar
 TRANSP:TRANSPARENT
 END:VEVENT

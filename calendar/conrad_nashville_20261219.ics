@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:conrad_nashville-20261219@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Fleeting: Candlelight: Tribute to Juan Gabriel on Strings (one nigh
+ t)
+LOCATION:Conrad Nashville\, Midtown
+DESCRIPTION:Juan Gabriel's songs arranged for strings and played by candlel
+ ight\, a one-night nod to the Mexican songwriter. Tickets from $34.\nDetai
+ ls and tickets: https://feverup.com/m/837290\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
+URL:https://feverup.com/m/837290
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

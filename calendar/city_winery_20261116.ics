@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261116@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261117T013000Z
+DTEND:20261117T033000Z
+SUMMARY:Fleeting: Abby Lee Miller Spills The Tea (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:The reality TV dance teacher tells stories live in a one-night 
+ show.\nDetails and tickets: https://nashvillego.com/calendar\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

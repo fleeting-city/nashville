@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:jon_mclaughlin_home_for_the_holidays-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261123T010000Z
+DTEND:20261123T030000Z
+SUMMARY:Fleeting: Jon McLaughlin: Home For The Holidays
+LOCATION:Downtown Franklin
+DESCRIPTION:A holiday-themed evening with Jon McLaughlin\, listed for 7 to 
+ 10:30 PM. A single Sunday date.\nDetails and tickets: https://downtownfran
+ klintn.com/event/jon-mclaughlin-home-for-the-holidays/\nWindows drift - co
+ nfirm with the venue before you go.\nFleeting - the weekly Nashville what-
+ closes-first list.
+URL:https://downtownfranklintn.com/event/jon-mclaughlin-home-for-the-holida
+ ys/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

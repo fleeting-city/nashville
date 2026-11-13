@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_basement_east-20270207@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Last day: The Basement East 2-Night Pass 2027
+LOCATION:The Basement East\, East Nashville
+DESCRIPTION:A two-night pass covering a weekend at The Basement East\, so o
+ ne purchase gets you both nights.\nDetails and tickets: https://www.bandsi
+ ntown.com/f/238514?came_from=253&utm_medium=web&utm_source=city_page&utm_c
+ ampaign=festival\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/238514?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

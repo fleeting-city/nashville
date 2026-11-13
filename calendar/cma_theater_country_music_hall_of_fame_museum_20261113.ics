@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cma_theater_country_music_hall_of_fame_museum-20261113@nashville.fleeti
+ ng.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Fleeting: The Jayhawks with Mary Gauthier (one night)
+LOCATION:CMA Theater\, Country Music Hall of Fame & Museum
+DESCRIPTION:Two long-running songwriting names share a bill in the museum's
+  theater room. A seated\, listening-room kind of Friday for people who cam
+ e for the songs.\nDetails and tickets: https://www.songkick.com/concerts/4
+ 3338505-jayhawks-at-cma-theater-country-music-hall-of-fame-and-museum\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://www.songkick.com/concerts/43338505-jayhawks-at-cma-theater-coun
+ try-music-hall-of-fame-and-museum
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

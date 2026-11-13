@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_franklin_theatre-20261115@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Fleeting: Polar Express (2004) (one night)
+LOCATION:The Franklin Theatre\, Downtown Franklin
+DESCRIPTION:A doubting young boy takes a train ride to the North Pole\, scr
+ eened as a Sunday morning holiday matinee. Tickets are $15.\nDetails and t
+ ickets: https://downtownfranklintn.com/event/polar-express-2004/2026-11-15
+ /\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://downtownfranklintn.com/event/polar-express-2004/2026-11-15/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

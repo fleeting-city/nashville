@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:scarritt_bennett_center-20270109@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Last day: Manifesting Creative Courage in Songwriting 2027
+LOCATION:Scarritt Bennett Center
+DESCRIPTION:A four-day songwriting retreat at the Scarritt Bennett Center\,
+  built around creative courage. A way to start the year writing instead of
+  resolving.\nDetails and tickets: https://www.bandsintown.com/f/238188?cam
+ e_from=253&utm_medium=web&utm_source=city_page&utm_campaign=festival\nWind
+ ows drift - confirm with the venue before you go.\nFleeting - the weekly N
+ ashville what-closes-first list.
+URL:https://www.bandsintown.com/f/238188?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

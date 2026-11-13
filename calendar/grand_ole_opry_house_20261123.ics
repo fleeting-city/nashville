@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:grand_ole_opry_house-20261123@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261124T013000Z
+DTEND:20261124T033000Z
+SUMMARY:Fleeting: The Big 98's Friendsgiving (one night)
+LOCATION:Grand Ole Opry House\, Opryland
+DESCRIPTION:A one-night pre-Thanksgiving show at the Opry House. Single eve
+ ning\, so plan around the holiday week.\nDetails and tickets: https://nash
+ villego.com/calendar\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_truth-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T010000Z
+DTEND:20261115T030000Z
+SUMMARY:Fleeting: The Neighbourhood: The Wourld Tour (one night)
+LOCATION:The Truth\, Wedgewood-Houston
+DESCRIPTION:One-night tour stop on a Saturday\, and the listing runs it amo
+ ng the popular concerts on the page.\nDetails and tickets: https://www.tic
+ ketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-
+ 2026/event/1B00646BB8E7F668\nWindows drift - confirm with the venue before
+  you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashvill
+ e-tennessee-11-14-2026/event/1B00646BB8E7F668
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

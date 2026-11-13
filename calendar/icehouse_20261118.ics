@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:icehouse-20261118@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Fleeting: Black Dynasty Ramen Pop-Up (one night)
+LOCATION:Icehouse
+DESCRIPTION:Duck shoyu wontonmen\, crispy onigiri with miso-basil mayonnais
+ e and Hojicha tiramisu make up the limited menu\, with Icehouse bar drinks
+  alongside. It starts at 5 p.m. Wednesday and food runs until it sells out
+ .\nDetails and tickets: https://nashvillelife.com/Turkey-and-Wolf-Icehouse
+ -Hosts-Black-Dynasty-Ramen/Nashville-Calendar\nWindows drift - confirm wit
+ h the venue before you go.\nFleeting - the weekly Nashville what-closes-fi
+ rst list.
+URL:https://nashvillelife.com/Turkey-and-Wolf-Icehouse-Hosts-Black-Dynasty-
+ Ramen/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

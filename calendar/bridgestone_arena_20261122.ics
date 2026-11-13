@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261123T010000Z
+DTEND:20261123T030000Z
+SUMMARY:Fleeting: Disney Worlds Collide Concert Tour (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:A one-night arena concert built around Disney music.\nDetails a
+ nd tickets: https://www.ticketmaster.com/disney-worlds-collide-concert-tou
+ r-nashville-tennessee-11-22-2026/event/1B00646BC0E41578\nWindows drift - c
+ onfirm with the venue before you go.\nFleeting - the weekly Nashville what
+ -closes-first list.
+URL:https://www.ticketmaster.com/disney-worlds-collide-concert-tour-nashvil
+ le-tennessee-11-22-2026/event/1B00646BC0E41578
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

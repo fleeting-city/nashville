@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:franklin-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Fleeting: Franklin Makers Holiday Market (one night)
+LOCATION:Franklin\, Franklin
+DESCRIPTION:A one-day holiday market of local makers in Franklin\, good for
+  gifts that did not come off a warehouse shelf.\nDetails and tickets: http
+ s://www.nashvilleparent.com/calendar\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

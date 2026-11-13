@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:downtown_franklin_association_and_historic_main-20261212@nashville.flee
+ ting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Fleeting: 37th Annual Dickens of a Christmas 2026 (one night)
+LOCATION:Downtown Franklin Association and Historic Main Street District\, 
+ Franklin
+DESCRIPTION:Franklin's long-running Christmas festival\, now in its 37th ye
+ ar\, held across the historic Main Street district. One Saturday only.\nDe
+ tails and tickets: https://www.bandsintown.com/f/240188?came_from=253&utm_
+ medium=web&utm_source=city_page&utm_campaign=festival\nWindows drift - con
+ firm with the venue before you go.\nFleeting - the weekly Nashville what-c
+ loses-first list.
+URL:https://www.bandsintown.com/f/240188?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

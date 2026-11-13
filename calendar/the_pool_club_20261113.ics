@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_pool_club-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Fleeting: Elf'd Up at The Pool Club (one night)
+LOCATION:The Pool Club\, Midtown
+DESCRIPTION:A holiday pop-up built around a pool club\, which is a fairly c
+ ommitted way to do winter. The listing gives no price or program\, so chec
+ k before you plan a night around it.\nDetails and tickets: https://nashvil
+ leguru.com/businesses/elfd-up-at-the-pool-club\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvilleguru.com/businesses/elfd-up-at-the-pool-club
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

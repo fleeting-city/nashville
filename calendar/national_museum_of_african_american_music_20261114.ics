@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:national_museum_of_african_american_music-20261114@nashville.fleeting.c
+ ity
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T030000Z
+DTEND:20261115T050000Z
+SUMMARY:Fleeting: Tim Reid: Life\, Laughter\, Legacy (one night)
+LOCATION:National Museum of African American Music\, Downtown
+DESCRIPTION:A two-hour evening with actor Tim Reid at the museum\, one nigh
+ t only. No price is listed.\nDetails and tickets: https://nashvilledowntow
+ n.com/event/tim-reid-life-laughter-legacy\nWindows drift - confirm with th
+ e venue before you go.\nFleeting - the weekly Nashville what-closes-first 
+ list.
+URL:https://nashvilledowntown.com/event/tim-reid-life-laughter-legacy
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

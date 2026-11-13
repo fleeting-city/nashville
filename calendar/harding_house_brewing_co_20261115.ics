@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:harding_house_brewing_co-20261115@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:Fleeting: Fixin's Fest featuring The Cornbread Cook Off (one night)
+LOCATION:Harding House Brewing Co.
+DESCRIPTION:Side dishes from favorite local eateries gather under one roof 
+ for the first Fixin's Fest and Cornbread Cook Off. Grab a plate\, rank you
+ r favorites\, then line dance. Noon to 4pm\, no refunds.\nDetails and tick
+ ets: https://www.eventbrite.com/e/fixins-fest-featuring-the-cornbread-cook
+ -off-tickets-2003945982378?aff=ebdssbdestsearch\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://www.eventbrite.com/e/fixins-fest-featuring-the-cornbread-cook-o
+ ff-tickets-2003945982378?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:opry_mills-20261224@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Last day: Santa Photos at Opry Mills
+LOCATION:Opry Mills
+DESCRIPTION:Santa is back at the mall for photos\, running through Christma
+ s Eve. Pricing and hours are not stated in the listing.\nDetails and ticke
+ ts: https://williamsonsource.com/santa-returns-to-opry-mills-in-nashville-
+ for-photos-through-christmas-eve/\nWindows drift - confirm with the venue 
+ before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://williamsonsource.com/santa-returns-to-opry-mills-in-nashville-f
+ or-photos-through-christmas-eve/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

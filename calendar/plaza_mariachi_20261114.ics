@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:plaza_mariachi-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T010000Z
+DTEND:20261115T030000Z
+SUMMARY:Fleeting: A Soulful M**der Mystery (one night)
+LOCATION:Plaza Mariachi\, Grassmere
+DESCRIPTION:A one-night murder mystery show at Plaza Mariachi. Tickets are 
+ listed at $75.\nDetails and tickets: https://allevents.in/nashville/a-soul
+ ful-mder-mystery/100002004195601997\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://allevents.in/nashville/a-soulful-mder-mystery/10000200419560199
+ 7
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

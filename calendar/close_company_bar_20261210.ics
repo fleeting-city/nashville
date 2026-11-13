@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:close_company_bar-20261210@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261211T010000Z
+DTEND:20261211T030000Z
+SUMMARY:Fleeting: RE:MIX #4 Presented by Soundtrack My Drink (one night)
+LOCATION:Close Company Bar
+DESCRIPTION:The fourth installment of a drinks-meet-music series from Sound
+ track My Drink\, staged at a cocktail bar. Entry number four suggests the 
+ earlier ones went fine.\nDetails and tickets: https://www.eventbrite.com/e
+ /remix-4-presented-by-soundtrack-my-drink-tickets-2004389803860?aff=ebdssb
+ destsearch\nWindows drift - confirm with the venue before you go.\nFleetin
+ g - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/remix-4-presented-by-soundtrack-my-drink-t
+ ickets-2004389803860?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

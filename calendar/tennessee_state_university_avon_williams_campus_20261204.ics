@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tennessee_state_university_avon_williams_campus-20261204@nashville.flee
+ ting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Fleeting: The 16th Annual Tennessee Local Food Summit (one night)
+LOCATION:Tennessee State University\, Avon Williams Campus
+DESCRIPTION:The annual local food summit returns to the Avon Williams Campu
+ s.\nDetails and tickets: https://nashvillelife.com/16th-Annual-Tennessee-L
+ ocal-Food-Summit/Nashville-Calendar\nWindows drift - confirm with the venu
+ e before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/16th-Annual-Tennessee-Local-Food-Summit/Nashv
+ ille-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

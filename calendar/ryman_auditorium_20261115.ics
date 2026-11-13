@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261115@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261116T050000Z
+DTEND:20261116T070000Z
+SUMMARY:Fleeting: Jim Gaffigan (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:One night of stand-up at the Ryman on Sunday. Price is not give
+ n in the listing.\nDetails and tickets: https://nashvilledowntown.com/even
+ t/jim-gaffigan\nWindows drift - confirm with the venue before you go.\nFle
+ eting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/jim-gaffigan
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

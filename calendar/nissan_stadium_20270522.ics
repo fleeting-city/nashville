@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nissan_stadium-20270522@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20270523T000000Z
+DTEND:20270523T020000Z
+SUMMARY:Fleeting: Zach Bryan w/ John Fogerty (one night)
+LOCATION:Nissan Stadium\, East Nashville
+DESCRIPTION:A stadium-scale night with John Fogerty on the bill\, a long wa
+ y out on the calendar.\nDetails and tickets: https://www.ticketmaster.com/
+ event/Z7r9jZ1AA7K17\nWindows drift - confirm with the venue before you go.
+ \nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7K17
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

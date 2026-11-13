@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:tempo_by_hilton_nashville_downtown-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Fleeting: ROOTED: A Tea Ritual & Sound Bath (one night)
+LOCATION:Tempo by Hilton Nashville Downtown\, Downtown
+DESCRIPTION:A tea ritual paired with a sound bath\, which is a gentle way t
+ o spend a Saturday morning downtown. Price is not stated.\nDetails and tic
+ kets: https://nashvilledowntown.com/event/rooted-a-tea-ritual-and-sound-ba
+ th\nWindows drift - confirm with the venue before you go.\nFleeting - the 
+ weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/rooted-a-tea-ritual-and-sound-bath
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_east_room-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T020000Z
+DTEND:20261114T040000Z
+SUMMARY:Fleeting: Eva Cassel Album Release Show (one night)
+LOCATION:The East Room
+DESCRIPTION:An album release night with Liam Bauman and Leah Marlene openin
+ g\, so you hear the new songs on day one.\nDetails and tickets: https://na
+ shvillego.com/calendar\nWindows drift - confirm with the venue before you 
+ go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

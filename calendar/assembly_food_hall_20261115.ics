@@ -7,17 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:assembly_food_hall-20261115@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART:20261115T170000Z
 DTEND:20261115T190000Z
 SUMMARY:Fleeting: Nashville Fall Festival (one night)
 LOCATION:Assembly Food Hall\, Downtown
-DESCRIPTION:A one-day fall festival at the food hall. Free to attend.\nDeta
- ils and tickets: https://allevents.in/nashville/nashville-fall-festival-as
- sembly-food-hall/100001999619839769\nWindows drift - confirm with the venu
- e before you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://allevents.in/nashville/nashville-fall-festival-assembly-food-ha
- ll/100001999619839769
+DESCRIPTION:A one-day fall festival at a food hall\, so a daytime plan with
+  eating built in.\nDetails and tickets: https://www.nashvilleparent.com/ca
+ lendar\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

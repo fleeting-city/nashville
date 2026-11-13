@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Fleeting: Bluegrass and Beyond: Jim Hurst Band (one night)
+LOCATION:Country Music Hall of Fame and Museum\, SoBro
+DESCRIPTION:A morning bluegrass set from the Jim Hurst Band at the museum.\
+ nDetails and tickets: https://patch.com/tennessee/nashville/calendar/event
+ /20261114/31c6470d-b949-4747-bf17-5a1f084990b2/bluegrass-and-beyond-jim-hu
+ rst-band\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261114/31c6470d-
+ b949-4747-bf17-5a1f084990b2/bluegrass-and-beyond-jim-hurst-band
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

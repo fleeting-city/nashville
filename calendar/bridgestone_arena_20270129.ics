@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:bridgestone_arena-20270129@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Fleeting: Winter Jam 2027 (one night)
 LOCATION:Bridgestone Arena\, SoBro
-DESCRIPTION:A multi-artist Christian music tour with Crowder\, Anne Wilson\
- , Andy Mineo\, Red and NewSong\, among others. Tickets are $15.\nDetails a
- nd tickets: https://jamtour.com/01-29-Nashville.html\nWindows drift - conf
- irm with the venue before you go.\nFleeting - the weekly Nashville what-cl
- oses-first list.
+DESCRIPTION:Christian music's biggest multi-artist tour stops here with Cro
+ wder\, Anne Wilson\, Andy Mineo\, Red and NewSong among others. Tickets ar
+ e $15.\nDetails and tickets: https://jamtour.com/01-29-Nashville.html\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
 URL:https://jamtour.com/01-29-Nashville.html
 TRANSP:TRANSPARENT
 END:VEVENT

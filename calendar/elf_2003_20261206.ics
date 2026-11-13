@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:elf_2003-20261206@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Last day: Elf (2003)
+LOCATION:Downtown Franklin
+DESCRIPTION:Two early-evening showings of the 2003 holiday film\, one Frida
+ y and one Sunday in the first week of December.\nDetails and tickets: http
+ s://downtownfranklintn.com/event/elf-2003-2/\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
+URL:https://downtownfranklintn.com/event/elf-2003-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

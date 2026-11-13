@@ -7,16 +7,19 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:franklin-20261126@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:Fleeting: Turkey Trot (one night)
-LOCATION:Franklin
-DESCRIPTION:Award-winning charity run benefiting GraceWorks Ministries\, a 
- Franklin-based nonprofit.\nDetails and tickets: https://nashvillelife.com/
- Turkey-Trot/Nashville-Calendar\nWindows drift - confirm with the venue bef
- ore you go.\nFleeting - the weekly Nashville what-closes-first list.
-URL:https://nashvillelife.com/Turkey-Trot/Nashville-Calendar
+SUMMARY:Fleeting: GraceWorks Turkey Trot (one night)
+LOCATION:Franklin\, Franklin
+DESCRIPTION:GraceWorks brings its Turkey Trot back to Franklin on Thanksgiv
+ ing. A local-sized alternative to the stadium run\, and a decent way to be
+  outside before the oven takes over.\nDetails and tickets: https://william
+ sonsource.com/graceworks-turkey-trot-returns-to-franklin-on-thanksgiving/\
+ nWindows drift - confirm with the venue before you go.\nFleeting - the wee
+ kly Nashville what-closes-first list.
+URL:https://williamsonsource.com/graceworks-turkey-trot-returns-to-franklin
+ -on-thanksgiving/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

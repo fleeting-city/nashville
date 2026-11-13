@@ -7,17 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:tpac-20261115@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:Last day: Churchill and Roosevelt: The Christmas That Saved the Wor
- ld!
+SUMMARY:Last day: Nashville Opera Presents: Fortuna the Time Bender vs. the
+  Schoolgirls of Doom
 LOCATION:TPAC\, Downtown
-DESCRIPTION:A limited four-day run at TPAC\, with evening shows Thursday th
- rough Saturday and matinees on Saturday and Sunday. No price listed.\nDeta
- ils and tickets: https://nashvillego.com/calendar\nWindows drift - confirm
-  with the venue before you go.\nFleeting - the weekly Nashville what-close
- s-first list.
+DESCRIPTION:A short run of a new-sounding opera with a title that does half
+  the marketing. Performances Friday and Saturday evening plus a Sunday mat
+ inee.\nDetails and tickets: https://nashvillego.com/calendar\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
 URL:https://nashvillego.com/calendar
 TRANSP:TRANSPARENT
 END:VEVENT

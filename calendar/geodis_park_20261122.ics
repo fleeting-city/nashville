@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:geodis_park-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261122T210000Z
+DTEND:20261122T230000Z
+SUMMARY:Fleeting: Audi 2026 MLS Playoffs Round 1\, Game 1 (one night)
+LOCATION:GEODIS Park\, Vine Hill
+DESCRIPTION:Playoff soccer on a Sunday afternoon\, against FCC or ORL depen
+ ding on how the bracket settles.\nDetails and tickets: https://www.ticketm
+ aster.com/audi-2026-mls-playoffs-round-1-nashville-tennessee-11-22-2026/ev
+ ent/1B00653CAD00B752\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/audi-2026-mls-playoffs-round-1-nashville-t
+ ennessee-11-22-2026/event/1B00653CAD00B752
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

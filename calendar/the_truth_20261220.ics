@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_truth-20261220@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261221T020000Z
+DTEND:20261221T040000Z
+SUMMARY:Fleeting: Derek Hough: Dance for the Holidays (one night)
+LOCATION:The Truth\, Wedgewood-Houston
+DESCRIPTION:A holiday dance show on a Sunday night.\nDetails and tickets: h
+ ttps://www.ticketmaster.com/derek-hough-dance-for-the-holidays-nashville-t
+ ennessee-12-20-2026/event/1B0064EFC7C9F8DD\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
+URL:https://www.ticketmaster.com/derek-hough-dance-for-the-holidays-nashvil
+ le-tennessee-12-20-2026/event/1B0064EFC7C9F8DD
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

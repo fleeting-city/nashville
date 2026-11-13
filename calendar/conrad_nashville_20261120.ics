@@ -7,15 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:conrad_nashville-20261120@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Fleeting: Candlelight: Tribute to Dolly Parton (one night)
 LOCATION:Conrad Nashville\, Midtown
-DESCRIPTION:A single-night candlelit tribute to Nashville's patron saint of
-  big hair and bigger songs. Tickets start at $36.\nDetails and tickets: ht
- tps://feverup.com/m/770427\nWindows drift - confirm with the venue before 
- you go.\nFleeting - the weekly Nashville what-closes-first list.
+DESCRIPTION:A single-night candlelit tribute to the hometown patron saint o
+ f Tennessee songwriting. One date only\, so the calendar does the pressuri
+ ng for you. Tickets from $38.50.\nDetails and tickets: https://feverup.com
+ /m/770427\nWindows drift - confirm with the venue before you go.\nFleeting
+  - the weekly Nashville what-closes-first list.
 URL:https://feverup.com/m/770427
 TRANSP:TRANSPARENT
 END:VEVENT

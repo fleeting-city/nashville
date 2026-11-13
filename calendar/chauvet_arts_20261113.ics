@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:chauvet_arts-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T030000Z
+DTEND:20261114T050000Z
+SUMMARY:Fleeting: Exhibition: The Color of Night by Noah Henderson (one nig
+ ht)
+LOCATION:Chauvet Arts\, Downtown
+DESCRIPTION:An evening exhibition by Noah Henderson at Chauvet Arts\, liste
+ d with a 6:30 to 9 PM window. Likely an opening night\, though the text do
+ es not say so.\nDetails and tickets: https://nashvilledowntown.com/event/e
+ xhibition-the-color-of-night-by-noah-henderson\nWindows drift - confirm wi
+ th the venue before you go.\nFleeting - the weekly Nashville what-closes-f
+ irst list.
+URL:https://nashvilledowntown.com/event/exhibition-the-color-of-night-by-no
+ ah-henderson
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

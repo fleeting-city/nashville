@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_zoo-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261113T230000Z
+DTEND:20261114T010000Z
+SUMMARY:Fleeting: Glow Wild (one night)
+LOCATION:Nashville Zoo\, Grassmere
+DESCRIPTION:A seasonal evening light display that returns for the holiday r
+ un\, open most nights from 5 to 9.\nDetails and tickets: https://www.nashv
+ illeparent.com/calendar\nWindows drift - confirm with the venue before you
+  go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.nashvilleparent.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

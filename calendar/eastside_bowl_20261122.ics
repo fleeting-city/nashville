@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261122T213000Z
+DTEND:20261122T233000Z
+SUMMARY:Fleeting: Nashville Industry Fest (one night)
+LOCATION:Eastside Bowl\, Madison
+DESCRIPTION:A Sunday afternoon festival emceed by Josh Black\, aimed at the
+  people who work in Nashville's music and service scene.\nDetails and tick
+ ets: https://nashvillego.com/calendar\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

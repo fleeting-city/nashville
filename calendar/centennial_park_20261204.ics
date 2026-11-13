@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20261204@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261204T140000Z
+DTEND:20261204T160000Z
+SUMMARY:Fleeting: Nashville Music City Fine Arts & Makers Fest (one night)
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:A juried-style arts and makers market in Centennial Park\, free
+  to wander. Good for holiday gift shopping from local makers without a mal
+ l in sight.\nDetails and tickets: https://allevents.in/nashville/the-nashv
+ ille-music-city-fine-arts-and-makers-fest/100002004373406816\nWindows drif
+ t - confirm with the venue before you go.\nFleeting - the weekly Nashville
+  what-closes-first list.
+URL:https://allevents.in/nashville/the-nashville-music-city-fine-arts-and-m
+ akers-fest/100002004373406816
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

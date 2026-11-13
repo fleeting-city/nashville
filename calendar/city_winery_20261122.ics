@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:city_winery-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Fleeting: Nashville Beatles Brunch (one night)
+LOCATION:City Winery\, Pie Town
+DESCRIPTION:A Sunday noon brunch with Beatles music at City Winery. Food an
+ d nostalgia in one sitting.\nDetails and tickets: https://nashvillego.com/
+ calendar\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

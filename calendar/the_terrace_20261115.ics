@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_terrace-20261115@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Last day: Pop-Up Bar at the Terrace
+LOCATION:The Terrace\, Downtown
+DESCRIPTION:A pop-up bar on the Cumberland at Riverfront Park\, with comfor
+ table seating and a waterfront view. Drinks are for purchase\, open Friday
+  1 to 8 PM and weekends from 11 AM\, weather permitting. November weekends
+  only.\nDetails and tickets: https://nashvilledowntown.com/event/pop-up-ba
+ r-at-the-terrace\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/pop-up-bar-at-the-terrace
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

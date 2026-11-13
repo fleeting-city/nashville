@@ -1,23 +1,23 @@
 {
   "dataset": "The Fleeting Churn Rate - Nashville food-window churn",
   "experiment": "EXP-0114",
-  "as_of": "2026-11-05T04:56:55+00:00",
-  "generated": "2026-11-05",
+  "as_of": "2026-11-13T03:48:58+00:00",
+  "generated": "2026-11-13",
   "source": "Fleeting weekly discovery crawl (scripts/out/<date>/candidates.json)",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Data by Fleeting - Nashville",
   "attribution_url": "https://nashville.fleeting.city/churn/",
-  "methodology": "A window is a distinct (title, venue) in the crawl record. It is a FOOD window when its category/title/blurb hits Fleeting's shared food vocabulary or comes from a known food source. Churn is reported only for calendar months fully inside the observation span (first snapshot 2026-06-25 to last snapshot 2026-11-05): a month opens-count is windows whose stated open date falls in it, closes-count is windows whose stated close date falls in it. Median days-open is counted inclusively (one-night = 1 day) over food windows that closed in the span and carry both dates. A short window opening and closing between two weekly crawls can be missed; this is a sample of the curated windows Fleeting tracks, not a census of every restaurant change in Nashville. No number is hand-entered.",
+  "methodology": "A window is a distinct (title, venue) in the crawl record. It is a FOOD window when its category/title/blurb hits Fleeting's shared food vocabulary or comes from a known food source. Churn is reported only for calendar months fully inside the observation span (first snapshot 2026-06-25 to last snapshot 2026-11-12): a month opens-count is windows whose stated open date falls in it, closes-count is windows whose stated close date falls in it. Median days-open is counted inclusively (one-night = 1 day) over food windows that closed in the span and carry both dates. A short window opening and closing between two weekly crawls can be missed; this is a sample of the curated windows Fleeting tracks, not a census of every restaurant change in Nashville. No number is hand-entered.",
   "headline": {
     "month": "2026-10",
     "month_nice": "October 2026",
-    "opened": 155,
-    "closed": 147,
+    "opened": 157,
+    "closed": 149,
     "net": 8,
     "median_days_open": 1.0,
     "span_median_days_open": 1.0,
-    "span_closed_dated_n": 442
+    "span_closed_dated_n": 443
   },
   "provenance": {
     "snapshots": [
@@ -39,11 +39,12 @@
       "2026-10-15",
       "2026-10-22",
       "2026-10-29",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-12"
     ],
-    "snapshot_count": 19,
+    "snapshot_count": 20,
     "span_start": "2026-06-25",
-    "span_end": "2026-11-05",
+    "span_end": "2026-11-12",
     "complete_months": [
       "2026-07",
       "2026-08",
@@ -51,8 +52,8 @@
       "2026-10"
     ],
     "complete_month_count": 4,
-    "food_windows_total": 1362,
-    "windows_total": 3306
+    "food_windows_total": 1408,
+    "windows_total": 3470
   },
   "months": [
     {
@@ -66,26 +67,26 @@
     {
       "month": "2026-08",
       "opened": 149,
-      "closed": 164,
-      "net": -15,
+      "closed": 163,
+      "net": -14,
       "median_days_open": 1.0,
-      "closed_dated_n": 152
+      "closed_dated_n": 151
     },
     {
       "month": "2026-09",
-      "opened": 109,
+      "opened": 110,
       "closed": 115,
-      "net": -6,
+      "net": -5,
       "median_days_open": 1.0,
       "closed_dated_n": 110
     },
     {
       "month": "2026-10",
-      "opened": 155,
-      "closed": 147,
+      "opened": 157,
+      "closed": 149,
       "net": 8,
       "median_days_open": 1.0,
-      "closed_dated_n": 145
+      "closed_dated_n": 147
     }
   ]
 }

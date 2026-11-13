@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:eastside_bowl-20261120@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261121T020000Z
+DTEND:20261121T040000Z
+SUMMARY:Fleeting: Holiday for Hounds 3 (one night)
+LOCATION:Eastside Bowl\, Madison
+DESCRIPTION:Third edition of the Holiday for Hounds show\, with Dad Hats on
+  the bill.\nDetails and tickets: https://nashvillego.com/calendar\nWindows
+  drift - confirm with the venue before you go.\nFleeting - the weekly Nash
+ ville what-closes-first list.
+URL:https://nashvillego.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

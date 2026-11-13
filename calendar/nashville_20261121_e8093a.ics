@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261121@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Fleeting: Nashville Predators vs Pittsburgh Penguins (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:The Predators and Penguins meet Saturday at 5 p.m. at Bridgesto
+ ne Arena\, 501 Broadway. Tickets are on sale through Ticketmaster\, the pa
+ ge lists no price\, and there is a free entry for a pair of tickets.\nDeta
+ ils and tickets: https://do615.com/events/2026/11/21/nashville-predators-v
+ s-pittsburgh-penguins-tickets\nWindows drift - confirm with the venue befo
+ re you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/11/21/nashville-predators-vs-pittsburgh-p
+ enguins-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

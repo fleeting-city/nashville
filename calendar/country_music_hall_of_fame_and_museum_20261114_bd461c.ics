@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:country_music_hall_of_fame_and_museum-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T020000Z
+DTEND:20261115T040000Z
+SUMMARY:Fleeting: Shaun Cassidy - UNWRAPPED: Songs & Stories for the Holida
+ ys (one night)
+LOCATION:Country Music Hall of Fame and Museum\, Downtown
+DESCRIPTION:A holiday-themed night of songs and stories from Shaun Cassidy\
+ , one evening only. Ticket price is not stated.\nDetails and tickets: http
+ s://nashvilledowntown.com/event/shaun-cassidy-unwrapped-songs-and-stories-
+ for-the-holidays\nWindows drift - confirm with the venue before you go.\nF
+ leeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/shaun-cassidy-unwrapped-songs-and-s
+ tories-for-the-holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

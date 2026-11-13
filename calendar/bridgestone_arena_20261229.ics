@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261229@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261230T013000Z
+DTEND:20261230T033000Z
+SUMMARY:Fleeting: WWE Holiday Live Tour (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:A holiday-week wrestling card\, one night only.\nDetails and ti
+ ckets: https://www.ticketmaster.com/wwe-holiday-live-tour-nashville-tennes
+ see-12-29-2026/event/1B006537F099ACF8\nWindows drift - confirm with the ve
+ nue before you go.\nFleeting - the weekly Nashville what-closes-first list
+ .
+URL:https://www.ticketmaster.com/wwe-holiday-live-tour-nashville-tennessee-
+ 12-29-2026/event/1B006537F099ACF8
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

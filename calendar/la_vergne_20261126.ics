@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:la_vergne-20261126@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Fleeting: London's Lights (one night)
+LOCATION:La Vergne
+DESCRIPTION:A home light display at 1001 Ash Circle\, on nightly from 5 to 
+ 10pm starting Thanksgiving and running to Jan 2. Entry is free\, and the h
+ osts invite unwrapped toys for children in need.\nDetails and tickets: htt
+ ps://nashvillelife.com/London%E2%80%99s-Lights-Christmas-Lights/Nashville-
+ Calendar\nWindows drift - confirm with the venue before you go.\nFleeting 
+ - the weekly Nashville what-closes-first list.
+URL:https://nashvillelife.com/London%E2%80%99s-Lights-Christmas-Lights/Nash
+ ville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:cma_theater_country_music_hall_of_fame_and_museu-20261113@nashville.fle
+ eting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T013000Z
+DTEND:20261114T033000Z
+SUMMARY:Fleeting: Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks
+  (one night)
+LOCATION:CMA Theater\, Country Music Hall of Fame and Museum\, Downtown
+DESCRIPTION:The Jayhawks mark four decades with a single night at the CMA T
+ heater inside the Hall of Fame. Ticket price is not stated in the listing.
+ \nDetails and tickets: https://nashvilledowntown.com/event/sanctuary-park-
+ tour-celebrating-40-years-of-the-jayhawks\nWindows drift - confirm with th
+ e venue before you go.\nFleeting - the weekly Nashville what-closes-first 
+ list.
+URL:https://nashvilledowntown.com/event/sanctuary-park-tour-celebrating-40-
+ years-of-the-jayhawks
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

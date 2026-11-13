@@ -14,6 +14,7 @@
   <url><loc>https://nashville.fleeting.city/open-data/</loc></url>
   <url><loc>https://nashville.fleeting.city/churn/</loc></url>
   <url><loc>https://nashville.fleeting.city/steal-this-chart/</loc></url>
+  <url><loc>https://nashville.fleeting.city/neighbors/</loc></url>
   <url><loc>https://nashville.fleeting.city/ledger/</loc></url>
   <url><loc>https://nashville.fleeting.city/watch/</loc></url>
   <url><loc>https://nashville.fleeting.city/complete/</loc></url>
@@ -34,16 +35,19 @@
   <url><loc>https://nashville.fleeting.city/table/</loc></url>
   <url><loc>https://nashville.fleeting.city/charter/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/franklin/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/opryland/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/midtown/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/downtown/</loc></url>
-  <url><loc>https://nashville.fleeting.city/this-week/pie-town/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/franklin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/midtown/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/sobro/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/pie-town/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/opryland/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/east-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/this-week/vine-hill/</loc></url>
   <url><loc>https://nashville.fleeting.city/this-week/downtown-franklin/</loc></url>
   <url><loc>https://nashville.fleeting.city/closing-soon/</loc></url>
   <url><loc>https://nashville.fleeting.city/plan-the-night/</loc></url>
   <url><loc>https://nashville.fleeting.city/embed/</loc></url>
+  <url><loc>https://nashville.fleeting.city/shop-small/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/coral-club/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/rice-vice/</loc></url>
@@ -733,8 +737,71 @@
   <url><loc>https://nashville.fleeting.city/venues/adventure-science-center/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/hieber-farms/</loc></url>
   <url><loc>https://nashville.fleeting.city/venues/percy-warner-park/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/williamson-county-casa/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-pool-club/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/cma-theater-country-music-hall-of-fame-and-museum/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/cma-theater-country-music-hall-of-fame-museum/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-terrace/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-stage/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/south-harpeth-river-retreat/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashville-hits-the-roof-series/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/gallatin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/cheekwood-estate-and-gardens/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/char-franklin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/close-company-bar/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/mcgregor-park-cumberland-riverwalk/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-boneyard-skatepark-llc/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/la-vergne/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/char/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/nashvillage/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/columbia/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/noelle-hidden-bar/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/han-s-deli/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/college-grove/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-mercantile/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/bridgestone-arena-ryman-auditorium-the-pinnacle-and-other-venues/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/chauvet-arts/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/cannonsburgh-village/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/tennessee-state-university-avon-williams-campus/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/tn-performing-arts-center-andrew-johnson-theater/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-borchetta-bourbon-experience/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/downtown-franklin-association-and-historic-main-street-district/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/scarritt-bennett-center/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/sheraton-music-city-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/the-end/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/omni-nashville-hotel/</loc></url>
+  <url><loc>https://nashville.fleeting.city/venues/three-oaks-church/</loc></url>
   <url><loc>https://nashville.fleeting.city/archive/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/adventure-science-center/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-nashville-palace/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/savas/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/tn-performing-arts-center-andrew-johnson-theater/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/williamson-county-casa/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/parnassus-books/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/canvas-skin/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/redneck-riviera-bar-bbq/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/x-golf/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/blaze-pizza/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/d-andrews-bakery-cafe/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/opry-house/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/skin-pharm-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-nashville-fairgrounds-expo-3/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/gordon-jewish-community-center/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/crafty-bastards/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/a-celtic-christmas/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-trimble/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/tanger-outlets-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/caption-by-hyatt-downtown-nashville/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/green-door-gourmet/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/edible-nashville-farm-dinner/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/the-cowan/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/bluebird-on-the-mountain/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/glenn-miller-orchestra/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/unwrapped-special-film-sight-with-dr-ming-wang/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/del-frisco-s-grille-brentwood/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/elmo-s-got-the-moves/</loc></url>
+  <url><loc>https://nashville.fleeting.city/closed/del-frisco-s-grille/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/the-rux/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/ole-red-nashville/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/riverside-revival/</loc></url>
@@ -1278,6 +1345,7 @@
   <url><loc>https://nashville.fleeting.city/closed/firstbank-amphitheater/</loc></url>
   <url><loc>https://nashville.fleeting.city/closed/downtown-nashville/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/</loc></url>
+  <url><loc>https://nashville.fleeting.city/issues/017/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/012/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/011/</loc></url>
   <url><loc>https://nashville.fleeting.city/issues/010/</loc></url>

@@ -1,8 +1,428 @@
 {
   "append_only": true,
-  "as_of": "2026-11-04T12:09:09+00:00",
+  "as_of": "2026-11-11T12:11:30+00:00",
   "dataset": "The Closings Record - Fleeting",
   "events": [
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_x_golf",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Play for a Purpose: Veterans Day",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_williamson_county_casa",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Be for the Child Community Breakfast",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_tn_performing_arts_center_andrew_johnson_theater",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Churchill & Roosevelt: The Christmas That Saved the World!",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_three_oaks_church",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Tennessee Jubilee 2027",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_the_terrace",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Pop-Up Bar at the Terrace",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_the_pool_club",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Elf'd Up at The Pool Club",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_the_mercantile",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Sherri Hughes-Gragg Advent Book Signing",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_the_end",
+      "recorded_at": "2026-11-11",
+      "summary": "Added 615 indie live 2027",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_the_borchetta_bourbon_experience",
+      "recorded_at": "2026-11-11",
+      "summary": "Added The Band Perry",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_the_boneyard_skatepark_llc",
+      "recorded_at": "2026-11-11",
+      "summary": "Added 4 Tha Culture Festival 2026",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_tennessee_state_university_avon_williams_campus",
+      "recorded_at": "2026-11-11",
+      "summary": "Added The 16th Annual Tennessee Local Food Summit",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_south_harpeth_river_retreat",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Cedarsongs Retreat 2026",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_sheraton_music_city_hotel",
+      "recorded_at": "2026-11-11",
+      "summary": "Added SPBGMA 2027",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_scarritt_bennett_center",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Manifesting Creative Courage in Songwriting 2027",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_omni_nashville_hotel",
+      "recorded_at": "2026-11-11",
+      "summary": "Added CRS 2027",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_noelle_hidden_bar",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Santa Baby, A Makeready Experience",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_nashville_stage",
+      "recorded_at": "2026-11-11",
+      "summary": "Added KEDAGORO: The Age Is Yours, My Liege",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_nashville_hits_the_roof_series",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Jordan James: Nashville Hits the Roof",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_nashvillage",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Nashvillage Holiday Market",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_mcgregor_park_cumberland_riverwalk",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Christmas on the Cumberland 2026",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_la_vergne",
+      "recorded_at": "2026-11-11",
+      "summary": "Added London's Lights",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_journey_from_the_heart",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Journey from The Heart",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_jon_mclaughlin_home_for_the_holidays",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Jon McLaughlin: Home For The Holidays",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_iron_fork_2026_chef_competitors",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Iron Fork 2026 Chef Competitors",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_hip_hop_and_r_b_bingo",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Hip Hop and R&B Bingo",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_han_s_deli",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Han's Deli",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_gallatin",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Gallatin Comic Con 2026",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_elf_2003",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Elf (2003)",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_downtown_franklin_association_and_historic_main",
+      "recorded_at": "2026-11-11",
+      "summary": "Added 37th Annual Dickens of a Christmas 2026",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_columbia",
+      "recorded_at": "2026-11-11",
+      "summary": "Added The Piano Men Live",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_college_grove",
+      "recorded_at": "2026-11-11",
+      "summary": "Added College Grove Christmas Parade",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_cma_theater_country_music_hall_of_fame_museum",
+      "recorded_at": "2026-11-11",
+      "summary": "Added The Jayhawks with Mary Gauthier",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_cma_theater_country_music_hall_of_fame_and_museu",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_close_company_bar",
+      "recorded_at": "2026-11-11",
+      "summary": "Added RE:MIX #4 Presented by Soundtrack My Drink",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_christmas_with_the_celts",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Christmas with the Celts",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_cheekwood_estate_and_gardens",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Holiday LIGHTS at Cheekwood",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_chauvet_arts",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Exhibition: The Color of Night by Noah Henderson",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_char_franklin",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Char Franklin Sets Open Date",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_char",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Char opening in Franklin",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_cannonsburgh_village",
+      "recorded_at": "2026-11-11",
+      "summary": "Added A Charming Christmas",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_campanelle_pasta_making_class_and_lunch",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Campanelle Pasta-Making Class and Lunch",
+      "supersedes": null,
+      "version": 1
+    },
+    {
+      "change": "created",
+      "changed_fields": [],
+      "reason": null,
+      "record_id": "nashville/wl_20261112_bridgestone_arena_ryman_auditorium_the_pinnacle",
+      "recorded_at": "2026-11-11",
+      "summary": "Added Nashville Comedy Festival 2027",
+      "supersedes": null,
+      "version": 1
+    },
     {
       "change": "created",
       "changed_fields": [],
@@ -11708,8 +12128,8 @@
   "id_scheme": "<city>/<window_id> - permanent, never reused or renumbered, namespaced per city so ids never collide across cities",
   "totals": {
     "corrections": 0,
-    "distinct_records": 1170,
-    "records_created": 1170,
-    "version_events": 1170
+    "distinct_records": 1212,
+    "records_created": 1212,
+    "version_events": 1212
   }
 }

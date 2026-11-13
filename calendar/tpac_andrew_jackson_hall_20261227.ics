@@ -7,15 +7,15 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:tpac_andrew_jackson_hall-20261227@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Last day: Nashville Nutcracker
-LOCATION:TPAC - Andrew Jackson Hall\, Downtown
-DESCRIPTION:The annual ballet run at TPAC through the holidays. Dates and t
- ickets are on the venue site.\nDetails and tickets: https://nashvillelife.
- com/node/22688\nWindows drift - confirm with the venue before you go.\nFle
- eting - the weekly Nashville what-closes-first list.
+LOCATION:TPAC - Andrew Jackson Hall
+DESCRIPTION:The annual holiday ballet runs for a month in Andrew Jackson Ha
+ ll.\nDetails and tickets: https://nashvillelife.com/node/22688\nWindows dr
+ ift - confirm with the venue before you go.\nFleeting - the weekly Nashvil
+ le what-closes-first list.
 URL:https://nashvillelife.com/node/22688
 TRANSP:TRANSPARENT
 END:VEVENT

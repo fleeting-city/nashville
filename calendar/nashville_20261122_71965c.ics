@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Fleeting: Everclear: Lucky 7 Tour with American Hi-Fi (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:Fans vote at everclear.set.fan and the seven most requested son
+ gs get played\, with American Hi-Fi sharing the bill. Sunday at 7:30 p.m. 
+ at Brooklyn Bowl\, 18+ unless with an adult.\nDetails and tickets: https:/
+ /do615.com/events/2026/11/22/everclear-lucky-7-tour-american-hi-fi-tickets
+ \nWindows drift - confirm with the venue before you go.\nFleeting - the we
+ ekly Nashville what-closes-first list.
+URL:https://do615.com/events/2026/11/22/everclear-lucky-7-tour-american-hi-
+ fi-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

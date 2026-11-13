@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:hutton_hotel-20270502@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Last day: The Globetrot with Allen Stone 2027
+LOCATION:Hutton Hotel\, Midtown
+DESCRIPTION:A four-day hosted weekend with Allen Stone at the Hutton Hotel\
+ , running Thursday through Sunday.\nDetails and tickets: https://www.bands
+ intown.com/f/240327?came_from=253&utm_medium=web&utm_source=city_page&utm_
+ campaign=festival\nWindows drift - confirm with the venue before you go.\n
+ Fleeting - the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/240327?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

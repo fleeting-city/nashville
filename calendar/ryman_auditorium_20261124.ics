@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261124@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261125T000000Z
+DTEND:20261125T020000Z
+SUMMARY:Fleeting: Professor Brian Cox (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:The physicist takes the stage at the Ryman for a two-date run. 
+ Ticketed\, price not listed.\nDetails and tickets: https://allevents.in/na
+ shville/professor-brian-cox/2300030153288444\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
+URL:https://allevents.in/nashville/professor-brian-cox/2300030153288444
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

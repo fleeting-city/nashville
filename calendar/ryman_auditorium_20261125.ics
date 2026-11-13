@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261125@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261126T013000Z
+DTEND:20261126T033000Z
+SUMMARY:Fleeting: Professor Brian Cox: Emergence (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:A science-talk evening in the Ryman\, with an age line of 12 an
+ d over.\nDetails and tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7
+ jVOM\nWindows drift - confirm with the venue before you go.\nFleeting - th
+ e weekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7jVOM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

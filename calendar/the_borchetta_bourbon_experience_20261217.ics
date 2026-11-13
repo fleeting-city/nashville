@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_borchetta_bourbon_experience-20261217@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Fleeting: The Band Perry (one night)
+LOCATION:The Borchetta Bourbon Experience
+DESCRIPTION:A Band Perry show staged inside a bourbon experience venue inst
+ ead of a standard concert hall. A different setting from the usual Nashvil
+ le room.\nDetails and tickets: https://www.songkick.com/concerts/43502716-
+ band-perry-at-borchetta-bourbon-experience\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
+URL:https://www.songkick.com/concerts/43502716-band-perry-at-borchetta-bour
+ bon-experience
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

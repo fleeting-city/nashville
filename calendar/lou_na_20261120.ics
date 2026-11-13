@@ -7,16 +7,17 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:lou_na-20261120@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-SUMMARY:Fleeting: Grand & Gilded (one night)
+SUMMARY:Fleeting: Grand & Gilded at lou/na (one night)
 LOCATION:lou/na\, Downtown
-DESCRIPTION:A holiday pop-up arriving at a downtown venue in late November.
-  Details on menu\, pricing and how long it stays are not in the listing.\n
- Details and tickets: https://nashvilleguru.com/businesses/grand-gilded-at-
- lou-na\nWindows drift - confirm with the venue before you go.\nFleeting - 
- the weekly Nashville what-closes-first list.
+DESCRIPTION:The rooftop bar atop Grand Hyatt Nashville goes green and gold\
+ , with holiday cocktails\, Steak Frites\, Broiled Oysters and Flatbread Bi
+ anca. It runs nightly through Dec 30\, closed Thanksgiving and Christmas.\
+ nDetails and tickets: https://nashvilleguru.com/businesses/grand-gilded-at
+ -lou-na\nWindows drift - confirm with the venue before you go.\nFleeting -
+  the weekly Nashville what-closes-first list.
 URL:https://nashvilleguru.com/businesses/grand-gilded-at-lou-na
 TRANSP:TRANSPARENT
 END:VEVENT

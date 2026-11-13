@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bacco-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Fleeting: Snow Globe Bungalow at Bacco (one night)
+LOCATION:Bacco\, Downtown
+DESCRIPTION:Bacco\, the Tuscan steakhouse inside the Four Seasons\, turns i
+ nto a winter wonderland-inspired holiday pop-up starting Friday. The page 
+ lists no menu or price\, so check the restaurant's site or reserve before 
+ you go.\nDetails and tickets: https://nashvilleguru.com/businesses/snow-gl
+ obe-bungalow-at-bacco\nWindows drift - confirm with the venue before you g
+ o.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilleguru.com/businesses/snow-globe-bungalow-at-bacco
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

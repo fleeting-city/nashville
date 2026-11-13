@@ -7,16 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:city_winery_nashville-20261129@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Last day: City Winery Tasting
 LOCATION:City Winery Nashville\, Pie Town
-DESCRIPTION:A wine tasting at City Winery running most of November\, with t
- ickets from $39. A low-cost way to try the house pours before the holiday 
- crush.\nDetails and tickets: https://bucketlisters.com/explore/city/NSH\nW
- indows drift - confirm with the venue before you go.\nFleeting - the weekl
- y Nashville what-closes-first list.
+DESCRIPTION:Wine tasting listed as a bucket list exclusive\, from $39. A lo
+ w-commitment way to spend an afternoon\, with a few weeks to pick a day.\n
+ Details and tickets: https://bucketlisters.com/explore/city/NSH\nWindows d
+ rift - confirm with the venue before you go.\nFleeting - the weekly Nashvi
+ lle what-closes-first list.
 URL:https://bucketlisters.com/explore/city/NSH
 TRANSP:TRANSPARENT
 END:VEVENT

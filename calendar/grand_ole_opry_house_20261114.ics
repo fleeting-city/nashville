@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:grand_ole_opry_house-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fleeting: Tiny Habits (one night)
+LOCATION:Grand Ole Opry House\, Opryland
+DESCRIPTION:A crowded Opry lineup with Craig Morgan\, Valerie June\, Maura 
+ O'Connell\, Mick Flannery\, Joshua Burnside and Rhett Akins. Six acts acro
+ ss country\, folk and Irish leanings in one evening.\nDetails and tickets:
+  https://www.songkick.com/concerts/43405839-tiny-habits-at-grand-ole-opry-
+ house\nWindows drift - confirm with the venue before you go.\nFleeting - t
+ he weekly Nashville what-closes-first list.
+URL:https://www.songkick.com/concerts/43405839-tiny-habits-at-grand-ole-opr
+ y-house
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

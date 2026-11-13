@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261212@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261213T013000Z
+DTEND:20261213T033000Z
+SUMMARY:Fleeting: Tommee Profitt: The Birth of a King (one night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:A one-night Christmas-season production in the arena.\nDetails 
+ and tickets: https://www.ticketmaster.com/tommee-profitt-the-birth-of-a-na
+ shville-tennessee-12-12-2026/event/1B006371C00BC350\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://www.ticketmaster.com/tommee-profitt-the-birth-of-a-nashville-te
+ nnessee-12-12-2026/event/1B006371C00BC350
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

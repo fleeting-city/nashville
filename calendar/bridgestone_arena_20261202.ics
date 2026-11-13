@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena-20261202@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261203T013000Z
+DTEND:20261203T033000Z
+SUMMARY:Fleeting: Trans-Siberian Orchestra: The Ghosts of Christmas Eve (on
+ e night)
+LOCATION:Bridgestone Arena\, SoBro
+DESCRIPTION:A holiday-season arena production on a Wednesday night\, which 
+ is the easiest kind of Christmas show to fit around a work week.\nDetails 
+ and tickets: https://www.ticketmaster.com/transsiberian-orchestra-the-ghos
+ ts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-chri
+ stmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

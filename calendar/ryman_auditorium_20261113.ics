@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:ryman_auditorium-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T020000Z
+DTEND:20261114T040000Z
+SUMMARY:Fleeting: Sawyer Brown (one night)
+LOCATION:Ryman Auditorium\, Downtown
+DESCRIPTION:A single Friday night at the Ryman for a long-running country a
+ ct.\nDetails and tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7-Skd
+ \nWindows drift - confirm with the venue before you go.\nFleeting - the we
+ ekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-Skd
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

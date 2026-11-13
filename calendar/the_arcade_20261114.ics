@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_arcade-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261115T020000Z
+DTEND:20261115T040000Z
+SUMMARY:Fleeting: Artist Talk & Walk (one night)
+LOCATION:The Arcade\, Downtown
+DESCRIPTION:An artist talk and walk through The Arcade over a three-hour Sa
+ turday evening window. No price or artist is named in the listing.\nDetail
+ s and tickets: https://nashvilledowntown.com/event/artist-talk-and-walk\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/artist-talk-and-walk
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

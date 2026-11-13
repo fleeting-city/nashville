@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville-20261210@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Fleeting: Jodeci: 35th Anniversary Tour of Forever (one night)
+LOCATION:Nashville\, Downtown
+DESCRIPTION:Anniversary tour date featured as a must-see on the Nashville p
+ age.\nDetails and tickets: https://www.ticketmaster.com/jodeci-35th-annive
+ rsary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD3
+ 3?ac_link=NTM_Jodeci26-2_spotlight_5\nWindows drift - confirm with the ven
+ ue before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-na
+ shville-tennessee-12-10-2026/event/1B0064F7A66CBD33?ac_link=NTM_Jodeci26-2
+ _spotlight_5
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

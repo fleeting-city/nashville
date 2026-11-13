@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:marathon_music_works-20261121@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261122T003000Z
+DTEND:20261122T023000Z
+SUMMARY:Fleeting: JoJo: The High Road\, 20 Years Unplugged (one night)
+LOCATION:Marathon Music Works\, Watkins Park
+DESCRIPTION:An unplugged take on the album's 20th anniversary. A stripped-b
+ ack version of songs most of the room knows by heart.\nDetails and tickets
+ : https://nashvillelife.com/JoJo/Nashville-Calendar\nWindows drift - confi
+ rm with the venue before you go.\nFleeting - the weekly Nashville what-clo
+ ses-first list.
+URL:https://nashvillelife.com/JoJo/Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

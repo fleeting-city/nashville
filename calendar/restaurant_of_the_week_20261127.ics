@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:restaurant_of_the_week-20261127@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261128T010000Z
+DTEND:20261128T030000Z
+SUMMARY:Fleeting: 100 Cities Project: Nashville Dinner Benefiting The Water
+  Project (one night)
+LOCATION:Restaurant of the Week
+DESCRIPTION:A benefit dinner for The Water Project at a host restaurant the
+  listing names only as Restaurant of the Week. Two additional dates are li
+ sted.\nDetails and tickets: https://www.eventbrite.com/e/100-cities-projec
+ t-nashville-dinner-benefits-for-the-water-project-tickets-1823525035469?af
+ f=ebdssbdestsearch\nWindows drift - confirm with the venue before you go.\
+ nFleeting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/100-cities-project-nashville-dinner-benefi
+ ts-for-the-water-project-tickets-1823525035469?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

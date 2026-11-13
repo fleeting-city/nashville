@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:512_lea_ave-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Fleeting: Ice Cream Cocktail Mixology Class (one night)
+LOCATION:512 Lea Ave\, SoBro
+DESCRIPTION:A midday mixology class where the ice cream goes in the glass. 
+ Sales are flagged as ending soon.\nDetails and tickets: https://www.eventb
+ rite.com/e/ice-cream-cocktail-mixology-class--tickets-2002210319965?aff=eb
+ dssbdestsearch\nWindows drift - confirm with the venue before you go.\nFle
+ eting - the weekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/ice-cream-cocktail-mixology-class--tickets
+ -2002210319965?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

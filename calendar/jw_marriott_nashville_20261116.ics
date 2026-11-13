@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:jw_marriott_nashville-20261116@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Last day: Whiskey Wonderland
+LOCATION:JW Marriott Nashville\, Downtown
+DESCRIPTION:A whiskey-themed seasonal setup at the JW Marriott\, open eveni
+ ngs all week. The text gives no menu or price details\, so call ahead befo
+ re you plan a night around it.\nDetails and tickets: https://nashvilledown
+ town.com/event/whiskey-wonderland\nWindows drift - confirm with the venue 
+ before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvilledowntown.com/event/whiskey-wonderland
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

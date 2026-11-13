@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:bridgestone_arena_ryman_auditorium_the_pinnacle-20270418@nashville.flee
+ ting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Last day: Nashville Comedy Festival 2027
+LOCATION:Bridgestone Arena\, Ryman Auditorium\, The Pinnacle and other venu
+ es
+DESCRIPTION:Twelve days of stand-up across several of the city's biggest ro
+ oms. The announced lineup includes Tom Segura\, Jeff Dunham and Whitney Cu
+ mmings\, with more names to come.\nDetails and tickets: https://nashvillel
+ ifestyles.com/nashville-calendar/things-to-do/nashville-comedy-festival-20
+ 27-announces-lineup-featuring-to/\nWindows drift - confirm with the venue 
+ before you go.\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://nashvillelifestyles.com/nashville-calendar/things-to-do/nashvil
+ le-comedy-festival-2027-announces-lineup-featuring-to/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

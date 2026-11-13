@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bring a friend into Fleeting | Fleeting - Nashville</title>
+<meta name="description" content="Co-sign a friend into Fleeting: bring one person onto the weekly list of Nashville's here-then-gone food, drink and one-night things. Make a personal invite link to share. Always free.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://nashville.fleeting.city/cosign/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="A reader brought you into Fleeting">
+<meta property="og:description" content="Someone who reads Fleeting brought you onto the weekly here-then-gone list. Join free -- one email a week, no alerts.">
+<meta property="og:url" content="https://nashville.fleeting.city/cosign/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A reader brought you into Fleeting">
+<meta name="twitter:description" content="Someone who reads Fleeting brought you in. Join the weekly here-then-gone list, free.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+  Fleeting - Nashville : Co-sign vouch-in join path (EXP-0149 / LAS-570). Built by
+  scripts/build_cosign_page.py. Two modes by ?v=: GENERATE (a reader mints a personal
+  invite link) and VOUCH-WELCOME (the named welcome a co-signed link opens, then the
+  ordinary subscribe). The link carries utm_source=cosign, utm_medium=referral,
+  utm_campaign=EXP-0149 so conversions read back on the referral rail with no
+  write. ADDITIVE: does not touch the plain subscribe box. Pull / subscribe surface
+  only: NO alert promise (F-0009). The voucher name is cosmetic, set via textContent
+  off a sanitized value (no markup injection), never stored, never sent. Member-
+  initiated and named -- DISTINCT from the token-scarce Golden Ticket (/gift/). Dark
+  mission-control theme; skyline resolved via brand/marks.py and referenced (not
+  pasted) from skyline.svg (rules 11/14). Pure-ASCII copy.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --neon:#ff5a3c; --gold:#f0b429;
+    --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+    background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 22px 72px;}
+  .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+  .back:hover{color:var(--cream);text-decoration:none;}
+  .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;}
+  .logo{font-family:'Archivo';font-weight:900;font-size:20px;letter-spacing:.02em;
+    text-shadow:0 0 16px rgba(230,69,53,.45);color:var(--cream);}
+  .logo:hover{text-decoration:none;}
+  .logo .dot{color:var(--accent);}
+  .logo .city{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.22em;color:var(--muted);margin-left:8px;vertical-align:middle;}
+  .skyline{display:block;width:100%;height:132px;object-fit:cover;object-position:bottom;margin:20px 0 2px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 34%);mask-image:linear-gradient(180deg,transparent,#000 34%);}
+  @media(max-width:600px){.skyline{height:96px;}}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:14px 0 0;}
+
+  h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(28px,6vw,42px);margin:8px 0 10px;}
+  h1 .dot{color:var(--accent);}
+  .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16px);max-width:60ch;}
+  .lede b{color:var(--cream);}
+
+  .card{background:linear-gradient(135deg,rgba(230,69,53,.12),rgba(240,180,41,.07));
+    border:1px solid rgba(230,69,53,.34);border-radius:14px;padding:20px 18px 16px;margin:26px 0 10px;}
+  .genform{display:flex;flex-direction:column;gap:13px;}
+  .fl{display:flex;flex-direction:column;gap:6px;font-size:12.5px;font-weight:600;letter-spacing:.02em;color:#e7e1d5;}
+  .fl .opt{font-weight:400;color:var(--muted);}
+  .genform input{background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:12px 14px;font-family:'Inter';}
+  .genform input:focus{outline:none;border-color:var(--accent);}
+
+  .result{margin-top:16px;border-top:1px solid var(--line);padding-top:16px;}
+  .rlabel{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
+  .linkbox{width:100%;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:13px;padding:11px 13px;font-family:'Inter';}
+  .linkbox:focus{outline:none;border-color:var(--gold);}
+  .rbtns{display:flex;gap:9px;flex-wrap:wrap;margin-top:11px;}
+
+  .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.08));
+    border:1px solid rgba(230,69,53,.38);border-radius:14px;padding:22px 20px 18px;margin:26px 0 10px;}
+  .ctah{font-family:'Archivo';font-weight:900;font-size:clamp(19px,4.4vw,24px);letter-spacing:-.01em;color:var(--cream);margin-bottom:8px;}
+  .ctah .dot{color:var(--accent);}
+  .ctap{font-size:14px;color:#e7e1d5;margin:0 0 14px;line-height:1.5;}
+  .ctap b{color:#fff;}
+  .form{display:flex;gap:9px;flex-wrap:wrap;}
+  .form input{flex:1 1 200px;min-width:0;background:#0c0b0f;border:1px solid var(--line);border-radius:10px;
+    color:var(--cream);font-size:15px;padding:12px 14px;font-family:'Inter';}
+  .form input:focus{outline:none;border-color:var(--accent);}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+    padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+  .btn:hover{background:#d13a2b;text-decoration:none;}
+  .btn:disabled{opacity:.6;cursor:default;}
+  .btn.ghost{background:transparent;border:1px solid rgba(246,241,231,.28);color:var(--cream);}
+  .btn.ghost:hover{background:rgba(246,241,231,.06);}
+  .fine{font-size:11.5px;color:var(--muted);margin-top:11px;letter-spacing:.01em;line-height:1.5;}
+  .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  .foot .fmark{font-family:'Archivo';font-weight:900;color:var(--cream);}
+  .foot .fmark .dot{color:var(--accent);}
+</style>
+  <script>
+  /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+     context ONCE, in their own browser, so it survives navigation to the
+     subscribe form. No network call, no external action. */
+  (function(){try{
+    var K='fl_ft';
+    if(localStorage.getItem(K)){return;}
+    var q=new URLSearchParams(location.search);
+    var ft={
+      s:(q.get('utm_source')||'cosign'),
+      m:(q.get('utm_medium')||'referral'),
+      c:(q.get('utm_campaign')||'EXP-0149'),
+      r:(document.referrer||''),
+      p:location.pathname,
+      t:new Date().toISOString()
+    };
+    localStorage.setItem(K,JSON.stringify(ft));
+  }catch(e){}})();
+  </script>
+<!-- posthog:begin (managed by scripts/posthog_inject.py - do not hand-edit) -->
+<script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags onFeatureFlags onSessionId identify setPersonProperties group reset get_distinct_id get_session_id alias set_config startSessionRecording stopSessionRecording opt_in_capturing opt_out_capturing has_opted_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init("phc_nMLVLzPtUJRWiNtFuwymeUrtCV6iTjjbMjKWz5vgNdUB",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only",respect_dnt:true});
+posthog.register({site:"fleeting",city:"nashville"});
+document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var h=a.href||"",n=null;
+if(/beehiiv\.com\/subscribe/.test(h))n="subscribe_click";else if(a.getAttribute("href")==="#subscribe")n="subscribe_cta_click";else if(/beehiiv\.com\/upgrade/.test(h))n="upgrade_click";else if(/^mailto:advertise@|\/advertise(\.html)?(#|$)/.test(h))n="advertise_click";
+if(n)posthog.capture(n,{href:h,label:(a.textContent||"").trim().slice(0,80)});},true);
+document.addEventListener("submit",function(ev){var f=ev.target;if(!f||!f.querySelector)return;var n=f.querySelector("[name=t-what]")?"tip_submit":f.querySelector("input[name=email]")?"subscribe_submit":null;
+if(n)posthog.capture(n,{form_index:Array.prototype.indexOf.call(document.forms,f)});},true);
+</script>
+<!-- posthog:end -->
+<!-- meta-pixel:begin (managed by scripts/meta_pixel_inject.py - do not hand-edit) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2349996645936820');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
+/></noscript>
+<!-- meta-pixel:end -->
+</head>
+<body>
+<!-- site-header:begin (managed by scripts/header_inject.py - do not hand-edit) -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter:wght@600&text=FLETINGASHV.&display=swap');
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/dm-sans-400.ttf') format('truetype')}
+.fh-bar,.fh-bar *{box-sizing:border-box}
+.fh-bar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:14px 5vw;margin:0;background:#0c0b0a;border-bottom:1px solid rgba(241,234,219,.173);position:sticky;top:0;z-index:30;font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6;color:#f1eadb;text-align:left}
+.fh-bar a{text-decoration:none}
+.fh-mark{display:flex;align-items:baseline;white-space:nowrap}
+.fh-name{font-family:'Archivo','DM Sans',sans-serif;font-weight:900;font-size:20px;line-height:1;letter-spacing:.02em;color:#f6f1e7;text-shadow:0 0 16px rgba(230,69,53,.45)}
+.fh-dot{color:#E64535}
+.fh-city{font-family:'Inter',sans-serif;font-weight:600;font-size:11px;line-height:1;letter-spacing:.22em;color:#a39c8f;margin-left:8px}
+.fh-nav{display:flex;gap:17px}
+.fh-nav a{font-size:14px;color:#d9cfbc}
+.fh-nav a:hover,.fh-join:hover{color:#e84b3f}
+.fh-join{display:flex;align-items:center;gap:12px;font-size:14px;color:#f1eadb;border-bottom:1px solid #b99656;padding:9px 0;white-space:nowrap}
+@media(max-width:1150px){.fh-bar{gap:20px}}
+@media(max-width:800px){.fh-bar{min-height:75px}.fh-nav{display:none}}
+@media(max-width:540px){.fh-bar{padding:12px 20px;min-height:72px;gap:12px}.fh-mark{flex-direction:column;align-items:flex-start;gap:4px}.fh-city{margin-left:0}.fh-join{font-size:12px;gap:7px}}
+.wrap>.top:has(>a.logo:only-child):not(:has(.plus)),.wrap>a.logo,body>nav:has(>.nav-in){display:none!important}
+</style>
+<header class="fh-bar">
+  <a class="fh-mark" href="/" aria-label="Fleeting Nashville home"><span class="fh-name">FLEETING<span class="fh-dot">.</span></span><span class="fh-city">NASHVILLE</span></a>
+  <nav class="fh-nav" aria-label="Main navigation"><a href="/#drop">The Thursday drop</a><a href="/perks.html">Perks</a><a href="/#how">A little about us</a></nav>
+  <a class="fh-join" href="/#join">Get the free newsletter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+</header>
+<!-- site-header:end -->
+
+  <div class="wrap">
+    <a class="back" href="/">&#8592; Fleeting HQ</a>
+    <div class="top">
+      <a class="logo" href="/">FLEETING<span class="dot">.</span><span class="city">NASHVILLE</span></a>
+    </div>
+    <img class="skyline" src="skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+    <section id="generate">
+      <div class="kicker">Bring one person in</div>
+      <h1>Co-sign a friend<span class="dot">.</span></h1>
+      <p class="lede">Fleeting grows by readers handing it to people they know. Put your name on it: make a personal invite that tells your friend <b>you</b> brought them in, then send it however you like. This does not touch your own subscription and it is always free for them.</p>
+      <div class="card">
+        <form class="genform" id="genform" onsubmit="return makeLink(event)">
+          <label class="fl">Your first name
+            <input type="text" id="vname" maxlength="24" placeholder="e.g. Sarah" required aria-label="Your first name">
+          </label>
+          <label class="fl">Friend's first name <span class="opt">(optional)</span>
+            <input type="text" id="fname" maxlength="24" placeholder="e.g. Alex" aria-label="Friend first name">
+          </label>
+          <label class="fl">Friend's email <span class="opt">(optional, only used to pre-fill your own email app)</span>
+            <input type="email" id="femail" placeholder="alex@email.com" aria-label="Friend email">
+          </label>
+          <button class="btn" type="submit">Make my invite link &#8594;</button>
+        </form>
+        <div class="result" id="result" hidden>
+          <p class="rlabel">Your invite link</p>
+          <input type="text" id="link" class="linkbox" readonly aria-label="Your invite link">
+          <div class="rbtns">
+            <button class="btn" type="button" id="copybtn" onclick="copyLink()">Copy link</button>
+            <button class="btn ghost" type="button" id="sharebtn" onclick="shareLink()" hidden>Share</button>
+            <a class="btn ghost" id="mailbtn" href="#">Email it</a>
+          </div>
+          <p class="fine">We do not send anything for you and we do not store your friend's address -- the email button just opens your own mail app with the link ready. Your friend joins themselves, with the normal confirmation step.</p>
+        </div>
+      </div>
+      <p class="foot">Fleeting is the weekly list of Nashville's time-limited food, drink and events -- the things that are <span class="fmark">here<span class="dot">.</span></span> then gone. See what that looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>.</p>
+    </section>
+    <section id="vouch" hidden>
+      <div class="kicker" id="vkicker">You were brought in</div>
+      <h1><span id="voucher">A reader</span> brought you in<span class="dot">.</span></h1>
+      <p class="lede" id="vlede">Someone who reads Fleeting thought you should be on the list too. Fleeting is Nashville's <b>here-then-gone</b> food, drink and one-night things -- one email a week, always free.</p>
+      <section class="cta" id="join">
+        <p class="ctah">Take them up on it<span class="dot">.</span></p>
+        <p class="ctap">One email a week: the Nashville windows that are about to close, before they do. Always free. <b>This list does not ping you</b> -- no alerts, no notifications, just the Thursday heads-up in your inbox.</p>
+        <form class="form" id="subscribe" onsubmit="return go(event)">
+          <input type="email" id="email" placeholder="you@email.com" required aria-label="Email">
+          <button class="btn" type="submit">Join Fleeting &#8594;</button>
+        </form>
+        <p class="fine">You will get one email to confirm -- the normal step, so no one can add you without your say-so. Unsubscribe anytime. We never share your email.</p>
+      </section>
+      <p class="foot">Not sure yet? See what a week looks like on the <a href="/conditions/">conditions board</a> and the <a href="/insider-map/">insider map</a>. No pressure, no pinging.</p>
+    </section>
+  </div>
+  <script>
+  function flFirstTouch(){
+    var d={utm_source:'',utm_medium:'',utm_campaign:'',
+           referrer:'',first_touch_at:'',landing_path:''};
+    try{
+      var raw=localStorage.getItem('fl_ft');
+      if(raw){var o=JSON.parse(raw);
+        d.utm_source=o.s||'';d.utm_medium=o.m||'';d.utm_campaign=o.c||'';
+        d.referrer=o.r||'';d.first_touch_at=o.t||'';d.landing_path=o.p||'';}
+    }catch(e){}
+    try{var q=new URLSearchParams(location.search);
+      if(!d.utm_source){d.utm_source=q.get('utm_source')||'';}
+      if(!d.utm_medium){d.utm_medium=q.get('utm_medium')||'';}
+      if(!d.utm_campaign){d.utm_campaign=q.get('utm_campaign')||'';}
+    }catch(e){}
+    if(!d.referrer){try{d.referrer=document.referrer||'';}catch(e){}}
+    return d;
+  }
+  var SUBSCRIBE_ENDPOINT='https://subscribe.fleeting.city/subscribe';
+  var CAMPAIGN='EXP-0149';
+  var SOURCE='cosign';
+  var MEDIUM='referral';
+  // First name / short display name only: letters, spaces, hyphen, apostrophe, period.
+  // Capped length. Used ONLY as display text (textContent), never as markup.
+  function safeName(s){
+    s=(s||'').replace(/[^a-zA-Z .'-]/g,'').replace(/\s+/g,' ').trim();
+    if(s.length>24){ s=s.slice(0,24).trim(); }
+    return s;
+  }
+  function qp(name){
+    try{ return (new URLSearchParams(location.search).get(name)||''); }catch(e){ return ''; }
+  }
+  function paintMode(){
+    var v=safeName(qp('v'));
+    var gen=document.getElementById('generate');
+    var vouch=document.getElementById('vouch');
+    if(v){
+      // VOUCH-WELCOME: a co-signed link was opened. Name the voucher (display only).
+      if(gen){ gen.hidden=true; }
+      if(vouch){ vouch.hidden=false; }
+      var who=document.getElementById('voucher');
+      if(who){ who.textContent=v; }  // textContent: no markup injection
+      var f=safeName(qp('f'));
+      if(f){
+        var vl=document.getElementById('vlede');
+        if(vl){
+          vl.textContent=v+' reads Fleeting and thought you, '+f+', should be on the list '
+            +'too. Fleeting is Nashville\'s here-then-gone food, drink and one-night things '
+            +'-- one email a week, always free.';
+        }
+      }
+    } else {
+      // GENERATE: the honest reader surface. No faked voucher.
+      if(gen){ gen.hidden=false; }
+      if(vouch){ vouch.hidden=true; }
+    }
+  }
+  function joinBase(){
+    // Build on the canonical /cosign/ path, dropping any query already present.
+    return location.origin + location.pathname;
+  }
+  function buildLink(vname, fname){
+    var u=joinBase()+'?v='+encodeURIComponent(vname);
+    if(fname){ u+='&f='+encodeURIComponent(fname); }
+    u+='&utm_source='+SOURCE+'&utm_medium='+MEDIUM+'&utm_campaign='+CAMPAIGN;
+    return u;
+  }
+  function makeLink(e){
+    e.preventDefault();
+    var vname=safeName(document.getElementById('vname').value);
+    var fname=safeName(document.getElementById('fname').value);
+    if(!vname){ return false; }
+    var url=buildLink(vname, fname);
+    var box=document.getElementById('link');
+    if(box){ box.value=url; }
+    var res=document.getElementById('result');
+    if(res){ res.hidden=false; }
+    // mailto: opens the READER's own mail app, pre-addressed if they gave an address.
+    var fe='';
+    try{ fe=(document.getElementById('femail').value||'').trim(); }catch(err){}
+    var who=fname||'you';
+    var subj='I brought you into Fleeting';
+    var body='Hey '+who+' -- I read Fleeting (the weekly Nashville here-then-gone list) and '
+      +'brought you in. Join here, it is free:\n\n'+url+'\n\n- '+vname;
+    var mail=document.getElementById('mailbtn');
+    if(mail){
+      mail.href='mailto:'+encodeURIComponent(fe)+'?subject='+encodeURIComponent(subj)
+        +'&body='+encodeURIComponent(body);
+    }
+    var sb=document.getElementById('sharebtn');
+    if(sb && navigator.share){ sb.hidden=false; }
+    try{ box.focus(); box.select(); }catch(err){}
+    return false;
+  }
+  function copyLink(){
+    var box=document.getElementById('link');
+    var btn=document.getElementById('copybtn');
+    if(!box){ return; }
+    var done=function(){ if(btn){ var t=btn.textContent; btn.textContent='Copied'; setTimeout(function(){ btn.textContent=t; },1400); } };
+    try{
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(box.value).then(done, function(){ box.focus(); box.select(); });
+        return;
+      }
+    }catch(e){}
+    box.focus(); box.select();
+    try{ document.execCommand('copy'); done(); }catch(e){}
+  }
+  function shareLink(){
+    var box=document.getElementById('link');
+    if(box && navigator.share){
+      navigator.share({title:'Fleeting - Nashville', url:box.value}).catch(function(){});
+    }
+  }
+  function go(e){
+    e.preventDefault();
+    var form=document.getElementById('subscribe');
+    var input=document.getElementById('email');
+    var btn=form.querySelector('button[type=submit]');
+    var em=input.value.trim();
+    if(!em){ return false; }
+    function fallback(){ window.location.href='https://fleeting.beehiiv.com/subscribe?email=' + encodeURIComponent(em); }
+    var ft=flFirstTouch();
+    var payload={
+      email:em,
+      referrer:ft.referrer,
+      utm_source:ft.utm_source||SOURCE,
+      utm_medium:ft.utm_medium||MEDIUM,
+      utm_campaign:ft.utm_campaign||CAMPAIGN
+    };
+    var label=btn.textContent; btn.disabled=true; btn.textContent='Joining...';
+    fetch(SUBSCRIBE_ENDPOINT,{method:'POST',headers:{'content-type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+      .then(function(d){
+        if(d&&d.ok){
+          form.innerHTML='<div style="text-align:center;padding:8px 0;"><div style="font-family:\'Archivo\';font-weight:900;font-size:22px;color:var(--cream);">You are in.</div><p style="color:var(--muted);margin:8px 0 0;">Check your inbox to confirm. The first heads-up lands Thursday.</p></div>';
+        } else {
+          btn.disabled=false; btn.textContent=label; fallback();
+        }
+      })
+      .catch(function(){ btn.disabled=false; btn.textContent=label; fallback(); });
+    return false;
+  }
+  paintMode();
+  </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neighbor roll: who reads Fleeting | Fleeting - Nashville</title>
+<meta name="description" content="An opt-in wall of the Nashville readers who get the Fleeting Thursday list - by first name and neighborhood only. No last names, no contact info. Opt-in only.">
+<link rel="canonical" href="https://nashville.fleeting.city/neighbors/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon_32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/favicon_180.png">
+<meta name="theme-color" content="#0e0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fleeting - Nashville">
+<meta property="og:title" content="Neighbor roll: who reads Fleeting">
+<meta property="og:description" content="An opt-in wall of Nashville Fleeting readers by first name and neighborhood. No last names, no contact info.">
+<meta property="og:url" content="https://nashville.fleeting.city/neighbors/">
+<meta property="og:image" content="https://nashville.fleeting.city/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Neighbor roll: who reads Fleeting">
+<meta name="twitter:description" content="An opt-in wall of Nashville Fleeting readers by first name and neighborhood.">
+<meta name="twitter:image" content="https://nashville.fleeting.city/og.png">
+<!--
+ Fleeting - Nashville : Neighbor roll (EXP-0150 / LAS-571). An opt-in social-proof
+ wall of readers by FIRST NAME + NEIGHBORHOOD only - no last names, no contact info.
+ Built by scripts/build_neighbor_roll.py from scripts/neighbor_roll_optins.json, the
+ opt-in ledger written by scripts/neighbor_roll_capture.py (explicit consent per
+ reader) -- do not hand-edit; edit the ledger via the capture tool. Privacy is
+ load-bearing: default OFF, opt-in only, first name + neighborhood MAX. No opt-ins ->
+ an honest "be the first" invite, never a fake name or invented count. Pull surface
+ only: NO alert promise (F-0009); no spend, no outbound (F-0037). Skyline resolved via
+ brand/marks.py and referenced (not pasted) from /neighbors/skyline.svg (rules 11/14).
+ Strict ASCII; first-touch attribution + subscribe link carry utm_campaign=exp-0150.
+-->
+ <script>
+ /* First-touch attribution (EXP-0030/LAS-188). Records the reader's landing
+ context ONCE, in their own browser, so it survives navigation to the
+ subscribe form. No network call, no external action. */
+ (function(){try{
+ var K='fl_ft';
+ if(localStorage.getItem(K)){return;}
+ var q=new URLSearchParams(location.search);
+ var ft={
+ s:(q.get('utm_source')||'neighbor-roll'),
+ m:(q.get('utm_medium')||'social_proof'),
+ c:(q.get('utm_campaign')||'exp-0150'),
+ r:(document.referrer||''),
+ p:location.pathname,
+ t:new Date().toISOString()
+ };
+ localStorage.setItem(K,JSON.stringify(ft));
+ }catch(e){}})();
+ </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{
+ --ink:#0e0d10; --ink2:#16151a; --accent:#E64535; --gold:#f0b429;
+ --cream:#f6f1e7; --muted:#a39c8f; --line:rgba(246,241,231,.12);
+ }
+ *{box-sizing:border-box;margin:0;padding:0;}
+ body{background:var(--ink);color:var(--cream);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+ line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden;
+ background-image:radial-gradient(58% 40% at 84% -6%,rgba(230,69,53,.16),transparent 60%);}
+ a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+ .wrap{max-width:760px;margin:0 auto;padding:26px 22px 72px;}
+ .back{display:inline-block;margin:0 0 14px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.02em;}
+ .back:hover{color:var(--cream);text-decoration:none;}
+ .kicker{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:4px 0 0;}
+ h1{font-family:'Archivo';font-weight:900;letter-spacing:-.02em;line-height:1.05;
+ font-size:clamp(28px,6vw,44px);margin:8px 0 12px;}
+ h1 .dot{color:var(--accent);}
+ .lede{color:#cfc9bd;font-size:clamp(14px,2.6vw,16.5px);max-width:62ch;}
+ .skyline{display:block;width:100%;height:120px;object-fit:cover;object-position:bottom;
+ margin:20px 0 6px;border-radius:12px;border:1px solid var(--line);}
+ @media(max-width:600px){.skyline{height:92px;}}
+ .empty{margin:18px 0 6px;padding:20px 22px;background:var(--ink2);border:1px solid var(--line);
+ border-radius:14px;}
+ .empty p{font-size:14.5px;color:#cfc9bd;line-height:1.6;} .empty b{color:var(--cream);}
+ .wall{margin:14px 0 6px;}
+ .hood{margin:0 0 18px;padding:16px 18px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+ .hood h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);
+ margin:0 0 10px;display:flex;align-items:center;gap:8px;}
+ .hood h2 .n{font-family:'Inter';font-weight:700;font-size:11px;color:var(--gold);
+ background:rgba(240,180,41,.12);border-radius:999px;padding:2px 8px;}
+ .names{list-style:none;display:flex;flex-wrap:wrap;gap:8px;}
+ .who{font-size:13.5px;font-weight:600;color:var(--cream);background:#0b0a0d;border:1px solid var(--line);
+ border-radius:999px;padding:6px 13px;}
+ .join{margin:22px 0 6px;padding:16px 18px;background:var(--ink2);border:1px solid var(--line);border-radius:14px;}
+ .join h2{font-family:'Archivo';font-weight:900;font-size:15px;letter-spacing:.03em;color:var(--cream);margin:0 0 6px;}
+ .muted{font-size:12.8px;color:var(--muted);line-height:1.65;}
+ .cta{background:linear-gradient(135deg,rgba(230,69,53,.16),rgba(240,180,41,.06));
+ border:1px solid rgba(230,69,53,.35);border-radius:14px;padding:18px 20px;margin:22px 0 10px;}
+ .cta p{font-size:14px;color:var(--cream);margin:0 0 12px;line-height:1.5;} .cta p b{color:#fff;}
+ .btn{display:inline-block;background:var(--accent);color:#fff;font-family:'Archivo';font-weight:700;font-size:14.5px;
+ padding:12px 20px;border-radius:10px;white-space:nowrap;border:none;cursor:pointer;transition:.14s;}
+ .btn:hover{background:#d13a2b;text-decoration:none;}
+ .foot{margin-top:24px;font-size:11.5px;color:var(--muted);line-height:1.7;}
+</style>
+<!-- posthog:begin (managed by scripts/posthog_inject.py - do not hand-edit) -->
+<script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags onFeatureFlags onSessionId identify setPersonProperties group reset get_distinct_id get_session_id alias set_config startSessionRecording stopSessionRecording opt_in_capturing opt_out_capturing has_opted_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init("phc_nMLVLzPtUJRWiNtFuwymeUrtCV6iTjjbMjKWz5vgNdUB",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only",respect_dnt:true});
+posthog.register({site:"fleeting",city:"nashville"});
+document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var h=a.href||"",n=null;
+if(/beehiiv\.com\/subscribe/.test(h))n="subscribe_click";else if(a.getAttribute("href")==="#subscribe")n="subscribe_cta_click";else if(/beehiiv\.com\/upgrade/.test(h))n="upgrade_click";else if(/^mailto:advertise@|\/advertise(\.html)?(#|$)/.test(h))n="advertise_click";
+if(n)posthog.capture(n,{href:h,label:(a.textContent||"").trim().slice(0,80)});},true);
+document.addEventListener("submit",function(ev){var f=ev.target;if(!f||!f.querySelector)return;var n=f.querySelector("[name=t-what]")?"tip_submit":f.querySelector("input[name=email]")?"subscribe_submit":null;
+if(n)posthog.capture(n,{form_index:Array.prototype.indexOf.call(document.forms,f)});},true);
+</script>
+<!-- posthog:end -->
+<!-- meta-pixel:begin (managed by scripts/meta_pixel_inject.py - do not hand-edit) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2349996645936820');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2349996645936820&ev=PageView&noscript=1"
+/></noscript>
+<!-- meta-pixel:end -->
+</head>
+<body>
+<!-- site-header:begin (managed by scripts/header_inject.py - do not hand-edit) -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter:wght@600&text=FLETINGASHV.&display=swap');
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/dm-sans-400.ttf') format('truetype')}
+.fh-bar,.fh-bar *{box-sizing:border-box}
+.fh-bar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:14px 5vw;margin:0;background:#0c0b0a;border-bottom:1px solid rgba(241,234,219,.173);position:sticky;top:0;z-index:30;font-family:'DM Sans',Arial,sans-serif;font-size:16px;line-height:1.6;color:#f1eadb;text-align:left}
+.fh-bar a{text-decoration:none}
+.fh-mark{display:flex;align-items:baseline;white-space:nowrap}
+.fh-name{font-family:'Archivo','DM Sans',sans-serif;font-weight:900;font-size:20px;line-height:1;letter-spacing:.02em;color:#f6f1e7;text-shadow:0 0 16px rgba(230,69,53,.45)}
+.fh-dot{color:#E64535}
+.fh-city{font-family:'Inter',sans-serif;font-weight:600;font-size:11px;line-height:1;letter-spacing:.22em;color:#a39c8f;margin-left:8px}
+.fh-nav{display:flex;gap:17px}
+.fh-nav a{font-size:14px;color:#d9cfbc}
+.fh-nav a:hover,.fh-join:hover{color:#e84b3f}
+.fh-join{display:flex;align-items:center;gap:12px;font-size:14px;color:#f1eadb;border-bottom:1px solid #b99656;padding:9px 0;white-space:nowrap}
+@media(max-width:1150px){.fh-bar{gap:20px}}
+@media(max-width:800px){.fh-bar{min-height:75px}.fh-nav{display:none}}
+@media(max-width:540px){.fh-bar{padding:12px 20px;min-height:72px;gap:12px}.fh-mark{flex-direction:column;align-items:flex-start;gap:4px}.fh-city{margin-left:0}.fh-join{font-size:12px;gap:7px}}
+.wrap>.top:has(>a.logo:only-child):not(:has(.plus)),.wrap>a.logo,body>nav:has(>.nav-in){display:none!important}
+</style>
+<header class="fh-bar">
+  <a class="fh-mark" href="/" aria-label="Fleeting Nashville home"><span class="fh-name">FLEETING<span class="fh-dot">.</span></span><span class="fh-city">NASHVILLE</span></a>
+  <nav class="fh-nav" aria-label="Main navigation"><a href="/#drop">The Thursday drop</a><a href="/perks.html">Perks</a><a href="/#how">A little about us</a></nav>
+  <a class="fh-join" href="/#join">Get the free newsletter <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+</header>
+<!-- site-header:end -->
+
+ <div class="wrap">
+ <a class="back" href="/">&#8592; Fleeting HQ</a>
+ <div class="kicker">Neighbor roll</div>
+ <h1>Who reads Fleeting<span class="dot">.</span></h1>
+ <p class="lede">A new, opt-in wall of the Nashville readers who get the Thursday list - first name and neighborhood, nothing more. It fills as people opt in.</p>
+ <img class="skyline" src="/neighbors/skyline.svg" alt="Nashville skyline at night" width="1000" height="150">
+ <div class="empty">
+ <p><b>No one is on the wall yet.</b> This is a brand-new, opt-in roll of Nashville readers by first name and neighborhood. Reply to any Fleeting issue with your first name and your neighborhood and say you want to be on the wall, and you will be the first.</p>
+ </div>
+ <section class="join">
+ <h2>Want to be on the wall?</h2>
+ <p class="muted">It is opt-in and first name + neighborhood only. Reply to any Fleeting issue with your first name and your Nashville neighborhood and say you want on the wall. You can ask to be taken off any time. We never show a last name, an email, or any way to contact you - just a first name and a part of town.</p>
+ </section>
+ <section class="cta">
+ <p><b>Not on the list yet?</b> The Thursday list is the week's time-limited Nashville food, drink and events - the ones gone by the weekend - in your inbox while they are still open. One email a week, no alerts.</p>
+ <a class="btn" href="/?utm_source=neighbor_roll&amp;utm_medium=social_proof&amp;utm_campaign=exp-0150#subscribe">Get the Thursday list, free &#8594;</a>
+ </section>
+ <p class="foot">Opt-in only, first name + neighborhood maximum. <a href="/privacy/">How we handle your data</a>. Built November 13, 2026.</p>
+ </div>
+</body>
+</html>

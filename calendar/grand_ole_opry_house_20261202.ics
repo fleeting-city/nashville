@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:grand_ole_opry_house-20261202@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+SUMMARY:Fleeting: Opry Country Christmas (one night)
+LOCATION:Grand Ole Opry House\, Opryland
+DESCRIPTION:Seasonal holiday edition of the Opry\, kicking off in early Dec
+ ember. A limited-season run.\nDetails and tickets: https://allevents.in/na
+ shville/opry-country-christmas-at-grand-ole-opry-house/2400029427660810\nW
+ indows drift - confirm with the venue before you go.\nFleeting - the weekl
+ y Nashville what-closes-first list.
+URL:https://allevents.in/nashville/opry-country-christmas-at-grand-ole-opry
+ -house/2400029427660810
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

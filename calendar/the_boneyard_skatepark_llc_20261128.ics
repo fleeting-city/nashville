@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_boneyard_skatepark_llc-20261128@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Fleeting: 4 Tha Culture Festival 2026 (one night)
+LOCATION:The Boneyard Skatepark LLC\, Clarksville
+DESCRIPTION:A one day festival held at a skatepark in Clarksville\, which s
+ ets the tone better than any lineup note could. The listing gives no price
+ .\nDetails and tickets: https://www.bandsintown.com/f/239956?came_from=253
+ &utm_medium=web&utm_source=city_page&utm_campaign=festival\nWindows drift 
+ - confirm with the venue before you go.\nFleeting - the weekly Nashville w
+ hat-closes-first list.
+URL:https://www.bandsintown.com/f/239956?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

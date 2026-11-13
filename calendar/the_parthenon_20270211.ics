@@ -7,15 +7,16 @@ X-WR-CALNAME:Fleeting - Nashville - this week's windows
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 UID:the_parthenon-20270211@nashville.fleeting.city
-DTSTAMP:20261105T045715Z
+DTSTAMP:20261113T034933Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Last day: Candlelight: The Best of Hans Zimmer
 LOCATION:The Parthenon\, Midtown
-DESCRIPTION:Film score favorites by Hans Zimmer\, played by candlelight acr
- oss a multi-week run. Tickets start at $33.\nDetails and tickets: https://
- feverup.com/m/186640\nWindows drift - confirm with the venue before you go
- .\nFleeting - the weekly Nashville what-closes-first list.
+DESCRIPTION:Hans Zimmer's film scores performed live on strings by candleli
+ ght\, a natural fit for the Parthenon's big hall. Tickets from $33.\nDetai
+ ls and tickets: https://feverup.com/m/186640\nWindows drift - confirm with
+  the venue before you go.\nFleeting - the weekly Nashville what-closes-fir
+ st list.
 URL:https://feverup.com/m/186640
 TRANSP:TRANSPARENT
 END:VEVENT

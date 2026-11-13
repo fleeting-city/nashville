@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:403_4th_ave_s-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261114T220000Z
+DTEND:20261115T000000Z
+SUMMARY:Fleeting: From Grape to Grandeur: A Nebbiolo Story (one night)
+LOCATION:403 4th Ave S\, SoBro
+DESCRIPTION:Wine Director Nicole Lee leads a guided tasting that follows Ne
+ bbiolo across Piemonte\, from lighter aromatic styles up to Barbaresco and
+  Barolo. It is part of Yolan's monthly wine and spirits series. Saturday a
+ t 4 PM.\nDetails and tickets: https://patch.com/tennessee/nashville/calend
+ ar/event/20261114/a1b00814-e7bd-4c5f-9973-1c69f31dd6b2/from-grape-to-grand
+ eur-a-nebbiolo-story\nWindows drift - confirm with the venue before you go
+ .\nFleeting - the weekly Nashville what-closes-first list.
+URL:https://patch.com/tennessee/nashville/calendar/event/20261114/a1b00814-
+ e7bd-4c5f-9973-1c69f31dd6b2/from-grape-to-grandeur-a-nebbiolo-story
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

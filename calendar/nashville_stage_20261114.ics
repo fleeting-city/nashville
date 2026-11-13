@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_stage-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fleeting: KEDAGORO: The Age Is Yours\, My Liege (one night)
+LOCATION:Nashville stage
+DESCRIPTION:A giant hamster wheel spins while frenetic fairytale empresses 
+ race through flags and symbols. A tale of proto-Japan\, staged as a whirlw
+ ind.\nDetails and tickets: https://nashvillelife.com/KEDAGORO-Age-Yours-My
+ -Liege-Tale-Proto-Japan/Nashville-Calendar\nWindows drift - confirm with t
+ he venue before you go.\nFleeting - the weekly Nashville what-closes-first
+  list.
+URL:https://nashvillelife.com/KEDAGORO-Age-Yours-My-Liege-Tale-Proto-Japan/
+ Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

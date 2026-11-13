@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:centennial_park-20261113@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261113T160000Z
+DTEND:20261113T180000Z
+SUMMARY:Fleeting: Nashville Holiday Harvest Food & Vendor Festival (one nig
+ ht)
+LOCATION:Centennial Park\, Midtown
+DESCRIPTION:A food and vendor festival in the park\, timed for early holida
+ y shopping and snacking. Sales are flagged as ending soon\, so grab ticket
+ s ahead.\nDetails and tickets: https://www.eventbrite.com/e/nashville-holi
+ day-harvest-food-vendor-festival-tickets-2003112351967?aff=ebdssbdestsearc
+ h\nWindows drift - confirm with the venue before you go.\nFleeting - the w
+ eekly Nashville what-closes-first list.
+URL:https://www.eventbrite.com/e/nashville-holiday-harvest-food-vendor-fest
+ ival-tickets-2003112351967?aff=ebdssbdestsearch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

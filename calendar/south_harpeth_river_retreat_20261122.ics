@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:south_harpeth_river_retreat-20261122@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Last day: Cedarsongs Retreat 2026
+LOCATION:South Harpeth River Retreat
+DESCRIPTION:A long weekend songwriting retreat on the South Harpeth River\,
+  for people who write songs and want to get out of the city to do it. The 
+ listing gives no price.\nDetails and tickets: https://www.bandsintown.com/
+ f/231639?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=fe
+ stival\nWindows drift - confirm with the venue before you go.\nFleeting - 
+ the weekly Nashville what-closes-first list.
+URL:https://www.bandsintown.com/f/231639?came_from=253&utm_medium=web&utm_s
+ ource=city_page&utm_campaign=festival
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

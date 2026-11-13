@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the_truth-20261115@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART:20261116T020000Z
+DTEND:20261116T040000Z
+SUMMARY:Fleeting: Orville Peck: Man Turned Mule Tour (one night)
+LOCATION:The Truth\, Wedgewood-Houston
+DESCRIPTION:A Sunday night stop on the Man Turned Mule tour.\nDetails and t
+ ickets: https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-nas
+ hville-tennessee-11-15-2026/event/1B0064EFB362CA50\nWindows drift - confir
+ m with the venue before you go.\nFleeting - the weekly Nashville what-clos
+ es-first list.
+URL:https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-nashvill
+ e-tennessee-11-15-2026/event/1B0064EFB362CA50
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

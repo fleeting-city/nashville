@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:nashville_hits_the_roof_series-20261120@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Fleeting: Jordan James: Nashville Hits the Roof (one night)
+LOCATION:Nashville Hits the Roof series
+DESCRIPTION:A stop in the series that spotlights Nashville's next big acts\
+ , with the artist coming home to Music City. Catch them before the venues 
+ get bigger.\nDetails and tickets: https://nashvillelife.com/JORDAN-JAMES-%
+ E2%80%93-NASHVILLE-HITS-ROOF/Nashville-Calendar\nWindows drift - confirm w
+ ith the venue before you go.\nFleeting - the weekly Nashville what-closes-
+ first list.
+URL:https://nashvillelife.com/JORDAN-JAMES-%E2%80%93-NASHVILLE-HITS-ROOF/Na
+ shville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

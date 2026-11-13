@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleeting//nashville.fleeting.city//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fleeting - Nashville - this week's windows
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:birdie_s_wine_bar-20261114@nashville.fleeting.city
+DTSTAMP:20261113T034933Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fleeting: Birdie's Harvest Party (one night)
+LOCATION:Birdie's Wine Bar
+DESCRIPTION:An afternoon of wine tasting that kicks off the holiday season 
+ at Birdie's. One Saturday only.\nDetails and tickets: https://nashvillelif
+ e.com/Birdie%E2%80%99s-Harvest-Party-at-Lost-Found/Nashville-Calendar\nWin
+ dows drift - confirm with the venue before you go.\nFleeting - the weekly 
+ Nashville what-closes-first list.
+URL:https://nashvillelife.com/Birdie%E2%80%99s-Harvest-Party-at-Lost-Found/
+ Nashville-Calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
